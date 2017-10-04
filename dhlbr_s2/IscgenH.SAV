@@ -1,0 +1,19 @@
+Fields -> 17 
+Record -> 1 
+Induction station group id-> 1 
+Induction to Sorter driver type-> 2 
+Induction to Sorter driver name->ISC_SC
+Induction to Sorter protocol name->VDRV
+Sorter velocity bit 0->I_XBVEL0_01
+Sorter velocity bit 1->I_XBVEL1_01
+Sorter synchronized->I_SYNCHRO_01
+Sorter encoder (pulse number 0)->I_ENCODER_01
+Percent of velocity correction up-> 0 
+Percent of velocity correction up 2-> 0 
+Percent of velocity correction up 3-> 0 
+Percent of velocity correction dw-> 0 
+Percent of velocity correction dw 2-> 0 
+Percent of velocity correction dw 3-> 0 
+Cell time in ms-> 350 
+Cell time in ms 1-> 270 
+Cell time in ms 2-> 270 

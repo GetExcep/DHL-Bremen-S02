@@ -1,0 +1,1425 @@
+Fields -> 7 
+Record -> 1 
+Board id-> 4 
+Module id-> 39 
+Enable->True
+Type-> 23 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 2 
+Board id-> 4 
+Module id-> 40 
+Enable->True
+Type-> 2 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 3 
+Board id-> 4 
+Module id-> 41 
+Enable->True
+Type-> 23 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 4 
+Board id-> 4 
+Module id-> 42 
+Enable->True
+Type-> 2 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 5 
+Board id-> 4 
+Module id-> 43 
+Enable->True
+Type-> 23 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 6 
+Board id-> 4 
+Module id-> 44 
+Enable->True
+Type-> 2 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 7 
+Board id-> 4 
+Module id-> 45 
+Enable->True
+Type-> 23 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 8 
+Board id-> 4 
+Module id-> 46 
+Enable->True
+Type-> 2 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 9 
+Board id-> 4 
+Module id-> 47 
+Enable->True
+Type-> 23 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 10 
+Board id-> 4 
+Module id-> 48 
+Enable->True
+Type-> 2 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 11 
+Board id-> 4 
+Module id-> 49 
+Enable->True
+Type-> 23 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 12 
+Board id-> 4 
+Module id-> 50 
+Enable->True
+Type-> 2 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 13 
+Board id-> 4 
+Module id-> 51 
+Enable->True
+Type-> 23 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 14 
+Board id-> 4 
+Module id-> 52 
+Enable->True
+Type-> 2 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 15 
+Board id-> 4 
+Module id-> 53 
+Enable->True
+Type-> 23 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 16 
+Board id-> 4 
+Module id-> 56 
+Enable->True
+Type-> 0 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 17 
+Board id-> 4 
+Module id-> 57 
+Enable->True
+Type-> 0 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 18 
+Board id-> 4 
+Module id-> 58 
+Enable->True
+Type-> 0 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 19 
+Board id-> 4 
+Module id-> 71 
+Enable->True
+Type-> 103 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 20 
+Board id-> 4 
+Module id-> 72 
+Enable->True
+Type-> 103 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 21 
+Board id-> 4 
+Module id-> 78 
+Enable->True
+Type-> 0 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 22 
+Board id-> 4 
+Module id-> 87 
+Enable->True
+Type-> 0 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 23 
+Board id-> 4 
+Module id-> 98 
+Enable->True
+Type-> 0 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 24 
+Board id-> 4 
+Module id-> 102 
+Enable->True
+Type-> 0 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 25 
+Board id-> 1 
+Module id-> 3 
+Enable->True
+Type-> 2 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 26 
+Board id-> 1 
+Module id-> 5 
+Enable->True
+Type-> 6 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 27 
+Board id-> 1 
+Module id-> 10 
+Enable->True
+Type-> 0 
+Critical->True
+Device owner type-> 51 
+Device owner id-> 14 
+Record -> 28 
+Board id-> 1 
+Module id-> 11 
+Enable->True
+Type-> 31 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 29 
+Board id-> 1 
+Module id-> 12 
+Enable->True
+Type-> 0 
+Critical->True
+Device owner type-> 51 
+Device owner id-> 2 
+Record -> 30 
+Board id-> 1 
+Module id-> 13 
+Enable->True
+Type-> 31 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 31 
+Board id-> 1 
+Module id-> 14 
+Enable->True
+Type-> 0 
+Critical->True
+Device owner type-> 51 
+Device owner id-> 4 
+Record -> 32 
+Board id-> 1 
+Module id-> 15 
+Enable->True
+Type-> 31 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 33 
+Board id-> 1 
+Module id-> 20 
+Enable->True
+Type-> 2 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 34 
+Board id-> 1 
+Module id-> 21 
+Enable->True
+Type-> 23 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 35 
+Board id-> 1 
+Module id-> 22 
+Enable->True
+Type-> 2 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 36 
+Board id-> 1 
+Module id-> 23 
+Enable->True
+Type-> 23 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 37 
+Board id-> 1 
+Module id-> 24 
+Enable->True
+Type-> 2 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 38 
+Board id-> 1 
+Module id-> 25 
+Enable->True
+Type-> 23 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 39 
+Board id-> 1 
+Module id-> 26 
+Enable->True
+Type-> 2 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 40 
+Board id-> 1 
+Module id-> 27 
+Enable->True
+Type-> 23 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 41 
+Board id-> 1 
+Module id-> 28 
+Enable->True
+Type-> 2 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 42 
+Board id-> 1 
+Module id-> 29 
+Enable->True
+Type-> 23 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 43 
+Board id-> 1 
+Module id-> 30 
+Enable->True
+Type-> 2 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 44 
+Board id-> 1 
+Module id-> 31 
+Enable->True
+Type-> 23 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 45 
+Board id-> 1 
+Module id-> 32 
+Enable->True
+Type-> 2 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 46 
+Board id-> 1 
+Module id-> 33 
+Enable->True
+Type-> 23 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 47 
+Board id-> 1 
+Module id-> 34 
+Enable->True
+Type-> 2 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 48 
+Board id-> 1 
+Module id-> 35 
+Enable->True
+Type-> 23 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 49 
+Board id-> 1 
+Module id-> 36 
+Enable->True
+Type-> 2 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 50 
+Board id-> 1 
+Module id-> 37 
+Enable->True
+Type-> 23 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 51 
+Board id-> 1 
+Module id-> 38 
+Enable->True
+Type-> 2 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 52 
+Board id-> 1 
+Module id-> 39 
+Enable->True
+Type-> 23 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 53 
+Board id-> 1 
+Module id-> 40 
+Enable->True
+Type-> 2 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 54 
+Board id-> 1 
+Module id-> 41 
+Enable->True
+Type-> 23 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 55 
+Board id-> 1 
+Module id-> 42 
+Enable->True
+Type-> 2 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 56 
+Board id-> 1 
+Module id-> 43 
+Enable->True
+Type-> 23 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 57 
+Board id-> 1 
+Module id-> 44 
+Enable->True
+Type-> 2 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 58 
+Board id-> 1 
+Module id-> 45 
+Enable->True
+Type-> 23 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 59 
+Board id-> 1 
+Module id-> 46 
+Enable->True
+Type-> 2 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 60 
+Board id-> 1 
+Module id-> 47 
+Enable->True
+Type-> 23 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 61 
+Board id-> 1 
+Module id-> 48 
+Enable->True
+Type-> 2 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 62 
+Board id-> 1 
+Module id-> 49 
+Enable->True
+Type-> 23 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 63 
+Board id-> 1 
+Module id-> 50 
+Enable->True
+Type-> 2 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 64 
+Board id-> 1 
+Module id-> 51 
+Enable->True
+Type-> 23 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 65 
+Board id-> 1 
+Module id-> 71 
+Enable->True
+Type-> 103 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 66 
+Board id-> 1 
+Module id-> 72 
+Enable->True
+Type-> 103 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 67 
+Board id-> 1 
+Module id-> 84 
+Enable->True
+Type-> 0 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 68 
+Board id-> 1 
+Module id-> 90 
+Enable->True
+Type-> 0 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 69 
+Board id-> 1 
+Module id-> 97 
+Enable->True
+Type-> 0 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 70 
+Board id-> 2 
+Module id-> 10 
+Enable->True
+Type-> 0 
+Critical->True
+Device owner type-> 51 
+Device owner id-> 1 
+Record -> 71 
+Board id-> 2 
+Module id-> 11 
+Enable->True
+Type-> 31 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 72 
+Board id-> 2 
+Module id-> 12 
+Enable->True
+Type-> 0 
+Critical->True
+Device owner type-> 51 
+Device owner id-> 12 
+Record -> 73 
+Board id-> 2 
+Module id-> 13 
+Enable->True
+Type-> 31 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 74 
+Board id-> 2 
+Module id-> 14 
+Enable->True
+Type-> 0 
+Critical->True
+Device owner type-> 51 
+Device owner id-> 13 
+Record -> 75 
+Board id-> 2 
+Module id-> 15 
+Enable->True
+Type-> 31 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 76 
+Board id-> 2 
+Module id-> 20 
+Enable->True
+Type-> 2 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 77 
+Board id-> 2 
+Module id-> 21 
+Enable->True
+Type-> 23 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 78 
+Board id-> 2 
+Module id-> 22 
+Enable->True
+Type-> 2 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 79 
+Board id-> 2 
+Module id-> 23 
+Enable->True
+Type-> 23 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 80 
+Board id-> 2 
+Module id-> 24 
+Enable->True
+Type-> 2 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 81 
+Board id-> 2 
+Module id-> 25 
+Enable->True
+Type-> 23 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 82 
+Board id-> 2 
+Module id-> 26 
+Enable->True
+Type-> 2 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 83 
+Board id-> 2 
+Module id-> 27 
+Enable->True
+Type-> 23 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 84 
+Board id-> 2 
+Module id-> 28 
+Enable->True
+Type-> 2 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 85 
+Board id-> 2 
+Module id-> 29 
+Enable->True
+Type-> 23 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 86 
+Board id-> 2 
+Module id-> 30 
+Enable->True
+Type-> 2 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 87 
+Board id-> 2 
+Module id-> 31 
+Enable->True
+Type-> 23 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 88 
+Board id-> 2 
+Module id-> 32 
+Enable->True
+Type-> 2 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 89 
+Board id-> 2 
+Module id-> 33 
+Enable->True
+Type-> 23 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 90 
+Board id-> 2 
+Module id-> 34 
+Enable->True
+Type-> 2 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 91 
+Board id-> 2 
+Module id-> 35 
+Enable->True
+Type-> 23 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 92 
+Board id-> 2 
+Module id-> 36 
+Enable->True
+Type-> 2 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 93 
+Board id-> 2 
+Module id-> 37 
+Enable->True
+Type-> 23 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 94 
+Board id-> 2 
+Module id-> 38 
+Enable->True
+Type-> 2 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 95 
+Board id-> 2 
+Module id-> 39 
+Enable->True
+Type-> 23 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 96 
+Board id-> 2 
+Module id-> 40 
+Enable->True
+Type-> 2 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 97 
+Board id-> 2 
+Module id-> 41 
+Enable->True
+Type-> 23 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 98 
+Board id-> 2 
+Module id-> 56 
+Enable->True
+Type-> 0 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 99 
+Board id-> 2 
+Module id-> 57 
+Enable->True
+Type-> 0 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 100 
+Board id-> 2 
+Module id-> 60 
+Enable->True
+Type-> 2 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 101 
+Board id-> 2 
+Module id-> 65 
+Enable->True
+Type-> 2 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 102 
+Board id-> 2 
+Module id-> 71 
+Enable->True
+Type-> 103 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 103 
+Board id-> 2 
+Module id-> 72 
+Enable->True
+Type-> 103 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 104 
+Board id-> 2 
+Module id-> 81 
+Enable->True
+Type-> 0 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 105 
+Board id-> 2 
+Module id-> 94 
+Enable->True
+Type-> 0 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 106 
+Board id-> 3 
+Module id-> 10 
+Enable->True
+Type-> 0 
+Critical->True
+Device owner type-> 51 
+Device owner id-> 9 
+Record -> 107 
+Board id-> 3 
+Module id-> 11 
+Enable->True
+Type-> 31 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 108 
+Board id-> 3 
+Module id-> 12 
+Enable->True
+Type-> 0 
+Critical->True
+Device owner type-> 51 
+Device owner id-> 7 
+Record -> 109 
+Board id-> 3 
+Module id-> 13 
+Enable->True
+Type-> 31 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 110 
+Board id-> 3 
+Module id-> 14 
+Enable->True
+Type-> 0 
+Critical->True
+Device owner type-> 51 
+Device owner id-> 5 
+Record -> 111 
+Board id-> 3 
+Module id-> 15 
+Enable->True
+Type-> 31 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 112 
+Board id-> 3 
+Module id-> 16 
+Enable->True
+Type-> 0 
+Critical->True
+Device owner type-> 51 
+Device owner id-> 3 
+Record -> 113 
+Board id-> 3 
+Module id-> 17 
+Enable->True
+Type-> 31 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 114 
+Board id-> 3 
+Module id-> 20 
+Enable->True
+Type-> 2 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 115 
+Board id-> 3 
+Module id-> 21 
+Enable->True
+Type-> 23 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 116 
+Board id-> 3 
+Module id-> 22 
+Enable->True
+Type-> 2 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 117 
+Board id-> 3 
+Module id-> 23 
+Enable->True
+Type-> 23 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 118 
+Board id-> 3 
+Module id-> 24 
+Enable->True
+Type-> 2 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 119 
+Board id-> 3 
+Module id-> 25 
+Enable->True
+Type-> 23 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 120 
+Board id-> 3 
+Module id-> 26 
+Enable->True
+Type-> 2 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 121 
+Board id-> 3 
+Module id-> 27 
+Enable->True
+Type-> 23 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 122 
+Board id-> 3 
+Module id-> 28 
+Enable->True
+Type-> 2 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 123 
+Board id-> 3 
+Module id-> 29 
+Enable->True
+Type-> 23 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 124 
+Board id-> 3 
+Module id-> 30 
+Enable->True
+Type-> 2 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 125 
+Board id-> 3 
+Module id-> 31 
+Enable->True
+Type-> 23 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 126 
+Board id-> 3 
+Module id-> 32 
+Enable->True
+Type-> 2 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 127 
+Board id-> 3 
+Module id-> 33 
+Enable->True
+Type-> 23 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 128 
+Board id-> 3 
+Module id-> 34 
+Enable->True
+Type-> 2 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 129 
+Board id-> 3 
+Module id-> 35 
+Enable->True
+Type-> 23 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 130 
+Board id-> 3 
+Module id-> 36 
+Enable->True
+Type-> 2 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 131 
+Board id-> 3 
+Module id-> 37 
+Enable->True
+Type-> 23 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 132 
+Board id-> 3 
+Module id-> 38 
+Enable->True
+Type-> 2 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 133 
+Board id-> 3 
+Module id-> 39 
+Enable->True
+Type-> 23 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 134 
+Board id-> 3 
+Module id-> 40 
+Enable->True
+Type-> 2 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 135 
+Board id-> 3 
+Module id-> 41 
+Enable->True
+Type-> 23 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 136 
+Board id-> 3 
+Module id-> 42 
+Enable->True
+Type-> 2 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 137 
+Board id-> 3 
+Module id-> 43 
+Enable->True
+Type-> 23 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 138 
+Board id-> 3 
+Module id-> 44 
+Enable->True
+Type-> 2 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 139 
+Board id-> 3 
+Module id-> 45 
+Enable->True
+Type-> 23 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 140 
+Board id-> 3 
+Module id-> 46 
+Enable->True
+Type-> 2 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 141 
+Board id-> 3 
+Module id-> 47 
+Enable->True
+Type-> 23 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 142 
+Board id-> 3 
+Module id-> 60 
+Enable->True
+Type-> 2 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 143 
+Board id-> 3 
+Module id-> 65 
+Enable->True
+Type-> 2 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 144 
+Board id-> 3 
+Module id-> 71 
+Enable->True
+Type-> 103 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 145 
+Board id-> 3 
+Module id-> 72 
+Enable->True
+Type-> 103 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 146 
+Board id-> 3 
+Module id-> 75 
+Enable->True
+Type-> 51 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 147 
+Board id-> 3 
+Module id-> 92 
+Enable->True
+Type-> 0 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 148 
+Board id-> 3 
+Module id-> 105 
+Enable->True
+Type-> 0 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 149 
+Board id-> 4 
+Module id-> 7 
+Enable->True
+Type-> 7 
+Critical->True
+Device owner type-> 1 
+Device owner id-> 1 
+Record -> 150 
+Board id-> 4 
+Module id-> 8 
+Enable->True
+Type-> 7 
+Critical->True
+Device owner type-> 1 
+Device owner id-> 1 
+Record -> 151 
+Board id-> 4 
+Module id-> 9 
+Enable->True
+Type-> 7 
+Critical->True
+Device owner type-> 1 
+Device owner id-> 1 
+Record -> 152 
+Board id-> 4 
+Module id-> 10 
+Enable->True
+Type-> 0 
+Critical->True
+Device owner type-> 51 
+Device owner id-> 6 
+Record -> 153 
+Board id-> 4 
+Module id-> 11 
+Enable->True
+Type-> 31 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 154 
+Board id-> 4 
+Module id-> 12 
+Enable->True
+Type-> 0 
+Critical->True
+Device owner type-> 51 
+Device owner id-> 8 
+Record -> 155 
+Board id-> 4 
+Module id-> 13 
+Enable->True
+Type-> 31 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 156 
+Board id-> 4 
+Module id-> 14 
+Enable->True
+Type-> 0 
+Critical->True
+Device owner type-> 51 
+Device owner id-> 10 
+Record -> 157 
+Board id-> 4 
+Module id-> 15 
+Enable->True
+Type-> 31 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 158 
+Board id-> 4 
+Module id-> 16 
+Enable->True
+Type-> 0 
+Critical->True
+Device owner type-> 51 
+Device owner id-> 11 
+Record -> 159 
+Board id-> 4 
+Module id-> 17 
+Enable->True
+Type-> 31 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 160 
+Board id-> 4 
+Module id-> 20 
+Enable->True
+Type-> 2 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 161 
+Board id-> 4 
+Module id-> 21 
+Enable->True
+Type-> 23 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 162 
+Board id-> 4 
+Module id-> 22 
+Enable->True
+Type-> 2 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 163 
+Board id-> 4 
+Module id-> 23 
+Enable->True
+Type-> 23 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 164 
+Board id-> 4 
+Module id-> 24 
+Enable->True
+Type-> 2 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 165 
+Board id-> 4 
+Module id-> 25 
+Enable->True
+Type-> 23 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 166 
+Board id-> 4 
+Module id-> 26 
+Enable->True
+Type-> 2 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 167 
+Board id-> 4 
+Module id-> 27 
+Enable->True
+Type-> 23 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 168 
+Board id-> 4 
+Module id-> 28 
+Enable->True
+Type-> 2 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 169 
+Board id-> 4 
+Module id-> 29 
+Enable->True
+Type-> 23 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 170 
+Board id-> 4 
+Module id-> 30 
+Enable->True
+Type-> 2 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 171 
+Board id-> 4 
+Module id-> 31 
+Enable->True
+Type-> 23 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 172 
+Board id-> 4 
+Module id-> 32 
+Enable->True
+Type-> 2 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 173 
+Board id-> 4 
+Module id-> 33 
+Enable->True
+Type-> 23 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 174 
+Board id-> 4 
+Module id-> 34 
+Enable->True
+Type-> 2 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 175 
+Board id-> 4 
+Module id-> 35 
+Enable->True
+Type-> 23 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 176 
+Board id-> 4 
+Module id-> 36 
+Enable->True
+Type-> 2 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 177 
+Board id-> 4 
+Module id-> 37 
+Enable->True
+Type-> 23 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 
+Record -> 178 
+Board id-> 4 
+Module id-> 38 
+Enable->True
+Type-> 2 
+Critical->False
+Device owner type-> 0 
+Device owner id-> 0 

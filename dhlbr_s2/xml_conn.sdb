@@ -1,0 +1,13 @@
+//
+// XML connection table
+//
+Field="id"
+Field="name"
+Field="enable"
+Field="SC_DCI_name"
+Field="WCS_DCI_name"
+Field="connection_type"
+Field="s_tm_heartbeat.preset"
+
+
+

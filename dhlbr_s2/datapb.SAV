@@ -1,0 +1,341 @@
+Fields -> 19 
+Record -> 1 
+Id of the device associated-> 1 
+Upstream (yes/no)->True
+Board number-> 1 
+Module address (Node ID)-> 84 
+SubModule position In-> 2 
+SubModule position Out-> 2 
+Length byte position-> 0 
+Check byte position-> 0 
+Code starting position-> 0 
+Code length-> 0 
+General purpose char 0-> 0 
+General purpose char 1-> 0 
+General purpose char 2-> 0 
+General purpose char 3-> 0 
+General purpose long 0-> 0 
+General purpose long 1-> 0 
+General purpose long 2-> 0 
+General purpose long 3-> 0 
+Data ready input->
+Record -> 2 
+Id of the device associated-> 2 
+Upstream (yes/no)->True
+Board number-> 1 
+Module address (Node ID)-> 84 
+SubModule position In-> 4 
+SubModule position Out-> 3 
+Length byte position-> 0 
+Check byte position-> 0 
+Code starting position-> 0 
+Code length-> 0 
+General purpose char 0-> 0 
+General purpose char 1-> 0 
+General purpose char 2-> 0 
+General purpose char 3-> 0 
+General purpose long 0-> 0 
+General purpose long 1-> 0 
+General purpose long 2-> 0 
+General purpose long 3-> 0 
+Data ready input->
+Record -> 3 
+Id of the device associated-> 3 
+Upstream (yes/no)->True
+Board number-> 2 
+Module address (Node ID)-> 81 
+SubModule position In-> 2 
+SubModule position Out-> 2 
+Length byte position-> 0 
+Check byte position-> 0 
+Code starting position-> 0 
+Code length-> 0 
+General purpose char 0-> 0 
+General purpose char 1-> 0 
+General purpose char 2-> 0 
+General purpose char 3-> 0 
+General purpose long 0-> 0 
+General purpose long 1-> 0 
+General purpose long 2-> 0 
+General purpose long 3-> 0 
+Data ready input->
+Record -> 4 
+Id of the device associated-> 4 
+Upstream (yes/no)->True
+Board number-> 4 
+Module address (Node ID)-> 78 
+SubModule position In-> 2 
+SubModule position Out-> 2 
+Length byte position-> 0 
+Check byte position-> 0 
+Code starting position-> 0 
+Code length-> 0 
+General purpose char 0-> 0 
+General purpose char 1-> 0 
+General purpose char 2-> 0 
+General purpose char 3-> 0 
+General purpose long 0-> 0 
+General purpose long 1-> 0 
+General purpose long 2-> 0 
+General purpose long 3-> 0 
+Data ready input->
+Record -> 5 
+Id of the device associated-> 5 
+Upstream (yes/no)->True
+Board number-> 2 
+Module address (Node ID)-> 81 
+SubModule position In-> 4 
+SubModule position Out-> 3 
+Length byte position-> 0 
+Check byte position-> 0 
+Code starting position-> 0 
+Code length-> 0 
+General purpose char 0-> 0 
+General purpose char 1-> 0 
+General purpose char 2-> 0 
+General purpose char 3-> 0 
+General purpose long 0-> 0 
+General purpose long 1-> 0 
+General purpose long 2-> 0 
+General purpose long 3-> 0 
+Data ready input->
+Record -> 6 
+Id of the device associated-> 6 
+Upstream (yes/no)->True
+Board number-> 4 
+Module address (Node ID)-> 78 
+SubModule position In-> 4 
+SubModule position Out-> 3 
+Length byte position-> 0 
+Check byte position-> 0 
+Code starting position-> 0 
+Code length-> 0 
+General purpose char 0-> 0 
+General purpose char 1-> 0 
+General purpose char 2-> 0 
+General purpose char 3-> 0 
+General purpose long 0-> 0 
+General purpose long 1-> 0 
+General purpose long 2-> 0 
+General purpose long 3-> 0 
+Data ready input->
+Record -> 7 
+Id of the device associated-> 7 
+Upstream (yes/no)->True
+Board number-> 3 
+Module address (Node ID)-> 105 
+SubModule position In-> 2 
+SubModule position Out-> 2 
+Length byte position-> 0 
+Check byte position-> 0 
+Code starting position-> 0 
+Code length-> 0 
+General purpose char 0-> 0 
+General purpose char 1-> 0 
+General purpose char 2-> 0 
+General purpose char 3-> 0 
+General purpose long 0-> 0 
+General purpose long 1-> 0 
+General purpose long 2-> 0 
+General purpose long 3-> 0 
+Data ready input->
+Record -> 8 
+Id of the device associated-> 8 
+Upstream (yes/no)->True
+Board number-> 4 
+Module address (Node ID)-> 102 
+SubModule position In-> 4 
+SubModule position Out-> 3 
+Length byte position-> 0 
+Check byte position-> 0 
+Code starting position-> 0 
+Code length-> 0 
+General purpose char 0-> 0 
+General purpose char 1-> 0 
+General purpose char 2-> 0 
+General purpose char 3-> 0 
+General purpose long 0-> 0 
+General purpose long 1-> 0 
+General purpose long 2-> 0 
+General purpose long 3-> 0 
+Data ready input->
+Record -> 9 
+Id of the device associated-> 9 
+Upstream (yes/no)->True
+Board number-> 3 
+Module address (Node ID)-> 105 
+SubModule position In-> 4 
+SubModule position Out-> 3 
+Length byte position-> 0 
+Check byte position-> 0 
+Code starting position-> 0 
+Code length-> 0 
+General purpose char 0-> 0 
+General purpose char 1-> 0 
+General purpose char 2-> 0 
+General purpose char 3-> 0 
+General purpose long 0-> 0 
+General purpose long 1-> 0 
+General purpose long 2-> 0 
+General purpose long 3-> 0 
+Data ready input->
+Record -> 10 
+Id of the device associated-> 10 
+Upstream (yes/no)->True
+Board number-> 4 
+Module address (Node ID)-> 102 
+SubModule position In-> 2 
+SubModule position Out-> 2 
+Length byte position-> 0 
+Check byte position-> 0 
+Code starting position-> 0 
+Code length-> 0 
+General purpose char 0-> 0 
+General purpose char 1-> 0 
+General purpose char 2-> 0 
+General purpose char 3-> 0 
+General purpose long 0-> 0 
+General purpose long 1-> 0 
+General purpose long 2-> 0 
+General purpose long 3-> 0 
+Data ready input->
+Record -> 11 
+Id of the device associated-> 12 
+Upstream (yes/no)->True
+Board number-> 1 
+Module address (Node ID)-> 97 
+SubModule position In-> 4 
+SubModule position Out-> 6 
+Length byte position-> 0 
+Check byte position-> 0 
+Code starting position-> 0 
+Code length-> 0 
+General purpose char 0-> 0 
+General purpose char 1-> 0 
+General purpose char 2-> 0 
+General purpose char 3-> 0 
+General purpose long 0-> 0 
+General purpose long 1-> 0 
+General purpose long 2-> 0 
+General purpose long 3-> 0 
+Data ready input->
+Record -> 12 
+Id of the device associated-> 14 
+Upstream (yes/no)->True
+Board number-> 1 
+Module address (Node ID)-> 97 
+SubModule position In-> 2 
+SubModule position Out-> 5 
+Length byte position-> 0 
+Check byte position-> 0 
+Code starting position-> 0 
+Code length-> 0 
+General purpose char 0-> 0 
+General purpose char 1-> 0 
+General purpose char 2-> 0 
+General purpose char 3-> 0 
+General purpose long 0-> 0 
+General purpose long 1-> 0 
+General purpose long 2-> 0 
+General purpose long 3-> 0 
+Data ready input->
+Record -> 13 
+Id of the device associated-> 11 
+Upstream (yes/no)->True
+Board number-> 4 
+Module address (Node ID)-> 98 
+SubModule position In-> 2 
+SubModule position Out-> 5 
+Length byte position-> 0 
+Check byte position-> 0 
+Code starting position-> 0 
+Code length-> 0 
+General purpose char 0-> 0 
+General purpose char 1-> 0 
+General purpose char 2-> 0 
+General purpose char 3-> 0 
+General purpose long 0-> 0 
+General purpose long 1-> 0 
+General purpose long 2-> 0 
+General purpose long 3-> 0 
+Data ready input->
+Record -> 14 
+Id of the device associated-> 13 
+Upstream (yes/no)->True
+Board number-> 4 
+Module address (Node ID)-> 98 
+SubModule position In-> 4 
+SubModule position Out-> 6 
+Length byte position-> 0 
+Check byte position-> 0 
+Code starting position-> 0 
+Code length-> 0 
+General purpose char 0-> 0 
+General purpose char 1-> 0 
+General purpose char 2->
+General purpose char 3->
+General purpose long 0->
+General purpose long 1->
+General purpose long 2->
+General purpose long 3->
+Data ready input->
+Record -> 15 
+Id of the device associated-> 11999 
+Upstream (yes/no)->True
+Board number-> 1 
+Module address (Node ID)-> 97 
+SubModule position In-> 0 
+SubModule position Out-> 3 
+Length byte position-> 0 
+Check byte position-> 0 
+Code starting position-> 0 
+Code length-> 0 
+General purpose char 0-> 0 
+General purpose char 1-> 0 
+General purpose char 2-> 0 
+General purpose char 3-> 0 
+General purpose long 0-> 0 
+General purpose long 1-> 0 
+General purpose long 2-> 0 
+General purpose long 3-> 0 
+Data ready input-> 
+Record -> 16 
+Id of the device associated-> 2213 
+Upstream (yes/no)->True
+Board number-> 4 
+Module address (Node ID)-> 98 
+SubModule position In-> 0 
+SubModule position Out-> 3 
+Length byte position-> 0 
+Check byte position-> 0 
+Code starting position-> 0 
+Code length-> 0 
+General purpose char 0-> 0 
+General purpose char 1-> 0 
+General purpose char 2-> 0 
+General purpose char 3-> 0 
+General purpose long 0-> 0 
+General purpose long 1-> 0 
+General purpose long 2-> 0 
+General purpose long 3-> 0 
+Data ready input-> 
+Record -> 17 
+Id of the device associated-> 2223 
+Upstream (yes/no)->True
+Board number-> 4 
+Module address (Node ID)-> 98 
+SubModule position In-> 0 
+SubModule position Out-> 5 
+Length byte position-> 0 
+Check byte position-> 0 
+Code starting position-> 0 
+Code length-> 0 
+General purpose char 0-> 0 
+General purpose char 1-> 0 
+General purpose char 2-> 0 
+General purpose char 3-> 0 
+General purpose long 0-> 0 
+General purpose long 1-> 0 
+General purpose long 2-> 0 
+General purpose long 3-> 0 
+Data ready input-> 

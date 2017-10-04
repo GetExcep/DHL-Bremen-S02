@@ -1,0 +1,444 @@
+//
+// S_datapb
+//
+TABLE_TYPE: 0
+//
+MAXTABLE:8
+//
+TABLE
+//
+//
+BEGINSTRUCT // Begin of structure=S_datapb
+	//
+ 	USHORT  // Field=nId
+ 	USHORT  // Field=nUpstream
+ 	USHORT  // Field=nBoard
+ 	USHORT  // Field=nModuleId
+ 	USHORT  // Field=nSubModuleIdIn
+ 	USHORT  // Field=nSubModuleIdOut
+ 	USHORT  // Field=nLenPosition
+ 	USHORT  // Field=nCheckPosition
+ 	USHORT  // Field=nCodePosition
+ 	USHORT  // Field=nCodeLength
+ 	UCHAR  // Field=GenPurposeChar[0]
+ 	UCHAR  // Field=GenPurposeChar[1]
+ 	UCHAR  // Field=GenPurposeChar[2]
+ 	UCHAR  // Field=GenPurposeChar[3]
+ 	ULONG  // Field=GenPurposeLong[0]
+ 	ULONG  // Field=GenPurposeLong[1]
+ 	ULONG  // Field=GenPurposeLong[2]
+ 	ULONG  // Field=GenPurposeLong[3]
+ 	//
+  BEGINSTRUCT // Begin of structure=S_di_trigger
+        STRING12  // Field=s_di_trigger.name
+        POINTER  // Field=s_di_trigger.ps_input
+  ENDSTRUCT // End of structure=S_tm
+ 	//
+  //
+  BEGINSTRUCT // Begin of structure=S_id_iomodulpb
+        USHORT  // Field=s_id_iomodulpb.id
+        POINTER  // Field=s_id_iomodulpb.p_idrec
+  ENDSTRUCT // End of structure=S_id_iomodulpb
+ 	//
+  //
+  BEGINSTRUCT // Begin of structure=s_id_iosubmpbIn
+        USHORT  // Field=s_id_iosubmpbIn.id
+        POINTER  // Field=s_id_iosubmpbIn.p_idrec
+  ENDSTRUCT // End of structure=s_id_iosubmpbIn
+ 	//
+  //
+  BEGINSTRUCT // Begin of structure=s_id_iosubmpbOut
+        USHORT  // Field=s_id_iosubmpbOut.id
+        POINTER  // Field=s_id_iosubmpbOut.p_idrec
+  ENDSTRUCT // End of structure=s_id_iosubmpbOut
+ 	//
+	//
+ENDSTRUCT // End of structure=S_datapb
+//
+//
+ENDTABLE
+//
+//
+BEGINSTRUCT // Begin of structure=S_datapb
+	//
+ 	USHORT,51  // Field=nId
+ 	USHORT,1  // Field=nUpstream
+ 	USHORT,1  // Field=nBoard
+ 	USHORT,85  // Field=nModuleId
+ 	USHORT,2  // Field=nSubModuleIdIn
+ 	USHORT,2  // Field=nSubModuleIdOut
+ 	USHORT,0  // Field=nLenPosition
+ 	USHORT,0  // Field=nCheckPosition
+ 	USHORT,0  // Field=nCodePosition
+ 	USHORT,0  // Field=nCodeLength
+ 	UCHAR,0  // Field=GenPurposeChar[0]
+ 	UCHAR,0  // Field=GenPurposeChar[1]
+ 	UCHAR,0  // Field=GenPurposeChar[2]
+ 	UCHAR,0  // Field=GenPurposeChar[3]
+ 	ULONG,0  // Field=GenPurposeLong[0]
+ 	ULONG,0  // Field=GenPurposeLong[1]
+ 	ULONG,0  // Field=GenPurposeLong[2]
+ 	ULONG,0  // Field=GenPurposeLong[3]
+ 	//
+  BEGINSTRUCT // Begin of structure=S_di_trigger
+        STRING12  // Field=s_di_trigger.name
+        POINTER  // Field=s_di_trigger.ps_input
+  ENDSTRUCT // End of structure=S_tm
+ 	//
+  //
+  BEGINSTRUCT // Begin of structure=S_id_iomodulpb
+        USHORT  // Field=s_id_iomodulpb.id
+        POINTER  // Field=s_id_iomodulpb.p_idrec
+  ENDSTRUCT // End of structure=S_id_iomodulpb
+ 	//
+  //
+  BEGINSTRUCT // Begin of structure=s_id_iosubmpbIn
+        USHORT  // Field=s_id_iosubmpbIn.id
+        POINTER  // Field=s_id_iosubmpbIn.p_idrec
+  ENDSTRUCT // End of structure=s_id_iosubmpbIn
+ 	//
+  //
+  BEGINSTRUCT // Begin of structure=s_id_iosubmpbOut
+        USHORT  // Field=s_id_iosubmpbOut.id
+        POINTER  // Field=s_id_iosubmpbOut.p_idrec
+  ENDSTRUCT // End of structure=s_id_iosubmpbOut
+ 	//
+	//
+ENDSTRUCT // End of structure=S_datapb
+//
+//
+BEGINSTRUCT // Begin of structure=S_datapb
+	//
+ 	USHORT,52  // Field=nId
+ 	USHORT,1  // Field=nUpstream
+ 	USHORT,1  // Field=nBoard
+ 	USHORT,85  // Field=nModuleId
+ 	USHORT,4  // Field=nSubModuleIdIn
+ 	USHORT,3  // Field=nSubModuleIdOut
+ 	USHORT,0  // Field=nLenPosition
+ 	USHORT,0  // Field=nCheckPosition
+ 	USHORT,0  // Field=nCodePosition
+ 	USHORT,0  // Field=nCodeLength
+ 	UCHAR,0  // Field=GenPurposeChar[0]
+ 	UCHAR,0  // Field=GenPurposeChar[1]
+ 	UCHAR,0  // Field=GenPurposeChar[2]
+ 	UCHAR,0  // Field=GenPurposeChar[3]
+ 	ULONG,0  // Field=GenPurposeLong[0]
+ 	ULONG,0  // Field=GenPurposeLong[1]
+ 	ULONG,0  // Field=GenPurposeLong[2]
+ 	ULONG,0  // Field=GenPurposeLong[3]
+ 	//
+  BEGINSTRUCT // Begin of structure=S_di_trigger
+        STRING12  // Field=s_di_trigger.name
+        POINTER  // Field=s_di_trigger.ps_input
+  ENDSTRUCT // End of structure=S_tm
+ 	//
+  //
+  BEGINSTRUCT // Begin of structure=S_id_iomodulpb
+        USHORT  // Field=s_id_iomodulpb.id
+        POINTER  // Field=s_id_iomodulpb.p_idrec
+  ENDSTRUCT // End of structure=S_id_iomodulpb
+ 	//
+  //
+  BEGINSTRUCT // Begin of structure=s_id_iosubmpbIn
+        USHORT  // Field=s_id_iosubmpbIn.id
+        POINTER  // Field=s_id_iosubmpbIn.p_idrec
+  ENDSTRUCT // End of structure=s_id_iosubmpbIn
+ 	//
+  //
+  BEGINSTRUCT // Begin of structure=s_id_iosubmpbOut
+        USHORT  // Field=s_id_iosubmpbOut.id
+        POINTER  // Field=s_id_iosubmpbOut.p_idrec
+  ENDSTRUCT // End of structure=s_id_iosubmpbOut
+ 	//
+	//
+ENDSTRUCT // End of structure=S_datapb
+//
+//
+BEGINSTRUCT // Begin of structure=S_datapb
+	//
+ 	USHORT,61  // Field=nId
+ 	USHORT,1  // Field=nUpstream
+ 	USHORT,2  // Field=nBoard
+ 	USHORT,86  // Field=nModuleId
+ 	USHORT,2  // Field=nSubModuleIdIn
+ 	USHORT,2  // Field=nSubModuleIdOut
+ 	USHORT,0  // Field=nLenPosition
+ 	USHORT,0  // Field=nCheckPosition
+ 	USHORT,0  // Field=nCodePosition
+ 	USHORT,0  // Field=nCodeLength
+ 	UCHAR,0  // Field=GenPurposeChar[0]
+ 	UCHAR,0  // Field=GenPurposeChar[1]
+ 	UCHAR,0  // Field=GenPurposeChar[2]
+ 	UCHAR,0  // Field=GenPurposeChar[3]
+ 	ULONG,0  // Field=GenPurposeLong[0]
+ 	ULONG,0  // Field=GenPurposeLong[1]
+ 	ULONG,0  // Field=GenPurposeLong[2]
+ 	ULONG,0  // Field=GenPurposeLong[3]
+ 	//
+  BEGINSTRUCT // Begin of structure=S_di_trigger
+        STRING12  // Field=s_di_trigger.name
+        POINTER  // Field=s_di_trigger.ps_input
+  ENDSTRUCT // End of structure=S_tm
+ 	//
+  //
+  BEGINSTRUCT // Begin of structure=S_id_iomodulpb
+        USHORT  // Field=s_id_iomodulpb.id
+        POINTER  // Field=s_id_iomodulpb.p_idrec
+  ENDSTRUCT // End of structure=S_id_iomodulpb
+ 	//
+  //
+  BEGINSTRUCT // Begin of structure=s_id_iosubmpbIn
+        USHORT  // Field=s_id_iosubmpbIn.id
+        POINTER  // Field=s_id_iosubmpbIn.p_idrec
+  ENDSTRUCT // End of structure=s_id_iosubmpbIn
+ 	//
+  //
+  BEGINSTRUCT // Begin of structure=s_id_iosubmpbOut
+        USHORT  // Field=s_id_iosubmpbOut.id
+        POINTER  // Field=s_id_iosubmpbOut.p_idrec
+  ENDSTRUCT // End of structure=s_id_iosubmpbOut
+ 	//
+	//
+ENDSTRUCT // End of structure=S_datapb
+//
+//
+BEGINSTRUCT // Begin of structure=S_datapb
+	//
+ 	USHORT,62  // Field=nId
+ 	USHORT,1  // Field=nUpstream
+ 	USHORT,2  // Field=nBoard
+ 	USHORT,86  // Field=nModuleId
+ 	USHORT,4  // Field=nSubModuleIdIn
+ 	USHORT,3  // Field=nSubModuleIdOut
+ 	USHORT,0  // Field=nLenPosition
+ 	USHORT,0  // Field=nCheckPosition
+ 	USHORT,0  // Field=nCodePosition
+ 	USHORT,0  // Field=nCodeLength
+ 	UCHAR,0  // Field=GenPurposeChar[0]
+ 	UCHAR,0  // Field=GenPurposeChar[1]
+ 	UCHAR,0  // Field=GenPurposeChar[2]
+ 	UCHAR,0  // Field=GenPurposeChar[3]
+ 	ULONG,0  // Field=GenPurposeLong[0]
+ 	ULONG,0  // Field=GenPurposeLong[1]
+ 	ULONG,0  // Field=GenPurposeLong[2]
+ 	ULONG,0  // Field=GenPurposeLong[3]
+ 	//
+  BEGINSTRUCT // Begin of structure=S_di_trigger
+        STRING12  // Field=s_di_trigger.name
+        POINTER  // Field=s_di_trigger.ps_input
+  ENDSTRUCT // End of structure=S_tm
+ 	//
+  //
+  BEGINSTRUCT // Begin of structure=S_id_iomodulpb
+        USHORT  // Field=s_id_iomodulpb.id
+        POINTER  // Field=s_id_iomodulpb.p_idrec
+  ENDSTRUCT // End of structure=S_id_iomodulpb
+ 	//
+  //
+  BEGINSTRUCT // Begin of structure=s_id_iosubmpbIn
+        USHORT  // Field=s_id_iosubmpbIn.id
+        POINTER  // Field=s_id_iosubmpbIn.p_idrec
+  ENDSTRUCT // End of structure=s_id_iosubmpbIn
+ 	//
+  //
+  BEGINSTRUCT // Begin of structure=s_id_iosubmpbOut
+        USHORT  // Field=s_id_iosubmpbOut.id
+        POINTER  // Field=s_id_iosubmpbOut.p_idrec
+  ENDSTRUCT // End of structure=s_id_iosubmpbOut
+ 	//
+	//
+ENDSTRUCT // End of structure=S_datapb
+//
+//
+BEGINSTRUCT // Begin of structure=S_datapb
+	//
+ 	USHORT,71  // Field=nId
+ 	USHORT,1  // Field=nUpstream
+ 	USHORT,1  // Field=nBoard
+ 	USHORT,87  // Field=nModuleId
+ 	USHORT,2  // Field=nSubModuleIdIn
+ 	USHORT,2  // Field=nSubModuleIdOut
+ 	USHORT,0  // Field=nLenPosition
+ 	USHORT,0  // Field=nCheckPosition
+ 	USHORT,0  // Field=nCodePosition
+ 	USHORT,0  // Field=nCodeLength
+ 	UCHAR,0  // Field=GenPurposeChar[0]
+ 	UCHAR,0  // Field=GenPurposeChar[1]
+ 	UCHAR,0  // Field=GenPurposeChar[2]
+ 	UCHAR,0  // Field=GenPurposeChar[3]
+ 	ULONG,0  // Field=GenPurposeLong[0]
+ 	ULONG,0  // Field=GenPurposeLong[1]
+ 	ULONG,0  // Field=GenPurposeLong[2]
+ 	ULONG,0  // Field=GenPurposeLong[3]
+ 	//
+  BEGINSTRUCT // Begin of structure=S_di_trigger
+        STRING12  // Field=s_di_trigger.name
+        POINTER  // Field=s_di_trigger.ps_input
+  ENDSTRUCT // End of structure=S_tm
+ 	//
+  //
+  BEGINSTRUCT // Begin of structure=S_id_iomodulpb
+        USHORT  // Field=s_id_iomodulpb.id
+        POINTER  // Field=s_id_iomodulpb.p_idrec
+  ENDSTRUCT // End of structure=S_id_iomodulpb
+ 	//
+  //
+  BEGINSTRUCT // Begin of structure=s_id_iosubmpbIn
+        USHORT  // Field=s_id_iosubmpbIn.id
+        POINTER  // Field=s_id_iosubmpbIn.p_idrec
+  ENDSTRUCT // End of structure=s_id_iosubmpbIn
+ 	//
+  //
+  BEGINSTRUCT // Begin of structure=s_id_iosubmpbOut
+        USHORT  // Field=s_id_iosubmpbOut.id
+        POINTER  // Field=s_id_iosubmpbOut.p_idrec
+  ENDSTRUCT // End of structure=s_id_iosubmpbOut
+ 	//
+	//
+ENDSTRUCT // End of structure=S_datapb
+//
+//
+BEGINSTRUCT // Begin of structure=S_datapb
+	//
+ 	USHORT,72  // Field=nId
+ 	USHORT,1  // Field=nUpstream
+ 	USHORT,1  // Field=nBoard
+ 	USHORT,87  // Field=nModuleId
+ 	USHORT,4  // Field=nSubModuleIdIn
+ 	USHORT,3  // Field=nSubModuleIdOut
+ 	USHORT,0  // Field=nLenPosition
+ 	USHORT,0  // Field=nCheckPosition
+ 	USHORT,0  // Field=nCodePosition
+ 	USHORT,0  // Field=nCodeLength
+ 	UCHAR,0  // Field=GenPurposeChar[0]
+ 	UCHAR,0  // Field=GenPurposeChar[1]
+ 	UCHAR,0  // Field=GenPurposeChar[2]
+ 	UCHAR,0  // Field=GenPurposeChar[3]
+ 	ULONG,0  // Field=GenPurposeLong[0]
+ 	ULONG,0  // Field=GenPurposeLong[1]
+ 	ULONG,0  // Field=GenPurposeLong[2]
+ 	ULONG,0  // Field=GenPurposeLong[3]
+ 	//
+  BEGINSTRUCT // Begin of structure=S_di_trigger
+        STRING12  // Field=s_di_trigger.name
+        POINTER  // Field=s_di_trigger.ps_input
+  ENDSTRUCT // End of structure=S_tm
+ 	//
+  //
+  BEGINSTRUCT // Begin of structure=S_id_iomodulpb
+        USHORT  // Field=s_id_iomodulpb.id
+        POINTER  // Field=s_id_iomodulpb.p_idrec
+  ENDSTRUCT // End of structure=S_id_iomodulpb
+ 	//
+  //
+  BEGINSTRUCT // Begin of structure=s_id_iosubmpbIn
+        USHORT  // Field=s_id_iosubmpbIn.id
+        POINTER  // Field=s_id_iosubmpbIn.p_idrec
+  ENDSTRUCT // End of structure=s_id_iosubmpbIn
+ 	//
+  //
+  BEGINSTRUCT // Begin of structure=s_id_iosubmpbOut
+        USHORT  // Field=s_id_iosubmpbOut.id
+        POINTER  // Field=s_id_iosubmpbOut.p_idrec
+  ENDSTRUCT // End of structure=s_id_iosubmpbOut
+ 	//
+	//
+ENDSTRUCT // End of structure=S_datapb
+//
+//
+BEGINSTRUCT // Begin of structure=S_datapb
+	//
+ 	USHORT,81  // Field=nId
+ 	USHORT,1  // Field=nUpstream
+ 	USHORT,1  // Field=nBoard
+ 	USHORT,88  // Field=nModuleId
+ 	USHORT,2  // Field=nSubModuleIdIn
+ 	USHORT,2  // Field=nSubModuleIdOut
+ 	USHORT,0  // Field=nLenPosition
+ 	USHORT,0  // Field=nCheckPosition
+ 	USHORT,0  // Field=nCodePosition
+ 	USHORT,0  // Field=nCodeLength
+ 	UCHAR,0  // Field=GenPurposeChar[0]
+ 	UCHAR,0  // Field=GenPurposeChar[1]
+ 	UCHAR,0  // Field=GenPurposeChar[2]
+ 	UCHAR,0  // Field=GenPurposeChar[3]
+ 	ULONG,0  // Field=GenPurposeLong[0]
+ 	ULONG,0  // Field=GenPurposeLong[1]
+ 	ULONG,0  // Field=GenPurposeLong[2]
+ 	ULONG,0  // Field=GenPurposeLong[3]
+ 	//
+  BEGINSTRUCT // Begin of structure=S_di_trigger
+        STRING12  // Field=s_di_trigger.name
+        POINTER  // Field=s_di_trigger.ps_input
+  ENDSTRUCT // End of structure=S_tm
+ 	//
+  //
+  BEGINSTRUCT // Begin of structure=S_id_iomodulpb
+        USHORT  // Field=s_id_iomodulpb.id
+        POINTER  // Field=s_id_iomodulpb.p_idrec
+  ENDSTRUCT // End of structure=S_id_iomodulpb
+ 	//
+  //
+  BEGINSTRUCT // Begin of structure=s_id_iosubmpbIn
+        USHORT  // Field=s_id_iosubmpbIn.id
+        POINTER  // Field=s_id_iosubmpbIn.p_idrec
+  ENDSTRUCT // End of structure=s_id_iosubmpbIn
+ 	//
+  //
+  BEGINSTRUCT // Begin of structure=s_id_iosubmpbOut
+        USHORT  // Field=s_id_iosubmpbOut.id
+        POINTER  // Field=s_id_iosubmpbOut.p_idrec
+  ENDSTRUCT // End of structure=s_id_iosubmpbOut
+ 	//
+	//
+ENDSTRUCT // End of structure=S_datapb
+//
+//
+BEGINSTRUCT // Begin of structure=S_datapb
+	//
+ 	USHORT,11998  // Field=nId
+ 	USHORT,1  // Field=nUpstream
+ 	USHORT,2  // Field=nBoard
+ 	USHORT,91  // Field=nModuleId
+ 	USHORT,0  // Field=nSubModuleIdIn
+ 	USHORT,3  // Field=nSubModuleIdOut
+ 	USHORT,0  // Field=nLenPosition
+ 	USHORT,0  // Field=nCheckPosition
+ 	USHORT,0  // Field=nCodePosition
+ 	USHORT,0  // Field=nCodeLength
+ 	UCHAR,0  // Field=GenPurposeChar[0]
+ 	UCHAR,0  // Field=GenPurposeChar[1]
+ 	UCHAR,0  // Field=GenPurposeChar[2]
+ 	UCHAR,0  // Field=GenPurposeChar[3]
+ 	ULONG,0  // Field=GenPurposeLong[0]
+ 	ULONG,0  // Field=GenPurposeLong[1]
+ 	ULONG,0  // Field=GenPurposeLong[2]
+ 	ULONG,0  // Field=GenPurposeLong[3]
+ 	//
+  BEGINSTRUCT // Begin of structure=S_di_trigger
+        STRING12  // Field=s_di_trigger.name
+        POINTER  // Field=s_di_trigger.ps_input
+  ENDSTRUCT // End of structure=S_tm
+ 	//
+  //
+  BEGINSTRUCT // Begin of structure=S_id_iomodulpb
+        USHORT  // Field=s_id_iomodulpb.id
+        POINTER  // Field=s_id_iomodulpb.p_idrec
+  ENDSTRUCT // End of structure=S_id_iomodulpb
+ 	//
+  //
+  BEGINSTRUCT // Begin of structure=s_id_iosubmpbIn
+        USHORT  // Field=s_id_iosubmpbIn.id
+        POINTER  // Field=s_id_iosubmpbIn.p_idrec
+  ENDSTRUCT // End of structure=s_id_iosubmpbIn
+ 	//
+  //
+  BEGINSTRUCT // Begin of structure=s_id_iosubmpbOut
+        USHORT  // Field=s_id_iosubmpbOut.id
+        POINTER  // Field=s_id_iosubmpbOut.p_idrec
+  ENDSTRUCT // End of structure=s_id_iosubmpbOut
+ 	//
+	//
+ENDSTRUCT // End of structure=S_datapb
+//

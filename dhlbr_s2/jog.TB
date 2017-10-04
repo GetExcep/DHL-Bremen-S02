@@ -1,0 +1,92 @@
+//
+//S_jog_header
+//
+TABLE_TYPE: 0
+//
+MAXHEADER:1
+//
+HEADER
+//
+//
+BEGINSTRUCT // Begin of structure=S_jog_header
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12  // Field=s_do_enable.name
+      POINTER  // Field=s_do_enable.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12  // Field=s_do_start.name
+      POINTER  // Field=s_do_start.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+  USHORT  // Field=active_id
+ENDSTRUCT // End of structure=S_jog_header
+//
+//
+ENDHEADER
+//
+//
+BEGINSTRUCT // Begin of structure=S_jog_header
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12,"O_JOGENB_01"  // Field=s_do_enable.name
+      POINTER  // Field=s_do_enable.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12  // Field=s_do_start.name
+      POINTER  // Field=s_do_start.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+  USHORT  // Field=active_id
+ENDSTRUCT // End of structure=S_jog_header
+//
+//
+//S_jog
+//
+TABLE_TYPE: 0
+//
+MAXTABLE:1
+//
+TABLE
+//
+//
+BEGINSTRUCT // Begin of structure=S_jog
+  USHORT  // Field=id
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_enable.name
+      POINTER  // Field=s_di_enable.ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_start.name
+      POINTER  // Field=s_di_start.ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+ENDSTRUCT // End of structure=S_jog
+//
+//
+ENDTABLE
+//
+//
+BEGINSTRUCT // Begin of structure=S_jog
+  USHORT,1  // Field=id
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_JOGEN_3LV1"  // Field=s_di_enable.name
+      POINTER  // Field=s_di_enable.ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_JOGST_3LV1"  // Field=s_di_start.name
+      POINTER  // Field=s_di_start.ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+ENDSTRUCT // End of structure=S_jog
+//

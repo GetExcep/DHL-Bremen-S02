@@ -1,0 +1,39 @@
+//
+//S_scanqueue
+//
+TABLE_TYPE: 0
+//
+MAXTABLE
+//
+TABLE
+//
+//
+BEGINSTRUCT // Begin of structure=S_blockcell
+  USHORT // Field=id
+  CHAR[12] // Field=name
+  USHORT // Field=enable
+  USHORT // Field=offset_ph0
+  USHORT // Field=velocity_enable
+  USHORT // Field=block_distance
+  //
+  //
+  BEGINSTRUCT // Begin of structure=S_wk_blockcell
+    USHORT // Field=s_wk_blockcell.time_block
+    USHORT // Field=s_wk_blockcell.ep_cell_start
+  ENDSTRUCT // End of structure=S_wk_blockcell
+    BEGINSTRUCT // Begin of structure=S_state
+      SHORT // Field=s_state.trace
+      SHORT // Field=s_state.init
+      LONG // Field=s_state.state
+      LONG // Field=s_state.previous_state
+      LONG // Field=s_state.next_state
+      LONG // Field=s_state.substate
+      CHAR[40] // Field=s_state.des_state
+      CHAR[40] // Field=s_state.des_prevstate
+    ENDSTRUCT // End of structure=S_state
+  //  
+ENDSTRUCT // End of structure=S_blockcell
+//
+//
+ENDTABLE
+//

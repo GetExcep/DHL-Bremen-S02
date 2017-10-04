@@ -1,0 +1,339 @@
+//
+//S_xml_msg
+//
+TABLE_TYPE: 0
+//
+MAXTABLE
+//
+TABLE
+//
+//
+BEGINSTRUCT // Begin of structure=S_xml_msg
+  UCHAR // Field=code
+  CHAR[30] // Field=name
+  UCHAR // Field=ACK_required
+    //
+    BEGINSTRUCT // Begin of structure=S_xmlmsgpar
+      CHAR[80] // Field=s_xmlmsgpar[0].data
+      CHAR[20] // Field=s_xmlmsgpar[0].tag
+      CHAR[10] // Field=s_xmlmsgpar[0].input_type
+      CHAR[60] // Field=s_xmlmsgpar[0].msgparam
+    ENDSTRUCT // End of structure=S_xmlmsgpar
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_xmlmsgpar
+      CHAR[80] // Field=s_xmlmsgpar[1].data
+      CHAR[20] // Field=s_xmlmsgpar[1].tag
+      CHAR[10] // Field=s_xmlmsgpar[1].input_type
+      CHAR[60] // Field=s_xmlmsgpar[1].msgparam
+    ENDSTRUCT // End of structure=S_xmlmsgpar
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_xmlmsgpar
+      CHAR[80] // Field=s_xmlmsgpar[2].data
+      CHAR[20] // Field=s_xmlmsgpar[2].tag
+      CHAR[10] // Field=s_xmlmsgpar[2].input_type
+      CHAR[60] // Field=s_xmlmsgpar[2].msgparam
+    ENDSTRUCT // End of structure=S_xmlmsgpar
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_xmlmsgpar
+      CHAR[80] // Field=s_xmlmsgpar[3].data
+      CHAR[20] // Field=s_xmlmsgpar[3].tag
+      CHAR[10] // Field=s_xmlmsgpar[3].input_type
+      CHAR[60] // Field=s_xmlmsgpar[3].msgparam
+    ENDSTRUCT // End of structure=S_xmlmsgpar
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_xmlmsgpar
+      CHAR[80] // Field=s_xmlmsgpar[4].data
+      CHAR[20] // Field=s_xmlmsgpar[4].tag
+      CHAR[10] // Field=s_xmlmsgpar[4].input_type
+      CHAR[60] // Field=s_xmlmsgpar[4].msgparam
+    ENDSTRUCT // End of structure=S_xmlmsgpar
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_xmlmsgpar
+      CHAR[80] // Field=s_xmlmsgpar[5].data
+      CHAR[20] // Field=s_xmlmsgpar[5].tag
+      CHAR[10] // Field=s_xmlmsgpar[5].input_type
+      CHAR[60] // Field=s_xmlmsgpar[5].msgparam
+    ENDSTRUCT // End of structure=S_xmlmsgpar
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_xmlmsgpar
+      CHAR[80] // Field=s_xmlmsgpar[6].data
+      CHAR[20] // Field=s_xmlmsgpar[6].tag
+      CHAR[10] // Field=s_xmlmsgpar[6].input_type
+      CHAR[60] // Field=s_xmlmsgpar[6].msgparam
+    ENDSTRUCT // End of structure=S_xmlmsgpar
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_xmlmsgpar
+      CHAR[80] // Field=s_xmlmsgpar[7].data
+      CHAR[20] // Field=s_xmlmsgpar[7].tag
+      CHAR[10] // Field=s_xmlmsgpar[7].input_type
+      CHAR[60] // Field=s_xmlmsgpar[7].msgparam
+    ENDSTRUCT // End of structure=S_xmlmsgpar
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_xmlmsgpar
+      CHAR[80] // Field=s_xmlmsgpar[8].data
+      CHAR[20] // Field=s_xmlmsgpar[8].tag
+      CHAR[10] // Field=s_xmlmsgpar[8].input_type
+      CHAR[60] // Field=s_xmlmsgpar[8].msgparam
+    ENDSTRUCT // End of structure=S_xmlmsgpar
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_xmlmsgpar
+      CHAR[80] // Field=s_xmlmsgpar[9].data
+      CHAR[20] // Field=s_xmlmsgpar[9].tag
+      CHAR[10] // Field=s_xmlmsgpar[9].input_type
+      CHAR[60] // Field=s_xmlmsgpar[9].msgparam
+    ENDSTRUCT // End of structure=S_xmlmsgpar
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_xmlmsgpar
+      CHAR[80] // Field=s_xmlmsgpar[10].data
+      CHAR[20] // Field=s_xmlmsgpar[10].tag
+      CHAR[10] // Field=s_xmlmsgpar[10].input_type
+      CHAR[60] // Field=s_xmlmsgpar[10].msgparam
+    ENDSTRUCT // End of structure=S_xmlmsgpar
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_xmlmsgpar
+      CHAR[80] // Field=s_xmlmsgpar[11].data
+      CHAR[20] // Field=s_xmlmsgpar[11].tag
+      CHAR[10] // Field=s_xmlmsgpar[11].input_type
+      CHAR[60] // Field=s_xmlmsgpar[11].msgparam
+    ENDSTRUCT // End of structure=S_xmlmsgpar
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_xmlmsgpar
+      CHAR[80] // Field=s_xmlmsgpar[12].data
+      CHAR[20] // Field=s_xmlmsgpar[12].tag
+      CHAR[10] // Field=s_xmlmsgpar[12].input_type
+      CHAR[60] // Field=s_xmlmsgpar[12].msgparam
+    ENDSTRUCT // End of structure=S_xmlmsgpar
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_xmlmsgpar
+      CHAR[80] // Field=s_xmlmsgpar[13].data
+      CHAR[20] // Field=s_xmlmsgpar[13].tag
+      CHAR[10] // Field=s_xmlmsgpar[13].input_type
+      CHAR[60] // Field=s_xmlmsgpar[13].msgparam
+    ENDSTRUCT // End of structure=S_xmlmsgpar
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_xmlmsgpar
+      CHAR[80] // Field=s_xmlmsgpar[14].data
+      CHAR[20] // Field=s_xmlmsgpar[14].tag
+      CHAR[10] // Field=s_xmlmsgpar[14].input_type
+      CHAR[60] // Field=s_xmlmsgpar[14].msgparam
+    ENDSTRUCT // End of structure=S_xmlmsgpar
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_xmlmsgpar
+      CHAR[80] // Field=s_xmlmsgpar[15].data
+      CHAR[20] // Field=s_xmlmsgpar[15].tag
+      CHAR[10] // Field=s_xmlmsgpar[15].input_type
+      CHAR[60] // Field=s_xmlmsgpar[15].msgparam
+    ENDSTRUCT // End of structure=S_xmlmsgpar
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_xmlmsgpar
+      CHAR[80] // Field=s_xmlmsgpar[16].data
+      CHAR[20] // Field=s_xmlmsgpar[16].tag
+      CHAR[10] // Field=s_xmlmsgpar[16].input_type
+      CHAR[60] // Field=s_xmlmsgpar[16].msgparam
+    ENDSTRUCT // End of structure=S_xmlmsgpar
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_xmlmsgpar
+      CHAR[80] // Field=s_xmlmsgpar[17].data
+      CHAR[20] // Field=s_xmlmsgpar[17].tag
+      CHAR[10] // Field=s_xmlmsgpar[17].input_type
+      CHAR[60] // Field=s_xmlmsgpar[17].msgparam
+    ENDSTRUCT // End of structure=S_xmlmsgpar
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_xmlmsgpar
+      CHAR[80] // Field=s_xmlmsgpar[18].data
+      CHAR[20] // Field=s_xmlmsgpar[18].tag
+      CHAR[10] // Field=s_xmlmsgpar[18].input_type
+      CHAR[60] // Field=s_xmlmsgpar[18].msgparam
+    ENDSTRUCT // End of structure=S_xmlmsgpar
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_xmlmsgpar
+      CHAR[80] // Field=s_xmlmsgpar[19].data
+      CHAR[20] // Field=s_xmlmsgpar[19].tag
+      CHAR[10] // Field=s_xmlmsgpar[19].input_type
+      CHAR[60] // Field=s_xmlmsgpar[19].msgparam
+    ENDSTRUCT // End of structure=S_xmlmsgpar
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_xmlmsgpar
+      CHAR[80] // Field=s_xmlmsgpar[20].data
+      CHAR[20] // Field=s_xmlmsgpar[20].tag
+      CHAR[10] // Field=s_xmlmsgpar[20].input_type
+      CHAR[60] // Field=s_xmlmsgpar[20].msgparam
+    ENDSTRUCT // End of structure=S_xmlmsgpar
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_xmlmsgpar
+      CHAR[80] // Field=s_xmlmsgpar[21].data
+      CHAR[20] // Field=s_xmlmsgpar[21].tag
+      CHAR[10] // Field=s_xmlmsgpar[21].input_type
+      CHAR[60] // Field=s_xmlmsgpar[21].msgparam
+    ENDSTRUCT // End of structure=S_xmlmsgpar
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_xmlmsgpar
+      CHAR[80] // Field=s_xmlmsgpar[22].data
+      CHAR[20] // Field=s_xmlmsgpar[22].tag
+      CHAR[10] // Field=s_xmlmsgpar[22].input_type
+      CHAR[60] // Field=s_xmlmsgpar[22].msgparam
+    ENDSTRUCT // End of structure=S_xmlmsgpar
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_xmlmsgpar
+      CHAR[80] // Field=s_xmlmsgpar[23].data
+      CHAR[20] // Field=s_xmlmsgpar[23].tag
+      CHAR[10] // Field=s_xmlmsgpar[23].input_type
+      CHAR[60] // Field=s_xmlmsgpar[23].msgparam
+    ENDSTRUCT // End of structure=S_xmlmsgpar
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_xmlmsgpar
+      CHAR[80] // Field=s_xmlmsgpar[24].data
+      CHAR[20] // Field=s_xmlmsgpar[24].tag
+      CHAR[10] // Field=s_xmlmsgpar[24].input_type
+      CHAR[60] // Field=s_xmlmsgpar[24].msgparam
+    ENDSTRUCT // End of structure=S_xmlmsgpar
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_xmlmsgpar
+      CHAR[80] // Field=s_xmlmsgpar[25].data
+      CHAR[20] // Field=s_xmlmsgpar[25].tag
+      CHAR[10] // Field=s_xmlmsgpar[25].input_type
+      CHAR[60] // Field=s_xmlmsgpar[25].msgparam
+    ENDSTRUCT // End of structure=S_xmlmsgpar
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_xmlmsgpar
+      CHAR[80] // Field=s_xmlmsgpar[26].data
+      CHAR[20] // Field=s_xmlmsgpar[26].tag
+      CHAR[10] // Field=s_xmlmsgpar[26].input_type
+      CHAR[60] // Field=s_xmlmsgpar[26].msgparam
+    ENDSTRUCT // End of structure=S_xmlmsgpar
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_xmlmsgpar
+      CHAR[80] // Field=s_xmlmsgpar[27].data
+      CHAR[20] // Field=s_xmlmsgpar[27].tag
+      CHAR[10] // Field=s_xmlmsgpar[27].input_type
+      CHAR[60] // Field=s_xmlmsgpar[27].msgparam
+    ENDSTRUCT // End of structure=S_xmlmsgpar
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_xmlmsgpar
+      CHAR[80] // Field=s_xmlmsgpar[28].data
+      CHAR[20] // Field=s_xmlmsgpar[28].tag
+      CHAR[10] // Field=s_xmlmsgpar[28].input_type
+      CHAR[60] // Field=s_xmlmsgpar[28].msgparam
+    ENDSTRUCT // End of structure=S_xmlmsgpar
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_xmlmsgpar
+      CHAR[80] // Field=s_xmlmsgpar[29].data
+      CHAR[20] // Field=s_xmlmsgpar[29].tag
+      CHAR[10] // Field=s_xmlmsgpar[29].input_type
+      CHAR[60] // Field=s_xmlmsgpar[29].msgparam
+    ENDSTRUCT // End of structure=S_xmlmsgpar
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_xmlmsgpar
+      CHAR[80] // Field=s_xmlmsgpar[30].data
+      CHAR[20] // Field=s_xmlmsgpar[30].tag
+      CHAR[10] // Field=s_xmlmsgpar[30].input_type
+      CHAR[60] // Field=s_xmlmsgpar[30].msgparam
+    ENDSTRUCT // End of structure=S_xmlmsgpar
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_xmlmsgpar
+      CHAR[80] // Field=s_xmlmsgpar[31].data
+      CHAR[20] // Field=s_xmlmsgpar[31].tag
+      CHAR[10] // Field=s_xmlmsgpar[31].input_type
+      CHAR[60] // Field=s_xmlmsgpar[31].msgparam
+    ENDSTRUCT // End of structure=S_xmlmsgpar
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_xmlmsgpar
+      CHAR[80] // Field=s_xmlmsgpar[32].data
+      CHAR[20] // Field=s_xmlmsgpar[32].tag
+      CHAR[10] // Field=s_xmlmsgpar[32].input_type
+      CHAR[60] // Field=s_xmlmsgpar[32].msgparam
+    ENDSTRUCT // End of structure=S_xmlmsgpar
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_xmlmsgpar
+      CHAR[80] // Field=s_xmlmsgpar[33].data
+      CHAR[20] // Field=s_xmlmsgpar[33].tag
+      CHAR[10] // Field=s_xmlmsgpar[33].input_type
+      CHAR[60] // Field=s_xmlmsgpar[33].msgparam
+    ENDSTRUCT // End of structure=S_xmlmsgpar
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_xmlmsgpar
+      CHAR[80] // Field=s_xmlmsgpar[34].data
+      CHAR[20] // Field=s_xmlmsgpar[34].tag
+      CHAR[10] // Field=s_xmlmsgpar[34].input_type
+      CHAR[60] // Field=s_xmlmsgpar[34].msgparam
+    ENDSTRUCT // End of structure=S_xmlmsgpar
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_xmlmsgpar
+      CHAR[80] // Field=s_xmlmsgpar[35].data
+      CHAR[20] // Field=s_xmlmsgpar[35].tag
+      CHAR[10] // Field=s_xmlmsgpar[35].input_type
+      CHAR[60] // Field=s_xmlmsgpar[35].msgparam
+    ENDSTRUCT // End of structure=S_xmlmsgpar
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_xmlmsgpar
+      CHAR[80] // Field=s_xmlmsgpar[36].data
+      CHAR[20] // Field=s_xmlmsgpar[36].tag
+      CHAR[10] // Field=s_xmlmsgpar[36].input_type
+      CHAR[60] // Field=s_xmlmsgpar[36].msgparam
+    ENDSTRUCT // End of structure=S_xmlmsgpar
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_xmlmsgpar
+      CHAR[80] // Field=s_xmlmsgpar[37].data
+      CHAR[20] // Field=s_xmlmsgpar[37].tag
+      CHAR[10] // Field=s_xmlmsgpar[37].input_type
+      CHAR[60] // Field=s_xmlmsgpar[37].msgparam
+    ENDSTRUCT // End of structure=S_xmlmsgpar
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_xmlmsgpar
+      CHAR[80] // Field=s_xmlmsgpar[38].data
+      CHAR[20] // Field=s_xmlmsgpar[38].tag
+      CHAR[10] // Field=s_xmlmsgpar[38].input_type
+      CHAR[60] // Field=s_xmlmsgpar[38].msgparam
+    ENDSTRUCT // End of structure=S_xmlmsgpar
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_xmlmsgpar
+      CHAR[80] // Field=s_xmlmsgpar[39].data
+      CHAR[20] // Field=s_xmlmsgpar[39].tag
+      CHAR[10] // Field=s_xmlmsgpar[39].input_type
+      CHAR[60] // Field=s_xmlmsgpar[39].msgparam
+    ENDSTRUCT // End of structure=S_xmlmsgpar
+    //
+ENDSTRUCT // End of structure=S_xml_msg
+//
+//
+ENDTABLE
+//

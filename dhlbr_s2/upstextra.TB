@@ -1,0 +1,260 @@
+//
+//S_upstextra
+//
+TABLE_TYPE: 0
+//
+MAXTABLE:7
+//
+TABLE
+//
+//
+BEGINSTRUCT // Begin of structure=S_upstextra
+  USHORT  // Field=id
+    //
+    BEGINSTRUCT // Begin of structure=S_parc_ext
+      USHORT  // Field=s_parc_ext.valid
+      ULONG  // Field=s_parc_ext.parcid_SC
+      ULONG  // Field=s_parc_ext.parcid_dMFS
+      USHORT  // Field=s_parc_ext.priority_algo
+      USHORT  // Field=s_parc_ext.dest_index
+      USHORT  // Field=s_parc_ext.n_destination
+      USHORT  // Field=s_parc_ext.destination[0]
+      USHORT  // Field=s_parc_ext.destination[1]
+      USHORT  // Field=s_parc_ext.destination[2]
+      USHORT  // Field=s_parc_ext.destination[3]
+      USHORT  // Field=s_parc_ext.destination[4]
+      USHORT  // Field=s_parc_ext.destination[5]
+      USHORT  // Field=s_parc_ext.destination[6]
+      USHORT  // Field=s_parc_ext.destination[7]
+      USHORT  // Field=s_parc_ext.destination[8]
+      USHORT  // Field=s_parc_ext.destination[9]
+      USHORT  // Field=s_parc_ext.device
+      USHORT  // Field=s_parc_ext.dev_id
+      ULONG  // Field=s_parc_ext.event_time
+      ULONG  // Field=s_parc_ext.event_time_ms
+      UCHAR  // Field=s_parc_ext.request_type
+      UCHAR  // Field=s_parc_ext.sort_dest_from_MFR
+    ENDSTRUCT // End of structure=S_parc_ext
+    //
+ENDSTRUCT // End of structure=S_upstextra
+//
+//
+ENDTABLE
+//
+//
+BEGINSTRUCT // Begin of structure=S_upstextra
+  USHORT,51  // Field=id
+    //
+    BEGINSTRUCT // Begin of structure=S_parc_ext
+      USHORT  // Field=s_parc_ext.valid
+      ULONG  // Field=s_parc_ext.parcid_SC
+      ULONG  // Field=s_parc_ext.parcid_dMFS
+      USHORT  // Field=s_parc_ext.priority_algo
+      USHORT  // Field=s_parc_ext.dest_index
+      USHORT  // Field=s_parc_ext.n_destination
+      USHORT  // Field=s_parc_ext.destination[0]
+      USHORT  // Field=s_parc_ext.destination[1]
+      USHORT  // Field=s_parc_ext.destination[2]
+      USHORT  // Field=s_parc_ext.destination[3]
+      USHORT  // Field=s_parc_ext.destination[4]
+      USHORT  // Field=s_parc_ext.destination[5]
+      USHORT  // Field=s_parc_ext.destination[6]
+      USHORT  // Field=s_parc_ext.destination[7]
+      USHORT  // Field=s_parc_ext.destination[8]
+      USHORT  // Field=s_parc_ext.destination[9]
+      USHORT  // Field=s_parc_ext.device
+      USHORT  // Field=s_parc_ext.dev_id
+      ULONG  // Field=s_parc_ext.event_time
+      ULONG  // Field=s_parc_ext.event_time_ms
+      UCHAR  // Field=s_parc_ext.request_type
+      UCHAR  // Field=s_parc_ext.sort_dest_from_MFR
+    ENDSTRUCT // End of structure=S_parc_ext
+    //
+ENDSTRUCT // End of structure=S_upstextra
+//
+//
+BEGINSTRUCT // Begin of structure=S_upstextra
+  USHORT,52  // Field=id
+    //
+    BEGINSTRUCT // Begin of structure=S_parc_ext
+      USHORT  // Field=s_parc_ext.valid
+      ULONG  // Field=s_parc_ext.parcid_SC
+      ULONG  // Field=s_parc_ext.parcid_dMFS
+      USHORT  // Field=s_parc_ext.priority_algo
+      USHORT  // Field=s_parc_ext.dest_index
+      USHORT  // Field=s_parc_ext.n_destination
+      USHORT  // Field=s_parc_ext.destination[0]
+      USHORT  // Field=s_parc_ext.destination[1]
+      USHORT  // Field=s_parc_ext.destination[2]
+      USHORT  // Field=s_parc_ext.destination[3]
+      USHORT  // Field=s_parc_ext.destination[4]
+      USHORT  // Field=s_parc_ext.destination[5]
+      USHORT  // Field=s_parc_ext.destination[6]
+      USHORT  // Field=s_parc_ext.destination[7]
+      USHORT  // Field=s_parc_ext.destination[8]
+      USHORT  // Field=s_parc_ext.destination[9]
+      USHORT  // Field=s_parc_ext.device
+      USHORT  // Field=s_parc_ext.dev_id
+      ULONG  // Field=s_parc_ext.event_time
+      ULONG  // Field=s_parc_ext.event_time_ms
+      UCHAR  // Field=s_parc_ext.request_type
+      UCHAR  // Field=s_parc_ext.sort_dest_from_MFR
+    ENDSTRUCT // End of structure=S_parc_ext
+    //
+ENDSTRUCT // End of structure=S_upstextra
+//
+//
+BEGINSTRUCT // Begin of structure=S_upstextra
+  USHORT,61  // Field=id
+    //
+    BEGINSTRUCT // Begin of structure=S_parc_ext
+      USHORT  // Field=s_parc_ext.valid
+      ULONG  // Field=s_parc_ext.parcid_SC
+      ULONG  // Field=s_parc_ext.parcid_dMFS
+      USHORT  // Field=s_parc_ext.priority_algo
+      USHORT  // Field=s_parc_ext.dest_index
+      USHORT  // Field=s_parc_ext.n_destination
+      USHORT  // Field=s_parc_ext.destination[0]
+      USHORT  // Field=s_parc_ext.destination[1]
+      USHORT  // Field=s_parc_ext.destination[2]
+      USHORT  // Field=s_parc_ext.destination[3]
+      USHORT  // Field=s_parc_ext.destination[4]
+      USHORT  // Field=s_parc_ext.destination[5]
+      USHORT  // Field=s_parc_ext.destination[6]
+      USHORT  // Field=s_parc_ext.destination[7]
+      USHORT  // Field=s_parc_ext.destination[8]
+      USHORT  // Field=s_parc_ext.destination[9]
+      USHORT  // Field=s_parc_ext.device
+      USHORT  // Field=s_parc_ext.dev_id
+      ULONG  // Field=s_parc_ext.event_time
+      ULONG  // Field=s_parc_ext.event_time_ms
+      UCHAR  // Field=s_parc_ext.request_type
+      UCHAR  // Field=s_parc_ext.sort_dest_from_MFR
+    ENDSTRUCT // End of structure=S_parc_ext
+    //
+ENDSTRUCT // End of structure=S_upstextra
+//
+//
+BEGINSTRUCT // Begin of structure=S_upstextra
+  USHORT,62  // Field=id
+    //
+    BEGINSTRUCT // Begin of structure=S_parc_ext
+      USHORT  // Field=s_parc_ext.valid
+      ULONG  // Field=s_parc_ext.parcid_SC
+      ULONG  // Field=s_parc_ext.parcid_dMFS
+      USHORT  // Field=s_parc_ext.priority_algo
+      USHORT  // Field=s_parc_ext.dest_index
+      USHORT  // Field=s_parc_ext.n_destination
+      USHORT  // Field=s_parc_ext.destination[0]
+      USHORT  // Field=s_parc_ext.destination[1]
+      USHORT  // Field=s_parc_ext.destination[2]
+      USHORT  // Field=s_parc_ext.destination[3]
+      USHORT  // Field=s_parc_ext.destination[4]
+      USHORT  // Field=s_parc_ext.destination[5]
+      USHORT  // Field=s_parc_ext.destination[6]
+      USHORT  // Field=s_parc_ext.destination[7]
+      USHORT  // Field=s_parc_ext.destination[8]
+      USHORT  // Field=s_parc_ext.destination[9]
+      USHORT  // Field=s_parc_ext.device
+      USHORT  // Field=s_parc_ext.dev_id
+      ULONG  // Field=s_parc_ext.event_time
+      ULONG  // Field=s_parc_ext.event_time_ms
+      UCHAR  // Field=s_parc_ext.request_type
+      UCHAR  // Field=s_parc_ext.sort_dest_from_MFR
+    ENDSTRUCT // End of structure=S_parc_ext
+    //
+ENDSTRUCT // End of structure=S_upstextra
+//
+//
+BEGINSTRUCT // Begin of structure=S_upstextra
+  USHORT,71  // Field=id
+    //
+    BEGINSTRUCT // Begin of structure=S_parc_ext
+      USHORT  // Field=s_parc_ext.valid
+      ULONG  // Field=s_parc_ext.parcid_SC
+      ULONG  // Field=s_parc_ext.parcid_dMFS
+      USHORT  // Field=s_parc_ext.priority_algo
+      USHORT  // Field=s_parc_ext.dest_index
+      USHORT  // Field=s_parc_ext.n_destination
+      USHORT  // Field=s_parc_ext.destination[0]
+      USHORT  // Field=s_parc_ext.destination[1]
+      USHORT  // Field=s_parc_ext.destination[2]
+      USHORT  // Field=s_parc_ext.destination[3]
+      USHORT  // Field=s_parc_ext.destination[4]
+      USHORT  // Field=s_parc_ext.destination[5]
+      USHORT  // Field=s_parc_ext.destination[6]
+      USHORT  // Field=s_parc_ext.destination[7]
+      USHORT  // Field=s_parc_ext.destination[8]
+      USHORT  // Field=s_parc_ext.destination[9]
+      USHORT  // Field=s_parc_ext.device
+      USHORT  // Field=s_parc_ext.dev_id
+      ULONG  // Field=s_parc_ext.event_time
+      ULONG  // Field=s_parc_ext.event_time_ms
+      UCHAR  // Field=s_parc_ext.request_type
+      UCHAR  // Field=s_parc_ext.sort_dest_from_MFR
+    ENDSTRUCT // End of structure=S_parc_ext
+    //
+ENDSTRUCT // End of structure=S_upstextra
+//
+//
+BEGINSTRUCT // Begin of structure=S_upstextra
+  USHORT,72  // Field=id
+    //
+    BEGINSTRUCT // Begin of structure=S_parc_ext
+      USHORT  // Field=s_parc_ext.valid
+      ULONG  // Field=s_parc_ext.parcid_SC
+      ULONG  // Field=s_parc_ext.parcid_dMFS
+      USHORT  // Field=s_parc_ext.priority_algo
+      USHORT  // Field=s_parc_ext.dest_index
+      USHORT  // Field=s_parc_ext.n_destination
+      USHORT  // Field=s_parc_ext.destination[0]
+      USHORT  // Field=s_parc_ext.destination[1]
+      USHORT  // Field=s_parc_ext.destination[2]
+      USHORT  // Field=s_parc_ext.destination[3]
+      USHORT  // Field=s_parc_ext.destination[4]
+      USHORT  // Field=s_parc_ext.destination[5]
+      USHORT  // Field=s_parc_ext.destination[6]
+      USHORT  // Field=s_parc_ext.destination[7]
+      USHORT  // Field=s_parc_ext.destination[8]
+      USHORT  // Field=s_parc_ext.destination[9]
+      USHORT  // Field=s_parc_ext.device
+      USHORT  // Field=s_parc_ext.dev_id
+      ULONG  // Field=s_parc_ext.event_time
+      ULONG  // Field=s_parc_ext.event_time_ms
+      UCHAR  // Field=s_parc_ext.request_type
+      UCHAR  // Field=s_parc_ext.sort_dest_from_MFR
+    ENDSTRUCT // End of structure=S_parc_ext
+    //
+ENDSTRUCT // End of structure=S_upstextra
+//
+//
+BEGINSTRUCT // Begin of structure=S_upstextra
+  USHORT,81  // Field=id
+    //
+    BEGINSTRUCT // Begin of structure=S_parc_ext
+      USHORT  // Field=s_parc_ext.valid
+      ULONG  // Field=s_parc_ext.parcid_SC
+      ULONG  // Field=s_parc_ext.parcid_dMFS
+      USHORT  // Field=s_parc_ext.priority_algo
+      USHORT  // Field=s_parc_ext.dest_index
+      USHORT  // Field=s_parc_ext.n_destination
+      USHORT  // Field=s_parc_ext.destination[0]
+      USHORT  // Field=s_parc_ext.destination[1]
+      USHORT  // Field=s_parc_ext.destination[2]
+      USHORT  // Field=s_parc_ext.destination[3]
+      USHORT  // Field=s_parc_ext.destination[4]
+      USHORT  // Field=s_parc_ext.destination[5]
+      USHORT  // Field=s_parc_ext.destination[6]
+      USHORT  // Field=s_parc_ext.destination[7]
+      USHORT  // Field=s_parc_ext.destination[8]
+      USHORT  // Field=s_parc_ext.destination[9]
+      USHORT  // Field=s_parc_ext.device
+      USHORT  // Field=s_parc_ext.dev_id
+      ULONG  // Field=s_parc_ext.event_time
+      ULONG  // Field=s_parc_ext.event_time_ms
+      UCHAR  // Field=s_parc_ext.request_type
+      UCHAR  // Field=s_parc_ext.sort_dest_from_MFR
+    ENDSTRUCT // End of structure=S_parc_ext
+    //
+ENDSTRUCT // End of structure=S_upstextra
+//

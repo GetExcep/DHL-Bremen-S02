@@ -1,0 +1,1387 @@
+Fields -> 98 
+Record -> 1 
+Id-> 5 
+Name->IS_05
+Status->True
+Debug function-> 8 
+Upstream->True
+Orientation->False
+Check shape-> 2 
+Maximum parcel length-> 2000 
+Maximum code length-> 64 
+General purpose flags-> 20 
+Default position for parcel without data-> 800 
+Enable/Disable state transition trace-> 1 
+Number of parcel coded-> 2 
+CB start condition-> 2 
+CB stop when no chute found->False
+Scanner existing->False
+Scanner stop for no message->False
+Scanner stop for no read->False
+Scale existing->False
+Scale stop for no message->False
+Scale stop for no weight->False
+Scale stop for overweight->False
+Maximum weight allowed (g)-> 0 
+LB K angle (30/45)-> 30 
+Ghost Parcel Length-> 0 
+Max length for single cell loading-> 1300 
+Max width for single cell loading-> 550 
+Max item length allowed-> 1400 
+Max item width allowed-> 800 
+Genpar 0-> 29 
+Genpar 1-> 0 
+Genpar 2-> 0 
+Genpar 3-> 0 
+Virtual scanner ID for DCI->
+ID Belt 01->
+ID Belt 02->
+ID Belt 03->
+ID Belt 04->
+ID Belt 05->
+ID Belt 06->
+ID Belt 07->
+ID Belt 08->
+ID Belt 09->
+ID Belt 10->
+ID Belt 11->
+ID Belt 12->
+ID Belt 13->
+ID Belt 14->
+ID Belt 15->
+ID Belt 16->
+ID Belt 17->
+ID Belt 18->
+ID Belt 19->
+ID Belt 20->
+Area sensor id->
+Scanner id->
+Scale id->
+Upstream id->
+Downstream id->
+Alligator id->
+Power on DI->
+Power off DI->
+Power voltage ok->
+TVD ready->
+Start->
+Stop->
+Block->
+Reset->
+Automatic/manual->
+Reverse->
+Emergency->
+Jog panel connected->
+Sorter ok->
+Upstream ok->
+Parcel ready on the upstream->
+Loading->
+sbenable->
+Power on DO->
+Power off DO->
+Warning lamp->
+Status lamp->
+Emergency Lamp->
+IS ok to the Sorter->
+IS Emergency->
+IS ok to the upstream->
+Parcel start to the upstream->
+Horn->
+Loading Request->
+IS Run->
+Cell Activation->
+Alarm in case of no cells (s)->
+Alarm if initialization not ok (s)->
+Delay between belt activation (ms)->
+Resend (ms)->
+Sleep (s)->
+Horn (s)->
+Data waiting (ms)->
+Trup (ms)->
+Record -> 2 
+Id-> 6 
+Name->IS_06
+Status->True
+Debug function-> 8 
+Upstream->True
+Orientation->False
+Check shape-> 2 
+Maximum parcel length-> 2000 
+Maximum code length-> 64 
+General purpose flags-> 20 
+Default position for parcel without data-> 800 
+Enable/Disable state transition trace-> 1 
+Number of parcel coded-> 2 
+CB start condition-> 2 
+CB stop when no chute found->False
+Scanner existing->False
+Scanner stop for no message->False
+Scanner stop for no read->False
+Scale existing->False
+Scale stop for no message->False
+Scale stop for no weight->False
+Scale stop for overweight->False
+Maximum weight allowed (g)-> 0 
+LB K angle (30/45)-> 30 
+Ghost Parcel Length-> 0 
+Max length for single cell loading-> 1300 
+Max width for single cell loading-> 550 
+Max item length allowed-> 1400 
+Max item width allowed-> 800 
+Genpar 0-> 30 
+Genpar 1-> 0 
+Genpar 2-> 0 
+Genpar 3-> 0 
+Virtual scanner ID for DCI->
+ID Belt 01->
+ID Belt 02->
+ID Belt 03->
+ID Belt 04->
+ID Belt 05->
+ID Belt 06->
+ID Belt 07->
+ID Belt 08->
+ID Belt 09->
+ID Belt 10->
+ID Belt 11->
+ID Belt 12->
+ID Belt 13->
+ID Belt 14->
+ID Belt 15->
+ID Belt 16->
+ID Belt 17->
+ID Belt 18->
+ID Belt 19->
+ID Belt 20->
+Area sensor id->
+Scanner id->
+Scale id->
+Upstream id->
+Downstream id->
+Alligator id->
+Power on DI->
+Power off DI->
+Power voltage ok->
+TVD ready->
+Start->
+Stop->
+Block->
+Reset->
+Automatic/manual->
+Reverse->
+Emergency->
+Jog panel connected->
+Sorter ok->
+Upstream ok->
+Parcel ready on the upstream->
+Loading->
+sbenable->
+Power on DO->
+Power off DO->
+Warning lamp->
+Status lamp->
+Emergency Lamp->
+IS ok to the Sorter->
+IS Emergency->
+IS ok to the upstream->
+Parcel start to the upstream->
+Horn->
+Loading Request->
+IS Run->
+Cell Activation->
+Alarm in case of no cells (s)->
+Alarm if initialization not ok (s)->
+Delay between belt activation (ms)->
+Resend (ms)->
+Sleep (s)->
+Horn (s)->
+Data waiting (ms)->
+Trup (ms)->
+Record -> 3 
+Id-> 7 
+Name->IS_07
+Status->True
+Debug function-> 8 
+Upstream->True
+Orientation->False
+Check shape-> 2 
+Maximum parcel length-> 2000 
+Maximum code length-> 64 
+General purpose flags-> 20 
+Default position for parcel without data-> 800 
+Enable/Disable state transition trace-> 1 
+Number of parcel coded-> 2 
+CB start condition-> 2 
+CB stop when no chute found->False
+Scanner existing->False
+Scanner stop for no message->False
+Scanner stop for no read->False
+Scale existing->False
+Scale stop for no message->False
+Scale stop for no weight->False
+Scale stop for overweight->False
+Maximum weight allowed (g)-> 0 
+LB K angle (30/45)-> 30 
+Ghost Parcel Length-> 0 
+Max length for single cell loading-> 1300 
+Max width for single cell loading-> 550 
+Max item length allowed-> 1400 
+Max item width allowed-> 800 
+Genpar 0-> 31 
+Genpar 1-> 0 
+Genpar 2-> 0 
+Genpar 3-> 0 
+Virtual scanner ID for DCI->
+ID Belt 01->
+ID Belt 02->
+ID Belt 03->
+ID Belt 04->
+ID Belt 05->
+ID Belt 06->
+ID Belt 07->
+ID Belt 08->
+ID Belt 09->
+ID Belt 10->
+ID Belt 11->
+ID Belt 12->
+ID Belt 13->
+ID Belt 14->
+ID Belt 15->
+ID Belt 16->
+ID Belt 17->
+ID Belt 18->
+ID Belt 19->
+ID Belt 20->
+Area sensor id->
+Scanner id->
+Scale id->
+Upstream id->
+Downstream id->
+Alligator id->
+Power on DI->
+Power off DI->
+Power voltage ok->
+TVD ready->
+Start->
+Stop->
+Block->
+Reset->
+Automatic/manual->
+Reverse->
+Emergency->
+Jog panel connected->
+Sorter ok->
+Upstream ok->
+Parcel ready on the upstream->
+Loading->
+sbenable->
+Power on DO->
+Power off DO->
+Warning lamp->
+Status lamp->
+Emergency Lamp->
+IS ok to the Sorter->
+IS Emergency->
+IS ok to the upstream->
+Parcel start to the upstream->
+Horn->
+Loading Request->
+IS Run->
+Cell Activation->
+Alarm in case of no cells (s)->
+Alarm if initialization not ok (s)->
+Delay between belt activation (ms)->
+Resend (ms)->
+Sleep (s)->
+Horn (s)->
+Data waiting (ms)->
+Trup (ms)->
+Record -> 4 
+Id-> 8 
+Name->IS_08
+Status->True
+Debug function-> 8 
+Upstream->True
+Orientation->False
+Check shape-> 2 
+Maximum parcel length-> 2000 
+Maximum code length-> 64 
+General purpose flags-> 20 
+Default position for parcel without data-> 800 
+Enable/Disable state transition trace-> 1 
+Number of parcel coded-> 2 
+CB start condition-> 2 
+CB stop when no chute found->False
+Scanner existing->False
+Scanner stop for no message->False
+Scanner stop for no read->False
+Scale existing->False
+Scale stop for no message->False
+Scale stop for no weight->False
+Scale stop for overweight->False
+Maximum weight allowed (g)-> 0 
+LB K angle (30/45)-> 30 
+Ghost Parcel Length-> 0 
+Max length for single cell loading-> 1300 
+Max width for single cell loading-> 550 
+Max item length allowed-> 1400 
+Max item width allowed-> 800 
+Genpar 0-> 32 
+Genpar 1-> 0 
+Genpar 2-> 0 
+Genpar 3-> 0 
+Virtual scanner ID for DCI->
+ID Belt 01->
+ID Belt 02->
+ID Belt 03->
+ID Belt 04->
+ID Belt 05->
+ID Belt 06->
+ID Belt 07->
+ID Belt 08->
+ID Belt 09->
+ID Belt 10->
+ID Belt 11->
+ID Belt 12->
+ID Belt 13->
+ID Belt 14->
+ID Belt 15->
+ID Belt 16->
+ID Belt 17->
+ID Belt 18->
+ID Belt 19->
+ID Belt 20->
+Area sensor id->
+Scanner id->
+Scale id->
+Upstream id->
+Downstream id->
+Alligator id->
+Power on DI->
+Power off DI->
+Power voltage ok->
+TVD ready->
+Start->
+Stop->
+Block->
+Reset->
+Automatic/manual->
+Reverse->
+Emergency->
+Jog panel connected->
+Sorter ok->
+Upstream ok->
+Parcel ready on the upstream->
+Loading->
+sbenable->
+Power on DO->
+Power off DO->
+Warning lamp->
+Status lamp->
+Emergency Lamp->
+IS ok to the Sorter->
+IS Emergency->
+IS ok to the upstream->
+Parcel start to the upstream->
+Horn->
+Loading Request->
+IS Run->
+Cell Activation->
+Alarm in case of no cells (s)->
+Alarm if initialization not ok (s)->
+Delay between belt activation (ms)->
+Resend (ms)->
+Sleep (s)->
+Horn (s)->
+Data waiting (ms)->
+Trup (ms)->
+Record -> 5 
+Id-> 9 
+Name->IS_09
+Status->True
+Debug function-> 8 
+Upstream->True
+Orientation->False
+Check shape-> 2 
+Maximum parcel length-> 2000 
+Maximum code length-> 64 
+General purpose flags-> 20 
+Default position for parcel without data-> 800 
+Enable/Disable state transition trace-> 1 
+Number of parcel coded-> 2 
+CB start condition-> 2 
+CB stop when no chute found->False
+Scanner existing->False
+Scanner stop for no message->False
+Scanner stop for no read->False
+Scale existing->False
+Scale stop for no message->False
+Scale stop for no weight->False
+Scale stop for overweight->False
+Maximum weight allowed (g)-> 0 
+LB K angle (30/45)-> 30 
+Ghost Parcel Length-> 0 
+Max length for single cell loading-> 1300 
+Max width for single cell loading-> 550 
+Max item length allowed-> 1400 
+Max item width allowed-> 800 
+Genpar 0-> 33 
+Genpar 1-> 0 
+Genpar 2-> 0 
+Genpar 3-> 0 
+Virtual scanner ID for DCI->
+ID Belt 01->
+ID Belt 02->
+ID Belt 03->
+ID Belt 04->
+ID Belt 05->
+ID Belt 06->
+ID Belt 07->
+ID Belt 08->
+ID Belt 09->
+ID Belt 10->
+ID Belt 11->
+ID Belt 12->
+ID Belt 13->
+ID Belt 14->
+ID Belt 15->
+ID Belt 16->
+ID Belt 17->
+ID Belt 18->
+ID Belt 19->
+ID Belt 20->
+Area sensor id->
+Scanner id->
+Scale id->
+Upstream id->
+Downstream id->
+Alligator id->
+Power on DI->
+Power off DI->
+Power voltage ok->
+TVD ready->
+Start->
+Stop->
+Block->
+Reset->
+Automatic/manual->
+Reverse->
+Emergency->
+Jog panel connected->
+Sorter ok->
+Upstream ok->
+Parcel ready on the upstream->
+Loading->
+sbenable->
+Power on DO->
+Power off DO->
+Warning lamp->
+Status lamp->
+Emergency Lamp->
+IS ok to the Sorter->
+IS Emergency->
+IS ok to the upstream->
+Parcel start to the upstream->
+Horn->
+Loading Request->
+IS Run->
+Cell Activation->
+Alarm in case of no cells (s)->
+Alarm if initialization not ok (s)->
+Delay between belt activation (ms)->
+Resend (ms)->
+Sleep (s)->
+Horn (s)->
+Data waiting (ms)->
+Trup (ms)->
+Record -> 6 
+Id-> 10 
+Name->IS_10
+Status->True
+Debug function-> 8 
+Upstream->True
+Orientation->False
+Check shape-> 2 
+Maximum parcel length-> 2000 
+Maximum code length-> 64 
+General purpose flags-> 20 
+Default position for parcel without data-> 800 
+Enable/Disable state transition trace-> 1 
+Number of parcel coded-> 2 
+CB start condition-> 2 
+CB stop when no chute found->False
+Scanner existing->False
+Scanner stop for no message->False
+Scanner stop for no read->False
+Scale existing->False
+Scale stop for no message->False
+Scale stop for no weight->False
+Scale stop for overweight->False
+Maximum weight allowed (g)-> 0 
+LB K angle (30/45)-> 30 
+Ghost Parcel Length-> 0 
+Max length for single cell loading-> 1300 
+Max width for single cell loading-> 550 
+Max item length allowed-> 1400 
+Max item width allowed-> 800 
+Genpar 0-> 34 
+Genpar 1-> 0 
+Genpar 2-> 0 
+Genpar 3-> 0 
+Virtual scanner ID for DCI->
+ID Belt 01->
+ID Belt 02->
+ID Belt 03->
+ID Belt 04->
+ID Belt 05->
+ID Belt 06->
+ID Belt 07->
+ID Belt 08->
+ID Belt 09->
+ID Belt 10->
+ID Belt 11->
+ID Belt 12->
+ID Belt 13->
+ID Belt 14->
+ID Belt 15->
+ID Belt 16->
+ID Belt 17->
+ID Belt 18->
+ID Belt 19->
+ID Belt 20->
+Area sensor id->
+Scanner id->
+Scale id->
+Upstream id->
+Downstream id->
+Alligator id->
+Power on DI->
+Power off DI->
+Power voltage ok->
+TVD ready->
+Start->
+Stop->
+Block->
+Reset->
+Automatic/manual->
+Reverse->
+Emergency->
+Jog panel connected->
+Sorter ok->
+Upstream ok->
+Parcel ready on the upstream->
+Loading->
+sbenable->
+Power on DO->
+Power off DO->
+Warning lamp->
+Status lamp->
+Emergency Lamp->
+IS ok to the Sorter->
+IS Emergency->
+IS ok to the upstream->
+Parcel start to the upstream->
+Horn->
+Loading Request->
+IS Run->
+Cell Activation->
+Alarm in case of no cells (s)->
+Alarm if initialization not ok (s)->
+Delay between belt activation (ms)->
+Resend (ms)->
+Sleep (s)->
+Horn (s)->
+Data waiting (ms)->
+Trup (ms)->
+Record -> 7 
+Id-> 11 
+Name->IS_11
+Status->True
+Debug function-> 8 
+Upstream->True
+Orientation->False
+Check shape-> 2 
+Maximum parcel length-> 2000 
+Maximum code length-> 64 
+General purpose flags-> 20 
+Default position for parcel without data-> 800 
+Enable/Disable state transition trace-> 1 
+Number of parcel coded-> 2 
+CB start condition-> 2 
+CB stop when no chute found->False
+Scanner existing->False
+Scanner stop for no message->False
+Scanner stop for no read->False
+Scale existing->False
+Scale stop for no message->False
+Scale stop for no weight->False
+Scale stop for overweight->False
+Maximum weight allowed (g)-> 0 
+LB K angle (30/45)-> 30 
+Ghost Parcel Length-> 0 
+Max length for single cell loading-> 1300 
+Max width for single cell loading-> 550 
+Max item length allowed-> 1400 
+Max item width allowed-> 800 
+Genpar 0-> 35 
+Genpar 1-> 0 
+Genpar 2-> 0 
+Genpar 3-> 0 
+Virtual scanner ID for DCI->
+ID Belt 01->
+ID Belt 02->
+ID Belt 03->
+ID Belt 04->
+ID Belt 05->
+ID Belt 06->
+ID Belt 07->
+ID Belt 08->
+ID Belt 09->
+ID Belt 10->
+ID Belt 11->
+ID Belt 12->
+ID Belt 13->
+ID Belt 14->
+ID Belt 15->
+ID Belt 16->
+ID Belt 17->
+ID Belt 18->
+ID Belt 19->
+ID Belt 20->
+Area sensor id->
+Scanner id->
+Scale id->
+Upstream id->
+Downstream id->
+Alligator id->
+Power on DI->
+Power off DI->
+Power voltage ok->
+TVD ready->
+Start->
+Stop->
+Block->
+Reset->
+Automatic/manual->
+Reverse->
+Emergency->
+Jog panel connected->
+Sorter ok->
+Upstream ok->
+Parcel ready on the upstream->
+Loading->
+sbenable->
+Power on DO->
+Power off DO->
+Warning lamp->
+Status lamp->
+Emergency Lamp->
+IS ok to the Sorter->
+IS Emergency->
+IS ok to the upstream->
+Parcel start to the upstream->
+Horn->
+Loading Request->
+IS Run->
+Cell Activation->
+Alarm in case of no cells (s)->
+Alarm if initialization not ok (s)->
+Delay between belt activation (ms)->
+Resend (ms)->
+Sleep (s)->
+Horn (s)->
+Data waiting (ms)->
+Trup (ms)->
+Record -> 8 
+Id-> 12 
+Name->IS_12
+Status->True
+Debug function-> 8 
+Upstream->True
+Orientation->False
+Check shape-> 2 
+Maximum parcel length-> 2000 
+Maximum code length-> 64 
+General purpose flags-> 20 
+Default position for parcel without data-> 800 
+Enable/Disable state transition trace-> 1 
+Number of parcel coded-> 2 
+CB start condition-> 2 
+CB stop when no chute found->False
+Scanner existing->False
+Scanner stop for no message->False
+Scanner stop for no read->False
+Scale existing->False
+Scale stop for no message->False
+Scale stop for no weight->False
+Scale stop for overweight->False
+Maximum weight allowed (g)-> 0 
+LB K angle (30/45)-> 30 
+Ghost Parcel Length-> 0 
+Max length for single cell loading-> 1300 
+Max width for single cell loading-> 550 
+Max item length allowed-> 1400 
+Max item width allowed-> 800 
+Genpar 0-> 36 
+Genpar 1-> 0 
+Genpar 2-> 0 
+Genpar 3-> 0 
+Virtual scanner ID for DCI->
+ID Belt 01->
+ID Belt 02->
+ID Belt 03->
+ID Belt 04->
+ID Belt 05->
+ID Belt 06->
+ID Belt 07->
+ID Belt 08->
+ID Belt 09->
+ID Belt 10->
+ID Belt 11->
+ID Belt 12->
+ID Belt 13->
+ID Belt 14->
+ID Belt 15->
+ID Belt 16->
+ID Belt 17->
+ID Belt 18->
+ID Belt 19->
+ID Belt 20->
+Area sensor id->
+Scanner id->
+Scale id->
+Upstream id->
+Downstream id->
+Alligator id->
+Power on DI->
+Power off DI->
+Power voltage ok->
+TVD ready->
+Start->
+Stop->
+Block->
+Reset->
+Automatic/manual->
+Reverse->
+Emergency->
+Jog panel connected->
+Sorter ok->
+Upstream ok->
+Parcel ready on the upstream->
+Loading->
+sbenable->
+Power on DO->
+Power off DO->
+Warning lamp->
+Status lamp->
+Emergency Lamp->
+IS ok to the Sorter->
+IS Emergency->
+IS ok to the upstream->
+Parcel start to the upstream->
+Horn->
+Loading Request->
+IS Run->
+Cell Activation->
+Alarm in case of no cells (s)->
+Alarm if initialization not ok (s)->
+Delay between belt activation (ms)->
+Resend (ms)->
+Sleep (s)->
+Horn (s)->
+Data waiting (ms)->
+Trup (ms)->
+Record -> 9 
+Id-> 13 
+Name->IS_13
+Status->True
+Debug function-> 8 
+Upstream->True
+Orientation->False
+Check shape-> 2 
+Maximum parcel length-> 2000 
+Maximum code length-> 64 
+General purpose flags-> 20 
+Default position for parcel without data-> 800 
+Enable/Disable state transition trace-> 1 
+Number of parcel coded-> 2 
+CB start condition-> 2 
+CB stop when no chute found->False
+Scanner existing->False
+Scanner stop for no message->False
+Scanner stop for no read->False
+Scale existing->False
+Scale stop for no message->False
+Scale stop for no weight->False
+Scale stop for overweight->False
+Maximum weight allowed (g)-> 0 
+LB K angle (30/45)-> 30 
+Ghost Parcel Length-> 0 
+Max length for single cell loading-> 1300 
+Max width for single cell loading-> 550 
+Max item length allowed-> 1400 
+Max item width allowed-> 800 
+Genpar 0-> 37 
+Genpar 1-> 0 
+Genpar 2-> 0 
+Genpar 3-> 0 
+Virtual scanner ID for DCI->
+ID Belt 01->
+ID Belt 02->
+ID Belt 03->
+ID Belt 04->
+ID Belt 05->
+ID Belt 06->
+ID Belt 07->
+ID Belt 08->
+ID Belt 09->
+ID Belt 10->
+ID Belt 11->
+ID Belt 12->
+ID Belt 13->
+ID Belt 14->
+ID Belt 15->
+ID Belt 16->
+ID Belt 17->
+ID Belt 18->
+ID Belt 19->
+ID Belt 20->
+Area sensor id->
+Scanner id->
+Scale id->
+Upstream id->
+Downstream id->
+Alligator id->
+Power on DI->
+Power off DI->
+Power voltage ok->
+TVD ready->
+Start->
+Stop->
+Block->
+Reset->
+Automatic/manual->
+Reverse->
+Emergency->
+Jog panel connected->
+Sorter ok->
+Upstream ok->
+Parcel ready on the upstream->
+Loading->
+sbenable->
+Power on DO->
+Power off DO->
+Warning lamp->
+Status lamp->
+Emergency Lamp->
+IS ok to the Sorter->
+IS Emergency->
+IS ok to the upstream->
+Parcel start to the upstream->
+Horn->
+Loading Request->
+IS Run->
+Cell Activation->
+Alarm in case of no cells (s)->
+Alarm if initialization not ok (s)->
+Delay between belt activation (ms)->
+Resend (ms)->
+Sleep (s)->
+Horn (s)->
+Data waiting (ms)->
+Trup (ms)->
+Record -> 10 
+Id-> 14 
+Name->IS_14
+Status->True
+Debug function-> 8 
+Upstream->True
+Orientation->False
+Check shape-> 2 
+Maximum parcel length-> 2000 
+Maximum code length-> 64 
+General purpose flags-> 20 
+Default position for parcel without data-> 800 
+Enable/Disable state transition trace-> 1 
+Number of parcel coded-> 2 
+CB start condition-> 2 
+CB stop when no chute found->False
+Scanner existing->False
+Scanner stop for no message->False
+Scanner stop for no read->False
+Scale existing->False
+Scale stop for no message->False
+Scale stop for no weight->False
+Scale stop for overweight->False
+Maximum weight allowed (g)-> 0 
+LB K angle (30/45)-> 30 
+Ghost Parcel Length-> 0 
+Max length for single cell loading-> 1300 
+Max width for single cell loading-> 550 
+Max item length allowed-> 1400 
+Max item width allowed-> 800 
+Genpar 0-> 38 
+Genpar 1-> 0 
+Genpar 2-> 0 
+Genpar 3-> 0 
+Virtual scanner ID for DCI->
+ID Belt 01->
+ID Belt 02->
+ID Belt 03->
+ID Belt 04->
+ID Belt 05->
+ID Belt 06->
+ID Belt 07->
+ID Belt 08->
+ID Belt 09->
+ID Belt 10->
+ID Belt 11->
+ID Belt 12->
+ID Belt 13->
+ID Belt 14->
+ID Belt 15->
+ID Belt 16->
+ID Belt 17->
+ID Belt 18->
+ID Belt 19->
+ID Belt 20->
+Area sensor id->
+Scanner id->
+Scale id->
+Upstream id->
+Downstream id->
+Alligator id->
+Power on DI->
+Power off DI->
+Power voltage ok->
+TVD ready->
+Start->
+Stop->
+Block->
+Reset->
+Automatic/manual->
+Reverse->
+Emergency->
+Jog panel connected->
+Sorter ok->
+Upstream ok->
+Parcel ready on the upstream->
+Loading->
+sbenable->
+Power on DO->
+Power off DO->
+Warning lamp->
+Status lamp->
+Emergency Lamp->
+IS ok to the Sorter->
+IS Emergency->
+IS ok to the upstream->
+Parcel start to the upstream->
+Horn->
+Loading Request->
+IS Run->
+Cell Activation->
+Alarm in case of no cells (s)->
+Alarm if initialization not ok (s)->
+Delay between belt activation (ms)->
+Resend (ms)->
+Sleep (s)->
+Horn (s)->
+Data waiting (ms)->
+Trup (ms)->
+Record -> 11 
+Id-> 1 
+Name->IS_01
+Status->True
+Debug function-> 8 
+Upstream->True
+Orientation->False
+Check shape-> 2 
+Maximum parcel length-> 2000 
+Maximum code length-> 64 
+General purpose flags-> 20 
+Default position for parcel without data-> 800 
+Enable/Disable state transition trace-> 1 
+Number of parcel coded-> 2 
+CB start condition-> 2 
+CB stop when no chute found->False
+Scanner existing->False
+Scanner stop for no message->False
+Scanner stop for no read->False
+Scale existing->False
+Scale stop for no message->False
+Scale stop for no weight->False
+Scale stop for overweight->False
+Maximum weight allowed (g)-> 0 
+LB K angle (30/45)-> 30 
+Ghost Parcel Length-> 0 
+Max length for single cell loading-> 1300 
+Max width for single cell loading-> 550 
+Max item length allowed-> 1400 
+Max item width allowed-> 800 
+Genpar 0-> 25 
+Genpar 1-> 0 
+Genpar 2-> 0 
+Genpar 3-> 0 
+Virtual scanner ID for DCI->
+ID Belt 01->
+ID Belt 02->
+ID Belt 03->
+ID Belt 04->
+ID Belt 05->
+ID Belt 06->
+ID Belt 07->
+ID Belt 08->
+ID Belt 09->
+ID Belt 10->
+ID Belt 11->
+ID Belt 12->
+ID Belt 13->
+ID Belt 14->
+ID Belt 15->
+ID Belt 16->
+ID Belt 17->
+ID Belt 18->
+ID Belt 19->
+ID Belt 20->
+Area sensor id->
+Scanner id->
+Scale id->
+Upstream id->
+Downstream id->
+Alligator id->
+Power on DI->
+Power off DI->
+Power voltage ok->
+TVD ready->
+Start->
+Stop->
+Block->
+Reset->
+Automatic/manual->
+Reverse->
+Emergency->
+Jog panel connected->
+Sorter ok->
+Upstream ok->
+Parcel ready on the upstream->
+Loading->
+sbenable->
+Power on DO->
+Power off DO->
+Warning lamp->
+Status lamp->
+Emergency Lamp->
+IS ok to the Sorter->
+IS Emergency->
+IS ok to the upstream->
+Parcel start to the upstream->
+Horn->
+Loading Request->
+IS Run->
+Cell Activation->
+Alarm in case of no cells (s)->
+Alarm if initialization not ok (s)->
+Delay between belt activation (ms)->
+Resend (ms)->
+Sleep (s)->
+Horn (s)->
+Data waiting (ms)->
+Trup (ms)->
+Record -> 12 
+Id-> 2 
+Name->IS_02
+Status->True
+Debug function-> 8 
+Upstream->True
+Orientation->False
+Check shape-> 2 
+Maximum parcel length-> 2000 
+Maximum code length-> 64 
+General purpose flags-> 20 
+Default position for parcel without data-> 800 
+Enable/Disable state transition trace-> 1 
+Number of parcel coded-> 2 
+CB start condition-> 2 
+CB stop when no chute found->False
+Scanner existing->False
+Scanner stop for no message->False
+Scanner stop for no read->False
+Scale existing->False
+Scale stop for no message->False
+Scale stop for no weight->False
+Scale stop for overweight->False
+Maximum weight allowed (g)-> 0 
+LB K angle (30/45)-> 30 
+Ghost Parcel Length-> 0 
+Max length for single cell loading-> 1300 
+Max width for single cell loading-> 550 
+Max item length allowed-> 1400 
+Max item width allowed-> 800 
+Genpar 0-> 26 
+Genpar 1-> 0 
+Genpar 2-> 0 
+Genpar 3-> 0 
+Virtual scanner ID for DCI->
+ID Belt 01->
+ID Belt 02->
+ID Belt 03->
+ID Belt 04->
+ID Belt 05->
+ID Belt 06->
+ID Belt 07->
+ID Belt 08->
+ID Belt 09->
+ID Belt 10->
+ID Belt 11->
+ID Belt 12->
+ID Belt 13->
+ID Belt 14->
+ID Belt 15->
+ID Belt 16->
+ID Belt 17->
+ID Belt 18->
+ID Belt 19->
+ID Belt 20->
+Area sensor id->
+Scanner id->
+Scale id->
+Upstream id->
+Downstream id->
+Alligator id->
+Power on DI->
+Power off DI->
+Power voltage ok->
+TVD ready->
+Start->
+Stop->
+Block->
+Reset->
+Automatic/manual->
+Reverse->
+Emergency->
+Jog panel connected->
+Sorter ok->
+Upstream ok->
+Parcel ready on the upstream->
+Loading->
+sbenable->
+Power on DO->
+Power off DO->
+Warning lamp->
+Status lamp->
+Emergency Lamp->
+IS ok to the Sorter->
+IS Emergency->
+IS ok to the upstream->
+Parcel start to the upstream->
+Horn->
+Loading Request->
+IS Run->
+Cell Activation->
+Alarm in case of no cells (s)->
+Alarm if initialization not ok (s)->
+Delay between belt activation (ms)->
+Resend (ms)->
+Sleep (s)->
+Horn (s)->
+Data waiting (ms)->
+Trup (ms)->
+Record -> 13 
+Id-> 3 
+Name->IS_03
+Status->True
+Debug function-> 8 
+Upstream->True
+Orientation->False
+Check shape-> 2 
+Maximum parcel length-> 2000 
+Maximum code length-> 64 
+General purpose flags-> 20 
+Default position for parcel without data-> 800 
+Enable/Disable state transition trace-> 1 
+Number of parcel coded-> 2 
+CB start condition-> 2 
+CB stop when no chute found->False
+Scanner existing->False
+Scanner stop for no message->False
+Scanner stop for no read->False
+Scale existing->False
+Scale stop for no message->False
+Scale stop for no weight->False
+Scale stop for overweight->False
+Maximum weight allowed (g)-> 0 
+LB K angle (30/45)-> 30 
+Ghost Parcel Length-> 0 
+Max length for single cell loading-> 1300 
+Max width for single cell loading-> 550 
+Max item length allowed-> 1400 
+Max item width allowed-> 800 
+Genpar 0-> 27 
+Genpar 1-> 0 
+Genpar 2-> 0 
+Genpar 3-> 0 
+Virtual scanner ID for DCI->
+ID Belt 01->
+ID Belt 02->
+ID Belt 03->
+ID Belt 04->
+ID Belt 05->
+ID Belt 06->
+ID Belt 07->
+ID Belt 08->
+ID Belt 09->
+ID Belt 10->
+ID Belt 11->
+ID Belt 12->
+ID Belt 13->
+ID Belt 14->
+ID Belt 15->
+ID Belt 16->
+ID Belt 17->
+ID Belt 18->
+ID Belt 19->
+ID Belt 20->
+Area sensor id->
+Scanner id->
+Scale id->
+Upstream id->
+Downstream id->
+Alligator id->
+Power on DI->
+Power off DI->
+Power voltage ok->
+TVD ready->
+Start->
+Stop->
+Block->
+Reset->
+Automatic/manual->
+Reverse->
+Emergency->
+Jog panel connected->
+Sorter ok->
+Upstream ok->
+Parcel ready on the upstream->
+Loading->
+sbenable->
+Power on DO->
+Power off DO->
+Warning lamp->
+Status lamp->
+Emergency Lamp->
+IS ok to the Sorter->
+IS Emergency->
+IS ok to the upstream->
+Parcel start to the upstream->
+Horn->
+Loading Request->
+IS Run->
+Cell Activation->
+Alarm in case of no cells (s)->
+Alarm if initialization not ok (s)->
+Delay between belt activation (ms)->
+Resend (ms)->
+Sleep (s)->
+Horn (s)->
+Data waiting (ms)->
+Trup (ms)->
+Record -> 14 
+Id-> 4 
+Name->IS_04
+Status->True
+Debug function-> 8 
+Upstream->True
+Orientation->False
+Check shape-> 2 
+Maximum parcel length-> 2000 
+Maximum code length-> 64 
+General purpose flags-> 20 
+Default position for parcel without data-> 800 
+Enable/Disable state transition trace-> 1 
+Number of parcel coded-> 2 
+CB start condition-> 2 
+CB stop when no chute found->False
+Scanner existing->False
+Scanner stop for no message->False
+Scanner stop for no read->False
+Scale existing->False
+Scale stop for no message->False
+Scale stop for no weight->False
+Scale stop for overweight->False
+Maximum weight allowed (g)-> 0 
+LB K angle (30/45)-> 30 
+Ghost Parcel Length-> 0 
+Max length for single cell loading-> 1300 
+Max width for single cell loading-> 550 
+Max item length allowed-> 1400 
+Max item width allowed-> 800 
+Genpar 0-> 28 
+Genpar 1-> 0 
+Genpar 2-> 0 
+Genpar 3-> 0 
+Virtual scanner ID for DCI->
+ID Belt 01->
+ID Belt 02->
+ID Belt 03->
+ID Belt 04->
+ID Belt 05->
+ID Belt 06->
+ID Belt 07->
+ID Belt 08->
+ID Belt 09->
+ID Belt 10->
+ID Belt 11->
+ID Belt 12->
+ID Belt 13->
+ID Belt 14->
+ID Belt 15->
+ID Belt 16->
+ID Belt 17->
+ID Belt 18->
+ID Belt 19->
+ID Belt 20->
+Area sensor id->
+Scanner id->
+Scale id->
+Upstream id->
+Downstream id->
+Alligator id->
+Power on DI->
+Power off DI->
+Power voltage ok->
+TVD ready->
+Start->
+Stop->
+Block->
+Reset->
+Automatic/manual->
+Reverse->
+Emergency->
+Jog panel connected->
+Sorter ok->
+Upstream ok->
+Parcel ready on the upstream->
+Loading->
+sbenable->
+Power on DO->
+Power off DO->
+Warning lamp->
+Status lamp->
+Emergency Lamp->
+IS ok to the Sorter->
+IS Emergency->
+IS ok to the upstream->
+Parcel start to the upstream->
+Horn->
+Loading Request->
+IS Run->
+Cell Activation->
+Alarm in case of no cells (s)->
+Alarm if initialization not ok (s)->
+Delay between belt activation (ms)->
+Resend (ms)->
+Sleep (s)->
+Horn (s)->
+Data waiting (ms)->
+Trup (ms)->

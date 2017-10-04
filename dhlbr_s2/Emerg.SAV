@@ -1,0 +1,85 @@
+Fields -> 3 
+Record -> 1 
+Id-> 2 
+Emergency input signal name->I_EMGPB_3LV1
+Emergency output signal name->
+Record -> 2 
+Id-> 3 
+Emergency input signal name->I_EMGMAN3LV1
+Emergency output signal name->
+Record -> 3 
+Id-> 4 
+Emergency input signal name->I_EMGPB_3LV2
+Emergency output signal name->
+Record -> 4 
+Id-> 5 
+Emergency input signal name->I_EMGPB_3LV3
+Emergency output signal name->
+Record -> 5 
+Id-> 6 
+Emergency input signal name->I_EMGPB_3LV4
+Emergency output signal name->
+Record -> 6 
+Id-> 7 
+Emergency input signal name->I_EMGPB_3LV5
+Emergency output signal name->
+Record -> 7 
+Id-> 8 
+Emergency input signal name->I_EMGPB_IS01
+Emergency output signal name->
+Record -> 8 
+Id-> 9 
+Emergency input signal name->I_EMGPB_IS02
+Emergency output signal name->
+Record -> 9 
+Id-> 10 
+Emergency input signal name->I_EMGPB_IS03
+Emergency output signal name->
+Record -> 10 
+Id-> 11 
+Emergency input signal name->I_EMGPB_IS04
+Emergency output signal name->
+Record -> 11 
+Id-> 12 
+Emergency input signal name->I_EMGPB_IS05
+Emergency output signal name->
+Record -> 12 
+Id-> 13 
+Emergency input signal name->I_EMGPB_IS06
+Emergency output signal name->
+Record -> 13 
+Id-> 14 
+Emergency input signal name->I_EMGPB_IS07
+Emergency output signal name->
+Record -> 14 
+Id-> 15 
+Emergency input signal name->I_EMGPB_IS08
+Emergency output signal name->
+Record -> 15 
+Id-> 16 
+Emergency input signal name->I_EMGPB_IS09
+Emergency output signal name->
+Record -> 16 
+Id-> 17 
+Emergency input signal name->I_EMGPB_IS10
+Emergency output signal name->
+Record -> 17 
+Id-> 18 
+Emergency input signal name->I_EMGPB_IS11
+Emergency output signal name->
+Record -> 18 
+Id-> 19 
+Emergency input signal name->I_EMGPB_IS12
+Emergency output signal name->
+Record -> 19 
+Id-> 20 
+Emergency input signal name->I_EMGPB_IS13
+Emergency output signal name->
+Record -> 20 
+Id-> 21 
+Emergency input signal name->I_EMGPB_IS14
+Emergency output signal name->
+Record -> 21 
+Id-> 22 
+Emergency input signal name->I_EXTEMG3LV1
+Emergency output signal name->

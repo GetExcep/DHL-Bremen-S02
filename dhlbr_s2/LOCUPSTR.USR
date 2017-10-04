@@ -1,0 +1,14 @@
+//
+TableName="LOCUPSTR"
+//
+//
+Field="Id",DB_INTEGER
+Field="Type required (yes/no)",DB_BOOLEAN
+Field="Progressive DI signal",DB_TEXT,12
+Field="Data ready DI signal",DB_TEXT,12
+Field="PLC reset ack DI signal",DB_TEXT,12
+Field="OUT1: general purpose",DB_TEXT,12
+Field="OUT2: general purpose",DB_TEXT,12
+Field="Reset to PLC DO signal",DB_TEXT,12
+//
+Index="Id","+Id",yes,yes

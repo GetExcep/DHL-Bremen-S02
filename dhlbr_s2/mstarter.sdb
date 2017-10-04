@@ -1,0 +1,17 @@
+//
+// Mstarter Table
+//
+Field="id"
+Field="name"
+Field="enable"
+Field="s_cfg_mstarter.type"
+Field="s_di_ready.name"
+Field="s_di_running.name"
+Field="s_di_tripped.name"
+Field="s_di_400Vswitch.name"
+Field="s_do_runfw.name"
+Field="s_do_runbw.name"
+Field="s_do_expansion.name"
+Field="s_do_rspn.name"
+Field="s_state.trace"
+//

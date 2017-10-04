@@ -1,0 +1,18 @@
+//
+// MFR device table
+//
+TableName="mfr_dev"
+//
+Field="dev",DB_INTEGER
+Field="dev_id",DB_INTEGER
+Field="AKZ name",DB_TEXT,20
+Field="MFR location id",DB_LONG
+Field="Config",DB_LONG
+Field="Send status",DB_LONG
+Field="Status",DB_LONG
+Field="Status mask",DB_LONG
+Field="Alarm",DB_LONG
+//
+Index="dev","+dev;+dev_id",yes,yes
+  
+

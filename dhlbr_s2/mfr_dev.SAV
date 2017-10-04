@@ -1,0 +1,8661 @@
+Fields -> 9 
+Record -> 1 
+dev-> 3 
+dev_id-> 11307 
+AKZ name->=EA02.WR0307
+MFR location id-> 11307 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 2 
+dev-> 3 
+dev_id-> 11308 
+AKZ name->=EA02.WR0308
+MFR location id-> 11308 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 3 
+dev-> 3 
+dev_id-> 11309 
+AKZ name->=EA02.WR0309
+MFR location id-> 11309 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 4 
+dev-> 3 
+dev_id-> 11310 
+AKZ name->=EA02.WR0310
+MFR location id-> 11310 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 5 
+dev-> 3 
+dev_id-> 11311 
+AKZ name->=EA02.WR0311
+MFR location id-> 11311 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 6 
+dev-> 3 
+dev_id-> 11312 
+AKZ name->=EA02.WR0312
+MFR location id-> 11312 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 7 
+dev-> 3 
+dev_id-> 11313 
+AKZ name->=EA02.WR0313
+MFR location id-> 11313 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 8 
+dev-> 3 
+dev_id-> 11314 
+AKZ name->=EA02.WR0314
+MFR location id-> 11314 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 9 
+dev-> 3 
+dev_id-> 11315 
+AKZ name->=EA02.WR0315
+MFR location id-> 11315 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 10 
+dev-> 3 
+dev_id-> 11316 
+AKZ name->=EA02.WR0316
+MFR location id-> 11316 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 11 
+dev-> 3 
+dev_id-> 11317 
+AKZ name->=EA02.WR0317
+MFR location id-> 11317 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 12 
+dev-> 3 
+dev_id-> 11318 
+AKZ name->=EA02.WR0318
+MFR location id-> 11318 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 13 
+dev-> 3 
+dev_id-> 11319 
+AKZ name->=EA02.WR0319
+MFR location id-> 11319 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 14 
+dev-> 3 
+dev_id-> 11320 
+AKZ name->=EA02.WR0320
+MFR location id-> 11320 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 15 
+dev-> 3 
+dev_id-> 11321 
+AKZ name->=EA02.WR0321
+MFR location id-> 11321 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 16 
+dev-> 3 
+dev_id-> 11322 
+AKZ name->=EA02.WR0322
+MFR location id-> 11322 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 17 
+dev-> 3 
+dev_id-> 11999 
+AKZ name->=NB01.GFB201
+MFR location id-> 11999 
+Config-> 2 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 18 
+dev-> 3 
+dev_id-> 12001 
+AKZ name->=EB01.KR0001
+MFR location id-> 12001 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 19 
+dev-> 3 
+dev_id-> 12002 
+AKZ name->=EB01.KR0002
+MFR location id-> 12002 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 20 
+dev-> 3 
+dev_id-> 12003 
+AKZ name->=EB01.KR0003
+MFR location id-> 12003 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 21 
+dev-> 3 
+dev_id-> 12004 
+AKZ name->=EB01.KR0004
+MFR location id-> 12004 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 22 
+dev-> 3 
+dev_id-> 12005 
+AKZ name->=EB01.KR0005
+MFR location id-> 12005 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 23 
+dev-> 3 
+dev_id-> 12006 
+AKZ name->=EB01.KR0006
+MFR location id-> 12006 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 24 
+dev-> 3 
+dev_id-> 12007 
+AKZ name->=EB01.KR0007
+MFR location id-> 12007 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 25 
+dev-> 3 
+dev_id-> 12008 
+AKZ name->=EB01.KR0008
+MFR location id-> 12008 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 26 
+dev-> 3 
+dev_id-> 12009 
+AKZ name->=EB01.KR0009
+MFR location id-> 12009 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 27 
+dev-> 3 
+dev_id-> 12010 
+AKZ name->=EB01.KR0010
+MFR location id-> 12010 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 28 
+dev-> 3 
+dev_id-> 12011 
+AKZ name->=EB01.KR0011
+MFR location id-> 12011 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 29 
+dev-> 3 
+dev_id-> 12012 
+AKZ name->=EB01.KR0012
+MFR location id-> 12012 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 30 
+dev-> 3 
+dev_id-> 12013 
+AKZ name->=EB01.KR0013
+MFR location id-> 12013 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 31 
+dev-> 3 
+dev_id-> 12014 
+AKZ name->=EB01.KR0014
+MFR location id-> 12014 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 32 
+dev-> 3 
+dev_id-> 12015 
+AKZ name->=EB01.KR0015
+MFR location id-> 12015 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 33 
+dev-> 3 
+dev_id-> 12016 
+AKZ name->=EB01.KR0016
+MFR location id-> 12016 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 34 
+dev-> 3 
+dev_id-> 12017 
+AKZ name->=EB01.KR0017
+MFR location id-> 12017 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 35 
+dev-> 3 
+dev_id-> 12018 
+AKZ name->=EB01.KR0018
+MFR location id-> 12018 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 36 
+dev-> 3 
+dev_id-> 12019 
+AKZ name->=EB01.KR0019
+MFR location id-> 12019 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 37 
+dev-> 3 
+dev_id-> 12020 
+AKZ name->=EB01.KR0020
+MFR location id-> 12020 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 38 
+dev-> 3 
+dev_id-> 12021 
+AKZ name->=EB01.KR0021
+MFR location id-> 12021 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 39 
+dev-> 3 
+dev_id-> 12022 
+AKZ name->=EB01.KR0022
+MFR location id-> 12022 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 40 
+dev-> 3 
+dev_id-> 12023 
+AKZ name->=EB01.KR0023
+MFR location id-> 12023 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 41 
+dev-> 3 
+dev_id-> 12024 
+AKZ name->=EB01.KR0024
+MFR location id-> 12024 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 42 
+dev-> 3 
+dev_id-> 12025 
+AKZ name->=EB01.KR0025
+MFR location id-> 12025 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 43 
+dev-> 3 
+dev_id-> 12026 
+AKZ name->=EB01.KR0026
+MFR location id-> 12026 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 44 
+dev-> 3 
+dev_id-> 12027 
+AKZ name->=EB01.KR0027
+MFR location id-> 12027 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 45 
+dev-> 3 
+dev_id-> 12028 
+AKZ name->=EB01.KR0028
+MFR location id-> 12028 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 46 
+dev-> 3 
+dev_id-> 12029 
+AKZ name->=EB01.KR0029
+MFR location id-> 12029 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 47 
+dev-> 3 
+dev_id-> 12030 
+AKZ name->=EB01.KR0030
+MFR location id-> 12030 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 48 
+dev-> 3 
+dev_id-> 12031 
+AKZ name->=EB01.KR0031
+MFR location id-> 12031 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 49 
+dev-> 3 
+dev_id-> 12032 
+AKZ name->=EB01.KR0032
+MFR location id-> 12032 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 50 
+dev-> 3 
+dev_id-> 12033 
+AKZ name->=EB01.KR0033
+MFR location id-> 12033 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 51 
+dev-> 3 
+dev_id-> 12034 
+AKZ name->=EB01.KR0034
+MFR location id-> 12034 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 52 
+dev-> 3 
+dev_id-> 12035 
+AKZ name->=EB01.KR0035
+MFR location id-> 12035 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 53 
+dev-> 3 
+dev_id-> 12036 
+AKZ name->=EB01.KR0036
+MFR location id-> 12036 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 54 
+dev-> 3 
+dev_id-> 12037 
+AKZ name->=EB01.KR0037
+MFR location id-> 12037 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 55 
+dev-> 3 
+dev_id-> 12038 
+AKZ name->=EB01.KR0038
+MFR location id-> 12038 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 56 
+dev-> 3 
+dev_id-> 12039 
+AKZ name->=EB01.KR0039
+MFR location id-> 12039 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 57 
+dev-> 3 
+dev_id-> 12040 
+AKZ name->=EB01.KR0040
+MFR location id-> 12040 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 58 
+dev-> 3 
+dev_id-> 12041 
+AKZ name->=EB01.KR0041
+MFR location id-> 12041 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 59 
+dev-> 3 
+dev_id-> 12042 
+AKZ name->=EB01.KR0042
+MFR location id-> 12042 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 60 
+dev-> 3 
+dev_id-> 12043 
+AKZ name->=EB01.KR0043
+MFR location id-> 12043 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 61 
+dev-> 3 
+dev_id-> 12044 
+AKZ name->=EB01.KR0044
+MFR location id-> 12044 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 62 
+dev-> 3 
+dev_id-> 12045 
+AKZ name->=EB01.KR0045
+MFR location id-> 12045 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 63 
+dev-> 3 
+dev_id-> 12046 
+AKZ name->=EB01.KR0046
+MFR location id-> 12046 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 64 
+dev-> 1 
+dev_id-> 1 
+AKZ name->=SO03
+MFR location id-> 10002 
+Config-> 1 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 65 
+dev-> 3 
+dev_id-> 2213 
+AKZ name->=BP01.GF0001
+MFR location id-> 2213 
+Config-> 2 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 66 
+dev-> 3 
+dev_id-> 2223 
+AKZ name->=BP02.GF0001
+MFR location id-> 2223 
+Config-> 2 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 67 
+dev-> 3 
+dev_id-> 11001 
+AKZ name->=EA01.WR0001
+MFR location id-> 11001 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 68 
+dev-> 3 
+dev_id-> 11002 
+AKZ name->=EA01.WR0002
+MFR location id-> 11002 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 69 
+dev-> 3 
+dev_id-> 11003 
+AKZ name->=EA01.WR0003
+MFR location id-> 11003 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 70 
+dev-> 3 
+dev_id-> 11004 
+AKZ name->=EA01.WR0004
+MFR location id-> 11004 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 71 
+dev-> 3 
+dev_id-> 11005 
+AKZ name->=EA01.WR0005
+MFR location id-> 11005 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 72 
+dev-> 3 
+dev_id-> 11006 
+AKZ name->=EA01.WR0006
+MFR location id-> 11006 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 73 
+dev-> 3 
+dev_id-> 11007 
+AKZ name->=EA01.WR0007
+MFR location id-> 11007 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 74 
+dev-> 3 
+dev_id-> 11008 
+AKZ name->=EA01.WR0008
+MFR location id-> 11008 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 75 
+dev-> 3 
+dev_id-> 11009 
+AKZ name->=EA01.WR0009
+MFR location id-> 11009 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 76 
+dev-> 3 
+dev_id-> 11010 
+AKZ name->=EA01.WR0010
+MFR location id-> 11010 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 77 
+dev-> 3 
+dev_id-> 11011 
+AKZ name->=EA01.WR0011
+MFR location id-> 11011 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 78 
+dev-> 3 
+dev_id-> 11012 
+AKZ name->=EA01.WR0012
+MFR location id-> 11012 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 79 
+dev-> 3 
+dev_id-> 11013 
+AKZ name->=EA01.WR0013
+MFR location id-> 11013 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 80 
+dev-> 3 
+dev_id-> 11014 
+AKZ name->=EA01.WR0014
+MFR location id-> 11014 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 81 
+dev-> 3 
+dev_id-> 11015 
+AKZ name->=EA01.WR0015
+MFR location id-> 11015 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 82 
+dev-> 3 
+dev_id-> 11016 
+AKZ name->=EA01.WR0016
+MFR location id-> 11016 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 83 
+dev-> 3 
+dev_id-> 11017 
+AKZ name->=EA01.WR0017
+MFR location id-> 11017 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 84 
+dev-> 3 
+dev_id-> 11018 
+AKZ name->=EA01.WR0018
+MFR location id-> 11018 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 85 
+dev-> 3 
+dev_id-> 11019 
+AKZ name->=EA01.WR0019
+MFR location id-> 11019 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 86 
+dev-> 3 
+dev_id-> 11020 
+AKZ name->=EA01.WR0020
+MFR location id-> 11020 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 87 
+dev-> 3 
+dev_id-> 11021 
+AKZ name->=EA01.WR0021
+MFR location id-> 11021 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 88 
+dev-> 3 
+dev_id-> 11022 
+AKZ name->=EA01.WR0022
+MFR location id-> 11022 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 89 
+dev-> 3 
+dev_id-> 11101 
+AKZ name->=EA01.WR0101
+MFR location id-> 11101 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 90 
+dev-> 3 
+dev_id-> 11102 
+AKZ name->=EA01.WR0102
+MFR location id-> 11102 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 91 
+dev-> 3 
+dev_id-> 11103 
+AKZ name->=EA01.WR0103
+MFR location id-> 11103 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 92 
+dev-> 3 
+dev_id-> 11104 
+AKZ name->=EA01.WR0104
+MFR location id-> 11104 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 93 
+dev-> 3 
+dev_id-> 11105 
+AKZ name->=EA01.WR0105
+MFR location id-> 11105 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 94 
+dev-> 3 
+dev_id-> 11106 
+AKZ name->=EA01.WR0106
+MFR location id-> 11106 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 95 
+dev-> 3 
+dev_id-> 11107 
+AKZ name->=EA01.WR0107
+MFR location id-> 11107 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 96 
+dev-> 3 
+dev_id-> 11108 
+AKZ name->=EA01.WR0108
+MFR location id-> 11108 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 97 
+dev-> 3 
+dev_id-> 11109 
+AKZ name->=EA01.WR0109
+MFR location id-> 11109 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 98 
+dev-> 3 
+dev_id-> 11110 
+AKZ name->=EA01.WR0110
+MFR location id-> 11110 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 99 
+dev-> 3 
+dev_id-> 11111 
+AKZ name->=EA01.WR0111
+MFR location id-> 11111 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 100 
+dev-> 3 
+dev_id-> 11201 
+AKZ name->=EA02.WR0201
+MFR location id-> 11201 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 101 
+dev-> 3 
+dev_id-> 11202 
+AKZ name->=EA02.WR0202
+MFR location id-> 11202 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 102 
+dev-> 3 
+dev_id-> 11203 
+AKZ name->=EA02.WR0203
+MFR location id-> 11203 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 103 
+dev-> 3 
+dev_id-> 11204 
+AKZ name->=EA02.WR0204
+MFR location id-> 11204 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 104 
+dev-> 3 
+dev_id-> 11205 
+AKZ name->=EA02.WR0205
+MFR location id-> 11205 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 105 
+dev-> 3 
+dev_id-> 11206 
+AKZ name->=EA02.WR0206
+MFR location id-> 11206 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 106 
+dev-> 3 
+dev_id-> 11207 
+AKZ name->=EA02.WR0207
+MFR location id-> 11207 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 107 
+dev-> 3 
+dev_id-> 11208 
+AKZ name->=EA02.WR0208
+MFR location id-> 11208 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 108 
+dev-> 3 
+dev_id-> 11209 
+AKZ name->=EA02.WR0209
+MFR location id-> 11209 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 109 
+dev-> 3 
+dev_id-> 11210 
+AKZ name->=EA02.WR0210
+MFR location id-> 11210 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 110 
+dev-> 3 
+dev_id-> 11211 
+AKZ name->=EA02.WR0211
+MFR location id-> 11211 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 111 
+dev-> 3 
+dev_id-> 11301 
+AKZ name->=EA02.WR0301
+MFR location id-> 11301 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 112 
+dev-> 3 
+dev_id-> 11302 
+AKZ name->=EA02.WR0302
+MFR location id-> 11302 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 113 
+dev-> 3 
+dev_id-> 11303 
+AKZ name->=EA02.WR0303
+MFR location id-> 11303 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 114 
+dev-> 3 
+dev_id-> 11304 
+AKZ name->=EA02.WR0304
+MFR location id-> 11304 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 115 
+dev-> 3 
+dev_id-> 11305 
+AKZ name->=EA02.WR0305
+MFR location id-> 11305 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 116 
+dev-> 3 
+dev_id-> 11306 
+AKZ name->=EA02.WR0306
+MFR location id-> 11306 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 117 
+dev-> 3 
+dev_id-> 12047 
+AKZ name->=EB01.KR0047
+MFR location id-> 12047 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 118 
+dev-> 3 
+dev_id-> 12048 
+AKZ name->=EB01.KR0048
+MFR location id-> 12048 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 119 
+dev-> 3 
+dev_id-> 12049 
+AKZ name->=EB01.KR0049
+MFR location id-> 12049 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 120 
+dev-> 3 
+dev_id-> 12050 
+AKZ name->=EB01.KR0050
+MFR location id-> 12050 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 121 
+dev-> 3 
+dev_id-> 12051 
+AKZ name->=EB01.KR0051
+MFR location id-> 12051 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 122 
+dev-> 3 
+dev_id-> 12052 
+AKZ name->=EB01.KR0052
+MFR location id-> 12052 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 123 
+dev-> 3 
+dev_id-> 12053 
+AKZ name->=EB01.KR0053
+MFR location id-> 12053 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 124 
+dev-> 3 
+dev_id-> 12054 
+AKZ name->=EB01.KR0054
+MFR location id-> 12054 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 125 
+dev-> 3 
+dev_id-> 12055 
+AKZ name->=EB01.KR0055
+MFR location id-> 12055 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 126 
+dev-> 3 
+dev_id-> 12056 
+AKZ name->=EB01.KR0056
+MFR location id-> 12056 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 127 
+dev-> 3 
+dev_id-> 12057 
+AKZ name->=EB01.KR0057
+MFR location id-> 12057 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 128 
+dev-> 3 
+dev_id-> 12058 
+AKZ name->=EB01.KR0058
+MFR location id-> 12058 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 129 
+dev-> 3 
+dev_id-> 12059 
+AKZ name->=EB01.KR0059
+MFR location id-> 12059 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 130 
+dev-> 3 
+dev_id-> 12060 
+AKZ name->=EB01.KR0060
+MFR location id-> 12060 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 131 
+dev-> 3 
+dev_id-> 12061 
+AKZ name->=EB01.KR0061
+MFR location id-> 12061 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 132 
+dev-> 3 
+dev_id-> 12062 
+AKZ name->=EB01.KR0062
+MFR location id-> 12062 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 133 
+dev-> 3 
+dev_id-> 12063 
+AKZ name->=EB01.KR0063
+MFR location id-> 12063 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 134 
+dev-> 3 
+dev_id-> 12064 
+AKZ name->=EB01.KR0064
+MFR location id-> 12064 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 135 
+dev-> 3 
+dev_id-> 12065 
+AKZ name->=EB01.KR0065
+MFR location id-> 12065 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 136 
+dev-> 3 
+dev_id-> 12066 
+AKZ name->=EB01.KR0066
+MFR location id-> 12066 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 137 
+dev-> 3 
+dev_id-> 12067 
+AKZ name->=EB01.KR0067
+MFR location id-> 12067 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 138 
+dev-> 3 
+dev_id-> 12068 
+AKZ name->=EB01.KR0068
+MFR location id-> 12068 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 139 
+dev-> 3 
+dev_id-> 12069 
+AKZ name->=EB01.KR0069
+MFR location id-> 12069 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 140 
+dev-> 3 
+dev_id-> 12070 
+AKZ name->=EB01.KR0070
+MFR location id-> 12070 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 141 
+dev-> 3 
+dev_id-> 12071 
+AKZ name->=EB01.KR0071
+MFR location id-> 12071 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 142 
+dev-> 3 
+dev_id-> 12072 
+AKZ name->=EB01.KR0072
+MFR location id-> 12072 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 143 
+dev-> 3 
+dev_id-> 12073 
+AKZ name->=EB01.KR0073
+MFR location id-> 12073 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 144 
+dev-> 3 
+dev_id-> 12074 
+AKZ name->=EB01.KR0074
+MFR location id-> 12074 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 145 
+dev-> 3 
+dev_id-> 12075 
+AKZ name->=EB01.KR0075
+MFR location id-> 12075 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 146 
+dev-> 3 
+dev_id-> 12076 
+AKZ name->=EB01.KR0076
+MFR location id-> 12076 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 147 
+dev-> 3 
+dev_id-> 12077 
+AKZ name->=EB01.KR0077
+MFR location id-> 12077 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 148 
+dev-> 3 
+dev_id-> 12078 
+AKZ name->=EB01.KR0078
+MFR location id-> 12078 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 149 
+dev-> 3 
+dev_id-> 12079 
+AKZ name->=EB01.KR0079
+MFR location id-> 12079 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 150 
+dev-> 3 
+dev_id-> 12080 
+AKZ name->=EB01.KR0080
+MFR location id-> 12080 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 151 
+dev-> 3 
+dev_id-> 12081 
+AKZ name->=EB01.KR0081
+MFR location id-> 12081 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 152 
+dev-> 3 
+dev_id-> 12082 
+AKZ name->=EB01.KR0082
+MFR location id-> 12082 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 153 
+dev-> 3 
+dev_id-> 12083 
+AKZ name->=EB01.KR0083
+MFR location id-> 12083 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 154 
+dev-> 3 
+dev_id-> 12101 
+AKZ name->=EB01.KR0101
+MFR location id-> 12101 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 155 
+dev-> 3 
+dev_id-> 12102 
+AKZ name->=EB01.KR0102
+MFR location id-> 12102 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 156 
+dev-> 3 
+dev_id-> 12103 
+AKZ name->=EB01.KR0103
+MFR location id-> 12103 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 157 
+dev-> 3 
+dev_id-> 12104 
+AKZ name->=EB01.KR0104
+MFR location id-> 12104 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 158 
+dev-> 3 
+dev_id-> 12105 
+AKZ name->=EB01.KR0105
+MFR location id-> 12105 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 159 
+dev-> 3 
+dev_id-> 12106 
+AKZ name->=EB01.KR0106
+MFR location id-> 12106 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 160 
+dev-> 3 
+dev_id-> 12107 
+AKZ name->=EB01.KR0107
+MFR location id-> 12107 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 161 
+dev-> 3 
+dev_id-> 12108 
+AKZ name->=EB01.KR0108
+MFR location id-> 12108 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 162 
+dev-> 3 
+dev_id-> 12109 
+AKZ name->=EB01.KR0109
+MFR location id-> 12109 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 163 
+dev-> 3 
+dev_id-> 12110 
+AKZ name->=EB01.KR0110
+MFR location id-> 12110 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 164 
+dev-> 3 
+dev_id-> 12111 
+AKZ name->=EB01.KR0111
+MFR location id-> 12111 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 165 
+dev-> 3 
+dev_id-> 12112 
+AKZ name->=EB01.KR0112
+MFR location id-> 12112 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 166 
+dev-> 3 
+dev_id-> 12113 
+AKZ name->=EB01.KR0113
+MFR location id-> 12113 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 167 
+dev-> 3 
+dev_id-> 12114 
+AKZ name->=EB01.KR0114
+MFR location id-> 12114 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 168 
+dev-> 3 
+dev_id-> 12115 
+AKZ name->=EB01.KR0115
+MFR location id-> 12115 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 169 
+dev-> 3 
+dev_id-> 12116 
+AKZ name->=EB01.KR0116
+MFR location id-> 12116 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 170 
+dev-> 3 
+dev_id-> 12117 
+AKZ name->=EB01.KR0117
+MFR location id-> 12117 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 171 
+dev-> 3 
+dev_id-> 12118 
+AKZ name->=EB01.KR0118
+MFR location id-> 12118 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 172 
+dev-> 3 
+dev_id-> 12119 
+AKZ name->=EB01.KR0119
+MFR location id-> 12119 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 173 
+dev-> 3 
+dev_id-> 12120 
+AKZ name->=EB01.KR0120
+MFR location id-> 12120 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 174 
+dev-> 3 
+dev_id-> 12121 
+AKZ name->=EB01.KR0121
+MFR location id-> 12121 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 175 
+dev-> 3 
+dev_id-> 12122 
+AKZ name->=EB01.KR0122
+MFR location id-> 12122 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 176 
+dev-> 3 
+dev_id-> 12123 
+AKZ name->=EB01.KR0123
+MFR location id-> 12123 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 177 
+dev-> 3 
+dev_id-> 12124 
+AKZ name->=EB01.KR0124
+MFR location id-> 12124 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 178 
+dev-> 3 
+dev_id-> 12125 
+AKZ name->=EB01.KR0125
+MFR location id-> 12125 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 179 
+dev-> 3 
+dev_id-> 12126 
+AKZ name->=EB01.KR0126
+MFR location id-> 12126 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 180 
+dev-> 3 
+dev_id-> 12127 
+AKZ name->=EB01.KR0127
+MFR location id-> 12127 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 181 
+dev-> 3 
+dev_id-> 12128 
+AKZ name->=EB01.KR0128
+MFR location id-> 12128 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 182 
+dev-> 3 
+dev_id-> 12129 
+AKZ name->=EB01.KR0129
+MFR location id-> 12129 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 183 
+dev-> 3 
+dev_id-> 12130 
+AKZ name->=EB01.KR0130
+MFR location id-> 12130 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 184 
+dev-> 3 
+dev_id-> 12131 
+AKZ name->=EB01.KR0131
+MFR location id-> 12131 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 185 
+dev-> 3 
+dev_id-> 12132 
+AKZ name->=EB01.KR0132
+MFR location id-> 12132 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 186 
+dev-> 3 
+dev_id-> 12133 
+AKZ name->=EB01.KR0133
+MFR location id-> 12133 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 187 
+dev-> 3 
+dev_id-> 12134 
+AKZ name->=EB01.KR0134
+MFR location id-> 12134 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 188 
+dev-> 3 
+dev_id-> 12135 
+AKZ name->=EB01.KR0135
+MFR location id-> 12135 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 189 
+dev-> 3 
+dev_id-> 12136 
+AKZ name->=EB01.KR0136
+MFR location id-> 12136 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 190 
+dev-> 3 
+dev_id-> 12137 
+AKZ name->=EB01.KR0137
+MFR location id-> 12137 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 191 
+dev-> 3 
+dev_id-> 12138 
+AKZ name->=EB01.KR0138
+MFR location id-> 12138 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 192 
+dev-> 3 
+dev_id-> 12139 
+AKZ name->=EB01.KR0139
+MFR location id-> 12139 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 193 
+dev-> 3 
+dev_id-> 12140 
+AKZ name->=EB01.KR0140
+MFR location id-> 12140 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 194 
+dev-> 3 
+dev_id-> 12141 
+AKZ name->=EB01.KR0141
+MFR location id-> 12141 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 195 
+dev-> 3 
+dev_id-> 12142 
+AKZ name->=EB01.KR0142
+MFR location id-> 12142 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 196 
+dev-> 3 
+dev_id-> 12143 
+AKZ name->=EB01.KR0143
+MFR location id-> 12143 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 197 
+dev-> 3 
+dev_id-> 12144 
+AKZ name->=EB01.KR0144
+MFR location id-> 12144 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 198 
+dev-> 3 
+dev_id-> 12145 
+AKZ name->=EB01.KR0145
+MFR location id-> 12145 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 199 
+dev-> 3 
+dev_id-> 12146 
+AKZ name->=EB01.KR0146
+MFR location id-> 12146 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 200 
+dev-> 3 
+dev_id-> 12147 
+AKZ name->=EB01.KR0147
+MFR location id-> 12147 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 201 
+dev-> 3 
+dev_id-> 12148 
+AKZ name->=EB01.KR0148
+MFR location id-> 12148 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 202 
+dev-> 3 
+dev_id-> 12149 
+AKZ name->=EB01.KR0149
+MFR location id-> 12149 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 203 
+dev-> 3 
+dev_id-> 12150 
+AKZ name->=EB01.KR0150
+MFR location id-> 12150 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 204 
+dev-> 3 
+dev_id-> 12151 
+AKZ name->=EB01.KR0151
+MFR location id-> 12151 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 205 
+dev-> 3 
+dev_id-> 12152 
+AKZ name->=EB01.KR0152
+MFR location id-> 12152 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 206 
+dev-> 3 
+dev_id-> 12153 
+AKZ name->=EB01.KR0153
+MFR location id-> 12153 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 207 
+dev-> 3 
+dev_id-> 12154 
+AKZ name->=EB01.KR0154
+MFR location id-> 12154 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 208 
+dev-> 3 
+dev_id-> 12155 
+AKZ name->=EB01.KR0155
+MFR location id-> 12155 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 209 
+dev-> 3 
+dev_id-> 12156 
+AKZ name->=EB01.KR0156
+MFR location id-> 12156 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 210 
+dev-> 3 
+dev_id-> 12157 
+AKZ name->=EB01.KR0157
+MFR location id-> 12157 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 211 
+dev-> 3 
+dev_id-> 12158 
+AKZ name->=EB01.KR0158
+MFR location id-> 12158 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 212 
+dev-> 3 
+dev_id-> 12159 
+AKZ name->=EB01.KR0159
+MFR location id-> 12159 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 213 
+dev-> 3 
+dev_id-> 12160 
+AKZ name->=EB01.KR0160
+MFR location id-> 12160 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 214 
+dev-> 3 
+dev_id-> 12161 
+AKZ name->=EB01.KR0161
+MFR location id-> 12161 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 215 
+dev-> 3 
+dev_id-> 12162 
+AKZ name->=EB01.KR0162
+MFR location id-> 12162 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 216 
+dev-> 3 
+dev_id-> 12163 
+AKZ name->=EB01.KR0163
+MFR location id-> 12163 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 217 
+dev-> 3 
+dev_id-> 12164 
+AKZ name->=EB01.KR0164
+MFR location id-> 12164 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 218 
+dev-> 3 
+dev_id-> 12165 
+AKZ name->=EB01.KR0165
+MFR location id-> 12165 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 219 
+dev-> 3 
+dev_id-> 12166 
+AKZ name->=EB01.KR0166
+MFR location id-> 12166 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 220 
+dev-> 3 
+dev_id-> 12167 
+AKZ name->=EB01.KR0167
+MFR location id-> 12167 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 221 
+dev-> 3 
+dev_id-> 12168 
+AKZ name->=EB01.KR0168
+MFR location id-> 12168 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 222 
+dev-> 3 
+dev_id-> 12169 
+AKZ name->=EB01.KR0169
+MFR location id-> 12169 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 223 
+dev-> 3 
+dev_id-> 12170 
+AKZ name->=EB01.KR0170
+MFR location id-> 12170 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 224 
+dev-> 3 
+dev_id-> 12171 
+AKZ name->=EB01.KR0171
+MFR location id-> 12171 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 225 
+dev-> 3 
+dev_id-> 12172 
+AKZ name->=EB01.KR0172
+MFR location id-> 12172 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 226 
+dev-> 3 
+dev_id-> 12173 
+AKZ name->=EB01.KR0173
+MFR location id-> 12173 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 227 
+dev-> 3 
+dev_id-> 12174 
+AKZ name->=EB01.KR0174
+MFR location id-> 12174 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 228 
+dev-> 3 
+dev_id-> 12175 
+AKZ name->=EB01.KR0175
+MFR location id-> 12175 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 229 
+dev-> 3 
+dev_id-> 12176 
+AKZ name->=EB01.KR0176
+MFR location id-> 12176 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 230 
+dev-> 3 
+dev_id-> 12177 
+AKZ name->=EB01.KR0177
+MFR location id-> 12177 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 231 
+dev-> 3 
+dev_id-> 12178 
+AKZ name->=EB01.KR0178
+MFR location id-> 12178 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 232 
+dev-> 3 
+dev_id-> 12179 
+AKZ name->=EB01.KR0179
+MFR location id-> 12179 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 233 
+dev-> 3 
+dev_id-> 12180 
+AKZ name->=EB01.KR0180
+MFR location id-> 12180 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 234 
+dev-> 3 
+dev_id-> 12181 
+AKZ name->=EB01.KR0181
+MFR location id-> 12181 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 235 
+dev-> 3 
+dev_id-> 12182 
+AKZ name->=EB01.KR0182
+MFR location id-> 12182 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 236 
+dev-> 3 
+dev_id-> 12183 
+AKZ name->=EB01.KR0183
+MFR location id-> 12183 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 237 
+dev-> 3 
+dev_id-> 12201 
+AKZ name->=EB02.KR0201
+MFR location id-> 12201 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 238 
+dev-> 3 
+dev_id-> 12202 
+AKZ name->=EB02.KR0202
+MFR location id-> 12202 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 239 
+dev-> 3 
+dev_id-> 12203 
+AKZ name->=EB02.KR0203
+MFR location id-> 12203 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 240 
+dev-> 3 
+dev_id-> 12204 
+AKZ name->=EB02.KR0204
+MFR location id-> 12204 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 241 
+dev-> 3 
+dev_id-> 12205 
+AKZ name->=EB02.KR0205
+MFR location id-> 12205 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 242 
+dev-> 3 
+dev_id-> 12206 
+AKZ name->=EB02.KR0206
+MFR location id-> 12206 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 243 
+dev-> 3 
+dev_id-> 12207 
+AKZ name->=EB02.KR0207
+MFR location id-> 12207 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 244 
+dev-> 3 
+dev_id-> 12208 
+AKZ name->=EB02.KR0208
+MFR location id-> 12208 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 245 
+dev-> 3 
+dev_id-> 12209 
+AKZ name->=EB02.KR0209
+MFR location id-> 12209 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 246 
+dev-> 3 
+dev_id-> 12210 
+AKZ name->=EB02.KR0210
+MFR location id-> 12210 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 247 
+dev-> 3 
+dev_id-> 12211 
+AKZ name->=EB02.KR0211
+MFR location id-> 12211 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 248 
+dev-> 3 
+dev_id-> 12212 
+AKZ name->=EB02.KR0212
+MFR location id-> 12212 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 249 
+dev-> 3 
+dev_id-> 12213 
+AKZ name->=EB02.KR0213
+MFR location id-> 12213 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 250 
+dev-> 3 
+dev_id-> 12214 
+AKZ name->=EB02.KR0214
+MFR location id-> 12214 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 251 
+dev-> 3 
+dev_id-> 12215 
+AKZ name->=EB02.KR0215
+MFR location id-> 12215 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 252 
+dev-> 3 
+dev_id-> 12216 
+AKZ name->=EB02.KR0216
+MFR location id-> 12216 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 253 
+dev-> 3 
+dev_id-> 12217 
+AKZ name->=EB02.KR0217
+MFR location id-> 12217 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 254 
+dev-> 3 
+dev_id-> 12218 
+AKZ name->=EB02.KR0218
+MFR location id-> 12218 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 255 
+dev-> 3 
+dev_id-> 12219 
+AKZ name->=EB02.KR0219
+MFR location id-> 12219 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 256 
+dev-> 3 
+dev_id-> 12220 
+AKZ name->=EB02.KR0220
+MFR location id-> 12220 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 257 
+dev-> 3 
+dev_id-> 12221 
+AKZ name->=EB02.KR0221
+MFR location id-> 12221 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 258 
+dev-> 3 
+dev_id-> 12222 
+AKZ name->=EB02.KR0222
+MFR location id-> 12222 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 259 
+dev-> 3 
+dev_id-> 12223 
+AKZ name->=EB02.KR0223
+MFR location id-> 12223 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 260 
+dev-> 3 
+dev_id-> 12224 
+AKZ name->=EB02.KR0224
+MFR location id-> 12224 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 261 
+dev-> 3 
+dev_id-> 12225 
+AKZ name->=EB02.KR0225
+MFR location id-> 12225 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 262 
+dev-> 3 
+dev_id-> 12226 
+AKZ name->=EB02.KR0226
+MFR location id-> 12226 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 263 
+dev-> 3 
+dev_id-> 12227 
+AKZ name->=EB02.KR0227
+MFR location id-> 12227 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 264 
+dev-> 3 
+dev_id-> 12228 
+AKZ name->=EB02.KR0228
+MFR location id-> 12228 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 265 
+dev-> 3 
+dev_id-> 12229 
+AKZ name->=EB02.KR0229
+MFR location id-> 12229 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 266 
+dev-> 3 
+dev_id-> 12230 
+AKZ name->=EB02.KR0230
+MFR location id-> 12230 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 267 
+dev-> 3 
+dev_id-> 12231 
+AKZ name->=EB02.KR0231
+MFR location id-> 12231 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 268 
+dev-> 3 
+dev_id-> 12232 
+AKZ name->=EB02.KR0232
+MFR location id-> 12232 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 269 
+dev-> 3 
+dev_id-> 12233 
+AKZ name->=EB02.KR0233
+MFR location id-> 12233 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 270 
+dev-> 3 
+dev_id-> 12234 
+AKZ name->=EB02.KR0234
+MFR location id-> 12234 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 271 
+dev-> 3 
+dev_id-> 12235 
+AKZ name->=EB02.KR0235
+MFR location id-> 12235 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 272 
+dev-> 3 
+dev_id-> 12236 
+AKZ name->=EB02.KR0236
+MFR location id-> 12236 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 273 
+dev-> 3 
+dev_id-> 12237 
+AKZ name->=EB02.KR0237
+MFR location id-> 12237 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 274 
+dev-> 3 
+dev_id-> 12238 
+AKZ name->=EB02.KR0238
+MFR location id-> 12238 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 275 
+dev-> 3 
+dev_id-> 12239 
+AKZ name->=EB02.KR0239
+MFR location id-> 12239 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 276 
+dev-> 3 
+dev_id-> 12240 
+AKZ name->=EB02.KR0240
+MFR location id-> 12240 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 277 
+dev-> 3 
+dev_id-> 12241 
+AKZ name->=EB02.KR0241
+MFR location id-> 12241 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 278 
+dev-> 3 
+dev_id-> 12242 
+AKZ name->=EB02.KR0242
+MFR location id-> 12242 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 279 
+dev-> 3 
+dev_id-> 12243 
+AKZ name->=EB02.KR0243
+MFR location id-> 12243 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 280 
+dev-> 3 
+dev_id-> 12244 
+AKZ name->=EB02.KR0244
+MFR location id-> 12244 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 281 
+dev-> 3 
+dev_id-> 12245 
+AKZ name->=EB02.KR0245
+MFR location id-> 12245 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 282 
+dev-> 3 
+dev_id-> 12246 
+AKZ name->=EB02.KR0246
+MFR location id-> 12246 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 283 
+dev-> 3 
+dev_id-> 12247 
+AKZ name->=EB02.KR0247
+MFR location id-> 12247 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 284 
+dev-> 3 
+dev_id-> 12248 
+AKZ name->=EB02.KR0248
+MFR location id-> 12248 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 285 
+dev-> 3 
+dev_id-> 12249 
+AKZ name->=EB02.KR0249
+MFR location id-> 12249 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 286 
+dev-> 3 
+dev_id-> 12250 
+AKZ name->=EB02.KR0250
+MFR location id-> 12250 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 287 
+dev-> 3 
+dev_id-> 12251 
+AKZ name->=EB02.KR0251
+MFR location id-> 12251 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 288 
+dev-> 3 
+dev_id-> 12252 
+AKZ name->=EB02.KR0252
+MFR location id-> 12252 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 289 
+dev-> 3 
+dev_id-> 12253 
+AKZ name->=EB02.KR0253
+MFR location id-> 12253 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 290 
+dev-> 3 
+dev_id-> 12254 
+AKZ name->=EB02.KR0254
+MFR location id-> 12254 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 291 
+dev-> 3 
+dev_id-> 12255 
+AKZ name->=EB02.KR0255
+MFR location id-> 12255 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 292 
+dev-> 3 
+dev_id-> 12256 
+AKZ name->=EB02.KR0256
+MFR location id-> 12256 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 293 
+dev-> 3 
+dev_id-> 12257 
+AKZ name->=EB02.KR0257
+MFR location id-> 12257 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 294 
+dev-> 3 
+dev_id-> 12258 
+AKZ name->=EB02.KR0258
+MFR location id-> 12258 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 295 
+dev-> 3 
+dev_id-> 12259 
+AKZ name->=EB02.KR0259
+MFR location id-> 12259 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 296 
+dev-> 3 
+dev_id-> 12260 
+AKZ name->=EB02.KR0260
+MFR location id-> 12260 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 297 
+dev-> 3 
+dev_id-> 12261 
+AKZ name->=EB02.KR0261
+MFR location id-> 12261 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 298 
+dev-> 3 
+dev_id-> 12262 
+AKZ name->=EB02.KR0262
+MFR location id-> 12262 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 299 
+dev-> 3 
+dev_id-> 12263 
+AKZ name->=EB02.KR0263
+MFR location id-> 12263 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 300 
+dev-> 3 
+dev_id-> 12264 
+AKZ name->=EB02.KR0264
+MFR location id-> 12264 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 301 
+dev-> 3 
+dev_id-> 12265 
+AKZ name->=EB02.KR0265
+MFR location id-> 12265 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 302 
+dev-> 3 
+dev_id-> 12266 
+AKZ name->=EB02.KR0266
+MFR location id-> 12266 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 303 
+dev-> 3 
+dev_id-> 12267 
+AKZ name->=EB02.KR0267
+MFR location id-> 12267 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 304 
+dev-> 3 
+dev_id-> 12268 
+AKZ name->=EB02.KR0268
+MFR location id-> 12268 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 305 
+dev-> 3 
+dev_id-> 12269 
+AKZ name->=EB02.KR0269
+MFR location id-> 12269 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 306 
+dev-> 3 
+dev_id-> 12270 
+AKZ name->=EB02.KR0270
+MFR location id-> 12270 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 307 
+dev-> 3 
+dev_id-> 12271 
+AKZ name->=EB02.KR0271
+MFR location id-> 12271 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 308 
+dev-> 3 
+dev_id-> 12272 
+AKZ name->=EB02.KR0272
+MFR location id-> 12272 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 309 
+dev-> 3 
+dev_id-> 12273 
+AKZ name->=EB02.KR0273
+MFR location id-> 12273 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 310 
+dev-> 3 
+dev_id-> 12274 
+AKZ name->=EB02.KR0274
+MFR location id-> 12274 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 311 
+dev-> 3 
+dev_id-> 12275 
+AKZ name->=EB02.KR0275
+MFR location id-> 12275 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 312 
+dev-> 3 
+dev_id-> 12276 
+AKZ name->=EB02.KR0276
+MFR location id-> 12276 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 313 
+dev-> 3 
+dev_id-> 12277 
+AKZ name->=EB02.KR0277
+MFR location id-> 12277 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 314 
+dev-> 3 
+dev_id-> 12278 
+AKZ name->=EB02.KR0278
+MFR location id-> 12278 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 315 
+dev-> 3 
+dev_id-> 12279 
+AKZ name->=EB02.KR0279
+MFR location id-> 12279 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 316 
+dev-> 3 
+dev_id-> 12280 
+AKZ name->=EB02.KR0280
+MFR location id-> 12280 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 317 
+dev-> 3 
+dev_id-> 12281 
+AKZ name->=EB02.KR0281
+MFR location id-> 12281 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 318 
+dev-> 3 
+dev_id-> 12282 
+AKZ name->=EB02.KR0282
+MFR location id-> 12282 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 319 
+dev-> 3 
+dev_id-> 12283 
+AKZ name->=EB02.KR0283
+MFR location id-> 12283 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 320 
+dev-> 3 
+dev_id-> 12301 
+AKZ name->=EB02.KR0301
+MFR location id-> 12301 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 321 
+dev-> 3 
+dev_id-> 12302 
+AKZ name->=EB02.KR0302
+MFR location id-> 12302 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 322 
+dev-> 3 
+dev_id-> 12303 
+AKZ name->=EB02.KR0303
+MFR location id-> 12303 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 323 
+dev-> 3 
+dev_id-> 12304 
+AKZ name->=EB02.KR0304
+MFR location id-> 12304 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 324 
+dev-> 3 
+dev_id-> 12305 
+AKZ name->=EB02.KR0305
+MFR location id-> 12305 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 325 
+dev-> 3 
+dev_id-> 12306 
+AKZ name->=EB02.KR0306
+MFR location id-> 12306 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 326 
+dev-> 3 
+dev_id-> 12307 
+AKZ name->=EB02.KR0307
+MFR location id-> 12307 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 327 
+dev-> 3 
+dev_id-> 12308 
+AKZ name->=EB02.KR0308
+MFR location id-> 12308 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 328 
+dev-> 3 
+dev_id-> 12309 
+AKZ name->=EB02.KR0309
+MFR location id-> 12309 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 329 
+dev-> 3 
+dev_id-> 12310 
+AKZ name->=EB02.KR0310
+MFR location id-> 12310 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 330 
+dev-> 3 
+dev_id-> 12311 
+AKZ name->=EB02.KR0311
+MFR location id-> 12311 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 331 
+dev-> 3 
+dev_id-> 12312 
+AKZ name->=EB02.KR0312
+MFR location id-> 12312 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 332 
+dev-> 3 
+dev_id-> 12313 
+AKZ name->=EB02.KR0313
+MFR location id-> 12313 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 333 
+dev-> 3 
+dev_id-> 12314 
+AKZ name->=EB02.KR0314
+MFR location id-> 12314 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 334 
+dev-> 3 
+dev_id-> 12315 
+AKZ name->=EB02.KR0315
+MFR location id-> 12315 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 335 
+dev-> 3 
+dev_id-> 12316 
+AKZ name->=EB02.KR0316
+MFR location id-> 12316 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 336 
+dev-> 3 
+dev_id-> 12317 
+AKZ name->=EB02.KR0317
+MFR location id-> 12317 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 337 
+dev-> 3 
+dev_id-> 12318 
+AKZ name->=EB02.KR0318
+MFR location id-> 12318 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 338 
+dev-> 3 
+dev_id-> 12319 
+AKZ name->=EB02.KR0319
+MFR location id-> 12319 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 339 
+dev-> 3 
+dev_id-> 12320 
+AKZ name->=EB02.KR0320
+MFR location id-> 12320 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 340 
+dev-> 3 
+dev_id-> 12321 
+AKZ name->=EB02.KR0321
+MFR location id-> 12321 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 341 
+dev-> 3 
+dev_id-> 12322 
+AKZ name->=EB02.KR0322
+MFR location id-> 12322 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 342 
+dev-> 3 
+dev_id-> 12323 
+AKZ name->=EB02.KR0323
+MFR location id-> 12323 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 343 
+dev-> 3 
+dev_id-> 12324 
+AKZ name->=EB02.KR0324
+MFR location id-> 12324 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 344 
+dev-> 3 
+dev_id-> 12325 
+AKZ name->=EB02.KR0325
+MFR location id-> 12325 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 345 
+dev-> 3 
+dev_id-> 12326 
+AKZ name->=EB02.KR0326
+MFR location id-> 12326 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 346 
+dev-> 3 
+dev_id-> 12327 
+AKZ name->=EB02.KR0327
+MFR location id-> 12327 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 347 
+dev-> 3 
+dev_id-> 12328 
+AKZ name->=EB02.KR0328
+MFR location id-> 12328 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 348 
+dev-> 3 
+dev_id-> 12329 
+AKZ name->=EB02.KR0329
+MFR location id-> 12329 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 349 
+dev-> 3 
+dev_id-> 12330 
+AKZ name->=EB02.KR0330
+MFR location id-> 12330 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 350 
+dev-> 3 
+dev_id-> 12331 
+AKZ name->=EB02.KR0331
+MFR location id-> 12331 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 351 
+dev-> 3 
+dev_id-> 12332 
+AKZ name->=EB02.KR0332
+MFR location id-> 12332 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 352 
+dev-> 3 
+dev_id-> 12333 
+AKZ name->=EB02.KR0333
+MFR location id-> 12333 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 353 
+dev-> 3 
+dev_id-> 12334 
+AKZ name->=EB02.KR0334
+MFR location id-> 12334 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 354 
+dev-> 3 
+dev_id-> 12335 
+AKZ name->=EB02.KR0335
+MFR location id-> 12335 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 355 
+dev-> 3 
+dev_id-> 12336 
+AKZ name->=EB02.KR0336
+MFR location id-> 12336 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 356 
+dev-> 3 
+dev_id-> 12337 
+AKZ name->=EB02.KR0337
+MFR location id-> 12337 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 357 
+dev-> 3 
+dev_id-> 12338 
+AKZ name->=EB02.KR0338
+MFR location id-> 12338 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 358 
+dev-> 3 
+dev_id-> 12339 
+AKZ name->=EB02.KR0339
+MFR location id-> 12339 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 359 
+dev-> 3 
+dev_id-> 12340 
+AKZ name->=EB02.KR0340
+MFR location id-> 12340 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 360 
+dev-> 3 
+dev_id-> 12341 
+AKZ name->=EB02.KR0341
+MFR location id-> 12341 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 361 
+dev-> 3 
+dev_id-> 12342 
+AKZ name->=EB02.KR0342
+MFR location id-> 12342 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 362 
+dev-> 3 
+dev_id-> 12343 
+AKZ name->=EB02.KR0343
+MFR location id-> 12343 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 363 
+dev-> 3 
+dev_id-> 12344 
+AKZ name->=EB02.KR0344
+MFR location id-> 12344 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 364 
+dev-> 3 
+dev_id-> 12345 
+AKZ name->=EB02.KR0345
+MFR location id-> 12345 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 365 
+dev-> 3 
+dev_id-> 12346 
+AKZ name->=EB02.KR0346
+MFR location id-> 12346 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 366 
+dev-> 3 
+dev_id-> 12347 
+AKZ name->=EB02.KR0347
+MFR location id-> 12347 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 367 
+dev-> 3 
+dev_id-> 12348 
+AKZ name->=EB02.KR0348
+MFR location id-> 12348 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 368 
+dev-> 3 
+dev_id-> 12349 
+AKZ name->=EB02.KR0349
+MFR location id-> 12349 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 369 
+dev-> 3 
+dev_id-> 12350 
+AKZ name->=EB02.KR0350
+MFR location id-> 12350 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 370 
+dev-> 3 
+dev_id-> 12351 
+AKZ name->=EB02.KR0351
+MFR location id-> 12351 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 371 
+dev-> 3 
+dev_id-> 12352 
+AKZ name->=EB02.KR0352
+MFR location id-> 12352 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 372 
+dev-> 3 
+dev_id-> 12353 
+AKZ name->=EB02.KR0353
+MFR location id-> 12353 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 373 
+dev-> 3 
+dev_id-> 12354 
+AKZ name->=EB02.KR0354
+MFR location id-> 12354 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 374 
+dev-> 3 
+dev_id-> 12355 
+AKZ name->=EB02.KR0355
+MFR location id-> 12355 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 375 
+dev-> 3 
+dev_id-> 12356 
+AKZ name->=EB02.KR0356
+MFR location id-> 12356 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 376 
+dev-> 3 
+dev_id-> 12357 
+AKZ name->=EB02.KR0357
+MFR location id-> 12357 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 377 
+dev-> 3 
+dev_id-> 12358 
+AKZ name->=EB02.KR0358
+MFR location id-> 12358 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 378 
+dev-> 3 
+dev_id-> 12359 
+AKZ name->=EB02.KR0359
+MFR location id-> 12359 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 379 
+dev-> 3 
+dev_id-> 12360 
+AKZ name->=EB02.KR0360
+MFR location id-> 12360 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 380 
+dev-> 3 
+dev_id-> 12361 
+AKZ name->=EB02.KR0361
+MFR location id-> 12361 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 381 
+dev-> 3 
+dev_id-> 12362 
+AKZ name->=EB02.KR0362
+MFR location id-> 12362 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 382 
+dev-> 3 
+dev_id-> 12363 
+AKZ name->=EB02.KR0363
+MFR location id-> 12363 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 383 
+dev-> 3 
+dev_id-> 12364 
+AKZ name->=EB02.KR0364
+MFR location id-> 12364 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 384 
+dev-> 3 
+dev_id-> 12365 
+AKZ name->=EB02.KR0365
+MFR location id-> 12365 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 385 
+dev-> 3 
+dev_id-> 12366 
+AKZ name->=EB02.KR0366
+MFR location id-> 12366 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 386 
+dev-> 3 
+dev_id-> 12367 
+AKZ name->=EB02.KR0367
+MFR location id-> 12367 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 387 
+dev-> 3 
+dev_id-> 12368 
+AKZ name->=EB02.KR0368
+MFR location id-> 12368 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 388 
+dev-> 3 
+dev_id-> 12369 
+AKZ name->=EB02.KR0369
+MFR location id-> 12369 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 389 
+dev-> 3 
+dev_id-> 12370 
+AKZ name->=EB02.KR0370
+MFR location id-> 12370 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 390 
+dev-> 3 
+dev_id-> 12371 
+AKZ name->=EB02.KR0371
+MFR location id-> 12371 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 391 
+dev-> 3 
+dev_id-> 12372 
+AKZ name->=EB02.KR0372
+MFR location id-> 12372 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 392 
+dev-> 3 
+dev_id-> 12373 
+AKZ name->=EB02.KR0373
+MFR location id-> 12373 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 393 
+dev-> 3 
+dev_id-> 12374 
+AKZ name->=EB02.KR0374
+MFR location id-> 12374 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 394 
+dev-> 3 
+dev_id-> 12375 
+AKZ name->=EB02.KR0375
+MFR location id-> 12375 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 395 
+dev-> 3 
+dev_id-> 12376 
+AKZ name->=EB02.KR0376
+MFR location id-> 12376 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 396 
+dev-> 3 
+dev_id-> 12377 
+AKZ name->=EB02.KR0377
+MFR location id-> 12377 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 397 
+dev-> 3 
+dev_id-> 12378 
+AKZ name->=EB02.KR0378
+MFR location id-> 12378 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 398 
+dev-> 3 
+dev_id-> 12379 
+AKZ name->=EB02.KR0379
+MFR location id-> 12379 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 399 
+dev-> 3 
+dev_id-> 12380 
+AKZ name->=EB02.KR0380
+MFR location id-> 12380 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 400 
+dev-> 3 
+dev_id-> 12381 
+AKZ name->=EB02.KR0381
+MFR location id-> 12381 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 401 
+dev-> 3 
+dev_id-> 12382 
+AKZ name->=EB02.KR0382
+MFR location id-> 12382 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 402 
+dev-> 3 
+dev_id-> 12383 
+AKZ name->=EB02.KR0383
+MFR location id-> 12383 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 403 
+dev-> 4 
+dev_id-> 1 
+AKZ name->=SO03.KS0001
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 404 
+dev-> 4 
+dev_id-> 2 
+AKZ name->=SO03.KS0002
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 405 
+dev-> 4 
+dev_id-> 3 
+AKZ name->=SO03.KS0003
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 406 
+dev-> 4 
+dev_id-> 4 
+AKZ name->=SO03.KS0004
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 407 
+dev-> 4 
+dev_id-> 5 
+AKZ name->=SO03.KS0005
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 408 
+dev-> 4 
+dev_id-> 7 
+AKZ name->=SO03.KS0007
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 409 
+dev-> 4 
+dev_id-> 12 
+AKZ name->=SO03.KS0012
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 410 
+dev-> 4 
+dev_id-> 13 
+AKZ name->=SO03.KS0013
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 411 
+dev-> 4 
+dev_id-> 14 
+AKZ name->=SO03.KS0014
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 412 
+dev-> 4 
+dev_id-> 15 
+AKZ name->=SO03.KS0015
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 413 
+dev-> 4 
+dev_id-> 16 
+AKZ name->=SO03.KS0016
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 414 
+dev-> 4 
+dev_id-> 18 
+AKZ name->=SO03.KS0018
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 415 
+dev-> 10 
+dev_id-> 6 
+AKZ name->=SO03.KS0006
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 416 
+dev-> 10 
+dev_id-> 8 
+AKZ name->=SO03.KS0008
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 417 
+dev-> 10 
+dev_id-> 9 
+AKZ name->=SO03.KS0009
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 418 
+dev-> 10 
+dev_id-> 10 
+AKZ name->=SO03.KS0010
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 419 
+dev-> 10 
+dev_id-> 11 
+AKZ name->=SO03.KS0011
+MFR location id-> 2523 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 420 
+dev-> 10 
+dev_id-> 17 
+AKZ name->=SO03.KS0017
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 421 
+dev-> 10 
+dev_id-> 19 
+AKZ name->=SO03.KS0019
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 422 
+dev-> 10 
+dev_id-> 20 
+AKZ name->=SO03.KS0020
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 423 
+dev-> 10 
+dev_id-> 21 
+AKZ name->=SO03.KS0021
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 424 
+dev-> 10 
+dev_id-> 22 
+AKZ name->=SO03.KS0022
+MFR location id-> 2513 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 425 
+dev-> 11 
+dev_id-> 1 
+AKZ name->=SO03.DR0001
+MFR location id-> 2503 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 426 
+dev-> 51 
+dev_id-> 1 
+AKZ name->=ES01.SSC001
+MFR location id-> 153 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 427 
+dev-> 51 
+dev_id-> 2 
+AKZ name->=ES02.SSC001
+MFR location id-> 253 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 428 
+dev-> 51 
+dev_id-> 3 
+AKZ name->=ES03.SSC001
+MFR location id-> 353 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 429 
+dev-> 51 
+dev_id-> 4 
+AKZ name->=ES04.SSC001
+MFR location id-> 453 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 430 
+dev-> 51 
+dev_id-> 5 
+AKZ name->=ES05.SSC001
+MFR location id-> 553 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 431 
+dev-> 51 
+dev_id-> 6 
+AKZ name->=ES06.SSC001
+MFR location id-> 653 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 432 
+dev-> 51 
+dev_id-> 7 
+AKZ name->=ES07.SSC001
+MFR location id-> 753 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 433 
+dev-> 51 
+dev_id-> 8 
+AKZ name->=ES08.SSC001
+MFR location id-> 853 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 434 
+dev-> 51 
+dev_id-> 9 
+AKZ name->=ES09.SSC001
+MFR location id-> 953 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 435 
+dev-> 51 
+dev_id-> 10 
+AKZ name->=ES10.SSC001
+MFR location id-> 1053 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 436 
+dev-> 51 
+dev_id-> 11 
+AKZ name->=ES11.SSC001
+MFR location id-> 2123 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 437 
+dev-> 51 
+dev_id-> 12 
+AKZ name->=ES12.SSC001
+MFR location id-> 21053 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 438 
+dev-> 51 
+dev_id-> 13 
+AKZ name->=ES13.SSC001
+MFR location id-> 2113 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 439 
+dev-> 51 
+dev_id-> 14 
+AKZ name->=ES14.SSC001
+MFR location id-> 22053 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 440 
+dev-> 56 
+dev_id-> 1 
+AKZ name->=ES01.GFC004-AS01
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 441 
+dev-> 56 
+dev_id-> 2 
+AKZ name->=ES02.GFC004-AS01
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 442 
+dev-> 56 
+dev_id-> 3 
+AKZ name->=ES03.GFC004-AS01
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 443 
+dev-> 56 
+dev_id-> 4 
+AKZ name->=ES04.GFC004-AS01
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 444 
+dev-> 56 
+dev_id-> 5 
+AKZ name->=ES05.GFC004-AS01
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 445 
+dev-> 56 
+dev_id-> 6 
+AKZ name->=ES05.GFC004-AS01
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 446 
+dev-> 56 
+dev_id-> 7 
+AKZ name->=ES07.GFC004-AS01
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 447 
+dev-> 56 
+dev_id-> 8 
+AKZ name->=ES08.GFC004-AS01
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 448 
+dev-> 56 
+dev_id-> 9 
+AKZ name->=ES09.GFC004-AS01
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 449 
+dev-> 56 
+dev_id-> 10 
+AKZ name->=ES10.GFC004-AS01
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 450 
+dev-> 56 
+dev_id-> 11 
+AKZ name->=ES11.GFC004-AS01
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 451 
+dev-> 56 
+dev_id-> 12 
+AKZ name->=ES12.GFC004-AS01
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 452 
+dev-> 56 
+dev_id-> 13 
+AKZ name->=ES13.GFC004-AS01
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 453 
+dev-> 56 
+dev_id-> 14 
+AKZ name->=ES14.GFC004-AS01
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 454 
+dev-> 60 
+dev_id-> 11 
+AKZ name->=ES01.GFC001
+MFR location id-> 153 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 455 
+dev-> 60 
+dev_id-> 12 
+AKZ name->=ES01.GFC002
+MFR location id-> 153 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 456 
+dev-> 60 
+dev_id-> 13 
+AKZ name->=ES01.GFC003
+MFR location id-> 153 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 457 
+dev-> 60 
+dev_id-> 14 
+AKZ name->=ES01.GFC004
+MFR location id-> 153 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 458 
+dev-> 60 
+dev_id-> 15 
+AKZ name->=ES01.GFC005
+MFR location id-> 153 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 459 
+dev-> 60 
+dev_id-> 16 
+AKZ name->=ES01.GFC006
+MFR location id-> 153 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 460 
+dev-> 60 
+dev_id-> 17 
+AKZ name->=ES01.GFC007
+MFR location id-> 153 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 461 
+dev-> 60 
+dev_id-> 18 
+AKZ name->=ES01.SFC008
+MFR location id-> 153 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 462 
+dev-> 60 
+dev_id-> 21 
+AKZ name->=ES02.GFC001
+MFR location id-> 253 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 463 
+dev-> 60 
+dev_id-> 22 
+AKZ name->=ES02.GFC002
+MFR location id-> 253 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 464 
+dev-> 60 
+dev_id-> 23 
+AKZ name->=ES02.GFC003
+MFR location id-> 253 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 465 
+dev-> 60 
+dev_id-> 24 
+AKZ name->=ES02.GFC004
+MFR location id-> 253 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 466 
+dev-> 60 
+dev_id-> 25 
+AKZ name->=ES02.GFC005
+MFR location id-> 253 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 467 
+dev-> 60 
+dev_id-> 26 
+AKZ name->=ES02.GFC006
+MFR location id-> 253 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 468 
+dev-> 60 
+dev_id-> 27 
+AKZ name->=ES02.GFC007
+MFR location id-> 253 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 469 
+dev-> 60 
+dev_id-> 28 
+AKZ name->=ES02.SFC008
+MFR location id-> 253 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 470 
+dev-> 60 
+dev_id-> 31 
+AKZ name->=ES03.GFC001
+MFR location id-> 353 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 471 
+dev-> 60 
+dev_id-> 32 
+AKZ name->=ES03.GFC002
+MFR location id-> 353 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 472 
+dev-> 60 
+dev_id-> 33 
+AKZ name->=ES03.GFC003
+MFR location id-> 353 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 473 
+dev-> 60 
+dev_id-> 34 
+AKZ name->=ES03.GFC004
+MFR location id-> 353 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 474 
+dev-> 60 
+dev_id-> 35 
+AKZ name->=ES03.GFC005
+MFR location id-> 353 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 475 
+dev-> 60 
+dev_id-> 36 
+AKZ name->=ES03.GFC006
+MFR location id-> 353 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 476 
+dev-> 60 
+dev_id-> 37 
+AKZ name->=ES03.GFC007
+MFR location id-> 353 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 477 
+dev-> 60 
+dev_id-> 38 
+AKZ name->=ES03.SFC008
+MFR location id-> 353 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 478 
+dev-> 60 
+dev_id-> 41 
+AKZ name->=ES04.GFC001
+MFR location id-> 453 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 479 
+dev-> 60 
+dev_id-> 42 
+AKZ name->=ES04.GFC002
+MFR location id-> 453 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 480 
+dev-> 60 
+dev_id-> 43 
+AKZ name->=ES04.GFC003
+MFR location id-> 453 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 481 
+dev-> 60 
+dev_id-> 44 
+AKZ name->=ES04.GFC004
+MFR location id-> 453 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 482 
+dev-> 60 
+dev_id-> 45 
+AKZ name->=ES04.GFC005
+MFR location id-> 453 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 483 
+dev-> 60 
+dev_id-> 46 
+AKZ name->=ES04.GFC006
+MFR location id-> 453 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 484 
+dev-> 60 
+dev_id-> 47 
+AKZ name->=ES04.GFC007
+MFR location id-> 453 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 485 
+dev-> 60 
+dev_id-> 48 
+AKZ name->=ES04.SFC008
+MFR location id-> 453 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 486 
+dev-> 60 
+dev_id-> 51 
+AKZ name->=ES05.GFC001
+MFR location id-> 553 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 487 
+dev-> 60 
+dev_id-> 52 
+AKZ name->=ES05.GFC002
+MFR location id-> 553 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 488 
+dev-> 60 
+dev_id-> 53 
+AKZ name->=ES05.GFC003
+MFR location id-> 553 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 489 
+dev-> 60 
+dev_id-> 54 
+AKZ name->=ES05.GFC004
+MFR location id-> 553 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 490 
+dev-> 60 
+dev_id-> 55 
+AKZ name->=ES05.GFC005
+MFR location id-> 553 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 491 
+dev-> 60 
+dev_id-> 56 
+AKZ name->=ES05.GFC006
+MFR location id-> 553 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 492 
+dev-> 60 
+dev_id-> 57 
+AKZ name->=ES05.GFC007
+MFR location id-> 553 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 493 
+dev-> 60 
+dev_id-> 58 
+AKZ name->=ES05.SFC008
+MFR location id-> 553 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 494 
+dev-> 60 
+dev_id-> 61 
+AKZ name->=ES06.GFC001
+MFR location id-> 653 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 495 
+dev-> 60 
+dev_id-> 62 
+AKZ name->=ES06.GFC002
+MFR location id-> 653 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 496 
+dev-> 60 
+dev_id-> 63 
+AKZ name->=ES06.GFC003
+MFR location id-> 653 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 497 
+dev-> 60 
+dev_id-> 64 
+AKZ name->=ES06.GFC004
+MFR location id-> 653 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 498 
+dev-> 60 
+dev_id-> 65 
+AKZ name->=ES06.GFC005
+MFR location id-> 653 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 499 
+dev-> 60 
+dev_id-> 66 
+AKZ name->=ES06.GFC006
+MFR location id-> 653 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 500 
+dev-> 60 
+dev_id-> 67 
+AKZ name->=ES06.GFC007
+MFR location id-> 653 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 501 
+dev-> 60 
+dev_id-> 68 
+AKZ name->=ES06.SFC008
+MFR location id-> 653 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 502 
+dev-> 60 
+dev_id-> 71 
+AKZ name->=ES07.GFC001
+MFR location id-> 753 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 503 
+dev-> 60 
+dev_id-> 72 
+AKZ name->=ES07.GFC002
+MFR location id-> 753 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 504 
+dev-> 60 
+dev_id-> 73 
+AKZ name->=ES07.GFC003
+MFR location id-> 753 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 505 
+dev-> 60 
+dev_id-> 74 
+AKZ name->=ES07.GFC004
+MFR location id-> 753 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 506 
+dev-> 60 
+dev_id-> 75 
+AKZ name->=ES07.GFC005
+MFR location id-> 753 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 507 
+dev-> 60 
+dev_id-> 76 
+AKZ name->=ES07.GFC006
+MFR location id-> 753 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 508 
+dev-> 60 
+dev_id-> 77 
+AKZ name->=ES07.GFC007
+MFR location id-> 753 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 509 
+dev-> 60 
+dev_id-> 78 
+AKZ name->=ES07.SFC008
+MFR location id-> 753 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 510 
+dev-> 60 
+dev_id-> 81 
+AKZ name->=ES08.GFC001
+MFR location id-> 853 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 511 
+dev-> 60 
+dev_id-> 82 
+AKZ name->=ES08.GFC002
+MFR location id-> 853 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 512 
+dev-> 60 
+dev_id-> 83 
+AKZ name->=ES08.GFC003
+MFR location id-> 853 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 513 
+dev-> 60 
+dev_id-> 84 
+AKZ name->=ES08.GFC004
+MFR location id-> 853 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 514 
+dev-> 60 
+dev_id-> 85 
+AKZ name->=ES08.GFC005
+MFR location id-> 853 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 515 
+dev-> 60 
+dev_id-> 86 
+AKZ name->=ES08.GFC006
+MFR location id-> 853 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 516 
+dev-> 60 
+dev_id-> 87 
+AKZ name->=ES08.GFC007
+MFR location id-> 853 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 517 
+dev-> 60 
+dev_id-> 88 
+AKZ name->=ES08.SFC008
+MFR location id-> 853 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 518 
+dev-> 60 
+dev_id-> 91 
+AKZ name->=ES09.GFC001
+MFR location id-> 953 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 519 
+dev-> 60 
+dev_id-> 92 
+AKZ name->=ES09.GFC002
+MFR location id-> 953 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 520 
+dev-> 60 
+dev_id-> 93 
+AKZ name->=ES09.GFC003
+MFR location id-> 953 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 521 
+dev-> 60 
+dev_id-> 94 
+AKZ name->=ES09.GFC004
+MFR location id-> 953 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 522 
+dev-> 60 
+dev_id-> 95 
+AKZ name->=ES09.GFC005
+MFR location id-> 953 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 523 
+dev-> 60 
+dev_id-> 96 
+AKZ name->=ES09.GFC006
+MFR location id-> 953 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 524 
+dev-> 60 
+dev_id-> 97 
+AKZ name->=ES09.GFC007
+MFR location id-> 953 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 525 
+dev-> 60 
+dev_id-> 98 
+AKZ name->=ES09.SFC008
+MFR location id-> 953 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 526 
+dev-> 60 
+dev_id-> 101 
+AKZ name->=ES10.GFC001
+MFR location id-> 1053 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 527 
+dev-> 60 
+dev_id-> 102 
+AKZ name->=ES10.GFC002
+MFR location id-> 1053 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 528 
+dev-> 60 
+dev_id-> 103 
+AKZ name->=ES10.GFC003
+MFR location id-> 1053 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 529 
+dev-> 60 
+dev_id-> 104 
+AKZ name->=ES10.GFC004
+MFR location id-> 1053 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 530 
+dev-> 60 
+dev_id-> 105 
+AKZ name->=ES10.GFC005
+MFR location id-> 1053 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 531 
+dev-> 60 
+dev_id-> 106 
+AKZ name->=ES10.GFC006
+MFR location id-> 1053 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 532 
+dev-> 60 
+dev_id-> 107 
+AKZ name->=ES10.GFC007
+MFR location id-> 1053 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 533 
+dev-> 60 
+dev_id-> 108 
+AKZ name->=ES10.SFC008
+MFR location id-> 1053 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 534 
+dev-> 60 
+dev_id-> 111 
+AKZ name->=ES11.GFC001
+MFR location id-> 2123 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 535 
+dev-> 60 
+dev_id-> 112 
+AKZ name->=ES11.GFC002
+MFR location id-> 2123 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 536 
+dev-> 60 
+dev_id-> 113 
+AKZ name->=ES11.GFC003
+MFR location id-> 2123 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 537 
+dev-> 60 
+dev_id-> 114 
+AKZ name->=ES11.GFC004
+MFR location id-> 2123 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 538 
+dev-> 60 
+dev_id-> 115 
+AKZ name->=ES11.GFC005
+MFR location id-> 2123 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 539 
+dev-> 60 
+dev_id-> 116 
+AKZ name->=ES11.GFC006
+MFR location id-> 2123 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 540 
+dev-> 60 
+dev_id-> 117 
+AKZ name->=ES11.GFC007
+MFR location id-> 2123 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 541 
+dev-> 60 
+dev_id-> 118 
+AKZ name->=ES11.SFC008
+MFR location id-> 2123 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 542 
+dev-> 60 
+dev_id-> 121 
+AKZ name->=ES12.GFC001
+MFR location id-> 21053 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 543 
+dev-> 60 
+dev_id-> 122 
+AKZ name->=ES12.GFC002
+MFR location id-> 21053 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 544 
+dev-> 60 
+dev_id-> 123 
+AKZ name->=ES12.GFC003
+MFR location id-> 21053 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 545 
+dev-> 60 
+dev_id-> 124 
+AKZ name->=ES12.GFC004
+MFR location id-> 21053 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 546 
+dev-> 60 
+dev_id-> 125 
+AKZ name->=ES12.GFC005
+MFR location id-> 21053 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 547 
+dev-> 60 
+dev_id-> 126 
+AKZ name->=ES12.GFC006
+MFR location id-> 21053 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 548 
+dev-> 60 
+dev_id-> 127 
+AKZ name->=ES12.GFC007
+MFR location id-> 21053 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 549 
+dev-> 60 
+dev_id-> 128 
+AKZ name->=ES12.SFC008
+MFR location id-> 21053 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 550 
+dev-> 60 
+dev_id-> 131 
+AKZ name->=ES13.GFC001
+MFR location id-> 2113 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 551 
+dev-> 60 
+dev_id-> 132 
+AKZ name->=ES13.GFC002
+MFR location id-> 2113 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 552 
+dev-> 60 
+dev_id-> 133 
+AKZ name->=ES13.GFC003
+MFR location id-> 2113 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 553 
+dev-> 60 
+dev_id-> 134 
+AKZ name->=ES13.GFC004
+MFR location id-> 2113 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 554 
+dev-> 60 
+dev_id-> 135 
+AKZ name->=ES13.GFC005
+MFR location id-> 2113 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 555 
+dev-> 60 
+dev_id-> 136 
+AKZ name->=ES13.GFC006
+MFR location id-> 2113 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 556 
+dev-> 60 
+dev_id-> 137 
+AKZ name->=ES13.GFC007
+MFR location id-> 2113 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 557 
+dev-> 60 
+dev_id-> 138 
+AKZ name->=ES13.SFC008
+MFR location id-> 2113 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 558 
+dev-> 60 
+dev_id-> 141 
+AKZ name->=ES14.GFC001
+MFR location id-> 22053 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 559 
+dev-> 60 
+dev_id-> 142 
+AKZ name->=ES14.GFC002
+MFR location id-> 22053 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 560 
+dev-> 60 
+dev_id-> 143 
+AKZ name->=ES14.GFC003
+MFR location id-> 22053 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 561 
+dev-> 60 
+dev_id-> 144 
+AKZ name->=ES14.GFC004
+MFR location id-> 22053 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 562 
+dev-> 60 
+dev_id-> 145 
+AKZ name->=ES14.GFC005
+MFR location id-> 22053 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 563 
+dev-> 60 
+dev_id-> 146 
+AKZ name->=ES14.GFC006
+MFR location id-> 22053 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 564 
+dev-> 60 
+dev_id-> 147 
+AKZ name->=ES14.GFC007
+MFR location id-> 22053 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 565 
+dev-> 60 
+dev_id-> 148 
+AKZ name->=ES14.SFC008
+MFR location id-> 22053 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 566 
+dev-> 102 
+dev_id-> 1 
+AKZ name->=SO03.SK0001
+MFR location id-> 2613 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 567 
+dev-> 102 
+dev_id-> 2 
+AKZ name->=SO03.SK0002
+MFR location id-> 2623 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 568 
+dev-> 102 
+dev_id-> 3 
+AKZ name->=SO03.SK0003
+MFR location id-> 2633 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 569 
+dev-> 102 
+dev_id-> 4 
+AKZ name->=SO03.SK0004
+MFR location id-> 2643 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 570 
+dev-> 204 
+dev_id-> 1 
+AKZ name->
+MFR location id-> 153 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 571 
+dev-> 204 
+dev_id-> 2 
+AKZ name->
+MFR location id-> 253 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 572 
+dev-> 204 
+dev_id-> 3 
+AKZ name->
+MFR location id-> 353 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 573 
+dev-> 204 
+dev_id-> 4 
+AKZ name->
+MFR location id-> 453 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 574 
+dev-> 204 
+dev_id-> 5 
+AKZ name->
+MFR location id-> 553 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 575 
+dev-> 204 
+dev_id-> 6 
+AKZ name->
+MFR location id-> 653 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 576 
+dev-> 204 
+dev_id-> 7 
+AKZ name->
+MFR location id-> 753 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 577 
+dev-> 204 
+dev_id-> 8 
+AKZ name->
+MFR location id-> 853 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 578 
+dev-> 204 
+dev_id-> 9 
+AKZ name->
+MFR location id-> 953 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 579 
+dev-> 204 
+dev_id-> 10 
+AKZ name->
+MFR location id-> 1053 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 580 
+dev-> 204 
+dev_id-> 11 
+AKZ name->
+MFR location id-> 2123 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 581 
+dev-> 204 
+dev_id-> 12 
+AKZ name->
+MFR location id-> 21053 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 582 
+dev-> 204 
+dev_id-> 13 
+AKZ name->
+MFR location id-> 2113 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 583 
+dev-> 204 
+dev_id-> 14 
+AKZ name->
+MFR location id-> 22053 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 584 
+dev-> 501 
+dev_id-> 1 
+AKZ name->=SO03.LV0001
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 585 
+dev-> 502 
+dev_id-> 2 
+AKZ name->=SO03.LV0002
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 586 
+dev-> 503 
+dev_id-> 3 
+AKZ name->=SO03.LV0003
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 587 
+dev-> 504 
+dev_id-> 4 
+AKZ name->=SO03.LV0004
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 588 
+dev-> 505 
+dev_id-> 5 
+AKZ name->=SO03.LV0005
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 589 
+dev-> 510 
+dev_id-> 1 
+AKZ name->=ES01.SS0001
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 590 
+dev-> 510 
+dev_id-> 2 
+AKZ name->=ES01.SS0002
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 591 
+dev-> 510 
+dev_id-> 3 
+AKZ name->=ES01.SS0003
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 592 
+dev-> 510 
+dev_id-> 4 
+AKZ name->=ES01.SS0004
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 593 
+dev-> 510 
+dev_id-> 5 
+AKZ name->=ES01.SS0005
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 594 
+dev-> 510 
+dev_id-> 6 
+AKZ name->=ES01.SS0006
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 595 
+dev-> 510 
+dev_id-> 7 
+AKZ name->=ES01.SS0007
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 596 
+dev-> 510 
+dev_id-> 8 
+AKZ name->=ES01.SS0008
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 597 
+dev-> 510 
+dev_id-> 9 
+AKZ name->=ES01.SS0009
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 598 
+dev-> 510 
+dev_id-> 10 
+AKZ name->=ES01.SS0010
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 599 
+dev-> 510 
+dev_id-> 11 
+AKZ name->=ES01.SS0011
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 600 
+dev-> 510 
+dev_id-> 12 
+AKZ name->=ES01.SS0012
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 601 
+dev-> 510 
+dev_id-> 13 
+AKZ name->=ES01.SS0013
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 602 
+dev-> 510 
+dev_id-> 14 
+AKZ name->=ES01.SS0014
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 603 
+dev-> 511 
+dev_id-> 1 
+AKZ name->=SO03.SM0001
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 604 
+dev-> 511 
+dev_id-> 2 
+AKZ name->=SO03.SM0002
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 605 
+dev-> 511 
+dev_id-> 3 
+AKZ name->=SO03.SM0003
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 606 
+dev-> 511 
+dev_id-> 4 
+AKZ name->=SO03.SM0004
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 607 
+dev-> 511 
+dev_id-> 5 
+AKZ name->=SO03.SM0005
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 608 
+dev-> 511 
+dev_id-> 6 
+AKZ name->=SO03.SM0006
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 609 
+dev-> 511 
+dev_id-> 7 
+AKZ name->=SO03.SM0007
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 610 
+dev-> 511 
+dev_id-> 8 
+AKZ name->=SO03.SM0008
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 611 
+dev-> 511 
+dev_id-> 9 
+AKZ name->=SO03.SM0009
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 612 
+dev-> 511 
+dev_id-> 10 
+AKZ name->=SO03.SM0010
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 613 
+dev-> 511 
+dev_id-> 11 
+AKZ name->=SO03.SM0011
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 614 
+dev-> 511 
+dev_id-> 12 
+AKZ name->=SO03.SM0012
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 615 
+dev-> 511 
+dev_id-> 13 
+AKZ name->=SO03.SM0013
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 616 
+dev-> 511 
+dev_id-> 14 
+AKZ name->=SO03.SM0014
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 617 
+dev-> 511 
+dev_id-> 15 
+AKZ name->=SO03.SM0015
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 618 
+dev-> 511 
+dev_id-> 16 
+AKZ name->=SO03.SM0016
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 619 
+dev-> 511 
+dev_id-> 17 
+AKZ name->=SO03.SM0017
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 620 
+dev-> 511 
+dev_id-> 18 
+AKZ name->=SO03.SM0018
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 621 
+dev-> 511 
+dev_id-> 19 
+AKZ name->=SO03.SM0019
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 622 
+dev-> 511 
+dev_id-> 20 
+AKZ name->=SO03.SM0020
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 623 
+dev-> 511 
+dev_id-> 21 
+AKZ name->=SO03.SM0021
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 624 
+dev-> 511 
+dev_id-> 22 
+AKZ name->=SO03.SM0022
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 625 
+dev-> 511 
+dev_id-> 23 
+AKZ name->=SO03.SM0023
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 626 
+dev-> 511 
+dev_id-> 24 
+AKZ name->=SO03.SM0024
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 627 
+dev-> 511 
+dev_id-> 25 
+AKZ name->=SO03.SM0025
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 628 
+dev-> 511 
+dev_id-> 26 
+AKZ name->=SO03.SM0026
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 629 
+dev-> 511 
+dev_id-> 27 
+AKZ name->=SO03.SM0027
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 630 
+dev-> 511 
+dev_id-> 28 
+AKZ name->=SO03.SM0028
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 631 
+dev-> 511 
+dev_id-> 29 
+AKZ name->=SO03.SM0029
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 632 
+dev-> 511 
+dev_id-> 30 
+AKZ name->=SO03.SM0030
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 633 
+dev-> 511 
+dev_id-> 31 
+AKZ name->=SO03.SM0031
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 634 
+dev-> 511 
+dev_id-> 32 
+AKZ name->=SO03.SM0032
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 635 
+dev-> 511 
+dev_id-> 33 
+AKZ name->=SO03.SM0033
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 636 
+dev-> 511 
+dev_id-> 34 
+AKZ name->=SO03.SM0034
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 637 
+dev-> 511 
+dev_id-> 35 
+AKZ name->=SO03.SM0035
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 638 
+dev-> 511 
+dev_id-> 36 
+AKZ name->=SO03.SM0036
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 639 
+dev-> 511 
+dev_id-> 37 
+AKZ name->=SO03.SM0037
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 640 
+dev-> 511 
+dev_id-> 38 
+AKZ name->=SO03.SM0038
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 641 
+dev-> 511 
+dev_id-> 39 
+AKZ name->=SO03.SM0039
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 642 
+dev-> 511 
+dev_id-> 40 
+AKZ name->=SO03.SM0040
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 643 
+dev-> 511 
+dev_id-> 41 
+AKZ name->=SO03.SM0041
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 644 
+dev-> 511 
+dev_id-> 42 
+AKZ name->=SO03.SM0042
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 645 
+dev-> 511 
+dev_id-> 43 
+AKZ name->=SO03.SM0043
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 646 
+dev-> 511 
+dev_id-> 44 
+AKZ name->=SO03.SM0044
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 647 
+dev-> 511 
+dev_id-> 45 
+AKZ name->=SO03.SM0045
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 648 
+dev-> 511 
+dev_id-> 46 
+AKZ name->=SO03.SM0046
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 649 
+dev-> 511 
+dev_id-> 47 
+AKZ name->=SO03.SM0047
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 650 
+dev-> 511 
+dev_id-> 48 
+AKZ name->=SO03.SM0048
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 651 
+dev-> 511 
+dev_id-> 49 
+AKZ name->=SO03.SM0049
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 652 
+dev-> 511 
+dev_id-> 50 
+AKZ name->=SO03.SM0050
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 653 
+dev-> 511 
+dev_id-> 51 
+AKZ name->=SO03.SM0051
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 654 
+dev-> 511 
+dev_id-> 52 
+AKZ name->=SO03.SM0052
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 655 
+dev-> 511 
+dev_id-> 53 
+AKZ name->=SO03.SM0053
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 656 
+dev-> 511 
+dev_id-> 54 
+AKZ name->=SO03.SM0054
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 657 
+dev-> 511 
+dev_id-> 55 
+AKZ name->=SO03.SM0055
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 658 
+dev-> 511 
+dev_id-> 56 
+AKZ name->=SO03.SM0056
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 659 
+dev-> 511 
+dev_id-> 57 
+AKZ name->=SO03.SM0057
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 660 
+dev-> 511 
+dev_id-> 58 
+AKZ name->=SO03.SM0058
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 661 
+dev-> 512 
+dev_id-> 1 
+AKZ name->=SO03.EV0001
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 662 
+dev-> 512 
+dev_id-> 2 
+AKZ name->=SO03.EV0002
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 663 
+dev-> 512 
+dev_id-> 3 
+AKZ name->=SO03.EV0003
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 664 
+dev-> 512 
+dev_id-> 4 
+AKZ name->=SO03.EV0004
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 665 
+dev-> 512 
+dev_id-> 5 
+AKZ name->=SO03.EV0005
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 666 
+dev-> 512 
+dev_id-> 6 
+AKZ name->=SO03.EV0006
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 667 
+dev-> 512 
+dev_id-> 7 
+AKZ name->=SO03.EV0007
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 668 
+dev-> 512 
+dev_id-> 8 
+AKZ name->=SO03.EV0008
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 669 
+dev-> 512 
+dev_id-> 9 
+AKZ name->=SO03.EV0009
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 670 
+dev-> 512 
+dev_id-> 10 
+AKZ name->=SO03.EV0010
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 671 
+dev-> 512 
+dev_id-> 11 
+AKZ name->=SO03.EV0011
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 672 
+dev-> 512 
+dev_id-> 12 
+AKZ name->=SO03.EV0012
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 673 
+dev-> 512 
+dev_id-> 13 
+AKZ name->=SO03.EV0013
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 674 
+dev-> 512 
+dev_id-> 14 
+AKZ name->=SO03.EV0014
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 675 
+dev-> 512 
+dev_id-> 15 
+AKZ name->=SO03.EV0015
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 676 
+dev-> 512 
+dev_id-> 16 
+AKZ name->=SO03.EV0016
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 677 
+dev-> 512 
+dev_id-> 17 
+AKZ name->=SO03.EV0017
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 678 
+dev-> 512 
+dev_id-> 18 
+AKZ name->=SO03.EV0018
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 679 
+dev-> 512 
+dev_id-> 19 
+AKZ name->=SO03.EV0019
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 680 
+dev-> 512 
+dev_id-> 20 
+AKZ name->=SO03.EV0020
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 681 
+dev-> 512 
+dev_id-> 21 
+AKZ name->=SO03.EV0021
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 682 
+dev-> 512 
+dev_id-> 22 
+AKZ name->=SO03.EV0022
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 683 
+dev-> 512 
+dev_id-> 23 
+AKZ name->=SO03.EV0023
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 684 
+dev-> 512 
+dev_id-> 24 
+AKZ name->=SO03.EV0024
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 685 
+dev-> 512 
+dev_id-> 25 
+AKZ name->=SO03.EV0025
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 686 
+dev-> 512 
+dev_id-> 26 
+AKZ name->=SO03.EV0026
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 687 
+dev-> 512 
+dev_id-> 27 
+AKZ name->=SO03.EV0027
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 688 
+dev-> 512 
+dev_id-> 28 
+AKZ name->=SO03.EV0028
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 689 
+dev-> 101 
+dev_id-> 1003 
+AKZ name->=SO03.LV0001
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 690 
+dev-> 101 
+dev_id-> 1005 
+AKZ name->=SO03.LV0001
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 691 
+dev-> 101 
+dev_id-> 1010 
+AKZ name->=ES14.SSC001
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 692 
+dev-> 101 
+dev_id-> 1011 
+AKZ name->=ES14.GFC004-AS01
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 693 
+dev-> 101 
+dev_id-> 1012 
+AKZ name->=ES02.SSC001
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 694 
+dev-> 101 
+dev_id-> 1013 
+AKZ name->=ES02.GFC004-AS01
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 695 
+dev-> 101 
+dev_id-> 1014 
+AKZ name->=ES04.SSC001
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 696 
+dev-> 101 
+dev_id-> 1015 
+AKZ name->=ES04.GFC004-AS01
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 697 
+dev-> 101 
+dev_id-> 1020 
+AKZ name->=SO03.SM0047
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 698 
+dev-> 101 
+dev_id-> 1021 
+AKZ name->=SO03.SM0047
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 699 
+dev-> 101 
+dev_id-> 1022 
+AKZ name->=SO03.SM0048
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 700 
+dev-> 101 
+dev_id-> 1023 
+AKZ name->=SO03.SM0048
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 701 
+dev-> 101 
+dev_id-> 1024 
+AKZ name->=SO03.SM0049
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 702 
+dev-> 101 
+dev_id-> 1025 
+AKZ name->=SO03.SM0049
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 703 
+dev-> 101 
+dev_id-> 1026 
+AKZ name->=SO03.SM0050
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 704 
+dev-> 101 
+dev_id-> 1027 
+AKZ name->=SO03.SM0050
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 705 
+dev-> 101 
+dev_id-> 1028 
+AKZ name->=SO03.SM0051
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 706 
+dev-> 101 
+dev_id-> 1029 
+AKZ name->=SO03.SM0051
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 707 
+dev-> 101 
+dev_id-> 1030 
+AKZ name->=SO03.SM0052
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 708 
+dev-> 101 
+dev_id-> 1031 
+AKZ name->=SO03.SM0052
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 709 
+dev-> 101 
+dev_id-> 1032 
+AKZ name->=SO03.SM0053
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 710 
+dev-> 101 
+dev_id-> 1033 
+AKZ name->=SO03.SM0053
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 711 
+dev-> 101 
+dev_id-> 1034 
+AKZ name->=SO03.SM0054
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 712 
+dev-> 101 
+dev_id-> 1035 
+AKZ name->=SO03.SM0054
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 713 
+dev-> 101 
+dev_id-> 1036 
+AKZ name->=SO03.SM0055
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 714 
+dev-> 101 
+dev_id-> 1037 
+AKZ name->=SO03.SM0055
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 715 
+dev-> 101 
+dev_id-> 1038 
+AKZ name->=SO03.SM0056
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 716 
+dev-> 101 
+dev_id-> 1039 
+AKZ name->=SO03.SM0056
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 717 
+dev-> 101 
+dev_id-> 1040 
+AKZ name->=SO03.SM0057
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 718 
+dev-> 101 
+dev_id-> 1041 
+AKZ name->=SO03.SM0057
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 719 
+dev-> 101 
+dev_id-> 1042 
+AKZ name->=SO03.SM0058
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 720 
+dev-> 101 
+dev_id-> 1043 
+AKZ name->=SO03.SM0058
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 721 
+dev-> 101 
+dev_id-> 1044 
+AKZ name->=SO03.SM0001
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 722 
+dev-> 101 
+dev_id-> 1045 
+AKZ name->=SO03.SM0001
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 723 
+dev-> 101 
+dev_id-> 1046 
+AKZ name->=SO03.SM0002
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 724 
+dev-> 101 
+dev_id-> 1047 
+AKZ name->=SO03.SM0002
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 725 
+dev-> 101 
+dev_id-> 1048 
+AKZ name->=SO03.SM0003
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 726 
+dev-> 101 
+dev_id-> 1049 
+AKZ name->=SO03.SM0003
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 727 
+dev-> 101 
+dev_id-> 1050 
+AKZ name->=SO03.SM0004
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 728 
+dev-> 101 
+dev_id-> 1051 
+AKZ name->=SO03.SM0004
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 729 
+dev-> 101 
+dev_id-> 1071 
+AKZ name->=SO03.SS0007
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 730 
+dev-> 101 
+dev_id-> 1072 
+AKZ name->=SO03.SS0008
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 731 
+dev-> 101 
+dev_id-> 1084 
+AKZ name->=SS05+SS0001-70KF3.0
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 732 
+dev-> 101 
+dev_id-> 1090 
+AKZ name->=SS06+SS0001-70KF3.0
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 733 
+dev-> 101 
+dev_id-> 1097 
+AKZ name->=SS10+SS0001-70KF3.0
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 734 
+dev-> 101 
+dev_id-> 2010 
+AKZ name->=ES01.SSC001
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 735 
+dev-> 101 
+dev_id-> 2011 
+AKZ name->=ES01.GFC004-AS01
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 736 
+dev-> 101 
+dev_id-> 2012 
+AKZ name->=ES12.SSC001
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 737 
+dev-> 101 
+dev_id-> 2013 
+AKZ name->=ES12.GFC004-AS01
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 738 
+dev-> 101 
+dev_id-> 2014 
+AKZ name->=ES13.SSC001
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 739 
+dev-> 101 
+dev_id-> 2015 
+AKZ name->=ES13.GFC004-AS01
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 740 
+dev-> 101 
+dev_id-> 2020 
+AKZ name->=SO03.SM0036
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 741 
+dev-> 101 
+dev_id-> 2021 
+AKZ name->=SO03.SM0036
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 742 
+dev-> 101 
+dev_id-> 2022 
+AKZ name->=SO03.SM0037
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 743 
+dev-> 101 
+dev_id-> 2023 
+AKZ name->=SO03.SM0037
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 744 
+dev-> 101 
+dev_id-> 2024 
+AKZ name->=SO03.SM0038
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 745 
+dev-> 101 
+dev_id-> 2025 
+AKZ name->=SO03.SM0038
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 746 
+dev-> 101 
+dev_id-> 2026 
+AKZ name->=SO03.SM0039
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 747 
+dev-> 101 
+dev_id-> 2027 
+AKZ name->=SO03.SM0039
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 748 
+dev-> 101 
+dev_id-> 2028 
+AKZ name->=SO03.SM0040
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 749 
+dev-> 101 
+dev_id-> 2029 
+AKZ name->=SO03.SM0040
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 750 
+dev-> 101 
+dev_id-> 2030 
+AKZ name->=SO03.SM0041
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 751 
+dev-> 101 
+dev_id-> 2031 
+AKZ name->=SO03.SM0041
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 752 
+dev-> 101 
+dev_id-> 2032 
+AKZ name->=SO03.SM0042
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 753 
+dev-> 101 
+dev_id-> 2033 
+AKZ name->=SO03.SM0042
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 754 
+dev-> 101 
+dev_id-> 2034 
+AKZ name->=SO03.SM0043
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 755 
+dev-> 101 
+dev_id-> 2035 
+AKZ name->=SO03.SM0043
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 756 
+dev-> 101 
+dev_id-> 2036 
+AKZ name->=SO03.SM0044
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 757 
+dev-> 101 
+dev_id-> 2037 
+AKZ name->=SO03.SM0044
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 758 
+dev-> 101 
+dev_id-> 2038 
+AKZ name->=SO03.SM0045
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 759 
+dev-> 101 
+dev_id-> 2039 
+AKZ name->=SO03.SM0045
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 760 
+dev-> 101 
+dev_id-> 2040 
+AKZ name->=SO03.SM0046
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 761 
+dev-> 101 
+dev_id-> 2041 
+AKZ name->=SO03.SM0046
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 762 
+dev-> 101 
+dev_id-> 2056 
+AKZ name->=SO03.SK0003
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 763 
+dev-> 101 
+dev_id-> 2057 
+AKZ name->=SO03.SK0004
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 764 
+dev-> 101 
+dev_id-> 2060 
+AKZ name->=SO03.LV0002
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 765 
+dev-> 101 
+dev_id-> 2065 
+AKZ name->=SO05.LV0004
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 766 
+dev-> 101 
+dev_id-> 2071 
+AKZ name->=SO03.SS0005
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 767 
+dev-> 101 
+dev_id-> 2072 
+AKZ name->=SO03.SS0006
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 768 
+dev-> 101 
+dev_id-> 2081 
+AKZ name->=SS04+SS0001-70KF3.1
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 769 
+dev-> 101 
+dev_id-> 2094 
+AKZ name->=SS09+SS0001-70KF3.0
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 770 
+dev-> 101 
+dev_id-> 3010 
+AKZ name->=ES09.SSC001
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 771 
+dev-> 101 
+dev_id-> 3011 
+AKZ name->=ES09.GFC004-AS01
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 772 
+dev-> 101 
+dev_id-> 3012 
+AKZ name->=ES07.SSC001
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 773 
+dev-> 101 
+dev_id-> 3013 
+AKZ name->=ES07.GFC004-AS01
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 774 
+dev-> 101 
+dev_id-> 3014 
+AKZ name->=ES05.SSC001
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 775 
+dev-> 101 
+dev_id-> 3015 
+AKZ name->=ES05.GFC004-AS01
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 776 
+dev-> 101 
+dev_id-> 3016 
+AKZ name->=ES03.SSC001
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 777 
+dev-> 101 
+dev_id-> 3017 
+AKZ name->=ES03.GFC004-AS01
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 778 
+dev-> 101 
+dev_id-> 3020 
+AKZ name->=SO03.SM0022
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 779 
+dev-> 101 
+dev_id-> 3021 
+AKZ name->=SO03.SM0022
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 780 
+dev-> 101 
+dev_id-> 3022 
+AKZ name->=SO03.SM0023
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 781 
+dev-> 101 
+dev_id-> 3023 
+AKZ name->=SO03.SM0023
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 782 
+dev-> 101 
+dev_id-> 3024 
+AKZ name->=SO03.SM0024
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 783 
+dev-> 101 
+dev_id-> 3025 
+AKZ name->=SO03.SM0024
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 784 
+dev-> 101 
+dev_id-> 3026 
+AKZ name->=SO03.SM0025
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 785 
+dev-> 101 
+dev_id-> 3027 
+AKZ name->=SO03.SM0025
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 786 
+dev-> 101 
+dev_id-> 3028 
+AKZ name->=SO03.SM0026
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 787 
+dev-> 101 
+dev_id-> 3029 
+AKZ name->=SO03.SM0026
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 788 
+dev-> 101 
+dev_id-> 3030 
+AKZ name->=SO03.SM0027
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 789 
+dev-> 101 
+dev_id-> 3031 
+AKZ name->=SO03.SM0027
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 790 
+dev-> 101 
+dev_id-> 3032 
+AKZ name->=SO03.SM0028
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 791 
+dev-> 101 
+dev_id-> 3033 
+AKZ name->=SO03.SM0028
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 792 
+dev-> 101 
+dev_id-> 3034 
+AKZ name->=SO03.SM0029
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 793 
+dev-> 101 
+dev_id-> 3035 
+AKZ name->=SO03.SM0029
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 794 
+dev-> 101 
+dev_id-> 3036 
+AKZ name->=SO03.SM0030
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 795 
+dev-> 101 
+dev_id-> 3037 
+AKZ name->=SO03.SM0030
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 796 
+dev-> 101 
+dev_id-> 3038 
+AKZ name->=SO03.SM0031
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 797 
+dev-> 101 
+dev_id-> 3039 
+AKZ name->=SO03.SM0031
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 798 
+dev-> 101 
+dev_id-> 3040 
+AKZ name->=SO03.SM0032
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 799 
+dev-> 101 
+dev_id-> 3041 
+AKZ name->=SO03.SM0032
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 800 
+dev-> 101 
+dev_id-> 3042 
+AKZ name->=SO03.SM0033
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 801 
+dev-> 101 
+dev_id-> 3043 
+AKZ name->=SO03.SM0033
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 802 
+dev-> 101 
+dev_id-> 3044 
+AKZ name->=SO03.SM0034
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 803 
+dev-> 101 
+dev_id-> 3045 
+AKZ name->=SO03.SM0034
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 804 
+dev-> 101 
+dev_id-> 3046 
+AKZ name->=SO03.SM0035
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 805 
+dev-> 101 
+dev_id-> 3047 
+AKZ name->=SO03.SM0035
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 806 
+dev-> 101 
+dev_id-> 3060 
+AKZ name->=SO03.LV0003
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 807 
+dev-> 101 
+dev_id-> 3065 
+AKZ name->=SO05.LV0005
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 808 
+dev-> 101 
+dev_id-> 3071 
+AKZ name->=SO03.SS0003
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 809 
+dev-> 101 
+dev_id-> 3072 
+AKZ name->=SO03.SS0004
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 810 
+dev-> 101 
+dev_id-> 3075 
+AKZ name->=SO02.UV0001
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 811 
+dev-> 101 
+dev_id-> 3092 
+AKZ name->=SS08+SS0001-70KF3.0
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 812 
+dev-> 101 
+dev_id-> 3105 
+AKZ name->=SS02+SS0001-70KF3.1
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 813 
+dev-> 101 
+dev_id-> 4007 
+AKZ name->=SO03.DR0001-KF01
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 814 
+dev-> 101 
+dev_id-> 4008 
+AKZ name->=SO03.DR0001-KF02
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 815 
+dev-> 101 
+dev_id-> 4009 
+AKZ name->=SO03.DR0001-KF03
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 816 
+dev-> 101 
+dev_id-> 4010 
+AKZ name->=ES06.SSC001
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 817 
+dev-> 101 
+dev_id-> 4011 
+AKZ name->=ES06.GFC004-AS01
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 818 
+dev-> 101 
+dev_id-> 4012 
+AKZ name->=ES08.SSC001
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 819 
+dev-> 101 
+dev_id-> 4013 
+AKZ name->=ES08.GFC004-AS01
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 820 
+dev-> 101 
+dev_id-> 4014 
+AKZ name->=ES10.SSC001
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 821 
+dev-> 101 
+dev_id-> 4015 
+AKZ name->=ES10.GFC004-AS01
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 822 
+dev-> 101 
+dev_id-> 4016 
+AKZ name->=ES11.SSC001
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 823 
+dev-> 101 
+dev_id-> 4017 
+AKZ name->=ES11.GFC004-AS01
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 824 
+dev-> 101 
+dev_id-> 4020 
+AKZ name->=SO03.SM0005
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 825 
+dev-> 101 
+dev_id-> 4021 
+AKZ name->=SO03.SM0005
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 826 
+dev-> 101 
+dev_id-> 4022 
+AKZ name->=SO03.SM0006
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 827 
+dev-> 101 
+dev_id-> 4023 
+AKZ name->=SO03.SM0006
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 828 
+dev-> 101 
+dev_id-> 4024 
+AKZ name->=SO03.SM0007
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 829 
+dev-> 101 
+dev_id-> 4025 
+AKZ name->=SO03.SM0007
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 830 
+dev-> 101 
+dev_id-> 4026 
+AKZ name->=SO03.SM0008
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 831 
+dev-> 101 
+dev_id-> 4027 
+AKZ name->=SO03.SM0008
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 832 
+dev-> 101 
+dev_id-> 4028 
+AKZ name->=SO03.SM0009
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 833 
+dev-> 101 
+dev_id-> 4029 
+AKZ name->=SO03.SM0009
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 834 
+dev-> 101 
+dev_id-> 4030 
+AKZ name->=SO03.SM0010
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 835 
+dev-> 101 
+dev_id-> 4031 
+AKZ name->=SO03.SM0010
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 836 
+dev-> 101 
+dev_id-> 4032 
+AKZ name->=SO03.SM0011
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 837 
+dev-> 101 
+dev_id-> 4033 
+AKZ name->=SO03.SM0011
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 838 
+dev-> 101 
+dev_id-> 4034 
+AKZ name->=SO03.SM0012
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 839 
+dev-> 101 
+dev_id-> 4035 
+AKZ name->=SO03.SM0012
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 840 
+dev-> 101 
+dev_id-> 4036 
+AKZ name->=SO03.SM0013
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 841 
+dev-> 101 
+dev_id-> 4037 
+AKZ name->=SO03.SM0013
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 842 
+dev-> 101 
+dev_id-> 4038 
+AKZ name->=SO03.SM0014
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 843 
+dev-> 101 
+dev_id-> 4039 
+AKZ name->=SO03.SM0014
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 844 
+dev-> 101 
+dev_id-> 4040 
+AKZ name->=SO03.SM0015
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 845 
+dev-> 101 
+dev_id-> 4041 
+AKZ name->=SO03.SM0015
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 846 
+dev-> 101 
+dev_id-> 4042 
+AKZ name->=SO03.SM0016
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 847 
+dev-> 101 
+dev_id-> 4043 
+AKZ name->=SO03.SM0016
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 848 
+dev-> 101 
+dev_id-> 4044 
+AKZ name->=SO03.SM0017
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 849 
+dev-> 101 
+dev_id-> 4045 
+AKZ name->=SO03.SM0017
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 850 
+dev-> 101 
+dev_id-> 4046 
+AKZ name->=SO03.SM0018
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 851 
+dev-> 101 
+dev_id-> 4047 
+AKZ name->=SO03.SM0018
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 852 
+dev-> 101 
+dev_id-> 4048 
+AKZ name->=SO03.SM0019
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 853 
+dev-> 101 
+dev_id-> 4049 
+AKZ name->=SO03.SM0019
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 854 
+dev-> 101 
+dev_id-> 4050 
+AKZ name->=SO03.SM0020
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 855 
+dev-> 101 
+dev_id-> 4051 
+AKZ name->=SO03.SM0020
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 856 
+dev-> 101 
+dev_id-> 4052 
+AKZ name->=SO03.SM0021
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 857 
+dev-> 101 
+dev_id-> 4053 
+AKZ name->=SO03.SM0021
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 858 
+dev-> 101 
+dev_id-> 4056 
+AKZ name->=SO03.SK0001
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 859 
+dev-> 101 
+dev_id-> 4057 
+AKZ name->=SO03.SK0002
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 860 
+dev-> 101 
+dev_id-> 4058 
+AKZ name->=SO02.DR0002
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 861 
+dev-> 101 
+dev_id-> 4071 
+AKZ name->=SO03.SS0001
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 862 
+dev-> 101 
+dev_id-> 4072 
+AKZ name->=SO03.SS0002
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 863 
+dev-> 101 
+dev_id-> 4078 
+AKZ name->=SS03+SS0001-70KF3.1
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 864 
+dev-> 101 
+dev_id-> 4087 
+AKZ name->=SS06+SS0001-70KF3.1
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 865 
+dev-> 101 
+dev_id-> 4098 
+AKZ name->=SS01+SS0001-70KF3.1
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 
+Record -> 866 
+dev-> 101 
+dev_id-> 4102 
+AKZ name->=SS01+SS0001-70KF3.2
+MFR location id-> 0 
+Config-> 0 
+Send status-> 0 
+Status-> 0 
+Status mask-> 0 
+Alarm-> 0 

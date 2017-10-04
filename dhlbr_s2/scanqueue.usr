@@ -1,0 +1,10 @@
+//
+//Scanqueue table
+//
+TableName="scanqueue"
+//
+Field="Scanner Id",DB_INTEGER
+Field="Wainting queue (cells max 20)",DB_INTEGER
+Field="Timeout in ep",DB_INTEGER
+//
+Index="Scanner Id","+Scanner Id",yes,yes

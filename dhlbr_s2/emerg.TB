@@ -1,0 +1,48 @@
+//
+//S_emerg
+//
+TABLE_TYPE: 0
+//
+MAXTABLE:1
+//
+TABLE
+//
+//
+BEGINSTRUCT // Begin of structure=S_emerg
+  USHORT  // Field=id
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_emerg.name
+      POINTER  // Field=s_di_emerg.ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12  // Field=s_do_emerg.name
+      POINTER  // Field=s_do_emerg.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+  USHORT  // Field=active
+ENDSTRUCT // End of structure=S_emerg
+//
+//
+ENDTABLE
+//
+//
+BEGINSTRUCT // Begin of structure=S_emerg
+  USHORT,1  // Field=id
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_EMG_SORTER"  // Field=s_di_emerg.name
+      POINTER  // Field=s_di_emerg.ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12  // Field=s_do_emerg.name
+      POINTER  // Field=s_do_emerg.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+  USHORT  // Field=active
+ENDSTRUCT // End of structure=S_emerg
+//

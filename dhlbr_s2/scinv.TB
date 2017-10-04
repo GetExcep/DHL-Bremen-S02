@@ -1,0 +1,3223 @@
+//
+//S_scinv_header
+//
+TABLE_TYPE: 0
+//
+MAXHEADER:1
+//
+HEADER
+//
+//
+BEGINSTRUCT // Begin of structure=S_scinv_header
+  STRING12  // Field=name
+    //
+    BEGINSTRUCT // Begin of structure=S_cfg_scinv_header
+      USHORT  // Field=s_cfg_scinv_header.ratio
+      USHORT  // Field=s_cfg_scinv_header.power_save_mode
+      USHORT  // Field=s_cfg_scinv_header.max_value
+      USHORT  // Field=s_cfg_scinv_header.upper_threshold
+      USHORT  // Field=s_cfg_scinv_header.lower_threshold
+    ENDSTRUCT // End of structure=S_cfg_scinv_header
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12  // Field=s_do_pwrrun.name
+      POINTER  // Field=s_do_pwrrun.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12  // Field=s_do_pwrbk.name
+      POINTER  // Field=s_do_pwrbk.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_ao
+      STRING12  // Field=s_ao_inverter.name
+      POINTER  // Field=s_ao_inverter.ps_analog
+    ENDSTRUCT // End of structure=S_ao
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_tm
+      USHORT  // Field=s_tm_pwrrun.base
+      ULONG  // Field=s_tm_pwrrun.preset
+      POINTER  // Field=s_tm_pwrrun.ps_timer
+    ENDSTRUCT // End of structure=S_tm
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_tm
+      USHORT  // Field=s_tm_power_save.base
+      ULONG  // Field=s_tm_power_save.preset
+      POINTER  // Field=s_tm_power_save.ps_timer
+    ENDSTRUCT // End of structure=S_tm
+    //
+  USHORT  // Field=n_max_error
+    //
+    BEGINSTRUCT // Begin of structure=S_state
+      SHORT  // Field=s_state.trace
+      SHORT  // Field=s_state.init
+      LONG  // Field=s_state.state
+      LONG  // Field=s_state.previous_state
+      LONG  // Field=s_state.next_state
+      LONG  // Field=s_state.substate
+      STRING40  // Field=s_state.des_state
+      STRING40  // Field=s_state.des_prevstate
+    ENDSTRUCT // End of structure=S_state
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_wk_scinv_header
+      USHORT  // Field=s_wk_scinv_header.n_failure
+      USHORT  // Field=s_wk_scinv_header.power_save_idx
+    ENDSTRUCT // End of structure=S_wk_scinv_header
+    //
+ENDSTRUCT // End of structure=S_scinv_header
+//
+//
+ENDHEADER
+//
+//
+BEGINSTRUCT // Begin of structure=S_scinv_header
+  STRING12,"SCINVH"  // Field=name
+    //
+    BEGINSTRUCT // Begin of structure=S_cfg_scinv_header
+      USHORT,200  // Field=s_cfg_scinv_header.ratio
+      USHORT,0  // Field=s_cfg_scinv_header.power_save_mode
+      USHORT,9900  // Field=s_cfg_scinv_header.max_value
+      USHORT,9800  // Field=s_cfg_scinv_header.upper_threshold
+      USHORT,7000  // Field=s_cfg_scinv_header.lower_threshold
+    ENDSTRUCT // End of structure=S_cfg_scinv_header
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12  // Field=s_do_pwrrun.name
+      POINTER  // Field=s_do_pwrrun.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12,"O_INVRESET"  // Field=s_do_pwrbk.name
+      POINTER  // Field=s_do_pwrbk.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_ao
+      STRING12  // Field=s_ao_inverter.name
+      POINTER  // Field=s_ao_inverter.ps_analog
+    ENDSTRUCT // End of structure=S_ao
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_tm
+      USHORT,3  // Field=s_tm_pwrrun.base
+      ULONG,5  // Field=s_tm_pwrrun.preset
+      POINTER  // Field=s_tm_pwrrun.ps_timer
+    ENDSTRUCT // End of structure=S_tm
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_tm
+      USHORT,3  // Field=s_tm_power_save.base
+      ULONG,120  // Field=s_tm_power_save.preset
+      POINTER  // Field=s_tm_power_save.ps_timer
+    ENDSTRUCT // End of structure=S_tm
+    //
+  USHORT,4  // Field=n_max_error
+    //
+    BEGINSTRUCT // Begin of structure=S_state
+      SHORT,1  // Field=s_state.trace
+      SHORT  // Field=s_state.init
+      LONG  // Field=s_state.state
+      LONG  // Field=s_state.previous_state
+      LONG  // Field=s_state.next_state
+      LONG  // Field=s_state.substate
+      STRING40  // Field=s_state.des_state
+      STRING40  // Field=s_state.des_prevstate
+    ENDSTRUCT // End of structure=S_state
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_wk_scinv_header
+      USHORT  // Field=s_wk_scinv_header.n_failure
+      USHORT  // Field=s_wk_scinv_header.power_save_idx
+    ENDSTRUCT // End of structure=S_wk_scinv_header
+    //
+ENDSTRUCT // End of structure=S_scinv_header
+//
+//
+//S_scinv
+//
+TABLE_TYPE: 0
+//
+MAXTABLE:30
+//
+TABLE
+//
+//
+BEGINSTRUCT // Begin of structure=S_scinv
+  USHORT  // Field=id
+  STRING12  // Field=name
+  USHORT  // Field=enable
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_invready.name
+      POINTER  // Field=s_di_invready.ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_invfault.name
+      POINTER  // Field=s_di_invfault.ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_invfan.name
+      POINTER  // Field=s_di_invfan.ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12  // Field=s_do_invoff.name
+      POINTER  // Field=s_do_invoff.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12  // Field=s_do_pwrbk.name
+      POINTER  // Field=s_do_pwrbk.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_tm
+      USHORT  // Field=s_tm_wait_for_ready.base
+      ULONG  // Field=s_tm_wait_for_ready.preset
+      POINTER  // Field=s_tm_wait_for_ready.ps_timer
+    ENDSTRUCT // End of structure=S_tm
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_cfg_scinv
+      USHORT  // Field=s_cfg_scinv.general_purpose
+      USHORT  // Field=s_cfg_scinv.power_save_idx
+    ENDSTRUCT // End of structure=S_cfg_scinv
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_wk_scinv
+      USHORT  // Field=s_wk_scinv.status
+    ENDSTRUCT // End of structure=S_wk_scinv
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_state
+      SHORT  // Field=s_state.trace
+      SHORT  // Field=s_state.init
+      LONG  // Field=s_state.state
+      LONG  // Field=s_state.previous_state
+      LONG  // Field=s_state.next_state
+      LONG  // Field=s_state.substate
+      STRING40  // Field=s_state.des_state
+      STRING40  // Field=s_state.des_prevstate
+    ENDSTRUCT // End of structure=S_state
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_failure
+      UCHAR  // Field=s_failure.physical
+      UCHAR  // Field=s_failure.logical
+    ENDSTRUCT // End of structure=S_failure
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_scinvstat
+        //
+        BEGINSTRUCT // Begin of structure=S_statis
+            //
+            BEGINSTRUCT // Begin of structure=S_counter
+              ULONG  // Field=s_scinvstat.s_statis.s_counter_failure.n_time
+              ULONG  // Field=s_scinvstat.s_statis.s_counter_failure.time
+            ENDSTRUCT // End of structure=S_counter
+            //
+            //
+            BEGINSTRUCT // Begin of structure=S_counter
+              ULONG  // Field=s_scinvstat.s_statis.s_counter_disable.n_time
+              ULONG  // Field=s_scinvstat.s_statis.s_counter_disable.time
+            ENDSTRUCT // End of structure=S_counter
+            //
+        ENDSTRUCT // End of structure=S_statis
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_status
+          ULONG  // Field=s_scinvstat.s_status.status
+          ULONG  // Field=s_scinvstat.s_status.old_status
+        ENDSTRUCT // End of structure=S_status
+        //
+    ENDSTRUCT // End of structure=S_scinvstat
+    //
+ENDSTRUCT // End of structure=S_scinv
+//
+//
+ENDTABLE
+//
+//
+BEGINSTRUCT // Begin of structure=S_scinv
+  USHORT,11  // Field=id
+  STRING12,"SS001_TB01"  // Field=name
+  USHORT,1  // Field=enable
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_invready.name
+      POINTER  // Field=s_di_invready.ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_INVNOK1_01"  // Field=s_di_invfault.name
+      POINTER  // Field=s_di_invfault.ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_invfan.name
+      POINTER  // Field=s_di_invfan.ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12  // Field=s_do_invoff.name
+      POINTER  // Field=s_do_invoff.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12  // Field=s_do_pwrbk.name
+      POINTER  // Field=s_do_pwrbk.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_tm
+      USHORT,2  // Field=s_tm_wait_for_ready.base
+      ULONG,50  // Field=s_tm_wait_for_ready.preset
+      POINTER  // Field=s_tm_wait_for_ready.ps_timer
+    ENDSTRUCT // End of structure=S_tm
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_cfg_scinv
+      USHORT,1  // Field=s_cfg_scinv.general_purpose
+      USHORT,1  // Field=s_cfg_scinv.power_save_idx
+    ENDSTRUCT // End of structure=S_cfg_scinv
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_wk_scinv
+      USHORT  // Field=s_wk_scinv.status
+    ENDSTRUCT // End of structure=S_wk_scinv
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_state
+      SHORT,1  // Field=s_state.trace
+      SHORT  // Field=s_state.init
+      LONG  // Field=s_state.state
+      LONG  // Field=s_state.previous_state
+      LONG  // Field=s_state.next_state
+      LONG  // Field=s_state.substate
+      STRING40  // Field=s_state.des_state
+      STRING40  // Field=s_state.des_prevstate
+    ENDSTRUCT // End of structure=S_state
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_failure
+      UCHAR  // Field=s_failure.physical
+      UCHAR  // Field=s_failure.logical
+    ENDSTRUCT // End of structure=S_failure
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_scinvstat
+        //
+        BEGINSTRUCT // Begin of structure=S_statis
+            //
+            BEGINSTRUCT // Begin of structure=S_counter
+              ULONG  // Field=s_scinvstat.s_statis.s_counter_failure.n_time
+              ULONG  // Field=s_scinvstat.s_statis.s_counter_failure.time
+            ENDSTRUCT // End of structure=S_counter
+            //
+            //
+            BEGINSTRUCT // Begin of structure=S_counter
+              ULONG  // Field=s_scinvstat.s_statis.s_counter_disable.n_time
+              ULONG  // Field=s_scinvstat.s_statis.s_counter_disable.time
+            ENDSTRUCT // End of structure=S_counter
+            //
+        ENDSTRUCT // End of structure=S_statis
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_status
+          ULONG  // Field=s_scinvstat.s_status.status
+          ULONG  // Field=s_scinvstat.s_status.old_status
+        ENDSTRUCT // End of structure=S_status
+        //
+    ENDSTRUCT // End of structure=S_scinvstat
+    //
+ENDSTRUCT // End of structure=S_scinv
+//
+//
+BEGINSTRUCT // Begin of structure=S_scinv
+  USHORT,12  // Field=id
+  STRING12,"SS001_TB02"  // Field=name
+  USHORT,1  // Field=enable
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_invready.name
+      POINTER  // Field=s_di_invready.ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_INVNOK2_01"  // Field=s_di_invfault.name
+      POINTER  // Field=s_di_invfault.ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_invfan.name
+      POINTER  // Field=s_di_invfan.ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12  // Field=s_do_invoff.name
+      POINTER  // Field=s_do_invoff.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12  // Field=s_do_pwrbk.name
+      POINTER  // Field=s_do_pwrbk.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_tm
+      USHORT,2  // Field=s_tm_wait_for_ready.base
+      ULONG,50  // Field=s_tm_wait_for_ready.preset
+      POINTER  // Field=s_tm_wait_for_ready.ps_timer
+    ENDSTRUCT // End of structure=S_tm
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_cfg_scinv
+      USHORT,1  // Field=s_cfg_scinv.general_purpose
+      USHORT,1  // Field=s_cfg_scinv.power_save_idx
+    ENDSTRUCT // End of structure=S_cfg_scinv
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_wk_scinv
+      USHORT  // Field=s_wk_scinv.status
+    ENDSTRUCT // End of structure=S_wk_scinv
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_state
+      SHORT,1  // Field=s_state.trace
+      SHORT  // Field=s_state.init
+      LONG  // Field=s_state.state
+      LONG  // Field=s_state.previous_state
+      LONG  // Field=s_state.next_state
+      LONG  // Field=s_state.substate
+      STRING40  // Field=s_state.des_state
+      STRING40  // Field=s_state.des_prevstate
+    ENDSTRUCT // End of structure=S_state
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_failure
+      UCHAR  // Field=s_failure.physical
+      UCHAR  // Field=s_failure.logical
+    ENDSTRUCT // End of structure=S_failure
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_scinvstat
+        //
+        BEGINSTRUCT // Begin of structure=S_statis
+            //
+            BEGINSTRUCT // Begin of structure=S_counter
+              ULONG  // Field=s_scinvstat.s_statis.s_counter_failure.n_time
+              ULONG  // Field=s_scinvstat.s_statis.s_counter_failure.time
+            ENDSTRUCT // End of structure=S_counter
+            //
+            //
+            BEGINSTRUCT // Begin of structure=S_counter
+              ULONG  // Field=s_scinvstat.s_statis.s_counter_disable.n_time
+              ULONG  // Field=s_scinvstat.s_statis.s_counter_disable.time
+            ENDSTRUCT // End of structure=S_counter
+            //
+        ENDSTRUCT // End of structure=S_statis
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_status
+          ULONG  // Field=s_scinvstat.s_status.status
+          ULONG  // Field=s_scinvstat.s_status.old_status
+        ENDSTRUCT // End of structure=S_status
+        //
+    ENDSTRUCT // End of structure=S_scinvstat
+    //
+ENDSTRUCT // End of structure=S_scinv
+//
+//
+BEGINSTRUCT // Begin of structure=S_scinv
+  USHORT,13  // Field=id
+  STRING12,"SS001_TB03"  // Field=name
+  USHORT,1  // Field=enable
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_invready.name
+      POINTER  // Field=s_di_invready.ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_INVNOK3_01"  // Field=s_di_invfault.name
+      POINTER  // Field=s_di_invfault.ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_invfan.name
+      POINTER  // Field=s_di_invfan.ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12  // Field=s_do_invoff.name
+      POINTER  // Field=s_do_invoff.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12  // Field=s_do_pwrbk.name
+      POINTER  // Field=s_do_pwrbk.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_tm
+      USHORT,2  // Field=s_tm_wait_for_ready.base
+      ULONG,50  // Field=s_tm_wait_for_ready.preset
+      POINTER  // Field=s_tm_wait_for_ready.ps_timer
+    ENDSTRUCT // End of structure=S_tm
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_cfg_scinv
+      USHORT,1  // Field=s_cfg_scinv.general_purpose
+      USHORT,1  // Field=s_cfg_scinv.power_save_idx
+    ENDSTRUCT // End of structure=S_cfg_scinv
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_wk_scinv
+      USHORT  // Field=s_wk_scinv.status
+    ENDSTRUCT // End of structure=S_wk_scinv
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_state
+      SHORT,1  // Field=s_state.trace
+      SHORT  // Field=s_state.init
+      LONG  // Field=s_state.state
+      LONG  // Field=s_state.previous_state
+      LONG  // Field=s_state.next_state
+      LONG  // Field=s_state.substate
+      STRING40  // Field=s_state.des_state
+      STRING40  // Field=s_state.des_prevstate
+    ENDSTRUCT // End of structure=S_state
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_failure
+      UCHAR  // Field=s_failure.physical
+      UCHAR  // Field=s_failure.logical
+    ENDSTRUCT // End of structure=S_failure
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_scinvstat
+        //
+        BEGINSTRUCT // Begin of structure=S_statis
+            //
+            BEGINSTRUCT // Begin of structure=S_counter
+              ULONG  // Field=s_scinvstat.s_statis.s_counter_failure.n_time
+              ULONG  // Field=s_scinvstat.s_statis.s_counter_failure.time
+            ENDSTRUCT // End of structure=S_counter
+            //
+            //
+            BEGINSTRUCT // Begin of structure=S_counter
+              ULONG  // Field=s_scinvstat.s_statis.s_counter_disable.n_time
+              ULONG  // Field=s_scinvstat.s_statis.s_counter_disable.time
+            ENDSTRUCT // End of structure=S_counter
+            //
+        ENDSTRUCT // End of structure=S_statis
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_status
+          ULONG  // Field=s_scinvstat.s_status.status
+          ULONG  // Field=s_scinvstat.s_status.old_status
+        ENDSTRUCT // End of structure=S_status
+        //
+    ENDSTRUCT // End of structure=S_scinvstat
+    //
+ENDSTRUCT // End of structure=S_scinv
+//
+//
+BEGINSTRUCT // Begin of structure=S_scinv
+  USHORT,21  // Field=id
+  STRING12,"SS002_TB01"  // Field=name
+  USHORT,1  // Field=enable
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_invready.name
+      POINTER  // Field=s_di_invready.ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_INVNOK1_02"  // Field=s_di_invfault.name
+      POINTER  // Field=s_di_invfault.ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_invfan.name
+      POINTER  // Field=s_di_invfan.ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12  // Field=s_do_invoff.name
+      POINTER  // Field=s_do_invoff.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12  // Field=s_do_pwrbk.name
+      POINTER  // Field=s_do_pwrbk.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_tm
+      USHORT,2  // Field=s_tm_wait_for_ready.base
+      ULONG,50  // Field=s_tm_wait_for_ready.preset
+      POINTER  // Field=s_tm_wait_for_ready.ps_timer
+    ENDSTRUCT // End of structure=S_tm
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_cfg_scinv
+      USHORT,1  // Field=s_cfg_scinv.general_purpose
+      USHORT,1  // Field=s_cfg_scinv.power_save_idx
+    ENDSTRUCT // End of structure=S_cfg_scinv
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_wk_scinv
+      USHORT  // Field=s_wk_scinv.status
+    ENDSTRUCT // End of structure=S_wk_scinv
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_state
+      SHORT,1  // Field=s_state.trace
+      SHORT  // Field=s_state.init
+      LONG  // Field=s_state.state
+      LONG  // Field=s_state.previous_state
+      LONG  // Field=s_state.next_state
+      LONG  // Field=s_state.substate
+      STRING40  // Field=s_state.des_state
+      STRING40  // Field=s_state.des_prevstate
+    ENDSTRUCT // End of structure=S_state
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_failure
+      UCHAR  // Field=s_failure.physical
+      UCHAR  // Field=s_failure.logical
+    ENDSTRUCT // End of structure=S_failure
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_scinvstat
+        //
+        BEGINSTRUCT // Begin of structure=S_statis
+            //
+            BEGINSTRUCT // Begin of structure=S_counter
+              ULONG  // Field=s_scinvstat.s_statis.s_counter_failure.n_time
+              ULONG  // Field=s_scinvstat.s_statis.s_counter_failure.time
+            ENDSTRUCT // End of structure=S_counter
+            //
+            //
+            BEGINSTRUCT // Begin of structure=S_counter
+              ULONG  // Field=s_scinvstat.s_statis.s_counter_disable.n_time
+              ULONG  // Field=s_scinvstat.s_statis.s_counter_disable.time
+            ENDSTRUCT // End of structure=S_counter
+            //
+        ENDSTRUCT // End of structure=S_statis
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_status
+          ULONG  // Field=s_scinvstat.s_status.status
+          ULONG  // Field=s_scinvstat.s_status.old_status
+        ENDSTRUCT // End of structure=S_status
+        //
+    ENDSTRUCT // End of structure=S_scinvstat
+    //
+ENDSTRUCT // End of structure=S_scinv
+//
+//
+BEGINSTRUCT // Begin of structure=S_scinv
+  USHORT,22  // Field=id
+  STRING12,"SS002_TB02"  // Field=name
+  USHORT,1  // Field=enable
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_invready.name
+      POINTER  // Field=s_di_invready.ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_INVNOK2_02"  // Field=s_di_invfault.name
+      POINTER  // Field=s_di_invfault.ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_invfan.name
+      POINTER  // Field=s_di_invfan.ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12  // Field=s_do_invoff.name
+      POINTER  // Field=s_do_invoff.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12  // Field=s_do_pwrbk.name
+      POINTER  // Field=s_do_pwrbk.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_tm
+      USHORT,2  // Field=s_tm_wait_for_ready.base
+      ULONG,50  // Field=s_tm_wait_for_ready.preset
+      POINTER  // Field=s_tm_wait_for_ready.ps_timer
+    ENDSTRUCT // End of structure=S_tm
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_cfg_scinv
+      USHORT,1  // Field=s_cfg_scinv.general_purpose
+      USHORT,1  // Field=s_cfg_scinv.power_save_idx
+    ENDSTRUCT // End of structure=S_cfg_scinv
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_wk_scinv
+      USHORT  // Field=s_wk_scinv.status
+    ENDSTRUCT // End of structure=S_wk_scinv
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_state
+      SHORT,1  // Field=s_state.trace
+      SHORT  // Field=s_state.init
+      LONG  // Field=s_state.state
+      LONG  // Field=s_state.previous_state
+      LONG  // Field=s_state.next_state
+      LONG  // Field=s_state.substate
+      STRING40  // Field=s_state.des_state
+      STRING40  // Field=s_state.des_prevstate
+    ENDSTRUCT // End of structure=S_state
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_failure
+      UCHAR  // Field=s_failure.physical
+      UCHAR  // Field=s_failure.logical
+    ENDSTRUCT // End of structure=S_failure
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_scinvstat
+        //
+        BEGINSTRUCT // Begin of structure=S_statis
+            //
+            BEGINSTRUCT // Begin of structure=S_counter
+              ULONG  // Field=s_scinvstat.s_statis.s_counter_failure.n_time
+              ULONG  // Field=s_scinvstat.s_statis.s_counter_failure.time
+            ENDSTRUCT // End of structure=S_counter
+            //
+            //
+            BEGINSTRUCT // Begin of structure=S_counter
+              ULONG  // Field=s_scinvstat.s_statis.s_counter_disable.n_time
+              ULONG  // Field=s_scinvstat.s_statis.s_counter_disable.time
+            ENDSTRUCT // End of structure=S_counter
+            //
+        ENDSTRUCT // End of structure=S_statis
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_status
+          ULONG  // Field=s_scinvstat.s_status.status
+          ULONG  // Field=s_scinvstat.s_status.old_status
+        ENDSTRUCT // End of structure=S_status
+        //
+    ENDSTRUCT // End of structure=S_scinvstat
+    //
+ENDSTRUCT // End of structure=S_scinv
+//
+//
+BEGINSTRUCT // Begin of structure=S_scinv
+  USHORT,23  // Field=id
+  STRING12,"SS002_TB03"  // Field=name
+  USHORT,1  // Field=enable
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_invready.name
+      POINTER  // Field=s_di_invready.ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_INVNOK3_02"  // Field=s_di_invfault.name
+      POINTER  // Field=s_di_invfault.ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_invfan.name
+      POINTER  // Field=s_di_invfan.ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12  // Field=s_do_invoff.name
+      POINTER  // Field=s_do_invoff.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12  // Field=s_do_pwrbk.name
+      POINTER  // Field=s_do_pwrbk.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_tm
+      USHORT,2  // Field=s_tm_wait_for_ready.base
+      ULONG,50  // Field=s_tm_wait_for_ready.preset
+      POINTER  // Field=s_tm_wait_for_ready.ps_timer
+    ENDSTRUCT // End of structure=S_tm
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_cfg_scinv
+      USHORT,1  // Field=s_cfg_scinv.general_purpose
+      USHORT,1  // Field=s_cfg_scinv.power_save_idx
+    ENDSTRUCT // End of structure=S_cfg_scinv
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_wk_scinv
+      USHORT  // Field=s_wk_scinv.status
+    ENDSTRUCT // End of structure=S_wk_scinv
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_state
+      SHORT,1  // Field=s_state.trace
+      SHORT  // Field=s_state.init
+      LONG  // Field=s_state.state
+      LONG  // Field=s_state.previous_state
+      LONG  // Field=s_state.next_state
+      LONG  // Field=s_state.substate
+      STRING40  // Field=s_state.des_state
+      STRING40  // Field=s_state.des_prevstate
+    ENDSTRUCT // End of structure=S_state
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_failure
+      UCHAR  // Field=s_failure.physical
+      UCHAR  // Field=s_failure.logical
+    ENDSTRUCT // End of structure=S_failure
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_scinvstat
+        //
+        BEGINSTRUCT // Begin of structure=S_statis
+            //
+            BEGINSTRUCT // Begin of structure=S_counter
+              ULONG  // Field=s_scinvstat.s_statis.s_counter_failure.n_time
+              ULONG  // Field=s_scinvstat.s_statis.s_counter_failure.time
+            ENDSTRUCT // End of structure=S_counter
+            //
+            //
+            BEGINSTRUCT // Begin of structure=S_counter
+              ULONG  // Field=s_scinvstat.s_statis.s_counter_disable.n_time
+              ULONG  // Field=s_scinvstat.s_statis.s_counter_disable.time
+            ENDSTRUCT // End of structure=S_counter
+            //
+        ENDSTRUCT // End of structure=S_statis
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_status
+          ULONG  // Field=s_scinvstat.s_status.status
+          ULONG  // Field=s_scinvstat.s_status.old_status
+        ENDSTRUCT // End of structure=S_status
+        //
+    ENDSTRUCT // End of structure=S_scinvstat
+    //
+ENDSTRUCT // End of structure=S_scinv
+//
+//
+BEGINSTRUCT // Begin of structure=S_scinv
+  USHORT,31  // Field=id
+  STRING12,"SS003_TB01"  // Field=name
+  USHORT,1  // Field=enable
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_invready.name
+      POINTER  // Field=s_di_invready.ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_INVNOK1_03"  // Field=s_di_invfault.name
+      POINTER  // Field=s_di_invfault.ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_invfan.name
+      POINTER  // Field=s_di_invfan.ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12  // Field=s_do_invoff.name
+      POINTER  // Field=s_do_invoff.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12  // Field=s_do_pwrbk.name
+      POINTER  // Field=s_do_pwrbk.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_tm
+      USHORT,2  // Field=s_tm_wait_for_ready.base
+      ULONG,50  // Field=s_tm_wait_for_ready.preset
+      POINTER  // Field=s_tm_wait_for_ready.ps_timer
+    ENDSTRUCT // End of structure=S_tm
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_cfg_scinv
+      USHORT,1  // Field=s_cfg_scinv.general_purpose
+      USHORT,1  // Field=s_cfg_scinv.power_save_idx
+    ENDSTRUCT // End of structure=S_cfg_scinv
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_wk_scinv
+      USHORT  // Field=s_wk_scinv.status
+    ENDSTRUCT // End of structure=S_wk_scinv
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_state
+      SHORT,1  // Field=s_state.trace
+      SHORT  // Field=s_state.init
+      LONG  // Field=s_state.state
+      LONG  // Field=s_state.previous_state
+      LONG  // Field=s_state.next_state
+      LONG  // Field=s_state.substate
+      STRING40  // Field=s_state.des_state
+      STRING40  // Field=s_state.des_prevstate
+    ENDSTRUCT // End of structure=S_state
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_failure
+      UCHAR  // Field=s_failure.physical
+      UCHAR  // Field=s_failure.logical
+    ENDSTRUCT // End of structure=S_failure
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_scinvstat
+        //
+        BEGINSTRUCT // Begin of structure=S_statis
+            //
+            BEGINSTRUCT // Begin of structure=S_counter
+              ULONG  // Field=s_scinvstat.s_statis.s_counter_failure.n_time
+              ULONG  // Field=s_scinvstat.s_statis.s_counter_failure.time
+            ENDSTRUCT // End of structure=S_counter
+            //
+            //
+            BEGINSTRUCT // Begin of structure=S_counter
+              ULONG  // Field=s_scinvstat.s_statis.s_counter_disable.n_time
+              ULONG  // Field=s_scinvstat.s_statis.s_counter_disable.time
+            ENDSTRUCT // End of structure=S_counter
+            //
+        ENDSTRUCT // End of structure=S_statis
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_status
+          ULONG  // Field=s_scinvstat.s_status.status
+          ULONG  // Field=s_scinvstat.s_status.old_status
+        ENDSTRUCT // End of structure=S_status
+        //
+    ENDSTRUCT // End of structure=S_scinvstat
+    //
+ENDSTRUCT // End of structure=S_scinv
+//
+//
+BEGINSTRUCT // Begin of structure=S_scinv
+  USHORT,32  // Field=id
+  STRING12,"SS003_TB02"  // Field=name
+  USHORT,1  // Field=enable
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_invready.name
+      POINTER  // Field=s_di_invready.ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_INVNOK2_03"  // Field=s_di_invfault.name
+      POINTER  // Field=s_di_invfault.ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_invfan.name
+      POINTER  // Field=s_di_invfan.ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12  // Field=s_do_invoff.name
+      POINTER  // Field=s_do_invoff.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12  // Field=s_do_pwrbk.name
+      POINTER  // Field=s_do_pwrbk.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_tm
+      USHORT,2  // Field=s_tm_wait_for_ready.base
+      ULONG,50  // Field=s_tm_wait_for_ready.preset
+      POINTER  // Field=s_tm_wait_for_ready.ps_timer
+    ENDSTRUCT // End of structure=S_tm
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_cfg_scinv
+      USHORT,1  // Field=s_cfg_scinv.general_purpose
+      USHORT,1  // Field=s_cfg_scinv.power_save_idx
+    ENDSTRUCT // End of structure=S_cfg_scinv
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_wk_scinv
+      USHORT  // Field=s_wk_scinv.status
+    ENDSTRUCT // End of structure=S_wk_scinv
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_state
+      SHORT,1  // Field=s_state.trace
+      SHORT  // Field=s_state.init
+      LONG  // Field=s_state.state
+      LONG  // Field=s_state.previous_state
+      LONG  // Field=s_state.next_state
+      LONG  // Field=s_state.substate
+      STRING40  // Field=s_state.des_state
+      STRING40  // Field=s_state.des_prevstate
+    ENDSTRUCT // End of structure=S_state
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_failure
+      UCHAR  // Field=s_failure.physical
+      UCHAR  // Field=s_failure.logical
+    ENDSTRUCT // End of structure=S_failure
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_scinvstat
+        //
+        BEGINSTRUCT // Begin of structure=S_statis
+            //
+            BEGINSTRUCT // Begin of structure=S_counter
+              ULONG  // Field=s_scinvstat.s_statis.s_counter_failure.n_time
+              ULONG  // Field=s_scinvstat.s_statis.s_counter_failure.time
+            ENDSTRUCT // End of structure=S_counter
+            //
+            //
+            BEGINSTRUCT // Begin of structure=S_counter
+              ULONG  // Field=s_scinvstat.s_statis.s_counter_disable.n_time
+              ULONG  // Field=s_scinvstat.s_statis.s_counter_disable.time
+            ENDSTRUCT // End of structure=S_counter
+            //
+        ENDSTRUCT // End of structure=S_statis
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_status
+          ULONG  // Field=s_scinvstat.s_status.status
+          ULONG  // Field=s_scinvstat.s_status.old_status
+        ENDSTRUCT // End of structure=S_status
+        //
+    ENDSTRUCT // End of structure=S_scinvstat
+    //
+ENDSTRUCT // End of structure=S_scinv
+//
+//
+BEGINSTRUCT // Begin of structure=S_scinv
+  USHORT,33  // Field=id
+  STRING12,"SS003_TB03"  // Field=name
+  USHORT,1  // Field=enable
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_invready.name
+      POINTER  // Field=s_di_invready.ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_INVNOK3_03"  // Field=s_di_invfault.name
+      POINTER  // Field=s_di_invfault.ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_invfan.name
+      POINTER  // Field=s_di_invfan.ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12  // Field=s_do_invoff.name
+      POINTER  // Field=s_do_invoff.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12  // Field=s_do_pwrbk.name
+      POINTER  // Field=s_do_pwrbk.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_tm
+      USHORT,2  // Field=s_tm_wait_for_ready.base
+      ULONG,50  // Field=s_tm_wait_for_ready.preset
+      POINTER  // Field=s_tm_wait_for_ready.ps_timer
+    ENDSTRUCT // End of structure=S_tm
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_cfg_scinv
+      USHORT,1  // Field=s_cfg_scinv.general_purpose
+      USHORT,1  // Field=s_cfg_scinv.power_save_idx
+    ENDSTRUCT // End of structure=S_cfg_scinv
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_wk_scinv
+      USHORT  // Field=s_wk_scinv.status
+    ENDSTRUCT // End of structure=S_wk_scinv
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_state
+      SHORT,1  // Field=s_state.trace
+      SHORT  // Field=s_state.init
+      LONG  // Field=s_state.state
+      LONG  // Field=s_state.previous_state
+      LONG  // Field=s_state.next_state
+      LONG  // Field=s_state.substate
+      STRING40  // Field=s_state.des_state
+      STRING40  // Field=s_state.des_prevstate
+    ENDSTRUCT // End of structure=S_state
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_failure
+      UCHAR  // Field=s_failure.physical
+      UCHAR  // Field=s_failure.logical
+    ENDSTRUCT // End of structure=S_failure
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_scinvstat
+        //
+        BEGINSTRUCT // Begin of structure=S_statis
+            //
+            BEGINSTRUCT // Begin of structure=S_counter
+              ULONG  // Field=s_scinvstat.s_statis.s_counter_failure.n_time
+              ULONG  // Field=s_scinvstat.s_statis.s_counter_failure.time
+            ENDSTRUCT // End of structure=S_counter
+            //
+            //
+            BEGINSTRUCT // Begin of structure=S_counter
+              ULONG  // Field=s_scinvstat.s_statis.s_counter_disable.n_time
+              ULONG  // Field=s_scinvstat.s_statis.s_counter_disable.time
+            ENDSTRUCT // End of structure=S_counter
+            //
+        ENDSTRUCT // End of structure=S_statis
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_status
+          ULONG  // Field=s_scinvstat.s_status.status
+          ULONG  // Field=s_scinvstat.s_status.old_status
+        ENDSTRUCT // End of structure=S_status
+        //
+    ENDSTRUCT // End of structure=S_scinvstat
+    //
+ENDSTRUCT // End of structure=S_scinv
+//
+//
+BEGINSTRUCT // Begin of structure=S_scinv
+  USHORT,41  // Field=id
+  STRING12,"SS004_TB01"  // Field=name
+  USHORT,1  // Field=enable
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_invready.name
+      POINTER  // Field=s_di_invready.ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_INVNOK1_04"  // Field=s_di_invfault.name
+      POINTER  // Field=s_di_invfault.ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_invfan.name
+      POINTER  // Field=s_di_invfan.ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12  // Field=s_do_invoff.name
+      POINTER  // Field=s_do_invoff.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12  // Field=s_do_pwrbk.name
+      POINTER  // Field=s_do_pwrbk.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_tm
+      USHORT,2  // Field=s_tm_wait_for_ready.base
+      ULONG,50  // Field=s_tm_wait_for_ready.preset
+      POINTER  // Field=s_tm_wait_for_ready.ps_timer
+    ENDSTRUCT // End of structure=S_tm
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_cfg_scinv
+      USHORT,1  // Field=s_cfg_scinv.general_purpose
+      USHORT,1  // Field=s_cfg_scinv.power_save_idx
+    ENDSTRUCT // End of structure=S_cfg_scinv
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_wk_scinv
+      USHORT  // Field=s_wk_scinv.status
+    ENDSTRUCT // End of structure=S_wk_scinv
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_state
+      SHORT,1  // Field=s_state.trace
+      SHORT  // Field=s_state.init
+      LONG  // Field=s_state.state
+      LONG  // Field=s_state.previous_state
+      LONG  // Field=s_state.next_state
+      LONG  // Field=s_state.substate
+      STRING40  // Field=s_state.des_state
+      STRING40  // Field=s_state.des_prevstate
+    ENDSTRUCT // End of structure=S_state
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_failure
+      UCHAR  // Field=s_failure.physical
+      UCHAR  // Field=s_failure.logical
+    ENDSTRUCT // End of structure=S_failure
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_scinvstat
+        //
+        BEGINSTRUCT // Begin of structure=S_statis
+            //
+            BEGINSTRUCT // Begin of structure=S_counter
+              ULONG  // Field=s_scinvstat.s_statis.s_counter_failure.n_time
+              ULONG  // Field=s_scinvstat.s_statis.s_counter_failure.time
+            ENDSTRUCT // End of structure=S_counter
+            //
+            //
+            BEGINSTRUCT // Begin of structure=S_counter
+              ULONG  // Field=s_scinvstat.s_statis.s_counter_disable.n_time
+              ULONG  // Field=s_scinvstat.s_statis.s_counter_disable.time
+            ENDSTRUCT // End of structure=S_counter
+            //
+        ENDSTRUCT // End of structure=S_statis
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_status
+          ULONG  // Field=s_scinvstat.s_status.status
+          ULONG  // Field=s_scinvstat.s_status.old_status
+        ENDSTRUCT // End of structure=S_status
+        //
+    ENDSTRUCT // End of structure=S_scinvstat
+    //
+ENDSTRUCT // End of structure=S_scinv
+//
+//
+BEGINSTRUCT // Begin of structure=S_scinv
+  USHORT,42  // Field=id
+  STRING12,"SS004_TB02"  // Field=name
+  USHORT,1  // Field=enable
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_invready.name
+      POINTER  // Field=s_di_invready.ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_INVNOK2_04"  // Field=s_di_invfault.name
+      POINTER  // Field=s_di_invfault.ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_invfan.name
+      POINTER  // Field=s_di_invfan.ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12  // Field=s_do_invoff.name
+      POINTER  // Field=s_do_invoff.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12  // Field=s_do_pwrbk.name
+      POINTER  // Field=s_do_pwrbk.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_tm
+      USHORT,2  // Field=s_tm_wait_for_ready.base
+      ULONG,50  // Field=s_tm_wait_for_ready.preset
+      POINTER  // Field=s_tm_wait_for_ready.ps_timer
+    ENDSTRUCT // End of structure=S_tm
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_cfg_scinv
+      USHORT,1  // Field=s_cfg_scinv.general_purpose
+      USHORT,1  // Field=s_cfg_scinv.power_save_idx
+    ENDSTRUCT // End of structure=S_cfg_scinv
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_wk_scinv
+      USHORT  // Field=s_wk_scinv.status
+    ENDSTRUCT // End of structure=S_wk_scinv
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_state
+      SHORT,1  // Field=s_state.trace
+      SHORT  // Field=s_state.init
+      LONG  // Field=s_state.state
+      LONG  // Field=s_state.previous_state
+      LONG  // Field=s_state.next_state
+      LONG  // Field=s_state.substate
+      STRING40  // Field=s_state.des_state
+      STRING40  // Field=s_state.des_prevstate
+    ENDSTRUCT // End of structure=S_state
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_failure
+      UCHAR  // Field=s_failure.physical
+      UCHAR  // Field=s_failure.logical
+    ENDSTRUCT // End of structure=S_failure
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_scinvstat
+        //
+        BEGINSTRUCT // Begin of structure=S_statis
+            //
+            BEGINSTRUCT // Begin of structure=S_counter
+              ULONG  // Field=s_scinvstat.s_statis.s_counter_failure.n_time
+              ULONG  // Field=s_scinvstat.s_statis.s_counter_failure.time
+            ENDSTRUCT // End of structure=S_counter
+            //
+            //
+            BEGINSTRUCT // Begin of structure=S_counter
+              ULONG  // Field=s_scinvstat.s_statis.s_counter_disable.n_time
+              ULONG  // Field=s_scinvstat.s_statis.s_counter_disable.time
+            ENDSTRUCT // End of structure=S_counter
+            //
+        ENDSTRUCT // End of structure=S_statis
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_status
+          ULONG  // Field=s_scinvstat.s_status.status
+          ULONG  // Field=s_scinvstat.s_status.old_status
+        ENDSTRUCT // End of structure=S_status
+        //
+    ENDSTRUCT // End of structure=S_scinvstat
+    //
+ENDSTRUCT // End of structure=S_scinv
+//
+//
+BEGINSTRUCT // Begin of structure=S_scinv
+  USHORT,43  // Field=id
+  STRING12,"SS004_TB03"  // Field=name
+  USHORT,1  // Field=enable
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_invready.name
+      POINTER  // Field=s_di_invready.ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_INVNOK3_04"  // Field=s_di_invfault.name
+      POINTER  // Field=s_di_invfault.ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_invfan.name
+      POINTER  // Field=s_di_invfan.ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12  // Field=s_do_invoff.name
+      POINTER  // Field=s_do_invoff.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12  // Field=s_do_pwrbk.name
+      POINTER  // Field=s_do_pwrbk.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_tm
+      USHORT,2  // Field=s_tm_wait_for_ready.base
+      ULONG,50  // Field=s_tm_wait_for_ready.preset
+      POINTER  // Field=s_tm_wait_for_ready.ps_timer
+    ENDSTRUCT // End of structure=S_tm
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_cfg_scinv
+      USHORT,1  // Field=s_cfg_scinv.general_purpose
+      USHORT,1  // Field=s_cfg_scinv.power_save_idx
+    ENDSTRUCT // End of structure=S_cfg_scinv
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_wk_scinv
+      USHORT  // Field=s_wk_scinv.status
+    ENDSTRUCT // End of structure=S_wk_scinv
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_state
+      SHORT,1  // Field=s_state.trace
+      SHORT  // Field=s_state.init
+      LONG  // Field=s_state.state
+      LONG  // Field=s_state.previous_state
+      LONG  // Field=s_state.next_state
+      LONG  // Field=s_state.substate
+      STRING40  // Field=s_state.des_state
+      STRING40  // Field=s_state.des_prevstate
+    ENDSTRUCT // End of structure=S_state
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_failure
+      UCHAR  // Field=s_failure.physical
+      UCHAR  // Field=s_failure.logical
+    ENDSTRUCT // End of structure=S_failure
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_scinvstat
+        //
+        BEGINSTRUCT // Begin of structure=S_statis
+            //
+            BEGINSTRUCT // Begin of structure=S_counter
+              ULONG  // Field=s_scinvstat.s_statis.s_counter_failure.n_time
+              ULONG  // Field=s_scinvstat.s_statis.s_counter_failure.time
+            ENDSTRUCT // End of structure=S_counter
+            //
+            //
+            BEGINSTRUCT // Begin of structure=S_counter
+              ULONG  // Field=s_scinvstat.s_statis.s_counter_disable.n_time
+              ULONG  // Field=s_scinvstat.s_statis.s_counter_disable.time
+            ENDSTRUCT // End of structure=S_counter
+            //
+        ENDSTRUCT // End of structure=S_statis
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_status
+          ULONG  // Field=s_scinvstat.s_status.status
+          ULONG  // Field=s_scinvstat.s_status.old_status
+        ENDSTRUCT // End of structure=S_status
+        //
+    ENDSTRUCT // End of structure=S_scinvstat
+    //
+ENDSTRUCT // End of structure=S_scinv
+//
+//
+BEGINSTRUCT // Begin of structure=S_scinv
+  USHORT,51  // Field=id
+  STRING12,"SS005_TB01"  // Field=name
+  USHORT,1  // Field=enable
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_invready.name
+      POINTER  // Field=s_di_invready.ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_INVNOK1_05"  // Field=s_di_invfault.name
+      POINTER  // Field=s_di_invfault.ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_invfan.name
+      POINTER  // Field=s_di_invfan.ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12  // Field=s_do_invoff.name
+      POINTER  // Field=s_do_invoff.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12  // Field=s_do_pwrbk.name
+      POINTER  // Field=s_do_pwrbk.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_tm
+      USHORT,2  // Field=s_tm_wait_for_ready.base
+      ULONG,50  // Field=s_tm_wait_for_ready.preset
+      POINTER  // Field=s_tm_wait_for_ready.ps_timer
+    ENDSTRUCT // End of structure=S_tm
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_cfg_scinv
+      USHORT,1  // Field=s_cfg_scinv.general_purpose
+      USHORT,1  // Field=s_cfg_scinv.power_save_idx
+    ENDSTRUCT // End of structure=S_cfg_scinv
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_wk_scinv
+      USHORT  // Field=s_wk_scinv.status
+    ENDSTRUCT // End of structure=S_wk_scinv
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_state
+      SHORT,1  // Field=s_state.trace
+      SHORT  // Field=s_state.init
+      LONG  // Field=s_state.state
+      LONG  // Field=s_state.previous_state
+      LONG  // Field=s_state.next_state
+      LONG  // Field=s_state.substate
+      STRING40  // Field=s_state.des_state
+      STRING40  // Field=s_state.des_prevstate
+    ENDSTRUCT // End of structure=S_state
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_failure
+      UCHAR  // Field=s_failure.physical
+      UCHAR  // Field=s_failure.logical
+    ENDSTRUCT // End of structure=S_failure
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_scinvstat
+        //
+        BEGINSTRUCT // Begin of structure=S_statis
+            //
+            BEGINSTRUCT // Begin of structure=S_counter
+              ULONG  // Field=s_scinvstat.s_statis.s_counter_failure.n_time
+              ULONG  // Field=s_scinvstat.s_statis.s_counter_failure.time
+            ENDSTRUCT // End of structure=S_counter
+            //
+            //
+            BEGINSTRUCT // Begin of structure=S_counter
+              ULONG  // Field=s_scinvstat.s_statis.s_counter_disable.n_time
+              ULONG  // Field=s_scinvstat.s_statis.s_counter_disable.time
+            ENDSTRUCT // End of structure=S_counter
+            //
+        ENDSTRUCT // End of structure=S_statis
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_status
+          ULONG  // Field=s_scinvstat.s_status.status
+          ULONG  // Field=s_scinvstat.s_status.old_status
+        ENDSTRUCT // End of structure=S_status
+        //
+    ENDSTRUCT // End of structure=S_scinvstat
+    //
+ENDSTRUCT // End of structure=S_scinv
+//
+//
+BEGINSTRUCT // Begin of structure=S_scinv
+  USHORT,52  // Field=id
+  STRING12,"SS005_TB02"  // Field=name
+  USHORT,1  // Field=enable
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_invready.name
+      POINTER  // Field=s_di_invready.ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_INVNOK2_05"  // Field=s_di_invfault.name
+      POINTER  // Field=s_di_invfault.ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_invfan.name
+      POINTER  // Field=s_di_invfan.ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12  // Field=s_do_invoff.name
+      POINTER  // Field=s_do_invoff.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12  // Field=s_do_pwrbk.name
+      POINTER  // Field=s_do_pwrbk.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_tm
+      USHORT,2  // Field=s_tm_wait_for_ready.base
+      ULONG,50  // Field=s_tm_wait_for_ready.preset
+      POINTER  // Field=s_tm_wait_for_ready.ps_timer
+    ENDSTRUCT // End of structure=S_tm
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_cfg_scinv
+      USHORT,1  // Field=s_cfg_scinv.general_purpose
+      USHORT,1  // Field=s_cfg_scinv.power_save_idx
+    ENDSTRUCT // End of structure=S_cfg_scinv
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_wk_scinv
+      USHORT  // Field=s_wk_scinv.status
+    ENDSTRUCT // End of structure=S_wk_scinv
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_state
+      SHORT,1  // Field=s_state.trace
+      SHORT  // Field=s_state.init
+      LONG  // Field=s_state.state
+      LONG  // Field=s_state.previous_state
+      LONG  // Field=s_state.next_state
+      LONG  // Field=s_state.substate
+      STRING40  // Field=s_state.des_state
+      STRING40  // Field=s_state.des_prevstate
+    ENDSTRUCT // End of structure=S_state
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_failure
+      UCHAR  // Field=s_failure.physical
+      UCHAR  // Field=s_failure.logical
+    ENDSTRUCT // End of structure=S_failure
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_scinvstat
+        //
+        BEGINSTRUCT // Begin of structure=S_statis
+            //
+            BEGINSTRUCT // Begin of structure=S_counter
+              ULONG  // Field=s_scinvstat.s_statis.s_counter_failure.n_time
+              ULONG  // Field=s_scinvstat.s_statis.s_counter_failure.time
+            ENDSTRUCT // End of structure=S_counter
+            //
+            //
+            BEGINSTRUCT // Begin of structure=S_counter
+              ULONG  // Field=s_scinvstat.s_statis.s_counter_disable.n_time
+              ULONG  // Field=s_scinvstat.s_statis.s_counter_disable.time
+            ENDSTRUCT // End of structure=S_counter
+            //
+        ENDSTRUCT // End of structure=S_statis
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_status
+          ULONG  // Field=s_scinvstat.s_status.status
+          ULONG  // Field=s_scinvstat.s_status.old_status
+        ENDSTRUCT // End of structure=S_status
+        //
+    ENDSTRUCT // End of structure=S_scinvstat
+    //
+ENDSTRUCT // End of structure=S_scinv
+//
+//
+BEGINSTRUCT // Begin of structure=S_scinv
+  USHORT,61  // Field=id
+  STRING12,"SS006_TB01"  // Field=name
+  USHORT,1  // Field=enable
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_invready.name
+      POINTER  // Field=s_di_invready.ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_INVNOK1_06"  // Field=s_di_invfault.name
+      POINTER  // Field=s_di_invfault.ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_invfan.name
+      POINTER  // Field=s_di_invfan.ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12  // Field=s_do_invoff.name
+      POINTER  // Field=s_do_invoff.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12  // Field=s_do_pwrbk.name
+      POINTER  // Field=s_do_pwrbk.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_tm
+      USHORT,2  // Field=s_tm_wait_for_ready.base
+      ULONG,50  // Field=s_tm_wait_for_ready.preset
+      POINTER  // Field=s_tm_wait_for_ready.ps_timer
+    ENDSTRUCT // End of structure=S_tm
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_cfg_scinv
+      USHORT,1  // Field=s_cfg_scinv.general_purpose
+      USHORT,1  // Field=s_cfg_scinv.power_save_idx
+    ENDSTRUCT // End of structure=S_cfg_scinv
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_wk_scinv
+      USHORT  // Field=s_wk_scinv.status
+    ENDSTRUCT // End of structure=S_wk_scinv
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_state
+      SHORT,1  // Field=s_state.trace
+      SHORT  // Field=s_state.init
+      LONG  // Field=s_state.state
+      LONG  // Field=s_state.previous_state
+      LONG  // Field=s_state.next_state
+      LONG  // Field=s_state.substate
+      STRING40  // Field=s_state.des_state
+      STRING40  // Field=s_state.des_prevstate
+    ENDSTRUCT // End of structure=S_state
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_failure
+      UCHAR  // Field=s_failure.physical
+      UCHAR  // Field=s_failure.logical
+    ENDSTRUCT // End of structure=S_failure
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_scinvstat
+        //
+        BEGINSTRUCT // Begin of structure=S_statis
+            //
+            BEGINSTRUCT // Begin of structure=S_counter
+              ULONG  // Field=s_scinvstat.s_statis.s_counter_failure.n_time
+              ULONG  // Field=s_scinvstat.s_statis.s_counter_failure.time
+            ENDSTRUCT // End of structure=S_counter
+            //
+            //
+            BEGINSTRUCT // Begin of structure=S_counter
+              ULONG  // Field=s_scinvstat.s_statis.s_counter_disable.n_time
+              ULONG  // Field=s_scinvstat.s_statis.s_counter_disable.time
+            ENDSTRUCT // End of structure=S_counter
+            //
+        ENDSTRUCT // End of structure=S_statis
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_status
+          ULONG  // Field=s_scinvstat.s_status.status
+          ULONG  // Field=s_scinvstat.s_status.old_status
+        ENDSTRUCT // End of structure=S_status
+        //
+    ENDSTRUCT // End of structure=S_scinvstat
+    //
+ENDSTRUCT // End of structure=S_scinv
+//
+//
+BEGINSTRUCT // Begin of structure=S_scinv
+  USHORT,62  // Field=id
+  STRING12,"SS006_TB02"  // Field=name
+  USHORT,1  // Field=enable
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_invready.name
+      POINTER  // Field=s_di_invready.ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_INVNOK2_06"  // Field=s_di_invfault.name
+      POINTER  // Field=s_di_invfault.ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_invfan.name
+      POINTER  // Field=s_di_invfan.ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12  // Field=s_do_invoff.name
+      POINTER  // Field=s_do_invoff.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12  // Field=s_do_pwrbk.name
+      POINTER  // Field=s_do_pwrbk.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_tm
+      USHORT,2  // Field=s_tm_wait_for_ready.base
+      ULONG,50  // Field=s_tm_wait_for_ready.preset
+      POINTER  // Field=s_tm_wait_for_ready.ps_timer
+    ENDSTRUCT // End of structure=S_tm
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_cfg_scinv
+      USHORT,1  // Field=s_cfg_scinv.general_purpose
+      USHORT,1  // Field=s_cfg_scinv.power_save_idx
+    ENDSTRUCT // End of structure=S_cfg_scinv
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_wk_scinv
+      USHORT  // Field=s_wk_scinv.status
+    ENDSTRUCT // End of structure=S_wk_scinv
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_state
+      SHORT,1  // Field=s_state.trace
+      SHORT  // Field=s_state.init
+      LONG  // Field=s_state.state
+      LONG  // Field=s_state.previous_state
+      LONG  // Field=s_state.next_state
+      LONG  // Field=s_state.substate
+      STRING40  // Field=s_state.des_state
+      STRING40  // Field=s_state.des_prevstate
+    ENDSTRUCT // End of structure=S_state
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_failure
+      UCHAR  // Field=s_failure.physical
+      UCHAR  // Field=s_failure.logical
+    ENDSTRUCT // End of structure=S_failure
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_scinvstat
+        //
+        BEGINSTRUCT // Begin of structure=S_statis
+            //
+            BEGINSTRUCT // Begin of structure=S_counter
+              ULONG  // Field=s_scinvstat.s_statis.s_counter_failure.n_time
+              ULONG  // Field=s_scinvstat.s_statis.s_counter_failure.time
+            ENDSTRUCT // End of structure=S_counter
+            //
+            //
+            BEGINSTRUCT // Begin of structure=S_counter
+              ULONG  // Field=s_scinvstat.s_statis.s_counter_disable.n_time
+              ULONG  // Field=s_scinvstat.s_statis.s_counter_disable.time
+            ENDSTRUCT // End of structure=S_counter
+            //
+        ENDSTRUCT // End of structure=S_statis
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_status
+          ULONG  // Field=s_scinvstat.s_status.status
+          ULONG  // Field=s_scinvstat.s_status.old_status
+        ENDSTRUCT // End of structure=S_status
+        //
+    ENDSTRUCT // End of structure=S_scinvstat
+    //
+ENDSTRUCT // End of structure=S_scinv
+//
+//
+BEGINSTRUCT // Begin of structure=S_scinv
+  USHORT,63  // Field=id
+  STRING12,"SS006_TB03"  // Field=name
+  USHORT,1  // Field=enable
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_invready.name
+      POINTER  // Field=s_di_invready.ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_INVNOK3_06"  // Field=s_di_invfault.name
+      POINTER  // Field=s_di_invfault.ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_invfan.name
+      POINTER  // Field=s_di_invfan.ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12  // Field=s_do_invoff.name
+      POINTER  // Field=s_do_invoff.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12  // Field=s_do_pwrbk.name
+      POINTER  // Field=s_do_pwrbk.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_tm
+      USHORT,2  // Field=s_tm_wait_for_ready.base
+      ULONG,50  // Field=s_tm_wait_for_ready.preset
+      POINTER  // Field=s_tm_wait_for_ready.ps_timer
+    ENDSTRUCT // End of structure=S_tm
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_cfg_scinv
+      USHORT,1  // Field=s_cfg_scinv.general_purpose
+      USHORT,1  // Field=s_cfg_scinv.power_save_idx
+    ENDSTRUCT // End of structure=S_cfg_scinv
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_wk_scinv
+      USHORT  // Field=s_wk_scinv.status
+    ENDSTRUCT // End of structure=S_wk_scinv
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_state
+      SHORT,1  // Field=s_state.trace
+      SHORT  // Field=s_state.init
+      LONG  // Field=s_state.state
+      LONG  // Field=s_state.previous_state
+      LONG  // Field=s_state.next_state
+      LONG  // Field=s_state.substate
+      STRING40  // Field=s_state.des_state
+      STRING40  // Field=s_state.des_prevstate
+    ENDSTRUCT // End of structure=S_state
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_failure
+      UCHAR  // Field=s_failure.physical
+      UCHAR  // Field=s_failure.logical
+    ENDSTRUCT // End of structure=S_failure
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_scinvstat
+        //
+        BEGINSTRUCT // Begin of structure=S_statis
+            //
+            BEGINSTRUCT // Begin of structure=S_counter
+              ULONG  // Field=s_scinvstat.s_statis.s_counter_failure.n_time
+              ULONG  // Field=s_scinvstat.s_statis.s_counter_failure.time
+            ENDSTRUCT // End of structure=S_counter
+            //
+            //
+            BEGINSTRUCT // Begin of structure=S_counter
+              ULONG  // Field=s_scinvstat.s_statis.s_counter_disable.n_time
+              ULONG  // Field=s_scinvstat.s_statis.s_counter_disable.time
+            ENDSTRUCT // End of structure=S_counter
+            //
+        ENDSTRUCT // End of structure=S_statis
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_status
+          ULONG  // Field=s_scinvstat.s_status.status
+          ULONG  // Field=s_scinvstat.s_status.old_status
+        ENDSTRUCT // End of structure=S_status
+        //
+    ENDSTRUCT // End of structure=S_scinvstat
+    //
+ENDSTRUCT // End of structure=S_scinv
+//
+//
+BEGINSTRUCT // Begin of structure=S_scinv
+  USHORT,71  // Field=id
+  STRING12,"SS007_TB01"  // Field=name
+  USHORT,1  // Field=enable
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_invready.name
+      POINTER  // Field=s_di_invready.ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_INVNOK1_07"  // Field=s_di_invfault.name
+      POINTER  // Field=s_di_invfault.ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_invfan.name
+      POINTER  // Field=s_di_invfan.ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12  // Field=s_do_invoff.name
+      POINTER  // Field=s_do_invoff.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12  // Field=s_do_pwrbk.name
+      POINTER  // Field=s_do_pwrbk.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_tm
+      USHORT,2  // Field=s_tm_wait_for_ready.base
+      ULONG,50  // Field=s_tm_wait_for_ready.preset
+      POINTER  // Field=s_tm_wait_for_ready.ps_timer
+    ENDSTRUCT // End of structure=S_tm
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_cfg_scinv
+      USHORT,1  // Field=s_cfg_scinv.general_purpose
+      USHORT,1  // Field=s_cfg_scinv.power_save_idx
+    ENDSTRUCT // End of structure=S_cfg_scinv
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_wk_scinv
+      USHORT  // Field=s_wk_scinv.status
+    ENDSTRUCT // End of structure=S_wk_scinv
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_state
+      SHORT,1  // Field=s_state.trace
+      SHORT  // Field=s_state.init
+      LONG  // Field=s_state.state
+      LONG  // Field=s_state.previous_state
+      LONG  // Field=s_state.next_state
+      LONG  // Field=s_state.substate
+      STRING40  // Field=s_state.des_state
+      STRING40  // Field=s_state.des_prevstate
+    ENDSTRUCT // End of structure=S_state
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_failure
+      UCHAR  // Field=s_failure.physical
+      UCHAR  // Field=s_failure.logical
+    ENDSTRUCT // End of structure=S_failure
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_scinvstat
+        //
+        BEGINSTRUCT // Begin of structure=S_statis
+            //
+            BEGINSTRUCT // Begin of structure=S_counter
+              ULONG  // Field=s_scinvstat.s_statis.s_counter_failure.n_time
+              ULONG  // Field=s_scinvstat.s_statis.s_counter_failure.time
+            ENDSTRUCT // End of structure=S_counter
+            //
+            //
+            BEGINSTRUCT // Begin of structure=S_counter
+              ULONG  // Field=s_scinvstat.s_statis.s_counter_disable.n_time
+              ULONG  // Field=s_scinvstat.s_statis.s_counter_disable.time
+            ENDSTRUCT // End of structure=S_counter
+            //
+        ENDSTRUCT // End of structure=S_statis
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_status
+          ULONG  // Field=s_scinvstat.s_status.status
+          ULONG  // Field=s_scinvstat.s_status.old_status
+        ENDSTRUCT // End of structure=S_status
+        //
+    ENDSTRUCT // End of structure=S_scinvstat
+    //
+ENDSTRUCT // End of structure=S_scinv
+//
+//
+BEGINSTRUCT // Begin of structure=S_scinv
+  USHORT,72  // Field=id
+  STRING12,"SS007_TB02"  // Field=name
+  USHORT,1  // Field=enable
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_invready.name
+      POINTER  // Field=s_di_invready.ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_INVNOK2_07"  // Field=s_di_invfault.name
+      POINTER  // Field=s_di_invfault.ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_invfan.name
+      POINTER  // Field=s_di_invfan.ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12  // Field=s_do_invoff.name
+      POINTER  // Field=s_do_invoff.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12  // Field=s_do_pwrbk.name
+      POINTER  // Field=s_do_pwrbk.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_tm
+      USHORT,2  // Field=s_tm_wait_for_ready.base
+      ULONG,50  // Field=s_tm_wait_for_ready.preset
+      POINTER  // Field=s_tm_wait_for_ready.ps_timer
+    ENDSTRUCT // End of structure=S_tm
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_cfg_scinv
+      USHORT,1  // Field=s_cfg_scinv.general_purpose
+      USHORT,1  // Field=s_cfg_scinv.power_save_idx
+    ENDSTRUCT // End of structure=S_cfg_scinv
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_wk_scinv
+      USHORT  // Field=s_wk_scinv.status
+    ENDSTRUCT // End of structure=S_wk_scinv
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_state
+      SHORT,1  // Field=s_state.trace
+      SHORT  // Field=s_state.init
+      LONG  // Field=s_state.state
+      LONG  // Field=s_state.previous_state
+      LONG  // Field=s_state.next_state
+      LONG  // Field=s_state.substate
+      STRING40  // Field=s_state.des_state
+      STRING40  // Field=s_state.des_prevstate
+    ENDSTRUCT // End of structure=S_state
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_failure
+      UCHAR  // Field=s_failure.physical
+      UCHAR  // Field=s_failure.logical
+    ENDSTRUCT // End of structure=S_failure
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_scinvstat
+        //
+        BEGINSTRUCT // Begin of structure=S_statis
+            //
+            BEGINSTRUCT // Begin of structure=S_counter
+              ULONG  // Field=s_scinvstat.s_statis.s_counter_failure.n_time
+              ULONG  // Field=s_scinvstat.s_statis.s_counter_failure.time
+            ENDSTRUCT // End of structure=S_counter
+            //
+            //
+            BEGINSTRUCT // Begin of structure=S_counter
+              ULONG  // Field=s_scinvstat.s_statis.s_counter_disable.n_time
+              ULONG  // Field=s_scinvstat.s_statis.s_counter_disable.time
+            ENDSTRUCT // End of structure=S_counter
+            //
+        ENDSTRUCT // End of structure=S_statis
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_status
+          ULONG  // Field=s_scinvstat.s_status.status
+          ULONG  // Field=s_scinvstat.s_status.old_status
+        ENDSTRUCT // End of structure=S_status
+        //
+    ENDSTRUCT // End of structure=S_scinvstat
+    //
+ENDSTRUCT // End of structure=S_scinv
+//
+//
+BEGINSTRUCT // Begin of structure=S_scinv
+  USHORT,73  // Field=id
+  STRING12,"SS007_TB03"  // Field=name
+  USHORT,1  // Field=enable
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_invready.name
+      POINTER  // Field=s_di_invready.ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_INVNOK3_07"  // Field=s_di_invfault.name
+      POINTER  // Field=s_di_invfault.ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_invfan.name
+      POINTER  // Field=s_di_invfan.ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12  // Field=s_do_invoff.name
+      POINTER  // Field=s_do_invoff.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12  // Field=s_do_pwrbk.name
+      POINTER  // Field=s_do_pwrbk.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_tm
+      USHORT,2  // Field=s_tm_wait_for_ready.base
+      ULONG,50  // Field=s_tm_wait_for_ready.preset
+      POINTER  // Field=s_tm_wait_for_ready.ps_timer
+    ENDSTRUCT // End of structure=S_tm
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_cfg_scinv
+      USHORT,1  // Field=s_cfg_scinv.general_purpose
+      USHORT,1  // Field=s_cfg_scinv.power_save_idx
+    ENDSTRUCT // End of structure=S_cfg_scinv
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_wk_scinv
+      USHORT  // Field=s_wk_scinv.status
+    ENDSTRUCT // End of structure=S_wk_scinv
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_state
+      SHORT,1  // Field=s_state.trace
+      SHORT  // Field=s_state.init
+      LONG  // Field=s_state.state
+      LONG  // Field=s_state.previous_state
+      LONG  // Field=s_state.next_state
+      LONG  // Field=s_state.substate
+      STRING40  // Field=s_state.des_state
+      STRING40  // Field=s_state.des_prevstate
+    ENDSTRUCT // End of structure=S_state
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_failure
+      UCHAR  // Field=s_failure.physical
+      UCHAR  // Field=s_failure.logical
+    ENDSTRUCT // End of structure=S_failure
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_scinvstat
+        //
+        BEGINSTRUCT // Begin of structure=S_statis
+            //
+            BEGINSTRUCT // Begin of structure=S_counter
+              ULONG  // Field=s_scinvstat.s_statis.s_counter_failure.n_time
+              ULONG  // Field=s_scinvstat.s_statis.s_counter_failure.time
+            ENDSTRUCT // End of structure=S_counter
+            //
+            //
+            BEGINSTRUCT // Begin of structure=S_counter
+              ULONG  // Field=s_scinvstat.s_statis.s_counter_disable.n_time
+              ULONG  // Field=s_scinvstat.s_statis.s_counter_disable.time
+            ENDSTRUCT // End of structure=S_counter
+            //
+        ENDSTRUCT // End of structure=S_statis
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_status
+          ULONG  // Field=s_scinvstat.s_status.status
+          ULONG  // Field=s_scinvstat.s_status.old_status
+        ENDSTRUCT // End of structure=S_status
+        //
+    ENDSTRUCT // End of structure=S_scinvstat
+    //
+ENDSTRUCT // End of structure=S_scinv
+//
+//
+BEGINSTRUCT // Begin of structure=S_scinv
+  USHORT,81  // Field=id
+  STRING12,"SS008_TB01"  // Field=name
+  USHORT,1  // Field=enable
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_invready.name
+      POINTER  // Field=s_di_invready.ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_INVNOK1_08"  // Field=s_di_invfault.name
+      POINTER  // Field=s_di_invfault.ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_invfan.name
+      POINTER  // Field=s_di_invfan.ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12  // Field=s_do_invoff.name
+      POINTER  // Field=s_do_invoff.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12  // Field=s_do_pwrbk.name
+      POINTER  // Field=s_do_pwrbk.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_tm
+      USHORT,2  // Field=s_tm_wait_for_ready.base
+      ULONG,50  // Field=s_tm_wait_for_ready.preset
+      POINTER  // Field=s_tm_wait_for_ready.ps_timer
+    ENDSTRUCT // End of structure=S_tm
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_cfg_scinv
+      USHORT,1  // Field=s_cfg_scinv.general_purpose
+      USHORT,1  // Field=s_cfg_scinv.power_save_idx
+    ENDSTRUCT // End of structure=S_cfg_scinv
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_wk_scinv
+      USHORT  // Field=s_wk_scinv.status
+    ENDSTRUCT // End of structure=S_wk_scinv
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_state
+      SHORT,1  // Field=s_state.trace
+      SHORT  // Field=s_state.init
+      LONG  // Field=s_state.state
+      LONG  // Field=s_state.previous_state
+      LONG  // Field=s_state.next_state
+      LONG  // Field=s_state.substate
+      STRING40  // Field=s_state.des_state
+      STRING40  // Field=s_state.des_prevstate
+    ENDSTRUCT // End of structure=S_state
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_failure
+      UCHAR  // Field=s_failure.physical
+      UCHAR  // Field=s_failure.logical
+    ENDSTRUCT // End of structure=S_failure
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_scinvstat
+        //
+        BEGINSTRUCT // Begin of structure=S_statis
+            //
+            BEGINSTRUCT // Begin of structure=S_counter
+              ULONG  // Field=s_scinvstat.s_statis.s_counter_failure.n_time
+              ULONG  // Field=s_scinvstat.s_statis.s_counter_failure.time
+            ENDSTRUCT // End of structure=S_counter
+            //
+            //
+            BEGINSTRUCT // Begin of structure=S_counter
+              ULONG  // Field=s_scinvstat.s_statis.s_counter_disable.n_time
+              ULONG  // Field=s_scinvstat.s_statis.s_counter_disable.time
+            ENDSTRUCT // End of structure=S_counter
+            //
+        ENDSTRUCT // End of structure=S_statis
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_status
+          ULONG  // Field=s_scinvstat.s_status.status
+          ULONG  // Field=s_scinvstat.s_status.old_status
+        ENDSTRUCT // End of structure=S_status
+        //
+    ENDSTRUCT // End of structure=S_scinvstat
+    //
+ENDSTRUCT // End of structure=S_scinv
+//
+//
+BEGINSTRUCT // Begin of structure=S_scinv
+  USHORT,82  // Field=id
+  STRING12,"SS008_TB02"  // Field=name
+  USHORT,1  // Field=enable
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_invready.name
+      POINTER  // Field=s_di_invready.ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_INVNOK2_08"  // Field=s_di_invfault.name
+      POINTER  // Field=s_di_invfault.ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_invfan.name
+      POINTER  // Field=s_di_invfan.ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12  // Field=s_do_invoff.name
+      POINTER  // Field=s_do_invoff.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12  // Field=s_do_pwrbk.name
+      POINTER  // Field=s_do_pwrbk.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_tm
+      USHORT,2  // Field=s_tm_wait_for_ready.base
+      ULONG,50  // Field=s_tm_wait_for_ready.preset
+      POINTER  // Field=s_tm_wait_for_ready.ps_timer
+    ENDSTRUCT // End of structure=S_tm
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_cfg_scinv
+      USHORT,1  // Field=s_cfg_scinv.general_purpose
+      USHORT,1  // Field=s_cfg_scinv.power_save_idx
+    ENDSTRUCT // End of structure=S_cfg_scinv
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_wk_scinv
+      USHORT  // Field=s_wk_scinv.status
+    ENDSTRUCT // End of structure=S_wk_scinv
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_state
+      SHORT,1  // Field=s_state.trace
+      SHORT  // Field=s_state.init
+      LONG  // Field=s_state.state
+      LONG  // Field=s_state.previous_state
+      LONG  // Field=s_state.next_state
+      LONG  // Field=s_state.substate
+      STRING40  // Field=s_state.des_state
+      STRING40  // Field=s_state.des_prevstate
+    ENDSTRUCT // End of structure=S_state
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_failure
+      UCHAR  // Field=s_failure.physical
+      UCHAR  // Field=s_failure.logical
+    ENDSTRUCT // End of structure=S_failure
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_scinvstat
+        //
+        BEGINSTRUCT // Begin of structure=S_statis
+            //
+            BEGINSTRUCT // Begin of structure=S_counter
+              ULONG  // Field=s_scinvstat.s_statis.s_counter_failure.n_time
+              ULONG  // Field=s_scinvstat.s_statis.s_counter_failure.time
+            ENDSTRUCT // End of structure=S_counter
+            //
+            //
+            BEGINSTRUCT // Begin of structure=S_counter
+              ULONG  // Field=s_scinvstat.s_statis.s_counter_disable.n_time
+              ULONG  // Field=s_scinvstat.s_statis.s_counter_disable.time
+            ENDSTRUCT // End of structure=S_counter
+            //
+        ENDSTRUCT // End of structure=S_statis
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_status
+          ULONG  // Field=s_scinvstat.s_status.status
+          ULONG  // Field=s_scinvstat.s_status.old_status
+        ENDSTRUCT // End of structure=S_status
+        //
+    ENDSTRUCT // End of structure=S_scinvstat
+    //
+ENDSTRUCT // End of structure=S_scinv
+//
+//
+BEGINSTRUCT // Begin of structure=S_scinv
+  USHORT,83  // Field=id
+  STRING12,"SS008_TB03"  // Field=name
+  USHORT,1  // Field=enable
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_invready.name
+      POINTER  // Field=s_di_invready.ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_INVNOK3_08"  // Field=s_di_invfault.name
+      POINTER  // Field=s_di_invfault.ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_invfan.name
+      POINTER  // Field=s_di_invfan.ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12  // Field=s_do_invoff.name
+      POINTER  // Field=s_do_invoff.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12  // Field=s_do_pwrbk.name
+      POINTER  // Field=s_do_pwrbk.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_tm
+      USHORT,2  // Field=s_tm_wait_for_ready.base
+      ULONG,50  // Field=s_tm_wait_for_ready.preset
+      POINTER  // Field=s_tm_wait_for_ready.ps_timer
+    ENDSTRUCT // End of structure=S_tm
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_cfg_scinv
+      USHORT,1  // Field=s_cfg_scinv.general_purpose
+      USHORT,1  // Field=s_cfg_scinv.power_save_idx
+    ENDSTRUCT // End of structure=S_cfg_scinv
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_wk_scinv
+      USHORT  // Field=s_wk_scinv.status
+    ENDSTRUCT // End of structure=S_wk_scinv
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_state
+      SHORT,1  // Field=s_state.trace
+      SHORT  // Field=s_state.init
+      LONG  // Field=s_state.state
+      LONG  // Field=s_state.previous_state
+      LONG  // Field=s_state.next_state
+      LONG  // Field=s_state.substate
+      STRING40  // Field=s_state.des_state
+      STRING40  // Field=s_state.des_prevstate
+    ENDSTRUCT // End of structure=S_state
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_failure
+      UCHAR  // Field=s_failure.physical
+      UCHAR  // Field=s_failure.logical
+    ENDSTRUCT // End of structure=S_failure
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_scinvstat
+        //
+        BEGINSTRUCT // Begin of structure=S_statis
+            //
+            BEGINSTRUCT // Begin of structure=S_counter
+              ULONG  // Field=s_scinvstat.s_statis.s_counter_failure.n_time
+              ULONG  // Field=s_scinvstat.s_statis.s_counter_failure.time
+            ENDSTRUCT // End of structure=S_counter
+            //
+            //
+            BEGINSTRUCT // Begin of structure=S_counter
+              ULONG  // Field=s_scinvstat.s_statis.s_counter_disable.n_time
+              ULONG  // Field=s_scinvstat.s_statis.s_counter_disable.time
+            ENDSTRUCT // End of structure=S_counter
+            //
+        ENDSTRUCT // End of structure=S_statis
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_status
+          ULONG  // Field=s_scinvstat.s_status.status
+          ULONG  // Field=s_scinvstat.s_status.old_status
+        ENDSTRUCT // End of structure=S_status
+        //
+    ENDSTRUCT // End of structure=S_scinvstat
+    //
+ENDSTRUCT // End of structure=S_scinv
+//
+//
+BEGINSTRUCT // Begin of structure=S_scinv
+  USHORT,91  // Field=id
+  STRING12,"SS009_TB01"  // Field=name
+  USHORT,1  // Field=enable
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_invready.name
+      POINTER  // Field=s_di_invready.ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_INVNOK1_09"  // Field=s_di_invfault.name
+      POINTER  // Field=s_di_invfault.ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_invfan.name
+      POINTER  // Field=s_di_invfan.ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12  // Field=s_do_invoff.name
+      POINTER  // Field=s_do_invoff.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12  // Field=s_do_pwrbk.name
+      POINTER  // Field=s_do_pwrbk.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_tm
+      USHORT,2  // Field=s_tm_wait_for_ready.base
+      ULONG,50  // Field=s_tm_wait_for_ready.preset
+      POINTER  // Field=s_tm_wait_for_ready.ps_timer
+    ENDSTRUCT // End of structure=S_tm
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_cfg_scinv
+      USHORT,1  // Field=s_cfg_scinv.general_purpose
+      USHORT,1  // Field=s_cfg_scinv.power_save_idx
+    ENDSTRUCT // End of structure=S_cfg_scinv
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_wk_scinv
+      USHORT  // Field=s_wk_scinv.status
+    ENDSTRUCT // End of structure=S_wk_scinv
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_state
+      SHORT,1  // Field=s_state.trace
+      SHORT  // Field=s_state.init
+      LONG  // Field=s_state.state
+      LONG  // Field=s_state.previous_state
+      LONG  // Field=s_state.next_state
+      LONG  // Field=s_state.substate
+      STRING40  // Field=s_state.des_state
+      STRING40  // Field=s_state.des_prevstate
+    ENDSTRUCT // End of structure=S_state
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_failure
+      UCHAR  // Field=s_failure.physical
+      UCHAR  // Field=s_failure.logical
+    ENDSTRUCT // End of structure=S_failure
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_scinvstat
+        //
+        BEGINSTRUCT // Begin of structure=S_statis
+            //
+            BEGINSTRUCT // Begin of structure=S_counter
+              ULONG  // Field=s_scinvstat.s_statis.s_counter_failure.n_time
+              ULONG  // Field=s_scinvstat.s_statis.s_counter_failure.time
+            ENDSTRUCT // End of structure=S_counter
+            //
+            //
+            BEGINSTRUCT // Begin of structure=S_counter
+              ULONG  // Field=s_scinvstat.s_statis.s_counter_disable.n_time
+              ULONG  // Field=s_scinvstat.s_statis.s_counter_disable.time
+            ENDSTRUCT // End of structure=S_counter
+            //
+        ENDSTRUCT // End of structure=S_statis
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_status
+          ULONG  // Field=s_scinvstat.s_status.status
+          ULONG  // Field=s_scinvstat.s_status.old_status
+        ENDSTRUCT // End of structure=S_status
+        //
+    ENDSTRUCT // End of structure=S_scinvstat
+    //
+ENDSTRUCT // End of structure=S_scinv
+//
+//
+BEGINSTRUCT // Begin of structure=S_scinv
+  USHORT,92  // Field=id
+  STRING12,"SS009_TB02"  // Field=name
+  USHORT,1  // Field=enable
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_invready.name
+      POINTER  // Field=s_di_invready.ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_INVNOK2_09"  // Field=s_di_invfault.name
+      POINTER  // Field=s_di_invfault.ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_invfan.name
+      POINTER  // Field=s_di_invfan.ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12  // Field=s_do_invoff.name
+      POINTER  // Field=s_do_invoff.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12  // Field=s_do_pwrbk.name
+      POINTER  // Field=s_do_pwrbk.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_tm
+      USHORT,2  // Field=s_tm_wait_for_ready.base
+      ULONG,50  // Field=s_tm_wait_for_ready.preset
+      POINTER  // Field=s_tm_wait_for_ready.ps_timer
+    ENDSTRUCT // End of structure=S_tm
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_cfg_scinv
+      USHORT,1  // Field=s_cfg_scinv.general_purpose
+      USHORT,1  // Field=s_cfg_scinv.power_save_idx
+    ENDSTRUCT // End of structure=S_cfg_scinv
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_wk_scinv
+      USHORT  // Field=s_wk_scinv.status
+    ENDSTRUCT // End of structure=S_wk_scinv
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_state
+      SHORT,1  // Field=s_state.trace
+      SHORT  // Field=s_state.init
+      LONG  // Field=s_state.state
+      LONG  // Field=s_state.previous_state
+      LONG  // Field=s_state.next_state
+      LONG  // Field=s_state.substate
+      STRING40  // Field=s_state.des_state
+      STRING40  // Field=s_state.des_prevstate
+    ENDSTRUCT // End of structure=S_state
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_failure
+      UCHAR  // Field=s_failure.physical
+      UCHAR  // Field=s_failure.logical
+    ENDSTRUCT // End of structure=S_failure
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_scinvstat
+        //
+        BEGINSTRUCT // Begin of structure=S_statis
+            //
+            BEGINSTRUCT // Begin of structure=S_counter
+              ULONG  // Field=s_scinvstat.s_statis.s_counter_failure.n_time
+              ULONG  // Field=s_scinvstat.s_statis.s_counter_failure.time
+            ENDSTRUCT // End of structure=S_counter
+            //
+            //
+            BEGINSTRUCT // Begin of structure=S_counter
+              ULONG  // Field=s_scinvstat.s_statis.s_counter_disable.n_time
+              ULONG  // Field=s_scinvstat.s_statis.s_counter_disable.time
+            ENDSTRUCT // End of structure=S_counter
+            //
+        ENDSTRUCT // End of structure=S_statis
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_status
+          ULONG  // Field=s_scinvstat.s_status.status
+          ULONG  // Field=s_scinvstat.s_status.old_status
+        ENDSTRUCT // End of structure=S_status
+        //
+    ENDSTRUCT // End of structure=S_scinvstat
+    //
+ENDSTRUCT // End of structure=S_scinv
+//
+//
+BEGINSTRUCT // Begin of structure=S_scinv
+  USHORT,93  // Field=id
+  STRING12,"SS009_TB03"  // Field=name
+  USHORT,1  // Field=enable
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_invready.name
+      POINTER  // Field=s_di_invready.ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_INVNOK3_09"  // Field=s_di_invfault.name
+      POINTER  // Field=s_di_invfault.ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_invfan.name
+      POINTER  // Field=s_di_invfan.ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12  // Field=s_do_invoff.name
+      POINTER  // Field=s_do_invoff.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12  // Field=s_do_pwrbk.name
+      POINTER  // Field=s_do_pwrbk.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_tm
+      USHORT,2  // Field=s_tm_wait_for_ready.base
+      ULONG,50  // Field=s_tm_wait_for_ready.preset
+      POINTER  // Field=s_tm_wait_for_ready.ps_timer
+    ENDSTRUCT // End of structure=S_tm
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_cfg_scinv
+      USHORT,1  // Field=s_cfg_scinv.general_purpose
+      USHORT,1  // Field=s_cfg_scinv.power_save_idx
+    ENDSTRUCT // End of structure=S_cfg_scinv
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_wk_scinv
+      USHORT  // Field=s_wk_scinv.status
+    ENDSTRUCT // End of structure=S_wk_scinv
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_state
+      SHORT,1  // Field=s_state.trace
+      SHORT  // Field=s_state.init
+      LONG  // Field=s_state.state
+      LONG  // Field=s_state.previous_state
+      LONG  // Field=s_state.next_state
+      LONG  // Field=s_state.substate
+      STRING40  // Field=s_state.des_state
+      STRING40  // Field=s_state.des_prevstate
+    ENDSTRUCT // End of structure=S_state
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_failure
+      UCHAR  // Field=s_failure.physical
+      UCHAR  // Field=s_failure.logical
+    ENDSTRUCT // End of structure=S_failure
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_scinvstat
+        //
+        BEGINSTRUCT // Begin of structure=S_statis
+            //
+            BEGINSTRUCT // Begin of structure=S_counter
+              ULONG  // Field=s_scinvstat.s_statis.s_counter_failure.n_time
+              ULONG  // Field=s_scinvstat.s_statis.s_counter_failure.time
+            ENDSTRUCT // End of structure=S_counter
+            //
+            //
+            BEGINSTRUCT // Begin of structure=S_counter
+              ULONG  // Field=s_scinvstat.s_statis.s_counter_disable.n_time
+              ULONG  // Field=s_scinvstat.s_statis.s_counter_disable.time
+            ENDSTRUCT // End of structure=S_counter
+            //
+        ENDSTRUCT // End of structure=S_statis
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_status
+          ULONG  // Field=s_scinvstat.s_status.status
+          ULONG  // Field=s_scinvstat.s_status.old_status
+        ENDSTRUCT // End of structure=S_status
+        //
+    ENDSTRUCT // End of structure=S_scinvstat
+    //
+ENDSTRUCT // End of structure=S_scinv
+//
+//
+BEGINSTRUCT // Begin of structure=S_scinv
+  USHORT,101  // Field=id
+  STRING12,"SS010_TB01"  // Field=name
+  USHORT,1  // Field=enable
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_invready.name
+      POINTER  // Field=s_di_invready.ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_INVNOK1_10"  // Field=s_di_invfault.name
+      POINTER  // Field=s_di_invfault.ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_invfan.name
+      POINTER  // Field=s_di_invfan.ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12  // Field=s_do_invoff.name
+      POINTER  // Field=s_do_invoff.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12  // Field=s_do_pwrbk.name
+      POINTER  // Field=s_do_pwrbk.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_tm
+      USHORT,2  // Field=s_tm_wait_for_ready.base
+      ULONG,50  // Field=s_tm_wait_for_ready.preset
+      POINTER  // Field=s_tm_wait_for_ready.ps_timer
+    ENDSTRUCT // End of structure=S_tm
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_cfg_scinv
+      USHORT,1  // Field=s_cfg_scinv.general_purpose
+      USHORT,1  // Field=s_cfg_scinv.power_save_idx
+    ENDSTRUCT // End of structure=S_cfg_scinv
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_wk_scinv
+      USHORT  // Field=s_wk_scinv.status
+    ENDSTRUCT // End of structure=S_wk_scinv
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_state
+      SHORT,1  // Field=s_state.trace
+      SHORT  // Field=s_state.init
+      LONG  // Field=s_state.state
+      LONG  // Field=s_state.previous_state
+      LONG  // Field=s_state.next_state
+      LONG  // Field=s_state.substate
+      STRING40  // Field=s_state.des_state
+      STRING40  // Field=s_state.des_prevstate
+    ENDSTRUCT // End of structure=S_state
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_failure
+      UCHAR  // Field=s_failure.physical
+      UCHAR  // Field=s_failure.logical
+    ENDSTRUCT // End of structure=S_failure
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_scinvstat
+        //
+        BEGINSTRUCT // Begin of structure=S_statis
+            //
+            BEGINSTRUCT // Begin of structure=S_counter
+              ULONG  // Field=s_scinvstat.s_statis.s_counter_failure.n_time
+              ULONG  // Field=s_scinvstat.s_statis.s_counter_failure.time
+            ENDSTRUCT // End of structure=S_counter
+            //
+            //
+            BEGINSTRUCT // Begin of structure=S_counter
+              ULONG  // Field=s_scinvstat.s_statis.s_counter_disable.n_time
+              ULONG  // Field=s_scinvstat.s_statis.s_counter_disable.time
+            ENDSTRUCT // End of structure=S_counter
+            //
+        ENDSTRUCT // End of structure=S_statis
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_status
+          ULONG  // Field=s_scinvstat.s_status.status
+          ULONG  // Field=s_scinvstat.s_status.old_status
+        ENDSTRUCT // End of structure=S_status
+        //
+    ENDSTRUCT // End of structure=S_scinvstat
+    //
+ENDSTRUCT // End of structure=S_scinv
+//
+//
+BEGINSTRUCT // Begin of structure=S_scinv
+  USHORT,102  // Field=id
+  STRING12,"SS010_TB02"  // Field=name
+  USHORT,1  // Field=enable
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_invready.name
+      POINTER  // Field=s_di_invready.ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_INVNOK2_10"  // Field=s_di_invfault.name
+      POINTER  // Field=s_di_invfault.ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_invfan.name
+      POINTER  // Field=s_di_invfan.ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12  // Field=s_do_invoff.name
+      POINTER  // Field=s_do_invoff.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12  // Field=s_do_pwrbk.name
+      POINTER  // Field=s_do_pwrbk.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_tm
+      USHORT,2  // Field=s_tm_wait_for_ready.base
+      ULONG,50  // Field=s_tm_wait_for_ready.preset
+      POINTER  // Field=s_tm_wait_for_ready.ps_timer
+    ENDSTRUCT // End of structure=S_tm
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_cfg_scinv
+      USHORT,1  // Field=s_cfg_scinv.general_purpose
+      USHORT,1  // Field=s_cfg_scinv.power_save_idx
+    ENDSTRUCT // End of structure=S_cfg_scinv
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_wk_scinv
+      USHORT  // Field=s_wk_scinv.status
+    ENDSTRUCT // End of structure=S_wk_scinv
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_state
+      SHORT,1  // Field=s_state.trace
+      SHORT  // Field=s_state.init
+      LONG  // Field=s_state.state
+      LONG  // Field=s_state.previous_state
+      LONG  // Field=s_state.next_state
+      LONG  // Field=s_state.substate
+      STRING40  // Field=s_state.des_state
+      STRING40  // Field=s_state.des_prevstate
+    ENDSTRUCT // End of structure=S_state
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_failure
+      UCHAR  // Field=s_failure.physical
+      UCHAR  // Field=s_failure.logical
+    ENDSTRUCT // End of structure=S_failure
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_scinvstat
+        //
+        BEGINSTRUCT // Begin of structure=S_statis
+            //
+            BEGINSTRUCT // Begin of structure=S_counter
+              ULONG  // Field=s_scinvstat.s_statis.s_counter_failure.n_time
+              ULONG  // Field=s_scinvstat.s_statis.s_counter_failure.time
+            ENDSTRUCT // End of structure=S_counter
+            //
+            //
+            BEGINSTRUCT // Begin of structure=S_counter
+              ULONG  // Field=s_scinvstat.s_statis.s_counter_disable.n_time
+              ULONG  // Field=s_scinvstat.s_statis.s_counter_disable.time
+            ENDSTRUCT // End of structure=S_counter
+            //
+        ENDSTRUCT // End of structure=S_statis
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_status
+          ULONG  // Field=s_scinvstat.s_status.status
+          ULONG  // Field=s_scinvstat.s_status.old_status
+        ENDSTRUCT // End of structure=S_status
+        //
+    ENDSTRUCT // End of structure=S_scinvstat
+    //
+ENDSTRUCT // End of structure=S_scinv
+//
+//
+BEGINSTRUCT // Begin of structure=S_scinv
+  USHORT,111  // Field=id
+  STRING12,"SS011_TB01"  // Field=name
+  USHORT,1  // Field=enable
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_invready.name
+      POINTER  // Field=s_di_invready.ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_INVNOK1_11"  // Field=s_di_invfault.name
+      POINTER  // Field=s_di_invfault.ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_invfan.name
+      POINTER  // Field=s_di_invfan.ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12  // Field=s_do_invoff.name
+      POINTER  // Field=s_do_invoff.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12  // Field=s_do_pwrbk.name
+      POINTER  // Field=s_do_pwrbk.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_tm
+      USHORT,2  // Field=s_tm_wait_for_ready.base
+      ULONG,50  // Field=s_tm_wait_for_ready.preset
+      POINTER  // Field=s_tm_wait_for_ready.ps_timer
+    ENDSTRUCT // End of structure=S_tm
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_cfg_scinv
+      USHORT,1  // Field=s_cfg_scinv.general_purpose
+      USHORT,1  // Field=s_cfg_scinv.power_save_idx
+    ENDSTRUCT // End of structure=S_cfg_scinv
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_wk_scinv
+      USHORT  // Field=s_wk_scinv.status
+    ENDSTRUCT // End of structure=S_wk_scinv
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_state
+      SHORT,1  // Field=s_state.trace
+      SHORT  // Field=s_state.init
+      LONG  // Field=s_state.state
+      LONG  // Field=s_state.previous_state
+      LONG  // Field=s_state.next_state
+      LONG  // Field=s_state.substate
+      STRING40  // Field=s_state.des_state
+      STRING40  // Field=s_state.des_prevstate
+    ENDSTRUCT // End of structure=S_state
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_failure
+      UCHAR  // Field=s_failure.physical
+      UCHAR  // Field=s_failure.logical
+    ENDSTRUCT // End of structure=S_failure
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_scinvstat
+        //
+        BEGINSTRUCT // Begin of structure=S_statis
+            //
+            BEGINSTRUCT // Begin of structure=S_counter
+              ULONG  // Field=s_scinvstat.s_statis.s_counter_failure.n_time
+              ULONG  // Field=s_scinvstat.s_statis.s_counter_failure.time
+            ENDSTRUCT // End of structure=S_counter
+            //
+            //
+            BEGINSTRUCT // Begin of structure=S_counter
+              ULONG  // Field=s_scinvstat.s_statis.s_counter_disable.n_time
+              ULONG  // Field=s_scinvstat.s_statis.s_counter_disable.time
+            ENDSTRUCT // End of structure=S_counter
+            //
+        ENDSTRUCT // End of structure=S_statis
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_status
+          ULONG  // Field=s_scinvstat.s_status.status
+          ULONG  // Field=s_scinvstat.s_status.old_status
+        ENDSTRUCT // End of structure=S_status
+        //
+    ENDSTRUCT // End of structure=S_scinvstat
+    //
+ENDSTRUCT // End of structure=S_scinv
+//
+//
+BEGINSTRUCT // Begin of structure=S_scinv
+  USHORT,112  // Field=id
+  STRING12,"SS011_TB02"  // Field=name
+  USHORT,1  // Field=enable
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_invready.name
+      POINTER  // Field=s_di_invready.ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_INVNOK2_11"  // Field=s_di_invfault.name
+      POINTER  // Field=s_di_invfault.ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_invfan.name
+      POINTER  // Field=s_di_invfan.ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12  // Field=s_do_invoff.name
+      POINTER  // Field=s_do_invoff.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12  // Field=s_do_pwrbk.name
+      POINTER  // Field=s_do_pwrbk.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_tm
+      USHORT,2  // Field=s_tm_wait_for_ready.base
+      ULONG,50  // Field=s_tm_wait_for_ready.preset
+      POINTER  // Field=s_tm_wait_for_ready.ps_timer
+    ENDSTRUCT // End of structure=S_tm
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_cfg_scinv
+      USHORT,1  // Field=s_cfg_scinv.general_purpose
+      USHORT,1  // Field=s_cfg_scinv.power_save_idx
+    ENDSTRUCT // End of structure=S_cfg_scinv
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_wk_scinv
+      USHORT  // Field=s_wk_scinv.status
+    ENDSTRUCT // End of structure=S_wk_scinv
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_state
+      SHORT,1  // Field=s_state.trace
+      SHORT  // Field=s_state.init
+      LONG  // Field=s_state.state
+      LONG  // Field=s_state.previous_state
+      LONG  // Field=s_state.next_state
+      LONG  // Field=s_state.substate
+      STRING40  // Field=s_state.des_state
+      STRING40  // Field=s_state.des_prevstate
+    ENDSTRUCT // End of structure=S_state
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_failure
+      UCHAR  // Field=s_failure.physical
+      UCHAR  // Field=s_failure.logical
+    ENDSTRUCT // End of structure=S_failure
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_scinvstat
+        //
+        BEGINSTRUCT // Begin of structure=S_statis
+            //
+            BEGINSTRUCT // Begin of structure=S_counter
+              ULONG  // Field=s_scinvstat.s_statis.s_counter_failure.n_time
+              ULONG  // Field=s_scinvstat.s_statis.s_counter_failure.time
+            ENDSTRUCT // End of structure=S_counter
+            //
+            //
+            BEGINSTRUCT // Begin of structure=S_counter
+              ULONG  // Field=s_scinvstat.s_statis.s_counter_disable.n_time
+              ULONG  // Field=s_scinvstat.s_statis.s_counter_disable.time
+            ENDSTRUCT // End of structure=S_counter
+            //
+        ENDSTRUCT // End of structure=S_statis
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_status
+          ULONG  // Field=s_scinvstat.s_status.status
+          ULONG  // Field=s_scinvstat.s_status.old_status
+        ENDSTRUCT // End of structure=S_status
+        //
+    ENDSTRUCT // End of structure=S_scinvstat
+    //
+ENDSTRUCT // End of structure=S_scinv
+//

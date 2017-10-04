@@ -1,0 +1,24 @@
+//
+// S_datapb table
+//
+Field="nId"
+Field="nUpstream"
+Field="nBoard"
+Field="nModuleId"
+Field="nSubModuleIdIn"
+Field="nSubModuleIdOut"
+Field="nLenPosition"
+Field="nCheckPosition"
+Field="nCodePosition"
+Field="nCodeLength"
+Field="GenPurposeChar[0]"
+Field="GenPurposeChar[1]"
+Field="GenPurposeChar[2]"
+Field="GenPurposeChar[3]"
+Field="GenPurposeLong[0]"
+Field="GenPurposeLong[1]"
+Field="GenPurposeLong[2]"
+Field="GenPurposeLong[3]"
+Field="s_di_trigger.name"
+//
+//

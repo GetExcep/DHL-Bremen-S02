@@ -1,0 +1,23 @@
+Fields -> 21 
+Record -> 1 
+Id-> 257 
+FirstIs-> 1 
+LastIs-> 14 
+DriverType-> 2 
+DriverName->SC_ISC
+ProtocolName->VDRV
+DOXbvel0->O_XBVEL0_01
+DOXbvel1->O_XBVEL1_01
+DOsynchro->O_SYNCHRO_01
+DOencoder->O_ENCODER_01
+Strategy number-> 3 
+Configuration strategy parameters-> 0 
+Strategy parameter 2-> 0 
+Strategy parameter 3-> 0 
+Strategy parameter 4-> 0 
+Strategy parameter 5-> 0 
+Strategy parameter 6-> 0 
+Strategy parameter 7-> 0 
+Strategy parameter 8-> 0 
+Strategy parameter 9-> 0 
+Strategy parameter 10-> 0 

@@ -1,0 +1,12 @@
+//
+// Local upstream table
+//
+Field="id"
+Field="typeRequired"
+Field="s_di_progressive.name"
+Field="s_di_code.name"
+Field="s_di_plc_reset_ack.name"
+Field="s_do_out1.name"
+Field="s_do_code_received.name"
+Field="s_do_plc_reset_req.name"
+//

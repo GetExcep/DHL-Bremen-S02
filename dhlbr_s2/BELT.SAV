@@ -1,0 +1,4481 @@
+Fields -> 39 
+Record -> 1 
+Id-> 12 
+Name->OB_012
+Induction station id-> 1 
+Extra data id-> 0 
+AS id-> 0 
+Scanner id-> 0 
+Scale id-> 0 
+ISLOAD id-> 1 
+Belt Type-> 1 
+Belt length (mm)-> 1000 
+Belt width (mm)-> 600 
+Velocity high (mm/s)-> 2100 
+Velocity high 2-> 2100 
+Velocity high 3-> 2100 
+Velocity low (mm/s)-> 1600 
+Velocity low 2-> 1600 
+Velocity low 3-> 1600 
+Belt perc vel high-> 0 
+Belt perc vel low-> 0 
+Belt perc vel nom-> 0 
+Velocity init-> 300 
+Velocity Reverse-> 500 
+Acceleration ramp (g*10000)-> 4000 
+Deceleration ramp (g*10000)-> 4000 
+Velocity to voltage ratio ((mm/s)/V)-> 2265 
+Response time (ms)-> 60 
+Stop distance-> 300 
+PhUp PhStop distance-> 0 
+PhStop PhDown distance-> 0 
+Acceleration ramp length (OB)-> 300 
+Max Parcel (LB)-> 0 
+Virtual encoder resolution-> 0 
+PhUp DI->I_PHT1.1_01
+PhDown DI->
+PhStop DI->
+Servodrive Ready DI->I_BFAUL_012
+Voltage reference AO->A_BREF_012
+Parcel distance (mm)-> 200 
+Enable/Disable state transition trace-> 1 
+Record -> 2 
+Id-> 22 
+Name->OB_022
+Induction station id-> 2 
+Extra data id-> 0 
+AS id-> 0 
+Scanner id-> 0 
+Scale id-> 0 
+ISLOAD id-> 2 
+Belt Type-> 1 
+Belt length (mm)-> 1000 
+Belt width (mm)-> 600 
+Velocity high (mm/s)-> 2100 
+Velocity high 2-> 2100 
+Velocity high 3-> 2100 
+Velocity low (mm/s)-> 1600 
+Velocity low 2-> 1600 
+Velocity low 3-> 1600 
+Belt perc vel high-> 0 
+Belt perc vel low-> 0 
+Belt perc vel nom-> 0 
+Velocity init-> 300 
+Velocity Reverse-> 500 
+Acceleration ramp (g*10000)-> 4000 
+Deceleration ramp (g*10000)-> 4000 
+Velocity to voltage ratio ((mm/s)/V)-> 2265 
+Response time (ms)-> 60 
+Stop distance-> 300 
+PhUp PhStop distance-> 0 
+PhStop PhDown distance-> 0 
+Acceleration ramp length (OB)-> 300 
+Max Parcel (LB)-> 0 
+Virtual encoder resolution-> 0 
+PhUp DI->I_PHT1.1_02
+PhDown DI->
+PhStop DI->
+Servodrive Ready DI->I_BFAUL_022
+Voltage reference AO->A_BREF_022
+Parcel distance (mm)-> 200 
+Enable/Disable state transition trace-> 1 
+Record -> 3 
+Id-> 32 
+Name->OB_032
+Induction station id-> 3 
+Extra data id-> 0 
+AS id-> 0 
+Scanner id-> 0 
+Scale id-> 0 
+ISLOAD id-> 3 
+Belt Type-> 1 
+Belt length (mm)-> 1000 
+Belt width (mm)-> 600 
+Velocity high (mm/s)-> 2100 
+Velocity high 2-> 2100 
+Velocity high 3-> 2100 
+Velocity low (mm/s)-> 1600 
+Velocity low 2-> 1600 
+Velocity low 3-> 1600 
+Belt perc vel high-> 0 
+Belt perc vel low-> 0 
+Belt perc vel nom-> 0 
+Velocity init-> 300 
+Velocity Reverse-> 500 
+Acceleration ramp (g*10000)-> 4000 
+Deceleration ramp (g*10000)-> 4000 
+Velocity to voltage ratio ((mm/s)/V)-> 2265 
+Response time (ms)-> 60 
+Stop distance-> 300 
+PhUp PhStop distance-> 0 
+PhStop PhDown distance-> 0 
+Acceleration ramp length (OB)-> 300 
+Max Parcel (LB)-> 0 
+Virtual encoder resolution-> 0 
+PhUp DI->I_PHT1.1_03
+PhDown DI->
+PhStop DI->
+Servodrive Ready DI->I_BFAUL_032
+Voltage reference AO->A_BREF_032
+Parcel distance (mm)-> 200 
+Enable/Disable state transition trace-> 1 
+Record -> 4 
+Id-> 42 
+Name->OB_042
+Induction station id-> 4 
+Extra data id-> 0 
+AS id-> 0 
+Scanner id-> 0 
+Scale id-> 0 
+ISLOAD id-> 4 
+Belt Type-> 1 
+Belt length (mm)-> 1000 
+Belt width (mm)-> 600 
+Velocity high (mm/s)-> 2100 
+Velocity high 2-> 2100 
+Velocity high 3-> 2100 
+Velocity low (mm/s)-> 1600 
+Velocity low 2-> 1600 
+Velocity low 3-> 1600 
+Belt perc vel high-> 0 
+Belt perc vel low-> 0 
+Belt perc vel nom-> 0 
+Velocity init-> 300 
+Velocity Reverse-> 500 
+Acceleration ramp (g*10000)-> 4000 
+Deceleration ramp (g*10000)-> 4000 
+Velocity to voltage ratio ((mm/s)/V)-> 2265 
+Response time (ms)-> 60 
+Stop distance-> 300 
+PhUp PhStop distance-> 0 
+PhStop PhDown distance-> 0 
+Acceleration ramp length (OB)-> 300 
+Max Parcel (LB)-> 0 
+Virtual encoder resolution-> 0 
+PhUp DI->I_PHT1.1_04
+PhDown DI->
+PhStop DI->
+Servodrive Ready DI->I_BFAUL_042
+Voltage reference AO->A_BREF_042
+Parcel distance (mm)-> 200 
+Enable/Disable state transition trace-> 1 
+Record -> 5 
+Id-> 52 
+Name->OB_052
+Induction station id-> 5 
+Extra data id-> 0 
+AS id-> 0 
+Scanner id-> 0 
+Scale id-> 0 
+ISLOAD id-> 5 
+Belt Type-> 1 
+Belt length (mm)-> 1000 
+Belt width (mm)-> 600 
+Velocity high (mm/s)-> 2100 
+Velocity high 2-> 2100 
+Velocity high 3-> 2100 
+Velocity low (mm/s)-> 1600 
+Velocity low 2-> 1600 
+Velocity low 3-> 1600 
+Belt perc vel high-> 0 
+Belt perc vel low-> 0 
+Belt perc vel nom-> 0 
+Velocity init-> 300 
+Velocity Reverse-> 500 
+Acceleration ramp (g*10000)-> 4000 
+Deceleration ramp (g*10000)-> 4000 
+Velocity to voltage ratio ((mm/s)/V)-> 2265 
+Response time (ms)-> 60 
+Stop distance-> 300 
+PhUp PhStop distance-> 0 
+PhStop PhDown distance-> 0 
+Acceleration ramp length (OB)-> 300 
+Max Parcel (LB)-> 0 
+Virtual encoder resolution-> 0 
+PhUp DI->I_PHT1.1_05
+PhDown DI->
+PhStop DI->
+Servodrive Ready DI->I_BFAUL_052
+Voltage reference AO->A_BREF_052
+Parcel distance (mm)-> 200 
+Enable/Disable state transition trace-> 1 
+Record -> 6 
+Id-> 62 
+Name->OB_062
+Induction station id-> 6 
+Extra data id-> 0 
+AS id-> 0 
+Scanner id-> 0 
+Scale id-> 0 
+ISLOAD id-> 6 
+Belt Type-> 1 
+Belt length (mm)-> 1000 
+Belt width (mm)-> 600 
+Velocity high (mm/s)-> 2100 
+Velocity high 2-> 2100 
+Velocity high 3-> 2100 
+Velocity low (mm/s)-> 1600 
+Velocity low 2-> 1600 
+Velocity low 3-> 1600 
+Belt perc vel high-> 0 
+Belt perc vel low-> 0 
+Belt perc vel nom-> 0 
+Velocity init-> 300 
+Velocity Reverse-> 500 
+Acceleration ramp (g*10000)-> 4000 
+Deceleration ramp (g*10000)-> 4000 
+Velocity to voltage ratio ((mm/s)/V)-> 2265 
+Response time (ms)-> 60 
+Stop distance-> 300 
+PhUp PhStop distance-> 0 
+PhStop PhDown distance-> 0 
+Acceleration ramp length (OB)-> 300 
+Max Parcel (LB)-> 0 
+Virtual encoder resolution-> 0 
+PhUp DI->I_PHT1.1_06
+PhDown DI->
+PhStop DI->
+Servodrive Ready DI->I_BFAUL_062
+Voltage reference AO->A_BREF_062
+Parcel distance (mm)-> 200 
+Enable/Disable state transition trace-> 1 
+Record -> 7 
+Id-> 72 
+Name->OB_072
+Induction station id-> 7 
+Extra data id-> 0 
+AS id-> 0 
+Scanner id-> 0 
+Scale id-> 0 
+ISLOAD id-> 7 
+Belt Type-> 1 
+Belt length (mm)-> 1000 
+Belt width (mm)-> 600 
+Velocity high (mm/s)-> 2100 
+Velocity high 2-> 2100 
+Velocity high 3-> 2100 
+Velocity low (mm/s)-> 1600 
+Velocity low 2-> 1600 
+Velocity low 3-> 1600 
+Belt perc vel high-> 0 
+Belt perc vel low-> 0 
+Belt perc vel nom-> 0 
+Velocity init-> 300 
+Velocity Reverse-> 500 
+Acceleration ramp (g*10000)-> 4000 
+Deceleration ramp (g*10000)-> 4000 
+Velocity to voltage ratio ((mm/s)/V)-> 2265 
+Response time (ms)-> 60 
+Stop distance-> 300 
+PhUp PhStop distance-> 0 
+PhStop PhDown distance-> 0 
+Acceleration ramp length (OB)-> 300 
+Max Parcel (LB)-> 0 
+Virtual encoder resolution-> 0 
+PhUp DI->I_PHT1.1_07
+PhDown DI->
+PhStop DI->
+Servodrive Ready DI->I_BFAUL_072
+Voltage reference AO->A_BREF_072
+Parcel distance (mm)-> 200 
+Enable/Disable state transition trace-> 1 
+Record -> 8 
+Id-> 82 
+Name->OB_082
+Induction station id-> 8 
+Extra data id-> 0 
+AS id-> 0 
+Scanner id-> 0 
+Scale id-> 0 
+ISLOAD id-> 8 
+Belt Type-> 1 
+Belt length (mm)-> 1000 
+Belt width (mm)-> 600 
+Velocity high (mm/s)-> 2100 
+Velocity high 2-> 2100 
+Velocity high 3-> 2100 
+Velocity low (mm/s)-> 1600 
+Velocity low 2-> 1600 
+Velocity low 3-> 1600 
+Belt perc vel high-> 0 
+Belt perc vel low-> 0 
+Belt perc vel nom-> 0 
+Velocity init-> 300 
+Velocity Reverse-> 500 
+Acceleration ramp (g*10000)-> 4000 
+Deceleration ramp (g*10000)-> 4000 
+Velocity to voltage ratio ((mm/s)/V)-> 2265 
+Response time (ms)-> 60 
+Stop distance-> 300 
+PhUp PhStop distance-> 0 
+PhStop PhDown distance-> 0 
+Acceleration ramp length (OB)-> 300 
+Max Parcel (LB)-> 0 
+Virtual encoder resolution-> 0 
+PhUp DI->I_PHT1.1_08
+PhDown DI->
+PhStop DI->
+Servodrive Ready DI->I_BFAUL_082
+Voltage reference AO->A_BREF_082
+Parcel distance (mm)-> 200 
+Enable/Disable state transition trace-> 1 
+Record -> 9 
+Id-> 92 
+Name->OB_092
+Induction station id-> 9 
+Extra data id-> 0 
+AS id-> 0 
+Scanner id-> 0 
+Scale id-> 0 
+ISLOAD id-> 9 
+Belt Type-> 1 
+Belt length (mm)-> 1000 
+Belt width (mm)-> 600 
+Velocity high (mm/s)-> 2100 
+Velocity high 2-> 2100 
+Velocity high 3-> 2100 
+Velocity low (mm/s)-> 1600 
+Velocity low 2-> 1600 
+Velocity low 3-> 1600 
+Belt perc vel high-> 0 
+Belt perc vel low-> 0 
+Belt perc vel nom-> 0 
+Velocity init-> 300 
+Velocity Reverse-> 500 
+Acceleration ramp (g*10000)-> 4000 
+Deceleration ramp (g*10000)-> 4000 
+Velocity to voltage ratio ((mm/s)/V)-> 2265 
+Response time (ms)-> 60 
+Stop distance-> 300 
+PhUp PhStop distance-> 0 
+PhStop PhDown distance-> 0 
+Acceleration ramp length (OB)-> 300 
+Max Parcel (LB)-> 0 
+Virtual encoder resolution-> 0 
+PhUp DI->I_PHT1.1_09
+PhDown DI->
+PhStop DI->
+Servodrive Ready DI->I_BFAUL_092
+Voltage reference AO->A_BREF_092
+Parcel distance (mm)-> 200 
+Enable/Disable state transition trace-> 1 
+Record -> 10 
+Id-> 102 
+Name->OB_102
+Induction station id-> 10 
+Extra data id-> 0 
+AS id-> 0 
+Scanner id-> 0 
+Scale id-> 0 
+ISLOAD id-> 10 
+Belt Type-> 1 
+Belt length (mm)-> 1000 
+Belt width (mm)-> 600 
+Velocity high (mm/s)-> 2100 
+Velocity high 2-> 2100 
+Velocity high 3-> 2100 
+Velocity low (mm/s)-> 1600 
+Velocity low 2-> 1600 
+Velocity low 3-> 1600 
+Belt perc vel high-> 0 
+Belt perc vel low-> 0 
+Belt perc vel nom-> 0 
+Velocity init-> 300 
+Velocity Reverse-> 500 
+Acceleration ramp (g*10000)-> 4000 
+Deceleration ramp (g*10000)-> 4000 
+Velocity to voltage ratio ((mm/s)/V)-> 2265 
+Response time (ms)-> 60 
+Stop distance-> 300 
+PhUp PhStop distance-> 0 
+PhStop PhDown distance-> 0 
+Acceleration ramp length (OB)-> 300 
+Max Parcel (LB)-> 0 
+Virtual encoder resolution-> 0 
+PhUp DI->I_PHT1.1_10
+PhDown DI->
+PhStop DI->
+Servodrive Ready DI->I_BFAUL_102
+Voltage reference AO->A_BREF_102
+Parcel distance (mm)-> 200 
+Enable/Disable state transition trace-> 1 
+Record -> 11 
+Id-> 112 
+Name->OB_112
+Induction station id-> 11 
+Extra data id-> 0 
+AS id-> 0 
+Scanner id-> 0 
+Scale id-> 0 
+ISLOAD id-> 11 
+Belt Type-> 1 
+Belt length (mm)-> 1000 
+Belt width (mm)-> 600 
+Velocity high (mm/s)-> 2100 
+Velocity high 2-> 2100 
+Velocity high 3-> 2100 
+Velocity low (mm/s)-> 1600 
+Velocity low 2-> 1600 
+Velocity low 3-> 1600 
+Belt perc vel high-> 0 
+Belt perc vel low-> 0 
+Belt perc vel nom-> 0 
+Velocity init-> 300 
+Velocity Reverse-> 500 
+Acceleration ramp (g*10000)-> 4000 
+Deceleration ramp (g*10000)-> 4000 
+Velocity to voltage ratio ((mm/s)/V)-> 2265 
+Response time (ms)-> 60 
+Stop distance-> 300 
+PhUp PhStop distance-> 0 
+PhStop PhDown distance-> 0 
+Acceleration ramp length (OB)-> 300 
+Max Parcel (LB)-> 0 
+Virtual encoder resolution-> 0 
+PhUp DI->I_PHT1.1_11
+PhDown DI->
+PhStop DI->
+Servodrive Ready DI->I_BFAUL_112
+Voltage reference AO->A_BREF_112
+Parcel distance (mm)-> 200 
+Enable/Disable state transition trace-> 1 
+Record -> 12 
+Id-> 122 
+Name->OB_122
+Induction station id-> 12 
+Extra data id-> 0 
+AS id-> 0 
+Scanner id-> 0 
+Scale id-> 0 
+ISLOAD id-> 12 
+Belt Type-> 1 
+Belt length (mm)-> 1000 
+Belt width (mm)-> 600 
+Velocity high (mm/s)-> 2100 
+Velocity high 2-> 2100 
+Velocity high 3-> 2100 
+Velocity low (mm/s)-> 1600 
+Velocity low 2-> 1600 
+Velocity low 3-> 1600 
+Belt perc vel high-> 0 
+Belt perc vel low-> 0 
+Belt perc vel nom-> 0 
+Velocity init-> 300 
+Velocity Reverse-> 500 
+Acceleration ramp (g*10000)-> 4000 
+Deceleration ramp (g*10000)-> 4000 
+Velocity to voltage ratio ((mm/s)/V)-> 2265 
+Response time (ms)-> 60 
+Stop distance-> 300 
+PhUp PhStop distance-> 0 
+PhStop PhDown distance-> 0 
+Acceleration ramp length (OB)-> 300 
+Max Parcel (LB)-> 0 
+Virtual encoder resolution-> 0 
+PhUp DI->I_PHT1.1_12
+PhDown DI->
+PhStop DI->
+Servodrive Ready DI->I_BFAUL_122
+Voltage reference AO->A_BREF_122
+Parcel distance (mm)-> 200 
+Enable/Disable state transition trace-> 1 
+Record -> 13 
+Id-> 132 
+Name->OB_132
+Induction station id-> 13 
+Extra data id-> 0 
+AS id-> 0 
+Scanner id-> 0 
+Scale id-> 0 
+ISLOAD id-> 13 
+Belt Type-> 1 
+Belt length (mm)-> 1000 
+Belt width (mm)-> 600 
+Velocity high (mm/s)-> 2100 
+Velocity high 2-> 2100 
+Velocity high 3-> 2100 
+Velocity low (mm/s)-> 1600 
+Velocity low 2-> 1600 
+Velocity low 3-> 1600 
+Belt perc vel high-> 0 
+Belt perc vel low-> 0 
+Belt perc vel nom-> 0 
+Velocity init-> 300 
+Velocity Reverse-> 500 
+Acceleration ramp (g*10000)-> 4000 
+Deceleration ramp (g*10000)-> 4000 
+Velocity to voltage ratio ((mm/s)/V)-> 2265 
+Response time (ms)-> 60 
+Stop distance-> 300 
+PhUp PhStop distance-> 0 
+PhStop PhDown distance-> 0 
+Acceleration ramp length (OB)-> 300 
+Max Parcel (LB)-> 0 
+Virtual encoder resolution-> 0 
+PhUp DI->I_PHT1.1_13
+PhDown DI->
+PhStop DI->
+Servodrive Ready DI->I_BFAUL_132
+Voltage reference AO->A_BREF_132
+Parcel distance (mm)-> 200 
+Enable/Disable state transition trace-> 1 
+Record -> 14 
+Id-> 142 
+Name->OB_142
+Induction station id-> 14 
+Extra data id-> 0 
+AS id-> 0 
+Scanner id-> 0 
+Scale id-> 0 
+ISLOAD id-> 14 
+Belt Type-> 1 
+Belt length (mm)-> 1000 
+Belt width (mm)-> 600 
+Velocity high (mm/s)-> 2100 
+Velocity high 2-> 2100 
+Velocity high 3-> 2100 
+Velocity low (mm/s)-> 1600 
+Velocity low 2-> 1600 
+Velocity low 3-> 1600 
+Belt perc vel high-> 0 
+Belt perc vel low-> 0 
+Belt perc vel nom-> 0 
+Velocity init-> 300 
+Velocity Reverse-> 500 
+Acceleration ramp (g*10000)-> 4000 
+Deceleration ramp (g*10000)-> 4000 
+Velocity to voltage ratio ((mm/s)/V)-> 2265 
+Response time (ms)-> 60 
+Stop distance-> 300 
+PhUp PhStop distance-> 0 
+PhStop PhDown distance-> 0 
+Acceleration ramp length (OB)-> 300 
+Max Parcel (LB)-> 0 
+Virtual encoder resolution-> 0 
+PhUp DI->I_PHT1.1_14
+PhDown DI->
+PhStop DI->
+Servodrive Ready DI->I_BFAUL_142
+Voltage reference AO->A_BREF_142
+Parcel distance (mm)-> 200 
+Enable/Disable state transition trace-> 1 
+Record -> 15 
+Id-> 11 
+Name->TB_011
+Induction station id-> 1 
+Extra data id-> 0 
+AS id-> 0 
+Scanner id-> 0 
+Scale id-> 0 
+ISLOAD id-> 0 
+Belt Type-> 3 
+Belt length (mm)-> 1200 
+Belt width (mm)-> 600 
+Velocity high (mm/s)-> 1600 
+Velocity high 2-> 1600 
+Velocity high 3-> 1600 
+Velocity low (mm/s)-> 1400 
+Velocity low 2-> 1400 
+Velocity low 3-> 1400 
+Belt perc vel high-> 0 
+Belt perc vel low-> 0 
+Belt perc vel nom-> 1200 
+Velocity init-> 300 
+Velocity Reverse-> 500 
+Acceleration ramp (g*10000)-> 3000 
+Deceleration ramp (g*10000)-> 3000 
+Velocity to voltage ratio ((mm/s)/V)-> 2265 
+Response time (ms)-> 60 
+Stop distance-> 300 
+PhUp PhStop distance-> 500 
+PhStop PhDown distance-> 0 
+Acceleration ramp length (OB)-> 750 
+Max Parcel (LB)-> 0 
+Virtual encoder resolution-> 0 
+PhUp DI->I_PHT1.3_01
+PhDown DI->I_PHT1.1_01
+PhStop DI->I_PHT1.2_01
+Servodrive Ready DI->I_BFAUL_011
+Voltage reference AO->A_BREF_011
+Parcel distance (mm)-> 350 
+Enable/Disable state transition trace-> 1 
+Record -> 16 
+Id-> 21 
+Name->TB_021
+Induction station id-> 2 
+Extra data id-> 0 
+AS id-> 0 
+Scanner id-> 0 
+Scale id-> 0 
+ISLOAD id-> 0 
+Belt Type-> 3 
+Belt length (mm)-> 1200 
+Belt width (mm)-> 600 
+Velocity high (mm/s)-> 1600 
+Velocity high 2-> 1600 
+Velocity high 3-> 1600 
+Velocity low (mm/s)-> 1400 
+Velocity low 2-> 1400 
+Velocity low 3-> 1400 
+Belt perc vel high-> 0 
+Belt perc vel low-> 0 
+Belt perc vel nom-> 1200 
+Velocity init-> 300 
+Velocity Reverse-> 500 
+Acceleration ramp (g*10000)-> 3000 
+Deceleration ramp (g*10000)-> 3000 
+Velocity to voltage ratio ((mm/s)/V)-> 2265 
+Response time (ms)-> 60 
+Stop distance-> 300 
+PhUp PhStop distance-> 500 
+PhStop PhDown distance-> 0 
+Acceleration ramp length (OB)-> 750 
+Max Parcel (LB)-> 0 
+Virtual encoder resolution-> 0 
+PhUp DI->I_PHT1.3_02
+PhDown DI->I_PHT1.1_02
+PhStop DI->I_PHT1.2_02
+Servodrive Ready DI->I_BFAUL_021
+Voltage reference AO->A_BREF_021
+Parcel distance (mm)-> 350 
+Enable/Disable state transition trace-> 1 
+Record -> 17 
+Id-> 31 
+Name->TB_031
+Induction station id-> 3 
+Extra data id-> 0 
+AS id-> 0 
+Scanner id-> 0 
+Scale id-> 0 
+ISLOAD id-> 0 
+Belt Type-> 3 
+Belt length (mm)-> 1200 
+Belt width (mm)-> 600 
+Velocity high (mm/s)-> 1600 
+Velocity high 2-> 1600 
+Velocity high 3-> 1600 
+Velocity low (mm/s)-> 1400 
+Velocity low 2-> 1400 
+Velocity low 3-> 1400 
+Belt perc vel high-> 0 
+Belt perc vel low-> 0 
+Belt perc vel nom-> 1200 
+Velocity init-> 300 
+Velocity Reverse-> 500 
+Acceleration ramp (g*10000)-> 3000 
+Deceleration ramp (g*10000)-> 3000 
+Velocity to voltage ratio ((mm/s)/V)-> 2265 
+Response time (ms)-> 60 
+Stop distance-> 300 
+PhUp PhStop distance-> 500 
+PhStop PhDown distance-> 0 
+Acceleration ramp length (OB)-> 750 
+Max Parcel (LB)-> 0 
+Virtual encoder resolution-> 0 
+PhUp DI->I_PHT1.3_03
+PhDown DI->I_PHT1.1_03
+PhStop DI->I_PHT1.2_03
+Servodrive Ready DI->I_BFAUL_031
+Voltage reference AO->A_BREF_031
+Parcel distance (mm)-> 350 
+Enable/Disable state transition trace-> 1 
+Record -> 18 
+Id-> 41 
+Name->TB_041
+Induction station id-> 4 
+Extra data id-> 0 
+AS id-> 0 
+Scanner id-> 0 
+Scale id-> 0 
+ISLOAD id-> 0 
+Belt Type-> 3 
+Belt length (mm)-> 1200 
+Belt width (mm)-> 600 
+Velocity high (mm/s)-> 1600 
+Velocity high 2-> 1600 
+Velocity high 3-> 1600 
+Velocity low (mm/s)-> 1400 
+Velocity low 2-> 1400 
+Velocity low 3-> 1400 
+Belt perc vel high-> 0 
+Belt perc vel low-> 0 
+Belt perc vel nom-> 1200 
+Velocity init-> 300 
+Velocity Reverse-> 500 
+Acceleration ramp (g*10000)-> 3000 
+Deceleration ramp (g*10000)-> 3000 
+Velocity to voltage ratio ((mm/s)/V)-> 2265 
+Response time (ms)-> 60 
+Stop distance-> 300 
+PhUp PhStop distance-> 500 
+PhStop PhDown distance-> 0 
+Acceleration ramp length (OB)-> 750 
+Max Parcel (LB)-> 0 
+Virtual encoder resolution-> 0 
+PhUp DI->I_PHT1.3_04
+PhDown DI->I_PHT1.1_04
+PhStop DI->I_PHT1.2_04
+Servodrive Ready DI->I_BFAUL_041
+Voltage reference AO->A_BREF_041
+Parcel distance (mm)-> 350 
+Enable/Disable state transition trace-> 1 
+Record -> 19 
+Id-> 51 
+Name->TB_051
+Induction station id-> 5 
+Extra data id-> 0 
+AS id-> 0 
+Scanner id-> 0 
+Scale id-> 0 
+ISLOAD id-> 0 
+Belt Type-> 3 
+Belt length (mm)-> 1200 
+Belt width (mm)-> 600 
+Velocity high (mm/s)-> 1600 
+Velocity high 2-> 1600 
+Velocity high 3-> 1600 
+Velocity low (mm/s)-> 1400 
+Velocity low 2-> 1400 
+Velocity low 3-> 1400 
+Belt perc vel high-> 0 
+Belt perc vel low-> 0 
+Belt perc vel nom-> 1200 
+Velocity init-> 300 
+Velocity Reverse-> 500 
+Acceleration ramp (g*10000)-> 3000 
+Deceleration ramp (g*10000)-> 3000 
+Velocity to voltage ratio ((mm/s)/V)-> 2265 
+Response time (ms)-> 60 
+Stop distance-> 300 
+PhUp PhStop distance-> 500 
+PhStop PhDown distance-> 0 
+Acceleration ramp length (OB)-> 750 
+Max Parcel (LB)-> 0 
+Virtual encoder resolution-> 0 
+PhUp DI->I_PHT1.3_05
+PhDown DI->I_PHT1.1_05
+PhStop DI->I_PHT1.2_05
+Servodrive Ready DI->I_BFAUL_051
+Voltage reference AO->A_BREF_051
+Parcel distance (mm)-> 350 
+Enable/Disable state transition trace-> 1 
+Record -> 20 
+Id-> 61 
+Name->TB_061
+Induction station id-> 6 
+Extra data id-> 0 
+AS id-> 0 
+Scanner id-> 0 
+Scale id-> 0 
+ISLOAD id-> 0 
+Belt Type-> 3 
+Belt length (mm)-> 1200 
+Belt width (mm)-> 600 
+Velocity high (mm/s)-> 1600 
+Velocity high 2-> 1600 
+Velocity high 3-> 1600 
+Velocity low (mm/s)-> 1400 
+Velocity low 2-> 1400 
+Velocity low 3-> 1400 
+Belt perc vel high-> 0 
+Belt perc vel low-> 0 
+Belt perc vel nom-> 1200 
+Velocity init-> 300 
+Velocity Reverse-> 500 
+Acceleration ramp (g*10000)-> 3000 
+Deceleration ramp (g*10000)-> 3000 
+Velocity to voltage ratio ((mm/s)/V)-> 2265 
+Response time (ms)-> 60 
+Stop distance-> 300 
+PhUp PhStop distance-> 500 
+PhStop PhDown distance-> 0 
+Acceleration ramp length (OB)-> 750 
+Max Parcel (LB)-> 0 
+Virtual encoder resolution-> 0 
+PhUp DI->I_PHT1.3_06
+PhDown DI->I_PHT1.1_06
+PhStop DI->I_PHT1.2_06
+Servodrive Ready DI->I_BFAUL_061
+Voltage reference AO->A_BREF_061
+Parcel distance (mm)-> 350 
+Enable/Disable state transition trace-> 1 
+Record -> 21 
+Id-> 71 
+Name->TB_071
+Induction station id-> 7 
+Extra data id-> 0 
+AS id-> 0 
+Scanner id-> 0 
+Scale id-> 0 
+ISLOAD id-> 0 
+Belt Type-> 3 
+Belt length (mm)-> 1200 
+Belt width (mm)-> 600 
+Velocity high (mm/s)-> 1600 
+Velocity high 2-> 1600 
+Velocity high 3-> 1600 
+Velocity low (mm/s)-> 1400 
+Velocity low 2-> 1400 
+Velocity low 3-> 1400 
+Belt perc vel high-> 0 
+Belt perc vel low-> 0 
+Belt perc vel nom-> 1200 
+Velocity init-> 300 
+Velocity Reverse-> 500 
+Acceleration ramp (g*10000)-> 3000 
+Deceleration ramp (g*10000)-> 3000 
+Velocity to voltage ratio ((mm/s)/V)-> 2265 
+Response time (ms)-> 60 
+Stop distance-> 300 
+PhUp PhStop distance-> 500 
+PhStop PhDown distance-> 0 
+Acceleration ramp length (OB)-> 750 
+Max Parcel (LB)-> 0 
+Virtual encoder resolution-> 0 
+PhUp DI->I_PHT1.3_07
+PhDown DI->I_PHT1.1_07
+PhStop DI->I_PHT1.2_07
+Servodrive Ready DI->I_BFAUL_071
+Voltage reference AO->A_BREF_071
+Parcel distance (mm)-> 350 
+Enable/Disable state transition trace-> 1 
+Record -> 22 
+Id-> 33 
+Name->TBOB_033
+Induction station id-> 3 
+Extra data id-> 0 
+AS id-> 0 
+Scanner id-> 0 
+Scale id-> 0 
+ISLOAD id-> 3 
+Belt Type-> 4 
+Belt length (mm)-> 1800 
+Belt width (mm)-> 1400 
+Velocity high (mm/s)-> 1400 
+Velocity high 2-> 1400 
+Velocity high 3-> 1400 
+Velocity low (mm/s)-> 1100 
+Velocity low 2-> 1100 
+Velocity low 3-> 1100 
+Belt perc vel high-> 0 
+Belt perc vel low-> 0 
+Belt perc vel nom-> 0 
+Velocity init-> 300 
+Velocity Reverse-> 500 
+Acceleration ramp (g*10000)-> 3500 
+Deceleration ramp (g*10000)-> 4000 
+Velocity to voltage ratio ((mm/s)/V)-> 2265 
+Response time (ms)-> 60 
+Stop distance-> 500 
+PhUp PhStop distance-> 800 
+PhStop PhDown distance-> 400 
+Acceleration ramp length (OB)-> 0 
+Max Parcel (LB)-> 0 
+Virtual encoder resolution-> 0 
+PhUp DI->
+PhDown DI->I_ASHOR1_03
+PhStop DI->I_PHT3_03
+Servodrive Ready DI->I_BFAUL_033
+Voltage reference AO->A_BREF_033
+Parcel distance (mm)-> 0 
+Enable/Disable state transition trace-> 1 
+Record -> 23 
+Id-> 43 
+Name->TBOB_043
+Induction station id-> 4 
+Extra data id-> 0 
+AS id-> 0 
+Scanner id-> 0 
+Scale id-> 0 
+ISLOAD id-> 4 
+Belt Type-> 4 
+Belt length (mm)-> 1800 
+Belt width (mm)-> 1400 
+Velocity high (mm/s)-> 1400 
+Velocity high 2-> 1400 
+Velocity high 3-> 1400 
+Velocity low (mm/s)-> 1100 
+Velocity low 2-> 1100 
+Velocity low 3-> 1100 
+Belt perc vel high-> 0 
+Belt perc vel low-> 0 
+Belt perc vel nom-> 0 
+Velocity init-> 300 
+Velocity Reverse-> 500 
+Acceleration ramp (g*10000)-> 3500 
+Deceleration ramp (g*10000)-> 4000 
+Velocity to voltage ratio ((mm/s)/V)-> 2265 
+Response time (ms)-> 60 
+Stop distance-> 500 
+PhUp PhStop distance-> 800 
+PhStop PhDown distance-> 400 
+Acceleration ramp length (OB)-> 0 
+Max Parcel (LB)-> 0 
+Virtual encoder resolution-> 0 
+PhUp DI->
+PhDown DI->I_ASHOR1_04
+PhStop DI->I_PHT3_04
+Servodrive Ready DI->I_BFAUL_043
+Voltage reference AO->A_BREF_043
+Parcel distance (mm)-> 0 
+Enable/Disable state transition trace-> 1 
+Record -> 24 
+Id-> 53 
+Name->TBOB_053
+Induction station id-> 5 
+Extra data id-> 0 
+AS id-> 0 
+Scanner id-> 0 
+Scale id-> 0 
+ISLOAD id-> 5 
+Belt Type-> 4 
+Belt length (mm)-> 1800 
+Belt width (mm)-> 1400 
+Velocity high (mm/s)-> 1400 
+Velocity high 2-> 1400 
+Velocity high 3-> 1400 
+Velocity low (mm/s)-> 1100 
+Velocity low 2-> 1100 
+Velocity low 3-> 1100 
+Belt perc vel high-> 0 
+Belt perc vel low-> 0 
+Belt perc vel nom-> 0 
+Velocity init-> 300 
+Velocity Reverse-> 500 
+Acceleration ramp (g*10000)-> 3500 
+Deceleration ramp (g*10000)-> 4000 
+Velocity to voltage ratio ((mm/s)/V)-> 2265 
+Response time (ms)-> 60 
+Stop distance-> 500 
+PhUp PhStop distance-> 800 
+PhStop PhDown distance-> 400 
+Acceleration ramp length (OB)-> 0 
+Max Parcel (LB)-> 0 
+Virtual encoder resolution-> 0 
+PhUp DI->
+PhDown DI->I_ASHOR1_05
+PhStop DI->I_PHT3_05
+Servodrive Ready DI->I_BFAUL_053
+Voltage reference AO->A_BREF_053
+Parcel distance (mm)-> 0 
+Enable/Disable state transition trace-> 1 
+Record -> 25 
+Id-> 63 
+Name->TBOB_063
+Induction station id-> 6 
+Extra data id-> 0 
+AS id-> 0 
+Scanner id-> 0 
+Scale id-> 0 
+ISLOAD id-> 6 
+Belt Type-> 4 
+Belt length (mm)-> 1800 
+Belt width (mm)-> 1400 
+Velocity high (mm/s)-> 1400 
+Velocity high 2-> 1400 
+Velocity high 3-> 1400 
+Velocity low (mm/s)-> 1100 
+Velocity low 2-> 1100 
+Velocity low 3-> 1100 
+Belt perc vel high-> 0 
+Belt perc vel low-> 0 
+Belt perc vel nom-> 0 
+Velocity init-> 300 
+Velocity Reverse-> 500 
+Acceleration ramp (g*10000)-> 3500 
+Deceleration ramp (g*10000)-> 4000 
+Velocity to voltage ratio ((mm/s)/V)-> 2265 
+Response time (ms)-> 60 
+Stop distance-> 500 
+PhUp PhStop distance-> 800 
+PhStop PhDown distance-> 400 
+Acceleration ramp length (OB)-> 0 
+Max Parcel (LB)-> 0 
+Virtual encoder resolution-> 0 
+PhUp DI->
+PhDown DI->I_ASHOR1_06
+PhStop DI->I_PHT3_06
+Servodrive Ready DI->I_BFAUL_063
+Voltage reference AO->A_BREF_063
+Parcel distance (mm)-> 0 
+Enable/Disable state transition trace-> 1 
+Record -> 26 
+Id-> 73 
+Name->TBOB_073
+Induction station id-> 7 
+Extra data id-> 0 
+AS id-> 0 
+Scanner id-> 0 
+Scale id-> 0 
+ISLOAD id-> 7 
+Belt Type-> 4 
+Belt length (mm)-> 1800 
+Belt width (mm)-> 1400 
+Velocity high (mm/s)-> 1400 
+Velocity high 2-> 1400 
+Velocity high 3-> 1400 
+Velocity low (mm/s)-> 1100 
+Velocity low 2-> 1100 
+Velocity low 3-> 1100 
+Belt perc vel high-> 0 
+Belt perc vel low-> 0 
+Belt perc vel nom-> 0 
+Velocity init-> 300 
+Velocity Reverse-> 500 
+Acceleration ramp (g*10000)-> 3500 
+Deceleration ramp (g*10000)-> 4000 
+Velocity to voltage ratio ((mm/s)/V)-> 2265 
+Response time (ms)-> 60 
+Stop distance-> 500 
+PhUp PhStop distance-> 800 
+PhStop PhDown distance-> 400 
+Acceleration ramp length (OB)-> 0 
+Max Parcel (LB)-> 0 
+Virtual encoder resolution-> 0 
+PhUp DI->
+PhDown DI->I_ASHOR1_07
+PhStop DI->I_PHT3_07
+Servodrive Ready DI->I_BFAUL_073
+Voltage reference AO->A_BREF_073
+Parcel distance (mm)-> 0 
+Enable/Disable state transition trace-> 1 
+Record -> 27 
+Id-> 83 
+Name->TBOB_083
+Induction station id-> 8 
+Extra data id-> 0 
+AS id-> 0 
+Scanner id-> 0 
+Scale id-> 0 
+ISLOAD id-> 8 
+Belt Type-> 4 
+Belt length (mm)-> 1800 
+Belt width (mm)-> 1400 
+Velocity high (mm/s)-> 1400 
+Velocity high 2-> 1400 
+Velocity high 3-> 1400 
+Velocity low (mm/s)-> 1100 
+Velocity low 2-> 1100 
+Velocity low 3-> 1100 
+Belt perc vel high-> 0 
+Belt perc vel low-> 0 
+Belt perc vel nom-> 0 
+Velocity init-> 300 
+Velocity Reverse-> 500 
+Acceleration ramp (g*10000)-> 3500 
+Deceleration ramp (g*10000)-> 4000 
+Velocity to voltage ratio ((mm/s)/V)-> 2265 
+Response time (ms)-> 60 
+Stop distance-> 500 
+PhUp PhStop distance-> 800 
+PhStop PhDown distance-> 400 
+Acceleration ramp length (OB)-> 0 
+Max Parcel (LB)-> 0 
+Virtual encoder resolution-> 0 
+PhUp DI->
+PhDown DI->I_ASHOR1_08
+PhStop DI->I_PHT3_08
+Servodrive Ready DI->I_BFAUL_083
+Voltage reference AO->A_BREF_083
+Parcel distance (mm)-> 0 
+Enable/Disable state transition trace-> 1 
+Record -> 28 
+Id-> 93 
+Name->TBOB_093
+Induction station id-> 9 
+Extra data id-> 0 
+AS id-> 0 
+Scanner id-> 0 
+Scale id-> 0 
+ISLOAD id-> 9 
+Belt Type-> 4 
+Belt length (mm)-> 1800 
+Belt width (mm)-> 1400 
+Velocity high (mm/s)-> 1400 
+Velocity high 2-> 1400 
+Velocity high 3-> 1400 
+Velocity low (mm/s)-> 1100 
+Velocity low 2-> 1100 
+Velocity low 3-> 1100 
+Belt perc vel high-> 0 
+Belt perc vel low-> 0 
+Belt perc vel nom-> 0 
+Velocity init-> 300 
+Velocity Reverse-> 500 
+Acceleration ramp (g*10000)-> 3500 
+Deceleration ramp (g*10000)-> 4000 
+Velocity to voltage ratio ((mm/s)/V)-> 2265 
+Response time (ms)-> 60 
+Stop distance-> 500 
+PhUp PhStop distance-> 800 
+PhStop PhDown distance-> 400 
+Acceleration ramp length (OB)-> 0 
+Max Parcel (LB)-> 0 
+Virtual encoder resolution-> 0 
+PhUp DI->
+PhDown DI->I_ASHOR1_09
+PhStop DI->I_PHT3_09
+Servodrive Ready DI->I_BFAUL_093
+Voltage reference AO->A_BREF_093
+Parcel distance (mm)-> 0 
+Enable/Disable state transition trace-> 1 
+Record -> 29 
+Id-> 103 
+Name->TBOB_103
+Induction station id-> 10 
+Extra data id-> 0 
+AS id-> 0 
+Scanner id-> 0 
+Scale id-> 0 
+ISLOAD id-> 10 
+Belt Type-> 4 
+Belt length (mm)-> 1800 
+Belt width (mm)-> 1400 
+Velocity high (mm/s)-> 1400 
+Velocity high 2-> 1400 
+Velocity high 3-> 1400 
+Velocity low (mm/s)-> 1100 
+Velocity low 2-> 1100 
+Velocity low 3-> 1100 
+Belt perc vel high-> 0 
+Belt perc vel low-> 0 
+Belt perc vel nom-> 0 
+Velocity init-> 300 
+Velocity Reverse-> 500 
+Acceleration ramp (g*10000)-> 3500 
+Deceleration ramp (g*10000)-> 4000 
+Velocity to voltage ratio ((mm/s)/V)-> 2265 
+Response time (ms)-> 60 
+Stop distance-> 500 
+PhUp PhStop distance-> 800 
+PhStop PhDown distance-> 400 
+Acceleration ramp length (OB)-> 0 
+Max Parcel (LB)-> 0 
+Virtual encoder resolution-> 0 
+PhUp DI->
+PhDown DI->I_ASHOR1_10
+PhStop DI->I_PHT3_10
+Servodrive Ready DI->I_BFAUL_103
+Voltage reference AO->A_BREF_103
+Parcel distance (mm)-> 0 
+Enable/Disable state transition trace-> 1 
+Record -> 30 
+Id-> 113 
+Name->TBOB_113
+Induction station id-> 11 
+Extra data id-> 0 
+AS id-> 0 
+Scanner id-> 0 
+Scale id-> 0 
+ISLOAD id-> 11 
+Belt Type-> 4 
+Belt length (mm)-> 1800 
+Belt width (mm)-> 1400 
+Velocity high (mm/s)-> 1400 
+Velocity high 2-> 1400 
+Velocity high 3-> 1400 
+Velocity low (mm/s)-> 1100 
+Velocity low 2-> 1100 
+Velocity low 3-> 1100 
+Belt perc vel high-> 0 
+Belt perc vel low-> 0 
+Belt perc vel nom-> 0 
+Velocity init-> 300 
+Velocity Reverse-> 500 
+Acceleration ramp (g*10000)-> 3500 
+Deceleration ramp (g*10000)-> 4000 
+Velocity to voltage ratio ((mm/s)/V)-> 2265 
+Response time (ms)-> 60 
+Stop distance-> 500 
+PhUp PhStop distance-> 800 
+PhStop PhDown distance-> 400 
+Acceleration ramp length (OB)-> 0 
+Max Parcel (LB)-> 0 
+Virtual encoder resolution-> 0 
+PhUp DI->
+PhDown DI->I_ASHOR1_11
+PhStop DI->I_PHT3_11
+Servodrive Ready DI->I_BFAUL_113
+Voltage reference AO->A_BREF_113
+Parcel distance (mm)-> 0 
+Enable/Disable state transition trace-> 1 
+Record -> 31 
+Id-> 123 
+Name->TBOB_123
+Induction station id-> 12 
+Extra data id-> 0 
+AS id-> 0 
+Scanner id-> 0 
+Scale id-> 0 
+ISLOAD id-> 12 
+Belt Type-> 4 
+Belt length (mm)-> 1800 
+Belt width (mm)-> 1400 
+Velocity high (mm/s)-> 1400 
+Velocity high 2-> 1400 
+Velocity high 3-> 1400 
+Velocity low (mm/s)-> 1100 
+Velocity low 2-> 1100 
+Velocity low 3-> 1100 
+Belt perc vel high-> 0 
+Belt perc vel low-> 0 
+Belt perc vel nom-> 0 
+Velocity init-> 300 
+Velocity Reverse-> 500 
+Acceleration ramp (g*10000)-> 3500 
+Deceleration ramp (g*10000)-> 4000 
+Velocity to voltage ratio ((mm/s)/V)-> 2265 
+Response time (ms)-> 60 
+Stop distance-> 500 
+PhUp PhStop distance-> 800 
+PhStop PhDown distance-> 400 
+Acceleration ramp length (OB)-> 0 
+Max Parcel (LB)-> 0 
+Virtual encoder resolution-> 0 
+PhUp DI->
+PhDown DI->I_ASHOR1_12
+PhStop DI->I_PHT3_12
+Servodrive Ready DI->I_BFAUL_123
+Voltage reference AO->A_BREF_123
+Parcel distance (mm)-> 0 
+Enable/Disable state transition trace-> 1 
+Record -> 32 
+Id-> 133 
+Name->TBOB_133
+Induction station id-> 13 
+Extra data id-> 0 
+AS id-> 0 
+Scanner id-> 0 
+Scale id-> 0 
+ISLOAD id-> 13 
+Belt Type-> 4 
+Belt length (mm)-> 1800 
+Belt width (mm)-> 1400 
+Velocity high (mm/s)-> 1400 
+Velocity high 2-> 1400 
+Velocity high 3-> 1400 
+Velocity low (mm/s)-> 1100 
+Velocity low 2-> 1100 
+Velocity low 3-> 1100 
+Belt perc vel high-> 0 
+Belt perc vel low-> 0 
+Belt perc vel nom-> 0 
+Velocity init-> 300 
+Velocity Reverse-> 500 
+Acceleration ramp (g*10000)-> 3500 
+Deceleration ramp (g*10000)-> 4000 
+Velocity to voltage ratio ((mm/s)/V)-> 2265 
+Response time (ms)-> 60 
+Stop distance-> 500 
+PhUp PhStop distance-> 800 
+PhStop PhDown distance-> 400 
+Acceleration ramp length (OB)-> 0 
+Max Parcel (LB)-> 0 
+Virtual encoder resolution-> 0 
+PhUp DI->
+PhDown DI->I_ASHOR1_13
+PhStop DI->I_PHT3_13
+Servodrive Ready DI->I_BFAUL_133
+Voltage reference AO->A_BREF_133
+Parcel distance (mm)-> 0 
+Enable/Disable state transition trace-> 1 
+Record -> 33 
+Id-> 143 
+Name->TBOB_143
+Induction station id-> 14 
+Extra data id-> 0 
+AS id-> 0 
+Scanner id-> 0 
+Scale id-> 0 
+ISLOAD id-> 14 
+Belt Type-> 4 
+Belt length (mm)-> 1800 
+Belt width (mm)-> 1400 
+Velocity high (mm/s)-> 1400 
+Velocity high 2-> 1400 
+Velocity high 3-> 1400 
+Velocity low (mm/s)-> 1100 
+Velocity low 2-> 1100 
+Velocity low 3-> 1100 
+Belt perc vel high-> 0 
+Belt perc vel low-> 0 
+Belt perc vel nom-> 0 
+Velocity init-> 300 
+Velocity Reverse-> 500 
+Acceleration ramp (g*10000)-> 3500 
+Deceleration ramp (g*10000)-> 4000 
+Velocity to voltage ratio ((mm/s)/V)-> 2265 
+Response time (ms)-> 60 
+Stop distance-> 500 
+PhUp PhStop distance-> 800 
+PhStop PhDown distance-> 400 
+Acceleration ramp length (OB)-> 0 
+Max Parcel (LB)-> 0 
+Virtual encoder resolution-> 0 
+PhUp DI->
+PhDown DI->I_ASHOR1_14
+PhStop DI->I_PHT3_14
+Servodrive Ready DI->I_BFAUL_143
+Voltage reference AO->A_BREF_143
+Parcel distance (mm)-> 0 
+Enable/Disable state transition trace-> 1 
+Record -> 34 
+Id-> 14 
+Name->BB_014
+Induction station id-> 1 
+Extra data id-> 0 
+AS id-> 1 
+Scanner id-> 0 
+Scale id-> 0 
+ISLOAD id-> 0 
+Belt Type-> 5 
+Belt length (mm)-> 1200 
+Belt width (mm)-> 1400 
+Velocity high (mm/s)-> 1600 
+Velocity high 2-> 1600 
+Velocity high 3-> 1600 
+Velocity low (mm/s)-> 1400 
+Velocity low 2-> 1400 
+Velocity low 3-> 1400 
+Belt perc vel high-> 0 
+Belt perc vel low-> 0 
+Belt perc vel nom-> 0 
+Velocity init-> 300 
+Velocity Reverse-> 500 
+Acceleration ramp (g*10000)-> 3500 
+Deceleration ramp (g*10000)-> 3500 
+Velocity to voltage ratio ((mm/s)/V)-> 2265 
+Response time (ms)-> 60 
+Stop distance-> 400 
+PhUp PhStop distance-> 0 
+PhStop PhDown distance-> 0 
+Acceleration ramp length (OB)-> 0 
+Max Parcel (LB)-> 0 
+Virtual encoder resolution-> 0 
+PhUp DI->I_ASHOR1_01
+PhDown DI->I_PHT4_01
+PhStop DI->
+Servodrive Ready DI->I_BFAUL_014
+Voltage reference AO->A_BREF_014
+Parcel distance (mm)-> 600 
+Enable/Disable state transition trace-> 1 
+Record -> 35 
+Id-> 24 
+Name->BB_024
+Induction station id-> 2 
+Extra data id-> 0 
+AS id-> 2 
+Scanner id-> 0 
+Scale id-> 0 
+ISLOAD id-> 0 
+Belt Type-> 5 
+Belt length (mm)-> 1200 
+Belt width (mm)-> 1400 
+Velocity high (mm/s)-> 1600 
+Velocity high 2-> 1600 
+Velocity high 3-> 1600 
+Velocity low (mm/s)-> 1400 
+Velocity low 2-> 1400 
+Velocity low 3-> 1400 
+Belt perc vel high-> 0 
+Belt perc vel low-> 0 
+Belt perc vel nom-> 0 
+Velocity init-> 300 
+Velocity Reverse-> 500 
+Acceleration ramp (g*10000)-> 3500 
+Deceleration ramp (g*10000)-> 3500 
+Velocity to voltage ratio ((mm/s)/V)-> 2265 
+Response time (ms)-> 60 
+Stop distance-> 400 
+PhUp PhStop distance-> 0 
+PhStop PhDown distance-> 0 
+Acceleration ramp length (OB)-> 0 
+Max Parcel (LB)-> 0 
+Virtual encoder resolution-> 0 
+PhUp DI->I_ASHOR1_02
+PhDown DI->I_PHT4_02
+PhStop DI->
+Servodrive Ready DI->I_BFAUL_024
+Voltage reference AO->A_BREF_024
+Parcel distance (mm)-> 600 
+Enable/Disable state transition trace-> 1 
+Record -> 36 
+Id-> 34 
+Name->BB_034
+Induction station id-> 3 
+Extra data id-> 0 
+AS id-> 3 
+Scanner id-> 0 
+Scale id-> 0 
+ISLOAD id-> 0 
+Belt Type-> 5 
+Belt length (mm)-> 1200 
+Belt width (mm)-> 1400 
+Velocity high (mm/s)-> 1600 
+Velocity high 2-> 1600 
+Velocity high 3-> 1600 
+Velocity low (mm/s)-> 1400 
+Velocity low 2-> 1400 
+Velocity low 3-> 1400 
+Belt perc vel high-> 0 
+Belt perc vel low-> 0 
+Belt perc vel nom-> 0 
+Velocity init-> 300 
+Velocity Reverse-> 500 
+Acceleration ramp (g*10000)-> 3500 
+Deceleration ramp (g*10000)-> 3500 
+Velocity to voltage ratio ((mm/s)/V)-> 2265 
+Response time (ms)-> 60 
+Stop distance-> 400 
+PhUp PhStop distance-> 0 
+PhStop PhDown distance-> 0 
+Acceleration ramp length (OB)-> 0 
+Max Parcel (LB)-> 0 
+Virtual encoder resolution-> 0 
+PhUp DI->I_ASHOR1_03
+PhDown DI->I_PHT4_03
+PhStop DI->
+Servodrive Ready DI->I_BFAUL_034
+Voltage reference AO->A_BREF_034
+Parcel distance (mm)-> 600 
+Enable/Disable state transition trace-> 1 
+Record -> 37 
+Id-> 44 
+Name->BB_044
+Induction station id-> 4 
+Extra data id-> 0 
+AS id-> 4 
+Scanner id-> 0 
+Scale id-> 0 
+ISLOAD id-> 0 
+Belt Type-> 5 
+Belt length (mm)-> 1200 
+Belt width (mm)-> 1400 
+Velocity high (mm/s)-> 1600 
+Velocity high 2-> 1600 
+Velocity high 3-> 1600 
+Velocity low (mm/s)-> 1400 
+Velocity low 2-> 1400 
+Velocity low 3-> 1400 
+Belt perc vel high-> 0 
+Belt perc vel low-> 0 
+Belt perc vel nom-> 0 
+Velocity init-> 300 
+Velocity Reverse-> 500 
+Acceleration ramp (g*10000)-> 3500 
+Deceleration ramp (g*10000)-> 3500 
+Velocity to voltage ratio ((mm/s)/V)-> 2265 
+Response time (ms)-> 60 
+Stop distance-> 400 
+PhUp PhStop distance-> 0 
+PhStop PhDown distance-> 0 
+Acceleration ramp length (OB)-> 0 
+Max Parcel (LB)-> 0 
+Virtual encoder resolution-> 0 
+PhUp DI->I_ASHOR1_04
+PhDown DI->I_PHT4_04
+PhStop DI->
+Servodrive Ready DI->I_BFAUL_044
+Voltage reference AO->A_BREF_044
+Parcel distance (mm)-> 600 
+Enable/Disable state transition trace-> 1 
+Record -> 38 
+Id-> 54 
+Name->BB_054
+Induction station id-> 5 
+Extra data id-> 0 
+AS id-> 5 
+Scanner id-> 0 
+Scale id-> 0 
+ISLOAD id-> 0 
+Belt Type-> 5 
+Belt length (mm)-> 1200 
+Belt width (mm)-> 1400 
+Velocity high (mm/s)-> 1600 
+Velocity high 2-> 1600 
+Velocity high 3-> 1600 
+Velocity low (mm/s)-> 1400 
+Velocity low 2-> 1400 
+Velocity low 3-> 1400 
+Belt perc vel high-> 0 
+Belt perc vel low-> 0 
+Belt perc vel nom-> 0 
+Velocity init-> 300 
+Velocity Reverse-> 500 
+Acceleration ramp (g*10000)-> 3500 
+Deceleration ramp (g*10000)-> 3500 
+Velocity to voltage ratio ((mm/s)/V)-> 2265 
+Response time (ms)-> 60 
+Stop distance-> 400 
+PhUp PhStop distance-> 0 
+PhStop PhDown distance-> 0 
+Acceleration ramp length (OB)-> 0 
+Max Parcel (LB)-> 0 
+Virtual encoder resolution-> 0 
+PhUp DI->I_ASHOR1_05
+PhDown DI->I_PHT4_05
+PhStop DI->
+Servodrive Ready DI->I_BFAUL_054
+Voltage reference AO->A_BREF_054
+Parcel distance (mm)-> 600 
+Enable/Disable state transition trace-> 1 
+Record -> 39 
+Id-> 64 
+Name->BB_064
+Induction station id-> 6 
+Extra data id-> 0 
+AS id-> 6 
+Scanner id-> 0 
+Scale id-> 0 
+ISLOAD id-> 0 
+Belt Type-> 5 
+Belt length (mm)-> 1200 
+Belt width (mm)-> 1400 
+Velocity high (mm/s)-> 1600 
+Velocity high 2-> 1600 
+Velocity high 3-> 1600 
+Velocity low (mm/s)-> 1400 
+Velocity low 2-> 1400 
+Velocity low 3-> 1400 
+Belt perc vel high-> 0 
+Belt perc vel low-> 0 
+Belt perc vel nom-> 0 
+Velocity init-> 300 
+Velocity Reverse-> 500 
+Acceleration ramp (g*10000)-> 3500 
+Deceleration ramp (g*10000)-> 3500 
+Velocity to voltage ratio ((mm/s)/V)-> 2265 
+Response time (ms)-> 60 
+Stop distance-> 400 
+PhUp PhStop distance-> 0 
+PhStop PhDown distance-> 0 
+Acceleration ramp length (OB)-> 0 
+Max Parcel (LB)-> 0 
+Virtual encoder resolution-> 0 
+PhUp DI->I_ASHOR1_06
+PhDown DI->I_PHT4_06
+PhStop DI->
+Servodrive Ready DI->I_BFAUL_064
+Voltage reference AO->A_BREF_064
+Parcel distance (mm)-> 600 
+Enable/Disable state transition trace-> 1 
+Record -> 40 
+Id-> 74 
+Name->BB_074
+Induction station id-> 7 
+Extra data id-> 0 
+AS id-> 7 
+Scanner id-> 0 
+Scale id-> 0 
+ISLOAD id-> 0 
+Belt Type-> 5 
+Belt length (mm)-> 1200 
+Belt width (mm)-> 1400 
+Velocity high (mm/s)-> 1600 
+Velocity high 2-> 1600 
+Velocity high 3-> 1600 
+Velocity low (mm/s)-> 1400 
+Velocity low 2-> 1400 
+Velocity low 3-> 1400 
+Belt perc vel high-> 0 
+Belt perc vel low-> 0 
+Belt perc vel nom-> 0 
+Velocity init-> 300 
+Velocity Reverse-> 500 
+Acceleration ramp (g*10000)-> 3500 
+Deceleration ramp (g*10000)-> 3500 
+Velocity to voltage ratio ((mm/s)/V)-> 2265 
+Response time (ms)-> 60 
+Stop distance-> 400 
+PhUp PhStop distance-> 0 
+PhStop PhDown distance-> 0 
+Acceleration ramp length (OB)-> 0 
+Max Parcel (LB)-> 0 
+Virtual encoder resolution-> 0 
+PhUp DI->I_ASHOR1_07
+PhDown DI->I_PHT4_07
+PhStop DI->
+Servodrive Ready DI->I_BFAUL_074
+Voltage reference AO->A_BREF_074
+Parcel distance (mm)-> 600 
+Enable/Disable state transition trace-> 1 
+Record -> 41 
+Id-> 84 
+Name->BB_084
+Induction station id-> 8 
+Extra data id-> 0 
+AS id-> 8 
+Scanner id-> 0 
+Scale id-> 0 
+ISLOAD id-> 0 
+Belt Type-> 5 
+Belt length (mm)-> 1200 
+Belt width (mm)-> 1400 
+Velocity high (mm/s)-> 1600 
+Velocity high 2-> 1600 
+Velocity high 3-> 1600 
+Velocity low (mm/s)-> 1400 
+Velocity low 2-> 1400 
+Velocity low 3-> 1400 
+Belt perc vel high-> 0 
+Belt perc vel low-> 0 
+Belt perc vel nom-> 0 
+Velocity init-> 300 
+Velocity Reverse-> 500 
+Acceleration ramp (g*10000)-> 3500 
+Deceleration ramp (g*10000)-> 3500 
+Velocity to voltage ratio ((mm/s)/V)-> 2265 
+Response time (ms)-> 60 
+Stop distance-> 400 
+PhUp PhStop distance-> 0 
+PhStop PhDown distance-> 0 
+Acceleration ramp length (OB)-> 0 
+Max Parcel (LB)-> 0 
+Virtual encoder resolution-> 0 
+PhUp DI->I_ASHOR1_08
+PhDown DI->I_PHT4_08
+PhStop DI->
+Servodrive Ready DI->I_BFAUL_084
+Voltage reference AO->A_BREF_084
+Parcel distance (mm)-> 600 
+Enable/Disable state transition trace-> 1 
+Record -> 42 
+Id-> 94 
+Name->BB_094
+Induction station id-> 9 
+Extra data id-> 0 
+AS id-> 9 
+Scanner id-> 0 
+Scale id-> 0 
+ISLOAD id-> 0 
+Belt Type-> 5 
+Belt length (mm)-> 1200 
+Belt width (mm)-> 1400 
+Velocity high (mm/s)-> 1600 
+Velocity high 2-> 1600 
+Velocity high 3-> 1600 
+Velocity low (mm/s)-> 1400 
+Velocity low 2-> 1400 
+Velocity low 3-> 1400 
+Belt perc vel high-> 0 
+Belt perc vel low-> 0 
+Belt perc vel nom-> 0 
+Velocity init-> 300 
+Velocity Reverse-> 500 
+Acceleration ramp (g*10000)-> 3500 
+Deceleration ramp (g*10000)-> 3500 
+Velocity to voltage ratio ((mm/s)/V)-> 2265 
+Response time (ms)-> 60 
+Stop distance-> 400 
+PhUp PhStop distance-> 0 
+PhStop PhDown distance-> 0 
+Acceleration ramp length (OB)-> 0 
+Max Parcel (LB)-> 0 
+Virtual encoder resolution-> 0 
+PhUp DI->I_ASHOR1_09
+PhDown DI->I_PHT4_09
+PhStop DI->
+Servodrive Ready DI->I_BFAUL_094
+Voltage reference AO->A_BREF_094
+Parcel distance (mm)-> 600 
+Enable/Disable state transition trace-> 1 
+Record -> 43 
+Id-> 104 
+Name->BB_104
+Induction station id-> 10 
+Extra data id-> 0 
+AS id-> 10 
+Scanner id-> 0 
+Scale id-> 0 
+ISLOAD id-> 0 
+Belt Type-> 5 
+Belt length (mm)-> 1200 
+Belt width (mm)-> 1400 
+Velocity high (mm/s)-> 1600 
+Velocity high 2-> 1600 
+Velocity high 3-> 1600 
+Velocity low (mm/s)-> 1400 
+Velocity low 2-> 1400 
+Velocity low 3-> 1400 
+Belt perc vel high-> 0 
+Belt perc vel low-> 0 
+Belt perc vel nom-> 0 
+Velocity init-> 300 
+Velocity Reverse-> 500 
+Acceleration ramp (g*10000)-> 3500 
+Deceleration ramp (g*10000)-> 3500 
+Velocity to voltage ratio ((mm/s)/V)-> 2265 
+Response time (ms)-> 60 
+Stop distance-> 400 
+PhUp PhStop distance-> 0 
+PhStop PhDown distance-> 0 
+Acceleration ramp length (OB)-> 0 
+Max Parcel (LB)-> 0 
+Virtual encoder resolution-> 0 
+PhUp DI->I_ASHOR1_10
+PhDown DI->I_PHT4_10
+PhStop DI->
+Servodrive Ready DI->I_BFAUL_104
+Voltage reference AO->A_BREF_104
+Parcel distance (mm)-> 600 
+Enable/Disable state transition trace-> 1 
+Record -> 44 
+Id-> 114 
+Name->BB_114
+Induction station id-> 11 
+Extra data id-> 0 
+AS id-> 11 
+Scanner id-> 0 
+Scale id-> 0 
+ISLOAD id-> 0 
+Belt Type-> 5 
+Belt length (mm)-> 1200 
+Belt width (mm)-> 1400 
+Velocity high (mm/s)-> 1600 
+Velocity high 2-> 1600 
+Velocity high 3-> 1600 
+Velocity low (mm/s)-> 1400 
+Velocity low 2-> 1400 
+Velocity low 3-> 1400 
+Belt perc vel high-> 0 
+Belt perc vel low-> 0 
+Belt perc vel nom-> 0 
+Velocity init-> 300 
+Velocity Reverse-> 500 
+Acceleration ramp (g*10000)-> 3500 
+Deceleration ramp (g*10000)-> 3500 
+Velocity to voltage ratio ((mm/s)/V)-> 2265 
+Response time (ms)-> 60 
+Stop distance-> 400 
+PhUp PhStop distance-> 0 
+PhStop PhDown distance-> 0 
+Acceleration ramp length (OB)-> 0 
+Max Parcel (LB)-> 0 
+Virtual encoder resolution-> 0 
+PhUp DI->I_ASHOR1_11
+PhDown DI->I_PHT4_11
+PhStop DI->
+Servodrive Ready DI->I_BFAUL_114
+Voltage reference AO->A_BREF_114
+Parcel distance (mm)-> 600 
+Enable/Disable state transition trace-> 1 
+Record -> 45 
+Id-> 124 
+Name->BB_124
+Induction station id-> 12 
+Extra data id-> 0 
+AS id-> 12 
+Scanner id-> 0 
+Scale id-> 0 
+ISLOAD id-> 0 
+Belt Type-> 5 
+Belt length (mm)-> 1200 
+Belt width (mm)-> 1400 
+Velocity high (mm/s)-> 1600 
+Velocity high 2-> 1600 
+Velocity high 3-> 1600 
+Velocity low (mm/s)-> 1400 
+Velocity low 2-> 1400 
+Velocity low 3-> 1400 
+Belt perc vel high-> 0 
+Belt perc vel low-> 0 
+Belt perc vel nom-> 0 
+Velocity init-> 300 
+Velocity Reverse-> 500 
+Acceleration ramp (g*10000)-> 3500 
+Deceleration ramp (g*10000)-> 3500 
+Velocity to voltage ratio ((mm/s)/V)-> 2265 
+Response time (ms)-> 60 
+Stop distance-> 400 
+PhUp PhStop distance-> 0 
+PhStop PhDown distance-> 0 
+Acceleration ramp length (OB)-> 0 
+Max Parcel (LB)-> 0 
+Virtual encoder resolution-> 0 
+PhUp DI->I_ASHOR1_12
+PhDown DI->I_PHT4_12
+PhStop DI->
+Servodrive Ready DI->I_BFAUL_124
+Voltage reference AO->A_BREF_124
+Parcel distance (mm)-> 600 
+Enable/Disable state transition trace-> 1 
+Record -> 46 
+Id-> 134 
+Name->BB_134
+Induction station id-> 13 
+Extra data id-> 0 
+AS id-> 13 
+Scanner id-> 0 
+Scale id-> 0 
+ISLOAD id-> 0 
+Belt Type-> 5 
+Belt length (mm)-> 1200 
+Belt width (mm)-> 1400 
+Velocity high (mm/s)-> 1600 
+Velocity high 2-> 1600 
+Velocity high 3-> 1600 
+Velocity low (mm/s)-> 1400 
+Velocity low 2-> 1400 
+Velocity low 3-> 1400 
+Belt perc vel high-> 0 
+Belt perc vel low-> 0 
+Belt perc vel nom-> 0 
+Velocity init-> 300 
+Velocity Reverse-> 500 
+Acceleration ramp (g*10000)-> 3500 
+Deceleration ramp (g*10000)-> 3500 
+Velocity to voltage ratio ((mm/s)/V)-> 2265 
+Response time (ms)-> 60 
+Stop distance-> 400 
+PhUp PhStop distance-> 0 
+PhStop PhDown distance-> 0 
+Acceleration ramp length (OB)-> 0 
+Max Parcel (LB)-> 0 
+Virtual encoder resolution-> 0 
+PhUp DI->I_ASHOR1_13
+PhDown DI->I_PHT4_13
+PhStop DI->
+Servodrive Ready DI->I_BFAUL_134
+Voltage reference AO->A_BREF_134
+Parcel distance (mm)-> 600 
+Enable/Disable state transition trace-> 1 
+Record -> 47 
+Id-> 144 
+Name->BB_144
+Induction station id-> 14 
+Extra data id-> 0 
+AS id-> 14 
+Scanner id-> 0 
+Scale id-> 0 
+ISLOAD id-> 0 
+Belt Type-> 5 
+Belt length (mm)-> 1200 
+Belt width (mm)-> 1400 
+Velocity high (mm/s)-> 1600 
+Velocity high 2-> 1600 
+Velocity high 3-> 1600 
+Velocity low (mm/s)-> 1400 
+Velocity low 2-> 1400 
+Velocity low 3-> 1400 
+Belt perc vel high-> 0 
+Belt perc vel low-> 0 
+Belt perc vel nom-> 0 
+Velocity init-> 300 
+Velocity Reverse-> 500 
+Acceleration ramp (g*10000)-> 3500 
+Deceleration ramp (g*10000)-> 3500 
+Velocity to voltage ratio ((mm/s)/V)-> 2265 
+Response time (ms)-> 60 
+Stop distance-> 400 
+PhUp PhStop distance-> 0 
+PhStop PhDown distance-> 0 
+Acceleration ramp length (OB)-> 0 
+Max Parcel (LB)-> 0 
+Virtual encoder resolution-> 0 
+PhUp DI->I_ASHOR1_14
+PhDown DI->I_PHT4_14
+PhStop DI->
+Servodrive Ready DI->I_BFAUL_144
+Voltage reference AO->A_BREF_144
+Parcel distance (mm)-> 600 
+Enable/Disable state transition trace-> 1 
+Record -> 48 
+Id-> 15 
+Name->SB_015
+Induction station id-> 1 
+Extra data id-> 1 
+AS id-> 0 
+Scanner id-> 0 
+Scale id-> 0 
+ISLOAD id-> 0 
+Belt Type-> 6 
+Belt length (mm)-> 1200 
+Belt width (mm)-> 1400 
+Velocity high (mm/s)-> 1900 
+Velocity high 2-> 1900 
+Velocity high 3-> 1900 
+Velocity low (mm/s)-> 1600 
+Velocity low 2-> 1600 
+Velocity low 3-> 1600 
+Belt perc vel high-> 0 
+Belt perc vel low-> 0 
+Belt perc vel nom-> 0 
+Velocity init-> 300 
+Velocity Reverse-> 500 
+Acceleration ramp (g*10000)-> 3500 
+Deceleration ramp (g*10000)-> 3500 
+Velocity to voltage ratio ((mm/s)/V)-> 2265 
+Response time (ms)-> 60 
+Stop distance-> 460 
+PhUp PhStop distance-> 0 
+PhStop PhDown distance-> 0 
+Acceleration ramp length (OB)-> 0 
+Max Parcel (LB)-> 0 
+Virtual encoder resolution-> 0 
+PhUp DI->I_PHT4_01
+PhDown DI->I_PHT6_01
+PhStop DI->
+Servodrive Ready DI->I_BFAUL_015
+Voltage reference AO->A_BREF_015
+Parcel distance (mm)-> 750 
+Enable/Disable state transition trace-> 2 
+Record -> 49 
+Id-> 25 
+Name->SB_025
+Induction station id-> 2 
+Extra data id-> 2 
+AS id-> 0 
+Scanner id-> 0 
+Scale id-> 0 
+ISLOAD id-> 0 
+Belt Type-> 6 
+Belt length (mm)-> 1200 
+Belt width (mm)-> 1400 
+Velocity high (mm/s)-> 1900 
+Velocity high 2-> 1900 
+Velocity high 3-> 1900 
+Velocity low (mm/s)-> 1600 
+Velocity low 2-> 1600 
+Velocity low 3-> 1600 
+Belt perc vel high-> 0 
+Belt perc vel low-> 0 
+Belt perc vel nom-> 0 
+Velocity init-> 300 
+Velocity Reverse-> 500 
+Acceleration ramp (g*10000)-> 3500 
+Deceleration ramp (g*10000)-> 3500 
+Velocity to voltage ratio ((mm/s)/V)-> 2265 
+Response time (ms)-> 60 
+Stop distance-> 460 
+PhUp PhStop distance-> 0 
+PhStop PhDown distance-> 0 
+Acceleration ramp length (OB)-> 0 
+Max Parcel (LB)-> 0 
+Virtual encoder resolution-> 0 
+PhUp DI->I_PHT4_02
+PhDown DI->I_PHT6_02
+PhStop DI->
+Servodrive Ready DI->I_BFAUL_025
+Voltage reference AO->A_BREF_025
+Parcel distance (mm)-> 750 
+Enable/Disable state transition trace-> 2 
+Record -> 50 
+Id-> 35 
+Name->SB_035
+Induction station id-> 3 
+Extra data id-> 3 
+AS id-> 0 
+Scanner id-> 0 
+Scale id-> 0 
+ISLOAD id-> 0 
+Belt Type-> 6 
+Belt length (mm)-> 1200 
+Belt width (mm)-> 1400 
+Velocity high (mm/s)-> 1900 
+Velocity high 2-> 1900 
+Velocity high 3-> 1900 
+Velocity low (mm/s)-> 1600 
+Velocity low 2-> 1600 
+Velocity low 3-> 1600 
+Belt perc vel high-> 0 
+Belt perc vel low-> 0 
+Belt perc vel nom-> 0 
+Velocity init-> 300 
+Velocity Reverse-> 500 
+Acceleration ramp (g*10000)-> 3500 
+Deceleration ramp (g*10000)-> 3500 
+Velocity to voltage ratio ((mm/s)/V)-> 2265 
+Response time (ms)-> 60 
+Stop distance-> 460 
+PhUp PhStop distance-> 0 
+PhStop PhDown distance-> 0 
+Acceleration ramp length (OB)-> 0 
+Max Parcel (LB)-> 0 
+Virtual encoder resolution-> 0 
+PhUp DI->I_PHT4_03
+PhDown DI->I_PHT6_03
+PhStop DI->
+Servodrive Ready DI->I_BFAUL_035
+Voltage reference AO->A_BREF_035
+Parcel distance (mm)-> 750 
+Enable/Disable state transition trace-> 2 
+Record -> 51 
+Id-> 45 
+Name->SB_045
+Induction station id-> 4 
+Extra data id-> 4 
+AS id-> 0 
+Scanner id-> 0 
+Scale id-> 0 
+ISLOAD id-> 0 
+Belt Type-> 6 
+Belt length (mm)-> 1200 
+Belt width (mm)-> 1400 
+Velocity high (mm/s)-> 1900 
+Velocity high 2-> 1900 
+Velocity high 3-> 1900 
+Velocity low (mm/s)-> 1600 
+Velocity low 2-> 1600 
+Velocity low 3-> 1600 
+Belt perc vel high-> 0 
+Belt perc vel low-> 0 
+Belt perc vel nom-> 0 
+Velocity init-> 300 
+Velocity Reverse-> 500 
+Acceleration ramp (g*10000)-> 3500 
+Deceleration ramp (g*10000)-> 3500 
+Velocity to voltage ratio ((mm/s)/V)-> 2265 
+Response time (ms)-> 60 
+Stop distance-> 460 
+PhUp PhStop distance-> 0 
+PhStop PhDown distance-> 0 
+Acceleration ramp length (OB)-> 0 
+Max Parcel (LB)-> 0 
+Virtual encoder resolution-> 0 
+PhUp DI->I_PHT4_04
+PhDown DI->I_PHT6_04
+PhStop DI->
+Servodrive Ready DI->I_BFAUL_045
+Voltage reference AO->A_BREF_045
+Parcel distance (mm)-> 750 
+Enable/Disable state transition trace-> 2 
+Record -> 52 
+Id-> 55 
+Name->SB_055
+Induction station id-> 5 
+Extra data id-> 5 
+AS id-> 0 
+Scanner id-> 0 
+Scale id-> 0 
+ISLOAD id-> 0 
+Belt Type-> 6 
+Belt length (mm)-> 1200 
+Belt width (mm)-> 1400 
+Velocity high (mm/s)-> 1900 
+Velocity high 2-> 1900 
+Velocity high 3-> 1900 
+Velocity low (mm/s)-> 1600 
+Velocity low 2-> 1600 
+Velocity low 3-> 1600 
+Belt perc vel high-> 0 
+Belt perc vel low-> 0 
+Belt perc vel nom-> 0 
+Velocity init-> 300 
+Velocity Reverse-> 500 
+Acceleration ramp (g*10000)-> 3500 
+Deceleration ramp (g*10000)-> 3500 
+Velocity to voltage ratio ((mm/s)/V)-> 2265 
+Response time (ms)-> 60 
+Stop distance-> 460 
+PhUp PhStop distance-> 0 
+PhStop PhDown distance-> 0 
+Acceleration ramp length (OB)-> 0 
+Max Parcel (LB)-> 0 
+Virtual encoder resolution-> 0 
+PhUp DI->I_PHT4_05
+PhDown DI->I_PHT6_05
+PhStop DI->
+Servodrive Ready DI->I_BFAUL_055
+Voltage reference AO->A_BREF_055
+Parcel distance (mm)-> 750 
+Enable/Disable state transition trace-> 2 
+Record -> 53 
+Id-> 65 
+Name->SB_065
+Induction station id-> 6 
+Extra data id-> 6 
+AS id-> 0 
+Scanner id-> 0 
+Scale id-> 0 
+ISLOAD id-> 0 
+Belt Type-> 6 
+Belt length (mm)-> 1200 
+Belt width (mm)-> 1400 
+Velocity high (mm/s)-> 1900 
+Velocity high 2-> 1900 
+Velocity high 3-> 1900 
+Velocity low (mm/s)-> 1600 
+Velocity low 2-> 1600 
+Velocity low 3-> 1600 
+Belt perc vel high-> 0 
+Belt perc vel low-> 0 
+Belt perc vel nom-> 0 
+Velocity init-> 300 
+Velocity Reverse-> 500 
+Acceleration ramp (g*10000)-> 3500 
+Deceleration ramp (g*10000)-> 3500 
+Velocity to voltage ratio ((mm/s)/V)-> 2265 
+Response time (ms)-> 60 
+Stop distance-> 460 
+PhUp PhStop distance-> 0 
+PhStop PhDown distance-> 0 
+Acceleration ramp length (OB)-> 0 
+Max Parcel (LB)-> 0 
+Virtual encoder resolution-> 0 
+PhUp DI->I_PHT4_06
+PhDown DI->I_PHT6_06
+PhStop DI->
+Servodrive Ready DI->I_BFAUL_065
+Voltage reference AO->A_BREF_065
+Parcel distance (mm)-> 750 
+Enable/Disable state transition trace-> 2 
+Record -> 54 
+Id-> 75 
+Name->SB_075
+Induction station id-> 7 
+Extra data id-> 7 
+AS id-> 0 
+Scanner id-> 0 
+Scale id-> 0 
+ISLOAD id-> 0 
+Belt Type-> 6 
+Belt length (mm)-> 1200 
+Belt width (mm)-> 1400 
+Velocity high (mm/s)-> 1900 
+Velocity high 2-> 1900 
+Velocity high 3-> 1900 
+Velocity low (mm/s)-> 1600 
+Velocity low 2-> 1600 
+Velocity low 3-> 1600 
+Belt perc vel high-> 0 
+Belt perc vel low-> 0 
+Belt perc vel nom-> 0 
+Velocity init-> 300 
+Velocity Reverse-> 500 
+Acceleration ramp (g*10000)-> 3500 
+Deceleration ramp (g*10000)-> 3500 
+Velocity to voltage ratio ((mm/s)/V)-> 2265 
+Response time (ms)-> 60 
+Stop distance-> 460 
+PhUp PhStop distance-> 0 
+PhStop PhDown distance-> 0 
+Acceleration ramp length (OB)-> 0 
+Max Parcel (LB)-> 0 
+Virtual encoder resolution-> 0 
+PhUp DI->I_PHT4_07
+PhDown DI->I_PHT6_07
+PhStop DI->
+Servodrive Ready DI->I_BFAUL_075
+Voltage reference AO->A_BREF_075
+Parcel distance (mm)-> 750 
+Enable/Disable state transition trace-> 2 
+Record -> 55 
+Id-> 85 
+Name->SB_085
+Induction station id-> 8 
+Extra data id-> 8 
+AS id-> 0 
+Scanner id-> 0 
+Scale id-> 0 
+ISLOAD id-> 0 
+Belt Type-> 6 
+Belt length (mm)-> 1200 
+Belt width (mm)-> 1400 
+Velocity high (mm/s)-> 1900 
+Velocity high 2-> 1900 
+Velocity high 3-> 1900 
+Velocity low (mm/s)-> 1600 
+Velocity low 2-> 1600 
+Velocity low 3-> 1600 
+Belt perc vel high-> 0 
+Belt perc vel low-> 0 
+Belt perc vel nom-> 0 
+Velocity init-> 300 
+Velocity Reverse-> 500 
+Acceleration ramp (g*10000)-> 3500 
+Deceleration ramp (g*10000)-> 3500 
+Velocity to voltage ratio ((mm/s)/V)-> 2265 
+Response time (ms)-> 60 
+Stop distance-> 460 
+PhUp PhStop distance-> 0 
+PhStop PhDown distance-> 0 
+Acceleration ramp length (OB)-> 0 
+Max Parcel (LB)-> 0 
+Virtual encoder resolution-> 0 
+PhUp DI->I_PHT4_08
+PhDown DI->I_PHT6_08
+PhStop DI->
+Servodrive Ready DI->I_BFAUL_085
+Voltage reference AO->A_BREF_085
+Parcel distance (mm)-> 750 
+Enable/Disable state transition trace-> 2 
+Record -> 56 
+Id-> 95 
+Name->SB_095
+Induction station id-> 9 
+Extra data id-> 9 
+AS id-> 0 
+Scanner id-> 0 
+Scale id-> 0 
+ISLOAD id-> 0 
+Belt Type-> 6 
+Belt length (mm)-> 1200 
+Belt width (mm)-> 1400 
+Velocity high (mm/s)-> 1900 
+Velocity high 2-> 1900 
+Velocity high 3-> 1900 
+Velocity low (mm/s)-> 1600 
+Velocity low 2-> 1600 
+Velocity low 3-> 1600 
+Belt perc vel high-> 0 
+Belt perc vel low-> 0 
+Belt perc vel nom-> 0 
+Velocity init-> 300 
+Velocity Reverse-> 500 
+Acceleration ramp (g*10000)-> 3500 
+Deceleration ramp (g*10000)-> 3500 
+Velocity to voltage ratio ((mm/s)/V)-> 2265 
+Response time (ms)-> 60 
+Stop distance-> 460 
+PhUp PhStop distance-> 0 
+PhStop PhDown distance-> 0 
+Acceleration ramp length (OB)-> 0 
+Max Parcel (LB)-> 0 
+Virtual encoder resolution-> 0 
+PhUp DI->I_PHT4_09
+PhDown DI->I_PHT6_09
+PhStop DI->
+Servodrive Ready DI->I_BFAUL_095
+Voltage reference AO->A_BREF_095
+Parcel distance (mm)-> 750 
+Enable/Disable state transition trace-> 2 
+Record -> 57 
+Id-> 105 
+Name->SB_105
+Induction station id-> 10 
+Extra data id-> 10 
+AS id-> 0 
+Scanner id-> 0 
+Scale id-> 0 
+ISLOAD id-> 0 
+Belt Type-> 6 
+Belt length (mm)-> 1200 
+Belt width (mm)-> 1400 
+Velocity high (mm/s)-> 1900 
+Velocity high 2-> 1900 
+Velocity high 3-> 1900 
+Velocity low (mm/s)-> 1600 
+Velocity low 2-> 1600 
+Velocity low 3-> 1600 
+Belt perc vel high-> 0 
+Belt perc vel low-> 0 
+Belt perc vel nom-> 0 
+Velocity init-> 300 
+Velocity Reverse-> 500 
+Acceleration ramp (g*10000)-> 3500 
+Deceleration ramp (g*10000)-> 3500 
+Velocity to voltage ratio ((mm/s)/V)-> 2265 
+Response time (ms)-> 60 
+Stop distance-> 460 
+PhUp PhStop distance-> 0 
+PhStop PhDown distance-> 0 
+Acceleration ramp length (OB)-> 0 
+Max Parcel (LB)-> 0 
+Virtual encoder resolution-> 0 
+PhUp DI->I_PHT4_10
+PhDown DI->I_PHT6_10
+PhStop DI->
+Servodrive Ready DI->I_BFAUL_105
+Voltage reference AO->A_BREF_105
+Parcel distance (mm)-> 750 
+Enable/Disable state transition trace-> 2 
+Record -> 58 
+Id-> 115 
+Name->SB_115
+Induction station id-> 11 
+Extra data id-> 11 
+AS id-> 0 
+Scanner id-> 0 
+Scale id-> 0 
+ISLOAD id-> 0 
+Belt Type-> 6 
+Belt length (mm)-> 1200 
+Belt width (mm)-> 1400 
+Velocity high (mm/s)-> 1900 
+Velocity high 2-> 1900 
+Velocity high 3-> 1900 
+Velocity low (mm/s)-> 1600 
+Velocity low 2-> 1600 
+Velocity low 3-> 1600 
+Belt perc vel high-> 0 
+Belt perc vel low-> 0 
+Belt perc vel nom-> 0 
+Velocity init-> 300 
+Velocity Reverse-> 500 
+Acceleration ramp (g*10000)-> 3500 
+Deceleration ramp (g*10000)-> 3500 
+Velocity to voltage ratio ((mm/s)/V)-> 2265 
+Response time (ms)-> 60 
+Stop distance-> 460 
+PhUp PhStop distance-> 0 
+PhStop PhDown distance-> 0 
+Acceleration ramp length (OB)-> 0 
+Max Parcel (LB)-> 0 
+Virtual encoder resolution-> 0 
+PhUp DI->I_PHT4_11
+PhDown DI->I_PHT6_11
+PhStop DI->
+Servodrive Ready DI->I_BFAUL_115
+Voltage reference AO->A_BREF_115
+Parcel distance (mm)-> 750 
+Enable/Disable state transition trace-> 2 
+Record -> 59 
+Id-> 125 
+Name->SB_125
+Induction station id-> 12 
+Extra data id-> 12 
+AS id-> 0 
+Scanner id-> 0 
+Scale id-> 0 
+ISLOAD id-> 0 
+Belt Type-> 6 
+Belt length (mm)-> 1200 
+Belt width (mm)-> 1400 
+Velocity high (mm/s)-> 1900 
+Velocity high 2-> 1900 
+Velocity high 3-> 1900 
+Velocity low (mm/s)-> 1600 
+Velocity low 2-> 1600 
+Velocity low 3-> 1600 
+Belt perc vel high-> 0 
+Belt perc vel low-> 0 
+Belt perc vel nom-> 0 
+Velocity init-> 300 
+Velocity Reverse-> 500 
+Acceleration ramp (g*10000)-> 3500 
+Deceleration ramp (g*10000)-> 3500 
+Velocity to voltage ratio ((mm/s)/V)-> 2265 
+Response time (ms)-> 60 
+Stop distance-> 460 
+PhUp PhStop distance-> 0 
+PhStop PhDown distance-> 0 
+Acceleration ramp length (OB)-> 0 
+Max Parcel (LB)-> 0 
+Virtual encoder resolution-> 0 
+PhUp DI->I_PHT4_12
+PhDown DI->I_PHT6_12
+PhStop DI->
+Servodrive Ready DI->I_BFAUL_125
+Voltage reference AO->A_BREF_125
+Parcel distance (mm)-> 750 
+Enable/Disable state transition trace-> 2 
+Record -> 60 
+Id-> 135 
+Name->SB_135
+Induction station id-> 13 
+Extra data id-> 13 
+AS id-> 0 
+Scanner id-> 0 
+Scale id-> 0 
+ISLOAD id-> 0 
+Belt Type-> 6 
+Belt length (mm)-> 1200 
+Belt width (mm)-> 1400 
+Velocity high (mm/s)-> 1900 
+Velocity high 2-> 1900 
+Velocity high 3-> 1900 
+Velocity low (mm/s)-> 1600 
+Velocity low 2-> 1600 
+Velocity low 3-> 1600 
+Belt perc vel high-> 0 
+Belt perc vel low-> 0 
+Belt perc vel nom-> 0 
+Velocity init-> 300 
+Velocity Reverse-> 500 
+Acceleration ramp (g*10000)-> 3500 
+Deceleration ramp (g*10000)-> 3500 
+Velocity to voltage ratio ((mm/s)/V)-> 2265 
+Response time (ms)-> 60 
+Stop distance-> 460 
+PhUp PhStop distance-> 0 
+PhStop PhDown distance-> 0 
+Acceleration ramp length (OB)-> 0 
+Max Parcel (LB)-> 0 
+Virtual encoder resolution-> 0 
+PhUp DI->I_PHT4_13
+PhDown DI->I_PHT6_13
+PhStop DI->
+Servodrive Ready DI->I_BFAUL_135
+Voltage reference AO->A_BREF_135
+Parcel distance (mm)-> 750 
+Enable/Disable state transition trace-> 2 
+Record -> 61 
+Id-> 145 
+Name->SB_145
+Induction station id-> 14 
+Extra data id-> 14 
+AS id-> 0 
+Scanner id-> 0 
+Scale id-> 0 
+ISLOAD id-> 0 
+Belt Type-> 6 
+Belt length (mm)-> 1200 
+Belt width (mm)-> 1400 
+Velocity high (mm/s)-> 1900 
+Velocity high 2-> 1900 
+Velocity high 3-> 1900 
+Velocity low (mm/s)-> 1600 
+Velocity low 2-> 1600 
+Velocity low 3-> 1600 
+Belt perc vel high-> 0 
+Belt perc vel low-> 0 
+Belt perc vel nom-> 0 
+Velocity init-> 300 
+Velocity Reverse-> 500 
+Acceleration ramp (g*10000)-> 3500 
+Deceleration ramp (g*10000)-> 3500 
+Velocity to voltage ratio ((mm/s)/V)-> 2265 
+Response time (ms)-> 60 
+Stop distance-> 460 
+PhUp PhStop distance-> 0 
+PhStop PhDown distance-> 0 
+Acceleration ramp length (OB)-> 0 
+Max Parcel (LB)-> 0 
+Virtual encoder resolution-> 0 
+PhUp DI->I_PHT4_14
+PhDown DI->I_PHT6_14
+PhStop DI->
+Servodrive Ready DI->I_BFAUL_145
+Voltage reference AO->A_BREF_145
+Parcel distance (mm)-> 750 
+Enable/Disable state transition trace-> 2 
+Record -> 62 
+Id-> 18 
+Name->LB_018
+Induction station id-> 1 
+Extra data id-> 1 
+AS id-> 0 
+Scanner id-> 0 
+Scale id-> 0 
+ISLOAD id-> 0 
+Belt Type-> 7 
+Belt length (mm)-> 1800 
+Belt width (mm)-> 1400 
+Velocity high (mm/s)-> 2300 
+Velocity high 2-> 2300 
+Velocity high 3-> 2300 
+Velocity low (mm/s)-> 2300 
+Velocity low 2-> 2300 
+Velocity low 3-> 2300 
+Belt perc vel high-> 0 
+Belt perc vel low-> 0 
+Belt perc vel nom-> 0 
+Velocity init-> 300 
+Velocity Reverse-> 500 
+Acceleration ramp (g*10000)-> 4000 
+Deceleration ramp (g*10000)-> 4000 
+Velocity to voltage ratio ((mm/s)/V)-> 2265 
+Response time (ms)-> 60 
+Stop distance-> 0 
+PhUp PhStop distance-> 0 
+PhStop PhDown distance-> 0 
+Acceleration ramp length (OB)-> 0 
+Max Parcel (LB)-> 1500 
+Virtual encoder resolution-> 0 
+PhUp DI->I_PHT6_01
+PhDown DI->
+PhStop DI->
+Servodrive Ready DI->I_BFAUL_018
+Voltage reference AO->A_BREF_018
+Parcel distance (mm)-> 600 
+Enable/Disable state transition trace-> 1 
+Record -> 63 
+Id-> 28 
+Name->LB_028
+Induction station id-> 2 
+Extra data id-> 2 
+AS id-> 0 
+Scanner id-> 0 
+Scale id-> 0 
+ISLOAD id-> 0 
+Belt Type-> 7 
+Belt length (mm)-> 1800 
+Belt width (mm)-> 1400 
+Velocity high (mm/s)-> 2300 
+Velocity high 2-> 2300 
+Velocity high 3-> 2300 
+Velocity low (mm/s)-> 2300 
+Velocity low 2-> 2300 
+Velocity low 3-> 2300 
+Belt perc vel high-> 0 
+Belt perc vel low-> 0 
+Belt perc vel nom-> 0 
+Velocity init-> 300 
+Velocity Reverse-> 500 
+Acceleration ramp (g*10000)-> 4000 
+Deceleration ramp (g*10000)-> 4000 
+Velocity to voltage ratio ((mm/s)/V)-> 2265 
+Response time (ms)-> 60 
+Stop distance-> 0 
+PhUp PhStop distance-> 0 
+PhStop PhDown distance-> 0 
+Acceleration ramp length (OB)-> 0 
+Max Parcel (LB)-> 1500 
+Virtual encoder resolution-> 0 
+PhUp DI->I_PHT6_02
+PhDown DI->
+PhStop DI->
+Servodrive Ready DI->I_BFAUL_028
+Voltage reference AO->A_BREF_028
+Parcel distance (mm)-> 600 
+Enable/Disable state transition trace-> 1 
+Record -> 64 
+Id-> 38 
+Name->LB_038
+Induction station id-> 3 
+Extra data id-> 3 
+AS id-> 0 
+Scanner id-> 0 
+Scale id-> 0 
+ISLOAD id-> 0 
+Belt Type-> 7 
+Belt length (mm)-> 1800 
+Belt width (mm)-> 1400 
+Velocity high (mm/s)-> 2300 
+Velocity high 2-> 2300 
+Velocity high 3-> 2300 
+Velocity low (mm/s)-> 2300 
+Velocity low 2-> 2300 
+Velocity low 3-> 2300 
+Belt perc vel high-> 0 
+Belt perc vel low-> 0 
+Belt perc vel nom-> 0 
+Velocity init-> 300 
+Velocity Reverse-> 500 
+Acceleration ramp (g*10000)-> 4000 
+Deceleration ramp (g*10000)-> 4000 
+Velocity to voltage ratio ((mm/s)/V)-> 2265 
+Response time (ms)-> 60 
+Stop distance-> 0 
+PhUp PhStop distance-> 0 
+PhStop PhDown distance-> 0 
+Acceleration ramp length (OB)-> 0 
+Max Parcel (LB)-> 1500 
+Virtual encoder resolution-> 0 
+PhUp DI->I_PHT6_03
+PhDown DI->
+PhStop DI->
+Servodrive Ready DI->I_BFAUL_038
+Voltage reference AO->A_BREF_038
+Parcel distance (mm)-> 600 
+Enable/Disable state transition trace-> 1 
+Record -> 65 
+Id-> 48 
+Name->LB_048
+Induction station id-> 4 
+Extra data id-> 4 
+AS id-> 0 
+Scanner id-> 0 
+Scale id-> 0 
+ISLOAD id-> 0 
+Belt Type-> 7 
+Belt length (mm)-> 1800 
+Belt width (mm)-> 1400 
+Velocity high (mm/s)-> 2300 
+Velocity high 2-> 2300 
+Velocity high 3-> 2300 
+Velocity low (mm/s)-> 2300 
+Velocity low 2-> 2300 
+Velocity low 3-> 2300 
+Belt perc vel high-> 0 
+Belt perc vel low-> 0 
+Belt perc vel nom-> 0 
+Velocity init-> 300 
+Velocity Reverse-> 500 
+Acceleration ramp (g*10000)-> 4000 
+Deceleration ramp (g*10000)-> 4000 
+Velocity to voltage ratio ((mm/s)/V)-> 2265 
+Response time (ms)-> 60 
+Stop distance-> 0 
+PhUp PhStop distance-> 0 
+PhStop PhDown distance-> 0 
+Acceleration ramp length (OB)-> 0 
+Max Parcel (LB)-> 1500 
+Virtual encoder resolution-> 0 
+PhUp DI->I_PHT6_04
+PhDown DI->
+PhStop DI->
+Servodrive Ready DI->I_BFAUL_048
+Voltage reference AO->A_BREF_048
+Parcel distance (mm)-> 600 
+Enable/Disable state transition trace-> 1 
+Record -> 66 
+Id-> 58 
+Name->LB_058
+Induction station id-> 5 
+Extra data id-> 5 
+AS id-> 0 
+Scanner id-> 0 
+Scale id-> 0 
+ISLOAD id-> 0 
+Belt Type-> 7 
+Belt length (mm)-> 1800 
+Belt width (mm)-> 1400 
+Velocity high (mm/s)-> 2300 
+Velocity high 2-> 2300 
+Velocity high 3-> 2300 
+Velocity low (mm/s)-> 2300 
+Velocity low 2-> 2300 
+Velocity low 3-> 2300 
+Belt perc vel high-> 0 
+Belt perc vel low-> 0 
+Belt perc vel nom-> 0 
+Velocity init-> 300 
+Velocity Reverse-> 500 
+Acceleration ramp (g*10000)-> 4000 
+Deceleration ramp (g*10000)-> 4000 
+Velocity to voltage ratio ((mm/s)/V)-> 2265 
+Response time (ms)-> 60 
+Stop distance-> 0 
+PhUp PhStop distance-> 0 
+PhStop PhDown distance-> 0 
+Acceleration ramp length (OB)-> 0 
+Max Parcel (LB)-> 1500 
+Virtual encoder resolution-> 0 
+PhUp DI->I_PHT6_05
+PhDown DI->
+PhStop DI->
+Servodrive Ready DI->I_BFAUL_058
+Voltage reference AO->A_BREF_058
+Parcel distance (mm)-> 600 
+Enable/Disable state transition trace-> 1 
+Record -> 67 
+Id-> 68 
+Name->LB_068
+Induction station id-> 6 
+Extra data id-> 6 
+AS id-> 0 
+Scanner id-> 0 
+Scale id-> 0 
+ISLOAD id-> 0 
+Belt Type-> 7 
+Belt length (mm)-> 1800 
+Belt width (mm)-> 1400 
+Velocity high (mm/s)-> 2300 
+Velocity high 2-> 2300 
+Velocity high 3-> 2300 
+Velocity low (mm/s)-> 2300 
+Velocity low 2-> 2300 
+Velocity low 3-> 2300 
+Belt perc vel high-> 0 
+Belt perc vel low-> 0 
+Belt perc vel nom-> 0 
+Velocity init-> 300 
+Velocity Reverse-> 500 
+Acceleration ramp (g*10000)-> 4000 
+Deceleration ramp (g*10000)-> 4000 
+Velocity to voltage ratio ((mm/s)/V)-> 2265 
+Response time (ms)-> 60 
+Stop distance-> 0 
+PhUp PhStop distance-> 0 
+PhStop PhDown distance-> 0 
+Acceleration ramp length (OB)-> 0 
+Max Parcel (LB)-> 1500 
+Virtual encoder resolution-> 0 
+PhUp DI->I_PHT6_06
+PhDown DI->
+PhStop DI->
+Servodrive Ready DI->I_BFAUL_068
+Voltage reference AO->A_BREF_068
+Parcel distance (mm)-> 600 
+Enable/Disable state transition trace-> 1 
+Record -> 68 
+Id-> 78 
+Name->LB_078
+Induction station id-> 7 
+Extra data id-> 7 
+AS id-> 0 
+Scanner id-> 0 
+Scale id-> 0 
+ISLOAD id-> 0 
+Belt Type-> 7 
+Belt length (mm)-> 1800 
+Belt width (mm)-> 1400 
+Velocity high (mm/s)-> 2300 
+Velocity high 2-> 2300 
+Velocity high 3-> 2300 
+Velocity low (mm/s)-> 2300 
+Velocity low 2-> 2300 
+Velocity low 3-> 2300 
+Belt perc vel high-> 0 
+Belt perc vel low-> 0 
+Belt perc vel nom-> 0 
+Velocity init-> 300 
+Velocity Reverse-> 500 
+Acceleration ramp (g*10000)-> 4000 
+Deceleration ramp (g*10000)-> 4000 
+Velocity to voltage ratio ((mm/s)/V)-> 2265 
+Response time (ms)-> 60 
+Stop distance-> 0 
+PhUp PhStop distance-> 0 
+PhStop PhDown distance-> 0 
+Acceleration ramp length (OB)-> 0 
+Max Parcel (LB)-> 1500 
+Virtual encoder resolution-> 0 
+PhUp DI->I_PHT6_07
+PhDown DI->
+PhStop DI->
+Servodrive Ready DI->I_BFAUL_078
+Voltage reference AO->A_BREF_078
+Parcel distance (mm)-> 600 
+Enable/Disable state transition trace-> 1 
+Record -> 69 
+Id-> 88 
+Name->LB_088
+Induction station id-> 8 
+Extra data id-> 8 
+AS id-> 0 
+Scanner id-> 0 
+Scale id-> 0 
+ISLOAD id-> 0 
+Belt Type-> 7 
+Belt length (mm)-> 1800 
+Belt width (mm)-> 1400 
+Velocity high (mm/s)-> 2300 
+Velocity high 2-> 2300 
+Velocity high 3-> 2300 
+Velocity low (mm/s)-> 2300 
+Velocity low 2-> 2300 
+Velocity low 3-> 2300 
+Belt perc vel high-> 0 
+Belt perc vel low-> 0 
+Belt perc vel nom-> 0 
+Velocity init-> 300 
+Velocity Reverse-> 500 
+Acceleration ramp (g*10000)-> 4000 
+Deceleration ramp (g*10000)-> 4000 
+Velocity to voltage ratio ((mm/s)/V)-> 2265 
+Response time (ms)-> 60 
+Stop distance-> 0 
+PhUp PhStop distance-> 0 
+PhStop PhDown distance-> 0 
+Acceleration ramp length (OB)-> 0 
+Max Parcel (LB)-> 1500 
+Virtual encoder resolution-> 0 
+PhUp DI->I_PHT6_08
+PhDown DI->
+PhStop DI->
+Servodrive Ready DI->I_BFAUL_088
+Voltage reference AO->A_BREF_088
+Parcel distance (mm)-> 600 
+Enable/Disable state transition trace-> 1 
+Record -> 70 
+Id-> 98 
+Name->LB_098
+Induction station id-> 9 
+Extra data id-> 9 
+AS id-> 0 
+Scanner id-> 0 
+Scale id-> 0 
+ISLOAD id-> 0 
+Belt Type-> 7 
+Belt length (mm)-> 1800 
+Belt width (mm)-> 1400 
+Velocity high (mm/s)-> 2300 
+Velocity high 2-> 2300 
+Velocity high 3-> 2300 
+Velocity low (mm/s)-> 2300 
+Velocity low 2-> 2300 
+Velocity low 3-> 2300 
+Belt perc vel high-> 0 
+Belt perc vel low-> 0 
+Belt perc vel nom-> 0 
+Velocity init-> 300 
+Velocity Reverse-> 500 
+Acceleration ramp (g*10000)-> 4000 
+Deceleration ramp (g*10000)-> 4000 
+Velocity to voltage ratio ((mm/s)/V)-> 2265 
+Response time (ms)-> 60 
+Stop distance-> 0 
+PhUp PhStop distance-> 0 
+PhStop PhDown distance-> 0 
+Acceleration ramp length (OB)-> 0 
+Max Parcel (LB)-> 1500 
+Virtual encoder resolution-> 0 
+PhUp DI->I_PHT6_09
+PhDown DI->
+PhStop DI->
+Servodrive Ready DI->I_BFAUL_098
+Voltage reference AO->A_BREF_098
+Parcel distance (mm)-> 600 
+Enable/Disable state transition trace-> 1 
+Record -> 71 
+Id-> 108 
+Name->LB_108
+Induction station id-> 10 
+Extra data id-> 10 
+AS id-> 0 
+Scanner id-> 0 
+Scale id-> 0 
+ISLOAD id-> 0 
+Belt Type-> 7 
+Belt length (mm)-> 1800 
+Belt width (mm)-> 1400 
+Velocity high (mm/s)-> 2300 
+Velocity high 2-> 2300 
+Velocity high 3-> 2300 
+Velocity low (mm/s)-> 2300 
+Velocity low 2-> 2300 
+Velocity low 3-> 2300 
+Belt perc vel high-> 0 
+Belt perc vel low-> 0 
+Belt perc vel nom-> 0 
+Velocity init-> 300 
+Velocity Reverse-> 500 
+Acceleration ramp (g*10000)-> 4000 
+Deceleration ramp (g*10000)-> 4000 
+Velocity to voltage ratio ((mm/s)/V)-> 2265 
+Response time (ms)-> 60 
+Stop distance-> 0 
+PhUp PhStop distance-> 0 
+PhStop PhDown distance-> 0 
+Acceleration ramp length (OB)-> 0 
+Max Parcel (LB)-> 1500 
+Virtual encoder resolution-> 0 
+PhUp DI->I_PHT6_10
+PhDown DI->
+PhStop DI->
+Servodrive Ready DI->I_BFAUL_108
+Voltage reference AO->A_BREF_108
+Parcel distance (mm)-> 600 
+Enable/Disable state transition trace-> 1 
+Record -> 72 
+Id-> 118 
+Name->LB_118
+Induction station id-> 11 
+Extra data id-> 11 
+AS id-> 0 
+Scanner id-> 0 
+Scale id-> 0 
+ISLOAD id-> 0 
+Belt Type-> 7 
+Belt length (mm)-> 1800 
+Belt width (mm)-> 1400 
+Velocity high (mm/s)-> 2300 
+Velocity high 2-> 2300 
+Velocity high 3-> 2300 
+Velocity low (mm/s)-> 2300 
+Velocity low 2-> 2300 
+Velocity low 3-> 2300 
+Belt perc vel high-> 0 
+Belt perc vel low-> 0 
+Belt perc vel nom-> 0 
+Velocity init-> 300 
+Velocity Reverse-> 500 
+Acceleration ramp (g*10000)-> 4000 
+Deceleration ramp (g*10000)-> 4000 
+Velocity to voltage ratio ((mm/s)/V)-> 2265 
+Response time (ms)-> 60 
+Stop distance-> 0 
+PhUp PhStop distance-> 0 
+PhStop PhDown distance-> 0 
+Acceleration ramp length (OB)-> 0 
+Max Parcel (LB)-> 1500 
+Virtual encoder resolution-> 0 
+PhUp DI->I_PHT6_11
+PhDown DI->
+PhStop DI->
+Servodrive Ready DI->I_BFAUL_118
+Voltage reference AO->A_BREF_118
+Parcel distance (mm)-> 600 
+Enable/Disable state transition trace-> 1 
+Record -> 73 
+Id-> 128 
+Name->LB_128
+Induction station id-> 12 
+Extra data id-> 12 
+AS id-> 0 
+Scanner id-> 0 
+Scale id-> 0 
+ISLOAD id-> 0 
+Belt Type-> 7 
+Belt length (mm)-> 1800 
+Belt width (mm)-> 1400 
+Velocity high (mm/s)-> 2300 
+Velocity high 2-> 2300 
+Velocity high 3-> 2300 
+Velocity low (mm/s)-> 2300 
+Velocity low 2-> 2300 
+Velocity low 3-> 2300 
+Belt perc vel high-> 0 
+Belt perc vel low-> 0 
+Belt perc vel nom-> 0 
+Velocity init-> 300 
+Velocity Reverse-> 500 
+Acceleration ramp (g*10000)-> 4000 
+Deceleration ramp (g*10000)-> 4000 
+Velocity to voltage ratio ((mm/s)/V)-> 2265 
+Response time (ms)-> 60 
+Stop distance-> 0 
+PhUp PhStop distance-> 0 
+PhStop PhDown distance-> 0 
+Acceleration ramp length (OB)-> 0 
+Max Parcel (LB)-> 1500 
+Virtual encoder resolution-> 0 
+PhUp DI->I_PHT6_12
+PhDown DI->
+PhStop DI->
+Servodrive Ready DI->I_BFAUL_128
+Voltage reference AO->A_BREF_128
+Parcel distance (mm)-> 600 
+Enable/Disable state transition trace-> 1 
+Record -> 74 
+Id-> 138 
+Name->LB_138
+Induction station id-> 13 
+Extra data id-> 13 
+AS id-> 0 
+Scanner id-> 0 
+Scale id-> 0 
+ISLOAD id-> 0 
+Belt Type-> 7 
+Belt length (mm)-> 1800 
+Belt width (mm)-> 1400 
+Velocity high (mm/s)-> 2300 
+Velocity high 2-> 2300 
+Velocity high 3-> 2300 
+Velocity low (mm/s)-> 2300 
+Velocity low 2-> 2300 
+Velocity low 3-> 2300 
+Belt perc vel high-> 0 
+Belt perc vel low-> 0 
+Belt perc vel nom-> 0 
+Velocity init-> 300 
+Velocity Reverse-> 500 
+Acceleration ramp (g*10000)-> 4000 
+Deceleration ramp (g*10000)-> 4000 
+Velocity to voltage ratio ((mm/s)/V)-> 2265 
+Response time (ms)-> 60 
+Stop distance-> 0 
+PhUp PhStop distance-> 0 
+PhStop PhDown distance-> 0 
+Acceleration ramp length (OB)-> 0 
+Max Parcel (LB)-> 1500 
+Virtual encoder resolution-> 0 
+PhUp DI->I_PHT6_13
+PhDown DI->
+PhStop DI->
+Servodrive Ready DI->I_BFAUL_138
+Voltage reference AO->A_BREF_138
+Parcel distance (mm)-> 600 
+Enable/Disable state transition trace-> 1 
+Record -> 75 
+Id-> 148 
+Name->LB_148
+Induction station id-> 14 
+Extra data id-> 14 
+AS id-> 0 
+Scanner id-> 0 
+Scale id-> 0 
+ISLOAD id-> 0 
+Belt Type-> 7 
+Belt length (mm)-> 1800 
+Belt width (mm)-> 1400 
+Velocity high (mm/s)-> 2300 
+Velocity high 2-> 2300 
+Velocity high 3-> 2300 
+Velocity low (mm/s)-> 2300 
+Velocity low 2-> 2300 
+Velocity low 3-> 2300 
+Belt perc vel high-> 0 
+Belt perc vel low-> 0 
+Belt perc vel nom-> 0 
+Velocity init-> 300 
+Velocity Reverse-> 500 
+Acceleration ramp (g*10000)-> 4000 
+Deceleration ramp (g*10000)-> 4000 
+Velocity to voltage ratio ((mm/s)/V)-> 2265 
+Response time (ms)-> 60 
+Stop distance-> 0 
+PhUp PhStop distance-> 0 
+PhStop PhDown distance-> 0 
+Acceleration ramp length (OB)-> 0 
+Max Parcel (LB)-> 1500 
+Virtual encoder resolution-> 0 
+PhUp DI->I_PHT6_14
+PhDown DI->
+PhStop DI->
+Servodrive Ready DI->I_BFAUL_148
+Voltage reference AO->A_BREF_148
+Parcel distance (mm)-> 600 
+Enable/Disable state transition trace-> 1 
+Record -> 76 
+Id-> 16 
+Name->SBBK_016
+Induction station id-> 1 
+Extra data id-> 0 
+AS id-> 0 
+Scanner id-> 0 
+Scale id-> 0 
+ISLOAD id-> 0 
+Belt Type-> 20 
+Belt length (mm)-> 600 
+Belt width (mm)-> 1400 
+Velocity high (mm/s)-> 2100 
+Velocity high 2-> 2100 
+Velocity high 3-> 2100 
+Velocity low (mm/s)-> 1600 
+Velocity low 2-> 1600 
+Velocity low 3-> 1600 
+Belt perc vel high-> 0 
+Belt perc vel low-> 0 
+Belt perc vel nom-> 0 
+Velocity init-> 300 
+Velocity Reverse-> 500 
+Acceleration ramp (g*10000)-> 4000 
+Deceleration ramp (g*10000)-> 5000 
+Velocity to voltage ratio ((mm/s)/V)-> 2265 
+Response time (ms)-> 60 
+Stop distance-> 0 
+PhUp PhStop distance-> 0 
+PhStop PhDown distance-> 0 
+Acceleration ramp length (OB)-> 0 
+Max Parcel (LB)-> 0 
+Virtual encoder resolution-> 0 
+PhUp DI->I_PHT5_01
+PhDown DI->I_PHT6_01
+PhStop DI->
+Servodrive Ready DI->I_BFAUL_016
+Voltage reference AO->A_BREF_016
+Parcel distance (mm)-> 300 
+Enable/Disable state transition trace-> 1 
+Record -> 77 
+Id-> 26 
+Name->SBBK_026
+Induction station id-> 2 
+Extra data id-> 0 
+AS id-> 0 
+Scanner id-> 0 
+Scale id-> 0 
+ISLOAD id-> 0 
+Belt Type-> 20 
+Belt length (mm)-> 600 
+Belt width (mm)-> 1400 
+Velocity high (mm/s)-> 2100 
+Velocity high 2-> 2100 
+Velocity high 3-> 2100 
+Velocity low (mm/s)-> 1600 
+Velocity low 2-> 1600 
+Velocity low 3-> 1600 
+Belt perc vel high-> 0 
+Belt perc vel low-> 0 
+Belt perc vel nom-> 0 
+Velocity init-> 300 
+Velocity Reverse-> 500 
+Acceleration ramp (g*10000)-> 4000 
+Deceleration ramp (g*10000)-> 5000 
+Velocity to voltage ratio ((mm/s)/V)-> 2265 
+Response time (ms)-> 60 
+Stop distance-> 0 
+PhUp PhStop distance-> 0 
+PhStop PhDown distance-> 0 
+Acceleration ramp length (OB)-> 0 
+Max Parcel (LB)-> 0 
+Virtual encoder resolution-> 0 
+PhUp DI->I_PHT5_02
+PhDown DI->I_PHT6_02
+PhStop DI->
+Servodrive Ready DI->I_BFAUL_026
+Voltage reference AO->A_BREF_026
+Parcel distance (mm)-> 300 
+Enable/Disable state transition trace-> 1 
+Record -> 78 
+Id-> 36 
+Name->SBBK_036
+Induction station id-> 3 
+Extra data id-> 0 
+AS id-> 0 
+Scanner id-> 0 
+Scale id-> 0 
+ISLOAD id-> 0 
+Belt Type-> 20 
+Belt length (mm)-> 600 
+Belt width (mm)-> 1400 
+Velocity high (mm/s)-> 2100 
+Velocity high 2-> 2100 
+Velocity high 3-> 2100 
+Velocity low (mm/s)-> 1600 
+Velocity low 2-> 1600 
+Velocity low 3-> 1600 
+Belt perc vel high-> 0 
+Belt perc vel low-> 0 
+Belt perc vel nom-> 0 
+Velocity init-> 300 
+Velocity Reverse-> 500 
+Acceleration ramp (g*10000)-> 4000 
+Deceleration ramp (g*10000)-> 5000 
+Velocity to voltage ratio ((mm/s)/V)-> 2265 
+Response time (ms)-> 60 
+Stop distance-> 0 
+PhUp PhStop distance-> 0 
+PhStop PhDown distance-> 0 
+Acceleration ramp length (OB)-> 0 
+Max Parcel (LB)-> 0 
+Virtual encoder resolution-> 0 
+PhUp DI->I_PHT5_03
+PhDown DI->I_PHT6_03
+PhStop DI->
+Servodrive Ready DI->I_BFAUL_036
+Voltage reference AO->A_BREF_036
+Parcel distance (mm)-> 300 
+Enable/Disable state transition trace-> 1 
+Record -> 79 
+Id-> 46 
+Name->SBBK_046
+Induction station id-> 4 
+Extra data id-> 0 
+AS id-> 0 
+Scanner id-> 0 
+Scale id-> 0 
+ISLOAD id-> 0 
+Belt Type-> 20 
+Belt length (mm)-> 600 
+Belt width (mm)-> 1400 
+Velocity high (mm/s)-> 2100 
+Velocity high 2-> 2100 
+Velocity high 3-> 2100 
+Velocity low (mm/s)-> 1600 
+Velocity low 2-> 1600 
+Velocity low 3-> 1600 
+Belt perc vel high-> 0 
+Belt perc vel low-> 0 
+Belt perc vel nom-> 0 
+Velocity init-> 300 
+Velocity Reverse-> 500 
+Acceleration ramp (g*10000)-> 4000 
+Deceleration ramp (g*10000)-> 5000 
+Velocity to voltage ratio ((mm/s)/V)-> 2265 
+Response time (ms)-> 60 
+Stop distance-> 0 
+PhUp PhStop distance-> 0 
+PhStop PhDown distance-> 0 
+Acceleration ramp length (OB)-> 0 
+Max Parcel (LB)-> 0 
+Virtual encoder resolution-> 0 
+PhUp DI->I_PHT5_04
+PhDown DI->I_PHT6_04
+PhStop DI->
+Servodrive Ready DI->I_BFAUL_046
+Voltage reference AO->A_BREF_046
+Parcel distance (mm)-> 300 
+Enable/Disable state transition trace-> 1 
+Record -> 80 
+Id-> 56 
+Name->SBBK_056
+Induction station id-> 5 
+Extra data id-> 0 
+AS id-> 0 
+Scanner id-> 0 
+Scale id-> 0 
+ISLOAD id-> 0 
+Belt Type-> 20 
+Belt length (mm)-> 600 
+Belt width (mm)-> 1400 
+Velocity high (mm/s)-> 2100 
+Velocity high 2-> 2100 
+Velocity high 3-> 2100 
+Velocity low (mm/s)-> 1600 
+Velocity low 2-> 1600 
+Velocity low 3-> 1600 
+Belt perc vel high-> 0 
+Belt perc vel low-> 0 
+Belt perc vel nom-> 0 
+Velocity init-> 300 
+Velocity Reverse-> 500 
+Acceleration ramp (g*10000)-> 4000 
+Deceleration ramp (g*10000)-> 5000 
+Velocity to voltage ratio ((mm/s)/V)-> 2265 
+Response time (ms)-> 60 
+Stop distance-> 0 
+PhUp PhStop distance-> 0 
+PhStop PhDown distance-> 0 
+Acceleration ramp length (OB)-> 0 
+Max Parcel (LB)-> 0 
+Virtual encoder resolution-> 0 
+PhUp DI->I_PHT5_05
+PhDown DI->I_PHT6_05
+PhStop DI->
+Servodrive Ready DI->I_BFAUL_056
+Voltage reference AO->A_BREF_056
+Parcel distance (mm)-> 300 
+Enable/Disable state transition trace-> 1 
+Record -> 81 
+Id-> 66 
+Name->SBBK_066
+Induction station id-> 6 
+Extra data id-> 0 
+AS id-> 0 
+Scanner id-> 0 
+Scale id-> 0 
+ISLOAD id-> 0 
+Belt Type-> 20 
+Belt length (mm)-> 600 
+Belt width (mm)-> 1400 
+Velocity high (mm/s)-> 2100 
+Velocity high 2-> 2100 
+Velocity high 3-> 2100 
+Velocity low (mm/s)-> 1600 
+Velocity low 2-> 1600 
+Velocity low 3-> 1600 
+Belt perc vel high-> 0 
+Belt perc vel low-> 0 
+Belt perc vel nom-> 0 
+Velocity init-> 300 
+Velocity Reverse-> 500 
+Acceleration ramp (g*10000)-> 4000 
+Deceleration ramp (g*10000)-> 5000 
+Velocity to voltage ratio ((mm/s)/V)-> 2265 
+Response time (ms)-> 60 
+Stop distance-> 0 
+PhUp PhStop distance-> 0 
+PhStop PhDown distance-> 0 
+Acceleration ramp length (OB)-> 0 
+Max Parcel (LB)-> 0 
+Virtual encoder resolution-> 0 
+PhUp DI->I_PHT5_06
+PhDown DI->I_PHT6_06
+PhStop DI->
+Servodrive Ready DI->I_BFAUL_066
+Voltage reference AO->A_BREF_066
+Parcel distance (mm)-> 300 
+Enable/Disable state transition trace-> 1 
+Record -> 82 
+Id-> 76 
+Name->SBBK_076
+Induction station id-> 7 
+Extra data id-> 0 
+AS id-> 0 
+Scanner id-> 0 
+Scale id-> 0 
+ISLOAD id-> 0 
+Belt Type-> 20 
+Belt length (mm)-> 600 
+Belt width (mm)-> 1400 
+Velocity high (mm/s)-> 2100 
+Velocity high 2-> 2100 
+Velocity high 3-> 2100 
+Velocity low (mm/s)-> 1600 
+Velocity low 2-> 1600 
+Velocity low 3-> 1600 
+Belt perc vel high-> 0 
+Belt perc vel low-> 0 
+Belt perc vel nom-> 0 
+Velocity init-> 300 
+Velocity Reverse-> 500 
+Acceleration ramp (g*10000)-> 4000 
+Deceleration ramp (g*10000)-> 5000 
+Velocity to voltage ratio ((mm/s)/V)-> 2265 
+Response time (ms)-> 60 
+Stop distance-> 0 
+PhUp PhStop distance-> 0 
+PhStop PhDown distance-> 0 
+Acceleration ramp length (OB)-> 0 
+Max Parcel (LB)-> 0 
+Virtual encoder resolution-> 0 
+PhUp DI->I_PHT5_07
+PhDown DI->I_PHT6_07
+PhStop DI->
+Servodrive Ready DI->I_BFAUL_076
+Voltage reference AO->A_BREF_076
+Parcel distance (mm)-> 300 
+Enable/Disable state transition trace-> 1 
+Record -> 83 
+Id-> 86 
+Name->SBBK_086
+Induction station id-> 8 
+Extra data id-> 0 
+AS id-> 0 
+Scanner id-> 0 
+Scale id-> 0 
+ISLOAD id-> 0 
+Belt Type-> 20 
+Belt length (mm)-> 600 
+Belt width (mm)-> 1400 
+Velocity high (mm/s)-> 2100 
+Velocity high 2-> 2100 
+Velocity high 3-> 2100 
+Velocity low (mm/s)-> 1600 
+Velocity low 2-> 1600 
+Velocity low 3-> 1600 
+Belt perc vel high-> 0 
+Belt perc vel low-> 0 
+Belt perc vel nom-> 0 
+Velocity init-> 300 
+Velocity Reverse-> 500 
+Acceleration ramp (g*10000)-> 4000 
+Deceleration ramp (g*10000)-> 5000 
+Velocity to voltage ratio ((mm/s)/V)-> 2265 
+Response time (ms)-> 60 
+Stop distance-> 0 
+PhUp PhStop distance-> 0 
+PhStop PhDown distance-> 0 
+Acceleration ramp length (OB)-> 0 
+Max Parcel (LB)-> 0 
+Virtual encoder resolution-> 0 
+PhUp DI->I_PHT5_08
+PhDown DI->I_PHT6_08
+PhStop DI->
+Servodrive Ready DI->I_BFAUL_086
+Voltage reference AO->A_BREF_086
+Parcel distance (mm)-> 300 
+Enable/Disable state transition trace-> 1 
+Record -> 84 
+Id-> 96 
+Name->SBBK_096
+Induction station id-> 9 
+Extra data id-> 0 
+AS id-> 0 
+Scanner id-> 0 
+Scale id-> 0 
+ISLOAD id-> 0 
+Belt Type-> 20 
+Belt length (mm)-> 600 
+Belt width (mm)-> 1400 
+Velocity high (mm/s)-> 2100 
+Velocity high 2-> 2100 
+Velocity high 3-> 2100 
+Velocity low (mm/s)-> 1600 
+Velocity low 2-> 1600 
+Velocity low 3-> 1600 
+Belt perc vel high-> 0 
+Belt perc vel low-> 0 
+Belt perc vel nom-> 0 
+Velocity init-> 300 
+Velocity Reverse-> 500 
+Acceleration ramp (g*10000)-> 4000 
+Deceleration ramp (g*10000)-> 5000 
+Velocity to voltage ratio ((mm/s)/V)-> 2265 
+Response time (ms)-> 60 
+Stop distance-> 0 
+PhUp PhStop distance-> 0 
+PhStop PhDown distance-> 0 
+Acceleration ramp length (OB)-> 0 
+Max Parcel (LB)-> 0 
+Virtual encoder resolution-> 0 
+PhUp DI->I_PHT5_09
+PhDown DI->I_PHT6_09
+PhStop DI->
+Servodrive Ready DI->I_BFAUL_096
+Voltage reference AO->A_BREF_096
+Parcel distance (mm)-> 300 
+Enable/Disable state transition trace-> 1 
+Record -> 85 
+Id-> 106 
+Name->SBBK_106
+Induction station id-> 10 
+Extra data id-> 0 
+AS id-> 0 
+Scanner id-> 0 
+Scale id-> 0 
+ISLOAD id-> 0 
+Belt Type-> 20 
+Belt length (mm)-> 600 
+Belt width (mm)-> 1400 
+Velocity high (mm/s)-> 2100 
+Velocity high 2-> 2100 
+Velocity high 3-> 2100 
+Velocity low (mm/s)-> 1600 
+Velocity low 2-> 1600 
+Velocity low 3-> 1600 
+Belt perc vel high-> 0 
+Belt perc vel low-> 0 
+Belt perc vel nom-> 0 
+Velocity init-> 300 
+Velocity Reverse-> 500 
+Acceleration ramp (g*10000)-> 4000 
+Deceleration ramp (g*10000)-> 5000 
+Velocity to voltage ratio ((mm/s)/V)-> 2265 
+Response time (ms)-> 60 
+Stop distance-> 0 
+PhUp PhStop distance-> 0 
+PhStop PhDown distance-> 0 
+Acceleration ramp length (OB)-> 0 
+Max Parcel (LB)-> 0 
+Virtual encoder resolution-> 0 
+PhUp DI->I_PHT5_10
+PhDown DI->I_PHT6_10
+PhStop DI->
+Servodrive Ready DI->I_BFAUL_106
+Voltage reference AO->A_BREF_106
+Parcel distance (mm)-> 300 
+Enable/Disable state transition trace-> 1 
+Record -> 86 
+Id-> 116 
+Name->SBBK_116
+Induction station id-> 11 
+Extra data id-> 0 
+AS id-> 0 
+Scanner id-> 0 
+Scale id-> 0 
+ISLOAD id-> 0 
+Belt Type-> 20 
+Belt length (mm)-> 600 
+Belt width (mm)-> 1400 
+Velocity high (mm/s)-> 2100 
+Velocity high 2-> 2100 
+Velocity high 3-> 2100 
+Velocity low (mm/s)-> 1600 
+Velocity low 2-> 1600 
+Velocity low 3-> 1600 
+Belt perc vel high-> 0 
+Belt perc vel low-> 0 
+Belt perc vel nom-> 0 
+Velocity init-> 300 
+Velocity Reverse-> 500 
+Acceleration ramp (g*10000)-> 4000 
+Deceleration ramp (g*10000)-> 5000 
+Velocity to voltage ratio ((mm/s)/V)-> 2265 
+Response time (ms)-> 60 
+Stop distance-> 0 
+PhUp PhStop distance-> 0 
+PhStop PhDown distance-> 0 
+Acceleration ramp length (OB)-> 0 
+Max Parcel (LB)-> 0 
+Virtual encoder resolution-> 0 
+PhUp DI->I_PHT5_11
+PhDown DI->I_PHT6_11
+PhStop DI->
+Servodrive Ready DI->I_BFAUL_116
+Voltage reference AO->A_BREF_116
+Parcel distance (mm)-> 300 
+Enable/Disable state transition trace-> 1 
+Record -> 87 
+Id-> 126 
+Name->SBBK_126
+Induction station id-> 12 
+Extra data id-> 0 
+AS id-> 0 
+Scanner id-> 0 
+Scale id-> 0 
+ISLOAD id-> 0 
+Belt Type-> 20 
+Belt length (mm)-> 600 
+Belt width (mm)-> 1400 
+Velocity high (mm/s)-> 2100 
+Velocity high 2-> 2100 
+Velocity high 3-> 2100 
+Velocity low (mm/s)-> 1600 
+Velocity low 2-> 1600 
+Velocity low 3-> 1600 
+Belt perc vel high-> 0 
+Belt perc vel low-> 0 
+Belt perc vel nom-> 0 
+Velocity init-> 300 
+Velocity Reverse-> 500 
+Acceleration ramp (g*10000)-> 4000 
+Deceleration ramp (g*10000)-> 5000 
+Velocity to voltage ratio ((mm/s)/V)-> 2265 
+Response time (ms)-> 60 
+Stop distance-> 0 
+PhUp PhStop distance-> 0 
+PhStop PhDown distance-> 0 
+Acceleration ramp length (OB)-> 0 
+Max Parcel (LB)-> 0 
+Virtual encoder resolution-> 0 
+PhUp DI->I_PHT5_12
+PhDown DI->I_PHT6_12
+PhStop DI->
+Servodrive Ready DI->I_BFAUL_126
+Voltage reference AO->A_BREF_126
+Parcel distance (mm)-> 300 
+Enable/Disable state transition trace-> 1 
+Record -> 88 
+Id-> 136 
+Name->SBBK_136
+Induction station id-> 13 
+Extra data id-> 0 
+AS id-> 0 
+Scanner id-> 0 
+Scale id-> 0 
+ISLOAD id-> 0 
+Belt Type-> 20 
+Belt length (mm)-> 600 
+Belt width (mm)-> 1400 
+Velocity high (mm/s)-> 2100 
+Velocity high 2-> 2100 
+Velocity high 3-> 2100 
+Velocity low (mm/s)-> 1600 
+Velocity low 2-> 1600 
+Velocity low 3-> 1600 
+Belt perc vel high-> 0 
+Belt perc vel low-> 0 
+Belt perc vel nom-> 0 
+Velocity init-> 300 
+Velocity Reverse-> 500 
+Acceleration ramp (g*10000)-> 4000 
+Deceleration ramp (g*10000)-> 5000 
+Velocity to voltage ratio ((mm/s)/V)-> 2265 
+Response time (ms)-> 60 
+Stop distance-> 0 
+PhUp PhStop distance-> 0 
+PhStop PhDown distance-> 0 
+Acceleration ramp length (OB)-> 0 
+Max Parcel (LB)-> 0 
+Virtual encoder resolution-> 0 
+PhUp DI->I_PHT5_13
+PhDown DI->I_PHT6_13
+PhStop DI->
+Servodrive Ready DI->I_BFAUL_136
+Voltage reference AO->A_BREF_136
+Parcel distance (mm)-> 300 
+Enable/Disable state transition trace-> 1 
+Record -> 89 
+Id-> 146 
+Name->SBBK_146
+Induction station id-> 14 
+Extra data id-> 0 
+AS id-> 0 
+Scanner id-> 0 
+Scale id-> 0 
+ISLOAD id-> 0 
+Belt Type-> 20 
+Belt length (mm)-> 600 
+Belt width (mm)-> 1400 
+Velocity high (mm/s)-> 2100 
+Velocity high 2-> 2100 
+Velocity high 3-> 2100 
+Velocity low (mm/s)-> 1600 
+Velocity low 2-> 1600 
+Velocity low 3-> 1600 
+Belt perc vel high-> 0 
+Belt perc vel low-> 0 
+Belt perc vel nom-> 0 
+Velocity init-> 300 
+Velocity Reverse-> 500 
+Acceleration ramp (g*10000)-> 4000 
+Deceleration ramp (g*10000)-> 5000 
+Velocity to voltage ratio ((mm/s)/V)-> 2265 
+Response time (ms)-> 60 
+Stop distance-> 0 
+PhUp PhStop distance-> 0 
+PhStop PhDown distance-> 0 
+Acceleration ramp length (OB)-> 0 
+Max Parcel (LB)-> 0 
+Virtual encoder resolution-> 0 
+PhUp DI->I_PHT5_14
+PhDown DI->I_PHT6_14
+PhStop DI->
+Servodrive Ready DI->I_BFAUL_146
+Voltage reference AO->A_BREF_146
+Parcel distance (mm)-> 300 
+Enable/Disable state transition trace-> 1 
+Record -> 90 
+Id-> 17 
+Name->LBBK_017
+Induction station id-> 1 
+Extra data id-> 0 
+AS id-> 0 
+Scanner id-> 0 
+Scale id-> 0 
+ISLOAD id-> 0 
+Belt Type-> 21 
+Belt length (mm)-> 600 
+Belt width (mm)-> 1400 
+Velocity high (mm/s)-> 2300 
+Velocity high 2-> 2300 
+Velocity high 3-> 2300 
+Velocity low (mm/s)-> 2100 
+Velocity low 2-> 2100 
+Velocity low 3-> 2100 
+Belt perc vel high-> 0 
+Belt perc vel low-> 0 
+Belt perc vel nom-> 0 
+Velocity init-> 300 
+Velocity Reverse-> 500 
+Acceleration ramp (g*10000)-> 4000 
+Deceleration ramp (g*10000)-> 5000 
+Velocity to voltage ratio ((mm/s)/V)-> 2265 
+Response time (ms)-> 60 
+Stop distance-> 400 
+PhUp PhStop distance-> 0 
+PhStop PhDown distance-> 0 
+Acceleration ramp length (OB)-> 0 
+Max Parcel (LB)-> 0 
+Virtual encoder resolution-> 0 
+PhUp DI->I_PHT6_01
+PhDown DI->I_PHT7_01
+PhStop DI->
+Servodrive Ready DI->I_BFAUL_017
+Voltage reference AO->A_BREF_017
+Parcel distance (mm)-> 600 
+Enable/Disable state transition trace-> 1 
+Record -> 91 
+Id-> 27 
+Name->LBBK_027
+Induction station id-> 2 
+Extra data id-> 0 
+AS id-> 0 
+Scanner id-> 0 
+Scale id-> 0 
+ISLOAD id-> 0 
+Belt Type-> 21 
+Belt length (mm)-> 600 
+Belt width (mm)-> 1400 
+Velocity high (mm/s)-> 2300 
+Velocity high 2-> 2300 
+Velocity high 3-> 2300 
+Velocity low (mm/s)-> 2100 
+Velocity low 2-> 2100 
+Velocity low 3-> 2100 
+Belt perc vel high-> 0 
+Belt perc vel low-> 0 
+Belt perc vel nom-> 0 
+Velocity init-> 300 
+Velocity Reverse-> 500 
+Acceleration ramp (g*10000)-> 4000 
+Deceleration ramp (g*10000)-> 5000 
+Velocity to voltage ratio ((mm/s)/V)-> 2265 
+Response time (ms)-> 60 
+Stop distance-> 400 
+PhUp PhStop distance-> 0 
+PhStop PhDown distance-> 0 
+Acceleration ramp length (OB)-> 0 
+Max Parcel (LB)-> 0 
+Virtual encoder resolution-> 0 
+PhUp DI->I_PHT6_02
+PhDown DI->I_PHT7_02
+PhStop DI->
+Servodrive Ready DI->I_BFAUL_027
+Voltage reference AO->A_BREF_027
+Parcel distance (mm)-> 600 
+Enable/Disable state transition trace-> 1 
+Record -> 92 
+Id-> 37 
+Name->LBBK_037
+Induction station id-> 3 
+Extra data id-> 0 
+AS id-> 0 
+Scanner id-> 0 
+Scale id-> 0 
+ISLOAD id-> 0 
+Belt Type-> 21 
+Belt length (mm)-> 600 
+Belt width (mm)-> 1400 
+Velocity high (mm/s)-> 2300 
+Velocity high 2-> 2300 
+Velocity high 3-> 2300 
+Velocity low (mm/s)-> 2100 
+Velocity low 2-> 2100 
+Velocity low 3-> 2100 
+Belt perc vel high-> 0 
+Belt perc vel low-> 0 
+Belt perc vel nom-> 0 
+Velocity init-> 300 
+Velocity Reverse-> 500 
+Acceleration ramp (g*10000)-> 4000 
+Deceleration ramp (g*10000)-> 5000 
+Velocity to voltage ratio ((mm/s)/V)-> 2265 
+Response time (ms)-> 60 
+Stop distance-> 400 
+PhUp PhStop distance-> 0 
+PhStop PhDown distance-> 0 
+Acceleration ramp length (OB)-> 0 
+Max Parcel (LB)-> 0 
+Virtual encoder resolution-> 0 
+PhUp DI->I_PHT6_03
+PhDown DI->I_PHT7_03
+PhStop DI->
+Servodrive Ready DI->I_BFAUL_037
+Voltage reference AO->A_BREF_037
+Parcel distance (mm)-> 600 
+Enable/Disable state transition trace-> 1 
+Record -> 93 
+Id-> 47 
+Name->LBBK_047
+Induction station id-> 4 
+Extra data id-> 0 
+AS id-> 0 
+Scanner id-> 0 
+Scale id-> 0 
+ISLOAD id-> 0 
+Belt Type-> 21 
+Belt length (mm)-> 600 
+Belt width (mm)-> 1400 
+Velocity high (mm/s)-> 2300 
+Velocity high 2-> 2300 
+Velocity high 3-> 2300 
+Velocity low (mm/s)-> 2100 
+Velocity low 2-> 2100 
+Velocity low 3-> 2100 
+Belt perc vel high-> 0 
+Belt perc vel low-> 0 
+Belt perc vel nom-> 0 
+Velocity init-> 300 
+Velocity Reverse-> 500 
+Acceleration ramp (g*10000)-> 4000 
+Deceleration ramp (g*10000)-> 5000 
+Velocity to voltage ratio ((mm/s)/V)-> 2265 
+Response time (ms)-> 60 
+Stop distance-> 400 
+PhUp PhStop distance-> 0 
+PhStop PhDown distance-> 0 
+Acceleration ramp length (OB)-> 0 
+Max Parcel (LB)-> 0 
+Virtual encoder resolution-> 0 
+PhUp DI->I_PHT6_04
+PhDown DI->I_PHT7_04
+PhStop DI->
+Servodrive Ready DI->I_BFAUL_047
+Voltage reference AO->A_BREF_047
+Parcel distance (mm)-> 600 
+Enable/Disable state transition trace-> 1 
+Record -> 94 
+Id-> 57 
+Name->LBBK_057
+Induction station id-> 5 
+Extra data id-> 0 
+AS id-> 0 
+Scanner id-> 0 
+Scale id-> 0 
+ISLOAD id-> 0 
+Belt Type-> 21 
+Belt length (mm)-> 600 
+Belt width (mm)-> 1400 
+Velocity high (mm/s)-> 2300 
+Velocity high 2-> 2300 
+Velocity high 3-> 2300 
+Velocity low (mm/s)-> 2100 
+Velocity low 2-> 2100 
+Velocity low 3-> 2100 
+Belt perc vel high-> 0 
+Belt perc vel low-> 0 
+Belt perc vel nom-> 0 
+Velocity init-> 300 
+Velocity Reverse-> 500 
+Acceleration ramp (g*10000)-> 4000 
+Deceleration ramp (g*10000)-> 5000 
+Velocity to voltage ratio ((mm/s)/V)-> 2265 
+Response time (ms)-> 60 
+Stop distance-> 400 
+PhUp PhStop distance-> 0 
+PhStop PhDown distance-> 0 
+Acceleration ramp length (OB)-> 0 
+Max Parcel (LB)-> 0 
+Virtual encoder resolution-> 0 
+PhUp DI->I_PHT6_05
+PhDown DI->I_PHT7_05
+PhStop DI->
+Servodrive Ready DI->I_BFAUL_057
+Voltage reference AO->A_BREF_057
+Parcel distance (mm)-> 600 
+Enable/Disable state transition trace-> 1 
+Record -> 95 
+Id-> 67 
+Name->LBBK_067
+Induction station id-> 6 
+Extra data id-> 0 
+AS id-> 0 
+Scanner id-> 0 
+Scale id-> 0 
+ISLOAD id-> 0 
+Belt Type-> 21 
+Belt length (mm)-> 600 
+Belt width (mm)-> 1400 
+Velocity high (mm/s)-> 2300 
+Velocity high 2-> 2300 
+Velocity high 3-> 2300 
+Velocity low (mm/s)-> 2100 
+Velocity low 2-> 2100 
+Velocity low 3-> 2100 
+Belt perc vel high-> 0 
+Belt perc vel low-> 0 
+Belt perc vel nom-> 0 
+Velocity init-> 300 
+Velocity Reverse-> 500 
+Acceleration ramp (g*10000)-> 4000 
+Deceleration ramp (g*10000)-> 5000 
+Velocity to voltage ratio ((mm/s)/V)-> 2265 
+Response time (ms)-> 60 
+Stop distance-> 400 
+PhUp PhStop distance-> 0 
+PhStop PhDown distance-> 0 
+Acceleration ramp length (OB)-> 0 
+Max Parcel (LB)-> 0 
+Virtual encoder resolution-> 0 
+PhUp DI->I_PHT6_06
+PhDown DI->I_PHT7_06
+PhStop DI->
+Servodrive Ready DI->I_BFAUL_067
+Voltage reference AO->A_BREF_067
+Parcel distance (mm)-> 600 
+Enable/Disable state transition trace-> 1 
+Record -> 96 
+Id-> 77 
+Name->LBBK_077
+Induction station id-> 7 
+Extra data id-> 0 
+AS id-> 0 
+Scanner id-> 0 
+Scale id-> 0 
+ISLOAD id-> 0 
+Belt Type-> 21 
+Belt length (mm)-> 600 
+Belt width (mm)-> 1400 
+Velocity high (mm/s)-> 2300 
+Velocity high 2-> 2300 
+Velocity high 3-> 2300 
+Velocity low (mm/s)-> 2100 
+Velocity low 2-> 2100 
+Velocity low 3-> 2100 
+Belt perc vel high-> 0 
+Belt perc vel low-> 0 
+Belt perc vel nom-> 0 
+Velocity init-> 300 
+Velocity Reverse-> 500 
+Acceleration ramp (g*10000)-> 4000 
+Deceleration ramp (g*10000)-> 5000 
+Velocity to voltage ratio ((mm/s)/V)-> 2265 
+Response time (ms)-> 60 
+Stop distance-> 400 
+PhUp PhStop distance-> 0 
+PhStop PhDown distance-> 0 
+Acceleration ramp length (OB)-> 0 
+Max Parcel (LB)-> 0 
+Virtual encoder resolution-> 0 
+PhUp DI->I_PHT6_07
+PhDown DI->I_PHT7_07
+PhStop DI->
+Servodrive Ready DI->I_BFAUL_077
+Voltage reference AO->A_BREF_077
+Parcel distance (mm)-> 600 
+Enable/Disable state transition trace-> 1 
+Record -> 97 
+Id-> 87 
+Name->LBBK_087
+Induction station id-> 8 
+Extra data id-> 0 
+AS id-> 0 
+Scanner id-> 0 
+Scale id-> 0 
+ISLOAD id-> 0 
+Belt Type-> 21 
+Belt length (mm)-> 600 
+Belt width (mm)-> 1400 
+Velocity high (mm/s)-> 2300 
+Velocity high 2-> 2300 
+Velocity high 3-> 2300 
+Velocity low (mm/s)-> 2100 
+Velocity low 2-> 2100 
+Velocity low 3-> 2100 
+Belt perc vel high-> 0 
+Belt perc vel low-> 0 
+Belt perc vel nom-> 0 
+Velocity init-> 300 
+Velocity Reverse-> 500 
+Acceleration ramp (g*10000)-> 4000 
+Deceleration ramp (g*10000)-> 5000 
+Velocity to voltage ratio ((mm/s)/V)-> 2265 
+Response time (ms)-> 60 
+Stop distance-> 400 
+PhUp PhStop distance-> 0 
+PhStop PhDown distance-> 0 
+Acceleration ramp length (OB)-> 0 
+Max Parcel (LB)-> 0 
+Virtual encoder resolution-> 0 
+PhUp DI->I_PHT6_08
+PhDown DI->I_PHT7_08
+PhStop DI->
+Servodrive Ready DI->I_BFAUL_087
+Voltage reference AO->A_BREF_087
+Parcel distance (mm)-> 600 
+Enable/Disable state transition trace-> 1 
+Record -> 98 
+Id-> 97 
+Name->LBBK_097
+Induction station id-> 9 
+Extra data id-> 0 
+AS id-> 0 
+Scanner id-> 0 
+Scale id-> 0 
+ISLOAD id-> 0 
+Belt Type-> 21 
+Belt length (mm)-> 600 
+Belt width (mm)-> 1400 
+Velocity high (mm/s)-> 2300 
+Velocity high 2-> 2300 
+Velocity high 3-> 2300 
+Velocity low (mm/s)-> 2100 
+Velocity low 2-> 2100 
+Velocity low 3-> 2100 
+Belt perc vel high-> 0 
+Belt perc vel low-> 0 
+Belt perc vel nom-> 0 
+Velocity init-> 300 
+Velocity Reverse-> 500 
+Acceleration ramp (g*10000)-> 4000 
+Deceleration ramp (g*10000)-> 5000 
+Velocity to voltage ratio ((mm/s)/V)-> 2265 
+Response time (ms)-> 60 
+Stop distance-> 400 
+PhUp PhStop distance-> 0 
+PhStop PhDown distance-> 0 
+Acceleration ramp length (OB)-> 0 
+Max Parcel (LB)-> 0 
+Virtual encoder resolution-> 0 
+PhUp DI->I_PHT6_09
+PhDown DI->I_PHT7_09
+PhStop DI->
+Servodrive Ready DI->I_BFAUL_097
+Voltage reference AO->A_BREF_097
+Parcel distance (mm)-> 600 
+Enable/Disable state transition trace-> 1 
+Record -> 99 
+Id-> 107 
+Name->LBBK_107
+Induction station id-> 10 
+Extra data id-> 0 
+AS id-> 0 
+Scanner id-> 0 
+Scale id-> 0 
+ISLOAD id-> 0 
+Belt Type-> 21 
+Belt length (mm)-> 600 
+Belt width (mm)-> 1400 
+Velocity high (mm/s)-> 2300 
+Velocity high 2-> 2300 
+Velocity high 3-> 2300 
+Velocity low (mm/s)-> 2100 
+Velocity low 2-> 2100 
+Velocity low 3-> 2100 
+Belt perc vel high-> 0 
+Belt perc vel low-> 0 
+Belt perc vel nom-> 0 
+Velocity init-> 300 
+Velocity Reverse-> 500 
+Acceleration ramp (g*10000)-> 4000 
+Deceleration ramp (g*10000)-> 5000 
+Velocity to voltage ratio ((mm/s)/V)-> 2265 
+Response time (ms)-> 60 
+Stop distance-> 400 
+PhUp PhStop distance-> 0 
+PhStop PhDown distance-> 0 
+Acceleration ramp length (OB)-> 0 
+Max Parcel (LB)-> 0 
+Virtual encoder resolution-> 0 
+PhUp DI->I_PHT6_10
+PhDown DI->I_PHT7_10
+PhStop DI->
+Servodrive Ready DI->I_BFAUL_107
+Voltage reference AO->A_BREF_107
+Parcel distance (mm)-> 600 
+Enable/Disable state transition trace-> 1 
+Record -> 100 
+Id-> 117 
+Name->LBBK_117
+Induction station id-> 11 
+Extra data id-> 0 
+AS id-> 0 
+Scanner id-> 0 
+Scale id-> 0 
+ISLOAD id-> 0 
+Belt Type-> 21 
+Belt length (mm)-> 600 
+Belt width (mm)-> 1400 
+Velocity high (mm/s)-> 2300 
+Velocity high 2-> 2300 
+Velocity high 3-> 2300 
+Velocity low (mm/s)-> 2100 
+Velocity low 2-> 2100 
+Velocity low 3-> 2100 
+Belt perc vel high-> 0 
+Belt perc vel low-> 0 
+Belt perc vel nom-> 0 
+Velocity init-> 300 
+Velocity Reverse-> 500 
+Acceleration ramp (g*10000)-> 4000 
+Deceleration ramp (g*10000)-> 5000 
+Velocity to voltage ratio ((mm/s)/V)-> 2265 
+Response time (ms)-> 60 
+Stop distance-> 400 
+PhUp PhStop distance-> 0 
+PhStop PhDown distance-> 0 
+Acceleration ramp length (OB)-> 0 
+Max Parcel (LB)-> 0 
+Virtual encoder resolution-> 0 
+PhUp DI->I_PHT6_11
+PhDown DI->I_PHT7_11
+PhStop DI->
+Servodrive Ready DI->I_BFAUL_117
+Voltage reference AO->A_BREF_117
+Parcel distance (mm)-> 600 
+Enable/Disable state transition trace-> 1 
+Record -> 101 
+Id-> 127 
+Name->LBBK_127
+Induction station id-> 12 
+Extra data id-> 0 
+AS id-> 0 
+Scanner id-> 0 
+Scale id-> 0 
+ISLOAD id-> 0 
+Belt Type-> 21 
+Belt length (mm)-> 600 
+Belt width (mm)-> 1400 
+Velocity high (mm/s)-> 2300 
+Velocity high 2-> 2300 
+Velocity high 3-> 2300 
+Velocity low (mm/s)-> 2100 
+Velocity low 2-> 2100 
+Velocity low 3-> 2100 
+Belt perc vel high-> 0 
+Belt perc vel low-> 0 
+Belt perc vel nom-> 0 
+Velocity init-> 300 
+Velocity Reverse-> 500 
+Acceleration ramp (g*10000)-> 4000 
+Deceleration ramp (g*10000)-> 5000 
+Velocity to voltage ratio ((mm/s)/V)-> 2265 
+Response time (ms)-> 60 
+Stop distance-> 400 
+PhUp PhStop distance-> 0 
+PhStop PhDown distance-> 0 
+Acceleration ramp length (OB)-> 0 
+Max Parcel (LB)-> 0 
+Virtual encoder resolution-> 0 
+PhUp DI->I_PHT6_12
+PhDown DI->I_PHT7_12
+PhStop DI->
+Servodrive Ready DI->I_BFAUL_127
+Voltage reference AO->A_BREF_127
+Parcel distance (mm)-> 600 
+Enable/Disable state transition trace-> 1 
+Record -> 102 
+Id-> 137 
+Name->LBBK_137
+Induction station id-> 13 
+Extra data id-> 0 
+AS id-> 0 
+Scanner id-> 0 
+Scale id-> 0 
+ISLOAD id-> 0 
+Belt Type-> 21 
+Belt length (mm)-> 600 
+Belt width (mm)-> 1400 
+Velocity high (mm/s)-> 2300 
+Velocity high 2-> 2300 
+Velocity high 3-> 2300 
+Velocity low (mm/s)-> 2100 
+Velocity low 2-> 2100 
+Velocity low 3-> 2100 
+Belt perc vel high-> 0 
+Belt perc vel low-> 0 
+Belt perc vel nom-> 0 
+Velocity init-> 300 
+Velocity Reverse-> 500 
+Acceleration ramp (g*10000)-> 4000 
+Deceleration ramp (g*10000)-> 5000 
+Velocity to voltage ratio ((mm/s)/V)-> 2265 
+Response time (ms)-> 60 
+Stop distance-> 400 
+PhUp PhStop distance-> 0 
+PhStop PhDown distance-> 0 
+Acceleration ramp length (OB)-> 0 
+Max Parcel (LB)-> 0 
+Virtual encoder resolution-> 0 
+PhUp DI->I_PHT6_13
+PhDown DI->I_PHT7_13
+PhStop DI->
+Servodrive Ready DI->I_BFAUL_137
+Voltage reference AO->A_BREF_137
+Parcel distance (mm)-> 600 
+Enable/Disable state transition trace-> 1 
+Record -> 103 
+Id-> 147 
+Name->LBBK_147
+Induction station id-> 14 
+Extra data id-> 0 
+AS id-> 0 
+Scanner id-> 0 
+Scale id-> 0 
+ISLOAD id-> 0 
+Belt Type-> 21 
+Belt length (mm)-> 600 
+Belt width (mm)-> 1400 
+Velocity high (mm/s)-> 2300 
+Velocity high 2-> 2300 
+Velocity high 3-> 2300 
+Velocity low (mm/s)-> 2100 
+Velocity low 2-> 2100 
+Velocity low 3-> 2100 
+Belt perc vel high-> 0 
+Belt perc vel low-> 0 
+Belt perc vel nom-> 0 
+Velocity init-> 300 
+Velocity Reverse-> 500 
+Acceleration ramp (g*10000)-> 4000 
+Deceleration ramp (g*10000)-> 5000 
+Velocity to voltage ratio ((mm/s)/V)-> 2265 
+Response time (ms)-> 60 
+Stop distance-> 400 
+PhUp PhStop distance-> 0 
+PhStop PhDown distance-> 0 
+Acceleration ramp length (OB)-> 0 
+Max Parcel (LB)-> 0 
+Virtual encoder resolution-> 0 
+PhUp DI->I_PHT6_14
+PhDown DI->I_PHT7_14
+PhStop DI->
+Servodrive Ready DI->I_BFAUL_147
+Voltage reference AO->A_BREF_147
+Parcel distance (mm)-> 600 
+Enable/Disable state transition trace-> 1 
+Record -> 104 
+Id-> 81 
+Name->TB_081
+Induction station id-> 8 
+Extra data id-> 0 
+AS id-> 0 
+Scanner id-> 0 
+Scale id-> 0 
+ISLOAD id-> 0 
+Belt Type-> 3 
+Belt length (mm)-> 1200 
+Belt width (mm)-> 600 
+Velocity high (mm/s)-> 1600 
+Velocity high 2-> 1600 
+Velocity high 3-> 1600 
+Velocity low (mm/s)-> 1400 
+Velocity low 2-> 1400 
+Velocity low 3-> 1400 
+Belt perc vel high-> 0 
+Belt perc vel low-> 0 
+Belt perc vel nom-> 1200 
+Velocity init-> 300 
+Velocity Reverse-> 500 
+Acceleration ramp (g*10000)-> 3000 
+Deceleration ramp (g*10000)-> 3000 
+Velocity to voltage ratio ((mm/s)/V)-> 2265 
+Response time (ms)-> 60 
+Stop distance-> 300 
+PhUp PhStop distance-> 500 
+PhStop PhDown distance-> 0 
+Acceleration ramp length (OB)-> 750 
+Max Parcel (LB)-> 0 
+Virtual encoder resolution-> 0 
+PhUp DI->I_PHT1.3_08
+PhDown DI->I_PHT1.1_08
+PhStop DI->I_PHT1.2_08
+Servodrive Ready DI->I_BFAUL_081
+Voltage reference AO->A_BREF_081
+Parcel distance (mm)-> 350 
+Enable/Disable state transition trace-> 1 
+Record -> 105 
+Id-> 91 
+Name->TB_091
+Induction station id-> 9 
+Extra data id-> 0 
+AS id-> 0 
+Scanner id-> 0 
+Scale id-> 0 
+ISLOAD id-> 0 
+Belt Type-> 3 
+Belt length (mm)-> 1200 
+Belt width (mm)-> 600 
+Velocity high (mm/s)-> 1600 
+Velocity high 2-> 1600 
+Velocity high 3-> 1600 
+Velocity low (mm/s)-> 1400 
+Velocity low 2-> 1400 
+Velocity low 3-> 1400 
+Belt perc vel high-> 0 
+Belt perc vel low-> 0 
+Belt perc vel nom-> 1200 
+Velocity init-> 300 
+Velocity Reverse-> 500 
+Acceleration ramp (g*10000)-> 3000 
+Deceleration ramp (g*10000)-> 3000 
+Velocity to voltage ratio ((mm/s)/V)-> 2265 
+Response time (ms)-> 60 
+Stop distance-> 300 
+PhUp PhStop distance-> 500 
+PhStop PhDown distance-> 0 
+Acceleration ramp length (OB)-> 750 
+Max Parcel (LB)-> 0 
+Virtual encoder resolution-> 0 
+PhUp DI->I_PHT1.3_09
+PhDown DI->I_PHT1.1_09
+PhStop DI->I_PHT1.2_09
+Servodrive Ready DI->I_BFAUL_091
+Voltage reference AO->A_BREF_091
+Parcel distance (mm)-> 350 
+Enable/Disable state transition trace-> 1 
+Record -> 106 
+Id-> 101 
+Name->TB_101
+Induction station id-> 10 
+Extra data id-> 0 
+AS id-> 0 
+Scanner id-> 0 
+Scale id-> 0 
+ISLOAD id-> 0 
+Belt Type-> 3 
+Belt length (mm)-> 1200 
+Belt width (mm)-> 600 
+Velocity high (mm/s)-> 1600 
+Velocity high 2-> 1600 
+Velocity high 3-> 1600 
+Velocity low (mm/s)-> 1400 
+Velocity low 2-> 1400 
+Velocity low 3-> 1400 
+Belt perc vel high-> 0 
+Belt perc vel low-> 0 
+Belt perc vel nom-> 1200 
+Velocity init-> 300 
+Velocity Reverse-> 500 
+Acceleration ramp (g*10000)-> 3000 
+Deceleration ramp (g*10000)-> 3000 
+Velocity to voltage ratio ((mm/s)/V)-> 2265 
+Response time (ms)-> 60 
+Stop distance-> 300 
+PhUp PhStop distance-> 500 
+PhStop PhDown distance-> 0 
+Acceleration ramp length (OB)-> 750 
+Max Parcel (LB)-> 0 
+Virtual encoder resolution-> 0 
+PhUp DI->I_PHT1.3_10
+PhDown DI->I_PHT1.1_10
+PhStop DI->I_PHT1.2_10
+Servodrive Ready DI->I_BFAUL_101
+Voltage reference AO->A_BREF_101
+Parcel distance (mm)-> 350 
+Enable/Disable state transition trace-> 1 
+Record -> 107 
+Id-> 111 
+Name->TB_111
+Induction station id-> 11 
+Extra data id-> 0 
+AS id-> 0 
+Scanner id-> 0 
+Scale id-> 0 
+ISLOAD id-> 0 
+Belt Type-> 3 
+Belt length (mm)-> 1200 
+Belt width (mm)-> 600 
+Velocity high (mm/s)-> 1600 
+Velocity high 2-> 1600 
+Velocity high 3-> 1600 
+Velocity low (mm/s)-> 1400 
+Velocity low 2-> 1400 
+Velocity low 3-> 1400 
+Belt perc vel high-> 0 
+Belt perc vel low-> 0 
+Belt perc vel nom-> 1200 
+Velocity init-> 300 
+Velocity Reverse-> 500 
+Acceleration ramp (g*10000)-> 3000 
+Deceleration ramp (g*10000)-> 3000 
+Velocity to voltage ratio ((mm/s)/V)-> 2265 
+Response time (ms)-> 60 
+Stop distance-> 300 
+PhUp PhStop distance-> 500 
+PhStop PhDown distance-> 0 
+Acceleration ramp length (OB)-> 750 
+Max Parcel (LB)-> 0 
+Virtual encoder resolution-> 0 
+PhUp DI->I_PHT1.3_11
+PhDown DI->I_PHT1.1_11
+PhStop DI->I_PHT1.2_11
+Servodrive Ready DI->I_BFAUL_111
+Voltage reference AO->A_BREF_111
+Parcel distance (mm)-> 350 
+Enable/Disable state transition trace-> 1 
+Record -> 108 
+Id-> 121 
+Name->TB_121
+Induction station id-> 12 
+Extra data id-> 0 
+AS id-> 0 
+Scanner id-> 0 
+Scale id-> 0 
+ISLOAD id-> 0 
+Belt Type-> 3 
+Belt length (mm)-> 1200 
+Belt width (mm)-> 600 
+Velocity high (mm/s)-> 1600 
+Velocity high 2-> 1600 
+Velocity high 3-> 1600 
+Velocity low (mm/s)-> 1400 
+Velocity low 2-> 1400 
+Velocity low 3-> 1400 
+Belt perc vel high-> 0 
+Belt perc vel low-> 0 
+Belt perc vel nom-> 1200 
+Velocity init-> 300 
+Velocity Reverse-> 500 
+Acceleration ramp (g*10000)-> 3000 
+Deceleration ramp (g*10000)-> 3000 
+Velocity to voltage ratio ((mm/s)/V)-> 2265 
+Response time (ms)-> 60 
+Stop distance-> 300 
+PhUp PhStop distance-> 500 
+PhStop PhDown distance-> 0 
+Acceleration ramp length (OB)-> 750 
+Max Parcel (LB)-> 0 
+Virtual encoder resolution-> 0 
+PhUp DI->I_PHT1.3_12
+PhDown DI->I_PHT1.1_12
+PhStop DI->I_PHT1.2_12
+Servodrive Ready DI->I_BFAUL_121
+Voltage reference AO->A_BREF_121
+Parcel distance (mm)-> 350 
+Enable/Disable state transition trace-> 1 
+Record -> 109 
+Id-> 131 
+Name->TB_131
+Induction station id-> 13 
+Extra data id-> 0 
+AS id-> 0 
+Scanner id-> 0 
+Scale id-> 0 
+ISLOAD id-> 0 
+Belt Type-> 3 
+Belt length (mm)-> 1200 
+Belt width (mm)-> 600 
+Velocity high (mm/s)-> 1600 
+Velocity high 2-> 1600 
+Velocity high 3-> 1600 
+Velocity low (mm/s)-> 1400 
+Velocity low 2-> 1400 
+Velocity low 3-> 1400 
+Belt perc vel high-> 0 
+Belt perc vel low-> 0 
+Belt perc vel nom-> 1200 
+Velocity init-> 300 
+Velocity Reverse-> 500 
+Acceleration ramp (g*10000)-> 3000 
+Deceleration ramp (g*10000)-> 3000 
+Velocity to voltage ratio ((mm/s)/V)-> 2265 
+Response time (ms)-> 60 
+Stop distance-> 300 
+PhUp PhStop distance-> 500 
+PhStop PhDown distance-> 0 
+Acceleration ramp length (OB)-> 750 
+Max Parcel (LB)-> 0 
+Virtual encoder resolution-> 0 
+PhUp DI->I_PHT1.3_13
+PhDown DI->I_PHT1.1_13
+PhStop DI->I_PHT1.2_13
+Servodrive Ready DI->I_BFAUL_131
+Voltage reference AO->A_BREF_131
+Parcel distance (mm)-> 350 
+Enable/Disable state transition trace-> 1 
+Record -> 110 
+Id-> 141 
+Name->TB_141
+Induction station id-> 14 
+Extra data id-> 0 
+AS id-> 0 
+Scanner id-> 0 
+Scale id-> 0 
+ISLOAD id-> 0 
+Belt Type-> 3 
+Belt length (mm)-> 1200 
+Belt width (mm)-> 600 
+Velocity high (mm/s)-> 1600 
+Velocity high 2-> 1600 
+Velocity high 3-> 1600 
+Velocity low (mm/s)-> 1400 
+Velocity low 2-> 1400 
+Velocity low 3-> 1400 
+Belt perc vel high-> 0 
+Belt perc vel low-> 0 
+Belt perc vel nom-> 1200 
+Velocity init-> 300 
+Velocity Reverse-> 500 
+Acceleration ramp (g*10000)-> 3000 
+Deceleration ramp (g*10000)-> 3000 
+Velocity to voltage ratio ((mm/s)/V)-> 2265 
+Response time (ms)-> 60 
+Stop distance-> 300 
+PhUp PhStop distance-> 500 
+PhStop PhDown distance-> 0 
+Acceleration ramp length (OB)-> 750 
+Max Parcel (LB)-> 0 
+Virtual encoder resolution-> 0 
+PhUp DI->I_PHT1.3_14
+PhDown DI->I_PHT1.1_14
+PhStop DI->I_PHT1.2_14
+Servodrive Ready DI->I_BFAUL_141
+Voltage reference AO->A_BREF_141
+Parcel distance (mm)-> 350 
+Enable/Disable state transition trace-> 1 
+Record -> 111 
+Id-> 13 
+Name->TBOB_013
+Induction station id-> 1 
+Extra data id-> 0 
+AS id-> 0 
+Scanner id-> 0 
+Scale id-> 0 
+ISLOAD id-> 1 
+Belt Type-> 4 
+Belt length (mm)-> 1800 
+Belt width (mm)-> 1400 
+Velocity high (mm/s)-> 1400 
+Velocity high 2-> 1400 
+Velocity high 3-> 1400 
+Velocity low (mm/s)-> 1100 
+Velocity low 2-> 1100 
+Velocity low 3-> 1100 
+Belt perc vel high-> 0 
+Belt perc vel low-> 0 
+Belt perc vel nom-> 0 
+Velocity init-> 300 
+Velocity Reverse-> 500 
+Acceleration ramp (g*10000)-> 3500 
+Deceleration ramp (g*10000)-> 4000 
+Velocity to voltage ratio ((mm/s)/V)-> 2265 
+Response time (ms)-> 60 
+Stop distance-> 500 
+PhUp PhStop distance-> 800 
+PhStop PhDown distance-> 400 
+Acceleration ramp length (OB)-> 0 
+Max Parcel (LB)-> 0 
+Virtual encoder resolution-> 0 
+PhUp DI->
+PhDown DI->I_ASHOR1_01
+PhStop DI->I_PHT3_01
+Servodrive Ready DI->I_BFAUL_013
+Voltage reference AO->A_BREF_013
+Parcel distance (mm)-> 0 
+Enable/Disable state transition trace-> 1 
+Record -> 112 
+Id-> 23 
+Name->TBOB_023
+Induction station id-> 2 
+Extra data id-> 0 
+AS id-> 0 
+Scanner id-> 0 
+Scale id-> 0 
+ISLOAD id-> 2 
+Belt Type-> 4 
+Belt length (mm)-> 1800 
+Belt width (mm)-> 1400 
+Velocity high (mm/s)-> 1400 
+Velocity high 2-> 1400 
+Velocity high 3-> 1400 
+Velocity low (mm/s)-> 1100 
+Velocity low 2-> 1100 
+Velocity low 3-> 1100 
+Belt perc vel high-> 0 
+Belt perc vel low-> 0 
+Belt perc vel nom-> 0 
+Velocity init-> 300 
+Velocity Reverse-> 500 
+Acceleration ramp (g*10000)-> 3500 
+Deceleration ramp (g*10000)-> 4000 
+Velocity to voltage ratio ((mm/s)/V)-> 2265 
+Response time (ms)-> 60 
+Stop distance-> 500 
+PhUp PhStop distance-> 800 
+PhStop PhDown distance-> 400 
+Acceleration ramp length (OB)-> 0 
+Max Parcel (LB)-> 0 
+Virtual encoder resolution-> 0 
+PhUp DI->
+PhDown DI->I_ASHOR1_02
+PhStop DI->I_PHT3_02
+Servodrive Ready DI->I_BFAUL_023
+Voltage reference AO->A_BREF_023
+Parcel distance (mm)-> 0 
+Enable/Disable state transition trace-> 1 

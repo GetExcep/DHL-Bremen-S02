@@ -1,0 +1,32 @@
+Ph1 Recnew Function
+Parcel tracking enabled
+Sent to reject badpos item
+Check for two parcel on one cell
+Send to reject item without data
+Send to reject if item is not found
+Send PARCLOST message if item is not found
+Bad pose back: ignore if next cell empty (set as double)
+Badpose front : if previous is empty shift data ahead and flag double
+Enable PH side sensor to change PH1_RECNEW state transition
+(Only if ph side exist) Don't count tail cnt if the side sensor
+(Only if ph side exist)  Full logs for ph side 
+Do not create the item if is found on the last EP of Belt Reading
+ENABLE correction table
+Spare Flag8
+Spare Flag9
+Spare Flag10
+Spare Flag11
+Spare Flag12
+Spare Flag13
+Spare Flag14
+Spare Flag15
+Spare Flag16
+Spare Flag17
+Spare Flag18
+Spare Flag19
+Spare Flag20
+Spare Flag21
+Spare Flag22
+Spare Flag23
+Spare Flag24
+Spare Flag25

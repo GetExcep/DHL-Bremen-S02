@@ -1,0 +1,28 @@
+Fields -> 8 
+Record -> 1 
+Id-> 11999 
+Offloading data station name->CH11999
+Enable->True
+chute-> 11999 
+DO Offloading warning not used->
+DO Data Ready->O_DATA_11999
+DO Priority to dMFS->O_PTY_11999
+Enable/Disable state transition trace-> 0 
+Record -> 2 
+Id-> 2213 
+Offloading data station name->CH2213
+Enable->True
+chute-> 2213 
+DO Offloading warning not used->
+DO Data Ready->O_DATA_02213
+DO Priority to dMFS->O_PTY_02213
+Enable/Disable state transition trace-> 0 
+Record -> 3 
+Id-> 2223 
+Offloading data station name->CH2223
+Enable->True
+chute-> 2223 
+DO Offloading warning not used->
+DO Data Ready->O_DATA_02223
+DO Priority to dMFS->O_PTY_02223
+Enable/Disable state transition trace-> 0 

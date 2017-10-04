@@ -1,0 +1,18 @@
+//
+// safeplc table
+//
+Field="id"
+Field="phenc_pre"
+Field="S_di_hbfault.name"
+Field="s_do_automode.name"
+Field="s_do_maintenance.name"
+Field="s_do_vel1.name"
+Field="s_do_vel2.name"
+Field="s_do_vel3.name"
+Field="s_do_scrun.name"
+Field="s_do_scstop.name"
+Field="s_do_alive.name"
+Field="s_ai_counter.name"
+Field="s_ao_counter.name"
+Field="s_ao_speed.name"     
+//

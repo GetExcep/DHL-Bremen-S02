@@ -1,0 +1,150 @@
+//
+//S_mfrpara
+//
+TABLE_TYPE: 0
+//
+MAXTABLE:1
+//
+TABLE
+//
+//
+BEGINSTRUCT // Begin of structure=S_mfrpara
+  USHORT  // Field=id
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_vel1.name
+      POINTER  // Field=s_di_vel1.ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_vel2.name
+      POINTER  // Field=s_di_vel2.ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_vel3.name
+      POINTER  // Field=s_di_vel3.ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_velauto.name
+      POINTER  // Field=s_di_velauto.ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12  // Field=s_do_vel1.name
+      POINTER  // Field=s_do_vel1.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12  // Field=s_do_vel2.name
+      POINTER  // Field=s_do_vel2.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12  // Field=s_do_vel3.name
+      POINTER  // Field=s_do_vel3.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_wk_mfrpara
+      USHORT  // Field=s_wk_mfrpara.requested_velocity
+   	  USHORT  // Field=s_wk_mfrpara.speed_mode
+      USHORT  // Field=s_wk_mfrpara.recirculation_lap
+      USHORT  // Field=s_wk_mfrpara.reject_chute[0]
+      USHORT  // Field=s_wk_mfrpara.reject_chute[1]
+      USHORT  // Field=s_wk_mfrpara.reject_chute[2]
+   	  USHORT  // Field=s_wk_mfrpara.reject_chute[3]
+   	  USHORT  // Field=s_wk_mfrpara.reject_chute[4]
+   	  USHORT  // Field=s_wk_mfrpara.reject_chute[5]
+   	  USHORT  // Field=s_wk_mfrpara.reject_chute[6]
+   	  USHORT  // Field=s_wk_mfrpara.reject_chute[7]
+   	  USHORT  // Field=s_wk_mfrpara.reject_chute[8]
+   	  USHORT  // Field=s_wk_mfrpara.reject_chute[9]
+   	  USHORT  // Field=s_wk_mfrpara.msg_retry_timeout
+   	  USHORT  // Field=s_wk_mfrpara.msg_retry_time
+   	  USHORT  // Field=s_wk_mfrpara.empty_cycle_timeout
+   	  USHORT  // Field=s_wk_mfrpara.empty_cycle_induct
+    ENDSTRUCT // End of structure=S_wk_mfrpara
+    //
+    //
+ENDSTRUCT // End of structure=S_mfrpara
+//
+//
+ENDTABLE
+//
+//
+BEGINSTRUCT // Begin of structure=S_mfrpara
+  USHORT,1  // Field=id
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_XBVEL_1"  // Field=s_di_vel1.name
+      POINTER  // Field=s_di_vel1.ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_XBVEL_2"  // Field=s_di_vel2.name
+      POINTER  // Field=s_di_vel2.ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_XBVEL_3"  // Field=s_di_vel3.name
+      POINTER  // Field=s_di_vel3.ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_XBVELAUTO"  // Field=s_di_velauto.name
+      POINTER  // Field=s_di_velauto.ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12,"O_XBVEL_V1"  // Field=s_do_vel1.name
+      POINTER  // Field=s_do_vel1.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12,"O_XBVEL_V2"  // Field=s_do_vel2.name
+      POINTER  // Field=s_do_vel2.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12,"O_XBVEL_V3"  // Field=s_do_vel3.name
+      POINTER  // Field=s_do_vel3.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_wk_mfrpara
+      USHORT  // Field=s_wk_mfrpara.requested_velocity
+   	  USHORT  // Field=s_wk_mfrpara.speed_mode
+      USHORT  // Field=s_wk_mfrpara.recirculation_lap
+      USHORT  // Field=s_wk_mfrpara.reject_chute[0]
+      USHORT  // Field=s_wk_mfrpara.reject_chute[1]
+      USHORT  // Field=s_wk_mfrpara.reject_chute[2]
+   	  USHORT  // Field=s_wk_mfrpara.reject_chute[3]
+   	  USHORT  // Field=s_wk_mfrpara.reject_chute[4]
+   	  USHORT  // Field=s_wk_mfrpara.reject_chute[5]
+   	  USHORT  // Field=s_wk_mfrpara.reject_chute[6]
+   	  USHORT  // Field=s_wk_mfrpara.reject_chute[7]
+   	  USHORT  // Field=s_wk_mfrpara.reject_chute[8]
+   	  USHORT  // Field=s_wk_mfrpara.reject_chute[9]
+   	  USHORT  // Field=s_wk_mfrpara.msg_retry_timeout
+   	  USHORT  // Field=s_wk_mfrpara.msg_retry_time
+   	  USHORT  // Field=s_wk_mfrpara.empty_cycle_timeout
+   	  USHORT  // Field=s_wk_mfrpara.empty_cycle_induct
+    ENDSTRUCT // End of structure=S_wk_mfrpara
+    //
+    //
+ENDSTRUCT // End of structure=S_mfrpara
+//

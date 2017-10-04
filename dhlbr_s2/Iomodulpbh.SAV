@@ -1,0 +1,25 @@
+Fields -> 5 
+Record -> 1 
+Board id-> 1 
+Enable-> 1 
+Watchdog enable->True
+DB file name (ldb type)->DHL5K_S3_1.LDB
+FW file name (bin type)->FW5623.BIN
+Record -> 2 
+Board id-> 2 
+Enable-> 2 
+Watchdog enable->True
+DB file name (ldb type)->DHL5K_S3_2.LDB
+FW file name (bin type)->FW5623.BIN
+Record -> 3 
+Board id-> 3 
+Enable-> 3 
+Watchdog enable->True
+DB file name (ldb type)->DHL5K_S3_3.LDB
+FW file name (bin type)->FW5623.BIN
+Record -> 4 
+Board id-> 4 
+Enable-> 4 
+Watchdog enable->True
+DB file name (ldb type)->DHL5K_S3_4.LDB
+FW file name (bin type)->FW5623.BIN

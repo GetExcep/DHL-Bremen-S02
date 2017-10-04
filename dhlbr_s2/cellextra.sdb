@@ -1,0 +1,25 @@
+//
+// ISCEXTRA table
+//
+Field="id"
+Field="s_cell_info_ph[0].id"
+Field="s_cell_info_ph[0].correction"
+Field="s_cell_info_ph[1].id"
+Field="s_cell_info_ph[1].correction"
+Field="s_cell_info_ph[2].id"
+Field="s_cell_info_ph[2].correction"
+Field="s_cell_info_ph[3].id"
+Field="s_cell_info_ph[3].correction"
+Field="s_cell_info_ph[4].id"
+Field="s_cell_info_ph[4].correction"
+Field="s_cell_info_ph[5].id"
+Field="s_cell_info_ph[5].correction"
+Field="s_cell_info_ph[6].id"
+Field="s_cell_info_ph[6].correction"
+Field="s_cell_info_ph[7].id"
+Field="s_cell_info_ph[7].correction"
+Field="s_cell_info_ph[8].id"
+Field="s_cell_info_ph[8].correction"
+Field="s_cell_info_ph[9].id"
+Field="s_cell_info_ph[9].correction"
+//

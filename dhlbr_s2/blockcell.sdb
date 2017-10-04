@@ -1,0 +1,9 @@
+//
+//Blockcell table
+//
+Field="id"
+Field="name"
+Field="enable"
+Field="offset_ph0"
+Field="velocity_enable"
+Field="block_distance"

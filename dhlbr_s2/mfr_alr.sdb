@@ -1,0 +1,12 @@
+//
+// MFR alarm table
+//
+Field="dev"
+Field="dev_id"
+Field="alr_id"
+Field="msgnr"
+Field="AKZ_suffix"
+Field="MessageClass"
+Field="MessageToken"
+
+

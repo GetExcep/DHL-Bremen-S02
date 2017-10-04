@@ -1,0 +1,6 @@
+//
+//Belt table: combo list State Transition State definition type
+//
+NO_MOTOR=0,
+MOTOR_STARTER=1
+MOTOR_INVPB=2

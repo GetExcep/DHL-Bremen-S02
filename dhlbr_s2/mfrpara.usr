@@ -1,0 +1,16 @@
+//
+// Mfrpara table
+//
+TableName="Mfrpara"
+//
+Field="Id",DB_INTEGER
+Field="DI Velocity selector in 1 position",DB_TEXT,12
+Field="DI Velocity selector in 2 position",DB_TEXT,12
+Field="DI Velocity selector in 3 position",DB_TEXT,12
+Field="DI Velocity selector in auto position",DB_TEXT,12
+Field="DO Velocity 1",DB_TEXT,12
+Field="DO Velocity 2",DB_TEXT,12
+Field="DO Velocity 3",DB_TEXT,12
+//
+//
+Index="Id","+Id",no,yes

@@ -1,0 +1,12 @@
+//
+// Offloading data station table
+//
+Field="id"
+Field="name"
+Field="enable"
+Field="chute"
+Field="s_do_offlw.name"
+Field="s_do_datardy.name"
+Field="s_do_prioty.name"
+Field="s_state.trace"
+//

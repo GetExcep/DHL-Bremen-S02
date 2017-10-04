@@ -1,0 +1,50 @@
+//
+// CELLEXTRA_IS datatable
+//
+TableName="cellextra_is"
+//
+Field="id",DB_INTEGER
+Field="01-IS id",DB_INTEGER
+Field="01-IS correction",DB_INTEGER
+Field="01-IS enable for delay disable for anticipate",DB_BOOLEAN
+Field="02-IS id",DB_INTEGER
+Field="02-IS correction",DB_INTEGER
+Field="02-IS enable for delay disable for anticipate",DB_BOOLEAN
+Field="03-IS id",DB_INTEGER
+Field="03-IS correction",DB_INTEGER
+Field="03-IS enable for delay disable for anticipate",DB_BOOLEAN
+Field="04-IS id",DB_INTEGER
+Field="04-IS correction",DB_INTEGER
+Field="04-IS enable for delay disable for anticipate",DB_BOOLEAN
+Field="05-IS id",DB_INTEGER
+Field="05-IS correction",DB_INTEGER
+Field="05-IS enable for delay disable for anticipate",DB_BOOLEAN
+Field="06-IS id",DB_INTEGER
+Field="06-IS correction",DB_INTEGER
+Field="06-IS enable for delay disable for anticipate",DB_BOOLEAN
+Field="07-IS id",DB_INTEGER
+Field="07-IS correction",DB_INTEGER
+Field="07-IS enable for delay disable for anticipate",DB_BOOLEAN
+Field="08-IS id",DB_INTEGER
+Field="08-IS correction",DB_INTEGER
+Field="08-IS enable for delay disable for anticipate",DB_BOOLEAN
+Field="09-IS id",DB_INTEGER
+Field="09-IS correction",DB_INTEGER
+Field="09-IS enable for delay disable for anticipate",DB_BOOLEAN
+Field="10-IS id",DB_INTEGER
+Field="10-IS correction",DB_INTEGER
+Field="10-IS enable for delay disable for anticipate",DB_BOOLEAN
+Field="11-IS id",DB_INTEGER
+Field="11-IS correction",DB_INTEGER
+Field="11-IS enable for delay disable for anticipate",DB_BOOLEAN
+Field="12-IS id",DB_INTEGER
+Field="12-IS correction",DB_INTEGER
+Field="12-IS enable for delay disable for anticipate",DB_BOOLEAN
+Field="13-IS id",DB_INTEGER
+Field="13-IS correction",DB_INTEGER
+Field="13-IS enable for delay disable for anticipate",DB_BOOLEAN
+Field="14-IS id",DB_INTEGER
+Field="14-IS correction",DB_INTEGER
+Field="14-IS enable for delay disable for anticipate",DB_BOOLEAN
+//
+Index="id","+id",yes,yes

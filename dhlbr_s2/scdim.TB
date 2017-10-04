@@ -1,0 +1,1477 @@
+//
+//S_scdim
+//
+TABLE_TYPE: 0
+//
+MAXTABLE:4
+//
+TABLE
+//
+//
+BEGINSTRUCT // Begin of structure=S_scdim
+  USHORT  // Field=id
+  STRING12  // Field=name
+  USHORT  // Field=enable
+    //
+    BEGINSTRUCT // Begin of structure=S_cfg_scdim
+        //
+        BEGINSTRUCT // Begin of structure=S_dim
+          ULONG  // Field=s_cfg_scdim.s_dim1[0].starting_dim
+          ULONG  // Field=s_cfg_scdim.s_dim1[0].final_dim
+          ULONG  // Field=s_cfg_scdim.s_dim1[0].starting_offset
+          ULONG  // Field=s_cfg_scdim.s_dim1[0].final_offset
+          ULONG  // Field=s_cfg_scdim.s_dim1[0].starting_profile
+          ULONG  // Field=s_cfg_scdim.s_dim1[0].final_profile
+        ENDSTRUCT // End of structure=S_dim
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_dim
+          ULONG  // Field=s_cfg_scdim.s_dim1[1].starting_dim
+          ULONG  // Field=s_cfg_scdim.s_dim1[1].final_dim
+          ULONG  // Field=s_cfg_scdim.s_dim1[1].starting_offset
+          ULONG  // Field=s_cfg_scdim.s_dim1[1].final_offset
+          ULONG  // Field=s_cfg_scdim.s_dim1[1].starting_profile
+          ULONG  // Field=s_cfg_scdim.s_dim1[1].final_profile
+        ENDSTRUCT // End of structure=S_dim
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_dim
+          ULONG  // Field=s_cfg_scdim.s_dim1[2].starting_dim
+          ULONG  // Field=s_cfg_scdim.s_dim1[2].final_dim
+          ULONG  // Field=s_cfg_scdim.s_dim1[2].starting_offset
+          ULONG  // Field=s_cfg_scdim.s_dim1[2].final_offset
+          ULONG  // Field=s_cfg_scdim.s_dim1[2].starting_profile
+          ULONG  // Field=s_cfg_scdim.s_dim1[2].final_profile
+        ENDSTRUCT // End of structure=S_dim
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_dim
+          ULONG  // Field=s_cfg_scdim.s_dim1DNO[0].starting_dim
+          ULONG  // Field=s_cfg_scdim.s_dim1DNO[0].final_dim
+          ULONG  // Field=s_cfg_scdim.s_dim1DNO[0].starting_offset
+          ULONG  // Field=s_cfg_scdim.s_dim1DNO[0].final_offset
+          ULONG  // Field=s_cfg_scdim.s_dim1DNO[0].starting_profile
+          ULONG  // Field=s_cfg_scdim.s_dim1DNO[0].final_profile
+        ENDSTRUCT // End of structure=S_dim
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_dim
+          ULONG  // Field=s_cfg_scdim.s_dim1DNO[1].starting_dim
+          ULONG  // Field=s_cfg_scdim.s_dim1DNO[1].final_dim
+          ULONG  // Field=s_cfg_scdim.s_dim1DNO[1].starting_offset
+          ULONG  // Field=s_cfg_scdim.s_dim1DNO[1].final_offset
+          ULONG  // Field=s_cfg_scdim.s_dim1DNO[1].starting_profile
+          ULONG  // Field=s_cfg_scdim.s_dim1DNO[1].final_profile
+        ENDSTRUCT // End of structure=S_dim
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_dim
+          ULONG  // Field=s_cfg_scdim.s_dim1DNO[2].starting_dim
+          ULONG  // Field=s_cfg_scdim.s_dim1DNO[2].final_dim
+          ULONG  // Field=s_cfg_scdim.s_dim1DNO[2].starting_offset
+          ULONG  // Field=s_cfg_scdim.s_dim1DNO[2].final_offset
+          ULONG  // Field=s_cfg_scdim.s_dim1DNO[2].starting_profile
+          ULONG  // Field=s_cfg_scdim.s_dim1DNO[2].final_profile
+        ENDSTRUCT // End of structure=S_dim
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_dim
+          ULONG  // Field=s_cfg_scdim.s_dim1DOR[0].starting_dim
+          ULONG  // Field=s_cfg_scdim.s_dim1DOR[0].final_dim
+          ULONG  // Field=s_cfg_scdim.s_dim1DOR[0].starting_offset
+          ULONG  // Field=s_cfg_scdim.s_dim1DOR[0].final_offset
+          ULONG  // Field=s_cfg_scdim.s_dim1DOR[0].starting_profile
+          ULONG  // Field=s_cfg_scdim.s_dim1DOR[0].final_profile
+        ENDSTRUCT // End of structure=S_dim
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_dim
+          ULONG  // Field=s_cfg_scdim.s_dim1DOR[1].starting_dim
+          ULONG  // Field=s_cfg_scdim.s_dim1DOR[1].final_dim
+          ULONG  // Field=s_cfg_scdim.s_dim1DOR[1].starting_offset
+          ULONG  // Field=s_cfg_scdim.s_dim1DOR[1].final_offset
+          ULONG  // Field=s_cfg_scdim.s_dim1DOR[1].starting_profile
+          ULONG  // Field=s_cfg_scdim.s_dim1DOR[1].final_profile
+        ENDSTRUCT // End of structure=S_dim
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_dim
+          ULONG  // Field=s_cfg_scdim.s_dim1DOR[2].starting_dim
+          ULONG  // Field=s_cfg_scdim.s_dim1DOR[2].final_dim
+          ULONG  // Field=s_cfg_scdim.s_dim1DOR[2].starting_offset
+          ULONG  // Field=s_cfg_scdim.s_dim1DOR[2].final_offset
+          ULONG  // Field=s_cfg_scdim.s_dim1DOR[2].starting_profile
+          ULONG  // Field=s_cfg_scdim.s_dim1DOR[2].final_profile
+        ENDSTRUCT // End of structure=S_dim
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_dim
+          ULONG  // Field=s_cfg_scdim.s_dim2[0].starting_dim
+          ULONG  // Field=s_cfg_scdim.s_dim2[0].final_dim
+          ULONG  // Field=s_cfg_scdim.s_dim2[0].starting_offset
+          ULONG  // Field=s_cfg_scdim.s_dim2[0].final_offset
+          ULONG  // Field=s_cfg_scdim.s_dim2[0].starting_profile
+          ULONG  // Field=s_cfg_scdim.s_dim2[0].final_profile
+        ENDSTRUCT // End of structure=S_dim
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_dim
+          ULONG  // Field=s_cfg_scdim.s_dim2[1].starting_dim
+          ULONG  // Field=s_cfg_scdim.s_dim2[1].final_dim
+          ULONG  // Field=s_cfg_scdim.s_dim2[1].starting_offset
+          ULONG  // Field=s_cfg_scdim.s_dim2[1].final_offset
+          ULONG  // Field=s_cfg_scdim.s_dim2[1].starting_profile
+          ULONG  // Field=s_cfg_scdim.s_dim2[1].final_profile
+        ENDSTRUCT // End of structure=S_dim
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_dim
+          ULONG  // Field=s_cfg_scdim.s_dim2[2].starting_dim
+          ULONG  // Field=s_cfg_scdim.s_dim2[2].final_dim
+          ULONG  // Field=s_cfg_scdim.s_dim2[2].starting_offset
+          ULONG  // Field=s_cfg_scdim.s_dim2[2].final_offset
+          ULONG  // Field=s_cfg_scdim.s_dim2[2].starting_profile
+          ULONG  // Field=s_cfg_scdim.s_dim2[2].final_profile
+        ENDSTRUCT // End of structure=S_dim
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_dim
+          ULONG  // Field=s_cfg_scdim.s_dim2DNO[0].starting_dim
+          ULONG  // Field=s_cfg_scdim.s_dim2DNO[0].final_dim
+          ULONG  // Field=s_cfg_scdim.s_dim2DNO[0].starting_offset
+          ULONG  // Field=s_cfg_scdim.s_dim2DNO[0].final_offset
+          ULONG  // Field=s_cfg_scdim.s_dim2DNO[0].starting_profile
+          ULONG  // Field=s_cfg_scdim.s_dim2DNO[0].final_profile
+        ENDSTRUCT // End of structure=S_dim
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_dim
+          ULONG  // Field=s_cfg_scdim.s_dim2DNO[1].starting_dim
+          ULONG  // Field=s_cfg_scdim.s_dim2DNO[1].final_dim
+          ULONG  // Field=s_cfg_scdim.s_dim2DNO[1].starting_offset
+          ULONG  // Field=s_cfg_scdim.s_dim2DNO[1].final_offset
+          ULONG  // Field=s_cfg_scdim.s_dim2DNO[1].starting_profile
+          ULONG  // Field=s_cfg_scdim.s_dim2DNO[1].final_profile
+        ENDSTRUCT // End of structure=S_dim
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_dim
+          ULONG  // Field=s_cfg_scdim.s_dim2DNO[2].starting_dim
+          ULONG  // Field=s_cfg_scdim.s_dim2DNO[2].final_dim
+          ULONG  // Field=s_cfg_scdim.s_dim2DNO[2].starting_offset
+          ULONG  // Field=s_cfg_scdim.s_dim2DNO[2].final_offset
+          ULONG  // Field=s_cfg_scdim.s_dim2DNO[2].starting_profile
+          ULONG  // Field=s_cfg_scdim.s_dim2DNO[2].final_profile
+        ENDSTRUCT // End of structure=S_dim
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_dim
+          ULONG  // Field=s_cfg_scdim.s_dim2DOR[0].starting_dim
+          ULONG  // Field=s_cfg_scdim.s_dim2DOR[0].final_dim
+          ULONG  // Field=s_cfg_scdim.s_dim2DOR[0].starting_offset
+          ULONG  // Field=s_cfg_scdim.s_dim2DOR[0].final_offset
+          ULONG  // Field=s_cfg_scdim.s_dim2DOR[0].starting_profile
+          ULONG  // Field=s_cfg_scdim.s_dim2DOR[0].final_profile
+        ENDSTRUCT // End of structure=S_dim
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_dim
+          ULONG  // Field=s_cfg_scdim.s_dim2DOR[1].starting_dim
+          ULONG  // Field=s_cfg_scdim.s_dim2DOR[1].final_dim
+          ULONG  // Field=s_cfg_scdim.s_dim2DOR[1].starting_offset
+          ULONG  // Field=s_cfg_scdim.s_dim2DOR[1].final_offset
+          ULONG  // Field=s_cfg_scdim.s_dim2DOR[1].starting_profile
+          ULONG  // Field=s_cfg_scdim.s_dim2DOR[1].final_profile
+        ENDSTRUCT // End of structure=S_dim
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_dim
+          ULONG  // Field=s_cfg_scdim.s_dim2DOR[2].starting_dim
+          ULONG  // Field=s_cfg_scdim.s_dim2DOR[2].final_dim
+          ULONG  // Field=s_cfg_scdim.s_dim2DOR[2].starting_offset
+          ULONG  // Field=s_cfg_scdim.s_dim2DOR[2].final_offset
+          ULONG  // Field=s_cfg_scdim.s_dim2DOR[2].starting_profile
+          ULONG  // Field=s_cfg_scdim.s_dim2DOR[2].final_profile
+        ENDSTRUCT // End of structure=S_dim
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_dim
+          ULONG  // Field=s_cfg_scdim.s_dim3[0].starting_dim
+          ULONG  // Field=s_cfg_scdim.s_dim3[0].final_dim
+          ULONG  // Field=s_cfg_scdim.s_dim3[0].starting_offset
+          ULONG  // Field=s_cfg_scdim.s_dim3[0].final_offset
+          ULONG  // Field=s_cfg_scdim.s_dim3[0].starting_profile
+          ULONG  // Field=s_cfg_scdim.s_dim3[0].final_profile
+        ENDSTRUCT // End of structure=S_dim
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_dim
+          ULONG  // Field=s_cfg_scdim.s_dim3[1].starting_dim
+          ULONG  // Field=s_cfg_scdim.s_dim3[1].final_dim
+          ULONG  // Field=s_cfg_scdim.s_dim3[1].starting_offset
+          ULONG  // Field=s_cfg_scdim.s_dim3[1].final_offset
+          ULONG  // Field=s_cfg_scdim.s_dim3[1].starting_profile
+          ULONG  // Field=s_cfg_scdim.s_dim3[1].final_profile
+        ENDSTRUCT // End of structure=S_dim
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_dim
+          ULONG  // Field=s_cfg_scdim.s_dim3[2].starting_dim
+          ULONG  // Field=s_cfg_scdim.s_dim3[2].final_dim
+          ULONG  // Field=s_cfg_scdim.s_dim3[2].starting_offset
+          ULONG  // Field=s_cfg_scdim.s_dim3[2].final_offset
+          ULONG  // Field=s_cfg_scdim.s_dim3[2].starting_profile
+          ULONG  // Field=s_cfg_scdim.s_dim3[2].final_profile
+        ENDSTRUCT // End of structure=S_dim
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_dim
+          ULONG  // Field=s_cfg_scdim.s_dim3DNO[0].starting_dim
+          ULONG  // Field=s_cfg_scdim.s_dim3DNO[0].final_dim
+          ULONG  // Field=s_cfg_scdim.s_dim3DNO[0].starting_offset
+          ULONG  // Field=s_cfg_scdim.s_dim3DNO[0].final_offset
+          ULONG  // Field=s_cfg_scdim.s_dim3DNO[0].starting_profile
+          ULONG  // Field=s_cfg_scdim.s_dim3DNO[0].final_profile
+        ENDSTRUCT // End of structure=S_dim
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_dim
+          ULONG  // Field=s_cfg_scdim.s_dim3DNO[1].starting_dim
+          ULONG  // Field=s_cfg_scdim.s_dim3DNO[1].final_dim
+          ULONG  // Field=s_cfg_scdim.s_dim3DNO[1].starting_offset
+          ULONG  // Field=s_cfg_scdim.s_dim3DNO[1].final_offset
+          ULONG  // Field=s_cfg_scdim.s_dim3DNO[1].starting_profile
+          ULONG  // Field=s_cfg_scdim.s_dim3DNO[1].final_profile
+        ENDSTRUCT // End of structure=S_dim
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_dim
+          ULONG  // Field=s_cfg_scdim.s_dim3DNO[2].starting_dim
+          ULONG  // Field=s_cfg_scdim.s_dim3DNO[2].final_dim
+          ULONG  // Field=s_cfg_scdim.s_dim3DNO[2].starting_offset
+          ULONG  // Field=s_cfg_scdim.s_dim3DNO[2].final_offset
+          ULONG  // Field=s_cfg_scdim.s_dim3DNO[2].starting_profile
+          ULONG  // Field=s_cfg_scdim.s_dim3DNO[2].final_profile
+        ENDSTRUCT // End of structure=S_dim
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_dim
+          ULONG  // Field=s_cfg_scdim.s_dim3DOR[0].starting_dim
+          ULONG  // Field=s_cfg_scdim.s_dim3DOR[0].final_dim
+          ULONG  // Field=s_cfg_scdim.s_dim3DOR[0].starting_offset
+          ULONG  // Field=s_cfg_scdim.s_dim3DOR[0].final_offset
+          ULONG  // Field=s_cfg_scdim.s_dim3DOR[0].starting_profile
+          ULONG  // Field=s_cfg_scdim.s_dim3DOR[0].final_profile
+        ENDSTRUCT // End of structure=S_dim
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_dim
+          ULONG  // Field=s_cfg_scdim.s_dim3DOR[1].starting_dim
+          ULONG  // Field=s_cfg_scdim.s_dim3DOR[1].final_dim
+          ULONG  // Field=s_cfg_scdim.s_dim3DOR[1].starting_offset
+          ULONG  // Field=s_cfg_scdim.s_dim3DOR[1].final_offset
+          ULONG  // Field=s_cfg_scdim.s_dim3DOR[1].starting_profile
+          ULONG  // Field=s_cfg_scdim.s_dim3DOR[1].final_profile
+        ENDSTRUCT // End of structure=S_dim
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_dim
+          ULONG  // Field=s_cfg_scdim.s_dim3DOR[2].starting_dim
+          ULONG  // Field=s_cfg_scdim.s_dim3DOR[2].final_dim
+          ULONG  // Field=s_cfg_scdim.s_dim3DOR[2].starting_offset
+          ULONG  // Field=s_cfg_scdim.s_dim3DOR[2].final_offset
+          ULONG  // Field=s_cfg_scdim.s_dim3DOR[2].starting_profile
+          ULONG  // Field=s_cfg_scdim.s_dim3DOR[2].final_profile
+        ENDSTRUCT // End of structure=S_dim
+        //
+    ENDSTRUCT // End of structure=S_cfg_scdim
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_state
+      SHORT  // Field=s_state.trace
+      SHORT  // Field=s_state.init
+      LONG  // Field=s_state.state
+      LONG  // Field=s_state.previous_state
+      LONG  // Field=s_state.next_state
+      LONG  // Field=s_state.substate
+      STRING40  // Field=s_state.des_state
+      STRING40  // Field=s_state.des_prevstate
+    ENDSTRUCT // End of structure=S_state
+    //
+ENDSTRUCT // End of structure=S_scdim
+//
+//
+ENDTABLE
+//
+//
+BEGINSTRUCT // Begin of structure=S_scdim
+  USHORT,1  // Field=id
+  STRING12,"CTRDIM_01"  // Field=name
+  USHORT,1  // Field=enable
+    //
+    BEGINSTRUCT // Begin of structure=S_cfg_scdim
+        //
+        BEGINSTRUCT // Begin of structure=S_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim1[0].starting_dim
+          ULONG,400  // Field=s_cfg_scdim.s_dim1[0].final_dim
+          ULONG,100  // Field=s_cfg_scdim.s_dim1[0].starting_offset
+          ULONG,100  // Field=s_cfg_scdim.s_dim1[0].final_offset
+          ULONG,35  // Field=s_cfg_scdim.s_dim1[0].starting_profile
+          ULONG,35  // Field=s_cfg_scdim.s_dim1[0].final_profile
+        ENDSTRUCT // End of structure=S_dim
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_dim
+          ULONG,401  // Field=s_cfg_scdim.s_dim1[1].starting_dim
+          ULONG,600  // Field=s_cfg_scdim.s_dim1[1].final_dim
+          ULONG,50  // Field=s_cfg_scdim.s_dim1[1].starting_offset
+          ULONG,50  // Field=s_cfg_scdim.s_dim1[1].final_offset
+          ULONG,35  // Field=s_cfg_scdim.s_dim1[1].starting_profile
+          ULONG,35  // Field=s_cfg_scdim.s_dim1[1].final_profile
+        ENDSTRUCT // End of structure=S_dim
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_dim
+          ULONG,601  // Field=s_cfg_scdim.s_dim1[2].starting_dim
+          ULONG,2000  // Field=s_cfg_scdim.s_dim1[2].final_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim1[2].starting_offset
+          ULONG,0  // Field=s_cfg_scdim.s_dim1[2].final_offset
+          ULONG,35  // Field=s_cfg_scdim.s_dim1[2].starting_profile
+          ULONG,35  // Field=s_cfg_scdim.s_dim1[2].final_profile
+        ENDSTRUCT // End of structure=S_dim
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_dim
+          ULONG,500  // Field=s_cfg_scdim.s_dim1DNO[0].starting_dim
+          ULONG,600  // Field=s_cfg_scdim.s_dim1DNO[0].final_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim1DNO[0].starting_offset
+          ULONG,0  // Field=s_cfg_scdim.s_dim1DNO[0].final_offset
+          ULONG,35  // Field=s_cfg_scdim.s_dim1DNO[0].starting_profile
+          ULONG,35  // Field=s_cfg_scdim.s_dim1DNO[0].final_profile
+        ENDSTRUCT // End of structure=S_dim
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_dim
+          ULONG,601  // Field=s_cfg_scdim.s_dim1DNO[1].starting_dim
+          ULONG,700  // Field=s_cfg_scdim.s_dim1DNO[1].final_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim1DNO[1].starting_offset
+          ULONG,0  // Field=s_cfg_scdim.s_dim1DNO[1].final_offset
+          ULONG,35  // Field=s_cfg_scdim.s_dim1DNO[1].starting_profile
+          ULONG,35  // Field=s_cfg_scdim.s_dim1DNO[1].final_profile
+        ENDSTRUCT // End of structure=S_dim
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_dim
+          ULONG,701  // Field=s_cfg_scdim.s_dim1DNO[2].starting_dim
+          ULONG,2000  // Field=s_cfg_scdim.s_dim1DNO[2].final_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim1DNO[2].starting_offset
+          ULONG,0  // Field=s_cfg_scdim.s_dim1DNO[2].final_offset
+          ULONG,35  // Field=s_cfg_scdim.s_dim1DNO[2].starting_profile
+          ULONG,35  // Field=s_cfg_scdim.s_dim1DNO[2].final_profile
+        ENDSTRUCT // End of structure=S_dim
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim1DOR[0].starting_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim1DOR[0].final_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim1DOR[0].starting_offset
+          ULONG,0  // Field=s_cfg_scdim.s_dim1DOR[0].final_offset
+          ULONG,0  // Field=s_cfg_scdim.s_dim1DOR[0].starting_profile
+          ULONG,0  // Field=s_cfg_scdim.s_dim1DOR[0].final_profile
+        ENDSTRUCT // End of structure=S_dim
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim1DOR[1].starting_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim1DOR[1].final_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim1DOR[1].starting_offset
+          ULONG,0  // Field=s_cfg_scdim.s_dim1DOR[1].final_offset
+          ULONG,0  // Field=s_cfg_scdim.s_dim1DOR[1].starting_profile
+          ULONG,0  // Field=s_cfg_scdim.s_dim1DOR[1].final_profile
+        ENDSTRUCT // End of structure=S_dim
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim1DOR[2].starting_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim1DOR[2].final_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim1DOR[2].starting_offset
+          ULONG,0  // Field=s_cfg_scdim.s_dim1DOR[2].final_offset
+          ULONG,0  // Field=s_cfg_scdim.s_dim1DOR[2].starting_profile
+          ULONG,0  // Field=s_cfg_scdim.s_dim1DOR[2].final_profile
+        ENDSTRUCT // End of structure=S_dim
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim2[0].starting_dim
+          ULONG,400  // Field=s_cfg_scdim.s_dim2[0].final_dim
+          ULONG,100  // Field=s_cfg_scdim.s_dim2[0].starting_offset
+          ULONG,100  // Field=s_cfg_scdim.s_dim2[0].final_offset
+          ULONG,35  // Field=s_cfg_scdim.s_dim2[0].starting_profile
+          ULONG,35  // Field=s_cfg_scdim.s_dim2[0].final_profile
+        ENDSTRUCT // End of structure=S_dim
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_dim
+          ULONG,401  // Field=s_cfg_scdim.s_dim2[1].starting_dim
+          ULONG,600  // Field=s_cfg_scdim.s_dim2[1].final_dim
+          ULONG,50  // Field=s_cfg_scdim.s_dim2[1].starting_offset
+          ULONG,50  // Field=s_cfg_scdim.s_dim2[1].final_offset
+          ULONG,35  // Field=s_cfg_scdim.s_dim2[1].starting_profile
+          ULONG,35  // Field=s_cfg_scdim.s_dim2[1].final_profile
+        ENDSTRUCT // End of structure=S_dim
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_dim
+          ULONG,601  // Field=s_cfg_scdim.s_dim2[2].starting_dim
+          ULONG,2000  // Field=s_cfg_scdim.s_dim2[2].final_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim2[2].starting_offset
+          ULONG,0  // Field=s_cfg_scdim.s_dim2[2].final_offset
+          ULONG,35  // Field=s_cfg_scdim.s_dim2[2].starting_profile
+          ULONG,35  // Field=s_cfg_scdim.s_dim2[2].final_profile
+        ENDSTRUCT // End of structure=S_dim
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_dim
+          ULONG,500  // Field=s_cfg_scdim.s_dim2DNO[0].starting_dim
+          ULONG,600  // Field=s_cfg_scdim.s_dim2DNO[0].final_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim2DNO[0].starting_offset
+          ULONG,0  // Field=s_cfg_scdim.s_dim2DNO[0].final_offset
+          ULONG,35  // Field=s_cfg_scdim.s_dim2DNO[0].starting_profile
+          ULONG,35  // Field=s_cfg_scdim.s_dim2DNO[0].final_profile
+        ENDSTRUCT // End of structure=S_dim
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_dim
+          ULONG,601  // Field=s_cfg_scdim.s_dim2DNO[1].starting_dim
+          ULONG,700  // Field=s_cfg_scdim.s_dim2DNO[1].final_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim2DNO[1].starting_offset
+          ULONG,0  // Field=s_cfg_scdim.s_dim2DNO[1].final_offset
+          ULONG,35  // Field=s_cfg_scdim.s_dim2DNO[1].starting_profile
+          ULONG,35  // Field=s_cfg_scdim.s_dim2DNO[1].final_profile
+        ENDSTRUCT // End of structure=S_dim
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_dim
+          ULONG,701  // Field=s_cfg_scdim.s_dim2DNO[2].starting_dim
+          ULONG,2000  // Field=s_cfg_scdim.s_dim2DNO[2].final_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim2DNO[2].starting_offset
+          ULONG,0  // Field=s_cfg_scdim.s_dim2DNO[2].final_offset
+          ULONG,35  // Field=s_cfg_scdim.s_dim2DNO[2].starting_profile
+          ULONG,35  // Field=s_cfg_scdim.s_dim2DNO[2].final_profile
+        ENDSTRUCT // End of structure=S_dim
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim2DOR[0].starting_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim2DOR[0].final_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim2DOR[0].starting_offset
+          ULONG,0  // Field=s_cfg_scdim.s_dim2DOR[0].final_offset
+          ULONG,0  // Field=s_cfg_scdim.s_dim2DOR[0].starting_profile
+          ULONG,0  // Field=s_cfg_scdim.s_dim2DOR[0].final_profile
+        ENDSTRUCT // End of structure=S_dim
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim2DOR[1].starting_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim2DOR[1].final_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim2DOR[1].starting_offset
+          ULONG,0  // Field=s_cfg_scdim.s_dim2DOR[1].final_offset
+          ULONG,0  // Field=s_cfg_scdim.s_dim2DOR[1].starting_profile
+          ULONG,0  // Field=s_cfg_scdim.s_dim2DOR[1].final_profile
+        ENDSTRUCT // End of structure=S_dim
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim2DOR[2].starting_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim2DOR[2].final_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim2DOR[2].starting_offset
+          ULONG,0  // Field=s_cfg_scdim.s_dim2DOR[2].final_offset
+          ULONG,0  // Field=s_cfg_scdim.s_dim2DOR[2].starting_profile
+          ULONG,0  // Field=s_cfg_scdim.s_dim2DOR[2].final_profile
+        ENDSTRUCT // End of structure=S_dim
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim3[0].starting_dim
+          ULONG,400  // Field=s_cfg_scdim.s_dim3[0].final_dim
+          ULONG,100  // Field=s_cfg_scdim.s_dim3[0].starting_offset
+          ULONG,100  // Field=s_cfg_scdim.s_dim3[0].final_offset
+          ULONG,35  // Field=s_cfg_scdim.s_dim3[0].starting_profile
+          ULONG,35  // Field=s_cfg_scdim.s_dim3[0].final_profile
+        ENDSTRUCT // End of structure=S_dim
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_dim
+          ULONG,401  // Field=s_cfg_scdim.s_dim3[1].starting_dim
+          ULONG,600  // Field=s_cfg_scdim.s_dim3[1].final_dim
+          ULONG,50  // Field=s_cfg_scdim.s_dim3[1].starting_offset
+          ULONG,50  // Field=s_cfg_scdim.s_dim3[1].final_offset
+          ULONG,35  // Field=s_cfg_scdim.s_dim3[1].starting_profile
+          ULONG,35  // Field=s_cfg_scdim.s_dim3[1].final_profile
+        ENDSTRUCT // End of structure=S_dim
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_dim
+          ULONG,601  // Field=s_cfg_scdim.s_dim3[2].starting_dim
+          ULONG,2000  // Field=s_cfg_scdim.s_dim3[2].final_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim3[2].starting_offset
+          ULONG,0  // Field=s_cfg_scdim.s_dim3[2].final_offset
+          ULONG,35  // Field=s_cfg_scdim.s_dim3[2].starting_profile
+          ULONG,35  // Field=s_cfg_scdim.s_dim3[2].final_profile
+        ENDSTRUCT // End of structure=S_dim
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_dim
+          ULONG,500  // Field=s_cfg_scdim.s_dim3DNO[0].starting_dim
+          ULONG,600  // Field=s_cfg_scdim.s_dim3DNO[0].final_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim3DNO[0].starting_offset
+          ULONG,0  // Field=s_cfg_scdim.s_dim3DNO[0].final_offset
+          ULONG,35  // Field=s_cfg_scdim.s_dim3DNO[0].starting_profile
+          ULONG,35  // Field=s_cfg_scdim.s_dim3DNO[0].final_profile
+        ENDSTRUCT // End of structure=S_dim
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_dim
+          ULONG,601  // Field=s_cfg_scdim.s_dim3DNO[1].starting_dim
+          ULONG,700  // Field=s_cfg_scdim.s_dim3DNO[1].final_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim3DNO[1].starting_offset
+          ULONG,0  // Field=s_cfg_scdim.s_dim3DNO[1].final_offset
+          ULONG,35  // Field=s_cfg_scdim.s_dim3DNO[1].starting_profile
+          ULONG,35  // Field=s_cfg_scdim.s_dim3DNO[1].final_profile
+        ENDSTRUCT // End of structure=S_dim
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_dim
+          ULONG,701  // Field=s_cfg_scdim.s_dim3DNO[2].starting_dim
+          ULONG,2000  // Field=s_cfg_scdim.s_dim3DNO[2].final_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim3DNO[2].starting_offset
+          ULONG,0  // Field=s_cfg_scdim.s_dim3DNO[2].final_offset
+          ULONG,35  // Field=s_cfg_scdim.s_dim3DNO[2].starting_profile
+          ULONG,35  // Field=s_cfg_scdim.s_dim3DNO[2].final_profile
+        ENDSTRUCT // End of structure=S_dim
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim3DOR[0].starting_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim3DOR[0].final_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim3DOR[0].starting_offset
+          ULONG,0  // Field=s_cfg_scdim.s_dim3DOR[0].final_offset
+          ULONG,0  // Field=s_cfg_scdim.s_dim3DOR[0].starting_profile
+          ULONG,0  // Field=s_cfg_scdim.s_dim3DOR[0].final_profile
+        ENDSTRUCT // End of structure=S_dim
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim3DOR[1].starting_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim3DOR[1].final_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim3DOR[1].starting_offset
+          ULONG,0  // Field=s_cfg_scdim.s_dim3DOR[1].final_offset
+          ULONG,0  // Field=s_cfg_scdim.s_dim3DOR[1].starting_profile
+          ULONG,0  // Field=s_cfg_scdim.s_dim3DOR[1].final_profile
+        ENDSTRUCT // End of structure=S_dim
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim3DOR[2].starting_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim3DOR[2].final_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim3DOR[2].starting_offset
+          ULONG,0  // Field=s_cfg_scdim.s_dim3DOR[2].final_offset
+          ULONG,0  // Field=s_cfg_scdim.s_dim3DOR[2].starting_profile
+          ULONG,0  // Field=s_cfg_scdim.s_dim3DOR[2].final_profile
+        ENDSTRUCT // End of structure=S_dim
+        //
+    ENDSTRUCT // End of structure=S_cfg_scdim
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_state
+      SHORT,0  // Field=s_state.trace
+      SHORT  // Field=s_state.init
+      LONG  // Field=s_state.state
+      LONG  // Field=s_state.previous_state
+      LONG  // Field=s_state.next_state
+      LONG  // Field=s_state.substate
+      STRING40  // Field=s_state.des_state
+      STRING40  // Field=s_state.des_prevstate
+    ENDSTRUCT // End of structure=S_state
+    //
+ENDSTRUCT // End of structure=S_scdim
+//
+//
+BEGINSTRUCT // Begin of structure=S_scdim
+  USHORT,2  // Field=id
+  STRING12,"CTRDIM_02"  // Field=name
+  USHORT,1  // Field=enable
+    //
+    BEGINSTRUCT // Begin of structure=S_cfg_scdim
+        //
+        BEGINSTRUCT // Begin of structure=S_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim1[0].starting_dim
+          ULONG,400  // Field=s_cfg_scdim.s_dim1[0].final_dim
+          ULONG,200  // Field=s_cfg_scdim.s_dim1[0].starting_offset
+          ULONG,200  // Field=s_cfg_scdim.s_dim1[0].final_offset
+          ULONG,35  // Field=s_cfg_scdim.s_dim1[0].starting_profile
+          ULONG,35  // Field=s_cfg_scdim.s_dim1[0].final_profile
+        ENDSTRUCT // End of structure=S_dim
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_dim
+          ULONG,401  // Field=s_cfg_scdim.s_dim1[1].starting_dim
+          ULONG,600  // Field=s_cfg_scdim.s_dim1[1].final_dim
+          ULONG,50  // Field=s_cfg_scdim.s_dim1[1].starting_offset
+          ULONG,50  // Field=s_cfg_scdim.s_dim1[1].final_offset
+          ULONG,35  // Field=s_cfg_scdim.s_dim1[1].starting_profile
+          ULONG,35  // Field=s_cfg_scdim.s_dim1[1].final_profile
+        ENDSTRUCT // End of structure=S_dim
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_dim
+          ULONG,601  // Field=s_cfg_scdim.s_dim1[2].starting_dim
+          ULONG,2000  // Field=s_cfg_scdim.s_dim1[2].final_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim1[2].starting_offset
+          ULONG,0  // Field=s_cfg_scdim.s_dim1[2].final_offset
+          ULONG,35  // Field=s_cfg_scdim.s_dim1[2].starting_profile
+          ULONG,35  // Field=s_cfg_scdim.s_dim1[2].final_profile
+        ENDSTRUCT // End of structure=S_dim
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_dim
+          ULONG,500  // Field=s_cfg_scdim.s_dim1DNO[0].starting_dim
+          ULONG,600  // Field=s_cfg_scdim.s_dim1DNO[0].final_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim1DNO[0].starting_offset
+          ULONG,0  // Field=s_cfg_scdim.s_dim1DNO[0].final_offset
+          ULONG,35  // Field=s_cfg_scdim.s_dim1DNO[0].starting_profile
+          ULONG,35  // Field=s_cfg_scdim.s_dim1DNO[0].final_profile
+        ENDSTRUCT // End of structure=S_dim
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_dim
+          ULONG,601  // Field=s_cfg_scdim.s_dim1DNO[1].starting_dim
+          ULONG,700  // Field=s_cfg_scdim.s_dim1DNO[1].final_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim1DNO[1].starting_offset
+          ULONG,0  // Field=s_cfg_scdim.s_dim1DNO[1].final_offset
+          ULONG,35  // Field=s_cfg_scdim.s_dim1DNO[1].starting_profile
+          ULONG,35  // Field=s_cfg_scdim.s_dim1DNO[1].final_profile
+        ENDSTRUCT // End of structure=S_dim
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_dim
+          ULONG,701  // Field=s_cfg_scdim.s_dim1DNO[2].starting_dim
+          ULONG,2000  // Field=s_cfg_scdim.s_dim1DNO[2].final_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim1DNO[2].starting_offset
+          ULONG,0  // Field=s_cfg_scdim.s_dim1DNO[2].final_offset
+          ULONG,35  // Field=s_cfg_scdim.s_dim1DNO[2].starting_profile
+          ULONG,35  // Field=s_cfg_scdim.s_dim1DNO[2].final_profile
+        ENDSTRUCT // End of structure=S_dim
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim1DOR[0].starting_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim1DOR[0].final_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim1DOR[0].starting_offset
+          ULONG,0  // Field=s_cfg_scdim.s_dim1DOR[0].final_offset
+          ULONG,0  // Field=s_cfg_scdim.s_dim1DOR[0].starting_profile
+          ULONG,0  // Field=s_cfg_scdim.s_dim1DOR[0].final_profile
+        ENDSTRUCT // End of structure=S_dim
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim1DOR[1].starting_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim1DOR[1].final_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim1DOR[1].starting_offset
+          ULONG,0  // Field=s_cfg_scdim.s_dim1DOR[1].final_offset
+          ULONG,0  // Field=s_cfg_scdim.s_dim1DOR[1].starting_profile
+          ULONG,0  // Field=s_cfg_scdim.s_dim1DOR[1].final_profile
+        ENDSTRUCT // End of structure=S_dim
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim1DOR[2].starting_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim1DOR[2].final_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim1DOR[2].starting_offset
+          ULONG,0  // Field=s_cfg_scdim.s_dim1DOR[2].final_offset
+          ULONG,0  // Field=s_cfg_scdim.s_dim1DOR[2].starting_profile
+          ULONG,0  // Field=s_cfg_scdim.s_dim1DOR[2].final_profile
+        ENDSTRUCT // End of structure=S_dim
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim2[0].starting_dim
+          ULONG,400  // Field=s_cfg_scdim.s_dim2[0].final_dim
+          ULONG,200  // Field=s_cfg_scdim.s_dim2[0].starting_offset
+          ULONG,200  // Field=s_cfg_scdim.s_dim2[0].final_offset
+          ULONG,35  // Field=s_cfg_scdim.s_dim2[0].starting_profile
+          ULONG,35  // Field=s_cfg_scdim.s_dim2[0].final_profile
+        ENDSTRUCT // End of structure=S_dim
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_dim
+          ULONG,401  // Field=s_cfg_scdim.s_dim2[1].starting_dim
+          ULONG,600  // Field=s_cfg_scdim.s_dim2[1].final_dim
+          ULONG,50  // Field=s_cfg_scdim.s_dim2[1].starting_offset
+          ULONG,50  // Field=s_cfg_scdim.s_dim2[1].final_offset
+          ULONG,35  // Field=s_cfg_scdim.s_dim2[1].starting_profile
+          ULONG,35  // Field=s_cfg_scdim.s_dim2[1].final_profile
+        ENDSTRUCT // End of structure=S_dim
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_dim
+          ULONG,601  // Field=s_cfg_scdim.s_dim2[2].starting_dim
+          ULONG,2000  // Field=s_cfg_scdim.s_dim2[2].final_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim2[2].starting_offset
+          ULONG,0  // Field=s_cfg_scdim.s_dim2[2].final_offset
+          ULONG,35  // Field=s_cfg_scdim.s_dim2[2].starting_profile
+          ULONG,35  // Field=s_cfg_scdim.s_dim2[2].final_profile
+        ENDSTRUCT // End of structure=S_dim
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_dim
+          ULONG,500  // Field=s_cfg_scdim.s_dim2DNO[0].starting_dim
+          ULONG,600  // Field=s_cfg_scdim.s_dim2DNO[0].final_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim2DNO[0].starting_offset
+          ULONG,0  // Field=s_cfg_scdim.s_dim2DNO[0].final_offset
+          ULONG,35  // Field=s_cfg_scdim.s_dim2DNO[0].starting_profile
+          ULONG,35  // Field=s_cfg_scdim.s_dim2DNO[0].final_profile
+        ENDSTRUCT // End of structure=S_dim
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_dim
+          ULONG,601  // Field=s_cfg_scdim.s_dim2DNO[1].starting_dim
+          ULONG,700  // Field=s_cfg_scdim.s_dim2DNO[1].final_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim2DNO[1].starting_offset
+          ULONG,0  // Field=s_cfg_scdim.s_dim2DNO[1].final_offset
+          ULONG,35  // Field=s_cfg_scdim.s_dim2DNO[1].starting_profile
+          ULONG,35  // Field=s_cfg_scdim.s_dim2DNO[1].final_profile
+        ENDSTRUCT // End of structure=S_dim
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_dim
+          ULONG,701  // Field=s_cfg_scdim.s_dim2DNO[2].starting_dim
+          ULONG,2000  // Field=s_cfg_scdim.s_dim2DNO[2].final_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim2DNO[2].starting_offset
+          ULONG,0  // Field=s_cfg_scdim.s_dim2DNO[2].final_offset
+          ULONG,35  // Field=s_cfg_scdim.s_dim2DNO[2].starting_profile
+          ULONG,35  // Field=s_cfg_scdim.s_dim2DNO[2].final_profile
+        ENDSTRUCT // End of structure=S_dim
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim2DOR[0].starting_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim2DOR[0].final_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim2DOR[0].starting_offset
+          ULONG,0  // Field=s_cfg_scdim.s_dim2DOR[0].final_offset
+          ULONG,0  // Field=s_cfg_scdim.s_dim2DOR[0].starting_profile
+          ULONG,0  // Field=s_cfg_scdim.s_dim2DOR[0].final_profile
+        ENDSTRUCT // End of structure=S_dim
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim2DOR[1].starting_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim2DOR[1].final_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim2DOR[1].starting_offset
+          ULONG,0  // Field=s_cfg_scdim.s_dim2DOR[1].final_offset
+          ULONG,0  // Field=s_cfg_scdim.s_dim2DOR[1].starting_profile
+          ULONG,0  // Field=s_cfg_scdim.s_dim2DOR[1].final_profile
+        ENDSTRUCT // End of structure=S_dim
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim2DOR[2].starting_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim2DOR[2].final_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim2DOR[2].starting_offset
+          ULONG,0  // Field=s_cfg_scdim.s_dim2DOR[2].final_offset
+          ULONG,0  // Field=s_cfg_scdim.s_dim2DOR[2].starting_profile
+          ULONG,0  // Field=s_cfg_scdim.s_dim2DOR[2].final_profile
+        ENDSTRUCT // End of structure=S_dim
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim3[0].starting_dim
+          ULONG,400  // Field=s_cfg_scdim.s_dim3[0].final_dim
+          ULONG,200  // Field=s_cfg_scdim.s_dim3[0].starting_offset
+          ULONG,200  // Field=s_cfg_scdim.s_dim3[0].final_offset
+          ULONG,35  // Field=s_cfg_scdim.s_dim3[0].starting_profile
+          ULONG,35  // Field=s_cfg_scdim.s_dim3[0].final_profile
+        ENDSTRUCT // End of structure=S_dim
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_dim
+          ULONG,401  // Field=s_cfg_scdim.s_dim3[1].starting_dim
+          ULONG,600  // Field=s_cfg_scdim.s_dim3[1].final_dim
+          ULONG,50  // Field=s_cfg_scdim.s_dim3[1].starting_offset
+          ULONG,50  // Field=s_cfg_scdim.s_dim3[1].final_offset
+          ULONG,35  // Field=s_cfg_scdim.s_dim3[1].starting_profile
+          ULONG,35  // Field=s_cfg_scdim.s_dim3[1].final_profile
+        ENDSTRUCT // End of structure=S_dim
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_dim
+          ULONG,601  // Field=s_cfg_scdim.s_dim3[2].starting_dim
+          ULONG,2000  // Field=s_cfg_scdim.s_dim3[2].final_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim3[2].starting_offset
+          ULONG,0  // Field=s_cfg_scdim.s_dim3[2].final_offset
+          ULONG,35  // Field=s_cfg_scdim.s_dim3[2].starting_profile
+          ULONG,35  // Field=s_cfg_scdim.s_dim3[2].final_profile
+        ENDSTRUCT // End of structure=S_dim
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_dim
+          ULONG,500  // Field=s_cfg_scdim.s_dim3DNO[0].starting_dim
+          ULONG,600  // Field=s_cfg_scdim.s_dim3DNO[0].final_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim3DNO[0].starting_offset
+          ULONG,0  // Field=s_cfg_scdim.s_dim3DNO[0].final_offset
+          ULONG,35  // Field=s_cfg_scdim.s_dim3DNO[0].starting_profile
+          ULONG,35  // Field=s_cfg_scdim.s_dim3DNO[0].final_profile
+        ENDSTRUCT // End of structure=S_dim
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_dim
+          ULONG,601  // Field=s_cfg_scdim.s_dim3DNO[1].starting_dim
+          ULONG,700  // Field=s_cfg_scdim.s_dim3DNO[1].final_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim3DNO[1].starting_offset
+          ULONG,0  // Field=s_cfg_scdim.s_dim3DNO[1].final_offset
+          ULONG,35  // Field=s_cfg_scdim.s_dim3DNO[1].starting_profile
+          ULONG,35  // Field=s_cfg_scdim.s_dim3DNO[1].final_profile
+        ENDSTRUCT // End of structure=S_dim
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_dim
+          ULONG,701  // Field=s_cfg_scdim.s_dim3DNO[2].starting_dim
+          ULONG,2000  // Field=s_cfg_scdim.s_dim3DNO[2].final_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim3DNO[2].starting_offset
+          ULONG,0  // Field=s_cfg_scdim.s_dim3DNO[2].final_offset
+          ULONG,35  // Field=s_cfg_scdim.s_dim3DNO[2].starting_profile
+          ULONG,35  // Field=s_cfg_scdim.s_dim3DNO[2].final_profile
+        ENDSTRUCT // End of structure=S_dim
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim3DOR[0].starting_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim3DOR[0].final_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim3DOR[0].starting_offset
+          ULONG,0  // Field=s_cfg_scdim.s_dim3DOR[0].final_offset
+          ULONG,0  // Field=s_cfg_scdim.s_dim3DOR[0].starting_profile
+          ULONG,0  // Field=s_cfg_scdim.s_dim3DOR[0].final_profile
+        ENDSTRUCT // End of structure=S_dim
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim3DOR[1].starting_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim3DOR[1].final_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim3DOR[1].starting_offset
+          ULONG,0  // Field=s_cfg_scdim.s_dim3DOR[1].final_offset
+          ULONG,0  // Field=s_cfg_scdim.s_dim3DOR[1].starting_profile
+          ULONG,0  // Field=s_cfg_scdim.s_dim3DOR[1].final_profile
+        ENDSTRUCT // End of structure=S_dim
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim3DOR[2].starting_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim3DOR[2].final_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim3DOR[2].starting_offset
+          ULONG,0  // Field=s_cfg_scdim.s_dim3DOR[2].final_offset
+          ULONG,0  // Field=s_cfg_scdim.s_dim3DOR[2].starting_profile
+          ULONG,0  // Field=s_cfg_scdim.s_dim3DOR[2].final_profile
+        ENDSTRUCT // End of structure=S_dim
+        //
+    ENDSTRUCT // End of structure=S_cfg_scdim
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_state
+      SHORT,0  // Field=s_state.trace
+      SHORT  // Field=s_state.init
+      LONG  // Field=s_state.state
+      LONG  // Field=s_state.previous_state
+      LONG  // Field=s_state.next_state
+      LONG  // Field=s_state.substate
+      STRING40  // Field=s_state.des_state
+      STRING40  // Field=s_state.des_prevstate
+    ENDSTRUCT // End of structure=S_state
+    //
+ENDSTRUCT // End of structure=S_scdim
+//
+//
+BEGINSTRUCT // Begin of structure=S_scdim
+  USHORT,3  // Field=id
+  STRING12,"CTRDIM_03"  // Field=name
+  USHORT,1  // Field=enable
+    //
+    BEGINSTRUCT // Begin of structure=S_cfg_scdim
+        //
+        BEGINSTRUCT // Begin of structure=S_dim
+          ULONG,10  // Field=s_cfg_scdim.s_dim1[0].starting_dim
+          ULONG,200  // Field=s_cfg_scdim.s_dim1[0].final_dim
+          ULONG,150  // Field=s_cfg_scdim.s_dim1[0].starting_offset
+          ULONG,150  // Field=s_cfg_scdim.s_dim1[0].final_offset
+          ULONG,35  // Field=s_cfg_scdim.s_dim1[0].starting_profile
+          ULONG,35  // Field=s_cfg_scdim.s_dim1[0].final_profile
+        ENDSTRUCT // End of structure=S_dim
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_dim
+          ULONG,201  // Field=s_cfg_scdim.s_dim1[1].starting_dim
+          ULONG,350  // Field=s_cfg_scdim.s_dim1[1].final_dim
+          ULONG,100  // Field=s_cfg_scdim.s_dim1[1].starting_offset
+          ULONG,100  // Field=s_cfg_scdim.s_dim1[1].final_offset
+          ULONG,38  // Field=s_cfg_scdim.s_dim1[1].starting_profile
+          ULONG,38  // Field=s_cfg_scdim.s_dim1[1].final_profile
+        ENDSTRUCT // End of structure=S_dim
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_dim
+          ULONG,351  // Field=s_cfg_scdim.s_dim1[2].starting_dim
+          ULONG,2000  // Field=s_cfg_scdim.s_dim1[2].final_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim1[2].starting_offset
+          ULONG,0  // Field=s_cfg_scdim.s_dim1[2].final_offset
+          ULONG,40  // Field=s_cfg_scdim.s_dim1[2].starting_profile
+          ULONG,40  // Field=s_cfg_scdim.s_dim1[2].final_profile
+        ENDSTRUCT // End of structure=S_dim
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_dim
+          ULONG,500  // Field=s_cfg_scdim.s_dim1DNO[0].starting_dim
+          ULONG,600  // Field=s_cfg_scdim.s_dim1DNO[0].final_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim1DNO[0].starting_offset
+          ULONG,0  // Field=s_cfg_scdim.s_dim1DNO[0].final_offset
+          ULONG,35  // Field=s_cfg_scdim.s_dim1DNO[0].starting_profile
+          ULONG,35  // Field=s_cfg_scdim.s_dim1DNO[0].final_profile
+        ENDSTRUCT // End of structure=S_dim
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_dim
+          ULONG,601  // Field=s_cfg_scdim.s_dim1DNO[1].starting_dim
+          ULONG,700  // Field=s_cfg_scdim.s_dim1DNO[1].final_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim1DNO[1].starting_offset
+          ULONG,0  // Field=s_cfg_scdim.s_dim1DNO[1].final_offset
+          ULONG,35  // Field=s_cfg_scdim.s_dim1DNO[1].starting_profile
+          ULONG,35  // Field=s_cfg_scdim.s_dim1DNO[1].final_profile
+        ENDSTRUCT // End of structure=S_dim
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_dim
+          ULONG,701  // Field=s_cfg_scdim.s_dim1DNO[2].starting_dim
+          ULONG,2000  // Field=s_cfg_scdim.s_dim1DNO[2].final_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim1DNO[2].starting_offset
+          ULONG,0  // Field=s_cfg_scdim.s_dim1DNO[2].final_offset
+          ULONG,35  // Field=s_cfg_scdim.s_dim1DNO[2].starting_profile
+          ULONG,35  // Field=s_cfg_scdim.s_dim1DNO[2].final_profile
+        ENDSTRUCT // End of structure=S_dim
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim1DOR[0].starting_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim1DOR[0].final_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim1DOR[0].starting_offset
+          ULONG,0  // Field=s_cfg_scdim.s_dim1DOR[0].final_offset
+          ULONG,0  // Field=s_cfg_scdim.s_dim1DOR[0].starting_profile
+          ULONG,0  // Field=s_cfg_scdim.s_dim1DOR[0].final_profile
+        ENDSTRUCT // End of structure=S_dim
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim1DOR[1].starting_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim1DOR[1].final_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim1DOR[1].starting_offset
+          ULONG,0  // Field=s_cfg_scdim.s_dim1DOR[1].final_offset
+          ULONG,0  // Field=s_cfg_scdim.s_dim1DOR[1].starting_profile
+          ULONG,0  // Field=s_cfg_scdim.s_dim1DOR[1].final_profile
+        ENDSTRUCT // End of structure=S_dim
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim1DOR[2].starting_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim1DOR[2].final_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim1DOR[2].starting_offset
+          ULONG,0  // Field=s_cfg_scdim.s_dim1DOR[2].final_offset
+          ULONG,0  // Field=s_cfg_scdim.s_dim1DOR[2].starting_profile
+          ULONG,0  // Field=s_cfg_scdim.s_dim1DOR[2].final_profile
+        ENDSTRUCT // End of structure=S_dim
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_dim
+          ULONG,10  // Field=s_cfg_scdim.s_dim2[0].starting_dim
+          ULONG,200  // Field=s_cfg_scdim.s_dim2[0].final_dim
+          ULONG,150  // Field=s_cfg_scdim.s_dim2[0].starting_offset
+          ULONG,150  // Field=s_cfg_scdim.s_dim2[0].final_offset
+          ULONG,35  // Field=s_cfg_scdim.s_dim2[0].starting_profile
+          ULONG,35  // Field=s_cfg_scdim.s_dim2[0].final_profile
+        ENDSTRUCT // End of structure=S_dim
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_dim
+          ULONG,201  // Field=s_cfg_scdim.s_dim2[1].starting_dim
+          ULONG,350  // Field=s_cfg_scdim.s_dim2[1].final_dim
+          ULONG,100  // Field=s_cfg_scdim.s_dim2[1].starting_offset
+          ULONG,100  // Field=s_cfg_scdim.s_dim2[1].final_offset
+          ULONG,38  // Field=s_cfg_scdim.s_dim2[1].starting_profile
+          ULONG,38  // Field=s_cfg_scdim.s_dim2[1].final_profile
+        ENDSTRUCT // End of structure=S_dim
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_dim
+          ULONG,351  // Field=s_cfg_scdim.s_dim2[2].starting_dim
+          ULONG,2000  // Field=s_cfg_scdim.s_dim2[2].final_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim2[2].starting_offset
+          ULONG,0  // Field=s_cfg_scdim.s_dim2[2].final_offset
+          ULONG,40  // Field=s_cfg_scdim.s_dim2[2].starting_profile
+          ULONG,40  // Field=s_cfg_scdim.s_dim2[2].final_profile
+        ENDSTRUCT // End of structure=S_dim
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_dim
+          ULONG,500  // Field=s_cfg_scdim.s_dim2DNO[0].starting_dim
+          ULONG,600  // Field=s_cfg_scdim.s_dim2DNO[0].final_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim2DNO[0].starting_offset
+          ULONG,0  // Field=s_cfg_scdim.s_dim2DNO[0].final_offset
+          ULONG,35  // Field=s_cfg_scdim.s_dim2DNO[0].starting_profile
+          ULONG,35  // Field=s_cfg_scdim.s_dim2DNO[0].final_profile
+        ENDSTRUCT // End of structure=S_dim
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_dim
+          ULONG,601  // Field=s_cfg_scdim.s_dim2DNO[1].starting_dim
+          ULONG,700  // Field=s_cfg_scdim.s_dim2DNO[1].final_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim2DNO[1].starting_offset
+          ULONG,0  // Field=s_cfg_scdim.s_dim2DNO[1].final_offset
+          ULONG,35  // Field=s_cfg_scdim.s_dim2DNO[1].starting_profile
+          ULONG,35  // Field=s_cfg_scdim.s_dim2DNO[1].final_profile
+        ENDSTRUCT // End of structure=S_dim
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_dim
+          ULONG,701  // Field=s_cfg_scdim.s_dim2DNO[2].starting_dim
+          ULONG,2000  // Field=s_cfg_scdim.s_dim2DNO[2].final_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim2DNO[2].starting_offset
+          ULONG,0  // Field=s_cfg_scdim.s_dim2DNO[2].final_offset
+          ULONG,35  // Field=s_cfg_scdim.s_dim2DNO[2].starting_profile
+          ULONG,35  // Field=s_cfg_scdim.s_dim2DNO[2].final_profile
+        ENDSTRUCT // End of structure=S_dim
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim2DOR[0].starting_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim2DOR[0].final_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim2DOR[0].starting_offset
+          ULONG,0  // Field=s_cfg_scdim.s_dim2DOR[0].final_offset
+          ULONG,0  // Field=s_cfg_scdim.s_dim2DOR[0].starting_profile
+          ULONG,0  // Field=s_cfg_scdim.s_dim2DOR[0].final_profile
+        ENDSTRUCT // End of structure=S_dim
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim2DOR[1].starting_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim2DOR[1].final_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim2DOR[1].starting_offset
+          ULONG,0  // Field=s_cfg_scdim.s_dim2DOR[1].final_offset
+          ULONG,0  // Field=s_cfg_scdim.s_dim2DOR[1].starting_profile
+          ULONG,0  // Field=s_cfg_scdim.s_dim2DOR[1].final_profile
+        ENDSTRUCT // End of structure=S_dim
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim2DOR[2].starting_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim2DOR[2].final_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim2DOR[2].starting_offset
+          ULONG,0  // Field=s_cfg_scdim.s_dim2DOR[2].final_offset
+          ULONG,0  // Field=s_cfg_scdim.s_dim2DOR[2].starting_profile
+          ULONG,0  // Field=s_cfg_scdim.s_dim2DOR[2].final_profile
+        ENDSTRUCT // End of structure=S_dim
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_dim
+          ULONG,10  // Field=s_cfg_scdim.s_dim3[0].starting_dim
+          ULONG,200  // Field=s_cfg_scdim.s_dim3[0].final_dim
+          ULONG,150  // Field=s_cfg_scdim.s_dim3[0].starting_offset
+          ULONG,150  // Field=s_cfg_scdim.s_dim3[0].final_offset
+          ULONG,35  // Field=s_cfg_scdim.s_dim3[0].starting_profile
+          ULONG,35  // Field=s_cfg_scdim.s_dim3[0].final_profile
+        ENDSTRUCT // End of structure=S_dim
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_dim
+          ULONG,201  // Field=s_cfg_scdim.s_dim3[1].starting_dim
+          ULONG,350  // Field=s_cfg_scdim.s_dim3[1].final_dim
+          ULONG,100  // Field=s_cfg_scdim.s_dim3[1].starting_offset
+          ULONG,100  // Field=s_cfg_scdim.s_dim3[1].final_offset
+          ULONG,38  // Field=s_cfg_scdim.s_dim3[1].starting_profile
+          ULONG,38  // Field=s_cfg_scdim.s_dim3[1].final_profile
+        ENDSTRUCT // End of structure=S_dim
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_dim
+          ULONG,351  // Field=s_cfg_scdim.s_dim3[2].starting_dim
+          ULONG,2000  // Field=s_cfg_scdim.s_dim3[2].final_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim3[2].starting_offset
+          ULONG,0  // Field=s_cfg_scdim.s_dim3[2].final_offset
+          ULONG,40  // Field=s_cfg_scdim.s_dim3[2].starting_profile
+          ULONG,40  // Field=s_cfg_scdim.s_dim3[2].final_profile
+        ENDSTRUCT // End of structure=S_dim
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_dim
+          ULONG,500  // Field=s_cfg_scdim.s_dim3DNO[0].starting_dim
+          ULONG,600  // Field=s_cfg_scdim.s_dim3DNO[0].final_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim3DNO[0].starting_offset
+          ULONG,0  // Field=s_cfg_scdim.s_dim3DNO[0].final_offset
+          ULONG,35  // Field=s_cfg_scdim.s_dim3DNO[0].starting_profile
+          ULONG,35  // Field=s_cfg_scdim.s_dim3DNO[0].final_profile
+        ENDSTRUCT // End of structure=S_dim
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_dim
+          ULONG,601  // Field=s_cfg_scdim.s_dim3DNO[1].starting_dim
+          ULONG,700  // Field=s_cfg_scdim.s_dim3DNO[1].final_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim3DNO[1].starting_offset
+          ULONG,0  // Field=s_cfg_scdim.s_dim3DNO[1].final_offset
+          ULONG,35  // Field=s_cfg_scdim.s_dim3DNO[1].starting_profile
+          ULONG,35  // Field=s_cfg_scdim.s_dim3DNO[1].final_profile
+        ENDSTRUCT // End of structure=S_dim
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_dim
+          ULONG,701  // Field=s_cfg_scdim.s_dim3DNO[2].starting_dim
+          ULONG,2000  // Field=s_cfg_scdim.s_dim3DNO[2].final_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim3DNO[2].starting_offset
+          ULONG,0  // Field=s_cfg_scdim.s_dim3DNO[2].final_offset
+          ULONG,35  // Field=s_cfg_scdim.s_dim3DNO[2].starting_profile
+          ULONG,35  // Field=s_cfg_scdim.s_dim3DNO[2].final_profile
+        ENDSTRUCT // End of structure=S_dim
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim3DOR[0].starting_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim3DOR[0].final_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim3DOR[0].starting_offset
+          ULONG,0  // Field=s_cfg_scdim.s_dim3DOR[0].final_offset
+          ULONG,0  // Field=s_cfg_scdim.s_dim3DOR[0].starting_profile
+          ULONG,0  // Field=s_cfg_scdim.s_dim3DOR[0].final_profile
+        ENDSTRUCT // End of structure=S_dim
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim3DOR[1].starting_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim3DOR[1].final_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim3DOR[1].starting_offset
+          ULONG,0  // Field=s_cfg_scdim.s_dim3DOR[1].final_offset
+          ULONG,0  // Field=s_cfg_scdim.s_dim3DOR[1].starting_profile
+          ULONG,0  // Field=s_cfg_scdim.s_dim3DOR[1].final_profile
+        ENDSTRUCT // End of structure=S_dim
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim3DOR[2].starting_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim3DOR[2].final_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim3DOR[2].starting_offset
+          ULONG,0  // Field=s_cfg_scdim.s_dim3DOR[2].final_offset
+          ULONG,0  // Field=s_cfg_scdim.s_dim3DOR[2].starting_profile
+          ULONG,0  // Field=s_cfg_scdim.s_dim3DOR[2].final_profile
+        ENDSTRUCT // End of structure=S_dim
+        //
+    ENDSTRUCT // End of structure=S_cfg_scdim
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_state
+      SHORT,0  // Field=s_state.trace
+      SHORT  // Field=s_state.init
+      LONG  // Field=s_state.state
+      LONG  // Field=s_state.previous_state
+      LONG  // Field=s_state.next_state
+      LONG  // Field=s_state.substate
+      STRING40  // Field=s_state.des_state
+      STRING40  // Field=s_state.des_prevstate
+    ENDSTRUCT // End of structure=S_state
+    //
+ENDSTRUCT // End of structure=S_scdim
+//
+//
+BEGINSTRUCT // Begin of structure=S_scdim
+  USHORT,4  // Field=id
+  STRING12,"CTRDIM_04"  // Field=name
+  USHORT,1  // Field=enable
+    //
+    BEGINSTRUCT // Begin of structure=S_cfg_scdim
+        //
+        BEGINSTRUCT // Begin of structure=S_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim1[0].starting_dim
+          ULONG,400  // Field=s_cfg_scdim.s_dim1[0].final_dim
+          ULONG,400  // Field=s_cfg_scdim.s_dim1[0].starting_offset
+          ULONG,400  // Field=s_cfg_scdim.s_dim1[0].final_offset
+          ULONG,35  // Field=s_cfg_scdim.s_dim1[0].starting_profile
+          ULONG,35  // Field=s_cfg_scdim.s_dim1[0].final_profile
+        ENDSTRUCT // End of structure=S_dim
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_dim
+          ULONG,401  // Field=s_cfg_scdim.s_dim1[1].starting_dim
+          ULONG,600  // Field=s_cfg_scdim.s_dim1[1].final_dim
+          ULONG,50  // Field=s_cfg_scdim.s_dim1[1].starting_offset
+          ULONG,50  // Field=s_cfg_scdim.s_dim1[1].final_offset
+          ULONG,35  // Field=s_cfg_scdim.s_dim1[1].starting_profile
+          ULONG,35  // Field=s_cfg_scdim.s_dim1[1].final_profile
+        ENDSTRUCT // End of structure=S_dim
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_dim
+          ULONG,601  // Field=s_cfg_scdim.s_dim1[2].starting_dim
+          ULONG,2000  // Field=s_cfg_scdim.s_dim1[2].final_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim1[2].starting_offset
+          ULONG,0  // Field=s_cfg_scdim.s_dim1[2].final_offset
+          ULONG,35  // Field=s_cfg_scdim.s_dim1[2].starting_profile
+          ULONG,35  // Field=s_cfg_scdim.s_dim1[2].final_profile
+        ENDSTRUCT // End of structure=S_dim
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_dim
+          ULONG,500  // Field=s_cfg_scdim.s_dim1DNO[0].starting_dim
+          ULONG,600  // Field=s_cfg_scdim.s_dim1DNO[0].final_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim1DNO[0].starting_offset
+          ULONG,0  // Field=s_cfg_scdim.s_dim1DNO[0].final_offset
+          ULONG,35  // Field=s_cfg_scdim.s_dim1DNO[0].starting_profile
+          ULONG,35  // Field=s_cfg_scdim.s_dim1DNO[0].final_profile
+        ENDSTRUCT // End of structure=S_dim
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_dim
+          ULONG,601  // Field=s_cfg_scdim.s_dim1DNO[1].starting_dim
+          ULONG,700  // Field=s_cfg_scdim.s_dim1DNO[1].final_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim1DNO[1].starting_offset
+          ULONG,0  // Field=s_cfg_scdim.s_dim1DNO[1].final_offset
+          ULONG,35  // Field=s_cfg_scdim.s_dim1DNO[1].starting_profile
+          ULONG,35  // Field=s_cfg_scdim.s_dim1DNO[1].final_profile
+        ENDSTRUCT // End of structure=S_dim
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_dim
+          ULONG,701  // Field=s_cfg_scdim.s_dim1DNO[2].starting_dim
+          ULONG,2000  // Field=s_cfg_scdim.s_dim1DNO[2].final_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim1DNO[2].starting_offset
+          ULONG,0  // Field=s_cfg_scdim.s_dim1DNO[2].final_offset
+          ULONG,35  // Field=s_cfg_scdim.s_dim1DNO[2].starting_profile
+          ULONG,35  // Field=s_cfg_scdim.s_dim1DNO[2].final_profile
+        ENDSTRUCT // End of structure=S_dim
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim1DOR[0].starting_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim1DOR[0].final_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim1DOR[0].starting_offset
+          ULONG,0  // Field=s_cfg_scdim.s_dim1DOR[0].final_offset
+          ULONG,0  // Field=s_cfg_scdim.s_dim1DOR[0].starting_profile
+          ULONG,0  // Field=s_cfg_scdim.s_dim1DOR[0].final_profile
+        ENDSTRUCT // End of structure=S_dim
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim1DOR[1].starting_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim1DOR[1].final_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim1DOR[1].starting_offset
+          ULONG,0  // Field=s_cfg_scdim.s_dim1DOR[1].final_offset
+          ULONG,0  // Field=s_cfg_scdim.s_dim1DOR[1].starting_profile
+          ULONG,0  // Field=s_cfg_scdim.s_dim1DOR[1].final_profile
+        ENDSTRUCT // End of structure=S_dim
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim1DOR[2].starting_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim1DOR[2].final_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim1DOR[2].starting_offset
+          ULONG,0  // Field=s_cfg_scdim.s_dim1DOR[2].final_offset
+          ULONG,0  // Field=s_cfg_scdim.s_dim1DOR[2].starting_profile
+          ULONG,0  // Field=s_cfg_scdim.s_dim1DOR[2].final_profile
+        ENDSTRUCT // End of structure=S_dim
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim2[0].starting_dim
+          ULONG,400  // Field=s_cfg_scdim.s_dim2[0].final_dim
+          ULONG,400  // Field=s_cfg_scdim.s_dim2[0].starting_offset
+          ULONG,400  // Field=s_cfg_scdim.s_dim2[0].final_offset
+          ULONG,35  // Field=s_cfg_scdim.s_dim2[0].starting_profile
+          ULONG,35  // Field=s_cfg_scdim.s_dim2[0].final_profile
+        ENDSTRUCT // End of structure=S_dim
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_dim
+          ULONG,401  // Field=s_cfg_scdim.s_dim2[1].starting_dim
+          ULONG,600  // Field=s_cfg_scdim.s_dim2[1].final_dim
+          ULONG,50  // Field=s_cfg_scdim.s_dim2[1].starting_offset
+          ULONG,50  // Field=s_cfg_scdim.s_dim2[1].final_offset
+          ULONG,35  // Field=s_cfg_scdim.s_dim2[1].starting_profile
+          ULONG,35  // Field=s_cfg_scdim.s_dim2[1].final_profile
+        ENDSTRUCT // End of structure=S_dim
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_dim
+          ULONG,601  // Field=s_cfg_scdim.s_dim2[2].starting_dim
+          ULONG,2000  // Field=s_cfg_scdim.s_dim2[2].final_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim2[2].starting_offset
+          ULONG,0  // Field=s_cfg_scdim.s_dim2[2].final_offset
+          ULONG,35  // Field=s_cfg_scdim.s_dim2[2].starting_profile
+          ULONG,35  // Field=s_cfg_scdim.s_dim2[2].final_profile
+        ENDSTRUCT // End of structure=S_dim
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_dim
+          ULONG,500  // Field=s_cfg_scdim.s_dim2DNO[0].starting_dim
+          ULONG,600  // Field=s_cfg_scdim.s_dim2DNO[0].final_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim2DNO[0].starting_offset
+          ULONG,0  // Field=s_cfg_scdim.s_dim2DNO[0].final_offset
+          ULONG,35  // Field=s_cfg_scdim.s_dim2DNO[0].starting_profile
+          ULONG,35  // Field=s_cfg_scdim.s_dim2DNO[0].final_profile
+        ENDSTRUCT // End of structure=S_dim
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_dim
+          ULONG,601  // Field=s_cfg_scdim.s_dim2DNO[1].starting_dim
+          ULONG,700  // Field=s_cfg_scdim.s_dim2DNO[1].final_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim2DNO[1].starting_offset
+          ULONG,0  // Field=s_cfg_scdim.s_dim2DNO[1].final_offset
+          ULONG,35  // Field=s_cfg_scdim.s_dim2DNO[1].starting_profile
+          ULONG,35  // Field=s_cfg_scdim.s_dim2DNO[1].final_profile
+        ENDSTRUCT // End of structure=S_dim
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_dim
+          ULONG,701  // Field=s_cfg_scdim.s_dim2DNO[2].starting_dim
+          ULONG,2000  // Field=s_cfg_scdim.s_dim2DNO[2].final_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim2DNO[2].starting_offset
+          ULONG,0  // Field=s_cfg_scdim.s_dim2DNO[2].final_offset
+          ULONG,35  // Field=s_cfg_scdim.s_dim2DNO[2].starting_profile
+          ULONG,35  // Field=s_cfg_scdim.s_dim2DNO[2].final_profile
+        ENDSTRUCT // End of structure=S_dim
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim2DOR[0].starting_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim2DOR[0].final_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim2DOR[0].starting_offset
+          ULONG,0  // Field=s_cfg_scdim.s_dim2DOR[0].final_offset
+          ULONG,0  // Field=s_cfg_scdim.s_dim2DOR[0].starting_profile
+          ULONG,0  // Field=s_cfg_scdim.s_dim2DOR[0].final_profile
+        ENDSTRUCT // End of structure=S_dim
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim2DOR[1].starting_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim2DOR[1].final_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim2DOR[1].starting_offset
+          ULONG,0  // Field=s_cfg_scdim.s_dim2DOR[1].final_offset
+          ULONG,0  // Field=s_cfg_scdim.s_dim2DOR[1].starting_profile
+          ULONG,0  // Field=s_cfg_scdim.s_dim2DOR[1].final_profile
+        ENDSTRUCT // End of structure=S_dim
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim2DOR[2].starting_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim2DOR[2].final_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim2DOR[2].starting_offset
+          ULONG,0  // Field=s_cfg_scdim.s_dim2DOR[2].final_offset
+          ULONG,0  // Field=s_cfg_scdim.s_dim2DOR[2].starting_profile
+          ULONG,0  // Field=s_cfg_scdim.s_dim2DOR[2].final_profile
+        ENDSTRUCT // End of structure=S_dim
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim3[0].starting_dim
+          ULONG,400  // Field=s_cfg_scdim.s_dim3[0].final_dim
+          ULONG,400  // Field=s_cfg_scdim.s_dim3[0].starting_offset
+          ULONG,400  // Field=s_cfg_scdim.s_dim3[0].final_offset
+          ULONG,35  // Field=s_cfg_scdim.s_dim3[0].starting_profile
+          ULONG,35  // Field=s_cfg_scdim.s_dim3[0].final_profile
+        ENDSTRUCT // End of structure=S_dim
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_dim
+          ULONG,401  // Field=s_cfg_scdim.s_dim3[1].starting_dim
+          ULONG,600  // Field=s_cfg_scdim.s_dim3[1].final_dim
+          ULONG,50  // Field=s_cfg_scdim.s_dim3[1].starting_offset
+          ULONG,50  // Field=s_cfg_scdim.s_dim3[1].final_offset
+          ULONG,35  // Field=s_cfg_scdim.s_dim3[1].starting_profile
+          ULONG,35  // Field=s_cfg_scdim.s_dim3[1].final_profile
+        ENDSTRUCT // End of structure=S_dim
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_dim
+          ULONG,601  // Field=s_cfg_scdim.s_dim3[2].starting_dim
+          ULONG,2000  // Field=s_cfg_scdim.s_dim3[2].final_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim3[2].starting_offset
+          ULONG,0  // Field=s_cfg_scdim.s_dim3[2].final_offset
+          ULONG,35  // Field=s_cfg_scdim.s_dim3[2].starting_profile
+          ULONG,35  // Field=s_cfg_scdim.s_dim3[2].final_profile
+        ENDSTRUCT // End of structure=S_dim
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_dim
+          ULONG,500  // Field=s_cfg_scdim.s_dim3DNO[0].starting_dim
+          ULONG,600  // Field=s_cfg_scdim.s_dim3DNO[0].final_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim3DNO[0].starting_offset
+          ULONG,0  // Field=s_cfg_scdim.s_dim3DNO[0].final_offset
+          ULONG,35  // Field=s_cfg_scdim.s_dim3DNO[0].starting_profile
+          ULONG,35  // Field=s_cfg_scdim.s_dim3DNO[0].final_profile
+        ENDSTRUCT // End of structure=S_dim
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_dim
+          ULONG,601  // Field=s_cfg_scdim.s_dim3DNO[1].starting_dim
+          ULONG,700  // Field=s_cfg_scdim.s_dim3DNO[1].final_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim3DNO[1].starting_offset
+          ULONG,0  // Field=s_cfg_scdim.s_dim3DNO[1].final_offset
+          ULONG,35  // Field=s_cfg_scdim.s_dim3DNO[1].starting_profile
+          ULONG,35  // Field=s_cfg_scdim.s_dim3DNO[1].final_profile
+        ENDSTRUCT // End of structure=S_dim
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_dim
+          ULONG,701  // Field=s_cfg_scdim.s_dim3DNO[2].starting_dim
+          ULONG,2000  // Field=s_cfg_scdim.s_dim3DNO[2].final_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim3DNO[2].starting_offset
+          ULONG,0  // Field=s_cfg_scdim.s_dim3DNO[2].final_offset
+          ULONG,35  // Field=s_cfg_scdim.s_dim3DNO[2].starting_profile
+          ULONG,35  // Field=s_cfg_scdim.s_dim3DNO[2].final_profile
+        ENDSTRUCT // End of structure=S_dim
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim3DOR[0].starting_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim3DOR[0].final_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim3DOR[0].starting_offset
+          ULONG,0  // Field=s_cfg_scdim.s_dim3DOR[0].final_offset
+          ULONG,0  // Field=s_cfg_scdim.s_dim3DOR[0].starting_profile
+          ULONG,0  // Field=s_cfg_scdim.s_dim3DOR[0].final_profile
+        ENDSTRUCT // End of structure=S_dim
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim3DOR[1].starting_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim3DOR[1].final_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim3DOR[1].starting_offset
+          ULONG,0  // Field=s_cfg_scdim.s_dim3DOR[1].final_offset
+          ULONG,0  // Field=s_cfg_scdim.s_dim3DOR[1].starting_profile
+          ULONG,0  // Field=s_cfg_scdim.s_dim3DOR[1].final_profile
+        ENDSTRUCT // End of structure=S_dim
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim3DOR[2].starting_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim3DOR[2].final_dim
+          ULONG,0  // Field=s_cfg_scdim.s_dim3DOR[2].starting_offset
+          ULONG,0  // Field=s_cfg_scdim.s_dim3DOR[2].final_offset
+          ULONG,0  // Field=s_cfg_scdim.s_dim3DOR[2].starting_profile
+          ULONG,0  // Field=s_cfg_scdim.s_dim3DOR[2].final_profile
+        ENDSTRUCT // End of structure=S_dim
+        //
+    ENDSTRUCT // End of structure=S_cfg_scdim
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_state
+      SHORT,0  // Field=s_state.trace
+      SHORT  // Field=s_state.init
+      LONG  // Field=s_state.state
+      LONG  // Field=s_state.previous_state
+      LONG  // Field=s_state.next_state
+      LONG  // Field=s_state.substate
+      STRING40  // Field=s_state.des_state
+      STRING40  // Field=s_state.des_prevstate
+    ENDSTRUCT // End of structure=S_state
+    //
+ENDSTRUCT // End of structure=S_scdim
+//

@@ -1,0 +1,4689 @@
+//
+//S_sigdev_header
+//
+TABLE_TYPE: 0
+//
+MAXHEADER:1
+//
+HEADER
+//
+//
+BEGINSTRUCT // Begin of structure=S_sigdev_header
+  USHORT  // Field=groupid
+ENDSTRUCT // End of structure=S_sigdev_header
+//
+//
+ENDHEADER
+//
+//
+BEGINSTRUCT // Begin of structure=S_sigdev_header
+  USHORT,1  // Field=groupid
+ENDSTRUCT // End of structure=S_sigdev_header
+//
+//
+//S_sigdev
+//
+TABLE_TYPE: 0
+//
+MAXTABLE:48
+//
+TABLE
+//
+//
+BEGINSTRUCT // Begin of structure=S_sigdev
+  USHORT  // Field=id
+  USHORT  // Field=enable
+  USHORT  // Field=device
+  USHORT  // Field=id_device
+  USHORT  // Field=ctrl_type
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_input[0].name
+      POINTER  // Field=s_di_input[0].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_input[1].name
+      POINTER  // Field=s_di_input[1].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_input[2].name
+      POINTER  // Field=s_di_input[2].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_input[3].name
+      POINTER  // Field=s_di_input[3].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_input[4].name
+      POINTER  // Field=s_di_input[4].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_input[5].name
+      POINTER  // Field=s_di_input[5].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_input[6].name
+      POINTER  // Field=s_di_input[6].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_input[7].name
+      POINTER  // Field=s_di_input[7].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+  USHORT  // Field=failure_bit[0]
+  USHORT  // Field=failure_bit[1]
+  USHORT  // Field=failure_bit[2]
+  USHORT  // Field=failure_bit[3]
+  USHORT  // Field=failure_bit[4]
+  USHORT  // Field=failure_bit[5]
+  USHORT  // Field=failure_bit[6]
+  USHORT  // Field=failure_bit[7]
+  USHORT  // Field=status_bit[0]
+  USHORT  // Field=status_bit[1]
+  USHORT  // Field=status_bit[2]
+  USHORT  // Field=status_bit[3]
+  USHORT  // Field=status_bit[4]
+  USHORT  // Field=status_bit[5]
+  USHORT  // Field=status_bit[6]
+  USHORT  // Field=status_bit[7]
+    //
+    BEGINSTRUCT // Begin of structure=S_wk_sigdev
+      USHORT  // Field=s_wk_sigdev.value
+      USHORT  // Field=s_wk_sigdev.old_value
+    ENDSTRUCT // End of structure=S_wk_sigdev
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_sigdevstat
+        //
+        BEGINSTRUCT // Begin of structure=S_counter
+          ULONG  // Field=s_locsigdevstat.s_counter_change.n_time
+          ULONG  // Field=s_locsigdevstat.s_counter_change.time
+        ENDSTRUCT // End of structure=S_counter
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_status
+          ULONG  // Field=s_locsigdevstat.s_status.status
+          ULONG  // Field=s_locsigdevstat.s_status.old_status
+        ENDSTRUCT // End of structure=S_status
+        //
+    ENDSTRUCT // End of structure=S_sigdevstat
+    //
+ENDSTRUCT // End of structure=S_sigdev
+//
+//
+ENDTABLE
+//
+//
+BEGINSTRUCT // Begin of structure=S_sigdev
+  USHORT,1  // Field=id
+  USHORT,1  // Field=enable
+  USHORT,501  // Field=device
+  USHORT,1  // Field=id_device
+  USHORT,5  // Field=ctrl_type
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_48VLOW"  // Field=s_di_input[0].name
+      POINTER  // Field=s_di_input[0].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_TEMPPWR_01"  // Field=s_di_input[1].name
+      POINTER  // Field=s_di_input[1].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_TEMPSIG_01"  // Field=s_di_input[2].name
+      POINTER  // Field=s_di_input[2].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_48VTIMER"  // Field=s_di_input[3].name
+      POINTER  // Field=s_di_input[3].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"0"  // Field=s_di_input[4].name
+      POINTER  // Field=s_di_input[4].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"0"  // Field=s_di_input[5].name
+      POINTER  // Field=s_di_input[5].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"0"  // Field=s_di_input[6].name
+      POINTER  // Field=s_di_input[6].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"0"  // Field=s_di_input[7].name
+      POINTER  // Field=s_di_input[7].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+  USHORT,1  // Field=failure_bit[0]
+  USHORT,2  // Field=failure_bit[1]
+  USHORT,3  // Field=failure_bit[2]
+  USHORT,4  // Field=failure_bit[3]
+  USHORT,0  // Field=failure_bit[4]
+  USHORT,0  // Field=failure_bit[5]
+  USHORT,0  // Field=failure_bit[6]
+  USHORT,0  // Field=failure_bit[7]
+  USHORT,0  // Field=status_bit[0]
+  USHORT,0  // Field=status_bit[1]
+  USHORT,0  // Field=status_bit[2]
+  USHORT,0  // Field=status_bit[3]
+  USHORT,0  // Field=status_bit[4]
+  USHORT,0  // Field=status_bit[5]
+  USHORT,0  // Field=status_bit[6]
+  USHORT,0  // Field=status_bit[7]
+    //
+    BEGINSTRUCT // Begin of structure=S_wk_sigdev
+      USHORT  // Field=s_wk_sigdev.value
+      USHORT  // Field=s_wk_sigdev.old_value
+    ENDSTRUCT // End of structure=S_wk_sigdev
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_sigdevstat
+        //
+        BEGINSTRUCT // Begin of structure=S_counter
+          ULONG  // Field=s_locsigdevstat.s_counter_change.n_time
+          ULONG  // Field=s_locsigdevstat.s_counter_change.time
+        ENDSTRUCT // End of structure=S_counter
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_status
+          ULONG  // Field=s_locsigdevstat.s_status.status
+          ULONG  // Field=s_locsigdevstat.s_status.old_status
+        ENDSTRUCT // End of structure=S_status
+        //
+    ENDSTRUCT // End of structure=S_sigdevstat
+    //
+ENDSTRUCT // End of structure=S_sigdev
+//
+//
+BEGINSTRUCT // Begin of structure=S_sigdev
+  USHORT,2  // Field=id
+  USHORT,1  // Field=enable
+  USHORT,501  // Field=device
+  USHORT,1  // Field=id_device
+  USHORT,5  // Field=ctrl_type
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_ACHS01QB41"  // Field=s_di_input[0].name
+      POINTER  // Field=s_di_input[0].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_ACHS01QB42"  // Field=s_di_input[1].name
+      POINTER  // Field=s_di_input[1].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_ACHS01QB43"  // Field=s_di_input[2].name
+      POINTER  // Field=s_di_input[2].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_ACHS01QB47"  // Field=s_di_input[3].name
+      POINTER  // Field=s_di_input[3].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_ACHS01QB59"  // Field=s_di_input[4].name
+      POINTER  // Field=s_di_input[4].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_ACHS01QB53"  // Field=s_di_input[5].name
+      POINTER  // Field=s_di_input[5].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_ACHS01QB58"  // Field=s_di_input[6].name
+      POINTER  // Field=s_di_input[6].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_input[7].name
+      POINTER  // Field=s_di_input[7].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+  USHORT,5  // Field=failure_bit[0]
+  USHORT,6  // Field=failure_bit[1]
+  USHORT,7  // Field=failure_bit[2]
+  USHORT,8  // Field=failure_bit[3]
+  USHORT,9  // Field=failure_bit[4]
+  USHORT,10  // Field=failure_bit[5]
+  USHORT,11  // Field=failure_bit[6]
+  USHORT,12  // Field=failure_bit[7]
+  USHORT,0  // Field=status_bit[0]
+  USHORT,0  // Field=status_bit[1]
+  USHORT,0  // Field=status_bit[2]
+  USHORT,0  // Field=status_bit[3]
+  USHORT,0  // Field=status_bit[4]
+  USHORT,0  // Field=status_bit[5]
+  USHORT,0  // Field=status_bit[6]
+  USHORT,0  // Field=status_bit[7]
+    //
+    BEGINSTRUCT // Begin of structure=S_wk_sigdev
+      USHORT  // Field=s_wk_sigdev.value
+      USHORT  // Field=s_wk_sigdev.old_value
+    ENDSTRUCT // End of structure=S_wk_sigdev
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_sigdevstat
+        //
+        BEGINSTRUCT // Begin of structure=S_counter
+          ULONG  // Field=s_locsigdevstat.s_counter_change.n_time
+          ULONG  // Field=s_locsigdevstat.s_counter_change.time
+        ENDSTRUCT // End of structure=S_counter
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_status
+          ULONG  // Field=s_locsigdevstat.s_status.status
+          ULONG  // Field=s_locsigdevstat.s_status.old_status
+        ENDSTRUCT // End of structure=S_status
+        //
+    ENDSTRUCT // End of structure=S_sigdevstat
+    //
+ENDSTRUCT // End of structure=S_sigdev
+//
+//
+BEGINSTRUCT // Begin of structure=S_sigdev
+  USHORT,3  // Field=id
+  USHORT,1  // Field=enable
+  USHORT,501  // Field=device
+  USHORT,1  // Field=id_device
+  USHORT,5  // Field=ctrl_type
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_input[0].name
+      POINTER  // Field=s_di_input[0].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_input[1].name
+      POINTER  // Field=s_di_input[1].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_input[2].name
+      POINTER  // Field=s_di_input[2].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_ACHS01QB62"  // Field=s_di_input[3].name
+      POINTER  // Field=s_di_input[3].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_ACHS01QB15"  // Field=s_di_input[4].name
+      POINTER  // Field=s_di_input[4].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_ACHS01QB16"  // Field=s_di_input[5].name
+      POINTER  // Field=s_di_input[5].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_ACHS01QB17"  // Field=s_di_input[6].name
+      POINTER  // Field=s_di_input[6].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_ACHS01QB18"  // Field=s_di_input[7].name
+      POINTER  // Field=s_di_input[7].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+  USHORT,13  // Field=failure_bit[0]
+  USHORT,14  // Field=failure_bit[1]
+  USHORT,15  // Field=failure_bit[2]
+  USHORT,16  // Field=failure_bit[3]
+  USHORT,17  // Field=failure_bit[4]
+  USHORT,18  // Field=failure_bit[5]
+  USHORT,19  // Field=failure_bit[6]
+  USHORT,20  // Field=failure_bit[7]
+  USHORT,0  // Field=status_bit[0]
+  USHORT,0  // Field=status_bit[1]
+  USHORT,0  // Field=status_bit[2]
+  USHORT,0  // Field=status_bit[3]
+  USHORT,0  // Field=status_bit[4]
+  USHORT,0  // Field=status_bit[5]
+  USHORT,0  // Field=status_bit[6]
+  USHORT,0  // Field=status_bit[7]
+    //
+    BEGINSTRUCT // Begin of structure=S_wk_sigdev
+      USHORT  // Field=s_wk_sigdev.value
+      USHORT  // Field=s_wk_sigdev.old_value
+    ENDSTRUCT // End of structure=S_wk_sigdev
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_sigdevstat
+        //
+        BEGINSTRUCT // Begin of structure=S_counter
+          ULONG  // Field=s_locsigdevstat.s_counter_change.n_time
+          ULONG  // Field=s_locsigdevstat.s_counter_change.time
+        ENDSTRUCT // End of structure=S_counter
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_status
+          ULONG  // Field=s_locsigdevstat.s_status.status
+          ULONG  // Field=s_locsigdevstat.s_status.old_status
+        ENDSTRUCT // End of structure=S_status
+        //
+    ENDSTRUCT // End of structure=S_sigdevstat
+    //
+ENDSTRUCT // End of structure=S_sigdev
+//
+//
+BEGINSTRUCT // Begin of structure=S_sigdev
+  USHORT,4  // Field=id
+  USHORT,1  // Field=enable
+  USHORT,501  // Field=device
+  USHORT,1  // Field=id_device
+  USHORT,5  // Field=ctrl_type
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_ACHS01QB19"  // Field=s_di_input[0].name
+      POINTER  // Field=s_di_input[0].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_ACHS01QB20"  // Field=s_di_input[1].name
+      POINTER  // Field=s_di_input[1].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_input[2].name
+      POINTER  // Field=s_di_input[2].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_input[3].name
+      POINTER  // Field=s_di_input[3].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_input[4].name
+      POINTER  // Field=s_di_input[4].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_ACHS01QB24"  // Field=s_di_input[5].name
+      POINTER  // Field=s_di_input[5].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_ACHS01QB25"  // Field=s_di_input[6].name
+      POINTER  // Field=s_di_input[6].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_ACHS01QB26"  // Field=s_di_input[7].name
+      POINTER  // Field=s_di_input[7].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+  USHORT,21  // Field=failure_bit[0]
+  USHORT,22  // Field=failure_bit[1]
+  USHORT,23  // Field=failure_bit[2]
+  USHORT,24  // Field=failure_bit[3]
+  USHORT,25  // Field=failure_bit[4]
+  USHORT,26  // Field=failure_bit[5]
+  USHORT,27  // Field=failure_bit[6]
+  USHORT,28  // Field=failure_bit[7]
+  USHORT,0  // Field=status_bit[0]
+  USHORT,0  // Field=status_bit[1]
+  USHORT,0  // Field=status_bit[2]
+  USHORT,0  // Field=status_bit[3]
+  USHORT,0  // Field=status_bit[4]
+  USHORT,0  // Field=status_bit[5]
+  USHORT,0  // Field=status_bit[6]
+  USHORT,0  // Field=status_bit[7]
+    //
+    BEGINSTRUCT // Begin of structure=S_wk_sigdev
+      USHORT  // Field=s_wk_sigdev.value
+      USHORT  // Field=s_wk_sigdev.old_value
+    ENDSTRUCT // End of structure=S_wk_sigdev
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_sigdevstat
+        //
+        BEGINSTRUCT // Begin of structure=S_counter
+          ULONG  // Field=s_locsigdevstat.s_counter_change.n_time
+          ULONG  // Field=s_locsigdevstat.s_counter_change.time
+        ENDSTRUCT // End of structure=S_counter
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_status
+          ULONG  // Field=s_locsigdevstat.s_status.status
+          ULONG  // Field=s_locsigdevstat.s_status.old_status
+        ENDSTRUCT // End of structure=S_status
+        //
+    ENDSTRUCT // End of structure=S_sigdevstat
+    //
+ENDSTRUCT // End of structure=S_sigdev
+//
+//
+BEGINSTRUCT // Begin of structure=S_sigdev
+  USHORT,5  // Field=id
+  USHORT,1  // Field=enable
+  USHORT,501  // Field=device
+  USHORT,1  // Field=id_device
+  USHORT,5  // Field=ctrl_type
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_ACHS01QB27"  // Field=s_di_input[0].name
+      POINTER  // Field=s_di_input[0].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_ACHS01QB28"  // Field=s_di_input[1].name
+      POINTER  // Field=s_di_input[1].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_ACHS01QB29"  // Field=s_di_input[2].name
+      POINTER  // Field=s_di_input[2].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_ACHS01QB30"  // Field=s_di_input[3].name
+      POINTER  // Field=s_di_input[3].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_ACHS01QB31"  // Field=s_di_input[4].name
+      POINTER  // Field=s_di_input[4].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_input[5].name
+      POINTER  // Field=s_di_input[5].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_input[6].name
+      POINTER  // Field=s_di_input[6].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_ACHS01QB48"  // Field=s_di_input[7].name
+      POINTER  // Field=s_di_input[7].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+  USHORT,29  // Field=failure_bit[0]
+  USHORT,30  // Field=failure_bit[1]
+  USHORT,31  // Field=failure_bit[2]
+  USHORT,32  // Field=failure_bit[3]
+  USHORT,33  // Field=failure_bit[4]
+  USHORT,34  // Field=failure_bit[5]
+  USHORT,35  // Field=failure_bit[6]
+  USHORT,36  // Field=failure_bit[7]
+  USHORT,0  // Field=status_bit[0]
+  USHORT,0  // Field=status_bit[1]
+  USHORT,0  // Field=status_bit[2]
+  USHORT,0  // Field=status_bit[3]
+  USHORT,0  // Field=status_bit[4]
+  USHORT,0  // Field=status_bit[5]
+  USHORT,0  // Field=status_bit[6]
+  USHORT,0  // Field=status_bit[7]
+    //
+    BEGINSTRUCT // Begin of structure=S_wk_sigdev
+      USHORT  // Field=s_wk_sigdev.value
+      USHORT  // Field=s_wk_sigdev.old_value
+    ENDSTRUCT // End of structure=S_wk_sigdev
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_sigdevstat
+        //
+        BEGINSTRUCT // Begin of structure=S_counter
+          ULONG  // Field=s_locsigdevstat.s_counter_change.n_time
+          ULONG  // Field=s_locsigdevstat.s_counter_change.time
+        ENDSTRUCT // End of structure=S_counter
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_status
+          ULONG  // Field=s_locsigdevstat.s_status.status
+          ULONG  // Field=s_locsigdevstat.s_status.old_status
+        ENDSTRUCT // End of structure=S_status
+        //
+    ENDSTRUCT // End of structure=S_sigdevstat
+    //
+ENDSTRUCT // End of structure=S_sigdev
+//
+//
+BEGINSTRUCT // Begin of structure=S_sigdev
+  USHORT,6  // Field=id
+  USHORT,1  // Field=enable
+  USHORT,501  // Field=device
+  USHORT,1  // Field=id_device
+  USHORT,5  // Field=ctrl_type
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_ACHS01QB13"  // Field=s_di_input[0].name
+      POINTER  // Field=s_di_input[0].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_input[1].name
+      POINTER  // Field=s_di_input[1].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_input[2].name
+      POINTER  // Field=s_di_input[2].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_ACHS01QB44"  // Field=s_di_input[3].name
+      POINTER  // Field=s_di_input[3].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_ACHS01QB45"  // Field=s_di_input[4].name
+      POINTER  // Field=s_di_input[4].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_ACHS01QB50"  // Field=s_di_input[5].name
+      POINTER  // Field=s_di_input[5].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_ACHS01QB51"  // Field=s_di_input[6].name
+      POINTER  // Field=s_di_input[6].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_ACHS01QB55"  // Field=s_di_input[7].name
+      POINTER  // Field=s_di_input[7].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+  USHORT,37  // Field=failure_bit[0]
+  USHORT,38  // Field=failure_bit[1]
+  USHORT,39  // Field=failure_bit[2]
+  USHORT,40  // Field=failure_bit[3]
+  USHORT,41  // Field=failure_bit[4]
+  USHORT,42  // Field=failure_bit[5]
+  USHORT,43  // Field=failure_bit[6]
+  USHORT,44  // Field=failure_bit[7]
+  USHORT,0  // Field=status_bit[0]
+  USHORT,0  // Field=status_bit[1]
+  USHORT,0  // Field=status_bit[2]
+  USHORT,0  // Field=status_bit[3]
+  USHORT,0  // Field=status_bit[4]
+  USHORT,0  // Field=status_bit[5]
+  USHORT,0  // Field=status_bit[6]
+  USHORT,0  // Field=status_bit[7]
+    //
+    BEGINSTRUCT // Begin of structure=S_wk_sigdev
+      USHORT  // Field=s_wk_sigdev.value
+      USHORT  // Field=s_wk_sigdev.old_value
+    ENDSTRUCT // End of structure=S_wk_sigdev
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_sigdevstat
+        //
+        BEGINSTRUCT // Begin of structure=S_counter
+          ULONG  // Field=s_locsigdevstat.s_counter_change.n_time
+          ULONG  // Field=s_locsigdevstat.s_counter_change.time
+        ENDSTRUCT // End of structure=S_counter
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_status
+          ULONG  // Field=s_locsigdevstat.s_status.status
+          ULONG  // Field=s_locsigdevstat.s_status.old_status
+        ENDSTRUCT // End of structure=S_status
+        //
+    ENDSTRUCT // End of structure=S_sigdevstat
+    //
+ENDSTRUCT // End of structure=S_sigdev
+//
+//
+BEGINSTRUCT // Begin of structure=S_sigdev
+  USHORT,7  // Field=id
+  USHORT,1  // Field=enable
+  USHORT,501  // Field=device
+  USHORT,1  // Field=id_device
+  USHORT,5  // Field=ctrl_type
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_input[0].name
+      POINTER  // Field=s_di_input[0].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_input[1].name
+      POINTER  // Field=s_di_input[1].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_ACHS01QB64"  // Field=s_di_input[2].name
+      POINTER  // Field=s_di_input[2].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_ACHS01QB14"  // Field=s_di_input[3].name
+      POINTER  // Field=s_di_input[3].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_input[4].name
+      POINTER  // Field=s_di_input[4].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_input[5].name
+      POINTER  // Field=s_di_input[5].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_input[6].name
+      POINTER  // Field=s_di_input[6].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_ACHS01QB87"  // Field=s_di_input[7].name
+      POINTER  // Field=s_di_input[7].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+  USHORT,45  // Field=failure_bit[0]
+  USHORT,46  // Field=failure_bit[1]
+  USHORT,47  // Field=failure_bit[2]
+  USHORT,48  // Field=failure_bit[3]
+  USHORT,49  // Field=failure_bit[4]
+  USHORT,50  // Field=failure_bit[5]
+  USHORT,51  // Field=failure_bit[6]
+  USHORT,52  // Field=failure_bit[7]
+  USHORT,0  // Field=status_bit[0]
+  USHORT,0  // Field=status_bit[1]
+  USHORT,0  // Field=status_bit[2]
+  USHORT,0  // Field=status_bit[3]
+  USHORT,0  // Field=status_bit[4]
+  USHORT,0  // Field=status_bit[5]
+  USHORT,0  // Field=status_bit[6]
+  USHORT,0  // Field=status_bit[7]
+    //
+    BEGINSTRUCT // Begin of structure=S_wk_sigdev
+      USHORT  // Field=s_wk_sigdev.value
+      USHORT  // Field=s_wk_sigdev.old_value
+    ENDSTRUCT // End of structure=S_wk_sigdev
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_sigdevstat
+        //
+        BEGINSTRUCT // Begin of structure=S_counter
+          ULONG  // Field=s_locsigdevstat.s_counter_change.n_time
+          ULONG  // Field=s_locsigdevstat.s_counter_change.time
+        ENDSTRUCT // End of structure=S_counter
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_status
+          ULONG  // Field=s_locsigdevstat.s_status.status
+          ULONG  // Field=s_locsigdevstat.s_status.old_status
+        ENDSTRUCT // End of structure=S_status
+        //
+    ENDSTRUCT // End of structure=S_sigdevstat
+    //
+ENDSTRUCT // End of structure=S_sigdev
+//
+//
+BEGINSTRUCT // Begin of structure=S_sigdev
+  USHORT,8  // Field=id
+  USHORT,1  // Field=enable
+  USHORT,502  // Field=device
+  USHORT,2  // Field=id_device
+  USHORT,5  // Field=ctrl_type
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_TEMPPWR_02"  // Field=s_di_input[0].name
+      POINTER  // Field=s_di_input[0].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_TEMPSIG_02"  // Field=s_di_input[1].name
+      POINTER  // Field=s_di_input[1].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"0"  // Field=s_di_input[2].name
+      POINTER  // Field=s_di_input[2].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"0"  // Field=s_di_input[3].name
+      POINTER  // Field=s_di_input[3].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"0"  // Field=s_di_input[4].name
+      POINTER  // Field=s_di_input[4].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"0"  // Field=s_di_input[5].name
+      POINTER  // Field=s_di_input[5].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"0"  // Field=s_di_input[6].name
+      POINTER  // Field=s_di_input[6].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"0"  // Field=s_di_input[7].name
+      POINTER  // Field=s_di_input[7].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+  USHORT,1  // Field=failure_bit[0]
+  USHORT,2  // Field=failure_bit[1]
+  USHORT,0  // Field=failure_bit[2]
+  USHORT,0  // Field=failure_bit[3]
+  USHORT,0  // Field=failure_bit[4]
+  USHORT,0  // Field=failure_bit[5]
+  USHORT,0  // Field=failure_bit[6]
+  USHORT,0  // Field=failure_bit[7]
+  USHORT,0  // Field=status_bit[0]
+  USHORT,0  // Field=status_bit[1]
+  USHORT,0  // Field=status_bit[2]
+  USHORT,0  // Field=status_bit[3]
+  USHORT,0  // Field=status_bit[4]
+  USHORT,0  // Field=status_bit[5]
+  USHORT,0  // Field=status_bit[6]
+  USHORT,0  // Field=status_bit[7]
+    //
+    BEGINSTRUCT // Begin of structure=S_wk_sigdev
+      USHORT  // Field=s_wk_sigdev.value
+      USHORT  // Field=s_wk_sigdev.old_value
+    ENDSTRUCT // End of structure=S_wk_sigdev
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_sigdevstat
+        //
+        BEGINSTRUCT // Begin of structure=S_counter
+          ULONG  // Field=s_locsigdevstat.s_counter_change.n_time
+          ULONG  // Field=s_locsigdevstat.s_counter_change.time
+        ENDSTRUCT // End of structure=S_counter
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_status
+          ULONG  // Field=s_locsigdevstat.s_status.status
+          ULONG  // Field=s_locsigdevstat.s_status.old_status
+        ENDSTRUCT // End of structure=S_status
+        //
+    ENDSTRUCT // End of structure=S_sigdevstat
+    //
+ENDSTRUCT // End of structure=S_sigdev
+//
+//
+BEGINSTRUCT // Begin of structure=S_sigdev
+  USHORT,9  // Field=id
+  USHORT,1  // Field=enable
+  USHORT,502  // Field=device
+  USHORT,2  // Field=id_device
+  USHORT,5  // Field=ctrl_type
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_ACHS02QB20"  // Field=s_di_input[0].name
+      POINTER  // Field=s_di_input[0].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_ACHS02QB21"  // Field=s_di_input[1].name
+      POINTER  // Field=s_di_input[1].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_ACHS02QB22"  // Field=s_di_input[2].name
+      POINTER  // Field=s_di_input[2].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_ACHS02QB25"  // Field=s_di_input[3].name
+      POINTER  // Field=s_di_input[3].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_ACHS02QB35"  // Field=s_di_input[4].name
+      POINTER  // Field=s_di_input[4].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_ACHS02QB36"  // Field=s_di_input[5].name
+      POINTER  // Field=s_di_input[5].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_input[6].name
+      POINTER  // Field=s_di_input[6].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_input[7].name
+      POINTER  // Field=s_di_input[7].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+  USHORT,3  // Field=failure_bit[0]
+  USHORT,4  // Field=failure_bit[1]
+  USHORT,5  // Field=failure_bit[2]
+  USHORT,6  // Field=failure_bit[3]
+  USHORT,7  // Field=failure_bit[4]
+  USHORT,8  // Field=failure_bit[5]
+  USHORT,9  // Field=failure_bit[6]
+  USHORT,10  // Field=failure_bit[7]
+  USHORT,0  // Field=status_bit[0]
+  USHORT,0  // Field=status_bit[1]
+  USHORT,0  // Field=status_bit[2]
+  USHORT,0  // Field=status_bit[3]
+  USHORT,0  // Field=status_bit[4]
+  USHORT,0  // Field=status_bit[5]
+  USHORT,0  // Field=status_bit[6]
+  USHORT,0  // Field=status_bit[7]
+    //
+    BEGINSTRUCT // Begin of structure=S_wk_sigdev
+      USHORT  // Field=s_wk_sigdev.value
+      USHORT  // Field=s_wk_sigdev.old_value
+    ENDSTRUCT // End of structure=S_wk_sigdev
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_sigdevstat
+        //
+        BEGINSTRUCT // Begin of structure=S_counter
+          ULONG  // Field=s_locsigdevstat.s_counter_change.n_time
+          ULONG  // Field=s_locsigdevstat.s_counter_change.time
+        ENDSTRUCT // End of structure=S_counter
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_status
+          ULONG  // Field=s_locsigdevstat.s_status.status
+          ULONG  // Field=s_locsigdevstat.s_status.old_status
+        ENDSTRUCT // End of structure=S_status
+        //
+    ENDSTRUCT // End of structure=S_sigdevstat
+    //
+ENDSTRUCT // End of structure=S_sigdev
+//
+//
+BEGINSTRUCT // Begin of structure=S_sigdev
+  USHORT,10  // Field=id
+  USHORT,1  // Field=enable
+  USHORT,502  // Field=device
+  USHORT,2  // Field=id_device
+  USHORT,5  // Field=ctrl_type
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_input[0].name
+      POINTER  // Field=s_di_input[0].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_input[1].name
+      POINTER  // Field=s_di_input[1].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_input[2].name
+      POINTER  // Field=s_di_input[2].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_input[3].name
+      POINTER  // Field=s_di_input[3].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_ACHS02QB05"  // Field=s_di_input[4].name
+      POINTER  // Field=s_di_input[4].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_ACHS02QB06"  // Field=s_di_input[5].name
+      POINTER  // Field=s_di_input[5].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_ACHS02QB07"  // Field=s_di_input[6].name
+      POINTER  // Field=s_di_input[6].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_ACHS02QB08"  // Field=s_di_input[7].name
+      POINTER  // Field=s_di_input[7].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+  USHORT,11  // Field=failure_bit[0]
+  USHORT,12  // Field=failure_bit[1]
+  USHORT,13  // Field=failure_bit[2]
+  USHORT,14  // Field=failure_bit[3]
+  USHORT,15  // Field=failure_bit[4]
+  USHORT,16  // Field=failure_bit[5]
+  USHORT,17  // Field=failure_bit[6]
+  USHORT,18  // Field=failure_bit[7]
+  USHORT,0  // Field=status_bit[0]
+  USHORT,0  // Field=status_bit[1]
+  USHORT,0  // Field=status_bit[2]
+  USHORT,0  // Field=status_bit[3]
+  USHORT,0  // Field=status_bit[4]
+  USHORT,0  // Field=status_bit[5]
+  USHORT,0  // Field=status_bit[6]
+  USHORT,0  // Field=status_bit[7]
+    //
+    BEGINSTRUCT // Begin of structure=S_wk_sigdev
+      USHORT  // Field=s_wk_sigdev.value
+      USHORT  // Field=s_wk_sigdev.old_value
+    ENDSTRUCT // End of structure=S_wk_sigdev
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_sigdevstat
+        //
+        BEGINSTRUCT // Begin of structure=S_counter
+          ULONG  // Field=s_locsigdevstat.s_counter_change.n_time
+          ULONG  // Field=s_locsigdevstat.s_counter_change.time
+        ENDSTRUCT // End of structure=S_counter
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_status
+          ULONG  // Field=s_locsigdevstat.s_status.status
+          ULONG  // Field=s_locsigdevstat.s_status.old_status
+        ENDSTRUCT // End of structure=S_status
+        //
+    ENDSTRUCT // End of structure=S_sigdevstat
+    //
+ENDSTRUCT // End of structure=S_sigdev
+//
+//
+BEGINSTRUCT // Begin of structure=S_sigdev
+  USHORT,11  // Field=id
+  USHORT,1  // Field=enable
+  USHORT,502  // Field=device
+  USHORT,2  // Field=id_device
+  USHORT,5  // Field=ctrl_type
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_ACHS02QB09"  // Field=s_di_input[0].name
+      POINTER  // Field=s_di_input[0].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_input[1].name
+      POINTER  // Field=s_di_input[1].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_ACHS02QB02"  // Field=s_di_input[2].name
+      POINTER  // Field=s_di_input[2].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_ACHS02QB03"  // Field=s_di_input[3].name
+      POINTER  // Field=s_di_input[3].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_ACHS02QB04"  // Field=s_di_input[4].name
+      POINTER  // Field=s_di_input[4].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_input[5].name
+      POINTER  // Field=s_di_input[5].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_input[6].name
+      POINTER  // Field=s_di_input[6].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_input[7].name
+      POINTER  // Field=s_di_input[7].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+  USHORT,19  // Field=failure_bit[0]
+  USHORT,20  // Field=failure_bit[1]
+  USHORT,21  // Field=failure_bit[2]
+  USHORT,22  // Field=failure_bit[3]
+  USHORT,23  // Field=failure_bit[4]
+  USHORT,24  // Field=failure_bit[5]
+  USHORT,25  // Field=failure_bit[6]
+  USHORT,26  // Field=failure_bit[7]
+  USHORT,0  // Field=status_bit[0]
+  USHORT,0  // Field=status_bit[1]
+  USHORT,0  // Field=status_bit[2]
+  USHORT,0  // Field=status_bit[3]
+  USHORT,0  // Field=status_bit[4]
+  USHORT,0  // Field=status_bit[5]
+  USHORT,0  // Field=status_bit[6]
+  USHORT,0  // Field=status_bit[7]
+    //
+    BEGINSTRUCT // Begin of structure=S_wk_sigdev
+      USHORT  // Field=s_wk_sigdev.value
+      USHORT  // Field=s_wk_sigdev.old_value
+    ENDSTRUCT // End of structure=S_wk_sigdev
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_sigdevstat
+        //
+        BEGINSTRUCT // Begin of structure=S_counter
+          ULONG  // Field=s_locsigdevstat.s_counter_change.n_time
+          ULONG  // Field=s_locsigdevstat.s_counter_change.time
+        ENDSTRUCT // End of structure=S_counter
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_status
+          ULONG  // Field=s_locsigdevstat.s_status.status
+          ULONG  // Field=s_locsigdevstat.s_status.old_status
+        ENDSTRUCT // End of structure=S_status
+        //
+    ENDSTRUCT // End of structure=S_sigdevstat
+    //
+ENDSTRUCT // End of structure=S_sigdev
+//
+//
+BEGINSTRUCT // Begin of structure=S_sigdev
+  USHORT,12  // Field=id
+  USHORT,1  // Field=enable
+  USHORT,502  // Field=device
+  USHORT,2  // Field=id_device
+  USHORT,5  // Field=ctrl_type
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_ACHS02QB23"  // Field=s_di_input[0].name
+      POINTER  // Field=s_di_input[0].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_ACHS02QB24"  // Field=s_di_input[1].name
+      POINTER  // Field=s_di_input[1].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_ACHS02QB28"  // Field=s_di_input[2].name
+      POINTER  // Field=s_di_input[2].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_ACHS02QB29"  // Field=s_di_input[3].name
+      POINTER  // Field=s_di_input[3].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_ACHS02QB32"  // Field=s_di_input[4].name
+      POINTER  // Field=s_di_input[4].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_input[5].name
+      POINTER  // Field=s_di_input[5].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_input[6].name
+      POINTER  // Field=s_di_input[6].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_input[7].name
+      POINTER  // Field=s_di_input[7].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+  USHORT,27  // Field=failure_bit[0]
+  USHORT,28  // Field=failure_bit[1]
+  USHORT,29  // Field=failure_bit[2]
+  USHORT,30  // Field=failure_bit[3]
+  USHORT,31  // Field=failure_bit[4]
+  USHORT,32  // Field=failure_bit[5]
+  USHORT,0  // Field=failure_bit[6]
+  USHORT,0  // Field=failure_bit[7]
+  USHORT,0  // Field=status_bit[0]
+  USHORT,0  // Field=status_bit[1]
+  USHORT,0  // Field=status_bit[2]
+  USHORT,0  // Field=status_bit[3]
+  USHORT,0  // Field=status_bit[4]
+  USHORT,0  // Field=status_bit[5]
+  USHORT,0  // Field=status_bit[6]
+  USHORT,0  // Field=status_bit[7]
+    //
+    BEGINSTRUCT // Begin of structure=S_wk_sigdev
+      USHORT  // Field=s_wk_sigdev.value
+      USHORT  // Field=s_wk_sigdev.old_value
+    ENDSTRUCT // End of structure=S_wk_sigdev
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_sigdevstat
+        //
+        BEGINSTRUCT // Begin of structure=S_counter
+          ULONG  // Field=s_locsigdevstat.s_counter_change.n_time
+          ULONG  // Field=s_locsigdevstat.s_counter_change.time
+        ENDSTRUCT // End of structure=S_counter
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_status
+          ULONG  // Field=s_locsigdevstat.s_status.status
+          ULONG  // Field=s_locsigdevstat.s_status.old_status
+        ENDSTRUCT // End of structure=S_status
+        //
+    ENDSTRUCT // End of structure=S_sigdevstat
+    //
+ENDSTRUCT // End of structure=S_sigdev
+//
+//
+BEGINSTRUCT // Begin of structure=S_sigdev
+  USHORT,13  // Field=id
+  USHORT,1  // Field=enable
+  USHORT,503  // Field=device
+  USHORT,3  // Field=id_device
+  USHORT,5  // Field=ctrl_type
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_TEMPPWR_03"  // Field=s_di_input[0].name
+      POINTER  // Field=s_di_input[0].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_TEMPSIG_03"  // Field=s_di_input[1].name
+      POINTER  // Field=s_di_input[1].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"0"  // Field=s_di_input[2].name
+      POINTER  // Field=s_di_input[2].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"0"  // Field=s_di_input[3].name
+      POINTER  // Field=s_di_input[3].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"0"  // Field=s_di_input[4].name
+      POINTER  // Field=s_di_input[4].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"0"  // Field=s_di_input[5].name
+      POINTER  // Field=s_di_input[5].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"0"  // Field=s_di_input[6].name
+      POINTER  // Field=s_di_input[6].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"0"  // Field=s_di_input[7].name
+      POINTER  // Field=s_di_input[7].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+  USHORT,1  // Field=failure_bit[0]
+  USHORT,2  // Field=failure_bit[1]
+  USHORT,0  // Field=failure_bit[2]
+  USHORT,0  // Field=failure_bit[3]
+  USHORT,0  // Field=failure_bit[4]
+  USHORT,0  // Field=failure_bit[5]
+  USHORT,0  // Field=failure_bit[6]
+  USHORT,0  // Field=failure_bit[7]
+  USHORT,0  // Field=status_bit[0]
+  USHORT,0  // Field=status_bit[1]
+  USHORT,0  // Field=status_bit[2]
+  USHORT,0  // Field=status_bit[3]
+  USHORT,0  // Field=status_bit[4]
+  USHORT,0  // Field=status_bit[5]
+  USHORT,0  // Field=status_bit[6]
+  USHORT,0  // Field=status_bit[7]
+    //
+    BEGINSTRUCT // Begin of structure=S_wk_sigdev
+      USHORT  // Field=s_wk_sigdev.value
+      USHORT  // Field=s_wk_sigdev.old_value
+    ENDSTRUCT // End of structure=S_wk_sigdev
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_sigdevstat
+        //
+        BEGINSTRUCT // Begin of structure=S_counter
+          ULONG  // Field=s_locsigdevstat.s_counter_change.n_time
+          ULONG  // Field=s_locsigdevstat.s_counter_change.time
+        ENDSTRUCT // End of structure=S_counter
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_status
+          ULONG  // Field=s_locsigdevstat.s_status.status
+          ULONG  // Field=s_locsigdevstat.s_status.old_status
+        ENDSTRUCT // End of structure=S_status
+        //
+    ENDSTRUCT // End of structure=S_sigdevstat
+    //
+ENDSTRUCT // End of structure=S_sigdev
+//
+//
+BEGINSTRUCT // Begin of structure=S_sigdev
+  USHORT,14  // Field=id
+  USHORT,1  // Field=enable
+  USHORT,503  // Field=device
+  USHORT,3  // Field=id_device
+  USHORT,5  // Field=ctrl_type
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_ACHS03QB20"  // Field=s_di_input[0].name
+      POINTER  // Field=s_di_input[0].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_ACHS03QB21"  // Field=s_di_input[1].name
+      POINTER  // Field=s_di_input[1].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_ACHS03QB22"  // Field=s_di_input[2].name
+      POINTER  // Field=s_di_input[2].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_ACHS03QB25"  // Field=s_di_input[3].name
+      POINTER  // Field=s_di_input[3].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_ACHS03QB35"  // Field=s_di_input[4].name
+      POINTER  // Field=s_di_input[4].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_ACHS03QB36"  // Field=s_di_input[5].name
+      POINTER  // Field=s_di_input[5].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_input[6].name
+      POINTER  // Field=s_di_input[6].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_input[7].name
+      POINTER  // Field=s_di_input[7].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+  USHORT,3  // Field=failure_bit[0]
+  USHORT,4  // Field=failure_bit[1]
+  USHORT,5  // Field=failure_bit[2]
+  USHORT,6  // Field=failure_bit[3]
+  USHORT,7  // Field=failure_bit[4]
+  USHORT,8  // Field=failure_bit[5]
+  USHORT,9  // Field=failure_bit[6]
+  USHORT,10  // Field=failure_bit[7]
+  USHORT,0  // Field=status_bit[0]
+  USHORT,0  // Field=status_bit[1]
+  USHORT,0  // Field=status_bit[2]
+  USHORT,0  // Field=status_bit[3]
+  USHORT,0  // Field=status_bit[4]
+  USHORT,0  // Field=status_bit[5]
+  USHORT,0  // Field=status_bit[6]
+  USHORT,0  // Field=status_bit[7]
+    //
+    BEGINSTRUCT // Begin of structure=S_wk_sigdev
+      USHORT  // Field=s_wk_sigdev.value
+      USHORT  // Field=s_wk_sigdev.old_value
+    ENDSTRUCT // End of structure=S_wk_sigdev
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_sigdevstat
+        //
+        BEGINSTRUCT // Begin of structure=S_counter
+          ULONG  // Field=s_locsigdevstat.s_counter_change.n_time
+          ULONG  // Field=s_locsigdevstat.s_counter_change.time
+        ENDSTRUCT // End of structure=S_counter
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_status
+          ULONG  // Field=s_locsigdevstat.s_status.status
+          ULONG  // Field=s_locsigdevstat.s_status.old_status
+        ENDSTRUCT // End of structure=S_status
+        //
+    ENDSTRUCT // End of structure=S_sigdevstat
+    //
+ENDSTRUCT // End of structure=S_sigdev
+//
+//
+BEGINSTRUCT // Begin of structure=S_sigdev
+  USHORT,15  // Field=id
+  USHORT,1  // Field=enable
+  USHORT,503  // Field=device
+  USHORT,3  // Field=id_device
+  USHORT,5  // Field=ctrl_type
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_input[0].name
+      POINTER  // Field=s_di_input[0].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_input[1].name
+      POINTER  // Field=s_di_input[1].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_input[2].name
+      POINTER  // Field=s_di_input[2].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_input[3].name
+      POINTER  // Field=s_di_input[3].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_ACHS03QB06"  // Field=s_di_input[4].name
+      POINTER  // Field=s_di_input[4].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_ACHS03QB07"  // Field=s_di_input[5].name
+      POINTER  // Field=s_di_input[5].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_input[6].name
+      POINTER  // Field=s_di_input[6].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_ACHS03QB11"  // Field=s_di_input[7].name
+      POINTER  // Field=s_di_input[7].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+  USHORT,11  // Field=failure_bit[0]
+  USHORT,12  // Field=failure_bit[1]
+  USHORT,13  // Field=failure_bit[2]
+  USHORT,14  // Field=failure_bit[3]
+  USHORT,15  // Field=failure_bit[4]
+  USHORT,16  // Field=failure_bit[5]
+  USHORT,17  // Field=failure_bit[6]
+  USHORT,18  // Field=failure_bit[7]
+  USHORT,0  // Field=status_bit[0]
+  USHORT,0  // Field=status_bit[1]
+  USHORT,0  // Field=status_bit[2]
+  USHORT,0  // Field=status_bit[3]
+  USHORT,0  // Field=status_bit[4]
+  USHORT,0  // Field=status_bit[5]
+  USHORT,0  // Field=status_bit[6]
+  USHORT,0  // Field=status_bit[7]
+    //
+    BEGINSTRUCT // Begin of structure=S_wk_sigdev
+      USHORT  // Field=s_wk_sigdev.value
+      USHORT  // Field=s_wk_sigdev.old_value
+    ENDSTRUCT // End of structure=S_wk_sigdev
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_sigdevstat
+        //
+        BEGINSTRUCT // Begin of structure=S_counter
+          ULONG  // Field=s_locsigdevstat.s_counter_change.n_time
+          ULONG  // Field=s_locsigdevstat.s_counter_change.time
+        ENDSTRUCT // End of structure=S_counter
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_status
+          ULONG  // Field=s_locsigdevstat.s_status.status
+          ULONG  // Field=s_locsigdevstat.s_status.old_status
+        ENDSTRUCT // End of structure=S_status
+        //
+    ENDSTRUCT // End of structure=S_sigdevstat
+    //
+ENDSTRUCT // End of structure=S_sigdev
+//
+//
+BEGINSTRUCT // Begin of structure=S_sigdev
+  USHORT,16  // Field=id
+  USHORT,1  // Field=enable
+  USHORT,503  // Field=device
+  USHORT,3  // Field=id_device
+  USHORT,5  // Field=ctrl_type
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_ACHS03QB02"  // Field=s_di_input[0].name
+      POINTER  // Field=s_di_input[0].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_ACHS03QB03"  // Field=s_di_input[1].name
+      POINTER  // Field=s_di_input[1].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_ACHS03QB04"  // Field=s_di_input[2].name
+      POINTER  // Field=s_di_input[2].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_input[3].name
+      POINTER  // Field=s_di_input[3].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_input[4].name
+      POINTER  // Field=s_di_input[4].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_input[5].name
+      POINTER  // Field=s_di_input[5].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_ACHS03QB23"  // Field=s_di_input[6].name
+      POINTER  // Field=s_di_input[6].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_ACHS03QB24"  // Field=s_di_input[7].name
+      POINTER  // Field=s_di_input[7].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+  USHORT,19  // Field=failure_bit[0]
+  USHORT,20  // Field=failure_bit[1]
+  USHORT,21  // Field=failure_bit[2]
+  USHORT,22  // Field=failure_bit[3]
+  USHORT,23  // Field=failure_bit[4]
+  USHORT,24  // Field=failure_bit[5]
+  USHORT,25  // Field=failure_bit[6]
+  USHORT,26  // Field=failure_bit[7]
+  USHORT,0  // Field=status_bit[0]
+  USHORT,0  // Field=status_bit[1]
+  USHORT,0  // Field=status_bit[2]
+  USHORT,0  // Field=status_bit[3]
+  USHORT,0  // Field=status_bit[4]
+  USHORT,0  // Field=status_bit[5]
+  USHORT,0  // Field=status_bit[6]
+  USHORT,0  // Field=status_bit[7]
+    //
+    BEGINSTRUCT // Begin of structure=S_wk_sigdev
+      USHORT  // Field=s_wk_sigdev.value
+      USHORT  // Field=s_wk_sigdev.old_value
+    ENDSTRUCT // End of structure=S_wk_sigdev
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_sigdevstat
+        //
+        BEGINSTRUCT // Begin of structure=S_counter
+          ULONG  // Field=s_locsigdevstat.s_counter_change.n_time
+          ULONG  // Field=s_locsigdevstat.s_counter_change.time
+        ENDSTRUCT // End of structure=S_counter
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_status
+          ULONG  // Field=s_locsigdevstat.s_status.status
+          ULONG  // Field=s_locsigdevstat.s_status.old_status
+        ENDSTRUCT // End of structure=S_status
+        //
+    ENDSTRUCT // End of structure=S_sigdevstat
+    //
+ENDSTRUCT // End of structure=S_sigdev
+//
+//
+BEGINSTRUCT // Begin of structure=S_sigdev
+  USHORT,17  // Field=id
+  USHORT,1  // Field=enable
+  USHORT,503  // Field=device
+  USHORT,3  // Field=id_device
+  USHORT,5  // Field=ctrl_type
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_ACHS03QB28"  // Field=s_di_input[0].name
+      POINTER  // Field=s_di_input[0].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_ACHS03QB32"  // Field=s_di_input[1].name
+      POINTER  // Field=s_di_input[1].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_input[2].name
+      POINTER  // Field=s_di_input[2].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"0"  // Field=s_di_input[3].name
+      POINTER  // Field=s_di_input[3].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"0"  // Field=s_di_input[4].name
+      POINTER  // Field=s_di_input[4].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"0"  // Field=s_di_input[5].name
+      POINTER  // Field=s_di_input[5].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"0"  // Field=s_di_input[6].name
+      POINTER  // Field=s_di_input[6].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"0"  // Field=s_di_input[7].name
+      POINTER  // Field=s_di_input[7].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+  USHORT,27  // Field=failure_bit[0]
+  USHORT,28  // Field=failure_bit[1]
+  USHORT,29  // Field=failure_bit[2]
+  USHORT,0  // Field=failure_bit[3]
+  USHORT,0  // Field=failure_bit[4]
+  USHORT,0  // Field=failure_bit[5]
+  USHORT,0  // Field=failure_bit[6]
+  USHORT,0  // Field=failure_bit[7]
+  USHORT,0  // Field=status_bit[0]
+  USHORT,0  // Field=status_bit[1]
+  USHORT,0  // Field=status_bit[2]
+  USHORT,0  // Field=status_bit[3]
+  USHORT,0  // Field=status_bit[4]
+  USHORT,0  // Field=status_bit[5]
+  USHORT,0  // Field=status_bit[6]
+  USHORT,0  // Field=status_bit[7]
+    //
+    BEGINSTRUCT // Begin of structure=S_wk_sigdev
+      USHORT  // Field=s_wk_sigdev.value
+      USHORT  // Field=s_wk_sigdev.old_value
+    ENDSTRUCT // End of structure=S_wk_sigdev
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_sigdevstat
+        //
+        BEGINSTRUCT // Begin of structure=S_counter
+          ULONG  // Field=s_locsigdevstat.s_counter_change.n_time
+          ULONG  // Field=s_locsigdevstat.s_counter_change.time
+        ENDSTRUCT // End of structure=S_counter
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_status
+          ULONG  // Field=s_locsigdevstat.s_status.status
+          ULONG  // Field=s_locsigdevstat.s_status.old_status
+        ENDSTRUCT // End of structure=S_status
+        //
+    ENDSTRUCT // End of structure=S_sigdevstat
+    //
+ENDSTRUCT // End of structure=S_sigdev
+//
+//
+BEGINSTRUCT // Begin of structure=S_sigdev
+  USHORT,18  // Field=id
+  USHORT,1  // Field=enable
+  USHORT,510  // Field=device
+  USHORT,51  // Field=id_device
+  USHORT,5  // Field=ctrl_type
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_ES51_QB01"  // Field=s_di_input[0].name
+      POINTER  // Field=s_di_input[0].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_ES51_QB04"  // Field=s_di_input[1].name
+      POINTER  // Field=s_di_input[1].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_ES51_QB02"  // Field=s_di_input[2].name
+      POINTER  // Field=s_di_input[2].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_ES51_QB03"  // Field=s_di_input[3].name
+      POINTER  // Field=s_di_input[3].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_ES51_QB08"  // Field=s_di_input[4].name
+      POINTER  // Field=s_di_input[4].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_ES51_QB09"  // Field=s_di_input[5].name
+      POINTER  // Field=s_di_input[5].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_ES51_QB10"  // Field=s_di_input[6].name
+      POINTER  // Field=s_di_input[6].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_input[7].name
+      POINTER  // Field=s_di_input[7].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+  USHORT,1  // Field=failure_bit[0]
+  USHORT,2  // Field=failure_bit[1]
+  USHORT,3  // Field=failure_bit[2]
+  USHORT,4  // Field=failure_bit[3]
+  USHORT,5  // Field=failure_bit[4]
+  USHORT,6  // Field=failure_bit[5]
+  USHORT,7  // Field=failure_bit[6]
+  USHORT,0  // Field=failure_bit[7]
+  USHORT,0  // Field=status_bit[0]
+  USHORT,0  // Field=status_bit[1]
+  USHORT,0  // Field=status_bit[2]
+  USHORT,0  // Field=status_bit[3]
+  USHORT,0  // Field=status_bit[4]
+  USHORT,0  // Field=status_bit[5]
+  USHORT,0  // Field=status_bit[6]
+  USHORT,0  // Field=status_bit[7]
+    //
+    BEGINSTRUCT // Begin of structure=S_wk_sigdev
+      USHORT  // Field=s_wk_sigdev.value
+      USHORT  // Field=s_wk_sigdev.old_value
+    ENDSTRUCT // End of structure=S_wk_sigdev
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_sigdevstat
+        //
+        BEGINSTRUCT // Begin of structure=S_counter
+          ULONG  // Field=s_locsigdevstat.s_counter_change.n_time
+          ULONG  // Field=s_locsigdevstat.s_counter_change.time
+        ENDSTRUCT // End of structure=S_counter
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_status
+          ULONG  // Field=s_locsigdevstat.s_status.status
+          ULONG  // Field=s_locsigdevstat.s_status.old_status
+        ENDSTRUCT // End of structure=S_status
+        //
+    ENDSTRUCT // End of structure=S_sigdevstat
+    //
+ENDSTRUCT // End of structure=S_sigdev
+//
+//
+BEGINSTRUCT // Begin of structure=S_sigdev
+  USHORT,19  // Field=id
+  USHORT,1  // Field=enable
+  USHORT,510  // Field=device
+  USHORT,52  // Field=id_device
+  USHORT,5  // Field=ctrl_type
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_ES52_QB01"  // Field=s_di_input[0].name
+      POINTER  // Field=s_di_input[0].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_ES52_QB04"  // Field=s_di_input[1].name
+      POINTER  // Field=s_di_input[1].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_ES52_QB02"  // Field=s_di_input[2].name
+      POINTER  // Field=s_di_input[2].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_ES52_QB03"  // Field=s_di_input[3].name
+      POINTER  // Field=s_di_input[3].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_ES52_QB08"  // Field=s_di_input[4].name
+      POINTER  // Field=s_di_input[4].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_ES52_QB09"  // Field=s_di_input[5].name
+      POINTER  // Field=s_di_input[5].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_ES52_QB10"  // Field=s_di_input[6].name
+      POINTER  // Field=s_di_input[6].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_input[7].name
+      POINTER  // Field=s_di_input[7].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+  USHORT,1  // Field=failure_bit[0]
+  USHORT,2  // Field=failure_bit[1]
+  USHORT,3  // Field=failure_bit[2]
+  USHORT,4  // Field=failure_bit[3]
+  USHORT,5  // Field=failure_bit[4]
+  USHORT,6  // Field=failure_bit[5]
+  USHORT,7  // Field=failure_bit[6]
+  USHORT,0  // Field=failure_bit[7]
+  USHORT,0  // Field=status_bit[0]
+  USHORT,0  // Field=status_bit[1]
+  USHORT,0  // Field=status_bit[2]
+  USHORT,0  // Field=status_bit[3]
+  USHORT,0  // Field=status_bit[4]
+  USHORT,0  // Field=status_bit[5]
+  USHORT,0  // Field=status_bit[6]
+  USHORT,0  // Field=status_bit[7]
+    //
+    BEGINSTRUCT // Begin of structure=S_wk_sigdev
+      USHORT  // Field=s_wk_sigdev.value
+      USHORT  // Field=s_wk_sigdev.old_value
+    ENDSTRUCT // End of structure=S_wk_sigdev
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_sigdevstat
+        //
+        BEGINSTRUCT // Begin of structure=S_counter
+          ULONG  // Field=s_locsigdevstat.s_counter_change.n_time
+          ULONG  // Field=s_locsigdevstat.s_counter_change.time
+        ENDSTRUCT // End of structure=S_counter
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_status
+          ULONG  // Field=s_locsigdevstat.s_status.status
+          ULONG  // Field=s_locsigdevstat.s_status.old_status
+        ENDSTRUCT // End of structure=S_status
+        //
+    ENDSTRUCT // End of structure=S_sigdevstat
+    //
+ENDSTRUCT // End of structure=S_sigdev
+//
+//
+BEGINSTRUCT // Begin of structure=S_sigdev
+  USHORT,20  // Field=id
+  USHORT,1  // Field=enable
+  USHORT,510  // Field=device
+  USHORT,61  // Field=id_device
+  USHORT,5  // Field=ctrl_type
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_ES61_QB01"  // Field=s_di_input[0].name
+      POINTER  // Field=s_di_input[0].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_ES61_QB04"  // Field=s_di_input[1].name
+      POINTER  // Field=s_di_input[1].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_ES61_QB02"  // Field=s_di_input[2].name
+      POINTER  // Field=s_di_input[2].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_ES61_QB03"  // Field=s_di_input[3].name
+      POINTER  // Field=s_di_input[3].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_ES61_QB08"  // Field=s_di_input[4].name
+      POINTER  // Field=s_di_input[4].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_ES61_QB09"  // Field=s_di_input[5].name
+      POINTER  // Field=s_di_input[5].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_ES61_QB10"  // Field=s_di_input[6].name
+      POINTER  // Field=s_di_input[6].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_input[7].name
+      POINTER  // Field=s_di_input[7].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+  USHORT,1  // Field=failure_bit[0]
+  USHORT,2  // Field=failure_bit[1]
+  USHORT,3  // Field=failure_bit[2]
+  USHORT,4  // Field=failure_bit[3]
+  USHORT,5  // Field=failure_bit[4]
+  USHORT,6  // Field=failure_bit[5]
+  USHORT,7  // Field=failure_bit[6]
+  USHORT,0  // Field=failure_bit[7]
+  USHORT,0  // Field=status_bit[0]
+  USHORT,0  // Field=status_bit[1]
+  USHORT,0  // Field=status_bit[2]
+  USHORT,0  // Field=status_bit[3]
+  USHORT,0  // Field=status_bit[4]
+  USHORT,0  // Field=status_bit[5]
+  USHORT,0  // Field=status_bit[6]
+  USHORT,0  // Field=status_bit[7]
+    //
+    BEGINSTRUCT // Begin of structure=S_wk_sigdev
+      USHORT  // Field=s_wk_sigdev.value
+      USHORT  // Field=s_wk_sigdev.old_value
+    ENDSTRUCT // End of structure=S_wk_sigdev
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_sigdevstat
+        //
+        BEGINSTRUCT // Begin of structure=S_counter
+          ULONG  // Field=s_locsigdevstat.s_counter_change.n_time
+          ULONG  // Field=s_locsigdevstat.s_counter_change.time
+        ENDSTRUCT // End of structure=S_counter
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_status
+          ULONG  // Field=s_locsigdevstat.s_status.status
+          ULONG  // Field=s_locsigdevstat.s_status.old_status
+        ENDSTRUCT // End of structure=S_status
+        //
+    ENDSTRUCT // End of structure=S_sigdevstat
+    //
+ENDSTRUCT // End of structure=S_sigdev
+//
+//
+BEGINSTRUCT // Begin of structure=S_sigdev
+  USHORT,21  // Field=id
+  USHORT,1  // Field=enable
+  USHORT,510  // Field=device
+  USHORT,62  // Field=id_device
+  USHORT,5  // Field=ctrl_type
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_ES62_QB01"  // Field=s_di_input[0].name
+      POINTER  // Field=s_di_input[0].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_ES62_QB04"  // Field=s_di_input[1].name
+      POINTER  // Field=s_di_input[1].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_ES62_QB02"  // Field=s_di_input[2].name
+      POINTER  // Field=s_di_input[2].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_ES62_QB03"  // Field=s_di_input[3].name
+      POINTER  // Field=s_di_input[3].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_ES62_QB08"  // Field=s_di_input[4].name
+      POINTER  // Field=s_di_input[4].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_ES62_QB09"  // Field=s_di_input[5].name
+      POINTER  // Field=s_di_input[5].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_ES62_QB10"  // Field=s_di_input[6].name
+      POINTER  // Field=s_di_input[6].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_input[7].name
+      POINTER  // Field=s_di_input[7].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+  USHORT,1  // Field=failure_bit[0]
+  USHORT,2  // Field=failure_bit[1]
+  USHORT,3  // Field=failure_bit[2]
+  USHORT,4  // Field=failure_bit[3]
+  USHORT,5  // Field=failure_bit[4]
+  USHORT,6  // Field=failure_bit[5]
+  USHORT,7  // Field=failure_bit[6]
+  USHORT,0  // Field=failure_bit[7]
+  USHORT,0  // Field=status_bit[0]
+  USHORT,0  // Field=status_bit[1]
+  USHORT,0  // Field=status_bit[2]
+  USHORT,0  // Field=status_bit[3]
+  USHORT,0  // Field=status_bit[4]
+  USHORT,0  // Field=status_bit[5]
+  USHORT,0  // Field=status_bit[6]
+  USHORT,0  // Field=status_bit[7]
+    //
+    BEGINSTRUCT // Begin of structure=S_wk_sigdev
+      USHORT  // Field=s_wk_sigdev.value
+      USHORT  // Field=s_wk_sigdev.old_value
+    ENDSTRUCT // End of structure=S_wk_sigdev
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_sigdevstat
+        //
+        BEGINSTRUCT // Begin of structure=S_counter
+          ULONG  // Field=s_locsigdevstat.s_counter_change.n_time
+          ULONG  // Field=s_locsigdevstat.s_counter_change.time
+        ENDSTRUCT // End of structure=S_counter
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_status
+          ULONG  // Field=s_locsigdevstat.s_status.status
+          ULONG  // Field=s_locsigdevstat.s_status.old_status
+        ENDSTRUCT // End of structure=S_status
+        //
+    ENDSTRUCT // End of structure=S_sigdevstat
+    //
+ENDSTRUCT // End of structure=S_sigdev
+//
+//
+BEGINSTRUCT // Begin of structure=S_sigdev
+  USHORT,22  // Field=id
+  USHORT,1  // Field=enable
+  USHORT,510  // Field=device
+  USHORT,71  // Field=id_device
+  USHORT,5  // Field=ctrl_type
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_ES71_QB01"  // Field=s_di_input[0].name
+      POINTER  // Field=s_di_input[0].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_ES71_QB04"  // Field=s_di_input[1].name
+      POINTER  // Field=s_di_input[1].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_ES71_QB02"  // Field=s_di_input[2].name
+      POINTER  // Field=s_di_input[2].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_ES71_QB03"  // Field=s_di_input[3].name
+      POINTER  // Field=s_di_input[3].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_ES71_QB08"  // Field=s_di_input[4].name
+      POINTER  // Field=s_di_input[4].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_ES71_QB09"  // Field=s_di_input[5].name
+      POINTER  // Field=s_di_input[5].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_ES71_QB10"  // Field=s_di_input[6].name
+      POINTER  // Field=s_di_input[6].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_input[7].name
+      POINTER  // Field=s_di_input[7].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+  USHORT,1  // Field=failure_bit[0]
+  USHORT,2  // Field=failure_bit[1]
+  USHORT,3  // Field=failure_bit[2]
+  USHORT,4  // Field=failure_bit[3]
+  USHORT,5  // Field=failure_bit[4]
+  USHORT,6  // Field=failure_bit[5]
+  USHORT,7  // Field=failure_bit[6]
+  USHORT,0  // Field=failure_bit[7]
+  USHORT,0  // Field=status_bit[0]
+  USHORT,0  // Field=status_bit[1]
+  USHORT,0  // Field=status_bit[2]
+  USHORT,0  // Field=status_bit[3]
+  USHORT,0  // Field=status_bit[4]
+  USHORT,0  // Field=status_bit[5]
+  USHORT,0  // Field=status_bit[6]
+  USHORT,0  // Field=status_bit[7]
+    //
+    BEGINSTRUCT // Begin of structure=S_wk_sigdev
+      USHORT  // Field=s_wk_sigdev.value
+      USHORT  // Field=s_wk_sigdev.old_value
+    ENDSTRUCT // End of structure=S_wk_sigdev
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_sigdevstat
+        //
+        BEGINSTRUCT // Begin of structure=S_counter
+          ULONG  // Field=s_locsigdevstat.s_counter_change.n_time
+          ULONG  // Field=s_locsigdevstat.s_counter_change.time
+        ENDSTRUCT // End of structure=S_counter
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_status
+          ULONG  // Field=s_locsigdevstat.s_status.status
+          ULONG  // Field=s_locsigdevstat.s_status.old_status
+        ENDSTRUCT // End of structure=S_status
+        //
+    ENDSTRUCT // End of structure=S_sigdevstat
+    //
+ENDSTRUCT // End of structure=S_sigdev
+//
+//
+BEGINSTRUCT // Begin of structure=S_sigdev
+  USHORT,23  // Field=id
+  USHORT,1  // Field=enable
+  USHORT,510  // Field=device
+  USHORT,72  // Field=id_device
+  USHORT,5  // Field=ctrl_type
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_ES72_QB01"  // Field=s_di_input[0].name
+      POINTER  // Field=s_di_input[0].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_ES72_QB04"  // Field=s_di_input[1].name
+      POINTER  // Field=s_di_input[1].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_ES72_QB02"  // Field=s_di_input[2].name
+      POINTER  // Field=s_di_input[2].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_ES72_QB03"  // Field=s_di_input[3].name
+      POINTER  // Field=s_di_input[3].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_ES72_QB08"  // Field=s_di_input[4].name
+      POINTER  // Field=s_di_input[4].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_ES72_QB09"  // Field=s_di_input[5].name
+      POINTER  // Field=s_di_input[5].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_ES72_QB10"  // Field=s_di_input[6].name
+      POINTER  // Field=s_di_input[6].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_input[7].name
+      POINTER  // Field=s_di_input[7].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+  USHORT,1  // Field=failure_bit[0]
+  USHORT,2  // Field=failure_bit[1]
+  USHORT,3  // Field=failure_bit[2]
+  USHORT,4  // Field=failure_bit[3]
+  USHORT,5  // Field=failure_bit[4]
+  USHORT,6  // Field=failure_bit[5]
+  USHORT,7  // Field=failure_bit[6]
+  USHORT,0  // Field=failure_bit[7]
+  USHORT,0  // Field=status_bit[0]
+  USHORT,0  // Field=status_bit[1]
+  USHORT,0  // Field=status_bit[2]
+  USHORT,0  // Field=status_bit[3]
+  USHORT,0  // Field=status_bit[4]
+  USHORT,0  // Field=status_bit[5]
+  USHORT,0  // Field=status_bit[6]
+  USHORT,0  // Field=status_bit[7]
+    //
+    BEGINSTRUCT // Begin of structure=S_wk_sigdev
+      USHORT  // Field=s_wk_sigdev.value
+      USHORT  // Field=s_wk_sigdev.old_value
+    ENDSTRUCT // End of structure=S_wk_sigdev
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_sigdevstat
+        //
+        BEGINSTRUCT // Begin of structure=S_counter
+          ULONG  // Field=s_locsigdevstat.s_counter_change.n_time
+          ULONG  // Field=s_locsigdevstat.s_counter_change.time
+        ENDSTRUCT // End of structure=S_counter
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_status
+          ULONG  // Field=s_locsigdevstat.s_status.status
+          ULONG  // Field=s_locsigdevstat.s_status.old_status
+        ENDSTRUCT // End of structure=S_status
+        //
+    ENDSTRUCT // End of structure=S_sigdevstat
+    //
+ENDSTRUCT // End of structure=S_sigdev
+//
+//
+BEGINSTRUCT // Begin of structure=S_sigdev
+  USHORT,24  // Field=id
+  USHORT,1  // Field=enable
+  USHORT,510  // Field=device
+  USHORT,81  // Field=id_device
+  USHORT,5  // Field=ctrl_type
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_ES81_QB01"  // Field=s_di_input[0].name
+      POINTER  // Field=s_di_input[0].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_ES81_QB04"  // Field=s_di_input[1].name
+      POINTER  // Field=s_di_input[1].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_ES81_QB02"  // Field=s_di_input[2].name
+      POINTER  // Field=s_di_input[2].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_ES81_QB03"  // Field=s_di_input[3].name
+      POINTER  // Field=s_di_input[3].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_ES81_QB08"  // Field=s_di_input[4].name
+      POINTER  // Field=s_di_input[4].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_ES81_QB09"  // Field=s_di_input[5].name
+      POINTER  // Field=s_di_input[5].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_ES81_QB10"  // Field=s_di_input[6].name
+      POINTER  // Field=s_di_input[6].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_input[7].name
+      POINTER  // Field=s_di_input[7].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+  USHORT,1  // Field=failure_bit[0]
+  USHORT,2  // Field=failure_bit[1]
+  USHORT,3  // Field=failure_bit[2]
+  USHORT,4  // Field=failure_bit[3]
+  USHORT,5  // Field=failure_bit[4]
+  USHORT,6  // Field=failure_bit[5]
+  USHORT,7  // Field=failure_bit[6]
+  USHORT,0  // Field=failure_bit[7]
+  USHORT,0  // Field=status_bit[0]
+  USHORT,0  // Field=status_bit[1]
+  USHORT,0  // Field=status_bit[2]
+  USHORT,0  // Field=status_bit[3]
+  USHORT,0  // Field=status_bit[4]
+  USHORT,0  // Field=status_bit[5]
+  USHORT,0  // Field=status_bit[6]
+  USHORT,0  // Field=status_bit[7]
+    //
+    BEGINSTRUCT // Begin of structure=S_wk_sigdev
+      USHORT  // Field=s_wk_sigdev.value
+      USHORT  // Field=s_wk_sigdev.old_value
+    ENDSTRUCT // End of structure=S_wk_sigdev
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_sigdevstat
+        //
+        BEGINSTRUCT // Begin of structure=S_counter
+          ULONG  // Field=s_locsigdevstat.s_counter_change.n_time
+          ULONG  // Field=s_locsigdevstat.s_counter_change.time
+        ENDSTRUCT // End of structure=S_counter
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_status
+          ULONG  // Field=s_locsigdevstat.s_status.status
+          ULONG  // Field=s_locsigdevstat.s_status.old_status
+        ENDSTRUCT // End of structure=S_status
+        //
+    ENDSTRUCT // End of structure=S_sigdevstat
+    //
+ENDSTRUCT // End of structure=S_sigdev
+//
+//
+BEGINSTRUCT // Begin of structure=S_sigdev
+  USHORT,25  // Field=id
+  USHORT,1  // Field=enable
+  USHORT,511  // Field=device
+  USHORT,1  // Field=id_device
+  USHORT,5  // Field=ctrl_type
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_LSM01_QB01"  // Field=s_di_input[0].name
+      POINTER  // Field=s_di_input[0].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_LSM01_QB02"  // Field=s_di_input[1].name
+      POINTER  // Field=s_di_input[1].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_LSM01_QB06"  // Field=s_di_input[2].name
+      POINTER  // Field=s_di_input[2].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"0"  // Field=s_di_input[3].name
+      POINTER  // Field=s_di_input[3].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"0"  // Field=s_di_input[4].name
+      POINTER  // Field=s_di_input[4].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"0"  // Field=s_di_input[5].name
+      POINTER  // Field=s_di_input[5].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"0"  // Field=s_di_input[6].name
+      POINTER  // Field=s_di_input[6].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"0"  // Field=s_di_input[7].name
+      POINTER  // Field=s_di_input[7].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+  USHORT,1  // Field=failure_bit[0]
+  USHORT,2  // Field=failure_bit[1]
+  USHORT,3  // Field=failure_bit[2]
+  USHORT,0  // Field=failure_bit[3]
+  USHORT,0  // Field=failure_bit[4]
+  USHORT,0  // Field=failure_bit[5]
+  USHORT,0  // Field=failure_bit[6]
+  USHORT,0  // Field=failure_bit[7]
+  USHORT,0  // Field=status_bit[0]
+  USHORT,0  // Field=status_bit[1]
+  USHORT,0  // Field=status_bit[2]
+  USHORT,0  // Field=status_bit[3]
+  USHORT,0  // Field=status_bit[4]
+  USHORT,0  // Field=status_bit[5]
+  USHORT,0  // Field=status_bit[6]
+  USHORT,0  // Field=status_bit[7]
+    //
+    BEGINSTRUCT // Begin of structure=S_wk_sigdev
+      USHORT  // Field=s_wk_sigdev.value
+      USHORT  // Field=s_wk_sigdev.old_value
+    ENDSTRUCT // End of structure=S_wk_sigdev
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_sigdevstat
+        //
+        BEGINSTRUCT // Begin of structure=S_counter
+          ULONG  // Field=s_locsigdevstat.s_counter_change.n_time
+          ULONG  // Field=s_locsigdevstat.s_counter_change.time
+        ENDSTRUCT // End of structure=S_counter
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_status
+          ULONG  // Field=s_locsigdevstat.s_status.status
+          ULONG  // Field=s_locsigdevstat.s_status.old_status
+        ENDSTRUCT // End of structure=S_status
+        //
+    ENDSTRUCT // End of structure=S_sigdevstat
+    //
+ENDSTRUCT // End of structure=S_sigdev
+//
+//
+BEGINSTRUCT // Begin of structure=S_sigdev
+  USHORT,26  // Field=id
+  USHORT,1  // Field=enable
+  USHORT,511  // Field=device
+  USHORT,2  // Field=id_device
+  USHORT,5  // Field=ctrl_type
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_LSM02_QB01"  // Field=s_di_input[0].name
+      POINTER  // Field=s_di_input[0].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_LSM02_QB02"  // Field=s_di_input[1].name
+      POINTER  // Field=s_di_input[1].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_LSM02_QB06"  // Field=s_di_input[2].name
+      POINTER  // Field=s_di_input[2].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"0"  // Field=s_di_input[3].name
+      POINTER  // Field=s_di_input[3].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"0"  // Field=s_di_input[4].name
+      POINTER  // Field=s_di_input[4].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"0"  // Field=s_di_input[5].name
+      POINTER  // Field=s_di_input[5].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"0"  // Field=s_di_input[6].name
+      POINTER  // Field=s_di_input[6].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"0"  // Field=s_di_input[7].name
+      POINTER  // Field=s_di_input[7].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+  USHORT,1  // Field=failure_bit[0]
+  USHORT,2  // Field=failure_bit[1]
+  USHORT,3  // Field=failure_bit[2]
+  USHORT,0  // Field=failure_bit[3]
+  USHORT,0  // Field=failure_bit[4]
+  USHORT,0  // Field=failure_bit[5]
+  USHORT,0  // Field=failure_bit[6]
+  USHORT,0  // Field=failure_bit[7]
+  USHORT,0  // Field=status_bit[0]
+  USHORT,0  // Field=status_bit[1]
+  USHORT,0  // Field=status_bit[2]
+  USHORT,0  // Field=status_bit[3]
+  USHORT,0  // Field=status_bit[4]
+  USHORT,0  // Field=status_bit[5]
+  USHORT,0  // Field=status_bit[6]
+  USHORT,0  // Field=status_bit[7]
+    //
+    BEGINSTRUCT // Begin of structure=S_wk_sigdev
+      USHORT  // Field=s_wk_sigdev.value
+      USHORT  // Field=s_wk_sigdev.old_value
+    ENDSTRUCT // End of structure=S_wk_sigdev
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_sigdevstat
+        //
+        BEGINSTRUCT // Begin of structure=S_counter
+          ULONG  // Field=s_locsigdevstat.s_counter_change.n_time
+          ULONG  // Field=s_locsigdevstat.s_counter_change.time
+        ENDSTRUCT // End of structure=S_counter
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_status
+          ULONG  // Field=s_locsigdevstat.s_status.status
+          ULONG  // Field=s_locsigdevstat.s_status.old_status
+        ENDSTRUCT // End of structure=S_status
+        //
+    ENDSTRUCT // End of structure=S_sigdevstat
+    //
+ENDSTRUCT // End of structure=S_sigdev
+//
+//
+BEGINSTRUCT // Begin of structure=S_sigdev
+  USHORT,27  // Field=id
+  USHORT,1  // Field=enable
+  USHORT,511  // Field=device
+  USHORT,3  // Field=id_device
+  USHORT,5  // Field=ctrl_type
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_LSM03_QB01"  // Field=s_di_input[0].name
+      POINTER  // Field=s_di_input[0].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_LSM03_QB02"  // Field=s_di_input[1].name
+      POINTER  // Field=s_di_input[1].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_LSM03_QB06"  // Field=s_di_input[2].name
+      POINTER  // Field=s_di_input[2].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"0"  // Field=s_di_input[3].name
+      POINTER  // Field=s_di_input[3].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"0"  // Field=s_di_input[4].name
+      POINTER  // Field=s_di_input[4].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"0"  // Field=s_di_input[5].name
+      POINTER  // Field=s_di_input[5].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"0"  // Field=s_di_input[6].name
+      POINTER  // Field=s_di_input[6].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"0"  // Field=s_di_input[7].name
+      POINTER  // Field=s_di_input[7].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+  USHORT,1  // Field=failure_bit[0]
+  USHORT,2  // Field=failure_bit[1]
+  USHORT,3  // Field=failure_bit[2]
+  USHORT,0  // Field=failure_bit[3]
+  USHORT,0  // Field=failure_bit[4]
+  USHORT,0  // Field=failure_bit[5]
+  USHORT,0  // Field=failure_bit[6]
+  USHORT,0  // Field=failure_bit[7]
+  USHORT,0  // Field=status_bit[0]
+  USHORT,0  // Field=status_bit[1]
+  USHORT,0  // Field=status_bit[2]
+  USHORT,0  // Field=status_bit[3]
+  USHORT,0  // Field=status_bit[4]
+  USHORT,0  // Field=status_bit[5]
+  USHORT,0  // Field=status_bit[6]
+  USHORT,0  // Field=status_bit[7]
+    //
+    BEGINSTRUCT // Begin of structure=S_wk_sigdev
+      USHORT  // Field=s_wk_sigdev.value
+      USHORT  // Field=s_wk_sigdev.old_value
+    ENDSTRUCT // End of structure=S_wk_sigdev
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_sigdevstat
+        //
+        BEGINSTRUCT // Begin of structure=S_counter
+          ULONG  // Field=s_locsigdevstat.s_counter_change.n_time
+          ULONG  // Field=s_locsigdevstat.s_counter_change.time
+        ENDSTRUCT // End of structure=S_counter
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_status
+          ULONG  // Field=s_locsigdevstat.s_status.status
+          ULONG  // Field=s_locsigdevstat.s_status.old_status
+        ENDSTRUCT // End of structure=S_status
+        //
+    ENDSTRUCT // End of structure=S_sigdevstat
+    //
+ENDSTRUCT // End of structure=S_sigdev
+//
+//
+BEGINSTRUCT // Begin of structure=S_sigdev
+  USHORT,28  // Field=id
+  USHORT,1  // Field=enable
+  USHORT,511  // Field=device
+  USHORT,4  // Field=id_device
+  USHORT,5  // Field=ctrl_type
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_LSM04_QB01"  // Field=s_di_input[0].name
+      POINTER  // Field=s_di_input[0].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_LSM04_QB02"  // Field=s_di_input[1].name
+      POINTER  // Field=s_di_input[1].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_LSM04_QB06"  // Field=s_di_input[2].name
+      POINTER  // Field=s_di_input[2].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"0"  // Field=s_di_input[3].name
+      POINTER  // Field=s_di_input[3].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"0"  // Field=s_di_input[4].name
+      POINTER  // Field=s_di_input[4].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"0"  // Field=s_di_input[5].name
+      POINTER  // Field=s_di_input[5].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"0"  // Field=s_di_input[6].name
+      POINTER  // Field=s_di_input[6].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"0"  // Field=s_di_input[7].name
+      POINTER  // Field=s_di_input[7].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+  USHORT,1  // Field=failure_bit[0]
+  USHORT,2  // Field=failure_bit[1]
+  USHORT,3  // Field=failure_bit[2]
+  USHORT,0  // Field=failure_bit[3]
+  USHORT,0  // Field=failure_bit[4]
+  USHORT,0  // Field=failure_bit[5]
+  USHORT,0  // Field=failure_bit[6]
+  USHORT,0  // Field=failure_bit[7]
+  USHORT,0  // Field=status_bit[0]
+  USHORT,0  // Field=status_bit[1]
+  USHORT,0  // Field=status_bit[2]
+  USHORT,0  // Field=status_bit[3]
+  USHORT,0  // Field=status_bit[4]
+  USHORT,0  // Field=status_bit[5]
+  USHORT,0  // Field=status_bit[6]
+  USHORT,0  // Field=status_bit[7]
+    //
+    BEGINSTRUCT // Begin of structure=S_wk_sigdev
+      USHORT  // Field=s_wk_sigdev.value
+      USHORT  // Field=s_wk_sigdev.old_value
+    ENDSTRUCT // End of structure=S_wk_sigdev
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_sigdevstat
+        //
+        BEGINSTRUCT // Begin of structure=S_counter
+          ULONG  // Field=s_locsigdevstat.s_counter_change.n_time
+          ULONG  // Field=s_locsigdevstat.s_counter_change.time
+        ENDSTRUCT // End of structure=S_counter
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_status
+          ULONG  // Field=s_locsigdevstat.s_status.status
+          ULONG  // Field=s_locsigdevstat.s_status.old_status
+        ENDSTRUCT // End of structure=S_status
+        //
+    ENDSTRUCT // End of structure=S_sigdevstat
+    //
+ENDSTRUCT // End of structure=S_sigdev
+//
+//
+BEGINSTRUCT // Begin of structure=S_sigdev
+  USHORT,29  // Field=id
+  USHORT,1  // Field=enable
+  USHORT,511  // Field=device
+  USHORT,5  // Field=id_device
+  USHORT,5  // Field=ctrl_type
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_LSM05_QB01"  // Field=s_di_input[0].name
+      POINTER  // Field=s_di_input[0].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_LSM05_QB02"  // Field=s_di_input[1].name
+      POINTER  // Field=s_di_input[1].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_LSM05_QB06"  // Field=s_di_input[2].name
+      POINTER  // Field=s_di_input[2].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"0"  // Field=s_di_input[3].name
+      POINTER  // Field=s_di_input[3].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"0"  // Field=s_di_input[4].name
+      POINTER  // Field=s_di_input[4].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"0"  // Field=s_di_input[5].name
+      POINTER  // Field=s_di_input[5].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"0"  // Field=s_di_input[6].name
+      POINTER  // Field=s_di_input[6].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"0"  // Field=s_di_input[7].name
+      POINTER  // Field=s_di_input[7].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+  USHORT,1  // Field=failure_bit[0]
+  USHORT,2  // Field=failure_bit[1]
+  USHORT,3  // Field=failure_bit[2]
+  USHORT,0  // Field=failure_bit[3]
+  USHORT,0  // Field=failure_bit[4]
+  USHORT,0  // Field=failure_bit[5]
+  USHORT,0  // Field=failure_bit[6]
+  USHORT,0  // Field=failure_bit[7]
+  USHORT,0  // Field=status_bit[0]
+  USHORT,0  // Field=status_bit[1]
+  USHORT,0  // Field=status_bit[2]
+  USHORT,0  // Field=status_bit[3]
+  USHORT,0  // Field=status_bit[4]
+  USHORT,0  // Field=status_bit[5]
+  USHORT,0  // Field=status_bit[6]
+  USHORT,0  // Field=status_bit[7]
+    //
+    BEGINSTRUCT // Begin of structure=S_wk_sigdev
+      USHORT  // Field=s_wk_sigdev.value
+      USHORT  // Field=s_wk_sigdev.old_value
+    ENDSTRUCT // End of structure=S_wk_sigdev
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_sigdevstat
+        //
+        BEGINSTRUCT // Begin of structure=S_counter
+          ULONG  // Field=s_locsigdevstat.s_counter_change.n_time
+          ULONG  // Field=s_locsigdevstat.s_counter_change.time
+        ENDSTRUCT // End of structure=S_counter
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_status
+          ULONG  // Field=s_locsigdevstat.s_status.status
+          ULONG  // Field=s_locsigdevstat.s_status.old_status
+        ENDSTRUCT // End of structure=S_status
+        //
+    ENDSTRUCT // End of structure=S_sigdevstat
+    //
+ENDSTRUCT // End of structure=S_sigdev
+//
+//
+BEGINSTRUCT // Begin of structure=S_sigdev
+  USHORT,30  // Field=id
+  USHORT,1  // Field=enable
+  USHORT,511  // Field=device
+  USHORT,6  // Field=id_device
+  USHORT,5  // Field=ctrl_type
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_LSM06_QB01"  // Field=s_di_input[0].name
+      POINTER  // Field=s_di_input[0].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_LSM06_QB02"  // Field=s_di_input[1].name
+      POINTER  // Field=s_di_input[1].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_LSM06_QB06"  // Field=s_di_input[2].name
+      POINTER  // Field=s_di_input[2].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"0"  // Field=s_di_input[3].name
+      POINTER  // Field=s_di_input[3].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"0"  // Field=s_di_input[4].name
+      POINTER  // Field=s_di_input[4].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"0"  // Field=s_di_input[5].name
+      POINTER  // Field=s_di_input[5].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"0"  // Field=s_di_input[6].name
+      POINTER  // Field=s_di_input[6].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"0"  // Field=s_di_input[7].name
+      POINTER  // Field=s_di_input[7].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+  USHORT,1  // Field=failure_bit[0]
+  USHORT,2  // Field=failure_bit[1]
+  USHORT,3  // Field=failure_bit[2]
+  USHORT,0  // Field=failure_bit[3]
+  USHORT,0  // Field=failure_bit[4]
+  USHORT,0  // Field=failure_bit[5]
+  USHORT,0  // Field=failure_bit[6]
+  USHORT,0  // Field=failure_bit[7]
+  USHORT,0  // Field=status_bit[0]
+  USHORT,0  // Field=status_bit[1]
+  USHORT,0  // Field=status_bit[2]
+  USHORT,0  // Field=status_bit[3]
+  USHORT,0  // Field=status_bit[4]
+  USHORT,0  // Field=status_bit[5]
+  USHORT,0  // Field=status_bit[6]
+  USHORT,0  // Field=status_bit[7]
+    //
+    BEGINSTRUCT // Begin of structure=S_wk_sigdev
+      USHORT  // Field=s_wk_sigdev.value
+      USHORT  // Field=s_wk_sigdev.old_value
+    ENDSTRUCT // End of structure=S_wk_sigdev
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_sigdevstat
+        //
+        BEGINSTRUCT // Begin of structure=S_counter
+          ULONG  // Field=s_locsigdevstat.s_counter_change.n_time
+          ULONG  // Field=s_locsigdevstat.s_counter_change.time
+        ENDSTRUCT // End of structure=S_counter
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_status
+          ULONG  // Field=s_locsigdevstat.s_status.status
+          ULONG  // Field=s_locsigdevstat.s_status.old_status
+        ENDSTRUCT // End of structure=S_status
+        //
+    ENDSTRUCT // End of structure=S_sigdevstat
+    //
+ENDSTRUCT // End of structure=S_sigdev
+//
+//
+BEGINSTRUCT // Begin of structure=S_sigdev
+  USHORT,31  // Field=id
+  USHORT,1  // Field=enable
+  USHORT,511  // Field=device
+  USHORT,7  // Field=id_device
+  USHORT,5  // Field=ctrl_type
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_LSM07_QB01"  // Field=s_di_input[0].name
+      POINTER  // Field=s_di_input[0].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_LSM07_QB02"  // Field=s_di_input[1].name
+      POINTER  // Field=s_di_input[1].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_LSM07_QB06"  // Field=s_di_input[2].name
+      POINTER  // Field=s_di_input[2].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"0"  // Field=s_di_input[3].name
+      POINTER  // Field=s_di_input[3].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"0"  // Field=s_di_input[4].name
+      POINTER  // Field=s_di_input[4].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"0"  // Field=s_di_input[5].name
+      POINTER  // Field=s_di_input[5].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"0"  // Field=s_di_input[6].name
+      POINTER  // Field=s_di_input[6].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"0"  // Field=s_di_input[7].name
+      POINTER  // Field=s_di_input[7].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+  USHORT,1  // Field=failure_bit[0]
+  USHORT,2  // Field=failure_bit[1]
+  USHORT,3  // Field=failure_bit[2]
+  USHORT,0  // Field=failure_bit[3]
+  USHORT,0  // Field=failure_bit[4]
+  USHORT,0  // Field=failure_bit[5]
+  USHORT,0  // Field=failure_bit[6]
+  USHORT,0  // Field=failure_bit[7]
+  USHORT,0  // Field=status_bit[0]
+  USHORT,0  // Field=status_bit[1]
+  USHORT,0  // Field=status_bit[2]
+  USHORT,0  // Field=status_bit[3]
+  USHORT,0  // Field=status_bit[4]
+  USHORT,0  // Field=status_bit[5]
+  USHORT,0  // Field=status_bit[6]
+  USHORT,0  // Field=status_bit[7]
+    //
+    BEGINSTRUCT // Begin of structure=S_wk_sigdev
+      USHORT  // Field=s_wk_sigdev.value
+      USHORT  // Field=s_wk_sigdev.old_value
+    ENDSTRUCT // End of structure=S_wk_sigdev
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_sigdevstat
+        //
+        BEGINSTRUCT // Begin of structure=S_counter
+          ULONG  // Field=s_locsigdevstat.s_counter_change.n_time
+          ULONG  // Field=s_locsigdevstat.s_counter_change.time
+        ENDSTRUCT // End of structure=S_counter
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_status
+          ULONG  // Field=s_locsigdevstat.s_status.status
+          ULONG  // Field=s_locsigdevstat.s_status.old_status
+        ENDSTRUCT // End of structure=S_status
+        //
+    ENDSTRUCT // End of structure=S_sigdevstat
+    //
+ENDSTRUCT // End of structure=S_sigdev
+//
+//
+BEGINSTRUCT // Begin of structure=S_sigdev
+  USHORT,32  // Field=id
+  USHORT,1  // Field=enable
+  USHORT,511  // Field=device
+  USHORT,8  // Field=id_device
+  USHORT,5  // Field=ctrl_type
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_LSM08_QB01"  // Field=s_di_input[0].name
+      POINTER  // Field=s_di_input[0].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_LSM08_QB02"  // Field=s_di_input[1].name
+      POINTER  // Field=s_di_input[1].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_LSM08_QB06"  // Field=s_di_input[2].name
+      POINTER  // Field=s_di_input[2].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"0"  // Field=s_di_input[3].name
+      POINTER  // Field=s_di_input[3].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"0"  // Field=s_di_input[4].name
+      POINTER  // Field=s_di_input[4].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"0"  // Field=s_di_input[5].name
+      POINTER  // Field=s_di_input[5].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"0"  // Field=s_di_input[6].name
+      POINTER  // Field=s_di_input[6].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"0"  // Field=s_di_input[7].name
+      POINTER  // Field=s_di_input[7].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+  USHORT,1  // Field=failure_bit[0]
+  USHORT,2  // Field=failure_bit[1]
+  USHORT,3  // Field=failure_bit[2]
+  USHORT,0  // Field=failure_bit[3]
+  USHORT,0  // Field=failure_bit[4]
+  USHORT,0  // Field=failure_bit[5]
+  USHORT,0  // Field=failure_bit[6]
+  USHORT,0  // Field=failure_bit[7]
+  USHORT,0  // Field=status_bit[0]
+  USHORT,0  // Field=status_bit[1]
+  USHORT,0  // Field=status_bit[2]
+  USHORT,0  // Field=status_bit[3]
+  USHORT,0  // Field=status_bit[4]
+  USHORT,0  // Field=status_bit[5]
+  USHORT,0  // Field=status_bit[6]
+  USHORT,0  // Field=status_bit[7]
+    //
+    BEGINSTRUCT // Begin of structure=S_wk_sigdev
+      USHORT  // Field=s_wk_sigdev.value
+      USHORT  // Field=s_wk_sigdev.old_value
+    ENDSTRUCT // End of structure=S_wk_sigdev
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_sigdevstat
+        //
+        BEGINSTRUCT // Begin of structure=S_counter
+          ULONG  // Field=s_locsigdevstat.s_counter_change.n_time
+          ULONG  // Field=s_locsigdevstat.s_counter_change.time
+        ENDSTRUCT // End of structure=S_counter
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_status
+          ULONG  // Field=s_locsigdevstat.s_status.status
+          ULONG  // Field=s_locsigdevstat.s_status.old_status
+        ENDSTRUCT // End of structure=S_status
+        //
+    ENDSTRUCT // End of structure=S_sigdevstat
+    //
+ENDSTRUCT // End of structure=S_sigdev
+//
+//
+BEGINSTRUCT // Begin of structure=S_sigdev
+  USHORT,33  // Field=id
+  USHORT,1  // Field=enable
+  USHORT,511  // Field=device
+  USHORT,9  // Field=id_device
+  USHORT,5  // Field=ctrl_type
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_LSM09_QB01"  // Field=s_di_input[0].name
+      POINTER  // Field=s_di_input[0].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_LSM09_QB02"  // Field=s_di_input[1].name
+      POINTER  // Field=s_di_input[1].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_LSM09_QB06"  // Field=s_di_input[2].name
+      POINTER  // Field=s_di_input[2].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"0"  // Field=s_di_input[3].name
+      POINTER  // Field=s_di_input[3].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"0"  // Field=s_di_input[4].name
+      POINTER  // Field=s_di_input[4].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"0"  // Field=s_di_input[5].name
+      POINTER  // Field=s_di_input[5].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"0"  // Field=s_di_input[6].name
+      POINTER  // Field=s_di_input[6].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"0"  // Field=s_di_input[7].name
+      POINTER  // Field=s_di_input[7].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+  USHORT,1  // Field=failure_bit[0]
+  USHORT,2  // Field=failure_bit[1]
+  USHORT,3  // Field=failure_bit[2]
+  USHORT,0  // Field=failure_bit[3]
+  USHORT,0  // Field=failure_bit[4]
+  USHORT,0  // Field=failure_bit[5]
+  USHORT,0  // Field=failure_bit[6]
+  USHORT,0  // Field=failure_bit[7]
+  USHORT,0  // Field=status_bit[0]
+  USHORT,0  // Field=status_bit[1]
+  USHORT,0  // Field=status_bit[2]
+  USHORT,0  // Field=status_bit[3]
+  USHORT,0  // Field=status_bit[4]
+  USHORT,0  // Field=status_bit[5]
+  USHORT,0  // Field=status_bit[6]
+  USHORT,0  // Field=status_bit[7]
+    //
+    BEGINSTRUCT // Begin of structure=S_wk_sigdev
+      USHORT  // Field=s_wk_sigdev.value
+      USHORT  // Field=s_wk_sigdev.old_value
+    ENDSTRUCT // End of structure=S_wk_sigdev
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_sigdevstat
+        //
+        BEGINSTRUCT // Begin of structure=S_counter
+          ULONG  // Field=s_locsigdevstat.s_counter_change.n_time
+          ULONG  // Field=s_locsigdevstat.s_counter_change.time
+        ENDSTRUCT // End of structure=S_counter
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_status
+          ULONG  // Field=s_locsigdevstat.s_status.status
+          ULONG  // Field=s_locsigdevstat.s_status.old_status
+        ENDSTRUCT // End of structure=S_status
+        //
+    ENDSTRUCT // End of structure=S_sigdevstat
+    //
+ENDSTRUCT // End of structure=S_sigdev
+//
+//
+BEGINSTRUCT // Begin of structure=S_sigdev
+  USHORT,34  // Field=id
+  USHORT,1  // Field=enable
+  USHORT,511  // Field=device
+  USHORT,10  // Field=id_device
+  USHORT,5  // Field=ctrl_type
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_LSM10_QB01"  // Field=s_di_input[0].name
+      POINTER  // Field=s_di_input[0].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_LSM10_QB02"  // Field=s_di_input[1].name
+      POINTER  // Field=s_di_input[1].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_LSM10_QB06"  // Field=s_di_input[2].name
+      POINTER  // Field=s_di_input[2].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"0"  // Field=s_di_input[3].name
+      POINTER  // Field=s_di_input[3].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"0"  // Field=s_di_input[4].name
+      POINTER  // Field=s_di_input[4].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"0"  // Field=s_di_input[5].name
+      POINTER  // Field=s_di_input[5].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"0"  // Field=s_di_input[6].name
+      POINTER  // Field=s_di_input[6].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"0"  // Field=s_di_input[7].name
+      POINTER  // Field=s_di_input[7].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+  USHORT,1  // Field=failure_bit[0]
+  USHORT,2  // Field=failure_bit[1]
+  USHORT,3  // Field=failure_bit[2]
+  USHORT,0  // Field=failure_bit[3]
+  USHORT,0  // Field=failure_bit[4]
+  USHORT,0  // Field=failure_bit[5]
+  USHORT,0  // Field=failure_bit[6]
+  USHORT,0  // Field=failure_bit[7]
+  USHORT,0  // Field=status_bit[0]
+  USHORT,0  // Field=status_bit[1]
+  USHORT,0  // Field=status_bit[2]
+  USHORT,0  // Field=status_bit[3]
+  USHORT,0  // Field=status_bit[4]
+  USHORT,0  // Field=status_bit[5]
+  USHORT,0  // Field=status_bit[6]
+  USHORT,0  // Field=status_bit[7]
+    //
+    BEGINSTRUCT // Begin of structure=S_wk_sigdev
+      USHORT  // Field=s_wk_sigdev.value
+      USHORT  // Field=s_wk_sigdev.old_value
+    ENDSTRUCT // End of structure=S_wk_sigdev
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_sigdevstat
+        //
+        BEGINSTRUCT // Begin of structure=S_counter
+          ULONG  // Field=s_locsigdevstat.s_counter_change.n_time
+          ULONG  // Field=s_locsigdevstat.s_counter_change.time
+        ENDSTRUCT // End of structure=S_counter
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_status
+          ULONG  // Field=s_locsigdevstat.s_status.status
+          ULONG  // Field=s_locsigdevstat.s_status.old_status
+        ENDSTRUCT // End of structure=S_status
+        //
+    ENDSTRUCT // End of structure=S_sigdevstat
+    //
+ENDSTRUCT // End of structure=S_sigdev
+//
+//
+BEGINSTRUCT // Begin of structure=S_sigdev
+  USHORT,35  // Field=id
+  USHORT,1  // Field=enable
+  USHORT,511  // Field=device
+  USHORT,11  // Field=id_device
+  USHORT,5  // Field=ctrl_type
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_LSM11_QB01"  // Field=s_di_input[0].name
+      POINTER  // Field=s_di_input[0].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_LSM11_QB02"  // Field=s_di_input[1].name
+      POINTER  // Field=s_di_input[1].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_LSM11_QB06"  // Field=s_di_input[2].name
+      POINTER  // Field=s_di_input[2].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"0"  // Field=s_di_input[3].name
+      POINTER  // Field=s_di_input[3].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"0"  // Field=s_di_input[4].name
+      POINTER  // Field=s_di_input[4].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"0"  // Field=s_di_input[5].name
+      POINTER  // Field=s_di_input[5].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"0"  // Field=s_di_input[6].name
+      POINTER  // Field=s_di_input[6].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"0"  // Field=s_di_input[7].name
+      POINTER  // Field=s_di_input[7].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+  USHORT,1  // Field=failure_bit[0]
+  USHORT,2  // Field=failure_bit[1]
+  USHORT,3  // Field=failure_bit[2]
+  USHORT,0  // Field=failure_bit[3]
+  USHORT,0  // Field=failure_bit[4]
+  USHORT,0  // Field=failure_bit[5]
+  USHORT,0  // Field=failure_bit[6]
+  USHORT,0  // Field=failure_bit[7]
+  USHORT,0  // Field=status_bit[0]
+  USHORT,0  // Field=status_bit[1]
+  USHORT,0  // Field=status_bit[2]
+  USHORT,0  // Field=status_bit[3]
+  USHORT,0  // Field=status_bit[4]
+  USHORT,0  // Field=status_bit[5]
+  USHORT,0  // Field=status_bit[6]
+  USHORT,0  // Field=status_bit[7]
+    //
+    BEGINSTRUCT // Begin of structure=S_wk_sigdev
+      USHORT  // Field=s_wk_sigdev.value
+      USHORT  // Field=s_wk_sigdev.old_value
+    ENDSTRUCT // End of structure=S_wk_sigdev
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_sigdevstat
+        //
+        BEGINSTRUCT // Begin of structure=S_counter
+          ULONG  // Field=s_locsigdevstat.s_counter_change.n_time
+          ULONG  // Field=s_locsigdevstat.s_counter_change.time
+        ENDSTRUCT // End of structure=S_counter
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_status
+          ULONG  // Field=s_locsigdevstat.s_status.status
+          ULONG  // Field=s_locsigdevstat.s_status.old_status
+        ENDSTRUCT // End of structure=S_status
+        //
+    ENDSTRUCT // End of structure=S_sigdevstat
+    //
+ENDSTRUCT // End of structure=S_sigdev
+//
+//
+BEGINSTRUCT // Begin of structure=S_sigdev
+  USHORT,36  // Field=id
+  USHORT,1  // Field=enable
+  USHORT,512  // Field=device
+  USHORT,1  // Field=id_device
+  USHORT,5  // Field=ctrl_type
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_48VFAIL_01"  // Field=s_di_input[0].name
+      POINTER  // Field=s_di_input[0].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_48VFAN_01"  // Field=s_di_input[1].name
+      POINTER  // Field=s_di_input[1].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_48VLINE_01"  // Field=s_di_input[2].name
+      POINTER  // Field=s_di_input[2].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_48VQS1_01"  // Field=s_di_input[3].name
+      POINTER  // Field=s_di_input[3].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_input[4].name
+      POINTER  // Field=s_di_input[4].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_input[5].name
+      POINTER  // Field=s_di_input[5].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_input[6].name
+      POINTER  // Field=s_di_input[6].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_input[7].name
+      POINTER  // Field=s_di_input[7].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+  USHORT,1  // Field=failure_bit[0]
+  USHORT,2  // Field=failure_bit[1]
+  USHORT,3  // Field=failure_bit[2]
+  USHORT,4  // Field=failure_bit[3]
+  USHORT,0  // Field=failure_bit[4]
+  USHORT,0  // Field=failure_bit[5]
+  USHORT,0  // Field=failure_bit[6]
+  USHORT,0  // Field=failure_bit[7]
+  USHORT,0  // Field=status_bit[0]
+  USHORT,0  // Field=status_bit[1]
+  USHORT,0  // Field=status_bit[2]
+  USHORT,0  // Field=status_bit[3]
+  USHORT,0  // Field=status_bit[4]
+  USHORT,0  // Field=status_bit[5]
+  USHORT,0  // Field=status_bit[6]
+  USHORT,0  // Field=status_bit[7]
+    //
+    BEGINSTRUCT // Begin of structure=S_wk_sigdev
+      USHORT  // Field=s_wk_sigdev.value
+      USHORT  // Field=s_wk_sigdev.old_value
+    ENDSTRUCT // End of structure=S_wk_sigdev
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_sigdevstat
+        //
+        BEGINSTRUCT // Begin of structure=S_counter
+          ULONG  // Field=s_locsigdevstat.s_counter_change.n_time
+          ULONG  // Field=s_locsigdevstat.s_counter_change.time
+        ENDSTRUCT // End of structure=S_counter
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_status
+          ULONG  // Field=s_locsigdevstat.s_status.status
+          ULONG  // Field=s_locsigdevstat.s_status.old_status
+        ENDSTRUCT // End of structure=S_status
+        //
+    ENDSTRUCT // End of structure=S_sigdevstat
+    //
+ENDSTRUCT // End of structure=S_sigdev
+//
+//
+BEGINSTRUCT // Begin of structure=S_sigdev
+  USHORT,37  // Field=id
+  USHORT,1  // Field=enable
+  USHORT,512  // Field=device
+  USHORT,2  // Field=id_device
+  USHORT,5  // Field=ctrl_type
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_48VFAIL_02"  // Field=s_di_input[0].name
+      POINTER  // Field=s_di_input[0].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_48VFAN_02"  // Field=s_di_input[1].name
+      POINTER  // Field=s_di_input[1].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_48VLINE_02"  // Field=s_di_input[2].name
+      POINTER  // Field=s_di_input[2].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_48VQS1_02"  // Field=s_di_input[3].name
+      POINTER  // Field=s_di_input[3].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_input[4].name
+      POINTER  // Field=s_di_input[4].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_input[5].name
+      POINTER  // Field=s_di_input[5].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_input[6].name
+      POINTER  // Field=s_di_input[6].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_input[7].name
+      POINTER  // Field=s_di_input[7].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+  USHORT,1  // Field=failure_bit[0]
+  USHORT,2  // Field=failure_bit[1]
+  USHORT,3  // Field=failure_bit[2]
+  USHORT,4  // Field=failure_bit[3]
+  USHORT,0  // Field=failure_bit[4]
+  USHORT,0  // Field=failure_bit[5]
+  USHORT,0  // Field=failure_bit[6]
+  USHORT,0  // Field=failure_bit[7]
+  USHORT,0  // Field=status_bit[0]
+  USHORT,0  // Field=status_bit[1]
+  USHORT,0  // Field=status_bit[2]
+  USHORT,0  // Field=status_bit[3]
+  USHORT,0  // Field=status_bit[4]
+  USHORT,0  // Field=status_bit[5]
+  USHORT,0  // Field=status_bit[6]
+  USHORT,0  // Field=status_bit[7]
+    //
+    BEGINSTRUCT // Begin of structure=S_wk_sigdev
+      USHORT  // Field=s_wk_sigdev.value
+      USHORT  // Field=s_wk_sigdev.old_value
+    ENDSTRUCT // End of structure=S_wk_sigdev
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_sigdevstat
+        //
+        BEGINSTRUCT // Begin of structure=S_counter
+          ULONG  // Field=s_locsigdevstat.s_counter_change.n_time
+          ULONG  // Field=s_locsigdevstat.s_counter_change.time
+        ENDSTRUCT // End of structure=S_counter
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_status
+          ULONG  // Field=s_locsigdevstat.s_status.status
+          ULONG  // Field=s_locsigdevstat.s_status.old_status
+        ENDSTRUCT // End of structure=S_status
+        //
+    ENDSTRUCT // End of structure=S_sigdevstat
+    //
+ENDSTRUCT // End of structure=S_sigdev
+//
+//
+BEGINSTRUCT // Begin of structure=S_sigdev
+  USHORT,38  // Field=id
+  USHORT,1  // Field=enable
+  USHORT,512  // Field=device
+  USHORT,3  // Field=id_device
+  USHORT,5  // Field=ctrl_type
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_48VFAIL_03"  // Field=s_di_input[0].name
+      POINTER  // Field=s_di_input[0].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_48VFAN_03"  // Field=s_di_input[1].name
+      POINTER  // Field=s_di_input[1].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_48VLINE_03"  // Field=s_di_input[2].name
+      POINTER  // Field=s_di_input[2].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_48VQS1_03"  // Field=s_di_input[3].name
+      POINTER  // Field=s_di_input[3].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_input[4].name
+      POINTER  // Field=s_di_input[4].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_input[5].name
+      POINTER  // Field=s_di_input[5].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_input[6].name
+      POINTER  // Field=s_di_input[6].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_input[7].name
+      POINTER  // Field=s_di_input[7].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+  USHORT,1  // Field=failure_bit[0]
+  USHORT,2  // Field=failure_bit[1]
+  USHORT,3  // Field=failure_bit[2]
+  USHORT,4  // Field=failure_bit[3]
+  USHORT,0  // Field=failure_bit[4]
+  USHORT,0  // Field=failure_bit[5]
+  USHORT,0  // Field=failure_bit[6]
+  USHORT,0  // Field=failure_bit[7]
+  USHORT,0  // Field=status_bit[0]
+  USHORT,0  // Field=status_bit[1]
+  USHORT,0  // Field=status_bit[2]
+  USHORT,0  // Field=status_bit[3]
+  USHORT,0  // Field=status_bit[4]
+  USHORT,0  // Field=status_bit[5]
+  USHORT,0  // Field=status_bit[6]
+  USHORT,0  // Field=status_bit[7]
+    //
+    BEGINSTRUCT // Begin of structure=S_wk_sigdev
+      USHORT  // Field=s_wk_sigdev.value
+      USHORT  // Field=s_wk_sigdev.old_value
+    ENDSTRUCT // End of structure=S_wk_sigdev
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_sigdevstat
+        //
+        BEGINSTRUCT // Begin of structure=S_counter
+          ULONG  // Field=s_locsigdevstat.s_counter_change.n_time
+          ULONG  // Field=s_locsigdevstat.s_counter_change.time
+        ENDSTRUCT // End of structure=S_counter
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_status
+          ULONG  // Field=s_locsigdevstat.s_status.status
+          ULONG  // Field=s_locsigdevstat.s_status.old_status
+        ENDSTRUCT // End of structure=S_status
+        //
+    ENDSTRUCT // End of structure=S_sigdevstat
+    //
+ENDSTRUCT // End of structure=S_sigdev
+//
+//
+BEGINSTRUCT // Begin of structure=S_sigdev
+  USHORT,39  // Field=id
+  USHORT,1  // Field=enable
+  USHORT,512  // Field=device
+  USHORT,4  // Field=id_device
+  USHORT,5  // Field=ctrl_type
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_48VFAIL_04"  // Field=s_di_input[0].name
+      POINTER  // Field=s_di_input[0].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_48VFAN_04"  // Field=s_di_input[1].name
+      POINTER  // Field=s_di_input[1].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_48VLINE_04"  // Field=s_di_input[2].name
+      POINTER  // Field=s_di_input[2].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_48VQS1_04"  // Field=s_di_input[3].name
+      POINTER  // Field=s_di_input[3].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_input[4].name
+      POINTER  // Field=s_di_input[4].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_input[5].name
+      POINTER  // Field=s_di_input[5].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_input[6].name
+      POINTER  // Field=s_di_input[6].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_input[7].name
+      POINTER  // Field=s_di_input[7].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+  USHORT,1  // Field=failure_bit[0]
+  USHORT,2  // Field=failure_bit[1]
+  USHORT,3  // Field=failure_bit[2]
+  USHORT,4  // Field=failure_bit[3]
+  USHORT,0  // Field=failure_bit[4]
+  USHORT,0  // Field=failure_bit[5]
+  USHORT,0  // Field=failure_bit[6]
+  USHORT,0  // Field=failure_bit[7]
+  USHORT,0  // Field=status_bit[0]
+  USHORT,0  // Field=status_bit[1]
+  USHORT,0  // Field=status_bit[2]
+  USHORT,0  // Field=status_bit[3]
+  USHORT,0  // Field=status_bit[4]
+  USHORT,0  // Field=status_bit[5]
+  USHORT,0  // Field=status_bit[6]
+  USHORT,0  // Field=status_bit[7]
+    //
+    BEGINSTRUCT // Begin of structure=S_wk_sigdev
+      USHORT  // Field=s_wk_sigdev.value
+      USHORT  // Field=s_wk_sigdev.old_value
+    ENDSTRUCT // End of structure=S_wk_sigdev
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_sigdevstat
+        //
+        BEGINSTRUCT // Begin of structure=S_counter
+          ULONG  // Field=s_locsigdevstat.s_counter_change.n_time
+          ULONG  // Field=s_locsigdevstat.s_counter_change.time
+        ENDSTRUCT // End of structure=S_counter
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_status
+          ULONG  // Field=s_locsigdevstat.s_status.status
+          ULONG  // Field=s_locsigdevstat.s_status.old_status
+        ENDSTRUCT // End of structure=S_status
+        //
+    ENDSTRUCT // End of structure=S_sigdevstat
+    //
+ENDSTRUCT // End of structure=S_sigdev
+//
+//
+BEGINSTRUCT // Begin of structure=S_sigdev
+  USHORT,40  // Field=id
+  USHORT,1  // Field=enable
+  USHORT,512  // Field=device
+  USHORT,5  // Field=id_device
+  USHORT,5  // Field=ctrl_type
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_48VFAIL_05"  // Field=s_di_input[0].name
+      POINTER  // Field=s_di_input[0].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_48VFAN_05"  // Field=s_di_input[1].name
+      POINTER  // Field=s_di_input[1].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_48VLINE_05"  // Field=s_di_input[2].name
+      POINTER  // Field=s_di_input[2].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_48VQS1_05"  // Field=s_di_input[3].name
+      POINTER  // Field=s_di_input[3].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_input[4].name
+      POINTER  // Field=s_di_input[4].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_input[5].name
+      POINTER  // Field=s_di_input[5].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_input[6].name
+      POINTER  // Field=s_di_input[6].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_input[7].name
+      POINTER  // Field=s_di_input[7].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+  USHORT,1  // Field=failure_bit[0]
+  USHORT,2  // Field=failure_bit[1]
+  USHORT,3  // Field=failure_bit[2]
+  USHORT,4  // Field=failure_bit[3]
+  USHORT,0  // Field=failure_bit[4]
+  USHORT,0  // Field=failure_bit[5]
+  USHORT,0  // Field=failure_bit[6]
+  USHORT,0  // Field=failure_bit[7]
+  USHORT,0  // Field=status_bit[0]
+  USHORT,0  // Field=status_bit[1]
+  USHORT,0  // Field=status_bit[2]
+  USHORT,0  // Field=status_bit[3]
+  USHORT,0  // Field=status_bit[4]
+  USHORT,0  // Field=status_bit[5]
+  USHORT,0  // Field=status_bit[6]
+  USHORT,0  // Field=status_bit[7]
+    //
+    BEGINSTRUCT // Begin of structure=S_wk_sigdev
+      USHORT  // Field=s_wk_sigdev.value
+      USHORT  // Field=s_wk_sigdev.old_value
+    ENDSTRUCT // End of structure=S_wk_sigdev
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_sigdevstat
+        //
+        BEGINSTRUCT // Begin of structure=S_counter
+          ULONG  // Field=s_locsigdevstat.s_counter_change.n_time
+          ULONG  // Field=s_locsigdevstat.s_counter_change.time
+        ENDSTRUCT // End of structure=S_counter
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_status
+          ULONG  // Field=s_locsigdevstat.s_status.status
+          ULONG  // Field=s_locsigdevstat.s_status.old_status
+        ENDSTRUCT // End of structure=S_status
+        //
+    ENDSTRUCT // End of structure=S_sigdevstat
+    //
+ENDSTRUCT // End of structure=S_sigdev
+//
+//
+BEGINSTRUCT // Begin of structure=S_sigdev
+  USHORT,41  // Field=id
+  USHORT,1  // Field=enable
+  USHORT,512  // Field=device
+  USHORT,6  // Field=id_device
+  USHORT,5  // Field=ctrl_type
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_48VFAIL_06"  // Field=s_di_input[0].name
+      POINTER  // Field=s_di_input[0].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_48VFAN_06"  // Field=s_di_input[1].name
+      POINTER  // Field=s_di_input[1].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_48VLINE_06"  // Field=s_di_input[2].name
+      POINTER  // Field=s_di_input[2].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_48VQS1_06"  // Field=s_di_input[3].name
+      POINTER  // Field=s_di_input[3].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_input[4].name
+      POINTER  // Field=s_di_input[4].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_input[5].name
+      POINTER  // Field=s_di_input[5].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_input[6].name
+      POINTER  // Field=s_di_input[6].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_input[7].name
+      POINTER  // Field=s_di_input[7].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+  USHORT,1  // Field=failure_bit[0]
+  USHORT,2  // Field=failure_bit[1]
+  USHORT,3  // Field=failure_bit[2]
+  USHORT,4  // Field=failure_bit[3]
+  USHORT,0  // Field=failure_bit[4]
+  USHORT,0  // Field=failure_bit[5]
+  USHORT,0  // Field=failure_bit[6]
+  USHORT,0  // Field=failure_bit[7]
+  USHORT,0  // Field=status_bit[0]
+  USHORT,0  // Field=status_bit[1]
+  USHORT,0  // Field=status_bit[2]
+  USHORT,0  // Field=status_bit[3]
+  USHORT,0  // Field=status_bit[4]
+  USHORT,0  // Field=status_bit[5]
+  USHORT,0  // Field=status_bit[6]
+  USHORT,0  // Field=status_bit[7]
+    //
+    BEGINSTRUCT // Begin of structure=S_wk_sigdev
+      USHORT  // Field=s_wk_sigdev.value
+      USHORT  // Field=s_wk_sigdev.old_value
+    ENDSTRUCT // End of structure=S_wk_sigdev
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_sigdevstat
+        //
+        BEGINSTRUCT // Begin of structure=S_counter
+          ULONG  // Field=s_locsigdevstat.s_counter_change.n_time
+          ULONG  // Field=s_locsigdevstat.s_counter_change.time
+        ENDSTRUCT // End of structure=S_counter
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_status
+          ULONG  // Field=s_locsigdevstat.s_status.status
+          ULONG  // Field=s_locsigdevstat.s_status.old_status
+        ENDSTRUCT // End of structure=S_status
+        //
+    ENDSTRUCT // End of structure=S_sigdevstat
+    //
+ENDSTRUCT // End of structure=S_sigdev
+//
+//
+BEGINSTRUCT // Begin of structure=S_sigdev
+  USHORT,42  // Field=id
+  USHORT,1  // Field=enable
+  USHORT,512  // Field=device
+  USHORT,7  // Field=id_device
+  USHORT,5  // Field=ctrl_type
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_48VFAIL_07"  // Field=s_di_input[0].name
+      POINTER  // Field=s_di_input[0].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_48VFAN_07"  // Field=s_di_input[1].name
+      POINTER  // Field=s_di_input[1].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_48VLINE_07"  // Field=s_di_input[2].name
+      POINTER  // Field=s_di_input[2].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_48VQS1_07"  // Field=s_di_input[3].name
+      POINTER  // Field=s_di_input[3].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_input[4].name
+      POINTER  // Field=s_di_input[4].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_input[5].name
+      POINTER  // Field=s_di_input[5].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_input[6].name
+      POINTER  // Field=s_di_input[6].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_input[7].name
+      POINTER  // Field=s_di_input[7].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+  USHORT,1  // Field=failure_bit[0]
+  USHORT,2  // Field=failure_bit[1]
+  USHORT,3  // Field=failure_bit[2]
+  USHORT,4  // Field=failure_bit[3]
+  USHORT,0  // Field=failure_bit[4]
+  USHORT,0  // Field=failure_bit[5]
+  USHORT,0  // Field=failure_bit[6]
+  USHORT,0  // Field=failure_bit[7]
+  USHORT,0  // Field=status_bit[0]
+  USHORT,0  // Field=status_bit[1]
+  USHORT,0  // Field=status_bit[2]
+  USHORT,0  // Field=status_bit[3]
+  USHORT,0  // Field=status_bit[4]
+  USHORT,0  // Field=status_bit[5]
+  USHORT,0  // Field=status_bit[6]
+  USHORT,0  // Field=status_bit[7]
+    //
+    BEGINSTRUCT // Begin of structure=S_wk_sigdev
+      USHORT  // Field=s_wk_sigdev.value
+      USHORT  // Field=s_wk_sigdev.old_value
+    ENDSTRUCT // End of structure=S_wk_sigdev
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_sigdevstat
+        //
+        BEGINSTRUCT // Begin of structure=S_counter
+          ULONG  // Field=s_locsigdevstat.s_counter_change.n_time
+          ULONG  // Field=s_locsigdevstat.s_counter_change.time
+        ENDSTRUCT // End of structure=S_counter
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_status
+          ULONG  // Field=s_locsigdevstat.s_status.status
+          ULONG  // Field=s_locsigdevstat.s_status.old_status
+        ENDSTRUCT // End of structure=S_status
+        //
+    ENDSTRUCT // End of structure=S_sigdevstat
+    //
+ENDSTRUCT // End of structure=S_sigdev
+//
+//
+BEGINSTRUCT // Begin of structure=S_sigdev
+  USHORT,43  // Field=id
+  USHORT,1  // Field=enable
+  USHORT,512  // Field=device
+  USHORT,8  // Field=id_device
+  USHORT,5  // Field=ctrl_type
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_48VFAIL_08"  // Field=s_di_input[0].name
+      POINTER  // Field=s_di_input[0].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_48VFAN_08"  // Field=s_di_input[1].name
+      POINTER  // Field=s_di_input[1].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_48VLINE_08"  // Field=s_di_input[2].name
+      POINTER  // Field=s_di_input[2].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_48VQS1_08"  // Field=s_di_input[3].name
+      POINTER  // Field=s_di_input[3].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_input[4].name
+      POINTER  // Field=s_di_input[4].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_input[5].name
+      POINTER  // Field=s_di_input[5].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_input[6].name
+      POINTER  // Field=s_di_input[6].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_input[7].name
+      POINTER  // Field=s_di_input[7].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+  USHORT,1  // Field=failure_bit[0]
+  USHORT,2  // Field=failure_bit[1]
+  USHORT,3  // Field=failure_bit[2]
+  USHORT,4  // Field=failure_bit[3]
+  USHORT,0  // Field=failure_bit[4]
+  USHORT,0  // Field=failure_bit[5]
+  USHORT,0  // Field=failure_bit[6]
+  USHORT,0  // Field=failure_bit[7]
+  USHORT,0  // Field=status_bit[0]
+  USHORT,0  // Field=status_bit[1]
+  USHORT,0  // Field=status_bit[2]
+  USHORT,0  // Field=status_bit[3]
+  USHORT,0  // Field=status_bit[4]
+  USHORT,0  // Field=status_bit[5]
+  USHORT,0  // Field=status_bit[6]
+  USHORT,0  // Field=status_bit[7]
+    //
+    BEGINSTRUCT // Begin of structure=S_wk_sigdev
+      USHORT  // Field=s_wk_sigdev.value
+      USHORT  // Field=s_wk_sigdev.old_value
+    ENDSTRUCT // End of structure=S_wk_sigdev
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_sigdevstat
+        //
+        BEGINSTRUCT // Begin of structure=S_counter
+          ULONG  // Field=s_locsigdevstat.s_counter_change.n_time
+          ULONG  // Field=s_locsigdevstat.s_counter_change.time
+        ENDSTRUCT // End of structure=S_counter
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_status
+          ULONG  // Field=s_locsigdevstat.s_status.status
+          ULONG  // Field=s_locsigdevstat.s_status.old_status
+        ENDSTRUCT // End of structure=S_status
+        //
+    ENDSTRUCT // End of structure=S_sigdevstat
+    //
+ENDSTRUCT // End of structure=S_sigdev
+//
+//
+BEGINSTRUCT // Begin of structure=S_sigdev
+  USHORT,44  // Field=id
+  USHORT,1  // Field=enable
+  USHORT,512  // Field=device
+  USHORT,9  // Field=id_device
+  USHORT,5  // Field=ctrl_type
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_48VFAIL_09"  // Field=s_di_input[0].name
+      POINTER  // Field=s_di_input[0].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_48VFAN_09"  // Field=s_di_input[1].name
+      POINTER  // Field=s_di_input[1].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_48VLINE_09"  // Field=s_di_input[2].name
+      POINTER  // Field=s_di_input[2].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_48VQS1_09"  // Field=s_di_input[3].name
+      POINTER  // Field=s_di_input[3].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_input[4].name
+      POINTER  // Field=s_di_input[4].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_input[5].name
+      POINTER  // Field=s_di_input[5].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_input[6].name
+      POINTER  // Field=s_di_input[6].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_input[7].name
+      POINTER  // Field=s_di_input[7].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+  USHORT,1  // Field=failure_bit[0]
+  USHORT,2  // Field=failure_bit[1]
+  USHORT,3  // Field=failure_bit[2]
+  USHORT,4  // Field=failure_bit[3]
+  USHORT,0  // Field=failure_bit[4]
+  USHORT,0  // Field=failure_bit[5]
+  USHORT,0  // Field=failure_bit[6]
+  USHORT,0  // Field=failure_bit[7]
+  USHORT,0  // Field=status_bit[0]
+  USHORT,0  // Field=status_bit[1]
+  USHORT,0  // Field=status_bit[2]
+  USHORT,0  // Field=status_bit[3]
+  USHORT,0  // Field=status_bit[4]
+  USHORT,0  // Field=status_bit[5]
+  USHORT,0  // Field=status_bit[6]
+  USHORT,0  // Field=status_bit[7]
+    //
+    BEGINSTRUCT // Begin of structure=S_wk_sigdev
+      USHORT  // Field=s_wk_sigdev.value
+      USHORT  // Field=s_wk_sigdev.old_value
+    ENDSTRUCT // End of structure=S_wk_sigdev
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_sigdevstat
+        //
+        BEGINSTRUCT // Begin of structure=S_counter
+          ULONG  // Field=s_locsigdevstat.s_counter_change.n_time
+          ULONG  // Field=s_locsigdevstat.s_counter_change.time
+        ENDSTRUCT // End of structure=S_counter
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_status
+          ULONG  // Field=s_locsigdevstat.s_status.status
+          ULONG  // Field=s_locsigdevstat.s_status.old_status
+        ENDSTRUCT // End of structure=S_status
+        //
+    ENDSTRUCT // End of structure=S_sigdevstat
+    //
+ENDSTRUCT // End of structure=S_sigdev
+//
+//
+BEGINSTRUCT // Begin of structure=S_sigdev
+  USHORT,45  // Field=id
+  USHORT,1  // Field=enable
+  USHORT,512  // Field=device
+  USHORT,10  // Field=id_device
+  USHORT,5  // Field=ctrl_type
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_48VFAIL_10"  // Field=s_di_input[0].name
+      POINTER  // Field=s_di_input[0].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_48VFAN_10"  // Field=s_di_input[1].name
+      POINTER  // Field=s_di_input[1].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_48VLINE_10"  // Field=s_di_input[2].name
+      POINTER  // Field=s_di_input[2].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_48VQS1_10"  // Field=s_di_input[3].name
+      POINTER  // Field=s_di_input[3].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_input[4].name
+      POINTER  // Field=s_di_input[4].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_input[5].name
+      POINTER  // Field=s_di_input[5].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_input[6].name
+      POINTER  // Field=s_di_input[6].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_input[7].name
+      POINTER  // Field=s_di_input[7].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+  USHORT,1  // Field=failure_bit[0]
+  USHORT,2  // Field=failure_bit[1]
+  USHORT,3  // Field=failure_bit[2]
+  USHORT,4  // Field=failure_bit[3]
+  USHORT,0  // Field=failure_bit[4]
+  USHORT,0  // Field=failure_bit[5]
+  USHORT,0  // Field=failure_bit[6]
+  USHORT,0  // Field=failure_bit[7]
+  USHORT,0  // Field=status_bit[0]
+  USHORT,0  // Field=status_bit[1]
+  USHORT,0  // Field=status_bit[2]
+  USHORT,0  // Field=status_bit[3]
+  USHORT,0  // Field=status_bit[4]
+  USHORT,0  // Field=status_bit[5]
+  USHORT,0  // Field=status_bit[6]
+  USHORT,0  // Field=status_bit[7]
+    //
+    BEGINSTRUCT // Begin of structure=S_wk_sigdev
+      USHORT  // Field=s_wk_sigdev.value
+      USHORT  // Field=s_wk_sigdev.old_value
+    ENDSTRUCT // End of structure=S_wk_sigdev
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_sigdevstat
+        //
+        BEGINSTRUCT // Begin of structure=S_counter
+          ULONG  // Field=s_locsigdevstat.s_counter_change.n_time
+          ULONG  // Field=s_locsigdevstat.s_counter_change.time
+        ENDSTRUCT // End of structure=S_counter
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_status
+          ULONG  // Field=s_locsigdevstat.s_status.status
+          ULONG  // Field=s_locsigdevstat.s_status.old_status
+        ENDSTRUCT // End of structure=S_status
+        //
+    ENDSTRUCT // End of structure=S_sigdevstat
+    //
+ENDSTRUCT // End of structure=S_sigdev
+//
+//
+BEGINSTRUCT // Begin of structure=S_sigdev
+  USHORT,46  // Field=id
+  USHORT,1  // Field=enable
+  USHORT,512  // Field=device
+  USHORT,11  // Field=id_device
+  USHORT,5  // Field=ctrl_type
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_48VFAIL_11"  // Field=s_di_input[0].name
+      POINTER  // Field=s_di_input[0].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_48VFAN_11"  // Field=s_di_input[1].name
+      POINTER  // Field=s_di_input[1].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_48VLINE_11"  // Field=s_di_input[2].name
+      POINTER  // Field=s_di_input[2].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_48VQS1_11"  // Field=s_di_input[3].name
+      POINTER  // Field=s_di_input[3].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_input[4].name
+      POINTER  // Field=s_di_input[4].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_input[5].name
+      POINTER  // Field=s_di_input[5].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_input[6].name
+      POINTER  // Field=s_di_input[6].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_input[7].name
+      POINTER  // Field=s_di_input[7].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+  USHORT,1  // Field=failure_bit[0]
+  USHORT,2  // Field=failure_bit[1]
+  USHORT,3  // Field=failure_bit[2]
+  USHORT,4  // Field=failure_bit[3]
+  USHORT,0  // Field=failure_bit[4]
+  USHORT,0  // Field=failure_bit[5]
+  USHORT,0  // Field=failure_bit[6]
+  USHORT,0  // Field=failure_bit[7]
+  USHORT,0  // Field=status_bit[0]
+  USHORT,0  // Field=status_bit[1]
+  USHORT,0  // Field=status_bit[2]
+  USHORT,0  // Field=status_bit[3]
+  USHORT,0  // Field=status_bit[4]
+  USHORT,0  // Field=status_bit[5]
+  USHORT,0  // Field=status_bit[6]
+  USHORT,0  // Field=status_bit[7]
+    //
+    BEGINSTRUCT // Begin of structure=S_wk_sigdev
+      USHORT  // Field=s_wk_sigdev.value
+      USHORT  // Field=s_wk_sigdev.old_value
+    ENDSTRUCT // End of structure=S_wk_sigdev
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_sigdevstat
+        //
+        BEGINSTRUCT // Begin of structure=S_counter
+          ULONG  // Field=s_locsigdevstat.s_counter_change.n_time
+          ULONG  // Field=s_locsigdevstat.s_counter_change.time
+        ENDSTRUCT // End of structure=S_counter
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_status
+          ULONG  // Field=s_locsigdevstat.s_status.status
+          ULONG  // Field=s_locsigdevstat.s_status.old_status
+        ENDSTRUCT // End of structure=S_status
+        //
+    ENDSTRUCT // End of structure=S_sigdevstat
+    //
+ENDSTRUCT // End of structure=S_sigdev
+//
+//
+BEGINSTRUCT // Begin of structure=S_sigdev
+  USHORT,47  // Field=id
+  USHORT,1  // Field=enable
+  USHORT,512  // Field=device
+  USHORT,12  // Field=id_device
+  USHORT,5  // Field=ctrl_type
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_48VFAIL_12"  // Field=s_di_input[0].name
+      POINTER  // Field=s_di_input[0].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_48VFAN_12"  // Field=s_di_input[1].name
+      POINTER  // Field=s_di_input[1].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_48VLINE_12"  // Field=s_di_input[2].name
+      POINTER  // Field=s_di_input[2].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_48VQS1_12"  // Field=s_di_input[3].name
+      POINTER  // Field=s_di_input[3].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_input[4].name
+      POINTER  // Field=s_di_input[4].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_input[5].name
+      POINTER  // Field=s_di_input[5].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_input[6].name
+      POINTER  // Field=s_di_input[6].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_input[7].name
+      POINTER  // Field=s_di_input[7].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+  USHORT,1  // Field=failure_bit[0]
+  USHORT,2  // Field=failure_bit[1]
+  USHORT,3  // Field=failure_bit[2]
+  USHORT,4  // Field=failure_bit[3]
+  USHORT,0  // Field=failure_bit[4]
+  USHORT,0  // Field=failure_bit[5]
+  USHORT,0  // Field=failure_bit[6]
+  USHORT,0  // Field=failure_bit[7]
+  USHORT,0  // Field=status_bit[0]
+  USHORT,0  // Field=status_bit[1]
+  USHORT,0  // Field=status_bit[2]
+  USHORT,0  // Field=status_bit[3]
+  USHORT,0  // Field=status_bit[4]
+  USHORT,0  // Field=status_bit[5]
+  USHORT,0  // Field=status_bit[6]
+  USHORT,0  // Field=status_bit[7]
+    //
+    BEGINSTRUCT // Begin of structure=S_wk_sigdev
+      USHORT  // Field=s_wk_sigdev.value
+      USHORT  // Field=s_wk_sigdev.old_value
+    ENDSTRUCT // End of structure=S_wk_sigdev
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_sigdevstat
+        //
+        BEGINSTRUCT // Begin of structure=S_counter
+          ULONG  // Field=s_locsigdevstat.s_counter_change.n_time
+          ULONG  // Field=s_locsigdevstat.s_counter_change.time
+        ENDSTRUCT // End of structure=S_counter
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_status
+          ULONG  // Field=s_locsigdevstat.s_status.status
+          ULONG  // Field=s_locsigdevstat.s_status.old_status
+        ENDSTRUCT // End of structure=S_status
+        //
+    ENDSTRUCT // End of structure=S_sigdevstat
+    //
+ENDSTRUCT // End of structure=S_sigdev
+//
+//
+BEGINSTRUCT // Begin of structure=S_sigdev
+  USHORT,48  // Field=id
+  USHORT,1  // Field=enable
+  USHORT,512  // Field=device
+  USHORT,13  // Field=id_device
+  USHORT,5  // Field=ctrl_type
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_48VFAIL_13"  // Field=s_di_input[0].name
+      POINTER  // Field=s_di_input[0].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_48VFAN_13"  // Field=s_di_input[1].name
+      POINTER  // Field=s_di_input[1].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_48VLINE_13"  // Field=s_di_input[2].name
+      POINTER  // Field=s_di_input[2].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_48VQS1_13"  // Field=s_di_input[3].name
+      POINTER  // Field=s_di_input[3].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_input[4].name
+      POINTER  // Field=s_di_input[4].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_input[5].name
+      POINTER  // Field=s_di_input[5].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_input[6].name
+      POINTER  // Field=s_di_input[6].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_input[7].name
+      POINTER  // Field=s_di_input[7].ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+  USHORT,1  // Field=failure_bit[0]
+  USHORT,2  // Field=failure_bit[1]
+  USHORT,3  // Field=failure_bit[2]
+  USHORT,4  // Field=failure_bit[3]
+  USHORT,0  // Field=failure_bit[4]
+  USHORT,0  // Field=failure_bit[5]
+  USHORT,0  // Field=failure_bit[6]
+  USHORT,0  // Field=failure_bit[7]
+  USHORT,0  // Field=status_bit[0]
+  USHORT,0  // Field=status_bit[1]
+  USHORT,0  // Field=status_bit[2]
+  USHORT,0  // Field=status_bit[3]
+  USHORT,0  // Field=status_bit[4]
+  USHORT,0  // Field=status_bit[5]
+  USHORT,0  // Field=status_bit[6]
+  USHORT,0  // Field=status_bit[7]
+    //
+    BEGINSTRUCT // Begin of structure=S_wk_sigdev
+      USHORT  // Field=s_wk_sigdev.value
+      USHORT  // Field=s_wk_sigdev.old_value
+    ENDSTRUCT // End of structure=S_wk_sigdev
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_sigdevstat
+        //
+        BEGINSTRUCT // Begin of structure=S_counter
+          ULONG  // Field=s_locsigdevstat.s_counter_change.n_time
+          ULONG  // Field=s_locsigdevstat.s_counter_change.time
+        ENDSTRUCT // End of structure=S_counter
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_status
+          ULONG  // Field=s_locsigdevstat.s_status.status
+          ULONG  // Field=s_locsigdevstat.s_status.old_status
+        ENDSTRUCT // End of structure=S_status
+        //
+    ENDSTRUCT // End of structure=S_sigdevstat
+    //
+ENDSTRUCT // End of structure=S_sigdev
+//

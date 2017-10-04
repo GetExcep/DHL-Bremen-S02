@@ -1,0 +1,25 @@
+//
+// Volume sensor table
+//
+Field="id"
+Field="name"
+Field="enable"
+Field="s_cfg_vsensor.offset_ph0"
+Field="s_cfg_vsensor.timeout"
+Field="s_cfg_vsensor.n_parc_waiting"
+Field="s_cfg_vsensor.n_max_noread_err"
+Field="s_cfg_vsensor.n_max_nomess_err"
+Field="s_cfg_vsensor.window_dim"
+Field="s_cfg_vsensor.window_noread_thr"
+Field="s_cfg_vsensor.window_nomess_thr"
+Field="s_cfg_vsensor.tx_mode"
+Field="s_cfg_vsensor.window_reading"
+Field="s_cfg_vsensor.valid_code_position"
+Field="s_cfg_vsensor.valid_code_length"
+Field="s_cfg_vsensor.vsensor_type"
+Field="s_cfg_vsensor.pitch_as"
+Field="s_cfg_vsensor.driver_name"
+Field="s_cfg_vsensor.protocol_name"
+Field="s_do_start.name"
+//
+

@@ -1,0 +1,102 @@
+//
+//S_cellextra_is
+//
+TABLE_TYPE: 0
+//
+MAXTABLE
+//
+TABLE
+//
+//
+BEGINSTRUCT // Begin of structure=S_cellextra_is
+USHORT // Field=id
+	//
+	 BEGINSTRUCT // Begin of structure=S_cell_info_isl
+      USHORT // Field=s_cell_info_isl[0].id
+      USHORT // Field=s_cell_info_isl[0].correction
+	  USHORT // Field=s_cell_info_isl[0].correction_type
+    ENDSTRUCT // End of structure=S_cell_info_isl
+	//
+	 BEGINSTRUCT // Begin of structure=S_cell_info_isl
+      USHORT // Field=s_cell_info_isl[1].id
+      USHORT // Field=s_cell_info_isl[1].correction
+  	  USHORT // Field=s_cell_info_isl[1].correction_type
+    ENDSTRUCT // End of structure=S_cell_info_isl
+	//
+	 BEGINSTRUCT // Begin of structure=S_cell_info_isl
+      USHORT // Field=s_cell_info_isl[2].id
+      USHORT // Field=s_cell_info_isl[2].correction
+  	  USHORT // Field=s_cell_info_isl[2].correction_type
+	  ENDSTRUCT // End of structure=S_cell_info_isl
+	//
+	 BEGINSTRUCT // Begin of structure=S_cell_info_isl
+      USHORT // Field=s_cell_info_isl[3].id
+      USHORT // Field=s_cell_info_isl[3].correction
+  	  USHORT // Field=s_cell_info_isl[3].correction_type
+	  ENDSTRUCT // End of structure=S_cell_info_isl
+	//
+	 BEGINSTRUCT // Begin of structure=S_cell_info_isl
+      USHORT // Field=s_cell_info_isl[4].id
+      USHORT // Field=s_cell_info_isl[4].correction
+  	  USHORT // Field=s_cell_info_isl[4].correction_type
+	  ENDSTRUCT // End of structure=S_cell_info_isl
+	//
+	 BEGINSTRUCT // Begin of structure=S_cell_info_isl
+      USHORT // Field=s_cell_info_isl[5].id
+      USHORT // Field=s_cell_info_isl[5].correction
+  	  USHORT // Field=s_cell_info_isl[5].correction_type
+	  ENDSTRUCT // End of structure=S_cell_info_isl
+	//
+	 BEGINSTRUCT // Begin of structure=S_cell_info_isl
+      USHORT // Field=s_cell_info_isl[6].id
+      USHORT // Field=s_cell_info_isl[6].correction
+  	  USHORT // Field=s_cell_info_isl[6].correction_type
+	  ENDSTRUCT // End of structure=S_cell_info_isl
+	//
+	 BEGINSTRUCT // Begin of structure=S_cell_info_isl
+      USHORT // Field=s_cell_info_isl[7].id
+      USHORT // Field=s_cell_info_isl[7].correction
+  	  USHORT // Field=s_cell_info_isl[7].correction_type
+	  ENDSTRUCT // End of structure=S_cell_info_isl
+	//
+	 BEGINSTRUCT // Begin of structure=S_cell_info_isl
+      USHORT // Field=s_cell_info_isl[8].id
+      USHORT // Field=s_cell_info_isl[8].correction
+  	  USHORT // Field=s_cell_info_isl[8].correction_type
+	  ENDSTRUCT // End of structure=S_cell_info_isl
+	//
+	 BEGINSTRUCT // Begin of structure=S_cell_info_isl
+      USHORT // Field=s_cell_info_isl[9].id
+      USHORT // Field=s_cell_info_isl[9].correction
+  	  USHORT // Field=s_cell_info_isl[9].correction_type
+	  ENDSTRUCT // End of structure=S_cell_info_isl
+	//
+	 BEGINSTRUCT // Begin of structure=S_cell_info_isl
+      USHORT // Field=s_cell_info_isl[10].id
+      USHORT // Field=s_cell_info_isl[10].correction
+  	  USHORT // Field=s_cell_info_isl[10].correction_type
+	  ENDSTRUCT // End of structure=S_cell_info_isl
+	//
+	 BEGINSTRUCT // Begin of structure=S_cell_info_isl
+      USHORT // Field=s_cell_info_isl[11].id
+      USHORT // Field=s_cell_info_isl[11].correction
+  	  USHORT // Field=s_cell_info_isl[11].correction_type
+	  ENDSTRUCT // End of structure=S_cell_info_isl
+	//
+	 BEGINSTRUCT // Begin of structure=S_cell_info_isl
+      USHORT // Field=s_cell_info_isl[12].id
+      USHORT // Field=s_cell_info_isl[12].correction
+  	  USHORT // Field=s_cell_info_isl[12].correction_type
+	  ENDSTRUCT // End of structure=S_cell_info_isl
+	//
+	 BEGINSTRUCT // Begin of structure=S_cell_info_isl
+      USHORT // Field=s_cell_info_isl[13].id
+      USHORT // Field=s_cell_info_isl[13].correction
+  	  USHORT // Field=s_cell_info_isl[13].correction_type
+	  ENDSTRUCT // End of structure=S_cell_info_isl
+	//
+ENDSTRUCT // End of structure=S_cellextra_is
+//
+//
+ENDTABLE
+//

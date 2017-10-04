@@ -1,0 +1,14 @@
+//
+TableName="OFFLSTAT"
+//
+//
+Field="Id",DB_INTEGER
+Field="Offloading data station name",DB_TEXT,12
+Field="Enable",DB_BOOLEAN
+Field="chute",DB_INTEGER
+Field="DO Offloading warning not used",DB_TEXT,12
+Field="DO Data Ready",DB_TEXT,12
+Field="DO Priority to dMFS",DB_TEXT,12
+Field="(c)Enable/Disable state transition trace",DB_INTEGER
+//
+Index="Id","+Id",yes,yes

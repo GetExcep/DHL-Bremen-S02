@@ -1,0 +1,3666 @@
+//
+//S_analog
+//
+TABLE_TYPE: 0
+//
+MAXTABLE:86
+//
+TABLE
+//
+//
+BEGINSTRUCT // Begin of structure=S_analog
+  ULONG  // Field=id
+  STRING12  // Field=name
+  USHORT  // Field=enable
+    //
+    BEGINSTRUCT // Begin of structure=S_aores
+      USHORT  // Field=s_aores.volt
+      USHORT  // Field=s_aores.value
+    ENDSTRUCT // End of structure=S_aores
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12  // Field=s_do_enable.name
+      POINTER  // Field=s_do_enable.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12  // Field=s_do_reverse.name
+      POINTER  // Field=s_do_reverse.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_tm
+      USHORT  // Field=s_tm_enable.base
+      ULONG  // Field=s_tm_enable.preset
+      POINTER  // Field=s_tm_enable.ps_timer
+    ENDSTRUCT // End of structure=S_tm
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_ao
+      STRING12  // Field=s_ao_mirror.name
+      POINTER  // Field=s_ao_mirror.ps_analog
+    ENDSTRUCT // End of structure=S_ao
+    //
+  SHORT  // Field=value
+  USHORT  // Field=step_up
+  USHORT  // Field=step_dw
+  SHORT  // Field=current_value
+ENDSTRUCT // End of structure=S_analog
+//
+//
+ENDTABLE
+//
+//
+BEGINSTRUCT // Begin of structure=S_analog
+  ULONG,200301  // Field=id
+  STRING12,"A_BREF_511"  // Field=name
+  USHORT,1  // Field=enable
+    //
+    BEGINSTRUCT // Begin of structure=S_aores
+      USHORT,1000  // Field=s_aores.volt
+      USHORT,100  // Field=s_aores.value
+    ENDSTRUCT // End of structure=S_aores
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12,"O_BSTAR_511"  // Field=s_do_enable.name
+      POINTER  // Field=s_do_enable.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12,"O_BREV_511"  // Field=s_do_reverse.name
+      POINTER  // Field=s_do_reverse.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_tm
+      USHORT,1  // Field=s_tm_enable.base
+      ULONG,200  // Field=s_tm_enable.preset
+      POINTER  // Field=s_tm_enable.ps_timer
+    ENDSTRUCT // End of structure=S_tm
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_ao
+      STRING12  // Field=s_ao_mirror.name
+      POINTER  // Field=s_ao_mirror.ps_analog
+    ENDSTRUCT // End of structure=S_ao
+    //
+  SHORT  // Field=value
+  USHORT  // Field=step_up
+  USHORT  // Field=step_dw
+  SHORT  // Field=current_value
+ENDSTRUCT // End of structure=S_analog
+//
+//
+BEGINSTRUCT // Begin of structure=S_analog
+  ULONG,200901  // Field=id
+  STRING12,"A_BREF_512"  // Field=name
+  USHORT,1  // Field=enable
+    //
+    BEGINSTRUCT // Begin of structure=S_aores
+      USHORT,1000  // Field=s_aores.volt
+      USHORT,100  // Field=s_aores.value
+    ENDSTRUCT // End of structure=S_aores
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12,"O_BSTAR_512"  // Field=s_do_enable.name
+      POINTER  // Field=s_do_enable.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12,"O_BREV_512"  // Field=s_do_reverse.name
+      POINTER  // Field=s_do_reverse.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_tm
+      USHORT,1  // Field=s_tm_enable.base
+      ULONG,200  // Field=s_tm_enable.preset
+      POINTER  // Field=s_tm_enable.ps_timer
+    ENDSTRUCT // End of structure=S_tm
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_ao
+      STRING12  // Field=s_ao_mirror.name
+      POINTER  // Field=s_ao_mirror.ps_analog
+    ENDSTRUCT // End of structure=S_ao
+    //
+  SHORT  // Field=value
+  USHORT  // Field=step_up
+  USHORT  // Field=step_dw
+  SHORT  // Field=current_value
+ENDSTRUCT // End of structure=S_analog
+//
+//
+BEGINSTRUCT // Begin of structure=S_analog
+  ULONG,201501  // Field=id
+  STRING12,"A_BREF_513"  // Field=name
+  USHORT,1  // Field=enable
+    //
+    BEGINSTRUCT // Begin of structure=S_aores
+      USHORT,1000  // Field=s_aores.volt
+      USHORT,100  // Field=s_aores.value
+    ENDSTRUCT // End of structure=S_aores
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12,"O_BSTAR_513"  // Field=s_do_enable.name
+      POINTER  // Field=s_do_enable.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12,"O_BREV_513"  // Field=s_do_reverse.name
+      POINTER  // Field=s_do_reverse.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_tm
+      USHORT,1  // Field=s_tm_enable.base
+      ULONG,200  // Field=s_tm_enable.preset
+      POINTER  // Field=s_tm_enable.ps_timer
+    ENDSTRUCT // End of structure=S_tm
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_ao
+      STRING12  // Field=s_ao_mirror.name
+      POINTER  // Field=s_ao_mirror.ps_analog
+    ENDSTRUCT // End of structure=S_ao
+    //
+  SHORT  // Field=value
+  USHORT  // Field=step_up
+  USHORT  // Field=step_dw
+  SHORT  // Field=current_value
+ENDSTRUCT // End of structure=S_analog
+//
+//
+BEGINSTRUCT // Begin of structure=S_analog
+  ULONG,202101  // Field=id
+  STRING12,"A_BREF_514"  // Field=name
+  USHORT,1  // Field=enable
+    //
+    BEGINSTRUCT // Begin of structure=S_aores
+      USHORT,1000  // Field=s_aores.volt
+      USHORT,100  // Field=s_aores.value
+    ENDSTRUCT // End of structure=S_aores
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12,"O_BSTAR_514"  // Field=s_do_enable.name
+      POINTER  // Field=s_do_enable.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12,"O_BREV_514"  // Field=s_do_reverse.name
+      POINTER  // Field=s_do_reverse.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_tm
+      USHORT,1  // Field=s_tm_enable.base
+      ULONG,200  // Field=s_tm_enable.preset
+      POINTER  // Field=s_tm_enable.ps_timer
+    ENDSTRUCT // End of structure=S_tm
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_ao
+      STRING12  // Field=s_ao_mirror.name
+      POINTER  // Field=s_ao_mirror.ps_analog
+    ENDSTRUCT // End of structure=S_ao
+    //
+  SHORT  // Field=value
+  USHORT  // Field=step_up
+  USHORT  // Field=step_dw
+  SHORT  // Field=current_value
+ENDSTRUCT // End of structure=S_analog
+//
+//
+BEGINSTRUCT // Begin of structure=S_analog
+  ULONG,202701  // Field=id
+  STRING12,"A_BREF_515"  // Field=name
+  USHORT,1  // Field=enable
+    //
+    BEGINSTRUCT // Begin of structure=S_aores
+      USHORT,1000  // Field=s_aores.volt
+      USHORT,100  // Field=s_aores.value
+    ENDSTRUCT // End of structure=S_aores
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12,"O_BSTAR_515"  // Field=s_do_enable.name
+      POINTER  // Field=s_do_enable.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12,"O_BREV_515"  // Field=s_do_reverse.name
+      POINTER  // Field=s_do_reverse.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_tm
+      USHORT,1  // Field=s_tm_enable.base
+      ULONG,200  // Field=s_tm_enable.preset
+      POINTER  // Field=s_tm_enable.ps_timer
+    ENDSTRUCT // End of structure=S_tm
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_ao
+      STRING12  // Field=s_ao_mirror.name
+      POINTER  // Field=s_ao_mirror.ps_analog
+    ENDSTRUCT // End of structure=S_ao
+    //
+  SHORT  // Field=value
+  USHORT  // Field=step_up
+  USHORT  // Field=step_dw
+  SHORT  // Field=current_value
+ENDSTRUCT // End of structure=S_analog
+//
+//
+BEGINSTRUCT // Begin of structure=S_analog
+  ULONG,203301  // Field=id
+  STRING12,"A_BREF_516"  // Field=name
+  USHORT,1  // Field=enable
+    //
+    BEGINSTRUCT // Begin of structure=S_aores
+      USHORT,1000  // Field=s_aores.volt
+      USHORT,100  // Field=s_aores.value
+    ENDSTRUCT // End of structure=S_aores
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12,"O_BSTAR_516"  // Field=s_do_enable.name
+      POINTER  // Field=s_do_enable.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12,"O_BREV_516"  // Field=s_do_reverse.name
+      POINTER  // Field=s_do_reverse.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_tm
+      USHORT,1  // Field=s_tm_enable.base
+      ULONG,200  // Field=s_tm_enable.preset
+      POINTER  // Field=s_tm_enable.ps_timer
+    ENDSTRUCT // End of structure=S_tm
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_ao
+      STRING12  // Field=s_ao_mirror.name
+      POINTER  // Field=s_ao_mirror.ps_analog
+    ENDSTRUCT // End of structure=S_ao
+    //
+  SHORT  // Field=value
+  USHORT  // Field=step_up
+  USHORT  // Field=step_dw
+  SHORT  // Field=current_value
+ENDSTRUCT // End of structure=S_analog
+//
+//
+BEGINSTRUCT // Begin of structure=S_analog
+  ULONG,203901  // Field=id
+  STRING12,"A_BREF_517"  // Field=name
+  USHORT,1  // Field=enable
+    //
+    BEGINSTRUCT // Begin of structure=S_aores
+      USHORT,1000  // Field=s_aores.volt
+      USHORT,100  // Field=s_aores.value
+    ENDSTRUCT // End of structure=S_aores
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12,"O_BSTAR_517"  // Field=s_do_enable.name
+      POINTER  // Field=s_do_enable.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12,"O_BREV_517"  // Field=s_do_reverse.name
+      POINTER  // Field=s_do_reverse.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_tm
+      USHORT,1  // Field=s_tm_enable.base
+      ULONG,200  // Field=s_tm_enable.preset
+      POINTER  // Field=s_tm_enable.ps_timer
+    ENDSTRUCT // End of structure=S_tm
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_ao
+      STRING12  // Field=s_ao_mirror.name
+      POINTER  // Field=s_ao_mirror.ps_analog
+    ENDSTRUCT // End of structure=S_ao
+    //
+  SHORT  // Field=value
+  USHORT  // Field=step_up
+  USHORT  // Field=step_dw
+  SHORT  // Field=current_value
+ENDSTRUCT // End of structure=S_analog
+//
+//
+BEGINSTRUCT // Begin of structure=S_analog
+  ULONG,204501  // Field=id
+  STRING12,"A_BREF_518"  // Field=name
+  USHORT,1  // Field=enable
+    //
+    BEGINSTRUCT // Begin of structure=S_aores
+      USHORT,1000  // Field=s_aores.volt
+      USHORT,100  // Field=s_aores.value
+    ENDSTRUCT // End of structure=S_aores
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12,"O_BSTAR_518"  // Field=s_do_enable.name
+      POINTER  // Field=s_do_enable.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12,"O_BREV_518"  // Field=s_do_reverse.name
+      POINTER  // Field=s_do_reverse.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_tm
+      USHORT,1  // Field=s_tm_enable.base
+      ULONG,200  // Field=s_tm_enable.preset
+      POINTER  // Field=s_tm_enable.ps_timer
+    ENDSTRUCT // End of structure=S_tm
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_ao
+      STRING12  // Field=s_ao_mirror.name
+      POINTER  // Field=s_ao_mirror.ps_analog
+    ENDSTRUCT // End of structure=S_ao
+    //
+  SHORT  // Field=value
+  USHORT  // Field=step_up
+  USHORT  // Field=step_dw
+  SHORT  // Field=current_value
+ENDSTRUCT // End of structure=S_analog
+//
+//
+BEGINSTRUCT // Begin of structure=S_analog
+  ULONG,250301  // Field=id
+  STRING12,"A_BREF_611"  // Field=name
+  USHORT,1  // Field=enable
+    //
+    BEGINSTRUCT // Begin of structure=S_aores
+      USHORT,1000  // Field=s_aores.volt
+      USHORT,100  // Field=s_aores.value
+    ENDSTRUCT // End of structure=S_aores
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12,"O_BSTAR_611"  // Field=s_do_enable.name
+      POINTER  // Field=s_do_enable.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12,"O_BREV_611"  // Field=s_do_reverse.name
+      POINTER  // Field=s_do_reverse.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_tm
+      USHORT,1  // Field=s_tm_enable.base
+      ULONG,200  // Field=s_tm_enable.preset
+      POINTER  // Field=s_tm_enable.ps_timer
+    ENDSTRUCT // End of structure=S_tm
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_ao
+      STRING12  // Field=s_ao_mirror.name
+      POINTER  // Field=s_ao_mirror.ps_analog
+    ENDSTRUCT // End of structure=S_ao
+    //
+  SHORT  // Field=value
+  USHORT  // Field=step_up
+  USHORT  // Field=step_dw
+  SHORT  // Field=current_value
+ENDSTRUCT // End of structure=S_analog
+//
+//
+BEGINSTRUCT // Begin of structure=S_analog
+  ULONG,250901  // Field=id
+  STRING12,"A_BREF_612"  // Field=name
+  USHORT,1  // Field=enable
+    //
+    BEGINSTRUCT // Begin of structure=S_aores
+      USHORT,1000  // Field=s_aores.volt
+      USHORT,100  // Field=s_aores.value
+    ENDSTRUCT // End of structure=S_aores
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12,"O_BSTAR_612"  // Field=s_do_enable.name
+      POINTER  // Field=s_do_enable.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12,"O_BREV_612"  // Field=s_do_reverse.name
+      POINTER  // Field=s_do_reverse.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_tm
+      USHORT,1  // Field=s_tm_enable.base
+      ULONG,200  // Field=s_tm_enable.preset
+      POINTER  // Field=s_tm_enable.ps_timer
+    ENDSTRUCT // End of structure=S_tm
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_ao
+      STRING12  // Field=s_ao_mirror.name
+      POINTER  // Field=s_ao_mirror.ps_analog
+    ENDSTRUCT // End of structure=S_ao
+    //
+  SHORT  // Field=value
+  USHORT  // Field=step_up
+  USHORT  // Field=step_dw
+  SHORT  // Field=current_value
+ENDSTRUCT // End of structure=S_analog
+//
+//
+BEGINSTRUCT // Begin of structure=S_analog
+  ULONG,251501  // Field=id
+  STRING12,"A_BREF_613"  // Field=name
+  USHORT,1  // Field=enable
+    //
+    BEGINSTRUCT // Begin of structure=S_aores
+      USHORT,1000  // Field=s_aores.volt
+      USHORT,100  // Field=s_aores.value
+    ENDSTRUCT // End of structure=S_aores
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12,"O_BSTAR_613"  // Field=s_do_enable.name
+      POINTER  // Field=s_do_enable.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12,"O_BREV_613"  // Field=s_do_reverse.name
+      POINTER  // Field=s_do_reverse.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_tm
+      USHORT,1  // Field=s_tm_enable.base
+      ULONG,200  // Field=s_tm_enable.preset
+      POINTER  // Field=s_tm_enable.ps_timer
+    ENDSTRUCT // End of structure=S_tm
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_ao
+      STRING12  // Field=s_ao_mirror.name
+      POINTER  // Field=s_ao_mirror.ps_analog
+    ENDSTRUCT // End of structure=S_ao
+    //
+  SHORT  // Field=value
+  USHORT  // Field=step_up
+  USHORT  // Field=step_dw
+  SHORT  // Field=current_value
+ENDSTRUCT // End of structure=S_analog
+//
+//
+BEGINSTRUCT // Begin of structure=S_analog
+  ULONG,252101  // Field=id
+  STRING12,"A_BREF_614"  // Field=name
+  USHORT,1  // Field=enable
+    //
+    BEGINSTRUCT // Begin of structure=S_aores
+      USHORT,1000  // Field=s_aores.volt
+      USHORT,100  // Field=s_aores.value
+    ENDSTRUCT // End of structure=S_aores
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12,"O_BSTAR_614"  // Field=s_do_enable.name
+      POINTER  // Field=s_do_enable.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12,"O_BREV_614"  // Field=s_do_reverse.name
+      POINTER  // Field=s_do_reverse.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_tm
+      USHORT,1  // Field=s_tm_enable.base
+      ULONG,200  // Field=s_tm_enable.preset
+      POINTER  // Field=s_tm_enable.ps_timer
+    ENDSTRUCT // End of structure=S_tm
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_ao
+      STRING12  // Field=s_ao_mirror.name
+      POINTER  // Field=s_ao_mirror.ps_analog
+    ENDSTRUCT // End of structure=S_ao
+    //
+  SHORT  // Field=value
+  USHORT  // Field=step_up
+  USHORT  // Field=step_dw
+  SHORT  // Field=current_value
+ENDSTRUCT // End of structure=S_analog
+//
+//
+BEGINSTRUCT // Begin of structure=S_analog
+  ULONG,252701  // Field=id
+  STRING12,"A_BREF_615"  // Field=name
+  USHORT,1  // Field=enable
+    //
+    BEGINSTRUCT // Begin of structure=S_aores
+      USHORT,1000  // Field=s_aores.volt
+      USHORT,100  // Field=s_aores.value
+    ENDSTRUCT // End of structure=S_aores
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12,"O_BSTAR_615"  // Field=s_do_enable.name
+      POINTER  // Field=s_do_enable.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12,"O_BREV_615"  // Field=s_do_reverse.name
+      POINTER  // Field=s_do_reverse.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_tm
+      USHORT,1  // Field=s_tm_enable.base
+      ULONG,200  // Field=s_tm_enable.preset
+      POINTER  // Field=s_tm_enable.ps_timer
+    ENDSTRUCT // End of structure=S_tm
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_ao
+      STRING12  // Field=s_ao_mirror.name
+      POINTER  // Field=s_ao_mirror.ps_analog
+    ENDSTRUCT // End of structure=S_ao
+    //
+  SHORT  // Field=value
+  USHORT  // Field=step_up
+  USHORT  // Field=step_dw
+  SHORT  // Field=current_value
+ENDSTRUCT // End of structure=S_analog
+//
+//
+BEGINSTRUCT // Begin of structure=S_analog
+  ULONG,253301  // Field=id
+  STRING12,"A_BREF_616"  // Field=name
+  USHORT,1  // Field=enable
+    //
+    BEGINSTRUCT // Begin of structure=S_aores
+      USHORT,1000  // Field=s_aores.volt
+      USHORT,100  // Field=s_aores.value
+    ENDSTRUCT // End of structure=S_aores
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12,"O_BSTAR_616"  // Field=s_do_enable.name
+      POINTER  // Field=s_do_enable.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12,"O_BREV_616"  // Field=s_do_reverse.name
+      POINTER  // Field=s_do_reverse.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_tm
+      USHORT,1  // Field=s_tm_enable.base
+      ULONG,200  // Field=s_tm_enable.preset
+      POINTER  // Field=s_tm_enable.ps_timer
+    ENDSTRUCT // End of structure=S_tm
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_ao
+      STRING12  // Field=s_ao_mirror.name
+      POINTER  // Field=s_ao_mirror.ps_analog
+    ENDSTRUCT // End of structure=S_ao
+    //
+  SHORT  // Field=value
+  USHORT  // Field=step_up
+  USHORT  // Field=step_dw
+  SHORT  // Field=current_value
+ENDSTRUCT // End of structure=S_analog
+//
+//
+BEGINSTRUCT // Begin of structure=S_analog
+  ULONG,253901  // Field=id
+  STRING12,"A_BREF_617"  // Field=name
+  USHORT,1  // Field=enable
+    //
+    BEGINSTRUCT // Begin of structure=S_aores
+      USHORT,1000  // Field=s_aores.volt
+      USHORT,100  // Field=s_aores.value
+    ENDSTRUCT // End of structure=S_aores
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12,"O_BSTAR_617"  // Field=s_do_enable.name
+      POINTER  // Field=s_do_enable.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12,"O_BREV_617"  // Field=s_do_reverse.name
+      POINTER  // Field=s_do_reverse.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_tm
+      USHORT,1  // Field=s_tm_enable.base
+      ULONG,200  // Field=s_tm_enable.preset
+      POINTER  // Field=s_tm_enable.ps_timer
+    ENDSTRUCT // End of structure=S_tm
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_ao
+      STRING12  // Field=s_ao_mirror.name
+      POINTER  // Field=s_ao_mirror.ps_analog
+    ENDSTRUCT // End of structure=S_ao
+    //
+  SHORT  // Field=value
+  USHORT  // Field=step_up
+  USHORT  // Field=step_dw
+  SHORT  // Field=current_value
+ENDSTRUCT // End of structure=S_analog
+//
+//
+BEGINSTRUCT // Begin of structure=S_analog
+  ULONG,254501  // Field=id
+  STRING12,"A_BREF_618"  // Field=name
+  USHORT,1  // Field=enable
+    //
+    BEGINSTRUCT // Begin of structure=S_aores
+      USHORT,1000  // Field=s_aores.volt
+      USHORT,100  // Field=s_aores.value
+    ENDSTRUCT // End of structure=S_aores
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12,"O_BSTAR_618"  // Field=s_do_enable.name
+      POINTER  // Field=s_do_enable.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12,"O_BREV_618"  // Field=s_do_reverse.name
+      POINTER  // Field=s_do_reverse.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_tm
+      USHORT,1  // Field=s_tm_enable.base
+      ULONG,200  // Field=s_tm_enable.preset
+      POINTER  // Field=s_tm_enable.ps_timer
+    ENDSTRUCT // End of structure=S_tm
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_ao
+      STRING12  // Field=s_ao_mirror.name
+      POINTER  // Field=s_ao_mirror.ps_analog
+    ENDSTRUCT // End of structure=S_ao
+    //
+  SHORT  // Field=value
+  USHORT  // Field=step_up
+  USHORT  // Field=step_dw
+  SHORT  // Field=current_value
+ENDSTRUCT // End of structure=S_analog
+//
+//
+BEGINSTRUCT // Begin of structure=S_analog
+  ULONG,300301  // Field=id
+  STRING12,"A_BREF_711"  // Field=name
+  USHORT,1  // Field=enable
+    //
+    BEGINSTRUCT // Begin of structure=S_aores
+      USHORT,1000  // Field=s_aores.volt
+      USHORT,100  // Field=s_aores.value
+    ENDSTRUCT // End of structure=S_aores
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12,"O_BSTAR_711"  // Field=s_do_enable.name
+      POINTER  // Field=s_do_enable.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12,"O_BREV_711"  // Field=s_do_reverse.name
+      POINTER  // Field=s_do_reverse.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_tm
+      USHORT,1  // Field=s_tm_enable.base
+      ULONG,200  // Field=s_tm_enable.preset
+      POINTER  // Field=s_tm_enable.ps_timer
+    ENDSTRUCT // End of structure=S_tm
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_ao
+      STRING12  // Field=s_ao_mirror.name
+      POINTER  // Field=s_ao_mirror.ps_analog
+    ENDSTRUCT // End of structure=S_ao
+    //
+  SHORT  // Field=value
+  USHORT  // Field=step_up
+  USHORT  // Field=step_dw
+  SHORT  // Field=current_value
+ENDSTRUCT // End of structure=S_analog
+//
+//
+BEGINSTRUCT // Begin of structure=S_analog
+  ULONG,300901  // Field=id
+  STRING12,"A_BREF_712"  // Field=name
+  USHORT,1  // Field=enable
+    //
+    BEGINSTRUCT // Begin of structure=S_aores
+      USHORT,1000  // Field=s_aores.volt
+      USHORT,100  // Field=s_aores.value
+    ENDSTRUCT // End of structure=S_aores
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12,"O_BSTAR_712"  // Field=s_do_enable.name
+      POINTER  // Field=s_do_enable.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12,"O_BREV_712"  // Field=s_do_reverse.name
+      POINTER  // Field=s_do_reverse.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_tm
+      USHORT,1  // Field=s_tm_enable.base
+      ULONG,200  // Field=s_tm_enable.preset
+      POINTER  // Field=s_tm_enable.ps_timer
+    ENDSTRUCT // End of structure=S_tm
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_ao
+      STRING12  // Field=s_ao_mirror.name
+      POINTER  // Field=s_ao_mirror.ps_analog
+    ENDSTRUCT // End of structure=S_ao
+    //
+  SHORT  // Field=value
+  USHORT  // Field=step_up
+  USHORT  // Field=step_dw
+  SHORT  // Field=current_value
+ENDSTRUCT // End of structure=S_analog
+//
+//
+BEGINSTRUCT // Begin of structure=S_analog
+  ULONG,301501  // Field=id
+  STRING12,"A_BREF_713"  // Field=name
+  USHORT,1  // Field=enable
+    //
+    BEGINSTRUCT // Begin of structure=S_aores
+      USHORT,1000  // Field=s_aores.volt
+      USHORT,100  // Field=s_aores.value
+    ENDSTRUCT // End of structure=S_aores
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12,"O_BSTAR_713"  // Field=s_do_enable.name
+      POINTER  // Field=s_do_enable.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12,"O_BREV_713"  // Field=s_do_reverse.name
+      POINTER  // Field=s_do_reverse.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_tm
+      USHORT,1  // Field=s_tm_enable.base
+      ULONG,200  // Field=s_tm_enable.preset
+      POINTER  // Field=s_tm_enable.ps_timer
+    ENDSTRUCT // End of structure=S_tm
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_ao
+      STRING12  // Field=s_ao_mirror.name
+      POINTER  // Field=s_ao_mirror.ps_analog
+    ENDSTRUCT // End of structure=S_ao
+    //
+  SHORT  // Field=value
+  USHORT  // Field=step_up
+  USHORT  // Field=step_dw
+  SHORT  // Field=current_value
+ENDSTRUCT // End of structure=S_analog
+//
+//
+BEGINSTRUCT // Begin of structure=S_analog
+  ULONG,302101  // Field=id
+  STRING12,"A_BREF_714"  // Field=name
+  USHORT,1  // Field=enable
+    //
+    BEGINSTRUCT // Begin of structure=S_aores
+      USHORT,1000  // Field=s_aores.volt
+      USHORT,100  // Field=s_aores.value
+    ENDSTRUCT // End of structure=S_aores
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12,"O_BSTAR_714"  // Field=s_do_enable.name
+      POINTER  // Field=s_do_enable.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12,"O_BREV_714"  // Field=s_do_reverse.name
+      POINTER  // Field=s_do_reverse.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_tm
+      USHORT,1  // Field=s_tm_enable.base
+      ULONG,200  // Field=s_tm_enable.preset
+      POINTER  // Field=s_tm_enable.ps_timer
+    ENDSTRUCT // End of structure=S_tm
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_ao
+      STRING12  // Field=s_ao_mirror.name
+      POINTER  // Field=s_ao_mirror.ps_analog
+    ENDSTRUCT // End of structure=S_ao
+    //
+  SHORT  // Field=value
+  USHORT  // Field=step_up
+  USHORT  // Field=step_dw
+  SHORT  // Field=current_value
+ENDSTRUCT // End of structure=S_analog
+//
+//
+BEGINSTRUCT // Begin of structure=S_analog
+  ULONG,302701  // Field=id
+  STRING12,"A_BREF_715"  // Field=name
+  USHORT,1  // Field=enable
+    //
+    BEGINSTRUCT // Begin of structure=S_aores
+      USHORT,1000  // Field=s_aores.volt
+      USHORT,100  // Field=s_aores.value
+    ENDSTRUCT // End of structure=S_aores
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12,"O_BSTAR_715"  // Field=s_do_enable.name
+      POINTER  // Field=s_do_enable.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12,"O_BREV_715"  // Field=s_do_reverse.name
+      POINTER  // Field=s_do_reverse.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_tm
+      USHORT,1  // Field=s_tm_enable.base
+      ULONG,200  // Field=s_tm_enable.preset
+      POINTER  // Field=s_tm_enable.ps_timer
+    ENDSTRUCT // End of structure=S_tm
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_ao
+      STRING12  // Field=s_ao_mirror.name
+      POINTER  // Field=s_ao_mirror.ps_analog
+    ENDSTRUCT // End of structure=S_ao
+    //
+  SHORT  // Field=value
+  USHORT  // Field=step_up
+  USHORT  // Field=step_dw
+  SHORT  // Field=current_value
+ENDSTRUCT // End of structure=S_analog
+//
+//
+BEGINSTRUCT // Begin of structure=S_analog
+  ULONG,303301  // Field=id
+  STRING12,"A_BREF_716"  // Field=name
+  USHORT,1  // Field=enable
+    //
+    BEGINSTRUCT // Begin of structure=S_aores
+      USHORT,1000  // Field=s_aores.volt
+      USHORT,100  // Field=s_aores.value
+    ENDSTRUCT // End of structure=S_aores
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12,"O_BSTAR_716"  // Field=s_do_enable.name
+      POINTER  // Field=s_do_enable.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12,"O_BREV_716"  // Field=s_do_reverse.name
+      POINTER  // Field=s_do_reverse.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_tm
+      USHORT,1  // Field=s_tm_enable.base
+      ULONG,200  // Field=s_tm_enable.preset
+      POINTER  // Field=s_tm_enable.ps_timer
+    ENDSTRUCT // End of structure=S_tm
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_ao
+      STRING12  // Field=s_ao_mirror.name
+      POINTER  // Field=s_ao_mirror.ps_analog
+    ENDSTRUCT // End of structure=S_ao
+    //
+  SHORT  // Field=value
+  USHORT  // Field=step_up
+  USHORT  // Field=step_dw
+  SHORT  // Field=current_value
+ENDSTRUCT // End of structure=S_analog
+//
+//
+BEGINSTRUCT // Begin of structure=S_analog
+  ULONG,303901  // Field=id
+  STRING12,"A_BREF_717"  // Field=name
+  USHORT,1  // Field=enable
+    //
+    BEGINSTRUCT // Begin of structure=S_aores
+      USHORT,1000  // Field=s_aores.volt
+      USHORT,100  // Field=s_aores.value
+    ENDSTRUCT // End of structure=S_aores
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12,"O_BSTAR_717"  // Field=s_do_enable.name
+      POINTER  // Field=s_do_enable.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12,"O_BREV_717"  // Field=s_do_reverse.name
+      POINTER  // Field=s_do_reverse.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_tm
+      USHORT,1  // Field=s_tm_enable.base
+      ULONG,200  // Field=s_tm_enable.preset
+      POINTER  // Field=s_tm_enable.ps_timer
+    ENDSTRUCT // End of structure=S_tm
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_ao
+      STRING12  // Field=s_ao_mirror.name
+      POINTER  // Field=s_ao_mirror.ps_analog
+    ENDSTRUCT // End of structure=S_ao
+    //
+  SHORT  // Field=value
+  USHORT  // Field=step_up
+  USHORT  // Field=step_dw
+  SHORT  // Field=current_value
+ENDSTRUCT // End of structure=S_analog
+//
+//
+BEGINSTRUCT // Begin of structure=S_analog
+  ULONG,304501  // Field=id
+  STRING12,"A_BREF_718"  // Field=name
+  USHORT,1  // Field=enable
+    //
+    BEGINSTRUCT // Begin of structure=S_aores
+      USHORT,1000  // Field=s_aores.volt
+      USHORT,100  // Field=s_aores.value
+    ENDSTRUCT // End of structure=S_aores
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12,"O_BSTAR_718"  // Field=s_do_enable.name
+      POINTER  // Field=s_do_enable.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12,"O_BREV_718"  // Field=s_do_reverse.name
+      POINTER  // Field=s_do_reverse.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_tm
+      USHORT,1  // Field=s_tm_enable.base
+      ULONG,200  // Field=s_tm_enable.preset
+      POINTER  // Field=s_tm_enable.ps_timer
+    ENDSTRUCT // End of structure=S_tm
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_ao
+      STRING12  // Field=s_ao_mirror.name
+      POINTER  // Field=s_ao_mirror.ps_analog
+    ENDSTRUCT // End of structure=S_ao
+    //
+  SHORT  // Field=value
+  USHORT  // Field=step_up
+  USHORT  // Field=step_dw
+  SHORT  // Field=current_value
+ENDSTRUCT // End of structure=S_analog
+//
+//
+BEGINSTRUCT // Begin of structure=S_analog
+  ULONG,350301  // Field=id
+  STRING12,"A_BREF_811"  // Field=name
+  USHORT,1  // Field=enable
+    //
+    BEGINSTRUCT // Begin of structure=S_aores
+      USHORT,1000  // Field=s_aores.volt
+      USHORT,100  // Field=s_aores.value
+    ENDSTRUCT // End of structure=S_aores
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12,"O_BSTAR_811"  // Field=s_do_enable.name
+      POINTER  // Field=s_do_enable.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12,"O_BREV_811"  // Field=s_do_reverse.name
+      POINTER  // Field=s_do_reverse.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_tm
+      USHORT,1  // Field=s_tm_enable.base
+      ULONG,200  // Field=s_tm_enable.preset
+      POINTER  // Field=s_tm_enable.ps_timer
+    ENDSTRUCT // End of structure=S_tm
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_ao
+      STRING12  // Field=s_ao_mirror.name
+      POINTER  // Field=s_ao_mirror.ps_analog
+    ENDSTRUCT // End of structure=S_ao
+    //
+  SHORT  // Field=value
+  USHORT  // Field=step_up
+  USHORT  // Field=step_dw
+  SHORT  // Field=current_value
+ENDSTRUCT // End of structure=S_analog
+//
+//
+BEGINSTRUCT // Begin of structure=S_analog
+  ULONG,350901  // Field=id
+  STRING12,"A_BREF_812"  // Field=name
+  USHORT,1  // Field=enable
+    //
+    BEGINSTRUCT // Begin of structure=S_aores
+      USHORT,1000  // Field=s_aores.volt
+      USHORT,100  // Field=s_aores.value
+    ENDSTRUCT // End of structure=S_aores
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12,"O_BSTAR_812"  // Field=s_do_enable.name
+      POINTER  // Field=s_do_enable.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12,"O_BREV_812"  // Field=s_do_reverse.name
+      POINTER  // Field=s_do_reverse.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_tm
+      USHORT,1  // Field=s_tm_enable.base
+      ULONG,200  // Field=s_tm_enable.preset
+      POINTER  // Field=s_tm_enable.ps_timer
+    ENDSTRUCT // End of structure=S_tm
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_ao
+      STRING12  // Field=s_ao_mirror.name
+      POINTER  // Field=s_ao_mirror.ps_analog
+    ENDSTRUCT // End of structure=S_ao
+    //
+  SHORT  // Field=value
+  USHORT  // Field=step_up
+  USHORT  // Field=step_dw
+  SHORT  // Field=current_value
+ENDSTRUCT // End of structure=S_analog
+//
+//
+BEGINSTRUCT // Begin of structure=S_analog
+  ULONG,351501  // Field=id
+  STRING12,"A_BREF_813"  // Field=name
+  USHORT,1  // Field=enable
+    //
+    BEGINSTRUCT // Begin of structure=S_aores
+      USHORT,1000  // Field=s_aores.volt
+      USHORT,100  // Field=s_aores.value
+    ENDSTRUCT // End of structure=S_aores
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12,"O_BSTAR_813"  // Field=s_do_enable.name
+      POINTER  // Field=s_do_enable.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12,"O_BREV_813"  // Field=s_do_reverse.name
+      POINTER  // Field=s_do_reverse.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_tm
+      USHORT,1  // Field=s_tm_enable.base
+      ULONG,200  // Field=s_tm_enable.preset
+      POINTER  // Field=s_tm_enable.ps_timer
+    ENDSTRUCT // End of structure=S_tm
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_ao
+      STRING12  // Field=s_ao_mirror.name
+      POINTER  // Field=s_ao_mirror.ps_analog
+    ENDSTRUCT // End of structure=S_ao
+    //
+  SHORT  // Field=value
+  USHORT  // Field=step_up
+  USHORT  // Field=step_dw
+  SHORT  // Field=current_value
+ENDSTRUCT // End of structure=S_analog
+//
+//
+BEGINSTRUCT // Begin of structure=S_analog
+  ULONG,352101  // Field=id
+  STRING12,"A_BREF_814"  // Field=name
+  USHORT,1  // Field=enable
+    //
+    BEGINSTRUCT // Begin of structure=S_aores
+      USHORT,1000  // Field=s_aores.volt
+      USHORT,100  // Field=s_aores.value
+    ENDSTRUCT // End of structure=S_aores
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12,"O_BSTAR_814"  // Field=s_do_enable.name
+      POINTER  // Field=s_do_enable.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12,"O_BREV_814"  // Field=s_do_reverse.name
+      POINTER  // Field=s_do_reverse.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_tm
+      USHORT,1  // Field=s_tm_enable.base
+      ULONG,200  // Field=s_tm_enable.preset
+      POINTER  // Field=s_tm_enable.ps_timer
+    ENDSTRUCT // End of structure=S_tm
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_ao
+      STRING12  // Field=s_ao_mirror.name
+      POINTER  // Field=s_ao_mirror.ps_analog
+    ENDSTRUCT // End of structure=S_ao
+    //
+  SHORT  // Field=value
+  USHORT  // Field=step_up
+  USHORT  // Field=step_dw
+  SHORT  // Field=current_value
+ENDSTRUCT // End of structure=S_analog
+//
+//
+BEGINSTRUCT // Begin of structure=S_analog
+  ULONG,352701  // Field=id
+  STRING12,"A_BREF_815"  // Field=name
+  USHORT,1  // Field=enable
+    //
+    BEGINSTRUCT // Begin of structure=S_aores
+      USHORT,1000  // Field=s_aores.volt
+      USHORT,100  // Field=s_aores.value
+    ENDSTRUCT // End of structure=S_aores
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12,"O_BSTAR_815"  // Field=s_do_enable.name
+      POINTER  // Field=s_do_enable.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12,"O_BREV_815"  // Field=s_do_reverse.name
+      POINTER  // Field=s_do_reverse.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_tm
+      USHORT,1  // Field=s_tm_enable.base
+      ULONG,200  // Field=s_tm_enable.preset
+      POINTER  // Field=s_tm_enable.ps_timer
+    ENDSTRUCT // End of structure=S_tm
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_ao
+      STRING12  // Field=s_ao_mirror.name
+      POINTER  // Field=s_ao_mirror.ps_analog
+    ENDSTRUCT // End of structure=S_ao
+    //
+  SHORT  // Field=value
+  USHORT  // Field=step_up
+  USHORT  // Field=step_dw
+  SHORT  // Field=current_value
+ENDSTRUCT // End of structure=S_analog
+//
+//
+BEGINSTRUCT // Begin of structure=S_analog
+  ULONG,353301  // Field=id
+  STRING12,"A_BREF_816"  // Field=name
+  USHORT,1  // Field=enable
+    //
+    BEGINSTRUCT // Begin of structure=S_aores
+      USHORT,1000  // Field=s_aores.volt
+      USHORT,100  // Field=s_aores.value
+    ENDSTRUCT // End of structure=S_aores
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12,"O_BSTAR_816"  // Field=s_do_enable.name
+      POINTER  // Field=s_do_enable.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12,"O_BREV_816"  // Field=s_do_reverse.name
+      POINTER  // Field=s_do_reverse.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_tm
+      USHORT,1  // Field=s_tm_enable.base
+      ULONG,200  // Field=s_tm_enable.preset
+      POINTER  // Field=s_tm_enable.ps_timer
+    ENDSTRUCT // End of structure=S_tm
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_ao
+      STRING12  // Field=s_ao_mirror.name
+      POINTER  // Field=s_ao_mirror.ps_analog
+    ENDSTRUCT // End of structure=S_ao
+    //
+  SHORT  // Field=value
+  USHORT  // Field=step_up
+  USHORT  // Field=step_dw
+  SHORT  // Field=current_value
+ENDSTRUCT // End of structure=S_analog
+//
+//
+BEGINSTRUCT // Begin of structure=S_analog
+  ULONG,353901  // Field=id
+  STRING12,"A_BREF_817"  // Field=name
+  USHORT,1  // Field=enable
+    //
+    BEGINSTRUCT // Begin of structure=S_aores
+      USHORT,1000  // Field=s_aores.volt
+      USHORT,100  // Field=s_aores.value
+    ENDSTRUCT // End of structure=S_aores
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12,"O_BSTAR_817"  // Field=s_do_enable.name
+      POINTER  // Field=s_do_enable.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12,"O_BREV_817"  // Field=s_do_reverse.name
+      POINTER  // Field=s_do_reverse.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_tm
+      USHORT,1  // Field=s_tm_enable.base
+      ULONG,200  // Field=s_tm_enable.preset
+      POINTER  // Field=s_tm_enable.ps_timer
+    ENDSTRUCT // End of structure=S_tm
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_ao
+      STRING12  // Field=s_ao_mirror.name
+      POINTER  // Field=s_ao_mirror.ps_analog
+    ENDSTRUCT // End of structure=S_ao
+    //
+  SHORT  // Field=value
+  USHORT  // Field=step_up
+  USHORT  // Field=step_dw
+  SHORT  // Field=current_value
+ENDSTRUCT // End of structure=S_analog
+//
+//
+BEGINSTRUCT // Begin of structure=S_analog
+  ULONG,354501  // Field=id
+  STRING12,"A_BREF_818"  // Field=name
+  USHORT,1  // Field=enable
+    //
+    BEGINSTRUCT // Begin of structure=S_aores
+      USHORT,1000  // Field=s_aores.volt
+      USHORT,100  // Field=s_aores.value
+    ENDSTRUCT // End of structure=S_aores
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12,"O_BSTAR_818"  // Field=s_do_enable.name
+      POINTER  // Field=s_do_enable.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12,"O_BREV_818"  // Field=s_do_reverse.name
+      POINTER  // Field=s_do_reverse.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_tm
+      USHORT,1  // Field=s_tm_enable.base
+      ULONG,200  // Field=s_tm_enable.preset
+      POINTER  // Field=s_tm_enable.ps_timer
+    ENDSTRUCT // End of structure=S_tm
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_ao
+      STRING12  // Field=s_ao_mirror.name
+      POINTER  // Field=s_ao_mirror.ps_analog
+    ENDSTRUCT // End of structure=S_ao
+    //
+  SHORT  // Field=value
+  USHORT  // Field=step_up
+  USHORT  // Field=step_dw
+  SHORT  // Field=current_value
+ENDSTRUCT // End of structure=S_analog
+//
+//
+BEGINSTRUCT // Begin of structure=S_analog
+  ULONG,510201  // Field=id
+  STRING12,"A_INVREF1_01"  // Field=name
+  USHORT,1  // Field=enable
+    //
+    BEGINSTRUCT // Begin of structure=S_aores
+      USHORT,2500  // Field=s_aores.volt
+      USHORT,250  // Field=s_aores.value
+    ENDSTRUCT // End of structure=S_aores
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12,"O_INVPWR1_01"  // Field=s_do_enable.name
+      POINTER  // Field=s_do_enable.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12  // Field=s_do_reverse.name
+      POINTER  // Field=s_do_reverse.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_tm
+      USHORT,1  // Field=s_tm_enable.base
+      ULONG,100  // Field=s_tm_enable.preset
+      POINTER  // Field=s_tm_enable.ps_timer
+    ENDSTRUCT // End of structure=S_tm
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_ao
+      STRING12  // Field=s_ao_mirror.name
+      POINTER  // Field=s_ao_mirror.ps_analog
+    ENDSTRUCT // End of structure=S_ao
+    //
+  SHORT  // Field=value
+  USHORT  // Field=step_up
+  USHORT  // Field=step_dw
+  SHORT  // Field=current_value
+ENDSTRUCT // End of structure=S_analog
+//
+//
+BEGINSTRUCT // Begin of structure=S_analog
+  ULONG,510501  // Field=id
+  STRING12,"A_INVREF2_01"  // Field=name
+  USHORT,1  // Field=enable
+    //
+    BEGINSTRUCT // Begin of structure=S_aores
+      USHORT,2500  // Field=s_aores.volt
+      USHORT,250  // Field=s_aores.value
+    ENDSTRUCT // End of structure=S_aores
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12,"O_INVPWR2_01"  // Field=s_do_enable.name
+      POINTER  // Field=s_do_enable.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12  // Field=s_do_reverse.name
+      POINTER  // Field=s_do_reverse.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_tm
+      USHORT,1  // Field=s_tm_enable.base
+      ULONG,100  // Field=s_tm_enable.preset
+      POINTER  // Field=s_tm_enable.ps_timer
+    ENDSTRUCT // End of structure=S_tm
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_ao
+      STRING12  // Field=s_ao_mirror.name
+      POINTER  // Field=s_ao_mirror.ps_analog
+    ENDSTRUCT // End of structure=S_ao
+    //
+  SHORT  // Field=value
+  USHORT  // Field=step_up
+  USHORT  // Field=step_dw
+  SHORT  // Field=current_value
+ENDSTRUCT // End of structure=S_analog
+//
+//
+BEGINSTRUCT // Begin of structure=S_analog
+  ULONG,510801  // Field=id
+  STRING12,"A_INVREF3_01"  // Field=name
+  USHORT,1  // Field=enable
+    //
+    BEGINSTRUCT // Begin of structure=S_aores
+      USHORT,2500  // Field=s_aores.volt
+      USHORT,250  // Field=s_aores.value
+    ENDSTRUCT // End of structure=S_aores
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12,"O_INVPWR3_01"  // Field=s_do_enable.name
+      POINTER  // Field=s_do_enable.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12  // Field=s_do_reverse.name
+      POINTER  // Field=s_do_reverse.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_tm
+      USHORT,1  // Field=s_tm_enable.base
+      ULONG,100  // Field=s_tm_enable.preset
+      POINTER  // Field=s_tm_enable.ps_timer
+    ENDSTRUCT // End of structure=S_tm
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_ao
+      STRING12  // Field=s_ao_mirror.name
+      POINTER  // Field=s_ao_mirror.ps_analog
+    ENDSTRUCT // End of structure=S_ao
+    //
+  SHORT  // Field=value
+  USHORT  // Field=step_up
+  USHORT  // Field=step_dw
+  SHORT  // Field=current_value
+ENDSTRUCT // End of structure=S_analog
+//
+//
+BEGINSTRUCT // Begin of structure=S_analog
+  ULONG,530201  // Field=id
+  STRING12,"A_INVREF1_02"  // Field=name
+  USHORT,1  // Field=enable
+    //
+    BEGINSTRUCT // Begin of structure=S_aores
+      USHORT,2500  // Field=s_aores.volt
+      USHORT,250  // Field=s_aores.value
+    ENDSTRUCT // End of structure=S_aores
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12,"O_INVPWR1_02"  // Field=s_do_enable.name
+      POINTER  // Field=s_do_enable.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12  // Field=s_do_reverse.name
+      POINTER  // Field=s_do_reverse.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_tm
+      USHORT,1  // Field=s_tm_enable.base
+      ULONG,100  // Field=s_tm_enable.preset
+      POINTER  // Field=s_tm_enable.ps_timer
+    ENDSTRUCT // End of structure=S_tm
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_ao
+      STRING12  // Field=s_ao_mirror.name
+      POINTER  // Field=s_ao_mirror.ps_analog
+    ENDSTRUCT // End of structure=S_ao
+    //
+  SHORT  // Field=value
+  USHORT  // Field=step_up
+  USHORT  // Field=step_dw
+  SHORT  // Field=current_value
+ENDSTRUCT // End of structure=S_analog
+//
+//
+BEGINSTRUCT // Begin of structure=S_analog
+  ULONG,530501  // Field=id
+  STRING12,"A_INVREF2_02"  // Field=name
+  USHORT,1  // Field=enable
+    //
+    BEGINSTRUCT // Begin of structure=S_aores
+      USHORT,2500  // Field=s_aores.volt
+      USHORT,250  // Field=s_aores.value
+    ENDSTRUCT // End of structure=S_aores
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12,"O_INVPWR2_02"  // Field=s_do_enable.name
+      POINTER  // Field=s_do_enable.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12  // Field=s_do_reverse.name
+      POINTER  // Field=s_do_reverse.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_tm
+      USHORT,1  // Field=s_tm_enable.base
+      ULONG,100  // Field=s_tm_enable.preset
+      POINTER  // Field=s_tm_enable.ps_timer
+    ENDSTRUCT // End of structure=S_tm
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_ao
+      STRING12  // Field=s_ao_mirror.name
+      POINTER  // Field=s_ao_mirror.ps_analog
+    ENDSTRUCT // End of structure=S_ao
+    //
+  SHORT  // Field=value
+  USHORT  // Field=step_up
+  USHORT  // Field=step_dw
+  SHORT  // Field=current_value
+ENDSTRUCT // End of structure=S_analog
+//
+//
+BEGINSTRUCT // Begin of structure=S_analog
+  ULONG,530801  // Field=id
+  STRING12,"A_INVREF3_02"  // Field=name
+  USHORT,1  // Field=enable
+    //
+    BEGINSTRUCT // Begin of structure=S_aores
+      USHORT,2500  // Field=s_aores.volt
+      USHORT,250  // Field=s_aores.value
+    ENDSTRUCT // End of structure=S_aores
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12,"O_INVPWR3_02"  // Field=s_do_enable.name
+      POINTER  // Field=s_do_enable.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12  // Field=s_do_reverse.name
+      POINTER  // Field=s_do_reverse.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_tm
+      USHORT,1  // Field=s_tm_enable.base
+      ULONG,100  // Field=s_tm_enable.preset
+      POINTER  // Field=s_tm_enable.ps_timer
+    ENDSTRUCT // End of structure=S_tm
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_ao
+      STRING12  // Field=s_ao_mirror.name
+      POINTER  // Field=s_ao_mirror.ps_analog
+    ENDSTRUCT // End of structure=S_ao
+    //
+  SHORT  // Field=value
+  USHORT  // Field=step_up
+  USHORT  // Field=step_dw
+  SHORT  // Field=current_value
+ENDSTRUCT // End of structure=S_analog
+//
+//
+BEGINSTRUCT // Begin of structure=S_analog
+  ULONG,550201  // Field=id
+  STRING12,"A_INVREF1_03"  // Field=name
+  USHORT,1  // Field=enable
+    //
+    BEGINSTRUCT // Begin of structure=S_aores
+      USHORT,2500  // Field=s_aores.volt
+      USHORT,250  // Field=s_aores.value
+    ENDSTRUCT // End of structure=S_aores
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12,"O_INVPWR1_03"  // Field=s_do_enable.name
+      POINTER  // Field=s_do_enable.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12  // Field=s_do_reverse.name
+      POINTER  // Field=s_do_reverse.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_tm
+      USHORT,1  // Field=s_tm_enable.base
+      ULONG,100  // Field=s_tm_enable.preset
+      POINTER  // Field=s_tm_enable.ps_timer
+    ENDSTRUCT // End of structure=S_tm
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_ao
+      STRING12  // Field=s_ao_mirror.name
+      POINTER  // Field=s_ao_mirror.ps_analog
+    ENDSTRUCT // End of structure=S_ao
+    //
+  SHORT  // Field=value
+  USHORT  // Field=step_up
+  USHORT  // Field=step_dw
+  SHORT  // Field=current_value
+ENDSTRUCT // End of structure=S_analog
+//
+//
+BEGINSTRUCT // Begin of structure=S_analog
+  ULONG,550501  // Field=id
+  STRING12,"A_INVREF2_03"  // Field=name
+  USHORT,1  // Field=enable
+    //
+    BEGINSTRUCT // Begin of structure=S_aores
+      USHORT,2500  // Field=s_aores.volt
+      USHORT,250  // Field=s_aores.value
+    ENDSTRUCT // End of structure=S_aores
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12,"O_INVPWR2_03"  // Field=s_do_enable.name
+      POINTER  // Field=s_do_enable.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12  // Field=s_do_reverse.name
+      POINTER  // Field=s_do_reverse.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_tm
+      USHORT,1  // Field=s_tm_enable.base
+      ULONG,100  // Field=s_tm_enable.preset
+      POINTER  // Field=s_tm_enable.ps_timer
+    ENDSTRUCT // End of structure=S_tm
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_ao
+      STRING12  // Field=s_ao_mirror.name
+      POINTER  // Field=s_ao_mirror.ps_analog
+    ENDSTRUCT // End of structure=S_ao
+    //
+  SHORT  // Field=value
+  USHORT  // Field=step_up
+  USHORT  // Field=step_dw
+  SHORT  // Field=current_value
+ENDSTRUCT // End of structure=S_analog
+//
+//
+BEGINSTRUCT // Begin of structure=S_analog
+  ULONG,550801  // Field=id
+  STRING12,"A_INVREF3_03"  // Field=name
+  USHORT,1  // Field=enable
+    //
+    BEGINSTRUCT // Begin of structure=S_aores
+      USHORT,2500  // Field=s_aores.volt
+      USHORT,250  // Field=s_aores.value
+    ENDSTRUCT // End of structure=S_aores
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12,"O_INVPWR3_03"  // Field=s_do_enable.name
+      POINTER  // Field=s_do_enable.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12  // Field=s_do_reverse.name
+      POINTER  // Field=s_do_reverse.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_tm
+      USHORT,1  // Field=s_tm_enable.base
+      ULONG,100  // Field=s_tm_enable.preset
+      POINTER  // Field=s_tm_enable.ps_timer
+    ENDSTRUCT // End of structure=S_tm
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_ao
+      STRING12  // Field=s_ao_mirror.name
+      POINTER  // Field=s_ao_mirror.ps_analog
+    ENDSTRUCT // End of structure=S_ao
+    //
+  SHORT  // Field=value
+  USHORT  // Field=step_up
+  USHORT  // Field=step_dw
+  SHORT  // Field=current_value
+ENDSTRUCT // End of structure=S_analog
+//
+//
+BEGINSTRUCT // Begin of structure=S_analog
+  ULONG,570201  // Field=id
+  STRING12,"A_INVREF1_04"  // Field=name
+  USHORT,1  // Field=enable
+    //
+    BEGINSTRUCT // Begin of structure=S_aores
+      USHORT,2500  // Field=s_aores.volt
+      USHORT,250  // Field=s_aores.value
+    ENDSTRUCT // End of structure=S_aores
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12,"O_INVPWR1_04"  // Field=s_do_enable.name
+      POINTER  // Field=s_do_enable.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12  // Field=s_do_reverse.name
+      POINTER  // Field=s_do_reverse.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_tm
+      USHORT,1  // Field=s_tm_enable.base
+      ULONG,100  // Field=s_tm_enable.preset
+      POINTER  // Field=s_tm_enable.ps_timer
+    ENDSTRUCT // End of structure=S_tm
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_ao
+      STRING12  // Field=s_ao_mirror.name
+      POINTER  // Field=s_ao_mirror.ps_analog
+    ENDSTRUCT // End of structure=S_ao
+    //
+  SHORT  // Field=value
+  USHORT  // Field=step_up
+  USHORT  // Field=step_dw
+  SHORT  // Field=current_value
+ENDSTRUCT // End of structure=S_analog
+//
+//
+BEGINSTRUCT // Begin of structure=S_analog
+  ULONG,570501  // Field=id
+  STRING12,"A_INVREF2_04"  // Field=name
+  USHORT,1  // Field=enable
+    //
+    BEGINSTRUCT // Begin of structure=S_aores
+      USHORT,2500  // Field=s_aores.volt
+      USHORT,250  // Field=s_aores.value
+    ENDSTRUCT // End of structure=S_aores
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12,"O_INVPWR2_04"  // Field=s_do_enable.name
+      POINTER  // Field=s_do_enable.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12  // Field=s_do_reverse.name
+      POINTER  // Field=s_do_reverse.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_tm
+      USHORT,1  // Field=s_tm_enable.base
+      ULONG,100  // Field=s_tm_enable.preset
+      POINTER  // Field=s_tm_enable.ps_timer
+    ENDSTRUCT // End of structure=S_tm
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_ao
+      STRING12  // Field=s_ao_mirror.name
+      POINTER  // Field=s_ao_mirror.ps_analog
+    ENDSTRUCT // End of structure=S_ao
+    //
+  SHORT  // Field=value
+  USHORT  // Field=step_up
+  USHORT  // Field=step_dw
+  SHORT  // Field=current_value
+ENDSTRUCT // End of structure=S_analog
+//
+//
+BEGINSTRUCT // Begin of structure=S_analog
+  ULONG,570801  // Field=id
+  STRING12,"A_INVREF3_04"  // Field=name
+  USHORT,1  // Field=enable
+    //
+    BEGINSTRUCT // Begin of structure=S_aores
+      USHORT,2500  // Field=s_aores.volt
+      USHORT,250  // Field=s_aores.value
+    ENDSTRUCT // End of structure=S_aores
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12,"O_INVPWR3_04"  // Field=s_do_enable.name
+      POINTER  // Field=s_do_enable.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12  // Field=s_do_reverse.name
+      POINTER  // Field=s_do_reverse.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_tm
+      USHORT,1  // Field=s_tm_enable.base
+      ULONG,100  // Field=s_tm_enable.preset
+      POINTER  // Field=s_tm_enable.ps_timer
+    ENDSTRUCT // End of structure=S_tm
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_ao
+      STRING12  // Field=s_ao_mirror.name
+      POINTER  // Field=s_ao_mirror.ps_analog
+    ENDSTRUCT // End of structure=S_ao
+    //
+  SHORT  // Field=value
+  USHORT  // Field=step_up
+  USHORT  // Field=step_dw
+  SHORT  // Field=current_value
+ENDSTRUCT // End of structure=S_analog
+//
+//
+BEGINSTRUCT // Begin of structure=S_analog
+  ULONG,590201  // Field=id
+  STRING12,"A_INVREF1_05"  // Field=name
+  USHORT,1  // Field=enable
+    //
+    BEGINSTRUCT // Begin of structure=S_aores
+      USHORT,2500  // Field=s_aores.volt
+      USHORT,250  // Field=s_aores.value
+    ENDSTRUCT // End of structure=S_aores
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12,"O_INVPWR1_05"  // Field=s_do_enable.name
+      POINTER  // Field=s_do_enable.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12  // Field=s_do_reverse.name
+      POINTER  // Field=s_do_reverse.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_tm
+      USHORT,1  // Field=s_tm_enable.base
+      ULONG,100  // Field=s_tm_enable.preset
+      POINTER  // Field=s_tm_enable.ps_timer
+    ENDSTRUCT // End of structure=S_tm
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_ao
+      STRING12  // Field=s_ao_mirror.name
+      POINTER  // Field=s_ao_mirror.ps_analog
+    ENDSTRUCT // End of structure=S_ao
+    //
+  SHORT  // Field=value
+  USHORT  // Field=step_up
+  USHORT  // Field=step_dw
+  SHORT  // Field=current_value
+ENDSTRUCT // End of structure=S_analog
+//
+//
+BEGINSTRUCT // Begin of structure=S_analog
+  ULONG,590501  // Field=id
+  STRING12,"A_INVREF2_05"  // Field=name
+  USHORT,1  // Field=enable
+    //
+    BEGINSTRUCT // Begin of structure=S_aores
+      USHORT,2500  // Field=s_aores.volt
+      USHORT,250  // Field=s_aores.value
+    ENDSTRUCT // End of structure=S_aores
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12,"O_INVPWR2_05"  // Field=s_do_enable.name
+      POINTER  // Field=s_do_enable.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12  // Field=s_do_reverse.name
+      POINTER  // Field=s_do_reverse.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_tm
+      USHORT,1  // Field=s_tm_enable.base
+      ULONG,100  // Field=s_tm_enable.preset
+      POINTER  // Field=s_tm_enable.ps_timer
+    ENDSTRUCT // End of structure=S_tm
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_ao
+      STRING12  // Field=s_ao_mirror.name
+      POINTER  // Field=s_ao_mirror.ps_analog
+    ENDSTRUCT // End of structure=S_ao
+    //
+  SHORT  // Field=value
+  USHORT  // Field=step_up
+  USHORT  // Field=step_dw
+  SHORT  // Field=current_value
+ENDSTRUCT // End of structure=S_analog
+//
+//
+BEGINSTRUCT // Begin of structure=S_analog
+  ULONG,610201  // Field=id
+  STRING12,"A_INVREF1_06"  // Field=name
+  USHORT,1  // Field=enable
+    //
+    BEGINSTRUCT // Begin of structure=S_aores
+      USHORT,2500  // Field=s_aores.volt
+      USHORT,250  // Field=s_aores.value
+    ENDSTRUCT // End of structure=S_aores
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12,"O_INVPWR1_06"  // Field=s_do_enable.name
+      POINTER  // Field=s_do_enable.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12  // Field=s_do_reverse.name
+      POINTER  // Field=s_do_reverse.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_tm
+      USHORT,1  // Field=s_tm_enable.base
+      ULONG,100  // Field=s_tm_enable.preset
+      POINTER  // Field=s_tm_enable.ps_timer
+    ENDSTRUCT // End of structure=S_tm
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_ao
+      STRING12  // Field=s_ao_mirror.name
+      POINTER  // Field=s_ao_mirror.ps_analog
+    ENDSTRUCT // End of structure=S_ao
+    //
+  SHORT  // Field=value
+  USHORT  // Field=step_up
+  USHORT  // Field=step_dw
+  SHORT  // Field=current_value
+ENDSTRUCT // End of structure=S_analog
+//
+//
+BEGINSTRUCT // Begin of structure=S_analog
+  ULONG,610501  // Field=id
+  STRING12,"A_INVREF2_06"  // Field=name
+  USHORT,1  // Field=enable
+    //
+    BEGINSTRUCT // Begin of structure=S_aores
+      USHORT,2500  // Field=s_aores.volt
+      USHORT,250  // Field=s_aores.value
+    ENDSTRUCT // End of structure=S_aores
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12,"O_INVPWR2_06"  // Field=s_do_enable.name
+      POINTER  // Field=s_do_enable.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12  // Field=s_do_reverse.name
+      POINTER  // Field=s_do_reverse.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_tm
+      USHORT,1  // Field=s_tm_enable.base
+      ULONG,100  // Field=s_tm_enable.preset
+      POINTER  // Field=s_tm_enable.ps_timer
+    ENDSTRUCT // End of structure=S_tm
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_ao
+      STRING12  // Field=s_ao_mirror.name
+      POINTER  // Field=s_ao_mirror.ps_analog
+    ENDSTRUCT // End of structure=S_ao
+    //
+  SHORT  // Field=value
+  USHORT  // Field=step_up
+  USHORT  // Field=step_dw
+  SHORT  // Field=current_value
+ENDSTRUCT // End of structure=S_analog
+//
+//
+BEGINSTRUCT // Begin of structure=S_analog
+  ULONG,610801  // Field=id
+  STRING12,"A_INVREF3_06"  // Field=name
+  USHORT,1  // Field=enable
+    //
+    BEGINSTRUCT // Begin of structure=S_aores
+      USHORT,2500  // Field=s_aores.volt
+      USHORT,250  // Field=s_aores.value
+    ENDSTRUCT // End of structure=S_aores
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12,"O_INVPWR3_06"  // Field=s_do_enable.name
+      POINTER  // Field=s_do_enable.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12  // Field=s_do_reverse.name
+      POINTER  // Field=s_do_reverse.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_tm
+      USHORT,1  // Field=s_tm_enable.base
+      ULONG,100  // Field=s_tm_enable.preset
+      POINTER  // Field=s_tm_enable.ps_timer
+    ENDSTRUCT // End of structure=S_tm
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_ao
+      STRING12  // Field=s_ao_mirror.name
+      POINTER  // Field=s_ao_mirror.ps_analog
+    ENDSTRUCT // End of structure=S_ao
+    //
+  SHORT  // Field=value
+  USHORT  // Field=step_up
+  USHORT  // Field=step_dw
+  SHORT  // Field=current_value
+ENDSTRUCT // End of structure=S_analog
+//
+//
+BEGINSTRUCT // Begin of structure=S_analog
+  ULONG,1480301  // Field=id
+  STRING12,"A_BREF_521"  // Field=name
+  USHORT,1  // Field=enable
+    //
+    BEGINSTRUCT // Begin of structure=S_aores
+      USHORT,1000  // Field=s_aores.volt
+      USHORT,100  // Field=s_aores.value
+    ENDSTRUCT // End of structure=S_aores
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12,"O_BSTAR_521"  // Field=s_do_enable.name
+      POINTER  // Field=s_do_enable.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12,"O_BREV_521"  // Field=s_do_reverse.name
+      POINTER  // Field=s_do_reverse.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_tm
+      USHORT,1  // Field=s_tm_enable.base
+      ULONG,200  // Field=s_tm_enable.preset
+      POINTER  // Field=s_tm_enable.ps_timer
+    ENDSTRUCT // End of structure=S_tm
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_ao
+      STRING12  // Field=s_ao_mirror.name
+      POINTER  // Field=s_ao_mirror.ps_analog
+    ENDSTRUCT // End of structure=S_ao
+    //
+  SHORT  // Field=value
+  USHORT  // Field=step_up
+  USHORT  // Field=step_dw
+  SHORT  // Field=current_value
+ENDSTRUCT // End of structure=S_analog
+//
+//
+BEGINSTRUCT // Begin of structure=S_analog
+  ULONG,1480901  // Field=id
+  STRING12,"A_BREF_522"  // Field=name
+  USHORT,1  // Field=enable
+    //
+    BEGINSTRUCT // Begin of structure=S_aores
+      USHORT,1000  // Field=s_aores.volt
+      USHORT,100  // Field=s_aores.value
+    ENDSTRUCT // End of structure=S_aores
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12,"O_BSTAR_522"  // Field=s_do_enable.name
+      POINTER  // Field=s_do_enable.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12,"O_BREV_522"  // Field=s_do_reverse.name
+      POINTER  // Field=s_do_reverse.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_tm
+      USHORT,1  // Field=s_tm_enable.base
+      ULONG,200  // Field=s_tm_enable.preset
+      POINTER  // Field=s_tm_enable.ps_timer
+    ENDSTRUCT // End of structure=S_tm
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_ao
+      STRING12  // Field=s_ao_mirror.name
+      POINTER  // Field=s_ao_mirror.ps_analog
+    ENDSTRUCT // End of structure=S_ao
+    //
+  SHORT  // Field=value
+  USHORT  // Field=step_up
+  USHORT  // Field=step_dw
+  SHORT  // Field=current_value
+ENDSTRUCT // End of structure=S_analog
+//
+//
+BEGINSTRUCT // Begin of structure=S_analog
+  ULONG,1481501  // Field=id
+  STRING12,"A_BREF_523"  // Field=name
+  USHORT,1  // Field=enable
+    //
+    BEGINSTRUCT // Begin of structure=S_aores
+      USHORT,1000  // Field=s_aores.volt
+      USHORT,100  // Field=s_aores.value
+    ENDSTRUCT // End of structure=S_aores
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12,"O_BSTAR_523"  // Field=s_do_enable.name
+      POINTER  // Field=s_do_enable.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12,"O_BREV_523"  // Field=s_do_reverse.name
+      POINTER  // Field=s_do_reverse.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_tm
+      USHORT,1  // Field=s_tm_enable.base
+      ULONG,200  // Field=s_tm_enable.preset
+      POINTER  // Field=s_tm_enable.ps_timer
+    ENDSTRUCT // End of structure=S_tm
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_ao
+      STRING12  // Field=s_ao_mirror.name
+      POINTER  // Field=s_ao_mirror.ps_analog
+    ENDSTRUCT // End of structure=S_ao
+    //
+  SHORT  // Field=value
+  USHORT  // Field=step_up
+  USHORT  // Field=step_dw
+  SHORT  // Field=current_value
+ENDSTRUCT // End of structure=S_analog
+//
+//
+BEGINSTRUCT // Begin of structure=S_analog
+  ULONG,1482101  // Field=id
+  STRING12,"A_BREF_524"  // Field=name
+  USHORT,1  // Field=enable
+    //
+    BEGINSTRUCT // Begin of structure=S_aores
+      USHORT,1000  // Field=s_aores.volt
+      USHORT,100  // Field=s_aores.value
+    ENDSTRUCT // End of structure=S_aores
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12,"O_BSTAR_524"  // Field=s_do_enable.name
+      POINTER  // Field=s_do_enable.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12,"O_BREV_524"  // Field=s_do_reverse.name
+      POINTER  // Field=s_do_reverse.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_tm
+      USHORT,1  // Field=s_tm_enable.base
+      ULONG,200  // Field=s_tm_enable.preset
+      POINTER  // Field=s_tm_enable.ps_timer
+    ENDSTRUCT // End of structure=S_tm
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_ao
+      STRING12  // Field=s_ao_mirror.name
+      POINTER  // Field=s_ao_mirror.ps_analog
+    ENDSTRUCT // End of structure=S_ao
+    //
+  SHORT  // Field=value
+  USHORT  // Field=step_up
+  USHORT  // Field=step_dw
+  SHORT  // Field=current_value
+ENDSTRUCT // End of structure=S_analog
+//
+//
+BEGINSTRUCT // Begin of structure=S_analog
+  ULONG,1482701  // Field=id
+  STRING12,"A_BREF_525"  // Field=name
+  USHORT,1  // Field=enable
+    //
+    BEGINSTRUCT // Begin of structure=S_aores
+      USHORT,1000  // Field=s_aores.volt
+      USHORT,100  // Field=s_aores.value
+    ENDSTRUCT // End of structure=S_aores
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12,"O_BSTAR_525"  // Field=s_do_enable.name
+      POINTER  // Field=s_do_enable.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12,"O_BREV_525"  // Field=s_do_reverse.name
+      POINTER  // Field=s_do_reverse.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_tm
+      USHORT,1  // Field=s_tm_enable.base
+      ULONG,200  // Field=s_tm_enable.preset
+      POINTER  // Field=s_tm_enable.ps_timer
+    ENDSTRUCT // End of structure=S_tm
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_ao
+      STRING12  // Field=s_ao_mirror.name
+      POINTER  // Field=s_ao_mirror.ps_analog
+    ENDSTRUCT // End of structure=S_ao
+    //
+  SHORT  // Field=value
+  USHORT  // Field=step_up
+  USHORT  // Field=step_dw
+  SHORT  // Field=current_value
+ENDSTRUCT // End of structure=S_analog
+//
+//
+BEGINSTRUCT // Begin of structure=S_analog
+  ULONG,1483301  // Field=id
+  STRING12,"A_BREF_526"  // Field=name
+  USHORT,1  // Field=enable
+    //
+    BEGINSTRUCT // Begin of structure=S_aores
+      USHORT,1000  // Field=s_aores.volt
+      USHORT,100  // Field=s_aores.value
+    ENDSTRUCT // End of structure=S_aores
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12,"O_BSTAR_526"  // Field=s_do_enable.name
+      POINTER  // Field=s_do_enable.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12,"O_BREV_526"  // Field=s_do_reverse.name
+      POINTER  // Field=s_do_reverse.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_tm
+      USHORT,1  // Field=s_tm_enable.base
+      ULONG,200  // Field=s_tm_enable.preset
+      POINTER  // Field=s_tm_enable.ps_timer
+    ENDSTRUCT // End of structure=S_tm
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_ao
+      STRING12  // Field=s_ao_mirror.name
+      POINTER  // Field=s_ao_mirror.ps_analog
+    ENDSTRUCT // End of structure=S_ao
+    //
+  SHORT  // Field=value
+  USHORT  // Field=step_up
+  USHORT  // Field=step_dw
+  SHORT  // Field=current_value
+ENDSTRUCT // End of structure=S_analog
+//
+//
+BEGINSTRUCT // Begin of structure=S_analog
+  ULONG,1483901  // Field=id
+  STRING12,"A_BREF_527"  // Field=name
+  USHORT,1  // Field=enable
+    //
+    BEGINSTRUCT // Begin of structure=S_aores
+      USHORT,1000  // Field=s_aores.volt
+      USHORT,100  // Field=s_aores.value
+    ENDSTRUCT // End of structure=S_aores
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12,"O_BSTAR_527"  // Field=s_do_enable.name
+      POINTER  // Field=s_do_enable.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12,"O_BREV_527"  // Field=s_do_reverse.name
+      POINTER  // Field=s_do_reverse.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_tm
+      USHORT,1  // Field=s_tm_enable.base
+      ULONG,200  // Field=s_tm_enable.preset
+      POINTER  // Field=s_tm_enable.ps_timer
+    ENDSTRUCT // End of structure=S_tm
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_ao
+      STRING12  // Field=s_ao_mirror.name
+      POINTER  // Field=s_ao_mirror.ps_analog
+    ENDSTRUCT // End of structure=S_ao
+    //
+  SHORT  // Field=value
+  USHORT  // Field=step_up
+  USHORT  // Field=step_dw
+  SHORT  // Field=current_value
+ENDSTRUCT // End of structure=S_analog
+//
+//
+BEGINSTRUCT // Begin of structure=S_analog
+  ULONG,1484501  // Field=id
+  STRING12,"A_BREF_528"  // Field=name
+  USHORT,1  // Field=enable
+    //
+    BEGINSTRUCT // Begin of structure=S_aores
+      USHORT,1000  // Field=s_aores.volt
+      USHORT,100  // Field=s_aores.value
+    ENDSTRUCT // End of structure=S_aores
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12,"O_BSTAR_528"  // Field=s_do_enable.name
+      POINTER  // Field=s_do_enable.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12,"O_BREV_528"  // Field=s_do_reverse.name
+      POINTER  // Field=s_do_reverse.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_tm
+      USHORT,1  // Field=s_tm_enable.base
+      ULONG,200  // Field=s_tm_enable.preset
+      POINTER  // Field=s_tm_enable.ps_timer
+    ENDSTRUCT // End of structure=S_tm
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_ao
+      STRING12  // Field=s_ao_mirror.name
+      POINTER  // Field=s_ao_mirror.ps_analog
+    ENDSTRUCT // End of structure=S_ao
+    //
+  SHORT  // Field=value
+  USHORT  // Field=step_up
+  USHORT  // Field=step_dw
+  SHORT  // Field=current_value
+ENDSTRUCT // End of structure=S_analog
+//
+//
+BEGINSTRUCT // Begin of structure=S_analog
+  ULONG,1530301  // Field=id
+  STRING12,"A_BREF_621"  // Field=name
+  USHORT,1  // Field=enable
+    //
+    BEGINSTRUCT // Begin of structure=S_aores
+      USHORT,1000  // Field=s_aores.volt
+      USHORT,100  // Field=s_aores.value
+    ENDSTRUCT // End of structure=S_aores
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12,"O_BSTAR_621"  // Field=s_do_enable.name
+      POINTER  // Field=s_do_enable.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12,"O_BREV_621"  // Field=s_do_reverse.name
+      POINTER  // Field=s_do_reverse.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_tm
+      USHORT,1  // Field=s_tm_enable.base
+      ULONG,200  // Field=s_tm_enable.preset
+      POINTER  // Field=s_tm_enable.ps_timer
+    ENDSTRUCT // End of structure=S_tm
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_ao
+      STRING12  // Field=s_ao_mirror.name
+      POINTER  // Field=s_ao_mirror.ps_analog
+    ENDSTRUCT // End of structure=S_ao
+    //
+  SHORT  // Field=value
+  USHORT  // Field=step_up
+  USHORT  // Field=step_dw
+  SHORT  // Field=current_value
+ENDSTRUCT // End of structure=S_analog
+//
+//
+BEGINSTRUCT // Begin of structure=S_analog
+  ULONG,1530901  // Field=id
+  STRING12,"A_BREF_622"  // Field=name
+  USHORT,1  // Field=enable
+    //
+    BEGINSTRUCT // Begin of structure=S_aores
+      USHORT,1000  // Field=s_aores.volt
+      USHORT,100  // Field=s_aores.value
+    ENDSTRUCT // End of structure=S_aores
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12,"O_BSTAR_622"  // Field=s_do_enable.name
+      POINTER  // Field=s_do_enable.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12,"O_BREV_622"  // Field=s_do_reverse.name
+      POINTER  // Field=s_do_reverse.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_tm
+      USHORT,1  // Field=s_tm_enable.base
+      ULONG,200  // Field=s_tm_enable.preset
+      POINTER  // Field=s_tm_enable.ps_timer
+    ENDSTRUCT // End of structure=S_tm
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_ao
+      STRING12  // Field=s_ao_mirror.name
+      POINTER  // Field=s_ao_mirror.ps_analog
+    ENDSTRUCT // End of structure=S_ao
+    //
+  SHORT  // Field=value
+  USHORT  // Field=step_up
+  USHORT  // Field=step_dw
+  SHORT  // Field=current_value
+ENDSTRUCT // End of structure=S_analog
+//
+//
+BEGINSTRUCT // Begin of structure=S_analog
+  ULONG,1531501  // Field=id
+  STRING12,"A_BREF_623"  // Field=name
+  USHORT,1  // Field=enable
+    //
+    BEGINSTRUCT // Begin of structure=S_aores
+      USHORT,1000  // Field=s_aores.volt
+      USHORT,100  // Field=s_aores.value
+    ENDSTRUCT // End of structure=S_aores
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12,"O_BSTAR_623"  // Field=s_do_enable.name
+      POINTER  // Field=s_do_enable.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12,"O_BREV_623"  // Field=s_do_reverse.name
+      POINTER  // Field=s_do_reverse.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_tm
+      USHORT,1  // Field=s_tm_enable.base
+      ULONG,200  // Field=s_tm_enable.preset
+      POINTER  // Field=s_tm_enable.ps_timer
+    ENDSTRUCT // End of structure=S_tm
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_ao
+      STRING12  // Field=s_ao_mirror.name
+      POINTER  // Field=s_ao_mirror.ps_analog
+    ENDSTRUCT // End of structure=S_ao
+    //
+  SHORT  // Field=value
+  USHORT  // Field=step_up
+  USHORT  // Field=step_dw
+  SHORT  // Field=current_value
+ENDSTRUCT // End of structure=S_analog
+//
+//
+BEGINSTRUCT // Begin of structure=S_analog
+  ULONG,1532101  // Field=id
+  STRING12,"A_BREF_624"  // Field=name
+  USHORT,1  // Field=enable
+    //
+    BEGINSTRUCT // Begin of structure=S_aores
+      USHORT,1000  // Field=s_aores.volt
+      USHORT,100  // Field=s_aores.value
+    ENDSTRUCT // End of structure=S_aores
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12,"O_BSTAR_624"  // Field=s_do_enable.name
+      POINTER  // Field=s_do_enable.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12,"O_BREV_624"  // Field=s_do_reverse.name
+      POINTER  // Field=s_do_reverse.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_tm
+      USHORT,1  // Field=s_tm_enable.base
+      ULONG,200  // Field=s_tm_enable.preset
+      POINTER  // Field=s_tm_enable.ps_timer
+    ENDSTRUCT // End of structure=S_tm
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_ao
+      STRING12  // Field=s_ao_mirror.name
+      POINTER  // Field=s_ao_mirror.ps_analog
+    ENDSTRUCT // End of structure=S_ao
+    //
+  SHORT  // Field=value
+  USHORT  // Field=step_up
+  USHORT  // Field=step_dw
+  SHORT  // Field=current_value
+ENDSTRUCT // End of structure=S_analog
+//
+//
+BEGINSTRUCT // Begin of structure=S_analog
+  ULONG,1532701  // Field=id
+  STRING12,"A_BREF_625"  // Field=name
+  USHORT,1  // Field=enable
+    //
+    BEGINSTRUCT // Begin of structure=S_aores
+      USHORT,1000  // Field=s_aores.volt
+      USHORT,100  // Field=s_aores.value
+    ENDSTRUCT // End of structure=S_aores
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12,"O_BSTAR_625"  // Field=s_do_enable.name
+      POINTER  // Field=s_do_enable.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12,"O_BREV_625"  // Field=s_do_reverse.name
+      POINTER  // Field=s_do_reverse.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_tm
+      USHORT,1  // Field=s_tm_enable.base
+      ULONG,200  // Field=s_tm_enable.preset
+      POINTER  // Field=s_tm_enable.ps_timer
+    ENDSTRUCT // End of structure=S_tm
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_ao
+      STRING12  // Field=s_ao_mirror.name
+      POINTER  // Field=s_ao_mirror.ps_analog
+    ENDSTRUCT // End of structure=S_ao
+    //
+  SHORT  // Field=value
+  USHORT  // Field=step_up
+  USHORT  // Field=step_dw
+  SHORT  // Field=current_value
+ENDSTRUCT // End of structure=S_analog
+//
+//
+BEGINSTRUCT // Begin of structure=S_analog
+  ULONG,1533301  // Field=id
+  STRING12,"A_BREF_626"  // Field=name
+  USHORT,1  // Field=enable
+    //
+    BEGINSTRUCT // Begin of structure=S_aores
+      USHORT,1000  // Field=s_aores.volt
+      USHORT,100  // Field=s_aores.value
+    ENDSTRUCT // End of structure=S_aores
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12,"O_BSTAR_626"  // Field=s_do_enable.name
+      POINTER  // Field=s_do_enable.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12,"O_BREV_626"  // Field=s_do_reverse.name
+      POINTER  // Field=s_do_reverse.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_tm
+      USHORT,1  // Field=s_tm_enable.base
+      ULONG,200  // Field=s_tm_enable.preset
+      POINTER  // Field=s_tm_enable.ps_timer
+    ENDSTRUCT // End of structure=S_tm
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_ao
+      STRING12  // Field=s_ao_mirror.name
+      POINTER  // Field=s_ao_mirror.ps_analog
+    ENDSTRUCT // End of structure=S_ao
+    //
+  SHORT  // Field=value
+  USHORT  // Field=step_up
+  USHORT  // Field=step_dw
+  SHORT  // Field=current_value
+ENDSTRUCT // End of structure=S_analog
+//
+//
+BEGINSTRUCT // Begin of structure=S_analog
+  ULONG,1533901  // Field=id
+  STRING12,"A_BREF_627"  // Field=name
+  USHORT,1  // Field=enable
+    //
+    BEGINSTRUCT // Begin of structure=S_aores
+      USHORT,1000  // Field=s_aores.volt
+      USHORT,100  // Field=s_aores.value
+    ENDSTRUCT // End of structure=S_aores
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12,"O_BSTAR_627"  // Field=s_do_enable.name
+      POINTER  // Field=s_do_enable.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12,"O_BREV_627"  // Field=s_do_reverse.name
+      POINTER  // Field=s_do_reverse.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_tm
+      USHORT,1  // Field=s_tm_enable.base
+      ULONG,200  // Field=s_tm_enable.preset
+      POINTER  // Field=s_tm_enable.ps_timer
+    ENDSTRUCT // End of structure=S_tm
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_ao
+      STRING12  // Field=s_ao_mirror.name
+      POINTER  // Field=s_ao_mirror.ps_analog
+    ENDSTRUCT // End of structure=S_ao
+    //
+  SHORT  // Field=value
+  USHORT  // Field=step_up
+  USHORT  // Field=step_dw
+  SHORT  // Field=current_value
+ENDSTRUCT // End of structure=S_analog
+//
+//
+BEGINSTRUCT // Begin of structure=S_analog
+  ULONG,1534501  // Field=id
+  STRING12,"A_BREF_628"  // Field=name
+  USHORT,1  // Field=enable
+    //
+    BEGINSTRUCT // Begin of structure=S_aores
+      USHORT,1000  // Field=s_aores.volt
+      USHORT,100  // Field=s_aores.value
+    ENDSTRUCT // End of structure=S_aores
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12,"O_BSTAR_628"  // Field=s_do_enable.name
+      POINTER  // Field=s_do_enable.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12,"O_BREV_628"  // Field=s_do_reverse.name
+      POINTER  // Field=s_do_reverse.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_tm
+      USHORT,1  // Field=s_tm_enable.base
+      ULONG,200  // Field=s_tm_enable.preset
+      POINTER  // Field=s_tm_enable.ps_timer
+    ENDSTRUCT // End of structure=S_tm
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_ao
+      STRING12  // Field=s_ao_mirror.name
+      POINTER  // Field=s_ao_mirror.ps_analog
+    ENDSTRUCT // End of structure=S_ao
+    //
+  SHORT  // Field=value
+  USHORT  // Field=step_up
+  USHORT  // Field=step_dw
+  SHORT  // Field=current_value
+ENDSTRUCT // End of structure=S_analog
+//
+//
+BEGINSTRUCT // Begin of structure=S_analog
+  ULONG,1580301  // Field=id
+  STRING12,"A_BREF_721"  // Field=name
+  USHORT,1  // Field=enable
+    //
+    BEGINSTRUCT // Begin of structure=S_aores
+      USHORT,1000  // Field=s_aores.volt
+      USHORT,100  // Field=s_aores.value
+    ENDSTRUCT // End of structure=S_aores
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12,"O_BSTAR_721"  // Field=s_do_enable.name
+      POINTER  // Field=s_do_enable.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12,"O_BREV_721"  // Field=s_do_reverse.name
+      POINTER  // Field=s_do_reverse.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_tm
+      USHORT,1  // Field=s_tm_enable.base
+      ULONG,200  // Field=s_tm_enable.preset
+      POINTER  // Field=s_tm_enable.ps_timer
+    ENDSTRUCT // End of structure=S_tm
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_ao
+      STRING12  // Field=s_ao_mirror.name
+      POINTER  // Field=s_ao_mirror.ps_analog
+    ENDSTRUCT // End of structure=S_ao
+    //
+  SHORT  // Field=value
+  USHORT  // Field=step_up
+  USHORT  // Field=step_dw
+  SHORT  // Field=current_value
+ENDSTRUCT // End of structure=S_analog
+//
+//
+BEGINSTRUCT // Begin of structure=S_analog
+  ULONG,1580901  // Field=id
+  STRING12,"A_BREF_722"  // Field=name
+  USHORT,1  // Field=enable
+    //
+    BEGINSTRUCT // Begin of structure=S_aores
+      USHORT,1000  // Field=s_aores.volt
+      USHORT,100  // Field=s_aores.value
+    ENDSTRUCT // End of structure=S_aores
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12,"O_BSTAR_722"  // Field=s_do_enable.name
+      POINTER  // Field=s_do_enable.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12,"O_BREV_722"  // Field=s_do_reverse.name
+      POINTER  // Field=s_do_reverse.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_tm
+      USHORT,1  // Field=s_tm_enable.base
+      ULONG,200  // Field=s_tm_enable.preset
+      POINTER  // Field=s_tm_enable.ps_timer
+    ENDSTRUCT // End of structure=S_tm
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_ao
+      STRING12  // Field=s_ao_mirror.name
+      POINTER  // Field=s_ao_mirror.ps_analog
+    ENDSTRUCT // End of structure=S_ao
+    //
+  SHORT  // Field=value
+  USHORT  // Field=step_up
+  USHORT  // Field=step_dw
+  SHORT  // Field=current_value
+ENDSTRUCT // End of structure=S_analog
+//
+//
+BEGINSTRUCT // Begin of structure=S_analog
+  ULONG,1581501  // Field=id
+  STRING12,"A_BREF_723"  // Field=name
+  USHORT,1  // Field=enable
+    //
+    BEGINSTRUCT // Begin of structure=S_aores
+      USHORT,1000  // Field=s_aores.volt
+      USHORT,100  // Field=s_aores.value
+    ENDSTRUCT // End of structure=S_aores
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12,"O_BSTAR_723"  // Field=s_do_enable.name
+      POINTER  // Field=s_do_enable.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12,"O_BREV_723"  // Field=s_do_reverse.name
+      POINTER  // Field=s_do_reverse.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_tm
+      USHORT,1  // Field=s_tm_enable.base
+      ULONG,200.1  // Field=s_tm_enable.preset
+      POINTER  // Field=s_tm_enable.ps_timer
+    ENDSTRUCT // End of structure=S_tm
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_ao
+      STRING12  // Field=s_ao_mirror.name
+      POINTER  // Field=s_ao_mirror.ps_analog
+    ENDSTRUCT // End of structure=S_ao
+    //
+  SHORT  // Field=value
+  USHORT  // Field=step_up
+  USHORT  // Field=step_dw
+  SHORT  // Field=current_value
+ENDSTRUCT // End of structure=S_analog
+//
+//
+BEGINSTRUCT // Begin of structure=S_analog
+  ULONG,1582101  // Field=id
+  STRING12,"A_BREF_724"  // Field=name
+  USHORT,1  // Field=enable
+    //
+    BEGINSTRUCT // Begin of structure=S_aores
+      USHORT,1000  // Field=s_aores.volt
+      USHORT,100  // Field=s_aores.value
+    ENDSTRUCT // End of structure=S_aores
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12,"O_BSTAR_724"  // Field=s_do_enable.name
+      POINTER  // Field=s_do_enable.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12,"O_BREV_724"  // Field=s_do_reverse.name
+      POINTER  // Field=s_do_reverse.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_tm
+      USHORT,1  // Field=s_tm_enable.base
+      ULONG,200.2  // Field=s_tm_enable.preset
+      POINTER  // Field=s_tm_enable.ps_timer
+    ENDSTRUCT // End of structure=S_tm
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_ao
+      STRING12  // Field=s_ao_mirror.name
+      POINTER  // Field=s_ao_mirror.ps_analog
+    ENDSTRUCT // End of structure=S_ao
+    //
+  SHORT  // Field=value
+  USHORT  // Field=step_up
+  USHORT  // Field=step_dw
+  SHORT  // Field=current_value
+ENDSTRUCT // End of structure=S_analog
+//
+//
+BEGINSTRUCT // Begin of structure=S_analog
+  ULONG,1582701  // Field=id
+  STRING12,"A_BREF_725"  // Field=name
+  USHORT,1  // Field=enable
+    //
+    BEGINSTRUCT // Begin of structure=S_aores
+      USHORT,1000  // Field=s_aores.volt
+      USHORT,100  // Field=s_aores.value
+    ENDSTRUCT // End of structure=S_aores
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12,"O_BSTAR_725"  // Field=s_do_enable.name
+      POINTER  // Field=s_do_enable.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12,"O_BREV_725"  // Field=s_do_reverse.name
+      POINTER  // Field=s_do_reverse.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_tm
+      USHORT,1  // Field=s_tm_enable.base
+      ULONG,200.3  // Field=s_tm_enable.preset
+      POINTER  // Field=s_tm_enable.ps_timer
+    ENDSTRUCT // End of structure=S_tm
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_ao
+      STRING12  // Field=s_ao_mirror.name
+      POINTER  // Field=s_ao_mirror.ps_analog
+    ENDSTRUCT // End of structure=S_ao
+    //
+  SHORT  // Field=value
+  USHORT  // Field=step_up
+  USHORT  // Field=step_dw
+  SHORT  // Field=current_value
+ENDSTRUCT // End of structure=S_analog
+//
+//
+BEGINSTRUCT // Begin of structure=S_analog
+  ULONG,1583301  // Field=id
+  STRING12,"A_BREF_726"  // Field=name
+  USHORT,1  // Field=enable
+    //
+    BEGINSTRUCT // Begin of structure=S_aores
+      USHORT,1000  // Field=s_aores.volt
+      USHORT,100  // Field=s_aores.value
+    ENDSTRUCT // End of structure=S_aores
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12,"O_BSTAR_726"  // Field=s_do_enable.name
+      POINTER  // Field=s_do_enable.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12,"O_BREV_726"  // Field=s_do_reverse.name
+      POINTER  // Field=s_do_reverse.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_tm
+      USHORT,1  // Field=s_tm_enable.base
+      ULONG,200.4  // Field=s_tm_enable.preset
+      POINTER  // Field=s_tm_enable.ps_timer
+    ENDSTRUCT // End of structure=S_tm
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_ao
+      STRING12  // Field=s_ao_mirror.name
+      POINTER  // Field=s_ao_mirror.ps_analog
+    ENDSTRUCT // End of structure=S_ao
+    //
+  SHORT  // Field=value
+  USHORT  // Field=step_up
+  USHORT  // Field=step_dw
+  SHORT  // Field=current_value
+ENDSTRUCT // End of structure=S_analog
+//
+//
+BEGINSTRUCT // Begin of structure=S_analog
+  ULONG,1583901  // Field=id
+  STRING12,"A_BREF_727"  // Field=name
+  USHORT,1  // Field=enable
+    //
+    BEGINSTRUCT // Begin of structure=S_aores
+      USHORT,1000  // Field=s_aores.volt
+      USHORT,100  // Field=s_aores.value
+    ENDSTRUCT // End of structure=S_aores
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12,"O_BSTAR_727"  // Field=s_do_enable.name
+      POINTER  // Field=s_do_enable.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12,"O_BREV_727"  // Field=s_do_reverse.name
+      POINTER  // Field=s_do_reverse.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_tm
+      USHORT,1  // Field=s_tm_enable.base
+      ULONG,200.5  // Field=s_tm_enable.preset
+      POINTER  // Field=s_tm_enable.ps_timer
+    ENDSTRUCT // End of structure=S_tm
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_ao
+      STRING12  // Field=s_ao_mirror.name
+      POINTER  // Field=s_ao_mirror.ps_analog
+    ENDSTRUCT // End of structure=S_ao
+    //
+  SHORT  // Field=value
+  USHORT  // Field=step_up
+  USHORT  // Field=step_dw
+  SHORT  // Field=current_value
+ENDSTRUCT // End of structure=S_analog
+//
+//
+BEGINSTRUCT // Begin of structure=S_analog
+  ULONG,1584501  // Field=id
+  STRING12,"A_BREF_728"  // Field=name
+  USHORT,1  // Field=enable
+    //
+    BEGINSTRUCT // Begin of structure=S_aores
+      USHORT,1000  // Field=s_aores.volt
+      USHORT,100  // Field=s_aores.value
+    ENDSTRUCT // End of structure=S_aores
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12,"O_BSTAR_728"  // Field=s_do_enable.name
+      POINTER  // Field=s_do_enable.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12,"O_BREV_728"  // Field=s_do_reverse.name
+      POINTER  // Field=s_do_reverse.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_tm
+      USHORT,1  // Field=s_tm_enable.base
+      ULONG,200.6  // Field=s_tm_enable.preset
+      POINTER  // Field=s_tm_enable.ps_timer
+    ENDSTRUCT // End of structure=S_tm
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_ao
+      STRING12  // Field=s_ao_mirror.name
+      POINTER  // Field=s_ao_mirror.ps_analog
+    ENDSTRUCT // End of structure=S_ao
+    //
+  SHORT  // Field=value
+  USHORT  // Field=step_up
+  USHORT  // Field=step_dw
+  SHORT  // Field=current_value
+ENDSTRUCT // End of structure=S_analog
+//
+//
+BEGINSTRUCT // Begin of structure=S_analog
+  ULONG,1790201  // Field=id
+  STRING12,"A_INVREF1_07"  // Field=name
+  USHORT,1  // Field=enable
+    //
+    BEGINSTRUCT // Begin of structure=S_aores
+      USHORT,2500  // Field=s_aores.volt
+      USHORT,250  // Field=s_aores.value
+    ENDSTRUCT // End of structure=S_aores
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12,"O_INVPWR1_07"  // Field=s_do_enable.name
+      POINTER  // Field=s_do_enable.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12  // Field=s_do_reverse.name
+      POINTER  // Field=s_do_reverse.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_tm
+      USHORT,1  // Field=s_tm_enable.base
+      ULONG,100  // Field=s_tm_enable.preset
+      POINTER  // Field=s_tm_enable.ps_timer
+    ENDSTRUCT // End of structure=S_tm
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_ao
+      STRING12  // Field=s_ao_mirror.name
+      POINTER  // Field=s_ao_mirror.ps_analog
+    ENDSTRUCT // End of structure=S_ao
+    //
+  SHORT  // Field=value
+  USHORT  // Field=step_up
+  USHORT  // Field=step_dw
+  SHORT  // Field=current_value
+ENDSTRUCT // End of structure=S_analog
+//
+//
+BEGINSTRUCT // Begin of structure=S_analog
+  ULONG,1790501  // Field=id
+  STRING12,"A_INVREF2_07"  // Field=name
+  USHORT,1  // Field=enable
+    //
+    BEGINSTRUCT // Begin of structure=S_aores
+      USHORT,2500  // Field=s_aores.volt
+      USHORT,250  // Field=s_aores.value
+    ENDSTRUCT // End of structure=S_aores
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12,"O_INVPWR2_07"  // Field=s_do_enable.name
+      POINTER  // Field=s_do_enable.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12  // Field=s_do_reverse.name
+      POINTER  // Field=s_do_reverse.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_tm
+      USHORT,1  // Field=s_tm_enable.base
+      ULONG,100  // Field=s_tm_enable.preset
+      POINTER  // Field=s_tm_enable.ps_timer
+    ENDSTRUCT // End of structure=S_tm
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_ao
+      STRING12  // Field=s_ao_mirror.name
+      POINTER  // Field=s_ao_mirror.ps_analog
+    ENDSTRUCT // End of structure=S_ao
+    //
+  SHORT  // Field=value
+  USHORT  // Field=step_up
+  USHORT  // Field=step_dw
+  SHORT  // Field=current_value
+ENDSTRUCT // End of structure=S_analog
+//
+//
+BEGINSTRUCT // Begin of structure=S_analog
+  ULONG,1790801  // Field=id
+  STRING12,"A_INVREF3_07"  // Field=name
+  USHORT,1  // Field=enable
+    //
+    BEGINSTRUCT // Begin of structure=S_aores
+      USHORT,2500  // Field=s_aores.volt
+      USHORT,250  // Field=s_aores.value
+    ENDSTRUCT // End of structure=S_aores
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12,"O_INVPWR3_07"  // Field=s_do_enable.name
+      POINTER  // Field=s_do_enable.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12  // Field=s_do_reverse.name
+      POINTER  // Field=s_do_reverse.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_tm
+      USHORT,1  // Field=s_tm_enable.base
+      ULONG,100  // Field=s_tm_enable.preset
+      POINTER  // Field=s_tm_enable.ps_timer
+    ENDSTRUCT // End of structure=S_tm
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_ao
+      STRING12  // Field=s_ao_mirror.name
+      POINTER  // Field=s_ao_mirror.ps_analog
+    ENDSTRUCT // End of structure=S_ao
+    //
+  SHORT  // Field=value
+  USHORT  // Field=step_up
+  USHORT  // Field=step_dw
+  SHORT  // Field=current_value
+ENDSTRUCT // End of structure=S_analog
+//
+//
+BEGINSTRUCT // Begin of structure=S_analog
+  ULONG,1810201  // Field=id
+  STRING12,"A_INVREF1_08"  // Field=name
+  USHORT,1  // Field=enable
+    //
+    BEGINSTRUCT // Begin of structure=S_aores
+      USHORT,2500  // Field=s_aores.volt
+      USHORT,250  // Field=s_aores.value
+    ENDSTRUCT // End of structure=S_aores
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12,"O_INVPWR1_08"  // Field=s_do_enable.name
+      POINTER  // Field=s_do_enable.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12  // Field=s_do_reverse.name
+      POINTER  // Field=s_do_reverse.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_tm
+      USHORT,1  // Field=s_tm_enable.base
+      ULONG,100  // Field=s_tm_enable.preset
+      POINTER  // Field=s_tm_enable.ps_timer
+    ENDSTRUCT // End of structure=S_tm
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_ao
+      STRING12  // Field=s_ao_mirror.name
+      POINTER  // Field=s_ao_mirror.ps_analog
+    ENDSTRUCT // End of structure=S_ao
+    //
+  SHORT  // Field=value
+  USHORT  // Field=step_up
+  USHORT  // Field=step_dw
+  SHORT  // Field=current_value
+ENDSTRUCT // End of structure=S_analog
+//
+//
+BEGINSTRUCT // Begin of structure=S_analog
+  ULONG,1810501  // Field=id
+  STRING12,"A_INVREF2_08"  // Field=name
+  USHORT,1  // Field=enable
+    //
+    BEGINSTRUCT // Begin of structure=S_aores
+      USHORT,2500  // Field=s_aores.volt
+      USHORT,250  // Field=s_aores.value
+    ENDSTRUCT // End of structure=S_aores
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12,"O_INVPWR2_08"  // Field=s_do_enable.name
+      POINTER  // Field=s_do_enable.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12  // Field=s_do_reverse.name
+      POINTER  // Field=s_do_reverse.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_tm
+      USHORT,1  // Field=s_tm_enable.base
+      ULONG,100  // Field=s_tm_enable.preset
+      POINTER  // Field=s_tm_enable.ps_timer
+    ENDSTRUCT // End of structure=S_tm
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_ao
+      STRING12  // Field=s_ao_mirror.name
+      POINTER  // Field=s_ao_mirror.ps_analog
+    ENDSTRUCT // End of structure=S_ao
+    //
+  SHORT  // Field=value
+  USHORT  // Field=step_up
+  USHORT  // Field=step_dw
+  SHORT  // Field=current_value
+ENDSTRUCT // End of structure=S_analog
+//
+//
+BEGINSTRUCT // Begin of structure=S_analog
+  ULONG,1810801  // Field=id
+  STRING12,"A_INVREF3_08"  // Field=name
+  USHORT,1  // Field=enable
+    //
+    BEGINSTRUCT // Begin of structure=S_aores
+      USHORT,2500  // Field=s_aores.volt
+      USHORT,250  // Field=s_aores.value
+    ENDSTRUCT // End of structure=S_aores
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12,"O_INVPWR3_08"  // Field=s_do_enable.name
+      POINTER  // Field=s_do_enable.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12  // Field=s_do_reverse.name
+      POINTER  // Field=s_do_reverse.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_tm
+      USHORT,1  // Field=s_tm_enable.base
+      ULONG,100  // Field=s_tm_enable.preset
+      POINTER  // Field=s_tm_enable.ps_timer
+    ENDSTRUCT // End of structure=S_tm
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_ao
+      STRING12  // Field=s_ao_mirror.name
+      POINTER  // Field=s_ao_mirror.ps_analog
+    ENDSTRUCT // End of structure=S_ao
+    //
+  SHORT  // Field=value
+  USHORT  // Field=step_up
+  USHORT  // Field=step_dw
+  SHORT  // Field=current_value
+ENDSTRUCT // End of structure=S_analog
+//
+//
+BEGINSTRUCT // Begin of structure=S_analog
+  ULONG,1830201  // Field=id
+  STRING12,"A_INVREF1_09"  // Field=name
+  USHORT,1  // Field=enable
+    //
+    BEGINSTRUCT // Begin of structure=S_aores
+      USHORT,2500  // Field=s_aores.volt
+      USHORT,250  // Field=s_aores.value
+    ENDSTRUCT // End of structure=S_aores
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12,"O_INVPWR1_09"  // Field=s_do_enable.name
+      POINTER  // Field=s_do_enable.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12  // Field=s_do_reverse.name
+      POINTER  // Field=s_do_reverse.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_tm
+      USHORT,1  // Field=s_tm_enable.base
+      ULONG,100  // Field=s_tm_enable.preset
+      POINTER  // Field=s_tm_enable.ps_timer
+    ENDSTRUCT // End of structure=S_tm
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_ao
+      STRING12  // Field=s_ao_mirror.name
+      POINTER  // Field=s_ao_mirror.ps_analog
+    ENDSTRUCT // End of structure=S_ao
+    //
+  SHORT  // Field=value
+  USHORT  // Field=step_up
+  USHORT  // Field=step_dw
+  SHORT  // Field=current_value
+ENDSTRUCT // End of structure=S_analog
+//
+//
+BEGINSTRUCT // Begin of structure=S_analog
+  ULONG,1830501  // Field=id
+  STRING12,"A_INVREF2_09"  // Field=name
+  USHORT,1  // Field=enable
+    //
+    BEGINSTRUCT // Begin of structure=S_aores
+      USHORT,2500  // Field=s_aores.volt
+      USHORT,250  // Field=s_aores.value
+    ENDSTRUCT // End of structure=S_aores
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12,"O_INVPWR2_09"  // Field=s_do_enable.name
+      POINTER  // Field=s_do_enable.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12  // Field=s_do_reverse.name
+      POINTER  // Field=s_do_reverse.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_tm
+      USHORT,1  // Field=s_tm_enable.base
+      ULONG,100  // Field=s_tm_enable.preset
+      POINTER  // Field=s_tm_enable.ps_timer
+    ENDSTRUCT // End of structure=S_tm
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_ao
+      STRING12  // Field=s_ao_mirror.name
+      POINTER  // Field=s_ao_mirror.ps_analog
+    ENDSTRUCT // End of structure=S_ao
+    //
+  SHORT  // Field=value
+  USHORT  // Field=step_up
+  USHORT  // Field=step_dw
+  SHORT  // Field=current_value
+ENDSTRUCT // End of structure=S_analog
+//
+//
+BEGINSTRUCT // Begin of structure=S_analog
+  ULONG,1830801  // Field=id
+  STRING12,"A_INVREF3_09"  // Field=name
+  USHORT,1  // Field=enable
+    //
+    BEGINSTRUCT // Begin of structure=S_aores
+      USHORT,2500  // Field=s_aores.volt
+      USHORT,250  // Field=s_aores.value
+    ENDSTRUCT // End of structure=S_aores
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12,"O_INVPWR3_09"  // Field=s_do_enable.name
+      POINTER  // Field=s_do_enable.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12  // Field=s_do_reverse.name
+      POINTER  // Field=s_do_reverse.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_tm
+      USHORT,1  // Field=s_tm_enable.base
+      ULONG,100  // Field=s_tm_enable.preset
+      POINTER  // Field=s_tm_enable.ps_timer
+    ENDSTRUCT // End of structure=S_tm
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_ao
+      STRING12  // Field=s_ao_mirror.name
+      POINTER  // Field=s_ao_mirror.ps_analog
+    ENDSTRUCT // End of structure=S_ao
+    //
+  SHORT  // Field=value
+  USHORT  // Field=step_up
+  USHORT  // Field=step_dw
+  SHORT  // Field=current_value
+ENDSTRUCT // End of structure=S_analog
+//
+//
+BEGINSTRUCT // Begin of structure=S_analog
+  ULONG,1850201  // Field=id
+  STRING12,"A_INVREF1_10"  // Field=name
+  USHORT,1  // Field=enable
+    //
+    BEGINSTRUCT // Begin of structure=S_aores
+      USHORT,2500  // Field=s_aores.volt
+      USHORT,250  // Field=s_aores.value
+    ENDSTRUCT // End of structure=S_aores
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12,"O_INVPWR1_10"  // Field=s_do_enable.name
+      POINTER  // Field=s_do_enable.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12  // Field=s_do_reverse.name
+      POINTER  // Field=s_do_reverse.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_tm
+      USHORT,1  // Field=s_tm_enable.base
+      ULONG,100  // Field=s_tm_enable.preset
+      POINTER  // Field=s_tm_enable.ps_timer
+    ENDSTRUCT // End of structure=S_tm
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_ao
+      STRING12  // Field=s_ao_mirror.name
+      POINTER  // Field=s_ao_mirror.ps_analog
+    ENDSTRUCT // End of structure=S_ao
+    //
+  SHORT  // Field=value
+  USHORT  // Field=step_up
+  USHORT  // Field=step_dw
+  SHORT  // Field=current_value
+ENDSTRUCT // End of structure=S_analog
+//
+//
+BEGINSTRUCT // Begin of structure=S_analog
+  ULONG,1850501  // Field=id
+  STRING12,"A_INVREF2_10"  // Field=name
+  USHORT,1  // Field=enable
+    //
+    BEGINSTRUCT // Begin of structure=S_aores
+      USHORT,2500  // Field=s_aores.volt
+      USHORT,250  // Field=s_aores.value
+    ENDSTRUCT // End of structure=S_aores
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12,"O_INVPWR2_10"  // Field=s_do_enable.name
+      POINTER  // Field=s_do_enable.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12  // Field=s_do_reverse.name
+      POINTER  // Field=s_do_reverse.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_tm
+      USHORT,1  // Field=s_tm_enable.base
+      ULONG,100  // Field=s_tm_enable.preset
+      POINTER  // Field=s_tm_enable.ps_timer
+    ENDSTRUCT // End of structure=S_tm
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_ao
+      STRING12  // Field=s_ao_mirror.name
+      POINTER  // Field=s_ao_mirror.ps_analog
+    ENDSTRUCT // End of structure=S_ao
+    //
+  SHORT  // Field=value
+  USHORT  // Field=step_up
+  USHORT  // Field=step_dw
+  SHORT  // Field=current_value
+ENDSTRUCT // End of structure=S_analog
+//
+//
+BEGINSTRUCT // Begin of structure=S_analog
+  ULONG,1870201  // Field=id
+  STRING12,"A_INVREF1_11"  // Field=name
+  USHORT,1  // Field=enable
+    //
+    BEGINSTRUCT // Begin of structure=S_aores
+      USHORT,2500  // Field=s_aores.volt
+      USHORT,250  // Field=s_aores.value
+    ENDSTRUCT // End of structure=S_aores
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12,"O_INVPWR1_11"  // Field=s_do_enable.name
+      POINTER  // Field=s_do_enable.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12  // Field=s_do_reverse.name
+      POINTER  // Field=s_do_reverse.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_tm
+      USHORT,1  // Field=s_tm_enable.base
+      ULONG,100  // Field=s_tm_enable.preset
+      POINTER  // Field=s_tm_enable.ps_timer
+    ENDSTRUCT // End of structure=S_tm
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_ao
+      STRING12  // Field=s_ao_mirror.name
+      POINTER  // Field=s_ao_mirror.ps_analog
+    ENDSTRUCT // End of structure=S_ao
+    //
+  SHORT  // Field=value
+  USHORT  // Field=step_up
+  USHORT  // Field=step_dw
+  SHORT  // Field=current_value
+ENDSTRUCT // End of structure=S_analog
+//
+//
+BEGINSTRUCT // Begin of structure=S_analog
+  ULONG,1870501  // Field=id
+  STRING12,"A_INVREF2_11"  // Field=name
+  USHORT,1  // Field=enable
+    //
+    BEGINSTRUCT // Begin of structure=S_aores
+      USHORT,2500  // Field=s_aores.volt
+      USHORT,250  // Field=s_aores.value
+    ENDSTRUCT // End of structure=S_aores
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12,"O_INVPWR2_11"  // Field=s_do_enable.name
+      POINTER  // Field=s_do_enable.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_do
+      STRING12  // Field=s_do_reverse.name
+      POINTER  // Field=s_do_reverse.ps_output
+    ENDSTRUCT // End of structure=S_do
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_tm
+      USHORT,1  // Field=s_tm_enable.base
+      ULONG,100  // Field=s_tm_enable.preset
+      POINTER  // Field=s_tm_enable.ps_timer
+    ENDSTRUCT // End of structure=S_tm
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_ao
+      STRING12  // Field=s_ao_mirror.name
+      POINTER  // Field=s_ao_mirror.ps_analog
+    ENDSTRUCT // End of structure=S_ao
+    //
+  SHORT  // Field=value
+  USHORT  // Field=step_up
+  USHORT  // Field=step_dw
+  SHORT  // Field=current_value
+ENDSTRUCT // End of structure=S_analog
+//

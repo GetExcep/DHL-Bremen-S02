@@ -1,0 +1,2 @@
+MFR connection=1
+PV connection=2

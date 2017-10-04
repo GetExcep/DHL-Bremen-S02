@@ -1,0 +1,61 @@
+//
+// S_datapb
+//
+TABLE_TYPE: 0
+//
+MAXTABLE
+//
+TABLE
+//
+//
+BEGINSTRUCT // Begin of structure=S_datapb
+	//
+	USHORT   // Field=nId
+	USHORT   // Field=nUpstream
+	USHORT   // Field=nBoard
+	USHORT   // Field=nModuleId
+	USHORT   // Field=nSubModuleIdIn
+	USHORT   // Field=nSubModuleIdOut
+	USHORT   // Field=nLenPosition
+	USHORT   // Field=nCheckPosition
+	USHORT   // Field=nCodePosition
+	USHORT   // Field=nCodeLength
+	UCHAR   // Field=GenPurposeChar[0]
+	UCHAR   // Field=GenPurposeChar[1]
+	UCHAR   // Field=GenPurposeChar[2]
+	UCHAR   // Field=GenPurposeChar[3]
+	ULONG   // Field=GenPurposeLong[0]
+	ULONG   // Field=GenPurposeLong[1]
+	ULONG   // Field=GenPurposeLong[2]
+	ULONG   // Field=GenPurposeLong[3]
+ 	//
+  BEGINSTRUCT // Begin of structure=S_di_trigger
+        STRING12 // Field=s_di_trigger.name
+        POINTER  // Field=s_di_trigger.ps_input
+  ENDSTRUCT // End of structure=S_tm
+ 	//
+  //
+  BEGINSTRUCT // Begin of structure=S_id_iomodulpb
+        USHORT   // Field=s_id_iomodulpb.id
+        POINTER  // Field=s_id_iomodulpb.p_idrec
+  ENDSTRUCT // End of structure=S_id_iomodulpb
+ 	//
+  //
+  BEGINSTRUCT // Begin of structure=s_id_iosubmpbIn
+        USHORT   // Field=s_id_iosubmpbIn.id
+        POINTER  // Field=s_id_iosubmpbIn.p_idrec
+  ENDSTRUCT // End of structure=s_id_iosubmpbIn
+ 	//
+  //
+  BEGINSTRUCT // Begin of structure=s_id_iosubmpbOut
+        USHORT   // Field=s_id_iosubmpbOut.id
+        POINTER  // Field=s_id_iosubmpbOut.p_idrec
+  ENDSTRUCT // End of structure=s_id_iosubmpbOut
+ 	//
+
+	//
+ENDSTRUCT // End of structure=S_datapb
+//
+//
+ENDTABLE
+//

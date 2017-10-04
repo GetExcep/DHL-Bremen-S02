@@ -1,0 +1,13 @@
+//
+//blockcell table
+//
+TableName="blockcell"
+//
+Field="Id",DB_INTEGER
+Field="Name",DB_TEXT,12
+Field="Enable",DB_BOOLEAN
+Field="Offeset ph0",DB_INTEGER
+Field="Bit Enable for Velocity",DB_INTEGER
+Field="Space to block (mm)",DB_INTEGER
+//
+Index="Id","+Id",yes,yes

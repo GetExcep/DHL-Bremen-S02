@@ -1,0 +1,14 @@
+//
+// MFR device table
+//
+Field="dev"
+Field="dev_id"
+Field="AKZ_device_name"
+Field="MFRLocationID"
+Field="config"
+Field="SendStatus"
+Field="status"
+Field="status_mask"
+Field="alarm"
+
+

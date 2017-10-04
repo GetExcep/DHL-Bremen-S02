@@ -1,0 +1,826 @@
+//
+//S_offlver_header
+//
+TABLE_TYPE: 0
+//
+MAXHEADER:1
+//
+HEADER
+//
+//
+BEGINSTRUCT // Begin of structure=S_offlver_header
+  USHORT  // Field=n_max_error
+ENDSTRUCT // End of structure=S_offlver_header
+//
+//
+ENDHEADER
+//
+//
+BEGINSTRUCT // Begin of structure=S_offlver_header
+  USHORT,5  // Field=n_max_error
+ENDSTRUCT // End of structure=S_offlver_header
+//
+//
+//S_offlver
+//
+TABLE_TYPE: 0
+//
+MAXTABLE:8
+//
+TABLE
+//
+//
+BEGINSTRUCT // Begin of structure=S_offlver
+  USHORT  // Field=id
+  STRING12  // Field=name
+  USHORT  // Field=enable
+    //
+    BEGINSTRUCT // Begin of structure=S_cfg_offlver
+      USHORT  // Field=s_cfg_offlver.offset_ph0
+      USHORT  // Field=s_cfg_offlver.check_type
+      USHORT  // Field=s_cfg_offlver.redest_function
+      USHORT  // Field=s_cfg_offlver.reject_chute
+      USHORT  // Field=s_cfg_offlver.reject_type
+      USHORT  // Field=s_cfg_offlver.inc_laps
+      USHORT  // Field=s_cfg_offlver.reject_profile[0]
+      USHORT  // Field=s_cfg_offlver.reject_profile[1]
+      USHORT  // Field=s_cfg_offlver.reject_profile[2]
+      USHORT  // Field=s_cfg_offlver.offl_offset[0]
+      USHORT  // Field=s_cfg_offlver.offl_offset[1]
+      USHORT  // Field=s_cfg_offlver.offl_offset[2]
+    ENDSTRUCT // End of structure=S_cfg_offlver
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12  // Field=s_di_offlver.name
+      POINTER  // Field=s_di_offlver.ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_state
+      SHORT  // Field=s_state.trace
+      SHORT  // Field=s_state.init
+      LONG  // Field=s_state.state
+      LONG  // Field=s_state.previous_state
+      LONG  // Field=s_state.next_state
+      LONG  // Field=s_state.substate
+      STRING40  // Field=s_state.des_state
+      STRING40  // Field=s_state.des_prevstate
+    ENDSTRUCT // End of structure=S_state
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_wk_offlver
+      USHORT  // Field=s_wk_offlver.n_ep_reject
+      USHORT  // Field=s_wk_offlver.ep_cell_start
+      USHORT  // Field=s_wk_offlver.parcel_cnt
+      USHORT  // Field=s_wk_offlver.ep_cnt
+      USHORT  // Field=s_wk_offlver.n_reject_error
+        //
+        BEGINSTRUCT // Begin of structure=S_cnt
+          LONG  // Field=s_wk_offlver.s_cnt_ph.preset
+          LONG  // Field=s_wk_offlver.s_cnt_ph.cnt
+        ENDSTRUCT // End of structure=S_cnt
+        //
+    ENDSTRUCT // End of structure=S_wk_offlver
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_failure
+      UCHAR  // Field=s_failure.physical
+      UCHAR  // Field=s_failure.logical
+    ENDSTRUCT // End of structure=S_failure
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_offlverstat
+        //
+        BEGINSTRUCT // Begin of structure=S_statis
+            //
+            BEGINSTRUCT // Begin of structure=S_counter
+              ULONG  // Field=s_offlverstat.s_statis.s_counter_failure.n_time
+              ULONG  // Field=s_offlverstat.s_statis.s_counter_failure.time
+            ENDSTRUCT // End of structure=S_counter
+            //
+            //
+            BEGINSTRUCT // Begin of structure=S_counter
+              ULONG  // Field=s_offlverstat.s_statis.s_counter_disable.n_time
+              ULONG  // Field=s_offlverstat.s_statis.s_counter_disable.time
+            ENDSTRUCT // End of structure=S_counter
+            //
+        ENDSTRUCT // End of structure=S_statis
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_status
+          ULONG  // Field=s_offlverstat.s_status.status
+          ULONG  // Field=s_offlverstat.s_status.old_status
+        ENDSTRUCT // End of structure=S_status
+        //
+    ENDSTRUCT // End of structure=S_offlverstat
+    //
+ENDSTRUCT // End of structure=S_offlver
+//
+//
+ENDTABLE
+//
+//
+BEGINSTRUCT // Begin of structure=S_offlver
+  USHORT,1  // Field=id
+  STRING12,"OFFLVERST_01"  // Field=name
+  USHORT,1  // Field=enable
+    //
+    BEGINSTRUCT // Begin of structure=S_cfg_offlver
+      USHORT  // Field=s_cfg_offlver.offset_ph0
+      USHORT,1  // Field=s_cfg_offlver.check_type
+      USHORT,0  // Field=s_cfg_offlver.redest_function
+      USHORT,11308  // Field=s_cfg_offlver.reject_chute
+      USHORT,1  // Field=s_cfg_offlver.reject_type
+      USHORT,1  // Field=s_cfg_offlver.inc_laps
+      USHORT,45  // Field=s_cfg_offlver.reject_profile[0]
+      USHORT,45  // Field=s_cfg_offlver.reject_profile[1]
+      USHORT,45  // Field=s_cfg_offlver.reject_profile[2]
+      USHORT,1  // Field=s_cfg_offlver.offl_offset[0]
+      USHORT,1  // Field=s_cfg_offlver.offl_offset[1]
+      USHORT,1  // Field=s_cfg_offlver.offl_offset[2]
+    ENDSTRUCT // End of structure=S_cfg_offlver
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_KSBG01_01"  // Field=s_di_offlver.name
+      POINTER  // Field=s_di_offlver.ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_state
+      SHORT,0  // Field=s_state.trace
+      SHORT  // Field=s_state.init
+      LONG  // Field=s_state.state
+      LONG  // Field=s_state.previous_state
+      LONG  // Field=s_state.next_state
+      LONG  // Field=s_state.substate
+      STRING40  // Field=s_state.des_state
+      STRING40  // Field=s_state.des_prevstate
+    ENDSTRUCT // End of structure=S_state
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_wk_offlver
+      USHORT  // Field=s_wk_offlver.n_ep_reject
+      USHORT  // Field=s_wk_offlver.ep_cell_start
+      USHORT  // Field=s_wk_offlver.parcel_cnt
+      USHORT  // Field=s_wk_offlver.ep_cnt
+      USHORT  // Field=s_wk_offlver.n_reject_error
+        //
+        BEGINSTRUCT // Begin of structure=S_cnt
+          LONG  // Field=s_wk_offlver.s_cnt_ph.preset
+          LONG  // Field=s_wk_offlver.s_cnt_ph.cnt
+        ENDSTRUCT // End of structure=S_cnt
+        //
+    ENDSTRUCT // End of structure=S_wk_offlver
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_failure
+      UCHAR  // Field=s_failure.physical
+      UCHAR  // Field=s_failure.logical
+    ENDSTRUCT // End of structure=S_failure
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_offlverstat
+        //
+        BEGINSTRUCT // Begin of structure=S_statis
+            //
+            BEGINSTRUCT // Begin of structure=S_counter
+              ULONG  // Field=s_offlverstat.s_statis.s_counter_failure.n_time
+              ULONG  // Field=s_offlverstat.s_statis.s_counter_failure.time
+            ENDSTRUCT // End of structure=S_counter
+            //
+            //
+            BEGINSTRUCT // Begin of structure=S_counter
+              ULONG  // Field=s_offlverstat.s_statis.s_counter_disable.n_time
+              ULONG  // Field=s_offlverstat.s_statis.s_counter_disable.time
+            ENDSTRUCT // End of structure=S_counter
+            //
+        ENDSTRUCT // End of structure=S_statis
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_status
+          ULONG  // Field=s_offlverstat.s_status.status
+          ULONG  // Field=s_offlverstat.s_status.old_status
+        ENDSTRUCT // End of structure=S_status
+        //
+    ENDSTRUCT // End of structure=S_offlverstat
+    //
+ENDSTRUCT // End of structure=S_offlver
+//
+//
+BEGINSTRUCT // Begin of structure=S_offlver
+  USHORT,2  // Field=id
+  STRING12,"OFFLVERST_02"  // Field=name
+  USHORT,1  // Field=enable
+    //
+    BEGINSTRUCT // Begin of structure=S_cfg_offlver
+      USHORT  // Field=s_cfg_offlver.offset_ph0
+      USHORT,1  // Field=s_cfg_offlver.check_type
+      USHORT,0  // Field=s_cfg_offlver.redest_function
+      USHORT,11308  // Field=s_cfg_offlver.reject_chute
+      USHORT,1  // Field=s_cfg_offlver.reject_type
+      USHORT,1  // Field=s_cfg_offlver.inc_laps
+      USHORT,45  // Field=s_cfg_offlver.reject_profile[0]
+      USHORT,45  // Field=s_cfg_offlver.reject_profile[1]
+      USHORT,45  // Field=s_cfg_offlver.reject_profile[2]
+      USHORT,1  // Field=s_cfg_offlver.offl_offset[0]
+      USHORT,1  // Field=s_cfg_offlver.offl_offset[1]
+      USHORT,1  // Field=s_cfg_offlver.offl_offset[2]
+    ENDSTRUCT // End of structure=S_cfg_offlver
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_KSBG01_02"  // Field=s_di_offlver.name
+      POINTER  // Field=s_di_offlver.ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_state
+      SHORT,0  // Field=s_state.trace
+      SHORT  // Field=s_state.init
+      LONG  // Field=s_state.state
+      LONG  // Field=s_state.previous_state
+      LONG  // Field=s_state.next_state
+      LONG  // Field=s_state.substate
+      STRING40  // Field=s_state.des_state
+      STRING40  // Field=s_state.des_prevstate
+    ENDSTRUCT // End of structure=S_state
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_wk_offlver
+      USHORT  // Field=s_wk_offlver.n_ep_reject
+      USHORT  // Field=s_wk_offlver.ep_cell_start
+      USHORT  // Field=s_wk_offlver.parcel_cnt
+      USHORT  // Field=s_wk_offlver.ep_cnt
+      USHORT  // Field=s_wk_offlver.n_reject_error
+        //
+        BEGINSTRUCT // Begin of structure=S_cnt
+          LONG  // Field=s_wk_offlver.s_cnt_ph.preset
+          LONG  // Field=s_wk_offlver.s_cnt_ph.cnt
+        ENDSTRUCT // End of structure=S_cnt
+        //
+    ENDSTRUCT // End of structure=S_wk_offlver
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_failure
+      UCHAR  // Field=s_failure.physical
+      UCHAR  // Field=s_failure.logical
+    ENDSTRUCT // End of structure=S_failure
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_offlverstat
+        //
+        BEGINSTRUCT // Begin of structure=S_statis
+            //
+            BEGINSTRUCT // Begin of structure=S_counter
+              ULONG  // Field=s_offlverstat.s_statis.s_counter_failure.n_time
+              ULONG  // Field=s_offlverstat.s_statis.s_counter_failure.time
+            ENDSTRUCT // End of structure=S_counter
+            //
+            //
+            BEGINSTRUCT // Begin of structure=S_counter
+              ULONG  // Field=s_offlverstat.s_statis.s_counter_disable.n_time
+              ULONG  // Field=s_offlverstat.s_statis.s_counter_disable.time
+            ENDSTRUCT // End of structure=S_counter
+            //
+        ENDSTRUCT // End of structure=S_statis
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_status
+          ULONG  // Field=s_offlverstat.s_status.status
+          ULONG  // Field=s_offlverstat.s_status.old_status
+        ENDSTRUCT // End of structure=S_status
+        //
+    ENDSTRUCT // End of structure=S_offlverstat
+    //
+ENDSTRUCT // End of structure=S_offlver
+//
+//
+BEGINSTRUCT // Begin of structure=S_offlver
+  USHORT,3  // Field=id
+  STRING12,"OFFLVERST_03"  // Field=name
+  USHORT,1  // Field=enable
+    //
+    BEGINSTRUCT // Begin of structure=S_cfg_offlver
+      USHORT  // Field=s_cfg_offlver.offset_ph0
+      USHORT,1  // Field=s_cfg_offlver.check_type
+      USHORT,0  // Field=s_cfg_offlver.redest_function
+      USHORT,11308  // Field=s_cfg_offlver.reject_chute
+      USHORT,1  // Field=s_cfg_offlver.reject_type
+      USHORT,1  // Field=s_cfg_offlver.inc_laps
+      USHORT,45  // Field=s_cfg_offlver.reject_profile[0]
+      USHORT,45  // Field=s_cfg_offlver.reject_profile[1]
+      USHORT,45  // Field=s_cfg_offlver.reject_profile[2]
+      USHORT,1  // Field=s_cfg_offlver.offl_offset[0]
+      USHORT,1  // Field=s_cfg_offlver.offl_offset[1]
+      USHORT,1  // Field=s_cfg_offlver.offl_offset[2]
+    ENDSTRUCT // End of structure=S_cfg_offlver
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_KSBG01_03"  // Field=s_di_offlver.name
+      POINTER  // Field=s_di_offlver.ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_state
+      SHORT,0  // Field=s_state.trace
+      SHORT  // Field=s_state.init
+      LONG  // Field=s_state.state
+      LONG  // Field=s_state.previous_state
+      LONG  // Field=s_state.next_state
+      LONG  // Field=s_state.substate
+      STRING40  // Field=s_state.des_state
+      STRING40  // Field=s_state.des_prevstate
+    ENDSTRUCT // End of structure=S_state
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_wk_offlver
+      USHORT  // Field=s_wk_offlver.n_ep_reject
+      USHORT  // Field=s_wk_offlver.ep_cell_start
+      USHORT  // Field=s_wk_offlver.parcel_cnt
+      USHORT  // Field=s_wk_offlver.ep_cnt
+      USHORT  // Field=s_wk_offlver.n_reject_error
+        //
+        BEGINSTRUCT // Begin of structure=S_cnt
+          LONG  // Field=s_wk_offlver.s_cnt_ph.preset
+          LONG  // Field=s_wk_offlver.s_cnt_ph.cnt
+        ENDSTRUCT // End of structure=S_cnt
+        //
+    ENDSTRUCT // End of structure=S_wk_offlver
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_failure
+      UCHAR  // Field=s_failure.physical
+      UCHAR  // Field=s_failure.logical
+    ENDSTRUCT // End of structure=S_failure
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_offlverstat
+        //
+        BEGINSTRUCT // Begin of structure=S_statis
+            //
+            BEGINSTRUCT // Begin of structure=S_counter
+              ULONG  // Field=s_offlverstat.s_statis.s_counter_failure.n_time
+              ULONG  // Field=s_offlverstat.s_statis.s_counter_failure.time
+            ENDSTRUCT // End of structure=S_counter
+            //
+            //
+            BEGINSTRUCT // Begin of structure=S_counter
+              ULONG  // Field=s_offlverstat.s_statis.s_counter_disable.n_time
+              ULONG  // Field=s_offlverstat.s_statis.s_counter_disable.time
+            ENDSTRUCT // End of structure=S_counter
+            //
+        ENDSTRUCT // End of structure=S_statis
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_status
+          ULONG  // Field=s_offlverstat.s_status.status
+          ULONG  // Field=s_offlverstat.s_status.old_status
+        ENDSTRUCT // End of structure=S_status
+        //
+    ENDSTRUCT // End of structure=S_offlverstat
+    //
+ENDSTRUCT // End of structure=S_offlver
+//
+//
+BEGINSTRUCT // Begin of structure=S_offlver
+  USHORT,4  // Field=id
+  STRING12,"OFFLVERST_04"  // Field=name
+  USHORT,1  // Field=enable
+    //
+    BEGINSTRUCT // Begin of structure=S_cfg_offlver
+      USHORT  // Field=s_cfg_offlver.offset_ph0
+      USHORT,1  // Field=s_cfg_offlver.check_type
+      USHORT,0  // Field=s_cfg_offlver.redest_function
+      USHORT,11308  // Field=s_cfg_offlver.reject_chute
+      USHORT,1  // Field=s_cfg_offlver.reject_type
+      USHORT,1  // Field=s_cfg_offlver.inc_laps
+      USHORT,45  // Field=s_cfg_offlver.reject_profile[0]
+      USHORT,45  // Field=s_cfg_offlver.reject_profile[1]
+      USHORT,45  // Field=s_cfg_offlver.reject_profile[2]
+      USHORT,1  // Field=s_cfg_offlver.offl_offset[0]
+      USHORT,1  // Field=s_cfg_offlver.offl_offset[1]
+      USHORT,1  // Field=s_cfg_offlver.offl_offset[2]
+    ENDSTRUCT // End of structure=S_cfg_offlver
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_KSBG01_04"  // Field=s_di_offlver.name
+      POINTER  // Field=s_di_offlver.ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_state
+      SHORT,0  // Field=s_state.trace
+      SHORT  // Field=s_state.init
+      LONG  // Field=s_state.state
+      LONG  // Field=s_state.previous_state
+      LONG  // Field=s_state.next_state
+      LONG  // Field=s_state.substate
+      STRING40  // Field=s_state.des_state
+      STRING40  // Field=s_state.des_prevstate
+    ENDSTRUCT // End of structure=S_state
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_wk_offlver
+      USHORT  // Field=s_wk_offlver.n_ep_reject
+      USHORT  // Field=s_wk_offlver.ep_cell_start
+      USHORT  // Field=s_wk_offlver.parcel_cnt
+      USHORT  // Field=s_wk_offlver.ep_cnt
+      USHORT  // Field=s_wk_offlver.n_reject_error
+        //
+        BEGINSTRUCT // Begin of structure=S_cnt
+          LONG  // Field=s_wk_offlver.s_cnt_ph.preset
+          LONG  // Field=s_wk_offlver.s_cnt_ph.cnt
+        ENDSTRUCT // End of structure=S_cnt
+        //
+    ENDSTRUCT // End of structure=S_wk_offlver
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_failure
+      UCHAR  // Field=s_failure.physical
+      UCHAR  // Field=s_failure.logical
+    ENDSTRUCT // End of structure=S_failure
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_offlverstat
+        //
+        BEGINSTRUCT // Begin of structure=S_statis
+            //
+            BEGINSTRUCT // Begin of structure=S_counter
+              ULONG  // Field=s_offlverstat.s_statis.s_counter_failure.n_time
+              ULONG  // Field=s_offlverstat.s_statis.s_counter_failure.time
+            ENDSTRUCT // End of structure=S_counter
+            //
+            //
+            BEGINSTRUCT // Begin of structure=S_counter
+              ULONG  // Field=s_offlverstat.s_statis.s_counter_disable.n_time
+              ULONG  // Field=s_offlverstat.s_statis.s_counter_disable.time
+            ENDSTRUCT // End of structure=S_counter
+            //
+        ENDSTRUCT // End of structure=S_statis
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_status
+          ULONG  // Field=s_offlverstat.s_status.status
+          ULONG  // Field=s_offlverstat.s_status.old_status
+        ENDSTRUCT // End of structure=S_status
+        //
+    ENDSTRUCT // End of structure=S_offlverstat
+    //
+ENDSTRUCT // End of structure=S_offlver
+//
+//
+BEGINSTRUCT // Begin of structure=S_offlver
+  USHORT,5  // Field=id
+  STRING12,"OFFLVERST_05"  // Field=name
+  USHORT,1  // Field=enable
+    //
+    BEGINSTRUCT // Begin of structure=S_cfg_offlver
+      USHORT  // Field=s_cfg_offlver.offset_ph0
+      USHORT,1  // Field=s_cfg_offlver.check_type
+      USHORT,1  // Field=s_cfg_offlver.redest_function
+      USHORT,11308  // Field=s_cfg_offlver.reject_chute
+      USHORT,1  // Field=s_cfg_offlver.reject_type
+      USHORT,1  // Field=s_cfg_offlver.inc_laps
+      USHORT,45  // Field=s_cfg_offlver.reject_profile[0]
+      USHORT,45  // Field=s_cfg_offlver.reject_profile[1]
+      USHORT,45  // Field=s_cfg_offlver.reject_profile[2]
+      USHORT,1  // Field=s_cfg_offlver.offl_offset[0]
+      USHORT,1  // Field=s_cfg_offlver.offl_offset[1]
+      USHORT,1  // Field=s_cfg_offlver.offl_offset[2]
+    ENDSTRUCT // End of structure=S_cfg_offlver
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_KSBG01_05"  // Field=s_di_offlver.name
+      POINTER  // Field=s_di_offlver.ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_state
+      SHORT,0  // Field=s_state.trace
+      SHORT  // Field=s_state.init
+      LONG  // Field=s_state.state
+      LONG  // Field=s_state.previous_state
+      LONG  // Field=s_state.next_state
+      LONG  // Field=s_state.substate
+      STRING40  // Field=s_state.des_state
+      STRING40  // Field=s_state.des_prevstate
+    ENDSTRUCT // End of structure=S_state
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_wk_offlver
+      USHORT  // Field=s_wk_offlver.n_ep_reject
+      USHORT  // Field=s_wk_offlver.ep_cell_start
+      USHORT  // Field=s_wk_offlver.parcel_cnt
+      USHORT  // Field=s_wk_offlver.ep_cnt
+      USHORT  // Field=s_wk_offlver.n_reject_error
+        //
+        BEGINSTRUCT // Begin of structure=S_cnt
+          LONG  // Field=s_wk_offlver.s_cnt_ph.preset
+          LONG  // Field=s_wk_offlver.s_cnt_ph.cnt
+        ENDSTRUCT // End of structure=S_cnt
+        //
+    ENDSTRUCT // End of structure=S_wk_offlver
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_failure
+      UCHAR  // Field=s_failure.physical
+      UCHAR  // Field=s_failure.logical
+    ENDSTRUCT // End of structure=S_failure
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_offlverstat
+        //
+        BEGINSTRUCT // Begin of structure=S_statis
+            //
+            BEGINSTRUCT // Begin of structure=S_counter
+              ULONG  // Field=s_offlverstat.s_statis.s_counter_failure.n_time
+              ULONG  // Field=s_offlverstat.s_statis.s_counter_failure.time
+            ENDSTRUCT // End of structure=S_counter
+            //
+            //
+            BEGINSTRUCT // Begin of structure=S_counter
+              ULONG  // Field=s_offlverstat.s_statis.s_counter_disable.n_time
+              ULONG  // Field=s_offlverstat.s_statis.s_counter_disable.time
+            ENDSTRUCT // End of structure=S_counter
+            //
+        ENDSTRUCT // End of structure=S_statis
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_status
+          ULONG  // Field=s_offlverstat.s_status.status
+          ULONG  // Field=s_offlverstat.s_status.old_status
+        ENDSTRUCT // End of structure=S_status
+        //
+    ENDSTRUCT // End of structure=S_offlverstat
+    //
+ENDSTRUCT // End of structure=S_offlver
+//
+//
+BEGINSTRUCT // Begin of structure=S_offlver
+  USHORT,6  // Field=id
+  STRING12,"OFFLVERST_06"  // Field=name
+  USHORT,0  // Field=enable
+    //
+    BEGINSTRUCT // Begin of structure=S_cfg_offlver
+      USHORT  // Field=s_cfg_offlver.offset_ph0
+      USHORT,1  // Field=s_cfg_offlver.check_type
+      USHORT,0  // Field=s_cfg_offlver.redest_function
+      USHORT,11308  // Field=s_cfg_offlver.reject_chute
+      USHORT,1  // Field=s_cfg_offlver.reject_type
+      USHORT,1  // Field=s_cfg_offlver.inc_laps
+      USHORT,45  // Field=s_cfg_offlver.reject_profile[0]
+      USHORT,45  // Field=s_cfg_offlver.reject_profile[1]
+      USHORT,45  // Field=s_cfg_offlver.reject_profile[2]
+      USHORT,1  // Field=s_cfg_offlver.offl_offset[0]
+      USHORT,1  // Field=s_cfg_offlver.offl_offset[1]
+      USHORT,1  // Field=s_cfg_offlver.offl_offset[2]
+    ENDSTRUCT // End of structure=S_cfg_offlver
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_KSBG01_06"  // Field=s_di_offlver.name
+      POINTER  // Field=s_di_offlver.ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_state
+      SHORT,0  // Field=s_state.trace
+      SHORT  // Field=s_state.init
+      LONG  // Field=s_state.state
+      LONG  // Field=s_state.previous_state
+      LONG  // Field=s_state.next_state
+      LONG  // Field=s_state.substate
+      STRING40  // Field=s_state.des_state
+      STRING40  // Field=s_state.des_prevstate
+    ENDSTRUCT // End of structure=S_state
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_wk_offlver
+      USHORT  // Field=s_wk_offlver.n_ep_reject
+      USHORT  // Field=s_wk_offlver.ep_cell_start
+      USHORT  // Field=s_wk_offlver.parcel_cnt
+      USHORT  // Field=s_wk_offlver.ep_cnt
+      USHORT  // Field=s_wk_offlver.n_reject_error
+        //
+        BEGINSTRUCT // Begin of structure=S_cnt
+          LONG  // Field=s_wk_offlver.s_cnt_ph.preset
+          LONG  // Field=s_wk_offlver.s_cnt_ph.cnt
+        ENDSTRUCT // End of structure=S_cnt
+        //
+    ENDSTRUCT // End of structure=S_wk_offlver
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_failure
+      UCHAR  // Field=s_failure.physical
+      UCHAR  // Field=s_failure.logical
+    ENDSTRUCT // End of structure=S_failure
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_offlverstat
+        //
+        BEGINSTRUCT // Begin of structure=S_statis
+            //
+            BEGINSTRUCT // Begin of structure=S_counter
+              ULONG  // Field=s_offlverstat.s_statis.s_counter_failure.n_time
+              ULONG  // Field=s_offlverstat.s_statis.s_counter_failure.time
+            ENDSTRUCT // End of structure=S_counter
+            //
+            //
+            BEGINSTRUCT // Begin of structure=S_counter
+              ULONG  // Field=s_offlverstat.s_statis.s_counter_disable.n_time
+              ULONG  // Field=s_offlverstat.s_statis.s_counter_disable.time
+            ENDSTRUCT // End of structure=S_counter
+            //
+        ENDSTRUCT // End of structure=S_statis
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_status
+          ULONG  // Field=s_offlverstat.s_status.status
+          ULONG  // Field=s_offlverstat.s_status.old_status
+        ENDSTRUCT // End of structure=S_status
+        //
+    ENDSTRUCT // End of structure=S_offlverstat
+    //
+ENDSTRUCT // End of structure=S_offlver
+//
+//
+BEGINSTRUCT // Begin of structure=S_offlver
+  USHORT,7  // Field=id
+  STRING12,"OFFLVERST_07"  // Field=name
+  USHORT,1  // Field=enable
+    //
+    BEGINSTRUCT // Begin of structure=S_cfg_offlver
+      USHORT  // Field=s_cfg_offlver.offset_ph0
+      USHORT,1  // Field=s_cfg_offlver.check_type
+      USHORT,0  // Field=s_cfg_offlver.redest_function
+      USHORT,11308  // Field=s_cfg_offlver.reject_chute
+      USHORT,1  // Field=s_cfg_offlver.reject_type
+      USHORT,1  // Field=s_cfg_offlver.inc_laps
+      USHORT,45  // Field=s_cfg_offlver.reject_profile[0]
+      USHORT,45  // Field=s_cfg_offlver.reject_profile[1]
+      USHORT,45  // Field=s_cfg_offlver.reject_profile[2]
+      USHORT,1  // Field=s_cfg_offlver.offl_offset[0]
+      USHORT,1  // Field=s_cfg_offlver.offl_offset[1]
+      USHORT,1  // Field=s_cfg_offlver.offl_offset[2]
+    ENDSTRUCT // End of structure=S_cfg_offlver
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_KSBG01_07"  // Field=s_di_offlver.name
+      POINTER  // Field=s_di_offlver.ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_state
+      SHORT,0  // Field=s_state.trace
+      SHORT  // Field=s_state.init
+      LONG  // Field=s_state.state
+      LONG  // Field=s_state.previous_state
+      LONG  // Field=s_state.next_state
+      LONG  // Field=s_state.substate
+      STRING40  // Field=s_state.des_state
+      STRING40  // Field=s_state.des_prevstate
+    ENDSTRUCT // End of structure=S_state
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_wk_offlver
+      USHORT  // Field=s_wk_offlver.n_ep_reject
+      USHORT  // Field=s_wk_offlver.ep_cell_start
+      USHORT  // Field=s_wk_offlver.parcel_cnt
+      USHORT  // Field=s_wk_offlver.ep_cnt
+      USHORT  // Field=s_wk_offlver.n_reject_error
+        //
+        BEGINSTRUCT // Begin of structure=S_cnt
+          LONG  // Field=s_wk_offlver.s_cnt_ph.preset
+          LONG  // Field=s_wk_offlver.s_cnt_ph.cnt
+        ENDSTRUCT // End of structure=S_cnt
+        //
+    ENDSTRUCT // End of structure=S_wk_offlver
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_failure
+      UCHAR  // Field=s_failure.physical
+      UCHAR  // Field=s_failure.logical
+    ENDSTRUCT // End of structure=S_failure
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_offlverstat
+        //
+        BEGINSTRUCT // Begin of structure=S_statis
+            //
+            BEGINSTRUCT // Begin of structure=S_counter
+              ULONG  // Field=s_offlverstat.s_statis.s_counter_failure.n_time
+              ULONG  // Field=s_offlverstat.s_statis.s_counter_failure.time
+            ENDSTRUCT // End of structure=S_counter
+            //
+            //
+            BEGINSTRUCT // Begin of structure=S_counter
+              ULONG  // Field=s_offlverstat.s_statis.s_counter_disable.n_time
+              ULONG  // Field=s_offlverstat.s_statis.s_counter_disable.time
+            ENDSTRUCT // End of structure=S_counter
+            //
+        ENDSTRUCT // End of structure=S_statis
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_status
+          ULONG  // Field=s_offlverstat.s_status.status
+          ULONG  // Field=s_offlverstat.s_status.old_status
+        ENDSTRUCT // End of structure=S_status
+        //
+    ENDSTRUCT // End of structure=S_offlverstat
+    //
+ENDSTRUCT // End of structure=S_offlver
+//
+//
+BEGINSTRUCT // Begin of structure=S_offlver
+  USHORT,8  // Field=id
+  STRING12,"OFFLVERST_08"  // Field=name
+  USHORT,1  // Field=enable
+    //
+    BEGINSTRUCT // Begin of structure=S_cfg_offlver
+      USHORT  // Field=s_cfg_offlver.offset_ph0
+      USHORT,1  // Field=s_cfg_offlver.check_type
+      USHORT,0  // Field=s_cfg_offlver.redest_function
+      USHORT,11308  // Field=s_cfg_offlver.reject_chute
+      USHORT,1  // Field=s_cfg_offlver.reject_type
+      USHORT,1  // Field=s_cfg_offlver.inc_laps
+      USHORT,45  // Field=s_cfg_offlver.reject_profile[0]
+      USHORT,45  // Field=s_cfg_offlver.reject_profile[1]
+      USHORT,45  // Field=s_cfg_offlver.reject_profile[2]
+      USHORT,1  // Field=s_cfg_offlver.offl_offset[0]
+      USHORT,1  // Field=s_cfg_offlver.offl_offset[1]
+      USHORT,1  // Field=s_cfg_offlver.offl_offset[2]
+    ENDSTRUCT // End of structure=S_cfg_offlver
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_di
+      STRING12,"I_KSBG01_08"  // Field=s_di_offlver.name
+      POINTER  // Field=s_di_offlver.ps_input
+    ENDSTRUCT // End of structure=S_di
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_state
+      SHORT,0  // Field=s_state.trace
+      SHORT  // Field=s_state.init
+      LONG  // Field=s_state.state
+      LONG  // Field=s_state.previous_state
+      LONG  // Field=s_state.next_state
+      LONG  // Field=s_state.substate
+      STRING40  // Field=s_state.des_state
+      STRING40  // Field=s_state.des_prevstate
+    ENDSTRUCT // End of structure=S_state
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_wk_offlver
+      USHORT  // Field=s_wk_offlver.n_ep_reject
+      USHORT  // Field=s_wk_offlver.ep_cell_start
+      USHORT  // Field=s_wk_offlver.parcel_cnt
+      USHORT  // Field=s_wk_offlver.ep_cnt
+      USHORT  // Field=s_wk_offlver.n_reject_error
+        //
+        BEGINSTRUCT // Begin of structure=S_cnt
+          LONG  // Field=s_wk_offlver.s_cnt_ph.preset
+          LONG  // Field=s_wk_offlver.s_cnt_ph.cnt
+        ENDSTRUCT // End of structure=S_cnt
+        //
+    ENDSTRUCT // End of structure=S_wk_offlver
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_failure
+      UCHAR  // Field=s_failure.physical
+      UCHAR  // Field=s_failure.logical
+    ENDSTRUCT // End of structure=S_failure
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_offlverstat
+        //
+        BEGINSTRUCT // Begin of structure=S_statis
+            //
+            BEGINSTRUCT // Begin of structure=S_counter
+              ULONG  // Field=s_offlverstat.s_statis.s_counter_failure.n_time
+              ULONG  // Field=s_offlverstat.s_statis.s_counter_failure.time
+            ENDSTRUCT // End of structure=S_counter
+            //
+            //
+            BEGINSTRUCT // Begin of structure=S_counter
+              ULONG  // Field=s_offlverstat.s_statis.s_counter_disable.n_time
+              ULONG  // Field=s_offlverstat.s_statis.s_counter_disable.time
+            ENDSTRUCT // End of structure=S_counter
+            //
+        ENDSTRUCT // End of structure=S_statis
+        //
+        //
+        BEGINSTRUCT // Begin of structure=S_status
+          ULONG  // Field=s_offlverstat.s_status.status
+          ULONG  // Field=s_offlverstat.s_status.old_status
+        ENDSTRUCT // End of structure=S_status
+        //
+    ENDSTRUCT // End of structure=S_offlverstat
+    //
+ENDSTRUCT // End of structure=S_offlver
+//

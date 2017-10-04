@@ -1,0 +1,50 @@
+//
+// XML message definition table
+//
+TableName="xml_msg"
+//
+Field="Code",DB_INTEGER
+Field="Name",DB_TEXT,40
+Field="(c)ACK required",DB_INTEGER
+Field="1 Tag;type;extra data",DB_TEXT,80
+Field="2 Tag;type;extra data",DB_TEXT,80
+Field="3 Tag;type;extra data",DB_TEXT,80
+Field="4 Tag;type;extra data",DB_TEXT,80
+Field="5 Tag;type;extra data",DB_TEXT,80
+Field="6 Tag;type;extra data",DB_TEXT,80
+Field="7 Tag;type;extra data",DB_TEXT,80
+Field="8 Tag;type;extra data",DB_TEXT,80
+Field="9 Tag;type;extra data",DB_TEXT,80
+Field="10 Tag;type;extra data",DB_TEXT,80
+Field="11 Tag;type;extra data",DB_TEXT,80
+Field="12 Tag;type;extra data",DB_TEXT,80
+Field="13 Tag;type;extra data",DB_TEXT,80
+Field="14 Tag;type;extra data",DB_TEXT,80
+Field="15 Tag;type;extra data",DB_TEXT,80
+Field="16 Tag;type;extra data",DB_TEXT,80
+Field="17 Tag;type;extra data",DB_TEXT,80
+Field="18 Tag;type;extra data",DB_TEXT,80
+Field="19 Tag;type;extra data",DB_TEXT,80
+Field="20 Tag;type;extra data",DB_TEXT,80
+Field="21 Tag;type;extra data",DB_TEXT,80
+Field="22 Tag;type;extra data",DB_TEXT,80
+Field="23 Tag;type;extra data",DB_TEXT,80
+Field="24 Tag;type;extra data",DB_TEXT,80
+Field="25 Tag;type;extra data",DB_TEXT,80
+Field="26 Tag;type;extra data",DB_TEXT,80
+Field="27 Tag;type;extra data",DB_TEXT,80
+Field="28 Tag;type;extra data",DB_TEXT,80
+Field="29 Tag;type;extra data",DB_TEXT,80
+Field="30 Tag;type;extra data",DB_TEXT,80
+Field="31 Tag;type;extra data",DB_TEXT,80
+Field="32 Tag;type;extra data",DB_TEXT,80
+Field="33 Tag;type;extra data",DB_TEXT,80
+Field="34 Tag;type;extra data",DB_TEXT,80
+Field="35 Tag;type;extra data",DB_TEXT,80
+Field="36 Tag;type;extra data",DB_TEXT,80
+Field="37 Tag;type;extra data",DB_TEXT,80
+Field="38 Tag;type;extra data",DB_TEXT,80
+Field="39 Tag;type;extra data",DB_TEXT,80
+Field="40 Tag;type;extra data",DB_TEXT,80
+//
+Index="id","+Code",no,yes

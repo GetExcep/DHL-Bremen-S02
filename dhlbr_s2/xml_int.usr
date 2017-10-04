@@ -1,0 +1,13 @@
+//
+// XML_INT table
+//
+TableName="xml_int"
+//
+Field="sorter_id",DB_INTEGER
+Field="enable",DB_BOOLEAN
+Field="(b)debug function",DB_INTEGER
+Field="XML schema",DB_TEXT,60
+Field="XML version",DB_TEXT,4
+//
+Index="id","+sorter_id",no,yes
+

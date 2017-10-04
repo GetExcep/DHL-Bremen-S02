@@ -1,0 +1,117 @@
+//
+//S_ainput
+//
+TABLE_TYPE: 0
+//
+MAXTABLE:6
+//
+TABLE
+//
+//
+BEGINSTRUCT // Begin of structure=S_ainput
+  ULONG  // Field=id
+  STRING12  // Field=name
+  USHORT  // Field=enable
+    //
+    BEGINSTRUCT // Begin of structure=S_aires
+      USHORT  // Field=s_aires.volt
+      USHORT  // Field=s_aires.value
+    ENDSTRUCT // End of structure=S_aires
+    //
+  SHORT  // Field=value
+  SHORT  // Field=previous_value
+ENDSTRUCT // End of structure=S_ainput
+//
+//
+ENDTABLE
+//
+//
+BEGINSTRUCT // Begin of structure=S_ainput
+  ULONG,150101  // Field=id
+  STRING12,"AI_DXRS_01"  // Field=name
+  USHORT,1  // Field=enable
+    //
+    BEGINSTRUCT // Begin of structure=S_aires
+      USHORT,1  // Field=s_aires.volt
+      USHORT,1  // Field=s_aires.value
+    ENDSTRUCT // End of structure=S_aires
+    //
+  SHORT  // Field=value
+  SHORT  // Field=previous_value
+ENDSTRUCT // End of structure=S_ainput
+//
+//
+BEGINSTRUCT // Begin of structure=S_ainput
+  ULONG,150201  // Field=id
+  STRING12,"AI_SXRS_01"  // Field=name
+  USHORT,1  // Field=enable
+    //
+    BEGINSTRUCT // Begin of structure=S_aires
+      USHORT,1  // Field=s_aires.volt
+      USHORT,1  // Field=s_aires.value
+    ENDSTRUCT // End of structure=S_aires
+    //
+  SHORT  // Field=value
+  SHORT  // Field=previous_value
+ENDSTRUCT // End of structure=S_ainput
+//
+//
+BEGINSTRUCT // Begin of structure=S_ainput
+  ULONG,160101  // Field=id
+  STRING12,"AI_DXRS_02"  // Field=name
+  USHORT,1  // Field=enable
+    //
+    BEGINSTRUCT // Begin of structure=S_aires
+      USHORT,1  // Field=s_aires.volt
+      USHORT,1  // Field=s_aires.value
+    ENDSTRUCT // End of structure=S_aires
+    //
+  SHORT  // Field=value
+  SHORT  // Field=previous_value
+ENDSTRUCT // End of structure=S_ainput
+//
+//
+BEGINSTRUCT // Begin of structure=S_ainput
+  ULONG,160201  // Field=id
+  STRING12,"AI_SXRS_02"  // Field=name
+  USHORT,1  // Field=enable
+    //
+    BEGINSTRUCT // Begin of structure=S_aires
+      USHORT,1  // Field=s_aires.volt
+      USHORT,1  // Field=s_aires.value
+    ENDSTRUCT // End of structure=S_aires
+    //
+  SHORT  // Field=value
+  SHORT  // Field=previous_value
+ENDSTRUCT // End of structure=S_ainput
+//
+//
+BEGINSTRUCT // Begin of structure=S_ainput
+  ULONG,1430101  // Field=id
+  STRING12,"AI_DXRS_03"  // Field=name
+  USHORT,1  // Field=enable
+    //
+    BEGINSTRUCT // Begin of structure=S_aires
+      USHORT,1  // Field=s_aires.volt
+      USHORT,1  // Field=s_aires.value
+    ENDSTRUCT // End of structure=S_aires
+    //
+  SHORT  // Field=value
+  SHORT  // Field=previous_value
+ENDSTRUCT // End of structure=S_ainput
+//
+//
+BEGINSTRUCT // Begin of structure=S_ainput
+  ULONG,1430201  // Field=id
+  STRING12,"AI_SXRS_03"  // Field=name
+  USHORT,1  // Field=enable
+    //
+    BEGINSTRUCT // Begin of structure=S_aires
+      USHORT,1  // Field=s_aires.volt
+      USHORT,1  // Field=s_aires.value
+    ENDSTRUCT // End of structure=S_aires
+    //
+  SHORT  // Field=value
+  SHORT  // Field=previous_value
+ENDSTRUCT // End of structure=S_ainput
+//

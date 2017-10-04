@@ -1,0 +1,20 @@
+//
+TableName="SAFEPLC"
+//
+//
+Field="Id",DB_INTEGER
+Field="ph enc prefix",DB_TEXT,12
+Field ="IN HB fault",DB_TEXT,12
+Field="OUT auto mode",DB_TEXT,12
+Field="OUT maintenance mode",DB_TEXT,12
+Field="OUT vel1",DB_TEXT,12
+Field="OUT vel2",DB_TEXT,12
+Field="OUT vel3",DB_TEXT,12
+Field="OUT sc run",DB_TEXT,12
+Field="OUT sc stop",DB_TEXT,12
+Field="OUT alive",DB_TEXT,12
+Field="AI counter_in",DB_TEXT,12
+Field="AO counter_out",DB_TEXT,12
+Field="AO velocity",DB_TEXT,12
+//
+Index="Id","+Id",yes,yes

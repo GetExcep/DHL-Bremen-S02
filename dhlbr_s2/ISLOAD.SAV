@@ -1,0 +1,469 @@
+Fields -> 38 
+Record -> 1 
+Id-> 1 
+Enable->True
+Set 1 starting_length-> 400 
+Set 1 final_length-> 799 
+Set 1 is distance offset-> 0 
+Set 1 activation delay-> 0 
+Set 1 velocity low (not used)-> 0 
+Set 1 velocity high-> 2200 
+Set 1 acceleration ramp up-> 3500 
+Set 1 acceleration ramp dw (not used)-> 0 
+Set 1 ramp length-> 800 
+Set 1 Slow down management->True
+Set 1 Slow down velocity-> 700 
+Set 1 Slow down time-> 400 
+Set 2 starting_length-> 800 
+Set 2 final_length-> 2000 
+Set 2 is distance offset-> 0 
+Set 2 activation delay-> 0 
+Set 2 velocity low (not used)-> 0 
+Set 2 velocity high-> 2000 
+Set 2 acceleration ramp up-> 3500 
+Set 2 acceleration ramp dw (not used)-> 0 
+Set 2 ramp length-> 800 
+Set 2 Slow down management->True
+Set 2 Slow down velocity-> 0 
+Set 2 Slow down time-> 1000 
+Set 3 starting_length-> 0 
+Set 3 final_length-> 0 
+Set 3 is distance offset-> 0 
+Set 3 activation delay-> 0 
+Set 3 velocity low (not used)-> 0 
+Set 3 velocity high-> 0 
+Set 3 acceleration ramp up-> 0 
+Set 3 acceleration ramp dw (not used)-> 0 
+Set 3 ramp length-> 0 
+Set 3 Slow down management->False
+Set 3 Slow down velocity-> 0 
+Set 3 Slow down time-> 0 
+Record -> 2 
+Id-> 2 
+Enable->True
+Set 1 starting_length-> 400 
+Set 1 final_length-> 799 
+Set 1 is distance offset-> 0 
+Set 1 activation delay-> 0 
+Set 1 velocity low (not used)-> 0 
+Set 1 velocity high-> 2200 
+Set 1 acceleration ramp up-> 3500 
+Set 1 acceleration ramp dw (not used)-> 0 
+Set 1 ramp length-> 800 
+Set 1 Slow down management->True
+Set 1 Slow down velocity-> 700 
+Set 1 Slow down time-> 400 
+Set 2 starting_length-> 800 
+Set 2 final_length-> 2000 
+Set 2 is distance offset-> 0 
+Set 2 activation delay-> 0 
+Set 2 velocity low (not used)-> 0 
+Set 2 velocity high-> 2000 
+Set 2 acceleration ramp up-> 3500 
+Set 2 acceleration ramp dw (not used)-> 0 
+Set 2 ramp length-> 800 
+Set 2 Slow down management->True
+Set 2 Slow down velocity-> 0 
+Set 2 Slow down time-> 1000 
+Set 3 starting_length-> 0 
+Set 3 final_length-> 0 
+Set 3 is distance offset-> 0 
+Set 3 activation delay-> 0 
+Set 3 velocity low (not used)-> 0 
+Set 3 velocity high-> 0 
+Set 3 acceleration ramp up-> 0 
+Set 3 acceleration ramp dw (not used)-> 0 
+Set 3 ramp length-> 0 
+Set 3 Slow down management->False
+Set 3 Slow down velocity-> 0 
+Set 3 Slow down time-> 0 
+Record -> 3 
+Id-> 3 
+Enable->True
+Set 1 starting_length-> 400 
+Set 1 final_length-> 799 
+Set 1 is distance offset-> 0 
+Set 1 activation delay-> 0 
+Set 1 velocity low (not used)-> 0 
+Set 1 velocity high-> 2200 
+Set 1 acceleration ramp up-> 3500 
+Set 1 acceleration ramp dw (not used)-> 0 
+Set 1 ramp length-> 800 
+Set 1 Slow down management->True
+Set 1 Slow down velocity-> 700 
+Set 1 Slow down time-> 400 
+Set 2 starting_length-> 800 
+Set 2 final_length-> 2000 
+Set 2 is distance offset-> 0 
+Set 2 activation delay-> 0 
+Set 2 velocity low (not used)-> 0 
+Set 2 velocity high-> 2000 
+Set 2 acceleration ramp up-> 3500 
+Set 2 acceleration ramp dw (not used)-> 0 
+Set 2 ramp length-> 800 
+Set 2 Slow down management->True
+Set 2 Slow down velocity-> 0 
+Set 2 Slow down time-> 1000 
+Set 3 starting_length-> 0 
+Set 3 final_length-> 0 
+Set 3 is distance offset-> 0 
+Set 3 activation delay-> 0 
+Set 3 velocity low (not used)-> 0 
+Set 3 velocity high-> 0 
+Set 3 acceleration ramp up-> 0 
+Set 3 acceleration ramp dw (not used)-> 0 
+Set 3 ramp length-> 0 
+Set 3 Slow down management->False
+Set 3 Slow down velocity-> 0 
+Set 3 Slow down time-> 0 
+Record -> 4 
+Id-> 4 
+Enable->True
+Set 1 starting_length-> 400 
+Set 1 final_length-> 799 
+Set 1 is distance offset-> 0 
+Set 1 activation delay-> 0 
+Set 1 velocity low (not used)-> 0 
+Set 1 velocity high-> 2200 
+Set 1 acceleration ramp up-> 3500 
+Set 1 acceleration ramp dw (not used)-> 0 
+Set 1 ramp length-> 800 
+Set 1 Slow down management->True
+Set 1 Slow down velocity-> 700 
+Set 1 Slow down time-> 400 
+Set 2 starting_length-> 800 
+Set 2 final_length-> 2000 
+Set 2 is distance offset-> 0 
+Set 2 activation delay-> 0 
+Set 2 velocity low (not used)-> 0 
+Set 2 velocity high-> 2000 
+Set 2 acceleration ramp up-> 3500 
+Set 2 acceleration ramp dw (not used)-> 0 
+Set 2 ramp length-> 800 
+Set 2 Slow down management->True
+Set 2 Slow down velocity-> 0 
+Set 2 Slow down time-> 1000 
+Set 3 starting_length-> 0 
+Set 3 final_length-> 0 
+Set 3 is distance offset-> 0 
+Set 3 activation delay-> 0 
+Set 3 velocity low (not used)-> 0 
+Set 3 velocity high-> 0 
+Set 3 acceleration ramp up-> 0 
+Set 3 acceleration ramp dw (not used)-> 0 
+Set 3 ramp length-> 0 
+Set 3 Slow down management->False
+Set 3 Slow down velocity-> 0 
+Set 3 Slow down time-> 0 
+Record -> 5 
+Id-> 5 
+Enable->True
+Set 1 starting_length-> 400 
+Set 1 final_length-> 799 
+Set 1 is distance offset-> 0 
+Set 1 activation delay-> 0 
+Set 1 velocity low (not used)-> 0 
+Set 1 velocity high-> 2200 
+Set 1 acceleration ramp up-> 3500 
+Set 1 acceleration ramp dw (not used)-> 0 
+Set 1 ramp length-> 800 
+Set 1 Slow down management->True
+Set 1 Slow down velocity-> 700 
+Set 1 Slow down time-> 400 
+Set 2 starting_length-> 800 
+Set 2 final_length-> 2000 
+Set 2 is distance offset-> 0 
+Set 2 activation delay-> 0 
+Set 2 velocity low (not used)-> 0 
+Set 2 velocity high-> 2000 
+Set 2 acceleration ramp up-> 3500 
+Set 2 acceleration ramp dw (not used)-> 0 
+Set 2 ramp length-> 800 
+Set 2 Slow down management->True
+Set 2 Slow down velocity-> 0 
+Set 2 Slow down time-> 1000 
+Set 3 starting_length-> 0 
+Set 3 final_length-> 0 
+Set 3 is distance offset-> 0 
+Set 3 activation delay-> 0 
+Set 3 velocity low (not used)-> 0 
+Set 3 velocity high-> 0 
+Set 3 acceleration ramp up-> 0 
+Set 3 acceleration ramp dw (not used)-> 0 
+Set 3 ramp length-> 0 
+Set 3 Slow down management->False
+Set 3 Slow down velocity-> 0 
+Set 3 Slow down time-> 0 
+Record -> 6 
+Id-> 6 
+Enable->True
+Set 1 starting_length-> 400 
+Set 1 final_length-> 799 
+Set 1 is distance offset-> 0 
+Set 1 activation delay-> 0 
+Set 1 velocity low (not used)-> 0 
+Set 1 velocity high-> 2200 
+Set 1 acceleration ramp up-> 3500 
+Set 1 acceleration ramp dw (not used)-> 0 
+Set 1 ramp length-> 800 
+Set 1 Slow down management->True
+Set 1 Slow down velocity-> 700 
+Set 1 Slow down time-> 400 
+Set 2 starting_length-> 800 
+Set 2 final_length-> 2000 
+Set 2 is distance offset-> 0 
+Set 2 activation delay-> 0 
+Set 2 velocity low (not used)-> 0 
+Set 2 velocity high-> 2000 
+Set 2 acceleration ramp up-> 3500 
+Set 2 acceleration ramp dw (not used)-> 0 
+Set 2 ramp length-> 800 
+Set 2 Slow down management->True
+Set 2 Slow down velocity-> 0 
+Set 2 Slow down time-> 1000 
+Set 3 starting_length-> 0 
+Set 3 final_length-> 0 
+Set 3 is distance offset-> 0 
+Set 3 activation delay-> 0 
+Set 3 velocity low (not used)-> 0 
+Set 3 velocity high-> 0 
+Set 3 acceleration ramp up-> 0 
+Set 3 acceleration ramp dw (not used)-> 0 
+Set 3 ramp length-> 0 
+Set 3 Slow down management->False
+Set 3 Slow down velocity-> 0 
+Set 3 Slow down time-> 0 
+Record -> 7 
+Id-> 7 
+Enable->True
+Set 1 starting_length-> 400 
+Set 1 final_length-> 799 
+Set 1 is distance offset-> 0 
+Set 1 activation delay-> 0 
+Set 1 velocity low (not used)-> 0 
+Set 1 velocity high-> 2200 
+Set 1 acceleration ramp up-> 3500 
+Set 1 acceleration ramp dw (not used)-> 0 
+Set 1 ramp length-> 800 
+Set 1 Slow down management->True
+Set 1 Slow down velocity-> 700 
+Set 1 Slow down time-> 400 
+Set 2 starting_length-> 800 
+Set 2 final_length-> 2000 
+Set 2 is distance offset-> 0 
+Set 2 activation delay-> 0 
+Set 2 velocity low (not used)-> 0 
+Set 2 velocity high-> 2000 
+Set 2 acceleration ramp up-> 3500 
+Set 2 acceleration ramp dw (not used)-> 0 
+Set 2 ramp length-> 800 
+Set 2 Slow down management->True
+Set 2 Slow down velocity-> 0 
+Set 2 Slow down time-> 1000 
+Set 3 starting_length-> 0 
+Set 3 final_length-> 0 
+Set 3 is distance offset-> 0 
+Set 3 activation delay-> 0 
+Set 3 velocity low (not used)-> 0 
+Set 3 velocity high-> 0 
+Set 3 acceleration ramp up-> 0 
+Set 3 acceleration ramp dw (not used)-> 0 
+Set 3 ramp length-> 0 
+Set 3 Slow down management->False
+Set 3 Slow down velocity-> 0 
+Set 3 Slow down time-> 0 
+Record -> 8 
+Id-> 8 
+Enable->True
+Set 1 starting_length-> 400 
+Set 1 final_length-> 799 
+Set 1 is distance offset-> 0 
+Set 1 activation delay-> 0 
+Set 1 velocity low (not used)-> 0 
+Set 1 velocity high-> 2200 
+Set 1 acceleration ramp up-> 3500 
+Set 1 acceleration ramp dw (not used)-> 0 
+Set 1 ramp length-> 800 
+Set 1 Slow down management->True
+Set 1 Slow down velocity-> 700 
+Set 1 Slow down time-> 400 
+Set 2 starting_length-> 800 
+Set 2 final_length-> 2000 
+Set 2 is distance offset-> 0 
+Set 2 activation delay-> 0 
+Set 2 velocity low (not used)-> 0 
+Set 2 velocity high-> 2000 
+Set 2 acceleration ramp up-> 3500 
+Set 2 acceleration ramp dw (not used)-> 0 
+Set 2 ramp length-> 800 
+Set 2 Slow down management->True
+Set 2 Slow down velocity-> 0 
+Set 2 Slow down time-> 1000 
+Set 3 starting_length-> 0 
+Set 3 final_length-> 0 
+Set 3 is distance offset-> 0 
+Set 3 activation delay-> 0 
+Set 3 velocity low (not used)-> 0 
+Set 3 velocity high-> 0 
+Set 3 acceleration ramp up-> 0 
+Set 3 acceleration ramp dw (not used)-> 0 
+Set 3 ramp length-> 0 
+Set 3 Slow down management->False
+Set 3 Slow down velocity-> 0 
+Set 3 Slow down time-> 0 
+Record -> 9 
+Id-> 9 
+Enable->True
+Set 1 starting_length-> 400 
+Set 1 final_length-> 799 
+Set 1 is distance offset-> 0 
+Set 1 activation delay-> 0 
+Set 1 velocity low (not used)-> 0 
+Set 1 velocity high-> 2200 
+Set 1 acceleration ramp up-> 3500 
+Set 1 acceleration ramp dw (not used)-> 0 
+Set 1 ramp length-> 800 
+Set 1 Slow down management->True
+Set 1 Slow down velocity-> 700 
+Set 1 Slow down time-> 400 
+Set 2 starting_length-> 800 
+Set 2 final_length-> 2000 
+Set 2 is distance offset-> 0 
+Set 2 activation delay-> 0 
+Set 2 velocity low (not used)-> 0 
+Set 2 velocity high-> 2000 
+Set 2 acceleration ramp up-> 3500 
+Set 2 acceleration ramp dw (not used)-> 0 
+Set 2 ramp length-> 800 
+Set 2 Slow down management->True
+Set 2 Slow down velocity-> 0 
+Set 2 Slow down time-> 1000 
+Set 3 starting_length-> 0 
+Set 3 final_length-> 0 
+Set 3 is distance offset-> 0 
+Set 3 activation delay-> 0 
+Set 3 velocity low (not used)-> 0 
+Set 3 velocity high-> 0 
+Set 3 acceleration ramp up-> 0 
+Set 3 acceleration ramp dw (not used)-> 0 
+Set 3 ramp length-> 0 
+Set 3 Slow down management->False
+Set 3 Slow down velocity-> 0 
+Set 3 Slow down time-> 0 
+Record -> 10 
+Id-> 10 
+Enable->True
+Set 1 starting_length-> 400 
+Set 1 final_length-> 799 
+Set 1 is distance offset-> 0 
+Set 1 activation delay-> 0 
+Set 1 velocity low (not used)-> 0 
+Set 1 velocity high-> 2200 
+Set 1 acceleration ramp up-> 3500 
+Set 1 acceleration ramp dw (not used)-> 0 
+Set 1 ramp length-> 800 
+Set 1 Slow down management->True
+Set 1 Slow down velocity-> 700 
+Set 1 Slow down time-> 400 
+Set 2 starting_length-> 800 
+Set 2 final_length-> 2000 
+Set 2 is distance offset-> 0 
+Set 2 activation delay-> 0 
+Set 2 velocity low (not used)-> 0 
+Set 2 velocity high-> 2000 
+Set 2 acceleration ramp up-> 3500 
+Set 2 acceleration ramp dw (not used)-> 0 
+Set 2 ramp length-> 800 
+Set 2 Slow down management->True
+Set 2 Slow down velocity-> 0 
+Set 2 Slow down time-> 1000 
+Set 3 starting_length-> 0 
+Set 3 final_length-> 0 
+Set 3 is distance offset-> 0 
+Set 3 activation delay-> 0 
+Set 3 velocity low (not used)-> 0 
+Set 3 velocity high-> 0 
+Set 3 acceleration ramp up-> 0 
+Set 3 acceleration ramp dw (not used)-> 0 
+Set 3 ramp length-> 0 
+Set 3 Slow down management->False
+Set 3 Slow down velocity-> 0 
+Set 3 Slow down time-> 0 
+Record -> 11 
+Id-> 12 
+Enable->True
+Set 1 starting_length-> 400 
+Set 1 final_length-> 799 
+Set 1 is distance offset-> 0 
+Set 1 activation delay-> 0 
+Set 1 velocity low (not used)-> 0 
+Set 1 velocity high-> 2200 
+Set 1 acceleration ramp up-> 3500 
+Set 1 acceleration ramp dw (not used)-> 0 
+Set 1 ramp length-> 800 
+Set 1 Slow down management->True
+Set 1 Slow down velocity-> 700 
+Set 1 Slow down time-> 400 
+Set 2 starting_length-> 800 
+Set 2 final_length-> 2000 
+Set 2 is distance offset-> 0 
+Set 2 activation delay-> 0 
+Set 2 velocity low (not used)-> 0 
+Set 2 velocity high-> 2000 
+Set 2 acceleration ramp up-> 3500 
+Set 2 acceleration ramp dw (not used)-> 0 
+Set 2 ramp length-> 800 
+Set 2 Slow down management->True
+Set 2 Slow down velocity-> 0 
+Set 2 Slow down time-> 1000 
+Set 3 starting_length-> 0 
+Set 3 final_length-> 0 
+Set 3 is distance offset-> 0 
+Set 3 activation delay-> 0 
+Set 3 velocity low (not used)-> 0 
+Set 3 velocity high-> 0 
+Set 3 acceleration ramp up-> 0 
+Set 3 acceleration ramp dw (not used)-> 0 
+Set 3 ramp length-> 0 
+Set 3 Slow down management->False
+Set 3 Slow down velocity-> 0 
+Set 3 Slow down time-> 0 
+Record -> 12 
+Id-> 14 
+Enable->True
+Set 1 starting_length-> 400 
+Set 1 final_length-> 799 
+Set 1 is distance offset-> 0 
+Set 1 activation delay-> 0 
+Set 1 velocity low (not used)-> 0 
+Set 1 velocity high-> 2200 
+Set 1 acceleration ramp up-> 3500 
+Set 1 acceleration ramp dw (not used)-> 0 
+Set 1 ramp length-> 800 
+Set 1 Slow down management->True
+Set 1 Slow down velocity-> 700 
+Set 1 Slow down time-> 400 
+Set 2 starting_length-> 800 
+Set 2 final_length-> 2000 
+Set 2 is distance offset-> 0 
+Set 2 activation delay-> 0 
+Set 2 velocity low (not used)-> 0 
+Set 2 velocity high-> 2000 
+Set 2 acceleration ramp up-> 3500 
+Set 2 acceleration ramp dw (not used)-> 0 
+Set 2 ramp length-> 800 
+Set 2 Slow down management->True
+Set 2 Slow down velocity-> 0 
+Set 2 Slow down time-> 1000 
+Set 3 starting_length-> 0 
+Set 3 final_length-> 0 
+Set 3 is distance offset-> 0 
+Set 3 activation delay-> 0 
+Set 3 velocity low (not used)-> 0 
+Set 3 velocity high-> 0 
+Set 3 acceleration ramp up-> 0 
+Set 3 acceleration ramp dw (not used)-> 0 
+Set 3 ramp length-> 0 
+Set 3 Slow down management->False
+Set 3 Slow down velocity-> 0 
+Set 3 Slow down time-> 0 

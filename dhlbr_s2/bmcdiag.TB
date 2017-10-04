@@ -1,0 +1,34 @@
+//
+//S_bmcdiag
+//
+TABLE_TYPE: 0
+//
+MAXTABLE:1
+//
+TABLE
+//
+//
+BEGINSTRUCT // Begin of structure=S_bmcdiag
+  USHORT  // Field=Id
+ STRING12  // Field=name
+ 	USHORT  // Field=offset_ph0
+ 	USHORT  // Field=s_wk_bmcdiag.debug_function
+ 	USHORT  // Field=ep_start_reading
+ 	USHORT  // Field=cell		
+    //
+ENDSTRUCT // End of structure=S_bmcdiag
+//
+//
+ENDTABLE
+//
+//
+BEGINSTRUCT // Begin of structure=S_bmcdiag
+  USHORT,1  // Field=Id
+ STRING12,"BMCDIAG_01"  // Field=name
+ 	USHORT,17800  // Field=offset_ph0
+ 	USHORT,3  // Field=s_wk_bmcdiag.debug_function
+ 	USHORT  // Field=ep_start_reading
+ 	USHORT  // Field=cell		
+    //
+ENDSTRUCT // End of structure=S_bmcdiag
+//

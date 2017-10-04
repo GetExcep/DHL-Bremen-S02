@@ -1,0 +1,62 @@
+//
+//S_locupstr
+//
+TABLE_TYPE: 0
+//
+MAXTABLE
+//
+TABLE
+//
+//
+BEGINSTRUCT // Begin of structure=S_locupstr
+	//
+	USHORT  // Field=id
+	//
+	USHORT  // Field=typeRequired
+	//
+	USHORT  // Field=progressiveNumber
+	//
+	USHORT  // Field=progressiveNumberReceived
+	//
+	USHORT  // Field=codeReceived
+	//
+	USHORT  // Field=n_sequence_error
+	//
+	USHORT  // Field=synch_phase
+	//
+	BEGINSTRUCT // Begin of structure=S_di
+		CHAR[12]  // Field=s_di_progressive.name
+		POINTER  // Field=s_di_progressive.ps_input
+	ENDSTRUCT // End of structure=S_di
+	//
+	BEGINSTRUCT // Begin of structure=S_di
+		CHAR[12]  // Field=s_di_code.name
+		POINTER  // Field=s_di_code.ps_input
+	ENDSTRUCT // End of structure=S_di
+	//
+	BEGINSTRUCT // Begin of structure=S_di
+	CHAR[12]  // Field=s_di_plc_reset_ack.name
+	POINTER  // Field=s_di_plc_reset_ack.ps_input
+	ENDSTRUCT // End of structure=S_di
+	//
+	BEGINSTRUCT // Begin of structure=S_do
+		CHAR[12]  // Field=s_do_out1.name
+		POINTER  // Field=s_do_out1.ps_output
+	ENDSTRUCT // End of structure=S_do
+  //
+	//
+	BEGINSTRUCT // Begin of structure=S_do
+		CHAR[12]  // Field=s_do_code_received.name
+		POINTER  // Field=s_do_code_received.ps_output
+	ENDSTRUCT // End of structure=S_do
+  //
+	BEGINSTRUCT // Begin of structure=S_do
+		CHAR[12]  // Field=s_do_plc_reset_req.name
+		POINTER  // Field=s_do_plc_reset_req.ps_output
+	ENDSTRUCT // End of structure=S_do
+  //  
+ENDSTRUCT // End of structure=S_locupstr
+//
+//
+ENDTABLE
+//

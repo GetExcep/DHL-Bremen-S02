@@ -1,0 +1,16 @@
+//
+// XML connection table
+//
+TableName="xml_conn"
+//
+Field="id",DB_INTEGER
+Field="name",DB_TEXT,12
+Field="enable",DB_BOOLEAN
+Field="SC Name",DB_TEXT,10
+Field="WCS Name",DB_TEXT,10
+Field="(c)Connection type",DB_LONG
+Field="HeartBeat timeout",DB_LONG
+//
+Index="id","+id",no,yes
+
+

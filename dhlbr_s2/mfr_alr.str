@@ -1,0 +1,23 @@
+//
+//S_mfr_alr
+//
+TABLE_TYPE: 0
+//
+MAXTABLE
+//
+TABLE
+//
+//
+BEGINSTRUCT // Begin of structure=S_mfr_alr
+  USHORT // Field=dev
+  USHORT // Field=dev_id
+  USHORT // Field=alr_id
+  ULONG // Field=msgnr
+  CHAR[20] // Field=AKZ_suffix
+  CHAR[20] // Field=MessageClass
+  CHAR[40] // Field=MessageToken
+ENDSTRUCT // End of structure=S_mfr_alr
+//
+//
+ENDTABLE
+//

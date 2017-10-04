@@ -1,0 +1,26 @@
+//
+// S_datapb
+//
+TableName="datapb"
+//
+Field="Id of the device associated",DB_INTEGER
+Field="Upstream (yes/no)",DB_BOOLEAN
+Field="Board number",DB_INTEGER
+Field="Module address (Node ID)",DB_INTEGER
+Field="SubModule position In",DB_INTEGER
+Field="SubModule position Out",DB_INTEGER
+Field="Length byte position",DB_INTEGER
+Field="Check byte position",DB_INTEGER
+Field="Code starting position",DB_INTEGER
+Field="Code length",DB_INTEGER
+Field="General purpose char 0",DB_INTEGER
+Field="General purpose char 1",DB_INTEGER
+Field="General purpose char 2",DB_INTEGER
+Field="General purpose char 3",DB_INTEGER
+Field="General purpose long 0",DB_LONG
+Field="General purpose long 1",DB_LONG
+Field="General purpose long 2",DB_LONG
+Field="General purpose long 3",DB_LONG
+Field="Data ready input",DB_TEXT,12
+//
+Index="Id of the device associated","+Id of the device associated;+Upstream (yes/no)",no,yes

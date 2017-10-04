@@ -1,0 +1,4 @@
+Scanner on the loop=1
+Scanner synchro on sorter=2
+Scanner on the induction=3
+Scale on the induction=4

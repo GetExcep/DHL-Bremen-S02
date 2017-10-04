@@ -1,0 +1,2585 @@
+Fields -> 7 
+Record -> 1 
+dev-> 3 
+dev_id-> 0 
+alr_id-> 1 
+msgnr-> 0 
+AKZ_suffix->-BG01
+MessageClass->
+MessageToken->
+Record -> 2 
+dev-> 4 
+dev_id-> 0 
+alr_id-> 9 
+msgnr-> 0 
+AKZ_suffix->-BG01
+MessageClass->
+MessageToken->
+Record -> 3 
+dev-> 10 
+dev_id-> 0 
+alr_id-> 1 
+msgnr-> 0 
+AKZ_suffix->-BG01
+MessageClass->
+MessageToken->
+Record -> 4 
+dev-> 13 
+dev_id-> 0 
+alr_id-> 1 
+msgnr-> 0 
+AKZ_suffix->-TB01
+MessageClass->
+MessageToken->
+Record -> 5 
+dev-> 13 
+dev_id-> 0 
+alr_id-> 2 
+msgnr-> 0 
+AKZ_suffix->-TB01
+MessageClass->
+MessageToken->
+Record -> 6 
+dev-> 13 
+dev_id-> 0 
+alr_id-> 3 
+msgnr-> 0 
+AKZ_suffix->-TB01
+MessageClass->
+MessageToken->
+Record -> 7 
+dev-> 13 
+dev_id-> 0 
+alr_id-> 4 
+msgnr-> 0 
+AKZ_suffix->-TB01
+MessageClass->
+MessageToken->
+Record -> 8 
+dev-> 13 
+dev_id-> 0 
+alr_id-> 100 
+msgnr-> 0 
+AKZ_suffix->-TB01
+MessageClass->
+MessageToken->
+Record -> 9 
+dev-> 13 
+dev_id-> 0 
+alr_id-> 101 
+msgnr-> 0 
+AKZ_suffix->-TB01
+MessageClass->
+MessageToken->
+Record -> 10 
+dev-> 13 
+dev_id-> 0 
+alr_id-> 102 
+msgnr-> 0 
+AKZ_suffix->-TB01
+MessageClass->
+MessageToken->
+Record -> 11 
+dev-> 13 
+dev_id-> 0 
+alr_id-> 103 
+msgnr-> 0 
+AKZ_suffix->-TB01
+MessageClass->
+MessageToken->
+Record -> 12 
+dev-> 13 
+dev_id-> 0 
+alr_id-> 104 
+msgnr-> 0 
+AKZ_suffix->-TB01
+MessageClass->
+MessageToken->
+Record -> 13 
+dev-> 13 
+dev_id-> 0 
+alr_id-> 105 
+msgnr-> 0 
+AKZ_suffix->-TB01
+MessageClass->
+MessageToken->
+Record -> 14 
+dev-> 13 
+dev_id-> 0 
+alr_id-> 106 
+msgnr-> 0 
+AKZ_suffix->-TB01
+MessageClass->
+MessageToken->
+Record -> 15 
+dev-> 13 
+dev_id-> 0 
+alr_id-> 107 
+msgnr-> 0 
+AKZ_suffix->-TB01
+MessageClass->
+MessageToken->
+Record -> 16 
+dev-> 13 
+dev_id-> 0 
+alr_id-> 108 
+msgnr-> 0 
+AKZ_suffix->-TB01
+MessageClass->
+MessageToken->
+Record -> 17 
+dev-> 13 
+dev_id-> 0 
+alr_id-> 109 
+msgnr-> 0 
+AKZ_suffix->-TB01
+MessageClass->
+MessageToken->
+Record -> 18 
+dev-> 13 
+dev_id-> 0 
+alr_id-> 110 
+msgnr-> 0 
+AKZ_suffix->-TB01
+MessageClass->
+MessageToken->
+Record -> 19 
+dev-> 13 
+dev_id-> 0 
+alr_id-> 111 
+msgnr-> 0 
+AKZ_suffix->-TB01
+MessageClass->
+MessageToken->
+Record -> 20 
+dev-> 13 
+dev_id-> 0 
+alr_id-> 112 
+msgnr-> 0 
+AKZ_suffix->-TB01
+MessageClass->
+MessageToken->
+Record -> 21 
+dev-> 13 
+dev_id-> 0 
+alr_id-> 113 
+msgnr-> 0 
+AKZ_suffix->-TB01
+MessageClass->
+MessageToken->
+Record -> 22 
+dev-> 13 
+dev_id-> 0 
+alr_id-> 114 
+msgnr-> 0 
+AKZ_suffix->-TB01
+MessageClass->
+MessageToken->
+Record -> 23 
+dev-> 13 
+dev_id-> 0 
+alr_id-> 115 
+msgnr-> 0 
+AKZ_suffix->-TB01
+MessageClass->
+MessageToken->
+Record -> 24 
+dev-> 13 
+dev_id-> 0 
+alr_id-> 116 
+msgnr-> 0 
+AKZ_suffix->-TB01
+MessageClass->
+MessageToken->
+Record -> 25 
+dev-> 13 
+dev_id-> 0 
+alr_id-> 117 
+msgnr-> 0 
+AKZ_suffix->-TB01
+MessageClass->
+MessageToken->
+Record -> 26 
+dev-> 13 
+dev_id-> 0 
+alr_id-> 118 
+msgnr-> 0 
+AKZ_suffix->-TB01
+MessageClass->
+MessageToken->
+Record -> 27 
+dev-> 13 
+dev_id-> 0 
+alr_id-> 119 
+msgnr-> 0 
+AKZ_suffix->-TB01
+MessageClass->
+MessageToken->
+Record -> 28 
+dev-> 13 
+dev_id-> 0 
+alr_id-> 120 
+msgnr-> 0 
+AKZ_suffix->-TB01
+MessageClass->
+MessageToken->
+Record -> 29 
+dev-> 13 
+dev_id-> 0 
+alr_id-> 121 
+msgnr-> 0 
+AKZ_suffix->-TB01
+MessageClass->
+MessageToken->
+Record -> 30 
+dev-> 13 
+dev_id-> 0 
+alr_id-> 122 
+msgnr-> 0 
+AKZ_suffix->-TB01
+MessageClass->
+MessageToken->
+Record -> 31 
+dev-> 13 
+dev_id-> 0 
+alr_id-> 123 
+msgnr-> 0 
+AKZ_suffix->-TB01
+MessageClass->
+MessageToken->
+Record -> 32 
+dev-> 13 
+dev_id-> 0 
+alr_id-> 124 
+msgnr-> 0 
+AKZ_suffix->-TB01
+MessageClass->
+MessageToken->
+Record -> 33 
+dev-> 13 
+dev_id-> 0 
+alr_id-> 125 
+msgnr-> 0 
+AKZ_suffix->-TB01
+MessageClass->
+MessageToken->
+Record -> 34 
+dev-> 13 
+dev_id-> 0 
+alr_id-> 126 
+msgnr-> 0 
+AKZ_suffix->-TB01
+MessageClass->
+MessageToken->
+Record -> 35 
+dev-> 13 
+dev_id-> 0 
+alr_id-> 127 
+msgnr-> 0 
+AKZ_suffix->-TB01
+MessageClass->
+MessageToken->
+Record -> 36 
+dev-> 13 
+dev_id-> 0 
+alr_id-> 128 
+msgnr-> 0 
+AKZ_suffix->-TB01
+MessageClass->
+MessageToken->
+Record -> 37 
+dev-> 13 
+dev_id-> 0 
+alr_id-> 129 
+msgnr-> 0 
+AKZ_suffix->-TB01
+MessageClass->
+MessageToken->
+Record -> 38 
+dev-> 13 
+dev_id-> 0 
+alr_id-> 130 
+msgnr-> 0 
+AKZ_suffix->-TB01
+MessageClass->
+MessageToken->
+Record -> 39 
+dev-> 13 
+dev_id-> 0 
+alr_id-> 131 
+msgnr-> 0 
+AKZ_suffix->-TB01
+MessageClass->
+MessageToken->
+Record -> 40 
+dev-> 13 
+dev_id-> 0 
+alr_id-> 132 
+msgnr-> 0 
+AKZ_suffix->-TB01
+MessageClass->
+MessageToken->
+Record -> 41 
+dev-> 13 
+dev_id-> 0 
+alr_id-> 133 
+msgnr-> 0 
+AKZ_suffix->-TB01
+MessageClass->
+MessageToken->
+Record -> 42 
+dev-> 13 
+dev_id-> 0 
+alr_id-> 134 
+msgnr-> 0 
+AKZ_suffix->-TB01
+MessageClass->
+MessageToken->
+Record -> 43 
+dev-> 13 
+dev_id-> 0 
+alr_id-> 135 
+msgnr-> 0 
+AKZ_suffix->-TB01
+MessageClass->
+MessageToken->
+Record -> 44 
+dev-> 13 
+dev_id-> 0 
+alr_id-> 136 
+msgnr-> 0 
+AKZ_suffix->-TB01
+MessageClass->
+MessageToken->
+Record -> 45 
+dev-> 13 
+dev_id-> 0 
+alr_id-> 137 
+msgnr-> 0 
+AKZ_suffix->-TB01
+MessageClass->
+MessageToken->
+Record -> 46 
+dev-> 13 
+dev_id-> 0 
+alr_id-> 138 
+msgnr-> 0 
+AKZ_suffix->-TB01
+MessageClass->
+MessageToken->
+Record -> 47 
+dev-> 13 
+dev_id-> 0 
+alr_id-> 139 
+msgnr-> 0 
+AKZ_suffix->-TB01
+MessageClass->
+MessageToken->
+Record -> 48 
+dev-> 13 
+dev_id-> 0 
+alr_id-> 140 
+msgnr-> 0 
+AKZ_suffix->-TB01
+MessageClass->
+MessageToken->
+Record -> 49 
+dev-> 13 
+dev_id-> 0 
+alr_id-> 141 
+msgnr-> 0 
+AKZ_suffix->-TB01
+MessageClass->
+MessageToken->
+Record -> 50 
+dev-> 13 
+dev_id-> 0 
+alr_id-> 142 
+msgnr-> 0 
+AKZ_suffix->-TB01
+MessageClass->
+MessageToken->
+Record -> 51 
+dev-> 13 
+dev_id-> 0 
+alr_id-> 143 
+msgnr-> 0 
+AKZ_suffix->-TB01
+MessageClass->
+MessageToken->
+Record -> 52 
+dev-> 13 
+dev_id-> 0 
+alr_id-> 144 
+msgnr-> 0 
+AKZ_suffix->-TB01
+MessageClass->
+MessageToken->
+Record -> 53 
+dev-> 13 
+dev_id-> 0 
+alr_id-> 145 
+msgnr-> 0 
+AKZ_suffix->-TB01
+MessageClass->
+MessageToken->
+Record -> 54 
+dev-> 13 
+dev_id-> 0 
+alr_id-> 146 
+msgnr-> 0 
+AKZ_suffix->-TB01
+MessageClass->
+MessageToken->
+Record -> 55 
+dev-> 13 
+dev_id-> 0 
+alr_id-> 147 
+msgnr-> 0 
+AKZ_suffix->-TB01
+MessageClass->
+MessageToken->
+Record -> 56 
+dev-> 13 
+dev_id-> 0 
+alr_id-> 148 
+msgnr-> 0 
+AKZ_suffix->-TB01
+MessageClass->
+MessageToken->
+Record -> 57 
+dev-> 13 
+dev_id-> 0 
+alr_id-> 177 
+msgnr-> 0 
+AKZ_suffix->-TB01
+MessageClass->
+MessageToken->
+Record -> 58 
+dev-> 13 
+dev_id-> 0 
+alr_id-> 178 
+msgnr-> 0 
+AKZ_suffix->-TB01
+MessageClass->
+MessageToken->
+Record -> 59 
+dev-> 13 
+dev_id-> 0 
+alr_id-> 179 
+msgnr-> 0 
+AKZ_suffix->-TB01
+MessageClass->
+MessageToken->
+Record -> 60 
+dev-> 13 
+dev_id-> 0 
+alr_id-> 180 
+msgnr-> 0 
+AKZ_suffix->-TB01
+MessageClass->
+MessageToken->
+Record -> 61 
+dev-> 13 
+dev_id-> 0 
+alr_id-> 181 
+msgnr-> 0 
+AKZ_suffix->-TB01
+MessageClass->
+MessageToken->
+Record -> 62 
+dev-> 13 
+dev_id-> 0 
+alr_id-> 182 
+msgnr-> 0 
+AKZ_suffix->-TB01
+MessageClass->
+MessageToken->
+Record -> 63 
+dev-> 13 
+dev_id-> 0 
+alr_id-> 184 
+msgnr-> 0 
+AKZ_suffix->-TB01
+MessageClass->
+MessageToken->
+Record -> 64 
+dev-> 13 
+dev_id-> 0 
+alr_id-> 186 
+msgnr-> 0 
+AKZ_suffix->-TB01
+MessageClass->
+MessageToken->
+Record -> 65 
+dev-> 13 
+dev_id-> 0 
+alr_id-> 187 
+msgnr-> 0 
+AKZ_suffix->-TB01
+MessageClass->
+MessageToken->
+Record -> 66 
+dev-> 13 
+dev_id-> 0 
+alr_id-> 188 
+msgnr-> 0 
+AKZ_suffix->-TB01
+MessageClass->
+MessageToken->
+Record -> 67 
+dev-> 13 
+dev_id-> 0 
+alr_id-> 192 
+msgnr-> 0 
+AKZ_suffix->-TB01
+MessageClass->
+MessageToken->
+Record -> 68 
+dev-> 13 
+dev_id-> 0 
+alr_id-> 193 
+msgnr-> 0 
+AKZ_suffix->-TB01
+MessageClass->
+MessageToken->
+Record -> 69 
+dev-> 13 
+dev_id-> 0 
+alr_id-> 194 
+msgnr-> 0 
+AKZ_suffix->-TB01
+MessageClass->
+MessageToken->
+Record -> 70 
+dev-> 13 
+dev_id-> 0 
+alr_id-> 195 
+msgnr-> 0 
+AKZ_suffix->-TB01
+MessageClass->
+MessageToken->
+Record -> 71 
+dev-> 13 
+dev_id-> 0 
+alr_id-> 196 
+msgnr-> 0 
+AKZ_suffix->-TB01
+MessageClass->
+MessageToken->
+Record -> 72 
+dev-> 13 
+dev_id-> 0 
+alr_id-> 197 
+msgnr-> 0 
+AKZ_suffix->-TB01
+MessageClass->
+MessageToken->
+Record -> 73 
+dev-> 13 
+dev_id-> 0 
+alr_id-> 198 
+msgnr-> 0 
+AKZ_suffix->-TB01
+MessageClass->
+MessageToken->
+Record -> 74 
+dev-> 13 
+dev_id-> 0 
+alr_id-> 199 
+msgnr-> 0 
+AKZ_suffix->-TB01
+MessageClass->
+MessageToken->
+Record -> 75 
+dev-> 13 
+dev_id-> 0 
+alr_id-> 200 
+msgnr-> 0 
+AKZ_suffix->-TB01
+MessageClass->
+MessageToken->
+Record -> 76 
+dev-> 13 
+dev_id-> 0 
+alr_id-> 201 
+msgnr-> 0 
+AKZ_suffix->-TB01
+MessageClass->
+MessageToken->
+Record -> 77 
+dev-> 13 
+dev_id-> 0 
+alr_id-> 202 
+msgnr-> 0 
+AKZ_suffix->-TB01
+MessageClass->
+MessageToken->
+Record -> 78 
+dev-> 13 
+dev_id-> 0 
+alr_id-> 203 
+msgnr-> 0 
+AKZ_suffix->-TB01
+MessageClass->
+MessageToken->
+Record -> 79 
+dev-> 13 
+dev_id-> 0 
+alr_id-> 204 
+msgnr-> 0 
+AKZ_suffix->-TB01
+MessageClass->
+MessageToken->
+Record -> 80 
+dev-> 13 
+dev_id-> 0 
+alr_id-> 205 
+msgnr-> 0 
+AKZ_suffix->-TB01
+MessageClass->
+MessageToken->
+Record -> 81 
+dev-> 13 
+dev_id-> 0 
+alr_id-> 206 
+msgnr-> 0 
+AKZ_suffix->-TB01
+MessageClass->
+MessageToken->
+Record -> 82 
+dev-> 14 
+dev_id-> 0 
+alr_id-> 2 
+msgnr-> 0 
+AKZ_suffix->-SD01
+MessageClass->
+MessageToken->
+Record -> 83 
+dev-> 22 
+dev_id-> 0 
+alr_id-> 1 
+msgnr-> 0 
+AKZ_suffix->-BG03
+MessageClass->
+MessageToken->
+Record -> 84 
+dev-> 22 
+dev_id-> 0 
+alr_id-> 2 
+msgnr-> 0 
+AKZ_suffix->-BG02
+MessageClass->
+MessageToken->
+Record -> 85 
+dev-> 22 
+dev_id-> 0 
+alr_id-> 3 
+msgnr-> 0 
+AKZ_suffix->-BG03
+MessageClass->
+MessageToken->
+Record -> 86 
+dev-> 22 
+dev_id-> 0 
+alr_id-> 4 
+msgnr-> 0 
+AKZ_suffix->-BG02
+MessageClass->
+MessageToken->
+Record -> 87 
+dev-> 51 
+dev_id-> 0 
+alr_id-> 4 
+msgnr-> 0 
+AKZ_suffix->-SF01
+MessageClass->
+MessageToken->
+Record -> 88 
+dev-> 60 
+dev_id-> 0 
+alr_id-> 1 
+msgnr-> 0 
+AKZ_suffix->-MA01
+MessageClass->
+MessageToken->
+Record -> 89 
+dev-> 501 
+dev_id-> 0 
+alr_id-> 1 
+msgnr-> 0 
+AKZ_suffix->-KF06
+MessageClass->
+MessageToken->
+Record -> 90 
+dev-> 501 
+dev_id-> 0 
+alr_id-> 2 
+msgnr-> 0 
+AKZ_suffix->-BT03
+MessageClass->
+MessageToken->
+Record -> 91 
+dev-> 501 
+dev_id-> 0 
+alr_id-> 3 
+msgnr-> 0 
+AKZ_suffix->-BT04
+MessageClass->
+MessageToken->
+Record -> 92 
+dev-> 501 
+dev_id-> 0 
+alr_id-> 4 
+msgnr-> 0 
+AKZ_suffix->-KF08
+MessageClass->
+MessageToken->
+Record -> 93 
+dev-> 501 
+dev_id-> 0 
+alr_id-> 5 
+msgnr-> 0 
+AKZ_suffix->-QB60
+MessageClass->
+MessageToken->
+Record -> 94 
+dev-> 501 
+dev_id-> 0 
+alr_id-> 6 
+msgnr-> 0 
+AKZ_suffix->-QB61
+MessageClass->
+MessageToken->
+Record -> 95 
+dev-> 501 
+dev_id-> 0 
+alr_id-> 7 
+msgnr-> 0 
+AKZ_suffix->-QB62
+MessageClass->
+MessageToken->
+Record -> 96 
+dev-> 501 
+dev_id-> 0 
+alr_id-> 8 
+msgnr-> 0 
+AKZ_suffix->-QB66
+MessageClass->
+MessageToken->
+Record -> 97 
+dev-> 501 
+dev_id-> 0 
+alr_id-> 9 
+msgnr-> 0 
+AKZ_suffix->-QB77
+MessageClass->
+MessageToken->
+Record -> 98 
+dev-> 501 
+dev_id-> 0 
+alr_id-> 10 
+msgnr-> 0 
+AKZ_suffix->-QB72
+MessageClass->
+MessageToken->
+Record -> 99 
+dev-> 501 
+dev_id-> 0 
+alr_id-> 11 
+msgnr-> 0 
+AKZ_suffix->-QB76
+MessageClass->
+MessageToken->
+Record -> 100 
+dev-> 501 
+dev_id-> 0 
+alr_id-> 12 
+msgnr-> 0 
+AKZ_suffix->-QB68
+MessageClass->
+MessageToken->
+Record -> 101 
+dev-> 501 
+dev_id-> 0 
+alr_id-> 13 
+msgnr-> 0 
+AKZ_suffix->-QB73
+MessageClass->
+MessageToken->
+Record -> 102 
+dev-> 501 
+dev_id-> 0 
+alr_id-> 14 
+msgnr-> 0 
+AKZ_suffix->-QB78
+MessageClass->
+MessageToken->
+Record -> 103 
+dev-> 501 
+dev_id-> 0 
+alr_id-> 15 
+msgnr-> 0 
+AKZ_suffix->-QB79
+MessageClass->
+MessageToken->
+Record -> 104 
+dev-> 501 
+dev_id-> 0 
+alr_id-> 17 
+msgnr-> 0 
+AKZ_suffix->-QB17
+MessageClass->
+MessageToken->
+Record -> 105 
+dev-> 501 
+dev_id-> 0 
+alr_id-> 18 
+msgnr-> 0 
+AKZ_suffix->-QB18
+MessageClass->
+MessageToken->
+Record -> 106 
+dev-> 501 
+dev_id-> 0 
+alr_id-> 19 
+msgnr-> 0 
+AKZ_suffix->-QB19
+MessageClass->
+MessageToken->
+Record -> 107 
+dev-> 501 
+dev_id-> 0 
+alr_id-> 20 
+msgnr-> 0 
+AKZ_suffix->-QB20
+MessageClass->
+MessageToken->
+Record -> 108 
+dev-> 501 
+dev_id-> 0 
+alr_id-> 21 
+msgnr-> 0 
+AKZ_suffix->-QB21
+MessageClass->
+MessageToken->
+Record -> 109 
+dev-> 501 
+dev_id-> 0 
+alr_id-> 22 
+msgnr-> 0 
+AKZ_suffix->-QB22
+MessageClass->
+MessageToken->
+Record -> 110 
+dev-> 501 
+dev_id-> 0 
+alr_id-> 23 
+msgnr-> 0 
+AKZ_suffix->-QB23
+MessageClass->
+MessageToken->
+Record -> 111 
+dev-> 501 
+dev_id-> 0 
+alr_id-> 24 
+msgnr-> 0 
+AKZ_suffix->-QB24
+MessageClass->
+MessageToken->
+Record -> 112 
+dev-> 501 
+dev_id-> 0 
+alr_id-> 25 
+msgnr-> 0 
+AKZ_suffix->-QB25
+MessageClass->
+MessageToken->
+Record -> 113 
+dev-> 501 
+dev_id-> 0 
+alr_id-> 26 
+msgnr-> 0 
+AKZ_suffix->-QB26
+MessageClass->
+MessageToken->
+Record -> 114 
+dev-> 501 
+dev_id-> 0 
+alr_id-> 27 
+msgnr-> 0 
+AKZ_suffix->-QB27
+MessageClass->
+MessageToken->
+Record -> 115 
+dev-> 501 
+dev_id-> 0 
+alr_id-> 28 
+msgnr-> 0 
+AKZ_suffix->-QB28
+MessageClass->
+MessageToken->
+Record -> 116 
+dev-> 501 
+dev_id-> 0 
+alr_id-> 29 
+msgnr-> 0 
+AKZ_suffix->-QB29
+MessageClass->
+MessageToken->
+Record -> 117 
+dev-> 501 
+dev_id-> 0 
+alr_id-> 30 
+msgnr-> 0 
+AKZ_suffix->-QB30
+MessageClass->
+MessageToken->
+Record -> 118 
+dev-> 501 
+dev_id-> 0 
+alr_id-> 31 
+msgnr-> 0 
+AKZ_suffix->-QB31
+MessageClass->
+MessageToken->
+Record -> 119 
+dev-> 501 
+dev_id-> 0 
+alr_id-> 32 
+msgnr-> 0 
+AKZ_suffix->-QB32
+MessageClass->
+MessageToken->
+Record -> 120 
+dev-> 501 
+dev_id-> 0 
+alr_id-> 33 
+msgnr-> 0 
+AKZ_suffix->-QB33
+MessageClass->
+MessageToken->
+Record -> 121 
+dev-> 501 
+dev_id-> 0 
+alr_id-> 34 
+msgnr-> 0 
+AKZ_suffix->-QB34
+MessageClass->
+MessageToken->
+Record -> 122 
+dev-> 501 
+dev_id-> 0 
+alr_id-> 35 
+msgnr-> 0 
+AKZ_suffix->-QB35
+MessageClass->
+MessageToken->
+Record -> 123 
+dev-> 501 
+dev_id-> 0 
+alr_id-> 36 
+msgnr-> 0 
+AKZ_suffix->-QB36
+MessageClass->
+MessageToken->
+Record -> 124 
+dev-> 501 
+dev_id-> 0 
+alr_id-> 37 
+msgnr-> 0 
+AKZ_suffix->-QB37
+MessageClass->
+MessageToken->
+Record -> 125 
+dev-> 501 
+dev_id-> 0 
+alr_id-> 38 
+msgnr-> 0 
+AKZ_suffix->-QB38
+MessageClass->
+MessageToken->
+Record -> 126 
+dev-> 501 
+dev_id-> 0 
+alr_id-> 39 
+msgnr-> 0 
+AKZ_suffix->-QB39
+MessageClass->
+MessageToken->
+Record -> 127 
+dev-> 501 
+dev_id-> 0 
+alr_id-> 40 
+msgnr-> 0 
+AKZ_suffix->-QB40
+MessageClass->
+MessageToken->
+Record -> 128 
+dev-> 501 
+dev_id-> 0 
+alr_id-> 41 
+msgnr-> 0 
+AKZ_suffix->-QB41
+MessageClass->
+MessageToken->
+Record -> 129 
+dev-> 501 
+dev_id-> 0 
+alr_id-> 42 
+msgnr-> 0 
+AKZ_suffix->-QB42
+MessageClass->
+MessageToken->
+Record -> 130 
+dev-> 501 
+dev_id-> 0 
+alr_id-> 43 
+msgnr-> 0 
+AKZ_suffix->-QB43
+MessageClass->
+MessageToken->
+Record -> 131 
+dev-> 501 
+dev_id-> 0 
+alr_id-> 44 
+msgnr-> 0 
+AKZ_suffix->-QB44
+MessageClass->
+MessageToken->
+Record -> 132 
+dev-> 501 
+dev_id-> 0 
+alr_id-> 45 
+msgnr-> 0 
+AKZ_suffix->-QB45
+MessageClass->
+MessageToken->
+Record -> 133 
+dev-> 501 
+dev_id-> 0 
+alr_id-> 49 
+msgnr-> 0 
+AKZ_suffix->-QB67
+MessageClass->
+MessageToken->
+Record -> 134 
+dev-> 501 
+dev_id-> 0 
+alr_id-> 50 
+msgnr-> 0 
+AKZ_suffix->-QB15
+MessageClass->
+MessageToken->
+Record -> 135 
+dev-> 501 
+dev_id-> 0 
+alr_id-> 51 
+msgnr-> 0 
+AKZ_suffix->-QB65
+MessageClass->
+MessageToken->
+Record -> 136 
+dev-> 501 
+dev_id-> 0 
+alr_id-> 52 
+msgnr-> 0 
+AKZ_suffix->-QB71
+MessageClass->
+MessageToken->
+Record -> 137 
+dev-> 501 
+dev_id-> 0 
+alr_id-> 57 
+msgnr-> 0 
+AKZ_suffix->-QB86
+MessageClass->
+MessageToken->
+Record -> 138 
+dev-> 501 
+dev_id-> 0 
+alr_id-> 58 
+msgnr-> 0 
+AKZ_suffix->-QB63
+MessageClass->
+MessageToken->
+Record -> 139 
+dev-> 501 
+dev_id-> 0 
+alr_id-> 59 
+msgnr-> 0 
+AKZ_suffix->-QB64
+MessageClass->
+MessageToken->
+Record -> 140 
+dev-> 501 
+dev_id-> 0 
+alr_id-> 60 
+msgnr-> 0 
+AKZ_suffix->-QB69
+MessageClass->
+MessageToken->
+Record -> 141 
+dev-> 501 
+dev_id-> 0 
+alr_id-> 61 
+msgnr-> 0 
+AKZ_suffix->-QB70
+MessageClass->
+MessageToken->
+Record -> 142 
+dev-> 501 
+dev_id-> 0 
+alr_id-> 62 
+msgnr-> 0 
+AKZ_suffix->-QB74
+MessageClass->
+MessageToken->
+Record -> 143 
+dev-> 501 
+dev_id-> 0 
+alr_id-> 63 
+msgnr-> 0 
+AKZ_suffix->-QB75
+MessageClass->
+MessageToken->
+Record -> 144 
+dev-> 501 
+dev_id-> 0 
+alr_id-> 65 
+msgnr-> 0 
+AKZ_suffix->-QB81
+MessageClass->
+MessageToken->
+Record -> 145 
+dev-> 501 
+dev_id-> 0 
+alr_id-> 66 
+msgnr-> 0 
+AKZ_suffix->-QB16
+MessageClass->
+MessageToken->
+Record -> 146 
+dev-> 501 
+dev_id-> 0 
+alr_id-> 67 
+msgnr-> 0 
+AKZ_suffix->-QB83
+MessageClass->
+MessageToken->
+Record -> 147 
+dev-> 501 
+dev_id-> 0 
+alr_id-> 68 
+msgnr-> 0 
+AKZ_suffix->-QB84
+MessageClass->
+MessageToken->
+Record -> 148 
+dev-> 501 
+dev_id-> 0 
+alr_id-> 69 
+msgnr-> 0 
+AKZ_suffix->-QB85
+MessageClass->
+MessageToken->
+Record -> 149 
+dev-> 501 
+dev_id-> 0 
+alr_id-> 70 
+msgnr-> 0 
+AKZ_suffix->-QB87
+MessageClass->
+MessageToken->
+Record -> 150 
+dev-> 501 
+dev_id-> 0 
+alr_id-> 74 
+msgnr-> 0 
+AKZ_suffix->-QB78
+MessageClass->
+MessageToken->
+Record -> 151 
+dev-> 502 
+dev_id-> 0 
+alr_id-> 1 
+msgnr-> 0 
+AKZ_suffix->-KF06
+MessageClass->
+MessageToken->
+Record -> 152 
+dev-> 502 
+dev_id-> 0 
+alr_id-> 2 
+msgnr-> 0 
+AKZ_suffix->-BT03
+MessageClass->
+MessageToken->
+Record -> 153 
+dev-> 502 
+dev_id-> 0 
+alr_id-> 9 
+msgnr-> 0 
+AKZ_suffix->-QB34
+MessageClass->
+MessageToken->
+Record -> 154 
+dev-> 502 
+dev_id-> 0 
+alr_id-> 10 
+msgnr-> 0 
+AKZ_suffix->-QB35
+MessageClass->
+MessageToken->
+Record -> 155 
+dev-> 502 
+dev_id-> 0 
+alr_id-> 11 
+msgnr-> 0 
+AKZ_suffix->-QB36
+MessageClass->
+MessageToken->
+Record -> 156 
+dev-> 502 
+dev_id-> 0 
+alr_id-> 12 
+msgnr-> 0 
+AKZ_suffix->-QB39
+MessageClass->
+MessageToken->
+Record -> 157 
+dev-> 502 
+dev_id-> 0 
+alr_id-> 13 
+msgnr-> 0 
+AKZ_suffix->-QB48
+MessageClass->
+MessageToken->
+Record -> 158 
+dev-> 502 
+dev_id-> 0 
+alr_id-> 14 
+msgnr-> 0 
+AKZ_suffix->-QB49
+MessageClass->
+MessageToken->
+Record -> 159 
+dev-> 502 
+dev_id-> 0 
+alr_id-> 17 
+msgnr-> 0 
+AKZ_suffix->-QB40
+MessageClass->
+MessageToken->
+Record -> 160 
+dev-> 502 
+dev_id-> 0 
+alr_id-> 18 
+msgnr-> 0 
+AKZ_suffix->-QB41
+MessageClass->
+MessageToken->
+Record -> 161 
+dev-> 502 
+dev_id-> 0 
+alr_id-> 19 
+msgnr-> 0 
+AKZ_suffix->-QB44
+MessageClass->
+MessageToken->
+Record -> 162 
+dev-> 502 
+dev_id-> 0 
+alr_id-> 20 
+msgnr-> 0 
+AKZ_suffix->-QB45
+MessageClass->
+MessageToken->
+Record -> 163 
+dev-> 502 
+dev_id-> 0 
+alr_id-> 21 
+msgnr-> 0 
+AKZ_suffix->-QB50
+MessageClass->
+MessageToken->
+Record -> 164 
+dev-> 502 
+dev_id-> 0 
+alr_id-> 22 
+msgnr-> 0 
+AKZ_suffix->-QB51
+MessageClass->
+MessageToken->
+Record -> 165 
+dev-> 502 
+dev_id-> 0 
+alr_id-> 25 
+msgnr-> 0 
+AKZ_suffix->-QB04
+MessageClass->
+MessageToken->
+Record -> 166 
+dev-> 502 
+dev_id-> 0 
+alr_id-> 26 
+msgnr-> 0 
+AKZ_suffix->-QB05
+MessageClass->
+MessageToken->
+Record -> 167 
+dev-> 502 
+dev_id-> 0 
+alr_id-> 27 
+msgnr-> 0 
+AKZ_suffix->-QB06
+MessageClass->
+MessageToken->
+Record -> 168 
+dev-> 502 
+dev_id-> 0 
+alr_id-> 28 
+msgnr-> 0 
+AKZ_suffix->-QB07
+MessageClass->
+MessageToken->
+Record -> 169 
+dev-> 502 
+dev_id-> 0 
+alr_id-> 29 
+msgnr-> 0 
+AKZ_suffix->-QB08
+MessageClass->
+MessageToken->
+Record -> 170 
+dev-> 502 
+dev_id-> 0 
+alr_id-> 30 
+msgnr-> 0 
+AKZ_suffix->-QB09
+MessageClass->
+MessageToken->
+Record -> 171 
+dev-> 502 
+dev_id-> 0 
+alr_id-> 31 
+msgnr-> 0 
+AKZ_suffix->-QB10
+MessageClass->
+MessageToken->
+Record -> 172 
+dev-> 502 
+dev_id-> 0 
+alr_id-> 32 
+msgnr-> 0 
+AKZ_suffix->-QB11
+MessageClass->
+MessageToken->
+Record -> 173 
+dev-> 502 
+dev_id-> 0 
+alr_id-> 33 
+msgnr-> 0 
+AKZ_suffix->-QB12
+MessageClass->
+MessageToken->
+Record -> 174 
+dev-> 502 
+dev_id-> 0 
+alr_id-> 41 
+msgnr-> 0 
+AKZ_suffix->-QB18
+MessageClass->
+MessageToken->
+Record -> 175 
+dev-> 502 
+dev_id-> 0 
+alr_id-> 42 
+msgnr-> 0 
+AKZ_suffix->-QB19
+MessageClass->
+MessageToken->
+Record -> 176 
+dev-> 502 
+dev_id-> 0 
+alr_id-> 43 
+msgnr-> 0 
+AKZ_suffix->-QB01
+MessageClass->
+MessageToken->
+Record -> 177 
+dev-> 502 
+dev_id-> 0 
+alr_id-> 44 
+msgnr-> 0 
+AKZ_suffix->-QB02
+MessageClass->
+MessageToken->
+Record -> 178 
+dev-> 502 
+dev_id-> 0 
+alr_id-> 45 
+msgnr-> 0 
+AKZ_suffix->-QB03
+MessageClass->
+MessageToken->
+Record -> 179 
+dev-> 502 
+dev_id-> 0 
+alr_id-> 46 
+msgnr-> 0 
+AKZ_suffix->-QB54
+MessageClass->
+MessageToken->
+Record -> 180 
+dev-> 502 
+dev_id-> 0 
+alr_id-> 47 
+msgnr-> 0 
+AKZ_suffix->-QB55
+MessageClass->
+MessageToken->
+Record -> 181 
+dev-> 502 
+dev_id-> 0 
+alr_id-> 48 
+msgnr-> 0 
+AKZ_suffix->-QB56
+MessageClass->
+MessageToken->
+Record -> 182 
+dev-> 502 
+dev_id-> 0 
+alr_id-> 49 
+msgnr-> 0 
+AKZ_suffix->-QB37
+MessageClass->
+MessageToken->
+Record -> 183 
+dev-> 502 
+dev_id-> 0 
+alr_id-> 50 
+msgnr-> 0 
+AKZ_suffix->-QB38
+MessageClass->
+MessageToken->
+Record -> 184 
+dev-> 502 
+dev_id-> 0 
+alr_id-> 51 
+msgnr-> 0 
+AKZ_suffix->-QB42
+MessageClass->
+MessageToken->
+Record -> 185 
+dev-> 502 
+dev_id-> 0 
+alr_id-> 52 
+msgnr-> 0 
+AKZ_suffix->-QB43
+MessageClass->
+MessageToken->
+Record -> 186 
+dev-> 502 
+dev_id-> 0 
+alr_id-> 53 
+msgnr-> 0 
+AKZ_suffix->-QB46
+MessageClass->
+MessageToken->
+Record -> 187 
+dev-> 502 
+dev_id-> 0 
+alr_id-> 54 
+msgnr-> 0 
+AKZ_suffix->-QB47
+MessageClass->
+MessageToken->
+Record -> 188 
+dev-> 503 
+dev_id-> 0 
+alr_id-> 1 
+msgnr-> 0 
+AKZ_suffix->-KF06
+MessageClass->
+MessageToken->
+Record -> 189 
+dev-> 503 
+dev_id-> 0 
+alr_id-> 2 
+msgnr-> 0 
+AKZ_suffix->-BT03
+MessageClass->
+MessageToken->
+Record -> 190 
+dev-> 503 
+dev_id-> 0 
+alr_id-> 9 
+msgnr-> 0 
+AKZ_suffix->-QB34
+MessageClass->
+MessageToken->
+Record -> 191 
+dev-> 503 
+dev_id-> 0 
+alr_id-> 10 
+msgnr-> 0 
+AKZ_suffix->-QB35
+MessageClass->
+MessageToken->
+Record -> 192 
+dev-> 503 
+dev_id-> 0 
+alr_id-> 11 
+msgnr-> 0 
+AKZ_suffix->-QB36
+MessageClass->
+MessageToken->
+Record -> 193 
+dev-> 503 
+dev_id-> 0 
+alr_id-> 12 
+msgnr-> 0 
+AKZ_suffix->-QB39
+MessageClass->
+MessageToken->
+Record -> 194 
+dev-> 503 
+dev_id-> 0 
+alr_id-> 13 
+msgnr-> 0 
+AKZ_suffix->-QB48
+MessageClass->
+MessageToken->
+Record -> 195 
+dev-> 503 
+dev_id-> 0 
+alr_id-> 14 
+msgnr-> 0 
+AKZ_suffix->-QB49
+MessageClass->
+MessageToken->
+Record -> 196 
+dev-> 503 
+dev_id-> 0 
+alr_id-> 17 
+msgnr-> 0 
+AKZ_suffix->-QB40
+MessageClass->
+MessageToken->
+Record -> 197 
+dev-> 503 
+dev_id-> 0 
+alr_id-> 18 
+msgnr-> 0 
+AKZ_suffix->-QB41
+MessageClass->
+MessageToken->
+Record -> 198 
+dev-> 503 
+dev_id-> 0 
+alr_id-> 19 
+msgnr-> 0 
+AKZ_suffix->-QB44
+MessageClass->
+MessageToken->
+Record -> 199 
+dev-> 503 
+dev_id-> 0 
+alr_id-> 20 
+msgnr-> 0 
+AKZ_suffix->-QB45
+MessageClass->
+MessageToken->
+Record -> 200 
+dev-> 503 
+dev_id-> 0 
+alr_id-> 21 
+msgnr-> 0 
+AKZ_suffix->-QB50
+MessageClass->
+MessageToken->
+Record -> 201 
+dev-> 503 
+dev_id-> 0 
+alr_id-> 22 
+msgnr-> 0 
+AKZ_suffix->-QB51
+MessageClass->
+MessageToken->
+Record -> 202 
+dev-> 503 
+dev_id-> 0 
+alr_id-> 25 
+msgnr-> 0 
+AKZ_suffix->-QB04
+MessageClass->
+MessageToken->
+Record -> 203 
+dev-> 503 
+dev_id-> 0 
+alr_id-> 26 
+msgnr-> 0 
+AKZ_suffix->-QB05
+MessageClass->
+MessageToken->
+Record -> 204 
+dev-> 503 
+dev_id-> 0 
+alr_id-> 27 
+msgnr-> 0 
+AKZ_suffix->-QB06
+MessageClass->
+MessageToken->
+Record -> 205 
+dev-> 503 
+dev_id-> 0 
+alr_id-> 28 
+msgnr-> 0 
+AKZ_suffix->-QB07
+MessageClass->
+MessageToken->
+Record -> 206 
+dev-> 503 
+dev_id-> 0 
+alr_id-> 29 
+msgnr-> 0 
+AKZ_suffix->-QB08
+MessageClass->
+MessageToken->
+Record -> 207 
+dev-> 503 
+dev_id-> 0 
+alr_id-> 30 
+msgnr-> 0 
+AKZ_suffix->-QB09
+MessageClass->
+MessageToken->
+Record -> 208 
+dev-> 503 
+dev_id-> 0 
+alr_id-> 31 
+msgnr-> 0 
+AKZ_suffix->-QB10
+MessageClass->
+MessageToken->
+Record -> 209 
+dev-> 503 
+dev_id-> 0 
+alr_id-> 32 
+msgnr-> 0 
+AKZ_suffix->-QB11
+MessageClass->
+MessageToken->
+Record -> 210 
+dev-> 503 
+dev_id-> 0 
+alr_id-> 33 
+msgnr-> 0 
+AKZ_suffix->-QB12
+MessageClass->
+MessageToken->
+Record -> 211 
+dev-> 503 
+dev_id-> 0 
+alr_id-> 41 
+msgnr-> 0 
+AKZ_suffix->-QB18
+MessageClass->
+MessageToken->
+Record -> 212 
+dev-> 503 
+dev_id-> 0 
+alr_id-> 42 
+msgnr-> 0 
+AKZ_suffix->-QB19
+MessageClass->
+MessageToken->
+Record -> 213 
+dev-> 503 
+dev_id-> 0 
+alr_id-> 43 
+msgnr-> 0 
+AKZ_suffix->-QB01
+MessageClass->
+MessageToken->
+Record -> 214 
+dev-> 503 
+dev_id-> 0 
+alr_id-> 44 
+msgnr-> 0 
+AKZ_suffix->-QB02
+MessageClass->
+MessageToken->
+Record -> 215 
+dev-> 503 
+dev_id-> 0 
+alr_id-> 45 
+msgnr-> 0 
+AKZ_suffix->-QB03
+MessageClass->
+MessageToken->
+Record -> 216 
+dev-> 503 
+dev_id-> 0 
+alr_id-> 46 
+msgnr-> 0 
+AKZ_suffix->-QB54
+MessageClass->
+MessageToken->
+Record -> 217 
+dev-> 503 
+dev_id-> 0 
+alr_id-> 47 
+msgnr-> 0 
+AKZ_suffix->-QB55
+MessageClass->
+MessageToken->
+Record -> 218 
+dev-> 503 
+dev_id-> 0 
+alr_id-> 48 
+msgnr-> 0 
+AKZ_suffix->-QB56
+MessageClass->
+MessageToken->
+Record -> 219 
+dev-> 503 
+dev_id-> 0 
+alr_id-> 49 
+msgnr-> 0 
+AKZ_suffix->-QB37
+MessageClass->
+MessageToken->
+Record -> 220 
+dev-> 503 
+dev_id-> 0 
+alr_id-> 50 
+msgnr-> 0 
+AKZ_suffix->-QB38
+MessageClass->
+MessageToken->
+Record -> 221 
+dev-> 503 
+dev_id-> 0 
+alr_id-> 51 
+msgnr-> 0 
+AKZ_suffix->-QB42
+MessageClass->
+MessageToken->
+Record -> 222 
+dev-> 503 
+dev_id-> 0 
+alr_id-> 52 
+msgnr-> 0 
+AKZ_suffix->-QB46
+MessageClass->
+MessageToken->
+Record -> 223 
+dev-> 503 
+dev_id-> 0 
+alr_id-> 53 
+msgnr-> 0 
+AKZ_suffix->-QB43
+MessageClass->
+MessageToken->
+Record -> 224 
+dev-> 503 
+dev_id-> 0 
+alr_id-> 54 
+msgnr-> 0 
+AKZ_suffix->-QB47
+MessageClass->
+MessageToken->
+Record -> 225 
+dev-> 510 
+dev_id-> 0 
+alr_id-> 1 
+msgnr-> 0 
+AKZ_suffix->-QB01
+MessageClass->
+MessageToken->
+Record -> 226 
+dev-> 510 
+dev_id-> 0 
+alr_id-> 2 
+msgnr-> 0 
+AKZ_suffix->-QB02
+MessageClass->
+MessageToken->
+Record -> 227 
+dev-> 510 
+dev_id-> 0 
+alr_id-> 3 
+msgnr-> 0 
+AKZ_suffix->-QB03
+MessageClass->
+MessageToken->
+Record -> 228 
+dev-> 510 
+dev_id-> 0 
+alr_id-> 4 
+msgnr-> 0 
+AKZ_suffix->-QB05
+MessageClass->
+MessageToken->
+Record -> 229 
+dev-> 510 
+dev_id-> 0 
+alr_id-> 5 
+msgnr-> 0 
+AKZ_suffix->-QB08
+MessageClass->
+MessageToken->
+Record -> 230 
+dev-> 510 
+dev_id-> 0 
+alr_id-> 6 
+msgnr-> 0 
+AKZ_suffix->-QB09
+MessageClass->
+MessageToken->
+Record -> 231 
+dev-> 510 
+dev_id-> 0 
+alr_id-> 7 
+msgnr-> 0 
+AKZ_suffix->-QB11
+MessageClass->
+MessageToken->
+Record -> 232 
+dev-> 510 
+dev_id-> 0 
+alr_id-> 8 
+msgnr-> 0 
+AKZ_suffix->-QB10
+MessageClass->
+MessageToken->
+Record -> 233 
+dev-> 511 
+dev_id-> 0 
+alr_id-> 1 
+msgnr-> 0 
+AKZ_suffix->-QB01+SS01
+MessageClass->
+MessageToken->
+Record -> 234 
+dev-> 511 
+dev_id-> 0 
+alr_id-> 2 
+msgnr-> 0 
+AKZ_suffix->-QB04+SS01
+MessageClass->
+MessageToken->
+Record -> 235 
+dev-> 511 
+dev_id-> 0 
+alr_id-> 3 
+msgnr-> 0 
+AKZ_suffix->-QB05+SS01
+MessageClass->
+MessageToken->
+Record -> 236 
+dev-> 512 
+dev_id-> 0 
+alr_id-> 1 
+msgnr-> 0 
+AKZ_suffix->-TA01
+MessageClass->
+MessageToken->
+Record -> 237 
+dev-> 512 
+dev_id-> 0 
+alr_id-> 2 
+msgnr-> 0 
+AKZ_suffix->-QB02
+MessageClass->
+MessageToken->
+Record -> 238 
+dev-> 512 
+dev_id-> 0 
+alr_id-> 3 
+msgnr-> 0 
+AKZ_suffix->-QB03
+MessageClass->
+MessageToken->
+Record -> 239 
+dev-> 512 
+dev_id-> 0 
+alr_id-> 4 
+msgnr-> 0 
+AKZ_suffix->-QB01
+MessageClass->
+MessageToken->
+Record -> 240 
+dev-> 504 
+dev_id-> 0 
+alr_id-> 1 
+msgnr-> 0 
+AKZ_suffix->-KF06
+MessageClass->
+MessageToken->
+Record -> 241 
+dev-> 504 
+dev_id-> 0 
+alr_id-> 2 
+msgnr-> 0 
+AKZ_suffix->-BT03
+MessageClass->
+MessageToken->
+Record -> 242 
+dev-> 504 
+dev_id-> 0 
+alr_id-> 9 
+msgnr-> 0 
+AKZ_suffix->-QB34
+MessageClass->
+MessageToken->
+Record -> 243 
+dev-> 504 
+dev_id-> 0 
+alr_id-> 10 
+msgnr-> 0 
+AKZ_suffix->-QB35
+MessageClass->
+MessageToken->
+Record -> 244 
+dev-> 504 
+dev_id-> 0 
+alr_id-> 11 
+msgnr-> 0 
+AKZ_suffix->-QB36
+MessageClass->
+MessageToken->
+Record -> 245 
+dev-> 504 
+dev_id-> 0 
+alr_id-> 12 
+msgnr-> 0 
+AKZ_suffix->-QB39
+MessageClass->
+MessageToken->
+Record -> 246 
+dev-> 504 
+dev_id-> 0 
+alr_id-> 13 
+msgnr-> 0 
+AKZ_suffix->-QB48
+MessageClass->
+MessageToken->
+Record -> 247 
+dev-> 504 
+dev_id-> 0 
+alr_id-> 14 
+msgnr-> 0 
+AKZ_suffix->-QB49
+MessageClass->
+MessageToken->
+Record -> 248 
+dev-> 504 
+dev_id-> 0 
+alr_id-> 17 
+msgnr-> 0 
+AKZ_suffix->-QB40
+MessageClass->
+MessageToken->
+Record -> 249 
+dev-> 504 
+dev_id-> 0 
+alr_id-> 18 
+msgnr-> 0 
+AKZ_suffix->-QB41
+MessageClass->
+MessageToken->
+Record -> 250 
+dev-> 504 
+dev_id-> 0 
+alr_id-> 19 
+msgnr-> 0 
+AKZ_suffix->-QB44
+MessageClass->
+MessageToken->
+Record -> 251 
+dev-> 504 
+dev_id-> 0 
+alr_id-> 20 
+msgnr-> 0 
+AKZ_suffix->-QB45
+MessageClass->
+MessageToken->
+Record -> 252 
+dev-> 504 
+dev_id-> 0 
+alr_id-> 21 
+msgnr-> 0 
+AKZ_suffix->-QB50
+MessageClass->
+MessageToken->
+Record -> 253 
+dev-> 504 
+dev_id-> 0 
+alr_id-> 22 
+msgnr-> 0 
+AKZ_suffix->-QB51
+MessageClass->
+MessageToken->
+Record -> 254 
+dev-> 504 
+dev_id-> 0 
+alr_id-> 25 
+msgnr-> 0 
+AKZ_suffix->-QB04
+MessageClass->
+MessageToken->
+Record -> 255 
+dev-> 504 
+dev_id-> 0 
+alr_id-> 26 
+msgnr-> 0 
+AKZ_suffix->-QB05
+MessageClass->
+MessageToken->
+Record -> 256 
+dev-> 504 
+dev_id-> 0 
+alr_id-> 27 
+msgnr-> 0 
+AKZ_suffix->-QB06
+MessageClass->
+MessageToken->
+Record -> 257 
+dev-> 504 
+dev_id-> 0 
+alr_id-> 28 
+msgnr-> 0 
+AKZ_suffix->-QB07
+MessageClass->
+MessageToken->
+Record -> 258 
+dev-> 504 
+dev_id-> 0 
+alr_id-> 29 
+msgnr-> 0 
+AKZ_suffix->-QB08
+MessageClass->
+MessageToken->
+Record -> 259 
+dev-> 504 
+dev_id-> 0 
+alr_id-> 30 
+msgnr-> 0 
+AKZ_suffix->-QB09
+MessageClass->
+MessageToken->
+Record -> 260 
+dev-> 504 
+dev_id-> 0 
+alr_id-> 31 
+msgnr-> 0 
+AKZ_suffix->-QB10
+MessageClass->
+MessageToken->
+Record -> 261 
+dev-> 504 
+dev_id-> 0 
+alr_id-> 32 
+msgnr-> 0 
+AKZ_suffix->-QB11
+MessageClass->
+MessageToken->
+Record -> 262 
+dev-> 504 
+dev_id-> 0 
+alr_id-> 33 
+msgnr-> 0 
+AKZ_suffix->-QB12
+MessageClass->
+MessageToken->
+Record -> 263 
+dev-> 504 
+dev_id-> 0 
+alr_id-> 34 
+msgnr-> 0 
+AKZ_suffix->-QB13
+MessageClass->
+MessageToken->
+Record -> 264 
+dev-> 504 
+dev_id-> 0 
+alr_id-> 35 
+msgnr-> 0 
+AKZ_suffix->-QB14
+MessageClass->
+MessageToken->
+Record -> 265 
+dev-> 504 
+dev_id-> 0 
+alr_id-> 36 
+msgnr-> 0 
+AKZ_suffix->-QB15
+MessageClass->
+MessageToken->
+Record -> 266 
+dev-> 504 
+dev_id-> 0 
+alr_id-> 37 
+msgnr-> 0 
+AKZ_suffix->-QB16
+MessageClass->
+MessageToken->
+Record -> 267 
+dev-> 504 
+dev_id-> 0 
+alr_id-> 38 
+msgnr-> 0 
+AKZ_suffix->-QB17
+MessageClass->
+MessageToken->
+Record -> 268 
+dev-> 504 
+dev_id-> 0 
+alr_id-> 41 
+msgnr-> 0 
+AKZ_suffix->-QB18
+MessageClass->
+MessageToken->
+Record -> 269 
+dev-> 504 
+dev_id-> 0 
+alr_id-> 42 
+msgnr-> 0 
+AKZ_suffix->-QB19
+MessageClass->
+MessageToken->
+Record -> 270 
+dev-> 504 
+dev_id-> 0 
+alr_id-> 43 
+msgnr-> 0 
+AKZ_suffix->-QB01
+MessageClass->
+MessageToken->
+Record -> 271 
+dev-> 504 
+dev_id-> 0 
+alr_id-> 44 
+msgnr-> 0 
+AKZ_suffix->-QB02
+MessageClass->
+MessageToken->
+Record -> 272 
+dev-> 504 
+dev_id-> 0 
+alr_id-> 45 
+msgnr-> 0 
+AKZ_suffix->-QB03
+MessageClass->
+MessageToken->
+Record -> 273 
+dev-> 504 
+dev_id-> 0 
+alr_id-> 46 
+msgnr-> 0 
+AKZ_suffix->-QB54
+MessageClass->
+MessageToken->
+Record -> 274 
+dev-> 504 
+dev_id-> 0 
+alr_id-> 47 
+msgnr-> 0 
+AKZ_suffix->-QB55
+MessageClass->
+MessageToken->
+Record -> 275 
+dev-> 504 
+dev_id-> 0 
+alr_id-> 48 
+msgnr-> 0 
+AKZ_suffix->-QB56
+MessageClass->
+MessageToken->
+Record -> 276 
+dev-> 504 
+dev_id-> 0 
+alr_id-> 49 
+msgnr-> 0 
+AKZ_suffix->-QB37
+MessageClass->
+MessageToken->
+Record -> 277 
+dev-> 504 
+dev_id-> 0 
+alr_id-> 50 
+msgnr-> 0 
+AKZ_suffix->-QB38
+MessageClass->
+MessageToken->
+Record -> 278 
+dev-> 504 
+dev_id-> 0 
+alr_id-> 51 
+msgnr-> 0 
+AKZ_suffix->-QB42
+MessageClass->
+MessageToken->
+Record -> 279 
+dev-> 504 
+dev_id-> 0 
+alr_id-> 52 
+msgnr-> 0 
+AKZ_suffix->-QB46
+MessageClass->
+MessageToken->
+Record -> 280 
+dev-> 504 
+dev_id-> 0 
+alr_id-> 53 
+msgnr-> 0 
+AKZ_suffix->-QB43
+MessageClass->
+MessageToken->
+Record -> 281 
+dev-> 504 
+dev_id-> 0 
+alr_id-> 54 
+msgnr-> 0 
+AKZ_suffix->-QB47
+MessageClass->
+MessageToken->
+Record -> 282 
+dev-> 505 
+dev_id-> 0 
+alr_id-> 1 
+msgnr-> 0 
+AKZ_suffix->-KF06
+MessageClass->
+MessageToken->
+Record -> 283 
+dev-> 505 
+dev_id-> 0 
+alr_id-> 2 
+msgnr-> 0 
+AKZ_suffix->-BT03
+MessageClass->
+MessageToken->
+Record -> 284 
+dev-> 505 
+dev_id-> 0 
+alr_id-> 9 
+msgnr-> 0 
+AKZ_suffix->-QB34
+MessageClass->
+MessageToken->
+Record -> 285 
+dev-> 505 
+dev_id-> 0 
+alr_id-> 10 
+msgnr-> 0 
+AKZ_suffix->-QB35
+MessageClass->
+MessageToken->
+Record -> 286 
+dev-> 505 
+dev_id-> 0 
+alr_id-> 11 
+msgnr-> 0 
+AKZ_suffix->-QB36
+MessageClass->
+MessageToken->
+Record -> 287 
+dev-> 505 
+dev_id-> 0 
+alr_id-> 12 
+msgnr-> 0 
+AKZ_suffix->-QB39
+MessageClass->
+MessageToken->
+Record -> 288 
+dev-> 505 
+dev_id-> 0 
+alr_id-> 13 
+msgnr-> 0 
+AKZ_suffix->-QB48
+MessageClass->
+MessageToken->
+Record -> 289 
+dev-> 505 
+dev_id-> 0 
+alr_id-> 14 
+msgnr-> 0 
+AKZ_suffix->-QB49
+MessageClass->
+MessageToken->
+Record -> 290 
+dev-> 505 
+dev_id-> 0 
+alr_id-> 17 
+msgnr-> 0 
+AKZ_suffix->-QB40
+MessageClass->
+MessageToken->
+Record -> 291 
+dev-> 505 
+dev_id-> 0 
+alr_id-> 18 
+msgnr-> 0 
+AKZ_suffix->-QB41
+MessageClass->
+MessageToken->
+Record -> 292 
+dev-> 505 
+dev_id-> 0 
+alr_id-> 19 
+msgnr-> 0 
+AKZ_suffix->-QB44
+MessageClass->
+MessageToken->
+Record -> 293 
+dev-> 505 
+dev_id-> 0 
+alr_id-> 20 
+msgnr-> 0 
+AKZ_suffix->-QB45
+MessageClass->
+MessageToken->
+Record -> 294 
+dev-> 505 
+dev_id-> 0 
+alr_id-> 21 
+msgnr-> 0 
+AKZ_suffix->-QB50
+MessageClass->
+MessageToken->
+Record -> 295 
+dev-> 505 
+dev_id-> 0 
+alr_id-> 22 
+msgnr-> 0 
+AKZ_suffix->-QB51
+MessageClass->
+MessageToken->
+Record -> 296 
+dev-> 505 
+dev_id-> 0 
+alr_id-> 25 
+msgnr-> 0 
+AKZ_suffix->-QB04
+MessageClass->
+MessageToken->
+Record -> 297 
+dev-> 505 
+dev_id-> 0 
+alr_id-> 26 
+msgnr-> 0 
+AKZ_suffix->-QB05
+MessageClass->
+MessageToken->
+Record -> 298 
+dev-> 505 
+dev_id-> 0 
+alr_id-> 27 
+msgnr-> 0 
+AKZ_suffix->-QB06
+MessageClass->
+MessageToken->
+Record -> 299 
+dev-> 505 
+dev_id-> 0 
+alr_id-> 28 
+msgnr-> 0 
+AKZ_suffix->-QB07
+MessageClass->
+MessageToken->
+Record -> 300 
+dev-> 505 
+dev_id-> 0 
+alr_id-> 29 
+msgnr-> 0 
+AKZ_suffix->-QB08
+MessageClass->
+MessageToken->
+Record -> 301 
+dev-> 505 
+dev_id-> 0 
+alr_id-> 30 
+msgnr-> 0 
+AKZ_suffix->-QB09
+MessageClass->
+MessageToken->
+Record -> 302 
+dev-> 505 
+dev_id-> 0 
+alr_id-> 31 
+msgnr-> 0 
+AKZ_suffix->-QB10
+MessageClass->
+MessageToken->
+Record -> 303 
+dev-> 505 
+dev_id-> 0 
+alr_id-> 32 
+msgnr-> 0 
+AKZ_suffix->-QB11
+MessageClass->
+MessageToken->
+Record -> 304 
+dev-> 505 
+dev_id-> 0 
+alr_id-> 33 
+msgnr-> 0 
+AKZ_suffix->-QB12
+MessageClass->
+MessageToken->
+Record -> 305 
+dev-> 505 
+dev_id-> 0 
+alr_id-> 34 
+msgnr-> 0 
+AKZ_suffix->-QB13
+MessageClass->
+MessageToken->
+Record -> 306 
+dev-> 505 
+dev_id-> 0 
+alr_id-> 35 
+msgnr-> 0 
+AKZ_suffix->-QB14
+MessageClass->
+MessageToken->
+Record -> 307 
+dev-> 505 
+dev_id-> 0 
+alr_id-> 36 
+msgnr-> 0 
+AKZ_suffix->-QB15
+MessageClass->
+MessageToken->
+Record -> 308 
+dev-> 505 
+dev_id-> 0 
+alr_id-> 37 
+msgnr-> 0 
+AKZ_suffix->-QB16
+MessageClass->
+MessageToken->
+Record -> 309 
+dev-> 505 
+dev_id-> 0 
+alr_id-> 38 
+msgnr-> 0 
+AKZ_suffix->-QB17
+MessageClass->
+MessageToken->
+Record -> 310 
+dev-> 505 
+dev_id-> 0 
+alr_id-> 41 
+msgnr-> 0 
+AKZ_suffix->-QB18
+MessageClass->
+MessageToken->
+Record -> 311 
+dev-> 505 
+dev_id-> 0 
+alr_id-> 42 
+msgnr-> 0 
+AKZ_suffix->-QB19
+MessageClass->
+MessageToken->
+Record -> 312 
+dev-> 505 
+dev_id-> 0 
+alr_id-> 43 
+msgnr-> 0 
+AKZ_suffix->-QB01
+MessageClass->
+MessageToken->
+Record -> 313 
+dev-> 505 
+dev_id-> 0 
+alr_id-> 44 
+msgnr-> 0 
+AKZ_suffix->-QB02
+MessageClass->
+MessageToken->
+Record -> 314 
+dev-> 505 
+dev_id-> 0 
+alr_id-> 45 
+msgnr-> 0 
+AKZ_suffix->-QB03
+MessageClass->
+MessageToken->
+Record -> 315 
+dev-> 505 
+dev_id-> 0 
+alr_id-> 46 
+msgnr-> 0 
+AKZ_suffix->-QB54
+MessageClass->
+MessageToken->
+Record -> 316 
+dev-> 505 
+dev_id-> 0 
+alr_id-> 47 
+msgnr-> 0 
+AKZ_suffix->-QB55
+MessageClass->
+MessageToken->
+Record -> 317 
+dev-> 505 
+dev_id-> 0 
+alr_id-> 48 
+msgnr-> 0 
+AKZ_suffix->-QB56
+MessageClass->
+MessageToken->
+Record -> 318 
+dev-> 505 
+dev_id-> 0 
+alr_id-> 49 
+msgnr-> 0 
+AKZ_suffix->-QB37
+MessageClass->
+MessageToken->
+Record -> 319 
+dev-> 505 
+dev_id-> 0 
+alr_id-> 50 
+msgnr-> 0 
+AKZ_suffix->-QB38
+MessageClass->
+MessageToken->
+Record -> 320 
+dev-> 505 
+dev_id-> 0 
+alr_id-> 51 
+msgnr-> 0 
+AKZ_suffix->-QB42
+MessageClass->
+MessageToken->
+Record -> 321 
+dev-> 505 
+dev_id-> 0 
+alr_id-> 52 
+msgnr-> 0 
+AKZ_suffix->-QB46
+MessageClass->
+MessageToken->
+Record -> 322 
+dev-> 505 
+dev_id-> 0 
+alr_id-> 53 
+msgnr-> 0 
+AKZ_suffix->-QB43
+MessageClass->
+MessageToken->
+Record -> 323 
+dev-> 505 
+dev_id-> 0 
+alr_id-> 54 
+msgnr-> 0 
+AKZ_suffix->-QB47
+MessageClass->
+MessageToken->

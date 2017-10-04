@@ -1,0 +1,1376 @@
+//
+//S_pbinv
+//
+TABLE_TYPE: 0
+//
+MAXTABLE:30
+//
+TABLE
+//
+//
+BEGINSTRUCT // Begin of structure=S_pbinv
+ 	USHORT  // Field=id
+ STRING12  // Field=name
+ 	USHORT  // Field=enable
+	//
+	BEGINSTRUCT // Begin of structure=S_cfg_pbinv
+  		USHORT  // Field=s_cfg_pbinv.nBoard
+  		USHORT  // Field=s_cfg_pbinv.nModuleId
+  		USHORT  // Field=s_cfg_pbinv.nErrorOffset
+	ENDSTRUCT // End of structure=S_cfg_pbinv
+	//	
+  //
+	BEGINSTRUCT // Begin of structure=S_id
+  		USHORT  // Field=s_id_iomodulpb.id
+  		POINTER  // Field=s_id_iomodulpb.p_idrec
+	ENDSTRUCT // End of structure=S_id
+	//
+	//
+	BEGINSTRUCT // Begin of structure=S_do
+  STRING12  // Field=s_do_inveanble.name
+  		POINTER  // Field=s_do_inveanble.ps_output
+	ENDSTRUCT // End of structure=S_do
+	//
+	//
+	BEGINSTRUCT // Begin of structure=S_do
+   STRING12  // Field=s_do_invreset.name
+   		POINTER  // Field=s_do_invreset.ps_output
+	ENDSTRUCT // End of structure=S_do
+	//
+	//
+	BEGINSTRUCT // Begin of structure=S_ao
+   STRING12  // Field=s_ao_invref.name
+   	POINTER  // Field=s_ao_invref.ps_analog
+	ENDSTRUCT // End of structure=S_ao
+	//
+	//
+	BEGINSTRUCT // Begin of structure=S_wk_pbinv
+  		UCHAR  // Field=s_wk_pbinv.errorCode
+	ENDSTRUCT // End of structure=S_wk_pbinv
+	//	
+	//
+ENDSTRUCT // End of structure=S_pbinv
+//
+//
+ENDTABLE
+//
+//
+BEGINSTRUCT // Begin of structure=S_pbinv
+ 	USHORT,11  // Field=id
+ STRING12,"SS001_TB01"  // Field=name
+ 	USHORT,1  // Field=enable
+	//
+	BEGINSTRUCT // Begin of structure=S_cfg_pbinv
+  		USHORT,1  // Field=s_cfg_pbinv.nBoard
+  		USHORT,51  // Field=s_cfg_pbinv.nModuleId
+  		USHORT,0  // Field=s_cfg_pbinv.nErrorOffset
+	ENDSTRUCT // End of structure=S_cfg_pbinv
+	//	
+  //
+	BEGINSTRUCT // Begin of structure=S_id
+  		USHORT  // Field=s_id_iomodulpb.id
+  		POINTER  // Field=s_id_iomodulpb.p_idrec
+	ENDSTRUCT // End of structure=S_id
+	//
+	//
+	BEGINSTRUCT // Begin of structure=S_do
+  STRING12,"O_INVPWR1_01"  // Field=s_do_inveanble.name
+  		POINTER  // Field=s_do_inveanble.ps_output
+	ENDSTRUCT // End of structure=S_do
+	//
+	//
+	BEGINSTRUCT // Begin of structure=S_do
+   STRING12,"O_INVRES1_01"  // Field=s_do_invreset.name
+   		POINTER  // Field=s_do_invreset.ps_output
+	ENDSTRUCT // End of structure=S_do
+	//
+	//
+	BEGINSTRUCT // Begin of structure=S_ao
+   STRING12,"A_INVREF1_01"  // Field=s_ao_invref.name
+   	POINTER  // Field=s_ao_invref.ps_analog
+	ENDSTRUCT // End of structure=S_ao
+	//
+	//
+	BEGINSTRUCT // Begin of structure=S_wk_pbinv
+  		UCHAR  // Field=s_wk_pbinv.errorCode
+	ENDSTRUCT // End of structure=S_wk_pbinv
+	//	
+	//
+ENDSTRUCT // End of structure=S_pbinv
+//
+//
+BEGINSTRUCT // Begin of structure=S_pbinv
+ 	USHORT,12  // Field=id
+ STRING12,"SS001_TB02"  // Field=name
+ 	USHORT,1  // Field=enable
+	//
+	BEGINSTRUCT // Begin of structure=S_cfg_pbinv
+  		USHORT,1  // Field=s_cfg_pbinv.nBoard
+  		USHORT,51  // Field=s_cfg_pbinv.nModuleId
+  		USHORT,0  // Field=s_cfg_pbinv.nErrorOffset
+	ENDSTRUCT // End of structure=S_cfg_pbinv
+	//	
+  //
+	BEGINSTRUCT // Begin of structure=S_id
+  		USHORT  // Field=s_id_iomodulpb.id
+  		POINTER  // Field=s_id_iomodulpb.p_idrec
+	ENDSTRUCT // End of structure=S_id
+	//
+	//
+	BEGINSTRUCT // Begin of structure=S_do
+  STRING12,"O_INVPWR2_01"  // Field=s_do_inveanble.name
+  		POINTER  // Field=s_do_inveanble.ps_output
+	ENDSTRUCT // End of structure=S_do
+	//
+	//
+	BEGINSTRUCT // Begin of structure=S_do
+   STRING12,"O_INVRES2_01"  // Field=s_do_invreset.name
+   		POINTER  // Field=s_do_invreset.ps_output
+	ENDSTRUCT // End of structure=S_do
+	//
+	//
+	BEGINSTRUCT // Begin of structure=S_ao
+   STRING12,"A_INVREF2_01"  // Field=s_ao_invref.name
+   	POINTER  // Field=s_ao_invref.ps_analog
+	ENDSTRUCT // End of structure=S_ao
+	//
+	//
+	BEGINSTRUCT // Begin of structure=S_wk_pbinv
+  		UCHAR  // Field=s_wk_pbinv.errorCode
+	ENDSTRUCT // End of structure=S_wk_pbinv
+	//	
+	//
+ENDSTRUCT // End of structure=S_pbinv
+//
+//
+BEGINSTRUCT // Begin of structure=S_pbinv
+ 	USHORT,13  // Field=id
+ STRING12,"SS001_TB03"  // Field=name
+ 	USHORT,1  // Field=enable
+	//
+	BEGINSTRUCT // Begin of structure=S_cfg_pbinv
+  		USHORT,1  // Field=s_cfg_pbinv.nBoard
+  		USHORT,51  // Field=s_cfg_pbinv.nModuleId
+  		USHORT,0  // Field=s_cfg_pbinv.nErrorOffset
+	ENDSTRUCT // End of structure=S_cfg_pbinv
+	//	
+  //
+	BEGINSTRUCT // Begin of structure=S_id
+  		USHORT  // Field=s_id_iomodulpb.id
+  		POINTER  // Field=s_id_iomodulpb.p_idrec
+	ENDSTRUCT // End of structure=S_id
+	//
+	//
+	BEGINSTRUCT // Begin of structure=S_do
+  STRING12,"O_INVPWR3_01"  // Field=s_do_inveanble.name
+  		POINTER  // Field=s_do_inveanble.ps_output
+	ENDSTRUCT // End of structure=S_do
+	//
+	//
+	BEGINSTRUCT // Begin of structure=S_do
+   STRING12,"O_INVRES3_01"  // Field=s_do_invreset.name
+   		POINTER  // Field=s_do_invreset.ps_output
+	ENDSTRUCT // End of structure=S_do
+	//
+	//
+	BEGINSTRUCT // Begin of structure=S_ao
+   STRING12,"A_INVREF3_01"  // Field=s_ao_invref.name
+   	POINTER  // Field=s_ao_invref.ps_analog
+	ENDSTRUCT // End of structure=S_ao
+	//
+	//
+	BEGINSTRUCT // Begin of structure=S_wk_pbinv
+  		UCHAR  // Field=s_wk_pbinv.errorCode
+	ENDSTRUCT // End of structure=S_wk_pbinv
+	//	
+	//
+ENDSTRUCT // End of structure=S_pbinv
+//
+//
+BEGINSTRUCT // Begin of structure=S_pbinv
+ 	USHORT,21  // Field=id
+ STRING12,"SS002_TB01"  // Field=name
+ 	USHORT,1  // Field=enable
+	//
+	BEGINSTRUCT // Begin of structure=S_cfg_pbinv
+  		USHORT,1  // Field=s_cfg_pbinv.nBoard
+  		USHORT,53  // Field=s_cfg_pbinv.nModuleId
+  		USHORT,0  // Field=s_cfg_pbinv.nErrorOffset
+	ENDSTRUCT // End of structure=S_cfg_pbinv
+	//	
+  //
+	BEGINSTRUCT // Begin of structure=S_id
+  		USHORT  // Field=s_id_iomodulpb.id
+  		POINTER  // Field=s_id_iomodulpb.p_idrec
+	ENDSTRUCT // End of structure=S_id
+	//
+	//
+	BEGINSTRUCT // Begin of structure=S_do
+  STRING12,"O_INVPWR1_02"  // Field=s_do_inveanble.name
+  		POINTER  // Field=s_do_inveanble.ps_output
+	ENDSTRUCT // End of structure=S_do
+	//
+	//
+	BEGINSTRUCT // Begin of structure=S_do
+   STRING12,"O_INVRES1_02"  // Field=s_do_invreset.name
+   		POINTER  // Field=s_do_invreset.ps_output
+	ENDSTRUCT // End of structure=S_do
+	//
+	//
+	BEGINSTRUCT // Begin of structure=S_ao
+   STRING12,"A_INVREF1_02"  // Field=s_ao_invref.name
+   	POINTER  // Field=s_ao_invref.ps_analog
+	ENDSTRUCT // End of structure=S_ao
+	//
+	//
+	BEGINSTRUCT // Begin of structure=S_wk_pbinv
+  		UCHAR  // Field=s_wk_pbinv.errorCode
+	ENDSTRUCT // End of structure=S_wk_pbinv
+	//	
+	//
+ENDSTRUCT // End of structure=S_pbinv
+//
+//
+BEGINSTRUCT // Begin of structure=S_pbinv
+ 	USHORT,22  // Field=id
+ STRING12,"SS002_TB02"  // Field=name
+ 	USHORT,1  // Field=enable
+	//
+	BEGINSTRUCT // Begin of structure=S_cfg_pbinv
+  		USHORT,1  // Field=s_cfg_pbinv.nBoard
+  		USHORT,53  // Field=s_cfg_pbinv.nModuleId
+  		USHORT,0  // Field=s_cfg_pbinv.nErrorOffset
+	ENDSTRUCT // End of structure=S_cfg_pbinv
+	//	
+  //
+	BEGINSTRUCT // Begin of structure=S_id
+  		USHORT  // Field=s_id_iomodulpb.id
+  		POINTER  // Field=s_id_iomodulpb.p_idrec
+	ENDSTRUCT // End of structure=S_id
+	//
+	//
+	BEGINSTRUCT // Begin of structure=S_do
+  STRING12,"O_INVPWR2_02"  // Field=s_do_inveanble.name
+  		POINTER  // Field=s_do_inveanble.ps_output
+	ENDSTRUCT // End of structure=S_do
+	//
+	//
+	BEGINSTRUCT // Begin of structure=S_do
+   STRING12,"O_INVRES2_02"  // Field=s_do_invreset.name
+   		POINTER  // Field=s_do_invreset.ps_output
+	ENDSTRUCT // End of structure=S_do
+	//
+	//
+	BEGINSTRUCT // Begin of structure=S_ao
+   STRING12,"A_INVREF2_02"  // Field=s_ao_invref.name
+   	POINTER  // Field=s_ao_invref.ps_analog
+	ENDSTRUCT // End of structure=S_ao
+	//
+	//
+	BEGINSTRUCT // Begin of structure=S_wk_pbinv
+  		UCHAR  // Field=s_wk_pbinv.errorCode
+	ENDSTRUCT // End of structure=S_wk_pbinv
+	//	
+	//
+ENDSTRUCT // End of structure=S_pbinv
+//
+//
+BEGINSTRUCT // Begin of structure=S_pbinv
+ 	USHORT,23  // Field=id
+ STRING12,"SS002_TB03"  // Field=name
+ 	USHORT,1  // Field=enable
+	//
+	BEGINSTRUCT // Begin of structure=S_cfg_pbinv
+  		USHORT,1  // Field=s_cfg_pbinv.nBoard
+  		USHORT,53  // Field=s_cfg_pbinv.nModuleId
+  		USHORT,0  // Field=s_cfg_pbinv.nErrorOffset
+	ENDSTRUCT // End of structure=S_cfg_pbinv
+	//	
+  //
+	BEGINSTRUCT // Begin of structure=S_id
+  		USHORT  // Field=s_id_iomodulpb.id
+  		POINTER  // Field=s_id_iomodulpb.p_idrec
+	ENDSTRUCT // End of structure=S_id
+	//
+	//
+	BEGINSTRUCT // Begin of structure=S_do
+  STRING12,"O_INVPWR3_02"  // Field=s_do_inveanble.name
+  		POINTER  // Field=s_do_inveanble.ps_output
+	ENDSTRUCT // End of structure=S_do
+	//
+	//
+	BEGINSTRUCT // Begin of structure=S_do
+   STRING12,"O_INVRES3_02"  // Field=s_do_invreset.name
+   		POINTER  // Field=s_do_invreset.ps_output
+	ENDSTRUCT // End of structure=S_do
+	//
+	//
+	BEGINSTRUCT // Begin of structure=S_ao
+   STRING12,"A_INVREF3_02"  // Field=s_ao_invref.name
+   	POINTER  // Field=s_ao_invref.ps_analog
+	ENDSTRUCT // End of structure=S_ao
+	//
+	//
+	BEGINSTRUCT // Begin of structure=S_wk_pbinv
+  		UCHAR  // Field=s_wk_pbinv.errorCode
+	ENDSTRUCT // End of structure=S_wk_pbinv
+	//	
+	//
+ENDSTRUCT // End of structure=S_pbinv
+//
+//
+BEGINSTRUCT // Begin of structure=S_pbinv
+ 	USHORT,31  // Field=id
+ STRING12,"SS003_TB01"  // Field=name
+ 	USHORT,1  // Field=enable
+	//
+	BEGINSTRUCT // Begin of structure=S_cfg_pbinv
+  		USHORT,1  // Field=s_cfg_pbinv.nBoard
+  		USHORT,55  // Field=s_cfg_pbinv.nModuleId
+  		USHORT,0  // Field=s_cfg_pbinv.nErrorOffset
+	ENDSTRUCT // End of structure=S_cfg_pbinv
+	//	
+  //
+	BEGINSTRUCT // Begin of structure=S_id
+  		USHORT  // Field=s_id_iomodulpb.id
+  		POINTER  // Field=s_id_iomodulpb.p_idrec
+	ENDSTRUCT // End of structure=S_id
+	//
+	//
+	BEGINSTRUCT // Begin of structure=S_do
+  STRING12,"O_INVPWR1_03"  // Field=s_do_inveanble.name
+  		POINTER  // Field=s_do_inveanble.ps_output
+	ENDSTRUCT // End of structure=S_do
+	//
+	//
+	BEGINSTRUCT // Begin of structure=S_do
+   STRING12,"O_INVRES1_03"  // Field=s_do_invreset.name
+   		POINTER  // Field=s_do_invreset.ps_output
+	ENDSTRUCT // End of structure=S_do
+	//
+	//
+	BEGINSTRUCT // Begin of structure=S_ao
+   STRING12,"A_INVREF1_03"  // Field=s_ao_invref.name
+   	POINTER  // Field=s_ao_invref.ps_analog
+	ENDSTRUCT // End of structure=S_ao
+	//
+	//
+	BEGINSTRUCT // Begin of structure=S_wk_pbinv
+  		UCHAR  // Field=s_wk_pbinv.errorCode
+	ENDSTRUCT // End of structure=S_wk_pbinv
+	//	
+	//
+ENDSTRUCT // End of structure=S_pbinv
+//
+//
+BEGINSTRUCT // Begin of structure=S_pbinv
+ 	USHORT,32  // Field=id
+ STRING12,"SS003_TB02"  // Field=name
+ 	USHORT,1  // Field=enable
+	//
+	BEGINSTRUCT // Begin of structure=S_cfg_pbinv
+  		USHORT,1  // Field=s_cfg_pbinv.nBoard
+  		USHORT,55  // Field=s_cfg_pbinv.nModuleId
+  		USHORT,0  // Field=s_cfg_pbinv.nErrorOffset
+	ENDSTRUCT // End of structure=S_cfg_pbinv
+	//	
+  //
+	BEGINSTRUCT // Begin of structure=S_id
+  		USHORT  // Field=s_id_iomodulpb.id
+  		POINTER  // Field=s_id_iomodulpb.p_idrec
+	ENDSTRUCT // End of structure=S_id
+	//
+	//
+	BEGINSTRUCT // Begin of structure=S_do
+  STRING12,"O_INVPWR2_03"  // Field=s_do_inveanble.name
+  		POINTER  // Field=s_do_inveanble.ps_output
+	ENDSTRUCT // End of structure=S_do
+	//
+	//
+	BEGINSTRUCT // Begin of structure=S_do
+   STRING12,"O_INVRES2_03"  // Field=s_do_invreset.name
+   		POINTER  // Field=s_do_invreset.ps_output
+	ENDSTRUCT // End of structure=S_do
+	//
+	//
+	BEGINSTRUCT // Begin of structure=S_ao
+   STRING12,"A_INVREF2_03"  // Field=s_ao_invref.name
+   	POINTER  // Field=s_ao_invref.ps_analog
+	ENDSTRUCT // End of structure=S_ao
+	//
+	//
+	BEGINSTRUCT // Begin of structure=S_wk_pbinv
+  		UCHAR  // Field=s_wk_pbinv.errorCode
+	ENDSTRUCT // End of structure=S_wk_pbinv
+	//	
+	//
+ENDSTRUCT // End of structure=S_pbinv
+//
+//
+BEGINSTRUCT // Begin of structure=S_pbinv
+ 	USHORT,33  // Field=id
+ STRING12,"SS003_TB03"  // Field=name
+ 	USHORT,1  // Field=enable
+	//
+	BEGINSTRUCT // Begin of structure=S_cfg_pbinv
+  		USHORT,1  // Field=s_cfg_pbinv.nBoard
+  		USHORT,55  // Field=s_cfg_pbinv.nModuleId
+  		USHORT,0  // Field=s_cfg_pbinv.nErrorOffset
+	ENDSTRUCT // End of structure=S_cfg_pbinv
+	//	
+  //
+	BEGINSTRUCT // Begin of structure=S_id
+  		USHORT  // Field=s_id_iomodulpb.id
+  		POINTER  // Field=s_id_iomodulpb.p_idrec
+	ENDSTRUCT // End of structure=S_id
+	//
+	//
+	BEGINSTRUCT // Begin of structure=S_do
+  STRING12,"O_INVPWR3_03"  // Field=s_do_inveanble.name
+  		POINTER  // Field=s_do_inveanble.ps_output
+	ENDSTRUCT // End of structure=S_do
+	//
+	//
+	BEGINSTRUCT // Begin of structure=S_do
+   STRING12,"O_INVRES3_03"  // Field=s_do_invreset.name
+   		POINTER  // Field=s_do_invreset.ps_output
+	ENDSTRUCT // End of structure=S_do
+	//
+	//
+	BEGINSTRUCT // Begin of structure=S_ao
+   STRING12,"A_INVREF3_03"  // Field=s_ao_invref.name
+   	POINTER  // Field=s_ao_invref.ps_analog
+	ENDSTRUCT // End of structure=S_ao
+	//
+	//
+	BEGINSTRUCT // Begin of structure=S_wk_pbinv
+  		UCHAR  // Field=s_wk_pbinv.errorCode
+	ENDSTRUCT // End of structure=S_wk_pbinv
+	//	
+	//
+ENDSTRUCT // End of structure=S_pbinv
+//
+//
+BEGINSTRUCT // Begin of structure=S_pbinv
+ 	USHORT,41  // Field=id
+ STRING12,"SS004_TB01"  // Field=name
+ 	USHORT,1  // Field=enable
+	//
+	BEGINSTRUCT // Begin of structure=S_cfg_pbinv
+  		USHORT,1  // Field=s_cfg_pbinv.nBoard
+  		USHORT,57  // Field=s_cfg_pbinv.nModuleId
+  		USHORT,0  // Field=s_cfg_pbinv.nErrorOffset
+	ENDSTRUCT // End of structure=S_cfg_pbinv
+	//	
+  //
+	BEGINSTRUCT // Begin of structure=S_id
+  		USHORT  // Field=s_id_iomodulpb.id
+  		POINTER  // Field=s_id_iomodulpb.p_idrec
+	ENDSTRUCT // End of structure=S_id
+	//
+	//
+	BEGINSTRUCT // Begin of structure=S_do
+  STRING12,"O_INVPWR1_04"  // Field=s_do_inveanble.name
+  		POINTER  // Field=s_do_inveanble.ps_output
+	ENDSTRUCT // End of structure=S_do
+	//
+	//
+	BEGINSTRUCT // Begin of structure=S_do
+   STRING12,"O_INVRES1_04"  // Field=s_do_invreset.name
+   		POINTER  // Field=s_do_invreset.ps_output
+	ENDSTRUCT // End of structure=S_do
+	//
+	//
+	BEGINSTRUCT // Begin of structure=S_ao
+   STRING12,"A_INVREF1_04"  // Field=s_ao_invref.name
+   	POINTER  // Field=s_ao_invref.ps_analog
+	ENDSTRUCT // End of structure=S_ao
+	//
+	//
+	BEGINSTRUCT // Begin of structure=S_wk_pbinv
+  		UCHAR  // Field=s_wk_pbinv.errorCode
+	ENDSTRUCT // End of structure=S_wk_pbinv
+	//	
+	//
+ENDSTRUCT // End of structure=S_pbinv
+//
+//
+BEGINSTRUCT // Begin of structure=S_pbinv
+ 	USHORT,42  // Field=id
+ STRING12,"SS004_TB02"  // Field=name
+ 	USHORT,1  // Field=enable
+	//
+	BEGINSTRUCT // Begin of structure=S_cfg_pbinv
+  		USHORT,1  // Field=s_cfg_pbinv.nBoard
+  		USHORT,57  // Field=s_cfg_pbinv.nModuleId
+  		USHORT,0  // Field=s_cfg_pbinv.nErrorOffset
+	ENDSTRUCT // End of structure=S_cfg_pbinv
+	//	
+  //
+	BEGINSTRUCT // Begin of structure=S_id
+  		USHORT  // Field=s_id_iomodulpb.id
+  		POINTER  // Field=s_id_iomodulpb.p_idrec
+	ENDSTRUCT // End of structure=S_id
+	//
+	//
+	BEGINSTRUCT // Begin of structure=S_do
+  STRING12,"O_INVPWR2_04"  // Field=s_do_inveanble.name
+  		POINTER  // Field=s_do_inveanble.ps_output
+	ENDSTRUCT // End of structure=S_do
+	//
+	//
+	BEGINSTRUCT // Begin of structure=S_do
+   STRING12,"O_INVRES2_04"  // Field=s_do_invreset.name
+   		POINTER  // Field=s_do_invreset.ps_output
+	ENDSTRUCT // End of structure=S_do
+	//
+	//
+	BEGINSTRUCT // Begin of structure=S_ao
+   STRING12,"A_INVREF2_04"  // Field=s_ao_invref.name
+   	POINTER  // Field=s_ao_invref.ps_analog
+	ENDSTRUCT // End of structure=S_ao
+	//
+	//
+	BEGINSTRUCT // Begin of structure=S_wk_pbinv
+  		UCHAR  // Field=s_wk_pbinv.errorCode
+	ENDSTRUCT // End of structure=S_wk_pbinv
+	//	
+	//
+ENDSTRUCT // End of structure=S_pbinv
+//
+//
+BEGINSTRUCT // Begin of structure=S_pbinv
+ 	USHORT,43  // Field=id
+ STRING12,"SS004_TB03"  // Field=name
+ 	USHORT,1  // Field=enable
+	//
+	BEGINSTRUCT // Begin of structure=S_cfg_pbinv
+  		USHORT,1  // Field=s_cfg_pbinv.nBoard
+  		USHORT,57  // Field=s_cfg_pbinv.nModuleId
+  		USHORT,0  // Field=s_cfg_pbinv.nErrorOffset
+	ENDSTRUCT // End of structure=S_cfg_pbinv
+	//	
+  //
+	BEGINSTRUCT // Begin of structure=S_id
+  		USHORT  // Field=s_id_iomodulpb.id
+  		POINTER  // Field=s_id_iomodulpb.p_idrec
+	ENDSTRUCT // End of structure=S_id
+	//
+	//
+	BEGINSTRUCT // Begin of structure=S_do
+  STRING12,"O_INVPWR3_04"  // Field=s_do_inveanble.name
+  		POINTER  // Field=s_do_inveanble.ps_output
+	ENDSTRUCT // End of structure=S_do
+	//
+	//
+	BEGINSTRUCT // Begin of structure=S_do
+   STRING12,"O_INVRES3_04"  // Field=s_do_invreset.name
+   		POINTER  // Field=s_do_invreset.ps_output
+	ENDSTRUCT // End of structure=S_do
+	//
+	//
+	BEGINSTRUCT // Begin of structure=S_ao
+   STRING12,"A_INVREF3_04"  // Field=s_ao_invref.name
+   	POINTER  // Field=s_ao_invref.ps_analog
+	ENDSTRUCT // End of structure=S_ao
+	//
+	//
+	BEGINSTRUCT // Begin of structure=S_wk_pbinv
+  		UCHAR  // Field=s_wk_pbinv.errorCode
+	ENDSTRUCT // End of structure=S_wk_pbinv
+	//	
+	//
+ENDSTRUCT // End of structure=S_pbinv
+//
+//
+BEGINSTRUCT // Begin of structure=S_pbinv
+ 	USHORT,51  // Field=id
+ STRING12,"SS005_TB01"  // Field=name
+ 	USHORT,1  // Field=enable
+	//
+	BEGINSTRUCT // Begin of structure=S_cfg_pbinv
+  		USHORT,1  // Field=s_cfg_pbinv.nBoard
+  		USHORT,59  // Field=s_cfg_pbinv.nModuleId
+  		USHORT,0  // Field=s_cfg_pbinv.nErrorOffset
+	ENDSTRUCT // End of structure=S_cfg_pbinv
+	//	
+  //
+	BEGINSTRUCT // Begin of structure=S_id
+  		USHORT  // Field=s_id_iomodulpb.id
+  		POINTER  // Field=s_id_iomodulpb.p_idrec
+	ENDSTRUCT // End of structure=S_id
+	//
+	//
+	BEGINSTRUCT // Begin of structure=S_do
+  STRING12,"O_INVPWR1_05"  // Field=s_do_inveanble.name
+  		POINTER  // Field=s_do_inveanble.ps_output
+	ENDSTRUCT // End of structure=S_do
+	//
+	//
+	BEGINSTRUCT // Begin of structure=S_do
+   STRING12,"O_INVRES1_05"  // Field=s_do_invreset.name
+   		POINTER  // Field=s_do_invreset.ps_output
+	ENDSTRUCT // End of structure=S_do
+	//
+	//
+	BEGINSTRUCT // Begin of structure=S_ao
+   STRING12,"A_INVREF1_05"  // Field=s_ao_invref.name
+   	POINTER  // Field=s_ao_invref.ps_analog
+	ENDSTRUCT // End of structure=S_ao
+	//
+	//
+	BEGINSTRUCT // Begin of structure=S_wk_pbinv
+  		UCHAR  // Field=s_wk_pbinv.errorCode
+	ENDSTRUCT // End of structure=S_wk_pbinv
+	//	
+	//
+ENDSTRUCT // End of structure=S_pbinv
+//
+//
+BEGINSTRUCT // Begin of structure=S_pbinv
+ 	USHORT,52  // Field=id
+ STRING12,"SS005_TB02"  // Field=name
+ 	USHORT,1  // Field=enable
+	//
+	BEGINSTRUCT // Begin of structure=S_cfg_pbinv
+  		USHORT,1  // Field=s_cfg_pbinv.nBoard
+  		USHORT,59  // Field=s_cfg_pbinv.nModuleId
+  		USHORT,0  // Field=s_cfg_pbinv.nErrorOffset
+	ENDSTRUCT // End of structure=S_cfg_pbinv
+	//	
+  //
+	BEGINSTRUCT // Begin of structure=S_id
+  		USHORT  // Field=s_id_iomodulpb.id
+  		POINTER  // Field=s_id_iomodulpb.p_idrec
+	ENDSTRUCT // End of structure=S_id
+	//
+	//
+	BEGINSTRUCT // Begin of structure=S_do
+  STRING12,"O_INVPWR2_05"  // Field=s_do_inveanble.name
+  		POINTER  // Field=s_do_inveanble.ps_output
+	ENDSTRUCT // End of structure=S_do
+	//
+	//
+	BEGINSTRUCT // Begin of structure=S_do
+   STRING12,"O_INVRES2_05"  // Field=s_do_invreset.name
+   		POINTER  // Field=s_do_invreset.ps_output
+	ENDSTRUCT // End of structure=S_do
+	//
+	//
+	BEGINSTRUCT // Begin of structure=S_ao
+   STRING12,"A_INVREF2_05"  // Field=s_ao_invref.name
+   	POINTER  // Field=s_ao_invref.ps_analog
+	ENDSTRUCT // End of structure=S_ao
+	//
+	//
+	BEGINSTRUCT // Begin of structure=S_wk_pbinv
+  		UCHAR  // Field=s_wk_pbinv.errorCode
+	ENDSTRUCT // End of structure=S_wk_pbinv
+	//	
+	//
+ENDSTRUCT // End of structure=S_pbinv
+//
+//
+BEGINSTRUCT // Begin of structure=S_pbinv
+ 	USHORT,61  // Field=id
+ STRING12,"SS006_TB01"  // Field=name
+ 	USHORT,1  // Field=enable
+	//
+	BEGINSTRUCT // Begin of structure=S_cfg_pbinv
+  		USHORT,1  // Field=s_cfg_pbinv.nBoard
+  		USHORT,61  // Field=s_cfg_pbinv.nModuleId
+  		USHORT,0  // Field=s_cfg_pbinv.nErrorOffset
+	ENDSTRUCT // End of structure=S_cfg_pbinv
+	//	
+  //
+	BEGINSTRUCT // Begin of structure=S_id
+  		USHORT  // Field=s_id_iomodulpb.id
+  		POINTER  // Field=s_id_iomodulpb.p_idrec
+	ENDSTRUCT // End of structure=S_id
+	//
+	//
+	BEGINSTRUCT // Begin of structure=S_do
+  STRING12,"O_INVPWR1_06"  // Field=s_do_inveanble.name
+  		POINTER  // Field=s_do_inveanble.ps_output
+	ENDSTRUCT // End of structure=S_do
+	//
+	//
+	BEGINSTRUCT // Begin of structure=S_do
+   STRING12,"O_INVRES1_06"  // Field=s_do_invreset.name
+   		POINTER  // Field=s_do_invreset.ps_output
+	ENDSTRUCT // End of structure=S_do
+	//
+	//
+	BEGINSTRUCT // Begin of structure=S_ao
+   STRING12,"A_INVREF1_06"  // Field=s_ao_invref.name
+   	POINTER  // Field=s_ao_invref.ps_analog
+	ENDSTRUCT // End of structure=S_ao
+	//
+	//
+	BEGINSTRUCT // Begin of structure=S_wk_pbinv
+  		UCHAR  // Field=s_wk_pbinv.errorCode
+	ENDSTRUCT // End of structure=S_wk_pbinv
+	//	
+	//
+ENDSTRUCT // End of structure=S_pbinv
+//
+//
+BEGINSTRUCT // Begin of structure=S_pbinv
+ 	USHORT,62  // Field=id
+ STRING12,"SS006_TB02"  // Field=name
+ 	USHORT,1  // Field=enable
+	//
+	BEGINSTRUCT // Begin of structure=S_cfg_pbinv
+  		USHORT,1  // Field=s_cfg_pbinv.nBoard
+  		USHORT,61  // Field=s_cfg_pbinv.nModuleId
+  		USHORT,0  // Field=s_cfg_pbinv.nErrorOffset
+	ENDSTRUCT // End of structure=S_cfg_pbinv
+	//	
+  //
+	BEGINSTRUCT // Begin of structure=S_id
+  		USHORT  // Field=s_id_iomodulpb.id
+  		POINTER  // Field=s_id_iomodulpb.p_idrec
+	ENDSTRUCT // End of structure=S_id
+	//
+	//
+	BEGINSTRUCT // Begin of structure=S_do
+  STRING12,"O_INVPWR2_06"  // Field=s_do_inveanble.name
+  		POINTER  // Field=s_do_inveanble.ps_output
+	ENDSTRUCT // End of structure=S_do
+	//
+	//
+	BEGINSTRUCT // Begin of structure=S_do
+   STRING12,"O_INVRES2_06"  // Field=s_do_invreset.name
+   		POINTER  // Field=s_do_invreset.ps_output
+	ENDSTRUCT // End of structure=S_do
+	//
+	//
+	BEGINSTRUCT // Begin of structure=S_ao
+   STRING12,"A_INVREF2_06"  // Field=s_ao_invref.name
+   	POINTER  // Field=s_ao_invref.ps_analog
+	ENDSTRUCT // End of structure=S_ao
+	//
+	//
+	BEGINSTRUCT // Begin of structure=S_wk_pbinv
+  		UCHAR  // Field=s_wk_pbinv.errorCode
+	ENDSTRUCT // End of structure=S_wk_pbinv
+	//	
+	//
+ENDSTRUCT // End of structure=S_pbinv
+//
+//
+BEGINSTRUCT // Begin of structure=S_pbinv
+ 	USHORT,63  // Field=id
+ STRING12,"SS006_TB03"  // Field=name
+ 	USHORT,1  // Field=enable
+	//
+	BEGINSTRUCT // Begin of structure=S_cfg_pbinv
+  		USHORT,1  // Field=s_cfg_pbinv.nBoard
+  		USHORT,61  // Field=s_cfg_pbinv.nModuleId
+  		USHORT,0  // Field=s_cfg_pbinv.nErrorOffset
+	ENDSTRUCT // End of structure=S_cfg_pbinv
+	//	
+  //
+	BEGINSTRUCT // Begin of structure=S_id
+  		USHORT  // Field=s_id_iomodulpb.id
+  		POINTER  // Field=s_id_iomodulpb.p_idrec
+	ENDSTRUCT // End of structure=S_id
+	//
+	//
+	BEGINSTRUCT // Begin of structure=S_do
+  STRING12,"O_INVPWR3_06"  // Field=s_do_inveanble.name
+  		POINTER  // Field=s_do_inveanble.ps_output
+	ENDSTRUCT // End of structure=S_do
+	//
+	//
+	BEGINSTRUCT // Begin of structure=S_do
+   STRING12,"O_INVRES3_06"  // Field=s_do_invreset.name
+   		POINTER  // Field=s_do_invreset.ps_output
+	ENDSTRUCT // End of structure=S_do
+	//
+	//
+	BEGINSTRUCT // Begin of structure=S_ao
+   STRING12,"A_INVREF3_06"  // Field=s_ao_invref.name
+   	POINTER  // Field=s_ao_invref.ps_analog
+	ENDSTRUCT // End of structure=S_ao
+	//
+	//
+	BEGINSTRUCT // Begin of structure=S_wk_pbinv
+  		UCHAR  // Field=s_wk_pbinv.errorCode
+	ENDSTRUCT // End of structure=S_wk_pbinv
+	//	
+	//
+ENDSTRUCT // End of structure=S_pbinv
+//
+//
+BEGINSTRUCT // Begin of structure=S_pbinv
+ 	USHORT,71  // Field=id
+ STRING12,"SS007_TB01"  // Field=name
+ 	USHORT,1  // Field=enable
+	//
+	BEGINSTRUCT // Begin of structure=S_cfg_pbinv
+  		USHORT,2  // Field=s_cfg_pbinv.nBoard
+  		USHORT,51  // Field=s_cfg_pbinv.nModuleId
+  		USHORT,0  // Field=s_cfg_pbinv.nErrorOffset
+	ENDSTRUCT // End of structure=S_cfg_pbinv
+	//	
+  //
+	BEGINSTRUCT // Begin of structure=S_id
+  		USHORT  // Field=s_id_iomodulpb.id
+  		POINTER  // Field=s_id_iomodulpb.p_idrec
+	ENDSTRUCT // End of structure=S_id
+	//
+	//
+	BEGINSTRUCT // Begin of structure=S_do
+  STRING12,"O_INVPWR1_07"  // Field=s_do_inveanble.name
+  		POINTER  // Field=s_do_inveanble.ps_output
+	ENDSTRUCT // End of structure=S_do
+	//
+	//
+	BEGINSTRUCT // Begin of structure=S_do
+   STRING12,"O_INVRES1_07"  // Field=s_do_invreset.name
+   		POINTER  // Field=s_do_invreset.ps_output
+	ENDSTRUCT // End of structure=S_do
+	//
+	//
+	BEGINSTRUCT // Begin of structure=S_ao
+   STRING12,"A_INVREF1_07"  // Field=s_ao_invref.name
+   	POINTER  // Field=s_ao_invref.ps_analog
+	ENDSTRUCT // End of structure=S_ao
+	//
+	//
+	BEGINSTRUCT // Begin of structure=S_wk_pbinv
+  		UCHAR  // Field=s_wk_pbinv.errorCode
+	ENDSTRUCT // End of structure=S_wk_pbinv
+	//	
+	//
+ENDSTRUCT // End of structure=S_pbinv
+//
+//
+BEGINSTRUCT // Begin of structure=S_pbinv
+ 	USHORT,72  // Field=id
+ STRING12,"SS007_TB02"  // Field=name
+ 	USHORT,1  // Field=enable
+	//
+	BEGINSTRUCT // Begin of structure=S_cfg_pbinv
+  		USHORT,2  // Field=s_cfg_pbinv.nBoard
+  		USHORT,51  // Field=s_cfg_pbinv.nModuleId
+  		USHORT,0  // Field=s_cfg_pbinv.nErrorOffset
+	ENDSTRUCT // End of structure=S_cfg_pbinv
+	//	
+  //
+	BEGINSTRUCT // Begin of structure=S_id
+  		USHORT  // Field=s_id_iomodulpb.id
+  		POINTER  // Field=s_id_iomodulpb.p_idrec
+	ENDSTRUCT // End of structure=S_id
+	//
+	//
+	BEGINSTRUCT // Begin of structure=S_do
+  STRING12,"O_INVPWR2_07"  // Field=s_do_inveanble.name
+  		POINTER  // Field=s_do_inveanble.ps_output
+	ENDSTRUCT // End of structure=S_do
+	//
+	//
+	BEGINSTRUCT // Begin of structure=S_do
+   STRING12,"O_INVRES2_07"  // Field=s_do_invreset.name
+   		POINTER  // Field=s_do_invreset.ps_output
+	ENDSTRUCT // End of structure=S_do
+	//
+	//
+	BEGINSTRUCT // Begin of structure=S_ao
+   STRING12,"A_INVREF2_07"  // Field=s_ao_invref.name
+   	POINTER  // Field=s_ao_invref.ps_analog
+	ENDSTRUCT // End of structure=S_ao
+	//
+	//
+	BEGINSTRUCT // Begin of structure=S_wk_pbinv
+  		UCHAR  // Field=s_wk_pbinv.errorCode
+	ENDSTRUCT // End of structure=S_wk_pbinv
+	//	
+	//
+ENDSTRUCT // End of structure=S_pbinv
+//
+//
+BEGINSTRUCT // Begin of structure=S_pbinv
+ 	USHORT,73  // Field=id
+ STRING12,"SS007_TB03"  // Field=name
+ 	USHORT,1  // Field=enable
+	//
+	BEGINSTRUCT // Begin of structure=S_cfg_pbinv
+  		USHORT,2  // Field=s_cfg_pbinv.nBoard
+  		USHORT,51  // Field=s_cfg_pbinv.nModuleId
+  		USHORT,0  // Field=s_cfg_pbinv.nErrorOffset
+	ENDSTRUCT // End of structure=S_cfg_pbinv
+	//	
+  //
+	BEGINSTRUCT // Begin of structure=S_id
+  		USHORT  // Field=s_id_iomodulpb.id
+  		POINTER  // Field=s_id_iomodulpb.p_idrec
+	ENDSTRUCT // End of structure=S_id
+	//
+	//
+	BEGINSTRUCT // Begin of structure=S_do
+  STRING12,"O_INVPWR3_07"  // Field=s_do_inveanble.name
+  		POINTER  // Field=s_do_inveanble.ps_output
+	ENDSTRUCT // End of structure=S_do
+	//
+	//
+	BEGINSTRUCT // Begin of structure=S_do
+   STRING12,"O_INVRES3_07"  // Field=s_do_invreset.name
+   		POINTER  // Field=s_do_invreset.ps_output
+	ENDSTRUCT // End of structure=S_do
+	//
+	//
+	BEGINSTRUCT // Begin of structure=S_ao
+   STRING12,"A_INVREF3_07"  // Field=s_ao_invref.name
+   	POINTER  // Field=s_ao_invref.ps_analog
+	ENDSTRUCT // End of structure=S_ao
+	//
+	//
+	BEGINSTRUCT // Begin of structure=S_wk_pbinv
+  		UCHAR  // Field=s_wk_pbinv.errorCode
+	ENDSTRUCT // End of structure=S_wk_pbinv
+	//	
+	//
+ENDSTRUCT // End of structure=S_pbinv
+//
+//
+BEGINSTRUCT // Begin of structure=S_pbinv
+ 	USHORT,81  // Field=id
+ STRING12,"SS008_TB01"  // Field=name
+ 	USHORT,1  // Field=enable
+	//
+	BEGINSTRUCT // Begin of structure=S_cfg_pbinv
+  		USHORT,2  // Field=s_cfg_pbinv.nBoard
+  		USHORT,53  // Field=s_cfg_pbinv.nModuleId
+  		USHORT,0  // Field=s_cfg_pbinv.nErrorOffset
+	ENDSTRUCT // End of structure=S_cfg_pbinv
+	//	
+  //
+	BEGINSTRUCT // Begin of structure=S_id
+  		USHORT  // Field=s_id_iomodulpb.id
+  		POINTER  // Field=s_id_iomodulpb.p_idrec
+	ENDSTRUCT // End of structure=S_id
+	//
+	//
+	BEGINSTRUCT // Begin of structure=S_do
+  STRING12,"O_INVPWR1_08"  // Field=s_do_inveanble.name
+  		POINTER  // Field=s_do_inveanble.ps_output
+	ENDSTRUCT // End of structure=S_do
+	//
+	//
+	BEGINSTRUCT // Begin of structure=S_do
+   STRING12,"O_INVRES1_08"  // Field=s_do_invreset.name
+   		POINTER  // Field=s_do_invreset.ps_output
+	ENDSTRUCT // End of structure=S_do
+	//
+	//
+	BEGINSTRUCT // Begin of structure=S_ao
+   STRING12,"A_INVREF1_08"  // Field=s_ao_invref.name
+   	POINTER  // Field=s_ao_invref.ps_analog
+	ENDSTRUCT // End of structure=S_ao
+	//
+	//
+	BEGINSTRUCT // Begin of structure=S_wk_pbinv
+  		UCHAR  // Field=s_wk_pbinv.errorCode
+	ENDSTRUCT // End of structure=S_wk_pbinv
+	//	
+	//
+ENDSTRUCT // End of structure=S_pbinv
+//
+//
+BEGINSTRUCT // Begin of structure=S_pbinv
+ 	USHORT,82  // Field=id
+ STRING12,"SS008_TB02"  // Field=name
+ 	USHORT,1  // Field=enable
+	//
+	BEGINSTRUCT // Begin of structure=S_cfg_pbinv
+  		USHORT,2  // Field=s_cfg_pbinv.nBoard
+  		USHORT,53  // Field=s_cfg_pbinv.nModuleId
+  		USHORT,0  // Field=s_cfg_pbinv.nErrorOffset
+	ENDSTRUCT // End of structure=S_cfg_pbinv
+	//	
+  //
+	BEGINSTRUCT // Begin of structure=S_id
+  		USHORT  // Field=s_id_iomodulpb.id
+  		POINTER  // Field=s_id_iomodulpb.p_idrec
+	ENDSTRUCT // End of structure=S_id
+	//
+	//
+	BEGINSTRUCT // Begin of structure=S_do
+  STRING12,"O_INVPWR2_08"  // Field=s_do_inveanble.name
+  		POINTER  // Field=s_do_inveanble.ps_output
+	ENDSTRUCT // End of structure=S_do
+	//
+	//
+	BEGINSTRUCT // Begin of structure=S_do
+   STRING12,"O_INVRES2_08"  // Field=s_do_invreset.name
+   		POINTER  // Field=s_do_invreset.ps_output
+	ENDSTRUCT // End of structure=S_do
+	//
+	//
+	BEGINSTRUCT // Begin of structure=S_ao
+   STRING12,"A_INVREF2_08"  // Field=s_ao_invref.name
+   	POINTER  // Field=s_ao_invref.ps_analog
+	ENDSTRUCT // End of structure=S_ao
+	//
+	//
+	BEGINSTRUCT // Begin of structure=S_wk_pbinv
+  		UCHAR  // Field=s_wk_pbinv.errorCode
+	ENDSTRUCT // End of structure=S_wk_pbinv
+	//	
+	//
+ENDSTRUCT // End of structure=S_pbinv
+//
+//
+BEGINSTRUCT // Begin of structure=S_pbinv
+ 	USHORT,83  // Field=id
+ STRING12,"SS008_TB03"  // Field=name
+ 	USHORT,1  // Field=enable
+	//
+	BEGINSTRUCT // Begin of structure=S_cfg_pbinv
+  		USHORT,2  // Field=s_cfg_pbinv.nBoard
+  		USHORT,53  // Field=s_cfg_pbinv.nModuleId
+  		USHORT,0  // Field=s_cfg_pbinv.nErrorOffset
+	ENDSTRUCT // End of structure=S_cfg_pbinv
+	//	
+  //
+	BEGINSTRUCT // Begin of structure=S_id
+  		USHORT  // Field=s_id_iomodulpb.id
+  		POINTER  // Field=s_id_iomodulpb.p_idrec
+	ENDSTRUCT // End of structure=S_id
+	//
+	//
+	BEGINSTRUCT // Begin of structure=S_do
+  STRING12,"O_INVPWR3_08"  // Field=s_do_inveanble.name
+  		POINTER  // Field=s_do_inveanble.ps_output
+	ENDSTRUCT // End of structure=S_do
+	//
+	//
+	BEGINSTRUCT // Begin of structure=S_do
+   STRING12,"O_INVRES3_08"  // Field=s_do_invreset.name
+   		POINTER  // Field=s_do_invreset.ps_output
+	ENDSTRUCT // End of structure=S_do
+	//
+	//
+	BEGINSTRUCT // Begin of structure=S_ao
+   STRING12,"A_INVREF3_08"  // Field=s_ao_invref.name
+   	POINTER  // Field=s_ao_invref.ps_analog
+	ENDSTRUCT // End of structure=S_ao
+	//
+	//
+	BEGINSTRUCT // Begin of structure=S_wk_pbinv
+  		UCHAR  // Field=s_wk_pbinv.errorCode
+	ENDSTRUCT // End of structure=S_wk_pbinv
+	//	
+	//
+ENDSTRUCT // End of structure=S_pbinv
+//
+//
+BEGINSTRUCT // Begin of structure=S_pbinv
+ 	USHORT,91  // Field=id
+ STRING12,"SS009_TB01"  // Field=name
+ 	USHORT,1  // Field=enable
+	//
+	BEGINSTRUCT // Begin of structure=S_cfg_pbinv
+  		USHORT,2  // Field=s_cfg_pbinv.nBoard
+  		USHORT,55  // Field=s_cfg_pbinv.nModuleId
+  		USHORT,0  // Field=s_cfg_pbinv.nErrorOffset
+	ENDSTRUCT // End of structure=S_cfg_pbinv
+	//	
+  //
+	BEGINSTRUCT // Begin of structure=S_id
+  		USHORT  // Field=s_id_iomodulpb.id
+  		POINTER  // Field=s_id_iomodulpb.p_idrec
+	ENDSTRUCT // End of structure=S_id
+	//
+	//
+	BEGINSTRUCT // Begin of structure=S_do
+  STRING12,"O_INVPWR1_09"  // Field=s_do_inveanble.name
+  		POINTER  // Field=s_do_inveanble.ps_output
+	ENDSTRUCT // End of structure=S_do
+	//
+	//
+	BEGINSTRUCT // Begin of structure=S_do
+   STRING12,"O_INVRES1_09"  // Field=s_do_invreset.name
+   		POINTER  // Field=s_do_invreset.ps_output
+	ENDSTRUCT // End of structure=S_do
+	//
+	//
+	BEGINSTRUCT // Begin of structure=S_ao
+   STRING12,"A_INVREF1_09"  // Field=s_ao_invref.name
+   	POINTER  // Field=s_ao_invref.ps_analog
+	ENDSTRUCT // End of structure=S_ao
+	//
+	//
+	BEGINSTRUCT // Begin of structure=S_wk_pbinv
+  		UCHAR  // Field=s_wk_pbinv.errorCode
+	ENDSTRUCT // End of structure=S_wk_pbinv
+	//	
+	//
+ENDSTRUCT // End of structure=S_pbinv
+//
+//
+BEGINSTRUCT // Begin of structure=S_pbinv
+ 	USHORT,92  // Field=id
+ STRING12,"SS009_TB02"  // Field=name
+ 	USHORT,1  // Field=enable
+	//
+	BEGINSTRUCT // Begin of structure=S_cfg_pbinv
+  		USHORT,2  // Field=s_cfg_pbinv.nBoard
+  		USHORT,55  // Field=s_cfg_pbinv.nModuleId
+  		USHORT,0  // Field=s_cfg_pbinv.nErrorOffset
+	ENDSTRUCT // End of structure=S_cfg_pbinv
+	//	
+  //
+	BEGINSTRUCT // Begin of structure=S_id
+  		USHORT  // Field=s_id_iomodulpb.id
+  		POINTER  // Field=s_id_iomodulpb.p_idrec
+	ENDSTRUCT // End of structure=S_id
+	//
+	//
+	BEGINSTRUCT // Begin of structure=S_do
+  STRING12,"O_INVPWR2_09"  // Field=s_do_inveanble.name
+  		POINTER  // Field=s_do_inveanble.ps_output
+	ENDSTRUCT // End of structure=S_do
+	//
+	//
+	BEGINSTRUCT // Begin of structure=S_do
+   STRING12,"O_INVRES2_09"  // Field=s_do_invreset.name
+   		POINTER  // Field=s_do_invreset.ps_output
+	ENDSTRUCT // End of structure=S_do
+	//
+	//
+	BEGINSTRUCT // Begin of structure=S_ao
+   STRING12,"A_INVREF2_09"  // Field=s_ao_invref.name
+   	POINTER  // Field=s_ao_invref.ps_analog
+	ENDSTRUCT // End of structure=S_ao
+	//
+	//
+	BEGINSTRUCT // Begin of structure=S_wk_pbinv
+  		UCHAR  // Field=s_wk_pbinv.errorCode
+	ENDSTRUCT // End of structure=S_wk_pbinv
+	//	
+	//
+ENDSTRUCT // End of structure=S_pbinv
+//
+//
+BEGINSTRUCT // Begin of structure=S_pbinv
+ 	USHORT,93  // Field=id
+ STRING12,"SS009_TB03"  // Field=name
+ 	USHORT,1  // Field=enable
+	//
+	BEGINSTRUCT // Begin of structure=S_cfg_pbinv
+  		USHORT,2  // Field=s_cfg_pbinv.nBoard
+  		USHORT,55  // Field=s_cfg_pbinv.nModuleId
+  		USHORT,0  // Field=s_cfg_pbinv.nErrorOffset
+	ENDSTRUCT // End of structure=S_cfg_pbinv
+	//	
+  //
+	BEGINSTRUCT // Begin of structure=S_id
+  		USHORT  // Field=s_id_iomodulpb.id
+  		POINTER  // Field=s_id_iomodulpb.p_idrec
+	ENDSTRUCT // End of structure=S_id
+	//
+	//
+	BEGINSTRUCT // Begin of structure=S_do
+  STRING12,"O_INVPWR3_09"  // Field=s_do_inveanble.name
+  		POINTER  // Field=s_do_inveanble.ps_output
+	ENDSTRUCT // End of structure=S_do
+	//
+	//
+	BEGINSTRUCT // Begin of structure=S_do
+   STRING12,"O_INVRES3_09"  // Field=s_do_invreset.name
+   		POINTER  // Field=s_do_invreset.ps_output
+	ENDSTRUCT // End of structure=S_do
+	//
+	//
+	BEGINSTRUCT // Begin of structure=S_ao
+   STRING12,"A_INVREF3_09"  // Field=s_ao_invref.name
+   	POINTER  // Field=s_ao_invref.ps_analog
+	ENDSTRUCT // End of structure=S_ao
+	//
+	//
+	BEGINSTRUCT // Begin of structure=S_wk_pbinv
+  		UCHAR  // Field=s_wk_pbinv.errorCode
+	ENDSTRUCT // End of structure=S_wk_pbinv
+	//	
+	//
+ENDSTRUCT // End of structure=S_pbinv
+//
+//
+BEGINSTRUCT // Begin of structure=S_pbinv
+ 	USHORT,101  // Field=id
+ STRING12,"SS010_TB01"  // Field=name
+ 	USHORT,1  // Field=enable
+	//
+	BEGINSTRUCT // Begin of structure=S_cfg_pbinv
+  		USHORT,2  // Field=s_cfg_pbinv.nBoard
+  		USHORT,57  // Field=s_cfg_pbinv.nModuleId
+  		USHORT,0  // Field=s_cfg_pbinv.nErrorOffset
+	ENDSTRUCT // End of structure=S_cfg_pbinv
+	//	
+  //
+	BEGINSTRUCT // Begin of structure=S_id
+  		USHORT  // Field=s_id_iomodulpb.id
+  		POINTER  // Field=s_id_iomodulpb.p_idrec
+	ENDSTRUCT // End of structure=S_id
+	//
+	//
+	BEGINSTRUCT // Begin of structure=S_do
+  STRING12,"O_INVPWR1_10"  // Field=s_do_inveanble.name
+  		POINTER  // Field=s_do_inveanble.ps_output
+	ENDSTRUCT // End of structure=S_do
+	//
+	//
+	BEGINSTRUCT // Begin of structure=S_do
+   STRING12,"O_INVRES1_10"  // Field=s_do_invreset.name
+   		POINTER  // Field=s_do_invreset.ps_output
+	ENDSTRUCT // End of structure=S_do
+	//
+	//
+	BEGINSTRUCT // Begin of structure=S_ao
+   STRING12,"A_INVREF1_10"  // Field=s_ao_invref.name
+   	POINTER  // Field=s_ao_invref.ps_analog
+	ENDSTRUCT // End of structure=S_ao
+	//
+	//
+	BEGINSTRUCT // Begin of structure=S_wk_pbinv
+  		UCHAR  // Field=s_wk_pbinv.errorCode
+	ENDSTRUCT // End of structure=S_wk_pbinv
+	//	
+	//
+ENDSTRUCT // End of structure=S_pbinv
+//
+//
+BEGINSTRUCT // Begin of structure=S_pbinv
+ 	USHORT,102  // Field=id
+ STRING12,"SS010_TB02"  // Field=name
+ 	USHORT,1  // Field=enable
+	//
+	BEGINSTRUCT // Begin of structure=S_cfg_pbinv
+  		USHORT,2  // Field=s_cfg_pbinv.nBoard
+  		USHORT,57  // Field=s_cfg_pbinv.nModuleId
+  		USHORT,0  // Field=s_cfg_pbinv.nErrorOffset
+	ENDSTRUCT // End of structure=S_cfg_pbinv
+	//	
+  //
+	BEGINSTRUCT // Begin of structure=S_id
+  		USHORT  // Field=s_id_iomodulpb.id
+  		POINTER  // Field=s_id_iomodulpb.p_idrec
+	ENDSTRUCT // End of structure=S_id
+	//
+	//
+	BEGINSTRUCT // Begin of structure=S_do
+  STRING12,"O_INVPWR2_10"  // Field=s_do_inveanble.name
+  		POINTER  // Field=s_do_inveanble.ps_output
+	ENDSTRUCT // End of structure=S_do
+	//
+	//
+	BEGINSTRUCT // Begin of structure=S_do
+   STRING12,"O_INVRES2_10"  // Field=s_do_invreset.name
+   		POINTER  // Field=s_do_invreset.ps_output
+	ENDSTRUCT // End of structure=S_do
+	//
+	//
+	BEGINSTRUCT // Begin of structure=S_ao
+   STRING12,"A_INVREF2_10"  // Field=s_ao_invref.name
+   	POINTER  // Field=s_ao_invref.ps_analog
+	ENDSTRUCT // End of structure=S_ao
+	//
+	//
+	BEGINSTRUCT // Begin of structure=S_wk_pbinv
+  		UCHAR  // Field=s_wk_pbinv.errorCode
+	ENDSTRUCT // End of structure=S_wk_pbinv
+	//	
+	//
+ENDSTRUCT // End of structure=S_pbinv
+//
+//
+BEGINSTRUCT // Begin of structure=S_pbinv
+ 	USHORT,111  // Field=id
+ STRING12,"SS011_TB01"  // Field=name
+ 	USHORT,1  // Field=enable
+	//
+	BEGINSTRUCT // Begin of structure=S_cfg_pbinv
+  		USHORT,2  // Field=s_cfg_pbinv.nBoard
+  		USHORT,59  // Field=s_cfg_pbinv.nModuleId
+  		USHORT,0  // Field=s_cfg_pbinv.nErrorOffset
+	ENDSTRUCT // End of structure=S_cfg_pbinv
+	//	
+  //
+	BEGINSTRUCT // Begin of structure=S_id
+  		USHORT  // Field=s_id_iomodulpb.id
+  		POINTER  // Field=s_id_iomodulpb.p_idrec
+	ENDSTRUCT // End of structure=S_id
+	//
+	//
+	BEGINSTRUCT // Begin of structure=S_do
+  STRING12,"O_INVPWR1_11"  // Field=s_do_inveanble.name
+  		POINTER  // Field=s_do_inveanble.ps_output
+	ENDSTRUCT // End of structure=S_do
+	//
+	//
+	BEGINSTRUCT // Begin of structure=S_do
+   STRING12,"O_INVRES1_11"  // Field=s_do_invreset.name
+   		POINTER  // Field=s_do_invreset.ps_output
+	ENDSTRUCT // End of structure=S_do
+	//
+	//
+	BEGINSTRUCT // Begin of structure=S_ao
+   STRING12,"A_INVREF1_11"  // Field=s_ao_invref.name
+   	POINTER  // Field=s_ao_invref.ps_analog
+	ENDSTRUCT // End of structure=S_ao
+	//
+	//
+	BEGINSTRUCT // Begin of structure=S_wk_pbinv
+  		UCHAR  // Field=s_wk_pbinv.errorCode
+	ENDSTRUCT // End of structure=S_wk_pbinv
+	//	
+	//
+ENDSTRUCT // End of structure=S_pbinv
+//
+//
+BEGINSTRUCT // Begin of structure=S_pbinv
+ 	USHORT,112  // Field=id
+ STRING12,"SS011_TB02"  // Field=name
+ 	USHORT,1  // Field=enable
+	//
+	BEGINSTRUCT // Begin of structure=S_cfg_pbinv
+  		USHORT,2  // Field=s_cfg_pbinv.nBoard
+  		USHORT,59  // Field=s_cfg_pbinv.nModuleId
+  		USHORT,0  // Field=s_cfg_pbinv.nErrorOffset
+	ENDSTRUCT // End of structure=S_cfg_pbinv
+	//	
+  //
+	BEGINSTRUCT // Begin of structure=S_id
+  		USHORT  // Field=s_id_iomodulpb.id
+  		POINTER  // Field=s_id_iomodulpb.p_idrec
+	ENDSTRUCT // End of structure=S_id
+	//
+	//
+	BEGINSTRUCT // Begin of structure=S_do
+  STRING12,"O_INVPWR2_11"  // Field=s_do_inveanble.name
+  		POINTER  // Field=s_do_inveanble.ps_output
+	ENDSTRUCT // End of structure=S_do
+	//
+	//
+	BEGINSTRUCT // Begin of structure=S_do
+   STRING12,"O_INVRES2_11"  // Field=s_do_invreset.name
+   		POINTER  // Field=s_do_invreset.ps_output
+	ENDSTRUCT // End of structure=S_do
+	//
+	//
+	BEGINSTRUCT // Begin of structure=S_ao
+   STRING12,"A_INVREF2_11"  // Field=s_ao_invref.name
+   	POINTER  // Field=s_ao_invref.ps_analog
+	ENDSTRUCT // End of structure=S_ao
+	//
+	//
+	BEGINSTRUCT // Begin of structure=S_wk_pbinv
+  		UCHAR  // Field=s_wk_pbinv.errorCode
+	ENDSTRUCT // End of structure=S_wk_pbinv
+	//	
+	//
+ENDSTRUCT // End of structure=S_pbinv
+//

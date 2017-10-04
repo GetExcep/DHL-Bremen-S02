@@ -1,0 +1,29 @@
+//
+//S_testlamp
+//
+TABLE_TYPE: 0
+//
+MAXTABLE
+//
+TABLE
+//
+//
+BEGINSTRUCT // Begin of structure=S_testlamp
+  //
+    BEGINSTRUCT // Begin of structure=S_do
+      	CHAR[12] // Field=s_do_lamp.name
+      	POINTER // Field=s_do_lamp.ps_output
+    ENDSTRUCT // End of structure=S_do
+  //
+	//	
+    BEGINSTRUCT // Begin of structure=S_di
+      	CHAR[12] // Field=s_di_pb.name
+      	POINTER // Field=s_di_pb.ps_input
+    ENDSTRUCT // End of structure=S_di
+  //
+ENDSTRUCT // End of structure=S_testlamp
+//
+//
+ENDTABLE
+//
+

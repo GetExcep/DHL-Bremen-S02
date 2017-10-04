@@ -1,0 +1,113 @@
+Fields -> 7 
+Record -> 1 
+Id-> 13 
+Type required (yes/no)->False
+Progressive DI signal->I_PRIOTY_13
+Data ready DI signal->I_DATARDY_13
+PLC reset ack DI signal-> 
+Data received DO signal-> 
+Reset to PLC DO signal->O_DATARES_13
+Record -> 2 
+Id-> 1 
+Type required (yes/no)->False
+Progressive DI signal->I_PRIOTY_01
+Data ready DI signal->I_DATARDY_01
+PLC reset ack DI signal->
+Data received DO signal->
+Reset to PLC DO signal->O_DATARES_01
+Record -> 3 
+Id-> 2 
+Type required (yes/no)->False
+Progressive DI signal->I_PRIOTY_02
+Data ready DI signal->I_DATARDY_02
+PLC reset ack DI signal->
+Data received DO signal->
+Reset to PLC DO signal->O_DATARES_02
+Record -> 4 
+Id-> 3 
+Type required (yes/no)->False
+Progressive DI signal->I_PRIOTY_03
+Data ready DI signal->I_DATARDY_03
+PLC reset ack DI signal->
+Data received DO signal->
+Reset to PLC DO signal->O_DATARES_03
+Record -> 5 
+Id-> 4 
+Type required (yes/no)->False
+Progressive DI signal->I_PRIOTY_04
+Data ready DI signal->I_DATARDY_04
+PLC reset ack DI signal->
+Data received DO signal->
+Reset to PLC DO signal->O_DATARES_04
+Record -> 6 
+Id-> 5 
+Type required (yes/no)->False
+Progressive DI signal->I_PRIOTY_05
+Data ready DI signal->I_DATARDY_05
+PLC reset ack DI signal->
+Data received DO signal->
+Reset to PLC DO signal->O_DATARES_05
+Record -> 7 
+Id-> 6 
+Type required (yes/no)->False
+Progressive DI signal->I_PRIOTY_06
+Data ready DI signal->I_DATARDY_06
+PLC reset ack DI signal->
+Data received DO signal->
+Reset to PLC DO signal->O_DATARES_06
+Record -> 8 
+Id-> 7 
+Type required (yes/no)->False
+Progressive DI signal->I_PRIOTY_07
+Data ready DI signal->I_DATARDY_07
+PLC reset ack DI signal->
+Data received DO signal->
+Reset to PLC DO signal->O_DATARES_07
+Record -> 9 
+Id-> 8 
+Type required (yes/no)->False
+Progressive DI signal->I_PRIOTY_08
+Data ready DI signal->I_DATARDY_08
+PLC reset ack DI signal->
+Data received DO signal->
+Reset to PLC DO signal->O_DATARES_08
+Record -> 10 
+Id-> 9 
+Type required (yes/no)->False
+Progressive DI signal->I_PRIOTY_09
+Data ready DI signal->I_DATARDY_09
+PLC reset ack DI signal->
+Data received DO signal->
+Reset to PLC DO signal->O_DATARES_09
+Record -> 11 
+Id-> 10 
+Type required (yes/no)->False
+Progressive DI signal->I_PRIOTY_10
+Data ready DI signal->I_DATARDY_10
+PLC reset ack DI signal-> 
+Data received DO signal-> 
+Reset to PLC DO signal->O_DATARES_10
+Record -> 12 
+Id-> 12 
+Type required (yes/no)->False
+Progressive DI signal->I_PRIOTY_12
+Data ready DI signal->I_DATARDY_12
+PLC reset ack DI signal-> 
+Data received DO signal-> 
+Reset to PLC DO signal->O_DATARES_12
+Record -> 13 
+Id-> 14 
+Type required (yes/no)->False
+Progressive DI signal->I_PRIOTY_14
+Data ready DI signal->I_DATARDY_14
+PLC reset ack DI signal-> 
+Data received DO signal-> 
+Reset to PLC DO signal->O_DATARES_14
+Record -> 14 
+Id-> 11 
+Type required (yes/no)->False
+Progressive DI signal->I_PRIOTY_11
+Data ready DI signal->I_DATARDY_11
+PLC reset ack DI signal-> 
+Data received DO signal-> 
+Reset to PLC DO signal->O_DATARES_11

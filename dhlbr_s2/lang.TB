@@ -1,0 +1,126 @@
+//
+//S_lang
+//
+TABLE_TYPE: 0
+//
+MAXTABLE:1
+//
+TABLE
+//
+//
+BEGINSTRUCT // Begin of structure=S_lang
+  STRING4  // Field=lang
+  USHORT  // Field=enabled
+  USHORT  // Field=load_status
+  STRING80  // Field=sysname
+    //
+    BEGINSTRUCT // Begin of structure=S_mem
+      ULONG  // Field=s_mem_file.numele
+      POINTER  // Field=s_mem_file.ini_ptr
+      POINTER  // Field=s_mem_file.wk_ptr
+    ENDSTRUCT // End of structure=S_mem
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_mem
+      ULONG  // Field=s_mem_pgrerr.numele
+      POINTER  // Field=s_mem_pgrerr.ini_ptr
+      POINTER  // Field=s_mem_pgrerr.wk_ptr
+    ENDSTRUCT // End of structure=S_mem
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_mem
+      ULONG  // Field=s_mem_exterr.numele
+      POINTER  // Field=s_mem_exterr.ini_ptr
+      POINTER  // Field=s_mem_exterr.wk_ptr
+    ENDSTRUCT // End of structure=S_mem
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_mem
+      ULONG  // Field=s_mem_devtable.numele
+      POINTER  // Field=s_mem_devtable.ini_ptr
+      POINTER  // Field=s_mem_devtable.wk_ptr
+    ENDSTRUCT // End of structure=S_mem
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_mem
+      ULONG  // Field=s_mem_menuoffset.numele
+      POINTER  // Field=s_mem_menuoffset.ini_ptr
+      POINTER  // Field=s_mem_menuoffset.wk_ptr
+    ENDSTRUCT // End of structure=S_mem
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_mem
+      ULONG  // Field=s_mem_dialboxoffset.numele
+      POINTER  // Field=s_mem_dialboxoffset.ini_ptr
+      POINTER  // Field=s_mem_dialboxoffset.wk_ptr
+    ENDSTRUCT // End of structure=S_mem
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_mem
+      ULONG  // Field=s_mem_fkeytable.numele
+      POINTER  // Field=s_mem_fkeytable.ini_ptr
+      POINTER  // Field=s_mem_fkeytable.wk_ptr
+    ENDSTRUCT // End of structure=S_mem
+    //
+ENDSTRUCT // End of structure=S_lang
+//
+//
+ENDTABLE
+//
+//
+BEGINSTRUCT // Begin of structure=S_lang
+  STRING4,"ENG"  // Field=lang
+  USHORT,1  // Field=enabled
+  USHORT  // Field=load_status
+  STRING80  // Field=sysname
+    //
+    BEGINSTRUCT // Begin of structure=S_mem
+      ULONG  // Field=s_mem_file.numele
+      POINTER  // Field=s_mem_file.ini_ptr
+      POINTER  // Field=s_mem_file.wk_ptr
+    ENDSTRUCT // End of structure=S_mem
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_mem
+      ULONG  // Field=s_mem_pgrerr.numele
+      POINTER  // Field=s_mem_pgrerr.ini_ptr
+      POINTER  // Field=s_mem_pgrerr.wk_ptr
+    ENDSTRUCT // End of structure=S_mem
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_mem
+      ULONG  // Field=s_mem_exterr.numele
+      POINTER  // Field=s_mem_exterr.ini_ptr
+      POINTER  // Field=s_mem_exterr.wk_ptr
+    ENDSTRUCT // End of structure=S_mem
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_mem
+      ULONG  // Field=s_mem_devtable.numele
+      POINTER  // Field=s_mem_devtable.ini_ptr
+      POINTER  // Field=s_mem_devtable.wk_ptr
+    ENDSTRUCT // End of structure=S_mem
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_mem
+      ULONG  // Field=s_mem_menuoffset.numele
+      POINTER  // Field=s_mem_menuoffset.ini_ptr
+      POINTER  // Field=s_mem_menuoffset.wk_ptr
+    ENDSTRUCT // End of structure=S_mem
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_mem
+      ULONG  // Field=s_mem_dialboxoffset.numele
+      POINTER  // Field=s_mem_dialboxoffset.ini_ptr
+      POINTER  // Field=s_mem_dialboxoffset.wk_ptr
+    ENDSTRUCT // End of structure=S_mem
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_mem
+      ULONG  // Field=s_mem_fkeytable.numele
+      POINTER  // Field=s_mem_fkeytable.ini_ptr
+      POINTER  // Field=s_mem_fkeytable.wk_ptr
+    ENDSTRUCT // End of structure=S_mem
+    //
+ENDSTRUCT // End of structure=S_lang
+//

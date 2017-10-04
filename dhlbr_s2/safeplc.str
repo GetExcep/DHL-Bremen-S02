@@ -1,0 +1,219 @@
+//
+//S_safeplc
+//
+TABLE_TYPE: 0
+//
+MAXTABLE
+//
+TABLE
+//
+//
+BEGINSTRUCT // Begin of structure=S_safeplc
+	//
+	USHORT  // Field=id
+  
+  //
+  BEGINSTRUCT // Begin of structure=S_ai
+	CHAR[12] // Field=s_ai_counter.name
+	POINTER // Field=s_ai_counter.ps_ainput
+  ENDSTRUCT // End of structure=S_ai
+  //
+  //
+  BEGINSTRUCT // Begin of structure=S_ao
+    CHAR[12] // Field=s_ao_counter.name
+    POINTER // Field=s_ao_counter.ps_aoutput
+  ENDSTRUCT // End of structure=S_ao
+  //  
+  //
+  BEGINSTRUCT // Begin of structure=S_ao
+    CHAR[12] // Field=s_ao_speed.name
+    POINTER // Field=s_ao_speed.ps_aoutput
+  ENDSTRUCT // End of structure=S_ao
+  //
+  CHAR[12] // Field=phenc_pre  
+  //
+  BEGINSTRUCT // Begin of structure=S_do
+    CHAR[12] // Field=s_do_phencst[0].name
+    POINTER // Field=s_do_phencst[0].ps_output
+  ENDSTRUCT // End of structure=S_do
+  // 
+  //
+  BEGINSTRUCT // Begin of structure=S_do
+    CHAR[12] // Field=s_do_phencst[1].name
+    POINTER // Field=s_do_phencst[1].ps_output
+  ENDSTRUCT // End of structure=S_do
+  //
+  //
+  BEGINSTRUCT // Begin of structure=S_do
+    CHAR[12] // Field=s_do_phencst[2].name
+    POINTER // Field=s_do_phencst[2].ps_output
+  ENDSTRUCT // End of structure=S_do
+  //  
+  //
+  BEGINSTRUCT // Begin of structure=S_do
+    CHAR[12] // Field=s_do_phencst[3].name
+    POINTER // Field=s_do_phencst[3].ps_output
+  ENDSTRUCT // End of structure=S_do
+  //
+  //
+  BEGINSTRUCT // Begin of structure=S_do
+    CHAR[12] // Field=s_do_phencst[4].name
+    POINTER // Field=s_do_phencst[4].ps_output
+  ENDSTRUCT // End of structure=S_do
+  //
+  //
+  BEGINSTRUCT // Begin of structure=S_do
+    CHAR[12] // Field=s_do_phencst[5].name
+    POINTER // Field=s_do_phencst[5].ps_output
+  ENDSTRUCT // End of structure=S_do
+  //
+  //
+  BEGINSTRUCT // Begin of structure=S_do
+    CHAR[12] // Field=s_do_phencst[6].name
+    POINTER // Field=s_do_phencst[6].ps_output
+  ENDSTRUCT // End of structure=S_do
+  //
+  //
+  BEGINSTRUCT // Begin of structure=S_do
+    CHAR[12] // Field=s_do_phencst[7].name
+    POINTER // Field=s_do_phencst[7].ps_output
+  ENDSTRUCT // End of structure=S_do
+  //
+  //
+  BEGINSTRUCT // Begin of structure=S_do
+    CHAR[12] // Field=s_do_phencst[8].name
+    POINTER // Field=s_do_phencst[8].ps_output
+  ENDSTRUCT // End of structure=S_do
+  //
+  //
+  BEGINSTRUCT // Begin of structure=S_do
+    CHAR[12] // Field=s_do_phencst[9].name
+    POINTER // Field=s_do_phencst[9].ps_output
+  ENDSTRUCT // End of structure=S_do
+  //
+  //
+  BEGINSTRUCT // Begin of structure=S_do
+    CHAR[12] // Field=s_do_phencst[10].name
+    POINTER // Field=s_do_phencst[10].ps_output
+  ENDSTRUCT // End of structure=S_do
+  //
+  //
+  BEGINSTRUCT // Begin of structure=S_do
+    CHAR[12] // Field=s_do_phencst[11].name
+    POINTER // Field=s_do_phencst[11].ps_output
+  ENDSTRUCT // End of structure=S_do
+  //
+  //
+  BEGINSTRUCT // Begin of structure=S_do
+    CHAR[12] // Field=s_do_phencst[12].name
+    POINTER // Field=s_do_phencst[12].ps_output
+  ENDSTRUCT // End of structure=S_do
+  //
+  //
+  BEGINSTRUCT // Begin of structure=S_do
+    CHAR[12] // Field=s_do_phencst[13].name
+    POINTER // Field=s_do_phencst[13].ps_output
+  ENDSTRUCT // End of structure=S_do
+  //
+  //
+  BEGINSTRUCT // Begin of structure=S_do
+    CHAR[12] // Field=s_do_phencst[14].name
+    POINTER // Field=s_do_phencst[14].ps_output
+  ENDSTRUCT // End of structure=S_do
+  //
+  //
+  BEGINSTRUCT // Begin of structure=S_do
+    CHAR[12] // Field=s_do_phencst[15].name
+    POINTER // Field=s_do_phencst[15].ps_output
+  ENDSTRUCT // End of structure=S_do
+  //
+  //
+  BEGINSTRUCT // Begin of structure=S_do
+    CHAR[12] // Field=s_do_phencst[16].name
+    POINTER // Field=s_do_phencst[16].ps_output
+  ENDSTRUCT // End of structure=S_do
+  //
+  //
+  BEGINSTRUCT // Begin of structure=S_do
+    CHAR[12] // Field=s_do_phencst[17].name
+    POINTER // Field=s_do_phencst[17].ps_output
+  ENDSTRUCT // End of structure=S_do
+  //
+  //
+  BEGINSTRUCT // Begin of structure=S_do
+    CHAR[12] // Field=s_do_phencst[18].name
+    POINTER // Field=s_do_phencst[18].ps_output
+  ENDSTRUCT // End of structure=S_do
+  //
+  //
+  BEGINSTRUCT // Begin of structure=S_do
+    CHAR[12] // Field=s_do_phencst[19].name
+    POINTER // Field=s_do_phencst[19].ps_output
+  ENDSTRUCT // End of structure=S_do
+  //
+  //
+  BEGINSTRUCT // Begin of structure=S_do
+    CHAR[12] // Field=s_do_automode.name
+    POINTER // Field=s_do_automode.ps_output
+  ENDSTRUCT // End of structure=S_do
+  //
+  //
+  BEGINSTRUCT // Begin of structure=S_do
+    CHAR[12] // Field=s_do_maintenance.name
+    POINTER // Field=s_do_maintenance.ps_output
+  ENDSTRUCT // End of structure=S_do
+  //
+  //
+  BEGINSTRUCT // Begin of structure=S_do
+    CHAR[12] // Field=s_do_vel1.name
+    POINTER // Field=s_do_vel1.ps_output
+  ENDSTRUCT // End of structure=S_do
+  //
+  //
+  BEGINSTRUCT // Begin of structure=S_do
+    CHAR[12] // Field=s_do_vel2.name
+    POINTER // Field=s_do_vel2.ps_output
+  ENDSTRUCT // End of structure=S_do
+  //
+  //
+  BEGINSTRUCT // Begin of structure=S_do
+    CHAR[12] // Field=s_do_vel3.name
+    POINTER // Field=s_do_vel3.ps_output
+  ENDSTRUCT // End of structure=S_do
+  //  
+  //
+  BEGINSTRUCT // Begin of structure=S_do
+    CHAR[12] // Field=s_do_scrun.name
+    POINTER // Field=s_do_scrun.ps_output
+  ENDSTRUCT // End of structure=S_do
+  // 
+  //
+  BEGINSTRUCT // Begin of structure=S_do
+    CHAR[12] // Field=s_do_scstop.name
+    POINTER // Field=s_do_scstop.ps_output
+  ENDSTRUCT // End of structure=S_do
+  //
+   //
+  BEGINSTRUCT // Begin of structure=S_do
+    CHAR[12] // Field=s_do_alive.name
+    POINTER // Field=s_do_alive.ps_output
+  ENDSTRUCT // End of structure=S_do
+  //
+  //
+  BEGINSTRUCT // Begin of structure=S_di
+    CHAR[12] // Field=s_di_hbfault.name
+    POINTER // Field=s_di_hbfault.ps_input
+  ENDSTRUCT // End of structure=S_di
+  //
+  //
+	BEGINSTRUCT // Begin of structure=S_failure
+	  UCHAR // Field=s_failure.physical
+	  UCHAR // Field=s_failure.logical
+	ENDSTRUCT // End of structure=S_failure
+	//  
+  //
+ENDSTRUCT // End of structure=S_safeplc
+//
+//
+ENDTABLE
+//

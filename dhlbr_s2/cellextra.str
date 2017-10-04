@@ -1,0 +1,93 @@
+//
+//S_cellextra
+//
+TABLE_TYPE: 0
+//
+MAXTABLE
+//
+TABLE
+//
+//
+BEGINSTRUCT // Begin of structure=S_cellextra
+  USHORT // Field=id
+    //
+    BEGINSTRUCT // Begin of structure=S_parc_ext
+      USHORT // Field=s_parc_ext.valid
+      ULONG // Field=s_parc_ext.parcid_SC
+      ULONG // Field=s_parc_ext.parcid_dMFS
+      USHORT // Field=s_parc_ext.priority_algo
+      USHORT // Field=s_parc_ext.dest_index
+      USHORT // Field=s_parc_ext.n_destination
+      USHORT // Field=s_parc_ext.destination[0]
+      USHORT // Field=s_parc_ext.destination[1]
+      USHORT // Field=s_parc_ext.destination[2]
+      USHORT // Field=s_parc_ext.destination[3]
+      USHORT // Field=s_parc_ext.destination[4]
+      USHORT // Field=s_parc_ext.destination[5]
+      USHORT // Field=s_parc_ext.destination[6]
+      USHORT // Field=s_parc_ext.destination[7]
+      USHORT // Field=s_parc_ext.destination[8]
+      USHORT // Field=s_parc_ext.destination[9]
+      USHORT // Field=s_parc_ext.device
+      USHORT // Field=s_parc_ext.dev_id
+      ULONG // Field=s_parc_ext.event_time
+      ULONG // Field=s_parc_ext.event_time_ms
+      UCHAR // Field=s_parc_ext.request_type
+      UCHAR // Field=s_parc_ext.sort_dest_from_MFR
+    ENDSTRUCT // End of structure=S_parc_ext
+    //
+	 BEGINSTRUCT // Begin of structure=S_cell_info_ph
+      USHORT // Field=s_cell_info_ph[0].id
+      USHORT // Field=s_cell_info_ph[0].correction
+    ENDSTRUCT // End of structure=S_cell_info_ph
+	//
+	 BEGINSTRUCT // Begin of structure=S_cell_info_ph
+      USHORT // Field=s_cell_info_ph[1].id
+      USHORT // Field=s_cell_info_ph[1].correction
+    ENDSTRUCT // End of structure=S_cell_info_ph
+	//
+	 BEGINSTRUCT // Begin of structure=S_cell_info_ph
+      USHORT // Field=s_cell_info_ph[2].id
+      USHORT // Field=s_cell_info_ph[2].correction
+    ENDSTRUCT // End of structure=S_cell_info_ph
+	//
+	 BEGINSTRUCT // Begin of structure=S_cell_info_ph
+      USHORT // Field=s_cell_info_ph[3].id
+      USHORT // Field=s_cell_info_ph[3].correction
+    ENDSTRUCT // End of structure=S_cell_info_ph
+	//
+	 BEGINSTRUCT // Begin of structure=S_cell_info_ph
+      USHORT // Field=s_cell_info_ph[4].id
+      USHORT // Field=s_cell_info_ph[4].correction
+    ENDSTRUCT // End of structure=S_cell_info_ph
+	//
+	 BEGINSTRUCT // Begin of structure=S_cell_info_ph
+      USHORT // Field=s_cell_info_ph[5].id
+      USHORT // Field=s_cell_info_ph[5].correction
+    ENDSTRUCT // End of structure=S_cell_info_ph
+	//
+	 BEGINSTRUCT // Begin of structure=S_cell_info_ph
+      USHORT // Field=s_cell_info_ph[6].id
+      USHORT // Field=s_cell_info_ph[6].correction
+    ENDSTRUCT // End of structure=S_cell_info_ph
+	//
+	 BEGINSTRUCT // Begin of structure=S_cell_info_ph
+      USHORT // Field=s_cell_info_ph[7].id
+      USHORT // Field=s_cell_info_ph[7].correction
+    ENDSTRUCT // End of structure=S_cell_info_ph
+	//
+	 BEGINSTRUCT // Begin of structure=S_cell_info_ph
+      USHORT // Field=s_cell_info_ph[8].id
+      USHORT // Field=s_cell_info_ph[8].correction
+    ENDSTRUCT // End of structure=S_cell_info_ph
+	//
+	 BEGINSTRUCT // Begin of structure=S_cell_info_ph
+      USHORT // Field=s_cell_info_ph[9].id
+      USHORT // Field=s_cell_info_ph[9].correction
+    ENDSTRUCT // End of structure=S_cell_info_ph
+	//
+ENDSTRUCT // End of structure=S_cellextra
+//
+//
+ENDTABLE
+//

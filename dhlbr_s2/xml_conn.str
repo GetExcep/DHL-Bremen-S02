@@ -1,0 +1,53 @@
+//
+//S_xml_conn
+//
+TABLE_TYPE: 0
+//
+MAXTABLE
+//
+TABLE
+//
+//
+BEGINSTRUCT // Begin of structure=S_xml_conn
+  USHORT // Field=id
+  CHAR[12] // Field=name
+  USHORT // Field=enable
+  CHAR[11] // Field=SC_DCI_name
+  CHAR[11] // Field=WCS_DCI_name
+  USHORT // Field=connection_type
+  USHORT // Field=primary_secondary
+    //
+    BEGINSTRUCT // Begin of structure=S_tm
+      USHORT // Field=s_tm_heartbeat.base
+      ULONG // Field=s_tm_heartbeat.preset
+      POINTER // Field=s_tm_heartbeat.ps_timer
+    ENDSTRUCT // End of structure=S_tm
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_state
+      SHORT // Field=s_state.trace
+      SHORT // Field=s_state.init
+      LONG // Field=s_state.state
+      LONG // Field=s_state.previous_state
+      LONG // Field=s_state.next_state
+      LONG // Field=s_state.substate
+      CHAR[40] // Field=s_state.des_state
+      CHAR[40] // Field=s_state.des_prevstate
+    ENDSTRUCT // End of structure=S_state
+    //
+    //
+    BEGINSTRUCT // Begin of structure=S_id_token
+      CHAR[16] // Field=s_id_token_mbx_xmlconn.name
+      USHORT // Field=s_id_token_mbx_xmlconn.id
+    ENDSTRUCT // End of structure=S_id_token
+    //
+  POINTER // Field=ps_network
+  ULONG // Field=last_msg_sent
+  ULONG // Field=last_msg_in
+  POINTER // Field=p_msg_from_SC
+  POINTER // Field=p_msg_from_WCS
+ENDSTRUCT // End of structure=S_xml_conn
+//
+//
+ENDTABLE
+//

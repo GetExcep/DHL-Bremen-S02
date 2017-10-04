@@ -1,0 +1,15 @@
+//
+// MFR alarm table
+//
+TableName="mfr_alr"
+//
+Field="dev",DB_INTEGER
+Field="dev_id",DB_INTEGER
+Field="alr_id",DB_INTEGER
+Field="msgnr",DB_LONG
+Field="AKZ_suffix",DB_TEXT,20
+Field="MessageClass",DB_TEXT,20
+Field="MessageToken",DB_TEXT,40
+//
+Index="dev","+dev;+dev_id;+alr_id",yes,yes,yes
+  

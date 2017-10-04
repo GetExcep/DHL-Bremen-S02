@@ -1,0 +1,22 @@
+//
+//S_xml_int
+//
+TABLE_TYPE: 0
+//
+MAXTABLE
+//
+TABLE
+//
+//
+BEGINSTRUCT // Begin of structure=S_xml_int
+  USHORT // Field=sorter_id
+  USHORT // Field=enabled
+  USHORT // Field=debug_function
+  CHAR[60] // Field=XML_schema
+  CHAR[10] // Field=XML_version
+  USHORT // Field=stray_parcel_cnt
+ENDSTRUCT // End of structure=S_xml_int
+//
+//
+ENDTABLE
+//

@@ -1,0 +1,9 @@
+//
+// ISC extra datatable
+//
+TableName="iscextra"
+//
+Field="Id",DB_INTEGER
+
+//
+Index="Id","+Id",yes,yes

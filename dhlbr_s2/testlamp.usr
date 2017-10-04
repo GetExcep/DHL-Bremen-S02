@@ -1,0 +1,9 @@
+//
+// testlamp table
+//
+TableName="testlamp"
+//
+Field="DO Lamp name",DB_TEXT,12
+Field="DI PB name",DB_TEXT,12
+//
+Index="DO Lamp name","+DO Lamp name",no,yes

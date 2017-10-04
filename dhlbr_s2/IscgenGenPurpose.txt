@@ -1,0 +1,32 @@
+Iscgen General Purpose
+Double Deck Sorter
+Induction Station on the second level
+Load parcel without data on a double cell (if possible)
+CHUTEREQ requested on the CB
+Do not load items on LB during initialization
+Do not load items without dimension data
+Initialization with reverse flush 
+Automatic alarm reset with autostart
+Use both transfer counter and PH on the IS belts
+Consider AS busy when at least 2 PHs are obscured
+Do not pulse lamp for double loading
+Handle ALLIGATOR
+Fail is next ISCGEN fail
+Not used
+Stop always on OLB
+TBTRACK stretch every parcel
+BIT 16
+BIT 17
+BIT 18
+BIT 19
+BIT 20
+BIT 21
+BIT 22
+BIT 23: Additinal info to UPSTR
+BIT 24: Speed up TBOB if following belt are free
+BIT 25: no belt init after flush
+BIT 26: slow down for item too close
+BIT 27: (BB) reset unexpected trasf_dw
+BIT 28: Upstream Data valid on DataReady change 
+BIT 29: Auto reset only after fault on OB
+BIT 30: Enable reverse on JOG

@@ -1,0 +1,28 @@
+//
+// CELL extra datatable
+//
+TableName="cellextra"
+//
+Field="Id",DB_INTEGER
+Field="01-Control Id",DB_INTEGER
+Field="01-Control correction 1-delay 2-anticipate",DB_INTEGER
+Field="02-Control Id",DB_INTEGER
+Field="02-Control correction 1-delay 2-anticipate",DB_INTEGER
+Field="03-Control Id",DB_INTEGER
+Field="03-Control correction 1-delay 2-anticipate",DB_INTEGER
+Field="04-Control Id",DB_INTEGER
+Field="04-Control correction 1-delay 2-anticipate",DB_INTEGER
+Field="05-Control Id",DB_INTEGER
+Field="05-Control correction 1-delay 2-anticipate",DB_INTEGER
+Field="06-Control Id",DB_INTEGER
+Field="06-Control correction 1-delay 2-anticipate",DB_INTEGER
+Field="07-Control Id",DB_INTEGER
+Field="07-Control correction 1-delay 2-anticipate",DB_INTEGER
+Field="08-Control Id",DB_INTEGER
+Field="08-Control correction 1-delay 2-anticipate",DB_INTEGER
+Field="09-Control Id",DB_INTEGER
+Field="09-Control correction 1-delay 2-anticipate",DB_INTEGER
+Field="10-Control Id",DB_INTEGER
+Field="10-Control correction 1-delay 2-anticipate",DB_INTEGER
+//
+Index="Id","+Id",yes,yes

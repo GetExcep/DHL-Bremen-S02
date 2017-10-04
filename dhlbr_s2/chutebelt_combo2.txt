@@ -1,0 +1,8 @@
+//
+//Belt table: combo list State Transition State definition type
+//
+NO_DISPLAY=0,
+DISPLAY_STATE=1
+DISPLAY_STATE_AND_NORMAL=2
+DISPLAY_STATE_AND_DETAIL=3
+DISPLAY_EXTRA_DATA=4

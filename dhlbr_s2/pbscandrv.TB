@@ -1,0 +1,176 @@
+//
+// S_pbScanDrv
+//
+TABLE_TYPE: 0
+//
+MAXTABLE:1
+//
+TABLE
+//
+//
+BEGINSTRUCT // Begin of structure=S_pbScanDrv
+	//
+ 	USHORT  // Field=id
+ 	STRING12  // Field=name
+ 	USHORT  // Field=enable
+	//
+	BEGINSTRUCT // Begin of structure=S_cfg_pbScanDrv	
+           	        USHORT  // Field=s_cfg_pbScanDrv.nDevice
+  		USHORT  // Field=s_cfg_pbScanDrv.ScanType
+  		USHORT  // Field=s_cfg_pbScanDrv.nBoard
+  		USHORT  // Field=s_cfg_pbScanDrv.nModuleId
+  		USHORT  // Field=s_cfg_pbScanDrv.nSubModuleId
+  		USHORT  // Field=s_cfg_pbScanDrv.nTimeToReady
+  		USHORT  // Field=s_cfg_pbScanDrv.Timeout
+  		USHORT  // Field=s_cfg_pbScanDrv.max_barcode_len
+  		USHORT  // Field=s_cfg_pbScanDrv.max_telegram_len
+  		USHORT  // Field=s_cfg_pbScanDrv.nIndexLen
+   	  USHORT  // Field=s_cfg_pbScanDrv.debug_function
+   	  ULONG  // Field=s_cfg_pbScanDrv.GenPurposeLong
+	ENDSTRUCT // End of structure=S_cfg_pbScanDrv
+	//
+  BEGINSTRUCT // Begin of structure=S_di_reading
+        STRING12  // Field=s_di_reading.name
+        POINTER  // Field=s_di_reading.ps_input
+  ENDSTRUCT // End of structure=S_di_reading
+ 	//
+ 	//
+  BEGINSTRUCT // Begin of structure=S_di_running
+        STRING12  // Field=s_di_running.name
+        POINTER  // Field=s_di_running.ps_input
+  ENDSTRUCT // End of structure=S_di_running
+ 	//
+ 	//
+  BEGINSTRUCT // Begin of structure=S_di_mode
+        STRING12  // Field=s_di_mode.name
+        POINTER  // Field=s_di_mode.ps_input
+  ENDSTRUCT // End of structure=S_di_mode
+ 	//
+ 	//
+  BEGINSTRUCT // Begin of structure=S_do_failure
+         STRING12  // Field=s_do_failure.name
+         POINTER  // Field=s_do_failure.ps_input
+  ENDSTRUCT // End of structure=S_do_mode_failure
+ 	//
+  	//
+  BEGINSTRUCT // Begin of structure=S_id_iomodulpb
+        USHORT  // Field=s_id_iomodulpb.id
+        POINTER  // Field=s_id_iomodulpb.p_idrec
+  ENDSTRUCT // End of structure=S_id_iomodulpb
+	//
+  	//
+  BEGINSTRUCT // Begin of structure=S_id_iosubmpb
+        USHORT  // Field=s_id_iosubmpb.id
+        POINTER  // Field=s_id_iosubmpb.p_idrec
+  ENDSTRUCT // End of structure=S_id_iosubmpb
+	//	
+	//
+  BEGINSTRUCT // Begin of structure=S_id_scanloop
+        USHORT  // Field=s_id_scanloop.id
+        POINTER  // Field=s_id_scanloop.p_idrec
+  ENDSTRUCT // End of structure=S_id_scanloop
+ 	//
+	//
+  BEGINSTRUCT // Begin of structure=S_tm
+       	USHORT 	  // Field=s_tm_heartbeat.base
+       	ULONG 	  // Field=s_tm_heartbeat.preset
+       	POINTER  // Field=s_tm_heartbeat.ps_timer
+  ENDSTRUCT // End of structure=S_tm
+    	//
+    	//
+  BEGINSTRUCT // Begin of structure=S_wk_pbScanDrv
+       	USHORT  // Field=s_wk_pbScanDrv.state
+       	ULONG  // Field=s_wk_pbScanDrv.lIndexValue         
+       	UCHAR  // Field=s_wk_pbScanDrv.last_rec
+       	UCHAR  // Field=s_wk_pbScanDrv.last_send
+       	UCHAR  // Field=s_wk_pbScanDrv.init_message
+       	UCHAR  // Field=s_wk_pbScanDrv.heartbeat_control
+  ENDSTRUCT // End of structure=S_wk_pbScanDrv
+  	//	
+ENDSTRUCT // End of structure=S_pbScanDrv
+//
+//
+ENDTABLE
+//
+//
+BEGINSTRUCT // Begin of structure=S_pbScanDrv
+	//
+ 	USHORT,1  // Field=id
+ 	STRING12,"PBSCANDRV_01"  // Field=name
+ 	USHORT,1  // Field=enable
+	//
+	BEGINSTRUCT // Begin of structure=S_cfg_pbScanDrv	
+           	        USHORT,1  // Field=s_cfg_pbScanDrv.nDevice
+  		USHORT,2  // Field=s_cfg_pbScanDrv.ScanType
+  		USHORT,1  // Field=s_cfg_pbScanDrv.nBoard
+  		USHORT,14  // Field=s_cfg_pbScanDrv.nModuleId
+  		USHORT,1  // Field=s_cfg_pbScanDrv.nSubModuleId
+  		USHORT,2  // Field=s_cfg_pbScanDrv.nTimeToReady
+  		USHORT,5  // Field=s_cfg_pbScanDrv.Timeout
+  		USHORT,7  // Field=s_cfg_pbScanDrv.max_barcode_len
+  		USHORT,7  // Field=s_cfg_pbScanDrv.max_telegram_len
+  		USHORT,0  // Field=s_cfg_pbScanDrv.nIndexLen
+   	  USHORT,0  // Field=s_cfg_pbScanDrv.debug_function
+   	  ULONG,19  // Field=s_cfg_pbScanDrv.GenPurposeLong
+	ENDSTRUCT // End of structure=S_cfg_pbScanDrv
+	//
+  BEGINSTRUCT // Begin of structure=S_di_reading
+        STRING12,"I_VSCSYTR_01"  // Field=s_di_reading.name
+        POINTER  // Field=s_di_reading.ps_input
+  ENDSTRUCT // End of structure=S_di_reading
+ 	//
+ 	//
+  BEGINSTRUCT // Begin of structure=S_di_running
+        STRING12  // Field=s_di_running.name
+        POINTER  // Field=s_di_running.ps_input
+  ENDSTRUCT // End of structure=S_di_running
+ 	//
+ 	//
+  BEGINSTRUCT // Begin of structure=S_di_mode
+        STRING12  // Field=s_di_mode.name
+        POINTER  // Field=s_di_mode.ps_input
+  ENDSTRUCT // End of structure=S_di_mode
+ 	//
+ 	//
+  BEGINSTRUCT // Begin of structure=S_do_failure
+         STRING12,"O_SCSYF_01"  // Field=s_do_failure.name
+         POINTER  // Field=s_do_failure.ps_input
+  ENDSTRUCT // End of structure=S_do_mode_failure
+ 	//
+  	//
+  BEGINSTRUCT // Begin of structure=S_id_iomodulpb
+        USHORT  // Field=s_id_iomodulpb.id
+        POINTER  // Field=s_id_iomodulpb.p_idrec
+  ENDSTRUCT // End of structure=S_id_iomodulpb
+	//
+  	//
+  BEGINSTRUCT // Begin of structure=S_id_iosubmpb
+        USHORT  // Field=s_id_iosubmpb.id
+        POINTER  // Field=s_id_iosubmpb.p_idrec
+  ENDSTRUCT // End of structure=S_id_iosubmpb
+	//	
+	//
+  BEGINSTRUCT // Begin of structure=S_id_scanloop
+        USHORT  // Field=s_id_scanloop.id
+        POINTER  // Field=s_id_scanloop.p_idrec
+  ENDSTRUCT // End of structure=S_id_scanloop
+ 	//
+	//
+  BEGINSTRUCT // Begin of structure=S_tm
+       	USHORT 	  // Field=s_tm_heartbeat.base
+       	ULONG 	  // Field=s_tm_heartbeat.preset
+       	POINTER  // Field=s_tm_heartbeat.ps_timer
+  ENDSTRUCT // End of structure=S_tm
+    	//
+    	//
+  BEGINSTRUCT // Begin of structure=S_wk_pbScanDrv
+       	USHORT  // Field=s_wk_pbScanDrv.state
+       	ULONG  // Field=s_wk_pbScanDrv.lIndexValue         
+       	UCHAR  // Field=s_wk_pbScanDrv.last_rec
+       	UCHAR  // Field=s_wk_pbScanDrv.last_send
+       	UCHAR  // Field=s_wk_pbScanDrv.init_message
+       	UCHAR  // Field=s_wk_pbScanDrv.heartbeat_control
+  ENDSTRUCT // End of structure=S_wk_pbScanDrv
+  	//	
+ENDSTRUCT // End of structure=S_pbScanDrv
+//

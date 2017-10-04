@@ -1,0 +1,6 @@
+//
+//Scanqueue table
+//
+Field="scanner_id"
+Field="n_parc_waiting"
+Field="timeout"

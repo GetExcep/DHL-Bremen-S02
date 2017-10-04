@@ -1,0 +1,9 @@
+//
+// UPST extra datatable
+//
+TableName="upstextra"
+//
+Field="Id",DB_INTEGER
+
+//
+Index="Id","+Id",yes,yes

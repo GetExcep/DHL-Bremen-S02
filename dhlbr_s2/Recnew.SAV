@@ -1,0 +1,649 @@
+Fields -> 53 
+Record -> 1 
+Id-> 1 
+Name->RECENT_ST_01
+Status->True
+Reccentering Station EP coordinate-> 18382 
+Cell of delay before to do the recentering-> 2 
+Normal Recentering Station->NORM_REC_01
+Normal Recentering Station Status->False
+Ph4 name->
+Ph5 name->
+Ph6 name->
+Ph7 name->
+Short correction: Ph4 or Ph6 busy-> 50 
+Long correction: PH5 or Ph7 busy-> 100 
+Cross Recentering Station->X_REC_01
+Cross Recentering Station Status->False
+Minimum movement for the Cross (mm)-> 50 
+Number of PhRec-> 0 
+PhRec1 name->
+PhRec2 name->
+PhRec3 name->
+PhRec4 name->
+PhRec5 name->
+PhRec6 name->
+PhRec7 name->
+PhRec8 name->
+PhRec1 to right cell side distance-> 0 
+PhRec2 to right cell side distance-> 0 
+PhRec3 to right cell side distance-> 0 
+PhRec4 to right cell side distance-> 0 
+PhRec5 to right cell side distance-> 0 
+PhRec6 to right cell side distance-> 0 
+PhRec7 to right cell side distance-> 0 
+PhRec8 to right cell side distance-> 0 
+Ph1 Recentering Station->PH1_REC_01
+Ph1 Recentering Station Status->True
+PH1 functions-> 51 
+Ph1 photoeye name->I_RECPH1_01
+Weight of each hole on the top shield-> 1 
+Weight of each hole on the top shield 2-> 1 
+Weight of each hole on the top shield 3-> 1 
+Relevant reject chute-> 11308 
+1 Starting weight (g)-> 0 
+1 Max weight (g)-> 0 
+1 Starting_correction (mm)-> 0 
+1 Max correction (mm)-> 0 
+2 Starting weight (g)-> 0 
+2 Max weight (g)-> 0 
+2 Starting_correction (mm)-> 0 
+2 Max correction (mm)-> 0 
+3 Starting weight (g)-> 0 
+3 Max weight (g)-> 0 
+3 Starting_correction (mm)-> 0 
+3 Max correction (mm)-> 0 
+Record -> 2 
+Id-> 2 
+Name->RECENT_ST_02
+Status->True
+Reccentering Station EP coordinate-> 18947 
+Cell of delay before to do the recentering-> 2 
+Normal Recentering Station->NORM_REC_02
+Normal Recentering Station Status->False
+Ph4 name->
+Ph5 name->
+Ph6 name->
+Ph7 name->
+Short correction: Ph4 or Ph6 busy-> 50 
+Long correction: PH5 or Ph7 busy-> 100 
+Cross Recentering Station->X_REC_02
+Cross Recentering Station Status->False
+Minimum movement for the Cross (mm)-> 50 
+Number of PhRec-> 0 
+PhRec1 name->
+PhRec2 name->
+PhRec3 name->
+PhRec4 name->
+PhRec5 name->
+PhRec6 name->
+PhRec7 name->
+PhRec8 name->
+PhRec1 to right cell side distance-> 0 
+PhRec2 to right cell side distance-> 0 
+PhRec3 to right cell side distance-> 0 
+PhRec4 to right cell side distance-> 0 
+PhRec5 to right cell side distance-> 0 
+PhRec6 to right cell side distance-> 0 
+PhRec7 to right cell side distance-> 0 
+PhRec8 to right cell side distance-> 0 
+Ph1 Recentering Station->PH1_REC_02
+Ph1 Recentering Station Status->True
+PH1 functions-> 51 
+Ph1 photoeye name->I_RECPH1_02
+Weight of each hole on the top shield-> 1 
+Weight of each hole on the top shield 2-> 1 
+Weight of each hole on the top shield 3-> 1 
+Relevant reject chute-> 11308 
+1 Starting weight (g)-> 0 
+1 Max weight (g)-> 0 
+1 Starting_correction (mm)-> 0 
+1 Max correction (mm)-> 0 
+2 Starting weight (g)-> 0 
+2 Max weight (g)-> 0 
+2 Starting_correction (mm)-> 0 
+2 Max correction (mm)-> 0 
+3 Starting weight (g)-> 0 
+3 Max weight (g)-> 0 
+3 Starting_correction (mm)-> 0 
+3 Max correction (mm)-> 0 
+Record -> 3 
+Id-> 3 
+Name->RECENT_ST_03
+Status->True
+Reccentering Station EP coordinate-> 362 
+Cell of delay before to do the recentering-> 2 
+Normal Recentering Station->NORM_REC_03
+Normal Recentering Station Status->False
+Ph4 name->
+Ph5 name->
+Ph6 name->
+Ph7 name->
+Short correction: Ph4 or Ph6 busy-> 50 
+Long correction: PH5 or Ph7 busy-> 100 
+Cross Recentering Station->X_REC_03
+Cross Recentering Station Status->False
+Minimum movement for the Cross (mm)-> 50 
+Number of PhRec-> 0 
+PhRec1 name->
+PhRec2 name->
+PhRec3 name->
+PhRec4 name->
+PhRec5 name->
+PhRec6 name->
+PhRec7 name->
+PhRec8 name->
+PhRec1 to right cell side distance-> 0 
+PhRec2 to right cell side distance-> 0 
+PhRec3 to right cell side distance-> 0 
+PhRec4 to right cell side distance-> 0 
+PhRec5 to right cell side distance-> 0 
+PhRec6 to right cell side distance-> 0 
+PhRec7 to right cell side distance-> 0 
+PhRec8 to right cell side distance-> 0 
+Ph1 Recentering Station->PH1_REC_03
+Ph1 Recentering Station Status->True
+PH1 functions-> 51 
+Ph1 photoeye name->I_RECPH1_03
+Weight of each hole on the top shield-> 1 
+Weight of each hole on the top shield 2-> 1 
+Weight of each hole on the top shield 3-> 1 
+Relevant reject chute-> 11308 
+1 Starting weight (g)-> 0 
+1 Max weight (g)-> 0 
+1 Starting_correction (mm)-> 0 
+1 Max correction (mm)-> 0 
+2 Starting weight (g)-> 0 
+2 Max weight (g)-> 0 
+2 Starting_correction (mm)-> 0 
+2 Max correction (mm)-> 0 
+3 Starting weight (g)-> 0 
+3 Max weight (g)-> 0 
+3 Starting_correction (mm)-> 0 
+3 Max correction (mm)-> 0 
+Record -> 4 
+Id-> 4 
+Name->RECENT_ST_04
+Status->True
+Reccentering Station EP coordinate-> 907 
+Cell of delay before to do the recentering-> 2 
+Normal Recentering Station->NORM_REC_04
+Normal Recentering Station Status->False
+Ph4 name->
+Ph5 name->
+Ph6 name->
+Ph7 name->
+Short correction: Ph4 or Ph6 busy-> 50 
+Long correction: PH5 or Ph7 busy-> 100 
+Cross Recentering Station->X_REC_04
+Cross Recentering Station Status->False
+Minimum movement for the Cross (mm)-> 50 
+Number of PhRec-> 0 
+PhRec1 name->
+PhRec2 name->
+PhRec3 name->
+PhRec4 name->
+PhRec5 name->
+PhRec6 name->
+PhRec7 name->
+PhRec8 name->
+PhRec1 to right cell side distance-> 0 
+PhRec2 to right cell side distance-> 0 
+PhRec3 to right cell side distance-> 0 
+PhRec4 to right cell side distance-> 0 
+PhRec5 to right cell side distance-> 0 
+PhRec6 to right cell side distance-> 0 
+PhRec7 to right cell side distance-> 0 
+PhRec8 to right cell side distance-> 0 
+Ph1 Recentering Station->PH1_REC_04
+Ph1 Recentering Station Status->True
+PH1 functions-> 51 
+Ph1 photoeye name->I_RECPH1_04
+Weight of each hole on the top shield-> 1 
+Weight of each hole on the top shield 2-> 1 
+Weight of each hole on the top shield 3-> 1 
+Relevant reject chute-> 11308 
+1 Starting weight (g)-> 0 
+1 Max weight (g)-> 0 
+1 Starting_correction (mm)-> 0 
+1 Max correction (mm)-> 0 
+2 Starting weight (g)-> 0 
+2 Max weight (g)-> 0 
+2 Starting_correction (mm)-> 0 
+2 Max correction (mm)-> 0 
+3 Starting weight (g)-> 0 
+3 Max weight (g)-> 0 
+3 Starting_correction (mm)-> 0 
+3 Max correction (mm)-> 0 
+Record -> 5 
+Id-> 5 
+Name->RECENT_ST_05
+Status->True
+Reccentering Station EP coordinate-> 1206 
+Cell of delay before to do the recentering-> 2 
+Normal Recentering Station->NORM_REC_05
+Normal Recentering Station Status->False
+Ph4 name->
+Ph5 name->
+Ph6 name->
+Ph7 name->
+Short correction: Ph4 or Ph6 busy-> 50 
+Long correction: PH5 or Ph7 busy-> 100 
+Cross Recentering Station->X_REC_05
+Cross Recentering Station Status->False
+Minimum movement for the Cross (mm)-> 50 
+Number of PhRec-> 0 
+PhRec1 name->
+PhRec2 name->
+PhRec3 name->
+PhRec4 name->
+PhRec5 name->
+PhRec6 name->
+PhRec7 name->
+PhRec8 name->
+PhRec1 to right cell side distance-> 0 
+PhRec2 to right cell side distance-> 0 
+PhRec3 to right cell side distance-> 0 
+PhRec4 to right cell side distance-> 0 
+PhRec5 to right cell side distance-> 0 
+PhRec6 to right cell side distance-> 0 
+PhRec7 to right cell side distance-> 0 
+PhRec8 to right cell side distance-> 0 
+Ph1 Recentering Station->PH1_REC_05
+Ph1 Recentering Station Status->True
+PH1 functions-> 51 
+Ph1 photoeye name->I_RECPH1_05
+Weight of each hole on the top shield-> 1 
+Weight of each hole on the top shield 2-> 1 
+Weight of each hole on the top shield 3-> 1 
+Relevant reject chute-> 11308 
+1 Starting weight (g)-> 0 
+1 Max weight (g)-> 0 
+1 Starting_correction (mm)-> 0 
+1 Max correction (mm)-> 0 
+2 Starting weight (g)-> 0 
+2 Max weight (g)-> 0 
+2 Starting_correction (mm)-> 0 
+2 Max correction (mm)-> 0 
+3 Starting weight (g)-> 0 
+3 Max weight (g)-> 0 
+3 Starting_correction (mm)-> 0 
+3 Max correction (mm)-> 0 
+Record -> 6 
+Id-> 7 
+Name->RECENT_ST_07
+Status->True
+Reccentering Station EP coordinate-> 1742 
+Cell of delay before to do the recentering-> 2 
+Normal Recentering Station->NORM_REC_07
+Normal Recentering Station Status->False
+Ph4 name->
+Ph5 name->
+Ph6 name->
+Ph7 name->
+Short correction: Ph4 or Ph6 busy-> 50 
+Long correction: PH5 or Ph7 busy-> 100 
+Cross Recentering Station->X_REC_07
+Cross Recentering Station Status->False
+Minimum movement for the Cross (mm)-> 50 
+Number of PhRec-> 0 
+PhRec1 name->
+PhRec2 name->
+PhRec3 name->
+PhRec4 name->
+PhRec5 name->
+PhRec6 name->
+PhRec7 name->
+PhRec8 name->
+PhRec1 to right cell side distance-> 0 
+PhRec2 to right cell side distance-> 0 
+PhRec3 to right cell side distance-> 0 
+PhRec4 to right cell side distance-> 0 
+PhRec5 to right cell side distance-> 0 
+PhRec6 to right cell side distance-> 0 
+PhRec7 to right cell side distance-> 0 
+PhRec8 to right cell side distance-> 0 
+Ph1 Recentering Station->PH1_REC_07
+Ph1 Recentering Station Status->True
+PH1 functions-> 51 
+Ph1 photoeye name->I_RECPH1_07
+Weight of each hole on the top shield-> 1 
+Weight of each hole on the top shield 2-> 1 
+Weight of each hole on the top shield 3-> 1 
+Relevant reject chute-> 11308 
+1 Starting weight (g)-> 0 
+1 Max weight (g)-> 0 
+1 Starting_correction (mm)-> 0 
+1 Max correction (mm)-> 0 
+2 Starting weight (g)-> 0 
+2 Max weight (g)-> 0 
+2 Starting_correction (mm)-> 0 
+2 Max correction (mm)-> 0 
+3 Starting weight (g)-> 0 
+3 Max weight (g)-> 0 
+3 Starting_correction (mm)-> 0 
+3 Max correction (mm)-> 0 
+Record -> 7 
+Id-> 12 
+Name->RECENT_ST_12
+Status->True
+Reccentering Station EP coordinate-> 9280 
+Cell of delay before to do the recentering-> 2 
+Normal Recentering Station->NORM_REC_12
+Normal Recentering Station Status->False
+Ph4 name->
+Ph5 name->
+Ph6 name->
+Ph7 name->
+Short correction: Ph4 or Ph6 busy-> 50 
+Long correction: PH5 or Ph7 busy-> 100 
+Cross Recentering Station->X_REC_12
+Cross Recentering Station Status->False
+Minimum movement for the Cross (mm)-> 50 
+Number of PhRec-> 0 
+PhRec1 name->
+PhRec2 name->
+PhRec3 name->
+PhRec4 name->
+PhRec5 name->
+PhRec6 name->
+PhRec7 name->
+PhRec8 name->
+PhRec1 to right cell side distance-> 0 
+PhRec2 to right cell side distance-> 0 
+PhRec3 to right cell side distance-> 0 
+PhRec4 to right cell side distance-> 0 
+PhRec5 to right cell side distance-> 0 
+PhRec6 to right cell side distance-> 0 
+PhRec7 to right cell side distance-> 0 
+PhRec8 to right cell side distance-> 0 
+Ph1 Recentering Station->PH1_REC_12
+Ph1 Recentering Station Status->True
+PH1 functions-> 51 
+Ph1 photoeye name->I_RECPH1_12
+Weight of each hole on the top shield-> 1 
+Weight of each hole on the top shield 2-> 1 
+Weight of each hole on the top shield 3-> 1 
+Relevant reject chute-> 11308 
+1 Starting weight (g)-> 0 
+1 Max weight (g)-> 0 
+1 Starting_correction (mm)-> 0 
+1 Max correction (mm)-> 0 
+2 Starting weight (g)-> 0 
+2 Max weight (g)-> 0 
+2 Starting_correction (mm)-> 0 
+2 Max correction (mm)-> 0 
+3 Starting weight (g)-> 0 
+3 Max weight (g)-> 0 
+3 Starting_correction (mm)-> 0 
+3 Max correction (mm)-> 0 
+Record -> 8 
+Id-> 13 
+Name->RECENT_ST_13
+Status->True
+Reccentering Station EP coordinate-> 9573 
+Cell of delay before to do the recentering-> 2 
+Normal Recentering Station->NORM_REC_13
+Normal Recentering Station Status->False
+Ph4 name->
+Ph5 name->
+Ph6 name->
+Ph7 name->
+Short correction: Ph4 or Ph6 busy-> 50 
+Long correction: PH5 or Ph7 busy-> 100 
+Cross Recentering Station->X_REC_13
+Cross Recentering Station Status->False
+Minimum movement for the Cross (mm)-> 50 
+Number of PhRec-> 0 
+PhRec1 name->
+PhRec2 name->
+PhRec3 name->
+PhRec4 name->
+PhRec5 name->
+PhRec6 name->
+PhRec7 name->
+PhRec8 name->
+PhRec1 to right cell side distance-> 0 
+PhRec2 to right cell side distance-> 0 
+PhRec3 to right cell side distance-> 0 
+PhRec4 to right cell side distance-> 0 
+PhRec5 to right cell side distance-> 0 
+PhRec6 to right cell side distance-> 0 
+PhRec7 to right cell side distance-> 0 
+PhRec8 to right cell side distance-> 0 
+Ph1 Recentering Station->PH1_REC_13
+Ph1 Recentering Station Status->True
+PH1 functions-> 51 
+Ph1 photoeye name->I_RECPH1_13
+Weight of each hole on the top shield-> 1 
+Weight of each hole on the top shield 2-> 1 
+Weight of each hole on the top shield 3-> 1 
+Relevant reject chute-> 11308 
+1 Starting weight (g)-> 0 
+1 Max weight (g)-> 0 
+1 Starting_correction (mm)-> 0 
+1 Max correction (mm)-> 0 
+2 Starting weight (g)-> 0 
+2 Max weight (g)-> 0 
+2 Starting_correction (mm)-> 0 
+2 Max correction (mm)-> 0 
+3 Starting weight (g)-> 0 
+3 Max weight (g)-> 0 
+3 Starting_correction (mm)-> 0 
+3 Max correction (mm)-> 0 
+Record -> 9 
+Id-> 14 
+Name->RECENT_ST_14
+Status->True
+Reccentering Station EP coordinate-> 9715 
+Cell of delay before to do the recentering-> 2 
+Normal Recentering Station->NORM_REC_14
+Normal Recentering Station Status->False
+Ph4 name->
+Ph5 name->
+Ph6 name->
+Ph7 name->
+Short correction: Ph4 or Ph6 busy-> 50 
+Long correction: PH5 or Ph7 busy-> 100 
+Cross Recentering Station->X_REC_14
+Cross Recentering Station Status->False
+Minimum movement for the Cross (mm)-> 50 
+Number of PhRec-> 0 
+PhRec1 name->
+PhRec2 name->
+PhRec3 name->
+PhRec4 name->
+PhRec5 name->
+PhRec6 name->
+PhRec7 name->
+PhRec8 name->
+PhRec1 to right cell side distance-> 0 
+PhRec2 to right cell side distance-> 0 
+PhRec3 to right cell side distance-> 0 
+PhRec4 to right cell side distance-> 0 
+PhRec5 to right cell side distance-> 0 
+PhRec6 to right cell side distance-> 0 
+PhRec7 to right cell side distance-> 0 
+PhRec8 to right cell side distance-> 0 
+Ph1 Recentering Station->PH1_REC_14
+Ph1 Recentering Station Status->True
+PH1 functions-> 51 
+Ph1 photoeye name->I_RECPH1_14
+Weight of each hole on the top shield-> 1 
+Weight of each hole on the top shield 2-> 1 
+Weight of each hole on the top shield 3-> 1 
+Relevant reject chute-> 11308 
+1 Starting weight (g)-> 0 
+1 Max weight (g)-> 0 
+1 Starting_correction (mm)-> 0 
+1 Max correction (mm)-> 0 
+2 Starting weight (g)-> 0 
+2 Max weight (g)-> 0 
+2 Starting_correction (mm)-> 0 
+2 Max correction (mm)-> 0 
+3 Starting weight (g)-> 0 
+3 Max weight (g)-> 0 
+3 Starting_correction (mm)-> 0 
+3 Max correction (mm)-> 0 
+Record -> 10 
+Id-> 15 
+Name->RECENT_ST_15
+Status->True
+Reccentering Station EP coordinate-> 9999 
+Cell of delay before to do the recentering-> 2 
+Normal Recentering Station->NORM_REC_15
+Normal Recentering Station Status->False
+Ph4 name->
+Ph5 name->
+Ph6 name->
+Ph7 name->
+Short correction: Ph4 or Ph6 busy-> 50 
+Long correction: PH5 or Ph7 busy-> 100 
+Cross Recentering Station->X_REC_15
+Cross Recentering Station Status->False
+Minimum movement for the Cross (mm)-> 50 
+Number of PhRec-> 0 
+PhRec1 name->
+PhRec2 name->
+PhRec3 name->
+PhRec4 name->
+PhRec5 name->
+PhRec6 name->
+PhRec7 name->
+PhRec8 name->
+PhRec1 to right cell side distance-> 0 
+PhRec2 to right cell side distance-> 0 
+PhRec3 to right cell side distance-> 0 
+PhRec4 to right cell side distance-> 0 
+PhRec5 to right cell side distance-> 0 
+PhRec6 to right cell side distance-> 0 
+PhRec7 to right cell side distance-> 0 
+PhRec8 to right cell side distance-> 0 
+Ph1 Recentering Station->PH1_REC_15
+Ph1 Recentering Station Status->True
+PH1 functions-> 51 
+Ph1 photoeye name->I_RECPH1_15
+Weight of each hole on the top shield-> 1 
+Weight of each hole on the top shield 2-> 1 
+Weight of each hole on the top shield 3-> 1 
+Relevant reject chute-> 11308 
+1 Starting weight (g)-> 0 
+1 Max weight (g)-> 0 
+1 Starting_correction (mm)-> 0 
+1 Max correction (mm)-> 0 
+2 Starting weight (g)-> 0 
+2 Max weight (g)-> 0 
+2 Starting_correction (mm)-> 0 
+2 Max correction (mm)-> 0 
+3 Starting weight (g)-> 0 
+3 Max weight (g)-> 0 
+3 Starting_correction (mm)-> 0 
+3 Max correction (mm)-> 0 
+Record -> 11 
+Id-> 16 
+Name->RECENT_ST_16
+Status->True
+Reccentering Station EP coordinate-> 10285 
+Cell of delay before to do the recentering-> 2 
+Normal Recentering Station->NORM_REC_16
+Normal Recentering Station Status->False
+Ph4 name->
+Ph5 name->
+Ph6 name->
+Ph7 name->
+Short correction: Ph4 or Ph6 busy-> 50 
+Long correction: PH5 or Ph7 busy-> 100 
+Cross Recentering Station->X_REC_16
+Cross Recentering Station Status->False
+Minimum movement for the Cross (mm)-> 50 
+Number of PhRec-> 0 
+PhRec1 name->
+PhRec2 name->
+PhRec3 name->
+PhRec4 name->
+PhRec5 name->
+PhRec6 name->
+PhRec7 name->
+PhRec8 name->
+PhRec1 to right cell side distance-> 0 
+PhRec2 to right cell side distance-> 0 
+PhRec3 to right cell side distance-> 0 
+PhRec4 to right cell side distance-> 0 
+PhRec5 to right cell side distance-> 0 
+PhRec6 to right cell side distance-> 0 
+PhRec7 to right cell side distance-> 0 
+PhRec8 to right cell side distance-> 0 
+Ph1 Recentering Station->PH1_REC_16
+Ph1 Recentering Station Status->True
+PH1 functions-> 51 
+Ph1 photoeye name->I_RECPH1_16
+Weight of each hole on the top shield-> 1 
+Weight of each hole on the top shield 2-> 1 
+Weight of each hole on the top shield 3-> 1 
+Relevant reject chute-> 11308 
+1 Starting weight (g)-> 0 
+1 Max weight (g)-> 0 
+1 Starting_correction (mm)-> 0 
+1 Max correction (mm)-> 0 
+2 Starting weight (g)-> 0 
+2 Max weight (g)-> 0 
+2 Starting_correction (mm)-> 0 
+2 Max correction (mm)-> 0 
+3 Starting weight (g)-> 0 
+3 Max weight (g)-> 0 
+3 Starting_correction (mm)-> 0 
+3 Max correction (mm)-> 0 
+Record -> 12 
+Id-> 18 
+Name->RECENT_ST_18
+Status->True
+Reccentering Station EP coordinate-> 10578 
+Cell of delay before to do the recentering-> 2 
+Normal Recentering Station->NORM_REC_18
+Normal Recentering Station Status->False
+Ph4 name->
+Ph5 name->
+Ph6 name->
+Ph7 name->
+Short correction: Ph4 or Ph6 busy-> 50 
+Long correction: PH5 or Ph7 busy-> 100 
+Cross Recentering Station->X_REC_18
+Cross Recentering Station Status->False
+Minimum movement for the Cross (mm)-> 50 
+Number of PhRec-> 0 
+PhRec1 name->
+PhRec2 name->
+PhRec3 name->
+PhRec4 name->
+PhRec5 name->
+PhRec6 name->
+PhRec7 name->
+PhRec8 name->
+PhRec1 to right cell side distance-> 0 
+PhRec2 to right cell side distance-> 0 
+PhRec3 to right cell side distance-> 0 
+PhRec4 to right cell side distance-> 0 
+PhRec5 to right cell side distance-> 0 
+PhRec6 to right cell side distance-> 0 
+PhRec7 to right cell side distance-> 0 
+PhRec8 to right cell side distance-> 0 
+Ph1 Recentering Station->PH1_REC_18
+Ph1 Recentering Station Status->True
+PH1 functions-> 51 
+Ph1 photoeye name->I_RECPH1_18
+Weight of each hole on the top shield-> 1 
+Weight of each hole on the top shield 2-> 1 
+Weight of each hole on the top shield 3-> 1 
+Relevant reject chute-> 11308 
+1 Starting weight (g)-> 0 
+1 Max weight (g)-> 0 
+1 Starting_correction (mm)-> 0 
+1 Max correction (mm)-> 0 
+2 Starting weight (g)-> 0 
+2 Max weight (g)-> 0 
+2 Starting_correction (mm)-> 0 
+2 Max correction (mm)-> 0 
+3 Starting weight (g)-> 0 
+3 Max weight (g)-> 0 
+3 Starting_correction (mm)-> 0 
+3 Max correction (mm)-> 0 

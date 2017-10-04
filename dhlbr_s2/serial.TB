@@ -1,0 +1,318 @@
+//
+//S_serial
+//
+TABLE_TYPE: 0
+//
+MAXTABLE:17
+//
+TABLE
+//
+//
+BEGINSTRUCT // Begin of structure=S_serial
+  USHORT  // Field=id
+  STRING12  // Field=name
+  USHORT  // Field=timeout
+  USHORT  // Field=baud_rate
+  USHORT  // Field=connection_flags
+  USHORT  // Field=terminal_flags
+  USHORT  // Field=link_parameter
+  USHORT  // Field=iors_mbx
+  USHORT  // Field=write_connection
+  USHORT  // Field=read_connection
+  USHORT  // Field=connection_type
+  USHORT  // Field=write_status
+  USHORT  // Field=read_status
+ENDSTRUCT // End of structure=S_serial
+//
+//
+ENDTABLE
+//
+//
+BEGINSTRUCT // Begin of structure=S_serial
+  USHORT,51  // Field=id
+  STRING12,"COM1"  // Field=name
+  USHORT,1  // Field=timeout
+  USHORT,19200  // Field=baud_rate
+  USHORT,0x2FF  // Field=connection_flags
+  USHORT,0x111  // Field=terminal_flags
+  USHORT,0x0  // Field=link_parameter
+  USHORT  // Field=iors_mbx
+  USHORT  // Field=write_connection
+  USHORT  // Field=read_connection
+  USHORT  // Field=connection_type
+  USHORT  // Field=write_status
+  USHORT  // Field=read_status
+ENDSTRUCT // End of structure=S_serial
+//
+//
+BEGINSTRUCT // Begin of structure=S_serial
+  USHORT,1  // Field=id
+  STRING12,"T550_0"  // Field=name
+  USHORT,1  // Field=timeout
+  USHORT,9600  // Field=baud_rate
+  USHORT,0x1FD  // Field=connection_flags
+  USHORT,0x111  // Field=terminal_flags
+  USHORT,0x0  // Field=link_parameter
+  USHORT  // Field=iors_mbx
+  USHORT  // Field=write_connection
+  USHORT  // Field=read_connection
+  USHORT  // Field=connection_type
+  USHORT  // Field=write_status
+  USHORT  // Field=read_status
+ENDSTRUCT // End of structure=S_serial
+//
+//
+BEGINSTRUCT // Begin of structure=S_serial
+  USHORT,2  // Field=id
+  STRING12,"T550_1"  // Field=name
+  USHORT,1  // Field=timeout
+  USHORT,9600  // Field=baud_rate
+  USHORT,0x1FD  // Field=connection_flags
+  USHORT,0x111  // Field=terminal_flags
+  USHORT,0x0  // Field=link_parameter
+  USHORT  // Field=iors_mbx
+  USHORT  // Field=write_connection
+  USHORT  // Field=read_connection
+  USHORT  // Field=connection_type
+  USHORT  // Field=write_status
+  USHORT  // Field=read_status
+ENDSTRUCT // End of structure=S_serial
+//
+//
+BEGINSTRUCT // Begin of structure=S_serial
+  USHORT,11  // Field=id
+  STRING12,"T550_10"  // Field=name
+  USHORT,1  // Field=timeout
+  USHORT,9600  // Field=baud_rate
+  USHORT,0x1FD  // Field=connection_flags
+  USHORT,0x111  // Field=terminal_flags
+  USHORT,0x0  // Field=link_parameter
+  USHORT  // Field=iors_mbx
+  USHORT  // Field=write_connection
+  USHORT  // Field=read_connection
+  USHORT  // Field=connection_type
+  USHORT  // Field=write_status
+  USHORT  // Field=read_status
+ENDSTRUCT // End of structure=S_serial
+//
+//
+BEGINSTRUCT // Begin of structure=S_serial
+  USHORT,12  // Field=id
+  STRING12,"T550_11"  // Field=name
+  USHORT,1  // Field=timeout
+  USHORT,9600  // Field=baud_rate
+  USHORT,0x1FD  // Field=connection_flags
+  USHORT,0x111  // Field=terminal_flags
+  USHORT,0x0  // Field=link_parameter
+  USHORT  // Field=iors_mbx
+  USHORT  // Field=write_connection
+  USHORT  // Field=read_connection
+  USHORT  // Field=connection_type
+  USHORT  // Field=write_status
+  USHORT  // Field=read_status
+ENDSTRUCT // End of structure=S_serial
+//
+//
+BEGINSTRUCT // Begin of structure=S_serial
+  USHORT,13  // Field=id
+  STRING12,"T550_12"  // Field=name
+  USHORT,1  // Field=timeout
+  USHORT,9600  // Field=baud_rate
+  USHORT,0x1FD  // Field=connection_flags
+  USHORT,0x111  // Field=terminal_flags
+  USHORT,0x0  // Field=link_parameter
+  USHORT  // Field=iors_mbx
+  USHORT  // Field=write_connection
+  USHORT  // Field=read_connection
+  USHORT  // Field=connection_type
+  USHORT  // Field=write_status
+  USHORT  // Field=read_status
+ENDSTRUCT // End of structure=S_serial
+//
+//
+BEGINSTRUCT // Begin of structure=S_serial
+  USHORT,14  // Field=id
+  STRING12,"T550_13"  // Field=name
+  USHORT,1  // Field=timeout
+  USHORT,9600  // Field=baud_rate
+  USHORT,0x1FD  // Field=connection_flags
+  USHORT,0x111  // Field=terminal_flags
+  USHORT,0x0  // Field=link_parameter
+  USHORT  // Field=iors_mbx
+  USHORT  // Field=write_connection
+  USHORT  // Field=read_connection
+  USHORT  // Field=connection_type
+  USHORT  // Field=write_status
+  USHORT  // Field=read_status
+ENDSTRUCT // End of structure=S_serial
+//
+//
+BEGINSTRUCT // Begin of structure=S_serial
+  USHORT,15  // Field=id
+  STRING12,"T550_14"  // Field=name
+  USHORT,1  // Field=timeout
+  USHORT,9600  // Field=baud_rate
+  USHORT,0x1FD  // Field=connection_flags
+  USHORT,0x111  // Field=terminal_flags
+  USHORT,0x0  // Field=link_parameter
+  USHORT  // Field=iors_mbx
+  USHORT  // Field=write_connection
+  USHORT  // Field=read_connection
+  USHORT  // Field=connection_type
+  USHORT  // Field=write_status
+  USHORT  // Field=read_status
+ENDSTRUCT // End of structure=S_serial
+//
+//
+BEGINSTRUCT // Begin of structure=S_serial
+  USHORT,16  // Field=id
+  STRING12,"T550_15"  // Field=name
+  USHORT,1  // Field=timeout
+  USHORT,9600  // Field=baud_rate
+  USHORT,0x1FD  // Field=connection_flags
+  USHORT,0x111  // Field=terminal_flags
+  USHORT,0x0  // Field=link_parameter
+  USHORT  // Field=iors_mbx
+  USHORT  // Field=write_connection
+  USHORT  // Field=read_connection
+  USHORT  // Field=connection_type
+  USHORT  // Field=write_status
+  USHORT  // Field=read_status
+ENDSTRUCT // End of structure=S_serial
+//
+//
+BEGINSTRUCT // Begin of structure=S_serial
+  USHORT,3  // Field=id
+  STRING12,"T550_2"  // Field=name
+  USHORT,1  // Field=timeout
+  USHORT,9600  // Field=baud_rate
+  USHORT,0x1FD  // Field=connection_flags
+  USHORT,0x111  // Field=terminal_flags
+  USHORT,0x0  // Field=link_parameter
+  USHORT  // Field=iors_mbx
+  USHORT  // Field=write_connection
+  USHORT  // Field=read_connection
+  USHORT  // Field=connection_type
+  USHORT  // Field=write_status
+  USHORT  // Field=read_status
+ENDSTRUCT // End of structure=S_serial
+//
+//
+BEGINSTRUCT // Begin of structure=S_serial
+  USHORT,4  // Field=id
+  STRING12,"T550_3"  // Field=name
+  USHORT,1  // Field=timeout
+  USHORT,9600  // Field=baud_rate
+  USHORT,0x1FD  // Field=connection_flags
+  USHORT,0x111  // Field=terminal_flags
+  USHORT,0x0  // Field=link_parameter
+  USHORT  // Field=iors_mbx
+  USHORT  // Field=write_connection
+  USHORT  // Field=read_connection
+  USHORT  // Field=connection_type
+  USHORT  // Field=write_status
+  USHORT  // Field=read_status
+ENDSTRUCT // End of structure=S_serial
+//
+//
+BEGINSTRUCT // Begin of structure=S_serial
+  USHORT,5  // Field=id
+  STRING12,"T550_4"  // Field=name
+  USHORT,1  // Field=timeout
+  USHORT,9600  // Field=baud_rate
+  USHORT,0x1FD  // Field=connection_flags
+  USHORT,0x111  // Field=terminal_flags
+  USHORT,0x0  // Field=link_parameter
+  USHORT  // Field=iors_mbx
+  USHORT  // Field=write_connection
+  USHORT  // Field=read_connection
+  USHORT  // Field=connection_type
+  USHORT  // Field=write_status
+  USHORT  // Field=read_status
+ENDSTRUCT // End of structure=S_serial
+//
+//
+BEGINSTRUCT // Begin of structure=S_serial
+  USHORT,6  // Field=id
+  STRING12,"T550_5"  // Field=name
+  USHORT,1  // Field=timeout
+  USHORT,9600  // Field=baud_rate
+  USHORT,0x1FD  // Field=connection_flags
+  USHORT,0x111  // Field=terminal_flags
+  USHORT,0x0  // Field=link_parameter
+  USHORT  // Field=iors_mbx
+  USHORT  // Field=write_connection
+  USHORT  // Field=read_connection
+  USHORT  // Field=connection_type
+  USHORT  // Field=write_status
+  USHORT  // Field=read_status
+ENDSTRUCT // End of structure=S_serial
+//
+//
+BEGINSTRUCT // Begin of structure=S_serial
+  USHORT,7  // Field=id
+  STRING12,"T550_6"  // Field=name
+  USHORT,1  // Field=timeout
+  USHORT,9600  // Field=baud_rate
+  USHORT,0x1FD  // Field=connection_flags
+  USHORT,0x111  // Field=terminal_flags
+  USHORT,0x0  // Field=link_parameter
+  USHORT  // Field=iors_mbx
+  USHORT  // Field=write_connection
+  USHORT  // Field=read_connection
+  USHORT  // Field=connection_type
+  USHORT  // Field=write_status
+  USHORT  // Field=read_status
+ENDSTRUCT // End of structure=S_serial
+//
+//
+BEGINSTRUCT // Begin of structure=S_serial
+  USHORT,8  // Field=id
+  STRING12,"T550_7"  // Field=name
+  USHORT,1  // Field=timeout
+  USHORT,9600  // Field=baud_rate
+  USHORT,0x1FD  // Field=connection_flags
+  USHORT,0x111  // Field=terminal_flags
+  USHORT,0x0  // Field=link_parameter
+  USHORT  // Field=iors_mbx
+  USHORT  // Field=write_connection
+  USHORT  // Field=read_connection
+  USHORT  // Field=connection_type
+  USHORT  // Field=write_status
+  USHORT  // Field=read_status
+ENDSTRUCT // End of structure=S_serial
+//
+//
+BEGINSTRUCT // Begin of structure=S_serial
+  USHORT,9  // Field=id
+  STRING12,"T550_8"  // Field=name
+  USHORT,1  // Field=timeout
+  USHORT,9600  // Field=baud_rate
+  USHORT,0x1FD  // Field=connection_flags
+  USHORT,0x111  // Field=terminal_flags
+  USHORT,0x0  // Field=link_parameter
+  USHORT  // Field=iors_mbx
+  USHORT  // Field=write_connection
+  USHORT  // Field=read_connection
+  USHORT  // Field=connection_type
+  USHORT  // Field=write_status
+  USHORT  // Field=read_status
+ENDSTRUCT // End of structure=S_serial
+//
+//
+BEGINSTRUCT // Begin of structure=S_serial
+  USHORT,10  // Field=id
+  STRING12,"T550_9"  // Field=name
+  USHORT,1  // Field=timeout
+  USHORT,9600  // Field=baud_rate
+  USHORT,0x1FD  // Field=connection_flags
+  USHORT,0x111  // Field=terminal_flags
+  USHORT,0x0  // Field=link_parameter
+  USHORT  // Field=iors_mbx
+  USHORT  // Field=write_connection
+  USHORT  // Field=read_connection
+  USHORT  // Field=connection_type
+  USHORT  // Field=write_status
+  USHORT  // Field=read_status
+ENDSTRUCT // End of structure=S_serial
+//

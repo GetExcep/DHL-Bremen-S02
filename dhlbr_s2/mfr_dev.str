@@ -1,0 +1,25 @@
+//
+//S_mfr_dev
+//
+TABLE_TYPE: 0
+//
+MAXTABLE
+//
+TABLE
+//
+//
+BEGINSTRUCT // Begin of structure=S_mfr_dev
+  USHORT // Field=dev
+  USHORT // Field=dev_id
+  CHAR[20] // Field=AKZ_device_name
+  USHORT // Field=MFRLocationID
+  USHORT // Field=config
+  USHORT // Field=SendStatus
+  ULONG // Field=status
+  ULONG // Field=status_mask
+  ULONG // Field=alarm
+ENDSTRUCT // End of structure=S_mfr_dev
+//
+//
+ENDTABLE
+//

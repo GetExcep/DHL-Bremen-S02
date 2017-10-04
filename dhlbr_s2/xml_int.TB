@@ -1,0 +1,32 @@
+//
+//S_xml_int
+//
+TABLE_TYPE: 0
+//
+MAXTABLE:1
+//
+TABLE
+//
+//
+BEGINSTRUCT // Begin of structure=S_xml_int
+  USHORT  // Field=sorter_id
+  USHORT  // Field=enabled
+  USHORT  // Field=debug_function
+  STRING60  // Field=XML_schema
+  STRING10  // Field=XML_version
+  USHORT  // Field=stray_parcel_cnt
+ENDSTRUCT // End of structure=S_xml_int
+//
+//
+ENDTABLE
+//
+//
+BEGINSTRUCT // Begin of structure=S_xml_int
+  USHORT,3  // Field=sorter_id
+  USHORT  // Field=enabled
+  USHORT,13  // Field=debug_function
+  STRING60,"<?xml version=\"1.0\" encoding=\"ISO-8859-1\"?>"  // Field=XML_schema
+  STRING10,"001"  // Field=XML_version
+  USHORT  // Field=stray_parcel_cnt
+ENDSTRUCT // End of structure=S_xml_int
+//

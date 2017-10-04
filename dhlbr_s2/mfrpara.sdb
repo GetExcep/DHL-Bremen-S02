@@ -1,0 +1,13 @@
+//
+// MFR parameter table
+//
+Field="id"
+Field="s_di_vel1.name"
+Field="s_di_vel2.name"
+Field="s_di_vel3.name"
+Field="s_di_velauto.name"
+Field="s_do_vel1.name"
+Field="s_do_vel2.name"
+Field="s_do_vel3.name"
+//
+
